@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar" format="2">
+  <advance width="200"/>
+  <unicode hex="007C"/>
+  <outline>
+    <component base="px" xOffset="28.0" yOffset="200"/>
+    <component base="px" xOffset="14.0" yOffset="100"/>
+    <component base="px"/>
+    <component base="px" xOffset="42.0" yOffset="300"/>
+    <component base="px" xOffset="56.0" yOffset="400"/>
+    <component base="px" xOffset="70.0" yOffset="500"/>
+    <component base="px" xOffset="-14.0" yOffset="-100"/>
+  </outline>
+</glyph>

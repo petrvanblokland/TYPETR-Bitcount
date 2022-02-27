@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="at" format="2">
+  <advance width="600"/>
+  <unicode hex="0040"/>
+  <outline>
+    <component base="px" xOffset="228.0" yOffset="200.0"/>
+    <component base="px" xOffset="428.0" yOffset="200.0"/>
+    <component base="px" xOffset="28.0" yOffset="200.0"/>
+    <component base="px" xOffset="214.0" yOffset="100.0"/>
+    <component base="px" xOffset="314.0" yOffset="100.0"/>
+    <component base="px" xOffset="14.0" yOffset="100.0"/>
+    <component base="px"/>
+    <component base="px" xOffset="242.0" yOffset="300.0"/>
+    <component base="px" xOffset="342.0" yOffset="300.0"/>
+    <component base="px" xOffset="442.0" yOffset="300.0"/>
+    <component base="px" xOffset="42.0" yOffset="300.0"/>
+    <component base="px" xOffset="456.0" yOffset="400.0"/>
+    <component base="px" xOffset="56.0" yOffset="400.0"/>
+    <component base="px" xOffset="170.0" yOffset="500.0"/>
+    <component base="px" xOffset="270.0" yOffset="500.0"/>
+    <component base="px" xOffset="370.0" yOffset="500.0"/>
+    <component base="px" xOffset="86.0" yOffset="-100.0"/>
+    <component base="px" xOffset="186.0" yOffset="-100.0"/>
+    <component base="px" xOffset="286.0" yOffset="-100.0"/>
+    <component base="px" xOffset="386.0" yOffset="-100.0"/>
+  </outline>
+</glyph>

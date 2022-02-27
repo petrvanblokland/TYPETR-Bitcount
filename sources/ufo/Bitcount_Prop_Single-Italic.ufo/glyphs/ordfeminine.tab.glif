@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordfeminine.tab" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="114.0" yOffset="100"/>
+    <component base="px" xOffset="214.0" yOffset="100"/>
+    <component base="px" xOffset="314.0" yOffset="100"/>
+    <component base="px" xOffset="142.0" yOffset="300"/>
+    <component base="px" xOffset="242.0" yOffset="300"/>
+    <component base="px" xOffset="342.0" yOffset="300"/>
+    <component base="px" xOffset="156.0" yOffset="400"/>
+    <component base="px" xOffset="356.0" yOffset="400"/>
+    <component base="px" xOffset="270.0" yOffset="500"/>
+    <component base="px" xOffset="370.0" yOffset="500"/>
+  </outline>
+</glyph>

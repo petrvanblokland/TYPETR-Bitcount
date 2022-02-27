@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi.xa_xd" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="px" xOffset="828" yOffset="200"/>
+    <component base="px" xOffset="928" yOffset="200"/>
+    <component base="px" xOffset="814" yOffset="100"/>
+    <component base="px" xOffset="914" yOffset="100"/>
+    <component base="px" xOffset="700"/>
+    <component base="px" xOffset="800"/>
+    <component base="px" xOffset="900"/>
+    <component base="px" xOffset="1000"/>
+    <component base="px" xOffset="600"/>
+    <component base="px" xOffset="856" yOffset="400"/>
+    <component base="px" xOffset="956" yOffset="400"/>
+    <component base="px" xOffset="756" yOffset="400"/>
+    <component base="px" xOffset="656" yOffset="400"/>
+    <component base="px" xOffset="884" yOffset="600"/>
+    <component base="f.xa"/>
+    <component base="px" xOffset="842" yOffset="300"/>
+    <component base="px" xOffset="942" yOffset="300"/>
+  </outline>
+</glyph>

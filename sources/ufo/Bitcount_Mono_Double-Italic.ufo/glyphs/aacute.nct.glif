@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aacute.nct" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="400"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="414" yOffset="100"/>
+    <component base="px" xOffset="284" yOffset="600"/>
+    <component base="px" xOffset="398" yOffset="700"/>
+  </outline>
+</glyph>

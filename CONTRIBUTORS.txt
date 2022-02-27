@@ -9,6 +9,4 @@
 # Names should be added to this file as:
 # Name <email address>
 
-David Jonathan Ross <david@djr.com>
-Chris Lewis <chris@chrislewis.codes>
-Roel Nieskens <roel@pixelambacht.nl>
+Petr van Blokland <tptr@petr.com>

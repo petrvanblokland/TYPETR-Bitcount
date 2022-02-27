@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="2">
+  <advance width="600"/>
+  <unicode hex="2264"/>
+  <outline>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="214" yOffset="100"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="242" yOffset="300"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="272" yOffset="-200"/>
+    <component base="px" xOffset="172" yOffset="-200"/>
+    <component base="px" xOffset="72" yOffset="-200"/>
+  </outline>
+</glyph>

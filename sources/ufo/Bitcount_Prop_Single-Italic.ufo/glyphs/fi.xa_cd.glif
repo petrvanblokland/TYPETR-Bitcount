@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi.xa_cd" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="px" xOffset="128.0" yOffset="200.0"/>
+    <component base="px" xOffset="328.0" yOffset="200"/>
+    <component base="px" xOffset="114.0" yOffset="100.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="300.0"/>
+    <component base="px" xOffset="156.0" yOffset="400.0"/>
+    <component base="px" xOffset="256.0" yOffset="400.0"/>
+    <component base="px" xOffset="356.0" yOffset="400"/>
+    <component base="px" xOffset="56.0" yOffset="400.0"/>
+    <component base="px" xOffset="170.0" yOffset="500.0"/>
+    <component base="px" xOffset="284.0" yOffset="600.0"/>
+    <component base="px" xOffset="384.0" yOffset="600"/>
+    <component base="px" xOffset="314.0" yOffset="100"/>
+    <component base="px" xOffset="142.0" yOffset="300.0"/>
+    <component base="px" xOffset="342.0" yOffset="300"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5261,0.2585,1</string>
+    </dict>
+  </lib>
+</glyph>

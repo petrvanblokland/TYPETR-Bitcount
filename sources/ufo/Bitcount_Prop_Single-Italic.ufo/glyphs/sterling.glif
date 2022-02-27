@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sterling" format="2">
+  <advance width="600"/>
+  <unicode hex="00A3"/>
+  <outline>
+    <component base="px" xOffset="128.0" yOffset="200.0"/>
+    <component base="px" xOffset="228.0" yOffset="200.0"/>
+    <component base="px" xOffset="328.0" yOffset="200.0"/>
+    <component base="px" xOffset="428.0" yOffset="200.0"/>
+    <component base="px" xOffset="28.0" yOffset="200.0"/>
+    <component base="px" xOffset="114.0" yOffset="100.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px" xOffset="300.0"/>
+    <component base="px" xOffset="400.0"/>
+    <component base="px"/>
+    <component base="px" xOffset="142.0" yOffset="300.0"/>
+    <component base="px" xOffset="156.0" yOffset="400.0"/>
+    <component base="px" xOffset="270.0" yOffset="500.0"/>
+    <component base="px" xOffset="370.0" yOffset="500.0"/>
+    <component base="px" xOffset="470.0" yOffset="500.0"/>
+  </outline>
+</glyph>

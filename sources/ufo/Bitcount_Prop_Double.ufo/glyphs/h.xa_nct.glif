@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="h.xa_nct" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="100.0" yOffset="200.0"/>
+    <component base="px" xOffset="400.0" yOffset="200.0"/>
+    <component base="px" yOffset="200.0"/>
+    <component base="px" xOffset="100.0" yOffset="100.0"/>
+    <component base="px" yOffset="100.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="400.0"/>
+    <component base="px"/>
+    <component base="px" xOffset="100.0" yOffset="300.0"/>
+    <component base="px" xOffset="400.0" yOffset="300.0"/>
+    <component base="px" yOffset="300.0"/>
+    <component base="px" xOffset="100.0" yOffset="400.0"/>
+    <component base="px" xOffset="200.0" yOffset="400.0"/>
+    <component base="px" xOffset="300.0" yOffset="400.0"/>
+    <component base="px" yOffset="400.0"/>
+    <component base="px" xOffset="100.0" yOffset="500.0"/>
+    <component base="px" yOffset="500.0"/>
+    <component base="px" xOffset="400.0" yOffset="100.0"/>
+    <component base="px" xOffset="100.0" yOffset="600"/>
+    <component base="px" yOffset="600"/>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Scircumflex" format="2">
+  <advance width="700"/>
+  <unicode hex="015C"/>
+  <outline>
+    <component base="px" xOffset="228.0" yOffset="200.0"/>
+    <component base="px" xOffset="328.0" yOffset="200.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px" xOffset="300.0"/>
+    <component base="px"/>
+    <component base="px" xOffset="142.0" yOffset="300.0"/>
+    <component base="px" xOffset="242.0" yOffset="300.0"/>
+    <component base="px" xOffset="56.0" yOffset="400.0"/>
+    <component base="px" xOffset="170.0" yOffset="500.0"/>
+    <component base="px" xOffset="270.0" yOffset="500.0"/>
+    <component base="px" xOffset="370.0" yOffset="500.0"/>
+    <component base="px" xOffset="470.0" yOffset="500.0"/>
+    <component base="px" xOffset="414.0" yOffset="100.0"/>
+    <component base="px" xOffset="198.0" yOffset="700.0"/>
+    <component base="px" xOffset="312.0" yOffset="800.0"/>
+    <component base="px" xOffset="398.0" yOffset="700.0"/>
+  </outline>
+</glyph>

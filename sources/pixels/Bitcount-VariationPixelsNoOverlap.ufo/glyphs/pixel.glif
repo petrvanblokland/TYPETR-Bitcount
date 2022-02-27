@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="pixel" format="1">
-  <advance width="100"/>
-  <outline>
-    <component base="Instance@Semibold_Line_Circle"/>
-  </outline>
-</glyph>

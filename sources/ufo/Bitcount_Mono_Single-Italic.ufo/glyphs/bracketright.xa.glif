@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright.xa" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="228.0" yOffset="200"/>
+    <component base="px" xOffset="214.0" yOffset="100"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px" xOffset="242.0" yOffset="300"/>
+    <component base="px" xOffset="256.0" yOffset="400"/>
+    <component base="px" xOffset="184.0" yOffset="600"/>
+    <component base="px" xOffset="284.0" yOffset="600"/>
+    <component base="px" xOffset="84.0" yOffset="600"/>
+    <component base="px" xOffset="86.0" yOffset="-100"/>
+    <component base="px" xOffset="186.0" yOffset="-100"/>
+    <component base="px" xOffset="-14.0" yOffset="-100"/>
+    <component base="px" xOffset="270.0" yOffset="500"/>
+  </outline>
+</glyph>

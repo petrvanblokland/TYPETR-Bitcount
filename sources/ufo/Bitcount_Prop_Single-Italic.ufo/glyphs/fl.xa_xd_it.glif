@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fl.xa_xd_it" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="128.0" yOffset="200.0"/>
+    <component base="px" xOffset="114.0" yOffset="100.0"/>
+    <component base="px" xOffset="86.0" yOffset="-100"/>
+    <component base="px" xOffset="56.0" yOffset="400.0"/>
+    <component base="px" xOffset="156.0" yOffset="400.0"/>
+    <component base="px" xOffset="256.0" yOffset="400.0"/>
+    <component base="px" xOffset="170.0" yOffset="500.0"/>
+    <component base="px" xOffset="284.0" yOffset="600.0"/>
+    <component base="px" xOffset="384.0" yOffset="600.0"/>
+    <component base="px" xOffset="428.0" yOffset="200.0"/>
+    <component base="px" xOffset="400.0"/>
+    <component base="px" xOffset="456.0" yOffset="400.0"/>
+    <component base="px" xOffset="414.0" yOffset="100.0"/>
+    <component base="px" xOffset="-28.0" yOffset="-200"/>
+    <component base="px" xOffset="484.0" yOffset="600"/>
+    <component base="px" xOffset="142.0" yOffset="300.0"/>
+    <component base="px" xOffset="442.0" yOffset="300.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="470.0" yOffset="500"/>
+  </outline>
+</glyph>

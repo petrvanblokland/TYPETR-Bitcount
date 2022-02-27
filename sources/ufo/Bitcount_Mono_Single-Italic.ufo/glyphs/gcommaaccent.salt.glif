@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gcommaaccent.salt" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="328.0" yOffset="200"/>
+    <component base="px"/>
+    <component base="px" xOffset="28.0" yOffset="200"/>
+    <component base="px" xOffset="114.0" yOffset="100.0"/>
+    <component base="px" xOffset="214.0" yOffset="100"/>
+    <component base="px" xOffset="342.0" yOffset="300"/>
+    <component base="px" xOffset="42.0" yOffset="300"/>
+    <component base="px" xOffset="156.0" yOffset="400.0"/>
+    <component base="px" xOffset="256.0" yOffset="400"/>
+    <component base="px" xOffset="456.0" yOffset="400"/>
+    <component base="px" xOffset="86.0" yOffset="-100"/>
+    <component base="px" xOffset="186.0" yOffset="-100.0"/>
+    <component base="px" xOffset="286.0" yOffset="-100.0"/>
+    <component base="px" xOffset="-14.0" yOffset="-100"/>
+    <component base="px" xOffset="372.0" yOffset="-200"/>
+    <component base="px" xOffset="158.0" yOffset="-300"/>
+    <component base="px" xOffset="258.0" yOffset="-300"/>
+    <component base="px" xOffset="58.0" yOffset="-300"/>
+    <component base="px" xOffset="284.0" yOffset="600"/>
+    <component base="px" xOffset="398.0" yOffset="700"/>
+  </outline>
+</glyph>

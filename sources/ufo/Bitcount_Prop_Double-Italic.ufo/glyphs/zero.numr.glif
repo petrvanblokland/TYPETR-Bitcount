@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero.numr" format="2">
+  <advance width="300"/>
+  <outline>
+    <component base="px" xOffset="56.0" yOffset="400"/>
+    <component base="px" xOffset="156.0" yOffset="400"/>
+    <component base="px" xOffset="70.0" yOffset="500"/>
+    <component base="px" xOffset="170.0" yOffset="500"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

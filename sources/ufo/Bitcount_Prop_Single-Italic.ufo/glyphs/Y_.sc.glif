@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Y.sc" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="228.0" yOffset="200"/>
+    <component base="px" xOffset="214.0" yOffset="100"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px" xOffset="342.0" yOffset="300"/>
+    <component base="px" xOffset="142.0" yOffset="300"/>
+    <component base="px" xOffset="456.0" yOffset="400"/>
+    <component base="px" xOffset="56.0" yOffset="400"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

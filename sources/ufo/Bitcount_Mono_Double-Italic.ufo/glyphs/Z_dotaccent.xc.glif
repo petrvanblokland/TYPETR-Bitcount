@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zdotaccent.xc" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="242" yOffset="300"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="400"/>
+    <component base="px"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="470" yOffset="500"/>
+    <component base="px" xOffset="184" yOffset="600"/>
+    <component base="px" xOffset="284" yOffset="600"/>
+    <component base="px" xOffset="384" yOffset="600"/>
+    <component base="px" xOffset="484" yOffset="600"/>
+    <component base="px" xOffset="84" yOffset="600"/>
+    <component base="px" xOffset="312" yOffset="800"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+  </outline>
+</glyph>

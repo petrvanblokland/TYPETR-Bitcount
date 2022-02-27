@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Itilde.xc_cd" format="2">
+  <advance width="200"/>
+  <outline>
+    <component base="px" yOffset="200"/>
+    <component base="px" yOffset="100"/>
+    <component base="px"/>
+    <component base="px" yOffset="300"/>
+    <component base="px" yOffset="400"/>
+    <component base="px" yOffset="500"/>
+    <component base="px" xOffset="-100" yOffset="800"/>
+    <component base="px" yOffset="900"/>
+    <component base="px" xOffset="100" yOffset="800"/>
+    <component base="px" xOffset="200" yOffset="900"/>
+    <component base="px" yOffset="600"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5261,0.2585,1</string>
+    </dict>
+  </lib>
+</glyph>

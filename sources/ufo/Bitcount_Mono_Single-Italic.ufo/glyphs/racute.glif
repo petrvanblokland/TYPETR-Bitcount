@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="racute" format="2">
+  <advance width="600"/>
+  <unicode hex="0155"/>
+  <outline>
+    <component base="px" xOffset="128.0" yOffset="200.0"/>
+    <component base="px" xOffset="114.0" yOffset="100.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px"/>
+    <component base="px" xOffset="142.0" yOffset="300.0"/>
+    <component base="px" xOffset="242.0" yOffset="300.0"/>
+    <component base="px" xOffset="156.0" yOffset="400.0"/>
+    <component base="px" xOffset="356.0" yOffset="400.0"/>
+    <component base="px" xOffset="456.0" yOffset="400.0"/>
+    <component base="px" xOffset="56.0" yOffset="400.0"/>
+    <component base="px" xOffset="284.0" yOffset="600.0"/>
+    <component base="px" xOffset="398.0" yOffset="700.0"/>
+  </outline>
+</glyph>

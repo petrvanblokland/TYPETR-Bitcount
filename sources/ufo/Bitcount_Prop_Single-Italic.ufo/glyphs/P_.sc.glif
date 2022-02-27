@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="P.sc" format="2">
+  <advance width="700"/>
+  <outline>
+    <component base="px" xOffset="314.0" yOffset="100.0"/>
+    <component base="px" xOffset="114.0" yOffset="100.0"/>
+    <component base="px" xOffset="28.0" yOffset="200.0"/>
+    <component base="px" xOffset="14.0" yOffset="100.0"/>
+    <component base="px"/>
+    <component base="px" xOffset="256.0" yOffset="400.0"/>
+    <component base="px" xOffset="42.0" yOffset="300.0"/>
+    <component base="px" xOffset="56.0" yOffset="400.0"/>
+    <component base="px" xOffset="356.0" yOffset="400.0"/>
+    <component base="px" xOffset="428.0" yOffset="200.0"/>
+    <component base="px" xOffset="442.0" yOffset="300.0"/>
+    <component base="px" xOffset="156.0" yOffset="400.0"/>
+    <component base="px" xOffset="214.0" yOffset="100.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.1518,0.2217,1</string>
+    </dict>
+  </lib>
+</glyph>

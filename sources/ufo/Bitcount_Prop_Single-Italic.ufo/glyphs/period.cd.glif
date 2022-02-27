@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period.cd" format="2">
+  <advance width="200"/>
+  <outline>
+    <component base="px" xOffset="14.0" yOffset="100.0"/>
+    <component base="px"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5261,0.2585,1</string>
+    </dict>
+  </lib>
+</glyph>

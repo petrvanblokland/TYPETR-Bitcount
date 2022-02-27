@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="questiondown" format="2">
+  <advance width="600"/>
+  <unicode hex="00BF"/>
+  <outline>
+    <component base="px" xOffset="228.0" yOffset="200.0"/>
+    <component base="px" xOffset="114.0" yOffset="100.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="400.0"/>
+    <component base="px"/>
+    <component base="px" xOffset="256.0" yOffset="400.0"/>
+    <component base="px" xOffset="86.0" yOffset="-100.0"/>
+    <component base="px" xOffset="186.0" yOffset="-100.0"/>
+    <component base="px" xOffset="286.0" yOffset="-100.0"/>
+  </outline>
+</glyph>

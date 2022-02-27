@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fl.xa_xd_it" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="l.xa" xOffset="600"/>
+    <component base="f.xa_xd_it"/>
+  </outline>
+</glyph>

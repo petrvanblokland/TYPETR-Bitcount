@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="otilde.cd" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="28.0" yOffset="200.0"/>
+    <component base="px" xOffset="14.0" yOffset="100.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px" xOffset="42.0" yOffset="300.0"/>
+    <component base="px" xOffset="156.0" yOffset="400.0"/>
+    <component base="px" xOffset="256.0" yOffset="400.0"/>
+    <component base="px" xOffset="328.0" yOffset="200.0"/>
+    <component base="px" xOffset="342.0" yOffset="300.0"/>
+    <component base="px" xOffset="314.0" yOffset="100.0"/>
+    <component base="px" xOffset="84.0" yOffset="600.0"/>
+    <component base="px" xOffset="198.0" yOffset="700.0"/>
+    <component base="px" xOffset="284.0" yOffset="600.0"/>
+    <component base="px" xOffset="398.0" yOffset="700.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5222,0.0891,1</string>
+    </dict>
+  </lib>
+</glyph>

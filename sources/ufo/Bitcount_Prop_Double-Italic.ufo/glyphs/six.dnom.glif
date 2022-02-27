@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six.dnom" format="2">
+  <advance width="300"/>
+  <outline>
+    <component base="px"/>
+    <component base="px" xOffset="86.0" yOffset="-100.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="128.0" yOffset="200.0"/>
+    <component base="px" xOffset="-14.0" yOffset="-100.0"/>
+    <component base="px" xOffset="14.0" yOffset="100.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

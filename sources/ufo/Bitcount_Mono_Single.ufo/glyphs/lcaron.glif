@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron" format="2">
+  <advance width="600"/>
+  <unicode hex="013E"/>
+  <outline>
+    <component base="px" xOffset="200.0" yOffset="200.0"/>
+    <component base="px" xOffset="200.0" yOffset="100.0"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="200.0" yOffset="300.0"/>
+    <component base="px" xOffset="200.0" yOffset="400.0"/>
+    <component base="px" xOffset="100" yOffset="500"/>
+    <component base="px" xOffset="200.0" yOffset="500.0"/>
+    <component base="px" xOffset="400.0" yOffset="600.0"/>
+    <component base="px" xOffset="400.0" yOffset="400.0"/>
+    <component base="px" xOffset="400.0" yOffset="500.0"/>
+    <component base="px" yOffset="500"/>
+    <component base="px"/>
+    <component base="px" xOffset="400"/>
+  </outline>
+</glyph>

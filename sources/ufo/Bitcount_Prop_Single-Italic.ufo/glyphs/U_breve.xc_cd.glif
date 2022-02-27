@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ubreve.xc_cd" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="px" xOffset="328.0" yOffset="200.0"/>
+    <component base="px" xOffset="28.0" yOffset="200.0"/>
+    <component base="px" xOffset="14.0" yOffset="100.0"/>
+    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px" xOffset="342.0" yOffset="300.0"/>
+    <component base="px" xOffset="42.0" yOffset="300.0"/>
+    <component base="px" xOffset="356.0" yOffset="400.0"/>
+    <component base="px" xOffset="56.0" yOffset="400.0"/>
+    <component base="px" xOffset="370.0" yOffset="500.0"/>
+    <component base="px" xOffset="70.0" yOffset="500.0"/>
+    <component base="px" xOffset="314.0" yOffset="100.0"/>
+    <component base="px" xOffset="212.0" yOffset="800"/>
+    <component base="px" xOffset="312.0" yOffset="800"/>
+    <component base="px" xOffset="426.0" yOffset="900"/>
+    <component base="px" xOffset="126.0" yOffset="900"/>
+    <component base="px" xOffset="384.0" yOffset="600"/>
+    <component base="px" xOffset="84.0" yOffset="600"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5261,0.2585,1</string>
+    </dict>
+  </lib>
+</glyph>

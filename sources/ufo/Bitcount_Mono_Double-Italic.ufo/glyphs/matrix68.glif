@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="matrix68" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="214" yOffset="100"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="400"/>
+    <component base="px"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="242" yOffset="300"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="456" yOffset="400"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="470" yOffset="500"/>
+    <component base="px" xOffset="70" yOffset="500"/>
+    <component base="px" xOffset="86" yOffset="-100"/>
+    <component base="px" xOffset="186" yOffset="-100"/>
+    <component base="px" xOffset="286" yOffset="-100"/>
+    <component base="px" xOffset="386" yOffset="-100"/>
+    <component base="px" xOffset="-14" yOffset="-100"/>
+    <component base="px" xOffset="414" yOffset="100"/>
+    <component base="px" xOffset="184" yOffset="600"/>
+    <component base="px" xOffset="284" yOffset="600"/>
+    <component base="px" xOffset="384" yOffset="600"/>
+    <component base="px" xOffset="484" yOffset="600"/>
+    <component base="px" xOffset="84" yOffset="600"/>
+    <component base="px" xOffset="528" yOffset="200"/>
+    <component base="px" xOffset="500"/>
+    <component base="px" xOffset="542" yOffset="300"/>
+    <component base="px" xOffset="556" yOffset="400"/>
+    <component base="px" xOffset="570" yOffset="500"/>
+    <component base="px" xOffset="486" yOffset="-100"/>
+    <component base="px" xOffset="514" yOffset="100"/>
+    <component base="px" xOffset="584" yOffset="600"/>
+  </outline>
+</glyph>

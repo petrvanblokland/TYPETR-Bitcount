@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="2">
+  <advance width="300"/>
+  <unicode hex="2044"/>
+  <outline>
+    <component base="px" xOffset="14.0" yOffset="100"/>
+    <component base="px" xOffset="-100.0"/>
+    <component base="px" xOffset="-114.0" yOffset="-100"/>
+    <component base="px" xOffset="28.0" yOffset="200"/>
+    <component base="px" xOffset="142.0" yOffset="300"/>
+    <component base="px" xOffset="156.0" yOffset="400"/>
+    <component base="px" xOffset="270.0" yOffset="500"/>
+    <component base="px" xOffset="284.0" yOffset="600"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

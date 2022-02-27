@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Y.xc" format="2">
+  <advance width="700"/>
+  <outline>
+    <component base="px" xOffset="228.0" yOffset="200.0"/>
+    <component base="px" xOffset="214.0" yOffset="100.0"/>
+    <component base="px" xOffset="200.0"/>
+    <component base="px" xOffset="142.0" yOffset="300"/>
+    <component base="px" xOffset="342.0" yOffset="300"/>
+    <component base="px" xOffset="456.0" yOffset="400.0"/>
+    <component base="px" xOffset="56.0" yOffset="400.0"/>
+    <component base="px" xOffset="470.0" yOffset="500"/>
+    <component base="px" xOffset="70.0" yOffset="500"/>
+    <component base="px" xOffset="484.0" yOffset="600"/>
+    <component base="px" xOffset="84.0" yOffset="600"/>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="S" format="2">
+  <advance width="600"/>
+  <unicode hex="0053"/>
+  <outline>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="300"/>
+    <component base="px"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="242" yOffset="300"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="470" yOffset="500"/>
+    <component base="px" xOffset="414" yOffset="100"/>
+  </outline>
+</glyph>
