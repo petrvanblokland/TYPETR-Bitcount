@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="InstanceItalic@OpenLineCircle-Black" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="154" y="77" type="qcurve"/>
+      <point x="154" y="75" type="line"/>
+      <point x="138" y="75" type="line"/>
+      <point x="141" y="100"/>
+      <point x="112" y="134"/>
+      <point x="87" y="134" type="qcurve"/>
+      <point x="89" y="150" type="line"/>
+      <point x="91" y="150" type="line"/>
+      <point x="122" y="150"/>
+      <point x="158" y="108"/>
+    </contour>
+    <contour>
+      <point x="37" y="134" type="line"/>
+      <point x="12" y="134"/>
+      <point x="-27" y="100"/>
+      <point x="-31" y="75" type="qcurve"/>
+      <point x="-47" y="75" type="line"/>
+      <point x="-46" y="77" type="line"/>
+      <point x="-42" y="108"/>
+      <point x="6" y="150"/>
+      <point x="37" y="150" type="qcurve"/>
+      <point x="39" y="150" type="line"/>
+    </contour>
+    <contour>
+      <point x="13" y="-34" type="qcurve"/>
+      <point x="11" y="-50" type="line"/>
+      <point x="9" y="-50" type="line"/>
+      <point x="-22" y="-50"/>
+      <point x="-58" y="-8"/>
+      <point x="-54" y="23" type="qcurve"/>
+      <point x="-54" y="25" type="line"/>
+      <point x="-38" y="25" type="line"/>
+      <point x="-41" y="0"/>
+      <point x="-12" y="-34"/>
+    </contour>
+    <contour>
+      <point x="146" y="23" type="line"/>
+      <point x="142" y="-8"/>
+      <point x="94" y="-50"/>
+      <point x="63" y="-50" type="qcurve"/>
+      <point x="61" y="-50" type="line"/>
+      <point x="63" y="-34" type="line"/>
+      <point x="88" y="-34"/>
+      <point x="127" y="0"/>
+      <point x="131" y="25" type="qcurve"/>
+      <point x="147" y="25" type="line"/>
+    </contour>
+  </outline>
+</glyph>

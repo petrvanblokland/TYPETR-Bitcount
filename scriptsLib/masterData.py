@@ -3,68 +3,19 @@
 #   such as VF location in axis values
 #
 
-# Name parts to auto-construct generated master UFO names.
-BITCOUNT = 'Bitcount'
-GRID = 'Grid'
-MONO = 'Mono'
-PROP = 'Prop'
-TYPES = (GRID, MONO, PROP)
-SINGLE = 'Single'
-DOUBLE = 'Double'
-STEMS = (SINGLE, DOUBLE)
-
-# Source masters in sources/ufo/, used to copy into _masters/ with replaced pixel shape.
-VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
-GRID_DOUBLE = 'Bitcount_Grid_Double.ufo'
-GRID_SINGLE_ITALIC = 'Bitcount_Grid_Single_Italic.ufo'
-GRID_SINGLE = 'Bitcount_Grid_Single.ufo'
-GRID_SINGLE_ITALIC = 'Bitcount_Grid_Single_Italic.ufo'
-MONO_DOUBLE = 'Bitcount_Mono_Double.ufo'
-MONO_DOUBLE_ITALIC = 'Bitcount_Mono_Double-Italic.ufo'
-MONO_SINGLE = 'Bitcount_Mono_Single.ufo'
-MONO_SINGLE_ITALIC = 'Bitcount_Mono_Single-Italic.ufo'
-PROP_DOUBLE = 'Bitcount_Prop_Double.ufo'
-PROP_DOUBLE_ITALIC = 'Bitcount_Prop_Double-Italic.ufo'
-PROP_SINGLE = 'Bitcount_Prop_Single.ufo'
-PROP_SINGLE_ITALIC = 'Bitcount_Prop_Single-Italic.ufo'
-
-AXES = dict(
-    # Minimum, Default, Maximum
-    wght=(0, 500, 1000),
-    OPEN=(0, 0, 1000), # 0 = Filled, 1000 = Outline
-    LINE=(0, 500, 1000), # Thickness of outline
-    SHPE=(0, 300, 900), # Catalog of a sequence of pixel variations
-    slnt=(0, 0, 1000), # Slant angle
-)
-class Location:
-    """Location in design space"""
-    def __init__(self, wght, OPEN, SHPE, LINE, slnt):
-        minimum, _, maximum = AXES['wght']
-        assert minimum <= wght <= maximum
-        self.wght = wght
-        minimum, _, maximum = AXES['OPEN']
-        assert minimum <= OPEN <= maximum
-        self.OPEN = OPEN
-        minimum, _, maximum = AXES['SHPE']
-        assert minimum <= SHPE <= maximum
-        self.SHPE = SHPE
-        minimum, _, maximum = AXES['SHPE']
-        assert minimum <= LINE <= maximum
-        self.LINE = LINE
-        minimum, _, maximum = AXES['slnt']
-        assert minimum <= slnt <= maximum
-        self.slnt = slnt
+from scriptsLib import *
+from scriptsLib.glyphData import Location
 
 class MasterData:
     def __init__(self, fileName=None, path=None, type=None, # grid, mono or prop
-            styleName=None, location=None,
+            styleName=None, loc=None,
         ):
         self.fileName = fileName
         self.path = path
         self.type = type
         self.styleName = styleName
-        assert location is None or isinstance(location, Location))
-        self.location = location 
+        assert loc is None or isinstance(loc, Location)
+        self.loc = loc 
 
     def _get_style(self):
         style = [OPSZ[self.opsz], WGHT[self.wght]]
@@ -82,22 +33,22 @@ MASTERS_DATA = {
     # Grid is fixed 5x7 (6x8 including space), where the best possible of every
     # glyph is cropped inside the space. The result is that a number of accents
     # all translate into a single pixel.
-    GRID_DOUBLE: MD(fileName=GRID_DOUBLE),
-    GRID_DOUBLE_ITALIC: MD(fileName=GRID_DOUBLE_ITALIC),
-    GRID_SINGLE: MD(fileName=GRID_DOUBLE_ITALIC),
-    GRID_SINGLE_ITALIC: MD(fileName=GRID_DOUBLE_ITALIC),
+    GRID_DOUBLE: MD(fileName=GRID_DOUBLE, name='Bitcount Grid Double'),
+    GRID_DOUBLE_ITALIC: MD(fileName=GRID_DOUBLE_ITALIC, name='Bitcount Grid Double Italic'),
+    GRID_SINGLE: MD(fileName=GRID_SINGLE, name='Bitcount Grid Single'),
+    GRID_SINGLE_ITALIC: MD(fileName=GRID_SINGLE_ITALIC, name='Bitcount Grid Single Italic'),
     # Grid is horizontally ixed on 5 pixels (6 including space), but vertical it
     # takes the space the is needed for full accent showing.
-    MONO_DOUBLE: MD(fileName=MONO_DOUBLE),
-    MONO_DOUBLE_ITALIC: MD(fileName=MONO_DOUBLE_ITALIC),
-    MONO_SINGLE: MD(fileName=MONO_SINGLE),
-    MONO_SINGLE_ITALIC: MD(fileName=MONO_SINGLE_ITALIC),
+    MONO_DOUBLE: MD(fileName=MONO_DOUBLE, name='Bitcount Mono Double'),
+    MONO_DOUBLE_ITALIC: MD(fileName=MONO_DOUBLE_ITALIC, name='Bitcount Mono Double Italic'),
+    MONO_SINGLE: MD(fileName=MONO_SINGLE, name='Bitcount Mono Single'),
+    MONO_SINGLE_ITALIC: MD(fileName=MONO_SINGLE_ITALIC, name='Bitcount Mono Single Italic'),
     # Same height as GRID, but here glyph take horizontally the amount of pixels
     # that they need. 
-    PROP_DOUBLE: MD(fileName=PROP_DOUBLE),
-    PROP_DOUBLE_ITALIC: MD(fileName=PROP_DOUBLE_ITALIC),
-    PROP_SINGLE: MD(fileName=PROP_SINGLE),
-    PROP_SINGLE_ITALIC: MD(fileName=PROP_SINGLE_ITALIC),
+    PROP_DOUBLE: MD(fileName=PROP_DOUBLE, name='Bitcount Prop Double'),
+    PROP_DOUBLE_ITALIC: MD(fileName=PROP_DOUBLE_ITALIC, name='Bitcount Prop Double Italic'),
+    PROP_SINGLE: MD(fileName=PROP_SINGLE, name='Bitcount Prop Single'),
+    PROP_SINGLE_ITALIC: MD(fileName=PROP_SINGLE_ITALIC, name='Bitcount Prop Single Italic'),
     # Other master data generated automatically for the key positions in
     # various design spaces.
 }

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="InstanceItalic@Square-Book" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="90" y="48" type="line"/>
+      <point x="84" y="10" type="line"/>
+      <point x="4" y="10" type="line"/>
+      <point x="10" y="48" type="line"/>
+      <point x="10" y="52" type="line"/>
+      <point x="16" y="90" type="line"/>
+      <point x="96" y="90" type="line"/>
+      <point x="90" y="52" type="line"/>
+    </contour>
+  </outline>
+</glyph>

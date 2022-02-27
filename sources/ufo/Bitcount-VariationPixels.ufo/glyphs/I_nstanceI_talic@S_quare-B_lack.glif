@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="InstanceItalic@Square-Black" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="150" y="48" type="line"/>
+      <point x="136" y="-50" type="line"/>
+      <point x="-64" y="-50" type="line"/>
+      <point x="-50" y="48" type="line"/>
+      <point x="-50" y="52" type="line"/>
+      <point x="-36" y="150" type="line"/>
+      <point x="164" y="150" type="line"/>
+      <point x="150" y="52" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -3,7 +3,9 @@ import os
 import fontmake
 from fontmake.font_project import FontProject
 from fontTools.ttLib import TTFont, TTLibError
+
 from scriptsLib.make import makePixelMasters
+from scriptsLib.glyphData import PIXEL_DATA
 
 args = {
     'subset': None,

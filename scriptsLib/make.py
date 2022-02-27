@@ -2,8 +2,7 @@
 #   Making the separate Bitcount masters, with the pixel shapes filled in.
 #
 import os
-from scriptsLib import copyUFO
-from scriptsLib import MASTERS_PATH
+from scriptsLib import *
 
 def makePixelMasters():
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
@@ -20,6 +19,8 @@ def makePixelMasters():
         if fileName.endswith('.ufo'):
             deleteUFO(dstPath)
 
+    # Open the pixel font, as lead for the masters that need to be generated.
+    pixels = openFont(UFO_PATH + VARIATION_PIXELS)
         # Bitcount generated masters, that include location-bound pixel shape, typically is called
         # BitcountMono_DoubleCircleSquare_LINE0_OPEN0_SHPE0_slnt0_wght500.ufo
         

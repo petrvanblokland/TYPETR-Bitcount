@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Instance@OpenLineSquare-Bold" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="130" y="130" type="line"/>
+      <point x="130" y="70" type="line"/>
+      <point x="114" y="70" type="line"/>
+      <point x="114" y="114" type="line"/>
+      <point x="70" y="114" type="line"/>
+      <point x="70" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="-14" y="114" type="line"/>
+      <point x="-14" y="70" type="line"/>
+      <point x="-30" y="70" type="line"/>
+      <point x="-30" y="130" type="line"/>
+      <point x="30" y="130" type="line"/>
+      <point x="30" y="114" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="-14" type="line"/>
+      <point x="30" y="-30" type="line"/>
+      <point x="-30" y="-30" type="line"/>
+      <point x="-30" y="30" type="line"/>
+      <point x="-14" y="30" type="line"/>
+      <point x="-14" y="-14" type="line"/>
+    </contour>
+    <contour>
+      <point x="130" y="30" type="line"/>
+      <point x="130" y="-30" type="line"/>
+      <point x="70" y="-30" type="line"/>
+      <point x="70" y="-14" type="line"/>
+      <point x="114" y="-14" type="line"/>
+      <point x="114" y="30" type="line"/>
+    </contour>
+  </outline>
+</glyph>

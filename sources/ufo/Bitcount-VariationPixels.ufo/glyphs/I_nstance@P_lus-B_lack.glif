@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Instance@Plus-Black" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="103" y="-3" type="line"/>
+      <point x="103" y="-50" type="line"/>
+      <point x="-3" y="-50" type="line"/>
+      <point x="-3" y="-3" type="line"/>
+      <point x="-50" y="-3" type="line"/>
+      <point x="-50" y="103" type="line"/>
+      <point x="-3" y="103" type="line"/>
+      <point x="-3" y="150" type="line"/>
+      <point x="103" y="150" type="line"/>
+      <point x="103" y="103" type="line"/>
+      <point x="150" y="103" type="line"/>
+      <point x="150" y="-3" type="line"/>
+    </contour>
+  </outline>
+</glyph>
