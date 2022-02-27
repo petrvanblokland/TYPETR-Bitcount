@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="degree.xc" format="1">
+  <advance width="400.0"/>
+  <outline>
+    <component base="px" xOffset="164.0" yOffset="400"/>
+    <component base="px" xOffset="78.0" yOffset="500"/>
+    <component base="px" xOffset="278.0" yOffset="500"/>
+    <component base="px" xOffset="192.0" yOffset="600"/>
+  </outline>
+</glyph>

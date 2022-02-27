@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fl.sc" format="1">
+  <advance width="1200"/>
+  <note>
+  </note>
+  <outline>
+    <component base="px" xOffset="136.0" yOffset="200"/>
+    <component base="px" xOffset="708.0"/>
+    <component base="px" xOffset="22.0" yOffset="100.0"/>
+    <component base="px" xOffset="36.0" yOffset="200.0"/>
+    <component base="px" xOffset="808.0"/>
+    <component base="px" xOffset="8.0"/>
+    <component base="px" xOffset="64.0" yOffset="400.0"/>
+    <component base="px" xOffset="50.0" yOffset="300.0"/>
+    <component base="px" xOffset="164.0" yOffset="400"/>
+    <component base="px" xOffset="764.0" yOffset="400"/>
+    <component base="px" xOffset="736.0" yOffset="200"/>
+    <component base="px" xOffset="750.0" yOffset="300"/>
+    <component base="px" xOffset="722.0" yOffset="100"/>
+    <component base="px" xOffset="236.0" yOffset="200"/>
+    <component base="px" xOffset="908.0"/>
+    <component base="px" xOffset="264.0" yOffset="400"/>
+    <component base="px" xOffset="336.0" yOffset="200"/>
+    <component base="px" xOffset="1008.0"/>
+    <component base="px" xOffset="364.0" yOffset="400"/>
+    <component base="px" xOffset="464.0" yOffset="400"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

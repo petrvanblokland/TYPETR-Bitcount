@@ -1,0 +1,32 @@
+---
+unified font repository version: "0.2"
+unified font repository url: https://github.com/raphaelbastide/Unified-Font-Repository/
+typeface family:
+  name: Bitcount
+  tags:
+  - pixels
+  - bitmap
+  - caps
+  - bold
+  - rounded
+  - layers
+  - inline
+  - outline
+  - shadow
+  - decorative
+  repository url: https://github.com/petrvanblokland/TYPETR-Bitcount
+  project url: https://bitcount.typenetwork.com
+  project status: gamma
+  tools:
+  - RoboFont
+  - DrawBot
+  - PageBot
+  - FontGoggles
+  - Skateboard
+  - MetricsMachine
+  - Prepolator
+  - RoboChrome
+  similar fonts:
+  sample text:
+  - en_us: The quick brown fox jumps over the lazy dog
+...

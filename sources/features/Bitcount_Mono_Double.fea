@@ -1,0 +1,104 @@
+#
+# --- Bitcount-Regular Features ---
+#
+
+@g = [ g gcircumflex gbreve gdotaccent gcommaaccent gcaron ];
+@g_nct = [ g.nct gcircumflex.nct gbreve.nct gdotaccent.nct gcommaaccent.nct gcaron.nct ];
+@g_xd = [ g.xd gcircumflex.xd gbreve.xd gdotaccent.xd gcommaaccent.xd gcaron.xd ];
+@g_xd_nct = [ g.xd_nct gcircumflex.xd_nct gbreve.xd_nct gdotaccent.xd_nct gcommaaccent.xd_nct gcaron.xd_nct ];
+
+@g_salt = [ g.salt gcircumflex.salt gbreve.salt gdotaccent.salt gcommaaccent.salt gcaron.salt ];
+
+# Language systems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn PLK;
+languagesystem latn ROM;
+languagesystem latn CAT;
+languagesystem latn ESP;
+
+
+feature c2sc { # Caps to Small Caps
+    # caps to small caps
+    sub @not_caps by @caps;
+} c2sc;
+
+feature smcp { # Lower case to Small Caps
+    sub @not_smcp by @smcp;
+    sub dotlessi by I.sc;
+} smcp;
+     
+feature liga {
+    sub f i by fi;
+    sub f l by fl;
+} liga;
+
+feature calt {
+    sub slash T y p e t r by typetr;
+    sub slash T Y P E T R by typetr;
+    sub slash t y p e t r by typetr;
+    sub slash m a t r i x five seven by matrix57;
+    sub slash m a t r i x five eight by matrix58;
+    sub slash m a t r i x six eight by matrix68;
+    sub slash m a t r i x six one zero by matrix610;
+    sub slash m a t r i x six one two by matrix612;
+} calt;
+           
+feature ss01 {
+    featureNames {
+      name "Extended ascenders";
+      name 1 "Extended ascenders";
+     };
+    sub @not_xascenders by @xascenders;
+} ss01;
+                          
+feature ss02 {
+    featureNames {
+      name "Extended capitals";
+      name 1 "Extended capitals";
+     };
+    sub @not_xcapitals by @xcapitals;
+} ss02;
+                          
+feature ss03 {
+    featureNames {
+      name "Extended descenders";
+      name 1 "Extended descenders";
+     };
+    sub @not_xdescenders by @xdescenders;
+} ss03;
+                          
+feature ss05 {
+    featureNames {
+      name "No contrast pixel";
+      name 1 "No contrast pixel";
+     };
+    sub @not_ncontrast by @ncontrast;
+} ss05;
+                                      
+feature ss08 {
+    featureNames {
+      name "Italic shapes";
+      name 1 "Italic shapes";
+     };
+    sub @not_italic by @italic;
+} ss08;
+
+feature ss09 {
+    featureNames {
+        name "Aternative g";
+        name 1 "Alterative g";
+    };
+    sub @g by @g_salt;
+    sub @g_nct by @g_salt;
+    sub @g_xd by @g_salt;
+    sub @g_xd_nct by @g_salt;
+} ss09;
+
+feature zero {
+  sub @zero by @zero_slash;
+} zero;
+

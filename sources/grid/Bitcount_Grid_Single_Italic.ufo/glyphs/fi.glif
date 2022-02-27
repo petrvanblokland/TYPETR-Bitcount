@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi" format="1">
+  <advance width="1200"/>
+  <unicode hex="FB01"/>
+  <outline>
+    <component base="f" xOffset="-100"/>
+    <component base="px" xOffset="836.0" yOffset="200"/>
+    <component base="px" xOffset="822.0" yOffset="100"/>
+    <component base="px" xOffset="708.0"/>
+    <component base="px" xOffset="808.0"/>
+    <component base="px" xOffset="908.0"/>
+    <component base="px" xOffset="750.0" yOffset="300"/>
+    <component base="px" xOffset="850.0" yOffset="300"/>
+    <component base="px" xOffset="878.0" yOffset="500"/>
+    <component base="px" xOffset="650.0" yOffset="300"/>
+    <component base="px" xOffset="608.0"/>
+    <component base="px" xOffset="1008.0"/>
+    <component base="px" xOffset="478" yOffset="500"/>
+  </outline>
+</glyph>

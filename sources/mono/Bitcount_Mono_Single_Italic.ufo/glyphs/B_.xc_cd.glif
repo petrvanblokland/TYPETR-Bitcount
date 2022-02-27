@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="B.xc_cd" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="336.0" yOffset="200.0"/>
+    <component base="px" xOffset="36.0" yOffset="200.0"/>
+    <component base="px" xOffset="22.0" yOffset="100.0"/>
+    <component base="px" xOffset="108.0"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="150.0" yOffset="300.0"/>
+    <component base="px" xOffset="250.0" yOffset="300.0"/>
+    <component base="px" xOffset="364.0" yOffset="400"/>
+    <component base="px" xOffset="64.0" yOffset="400"/>
+    <component base="px" xOffset="192.0" yOffset="600"/>
+    <component base="px" xOffset="292.0" yOffset="600"/>
+    <component base="px" xOffset="322.0" yOffset="100.0"/>
+    <component base="px" xOffset="8.0"/>
+    <component base="px" xOffset="50.0" yOffset="300.0"/>
+    <component base="px" xOffset="92.0" yOffset="600"/>
+    <component base="px" xOffset="378.0" yOffset="500"/>
+    <component base="px" xOffset="78.0" yOffset="500"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5261</real>
+        <real>0.2585</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

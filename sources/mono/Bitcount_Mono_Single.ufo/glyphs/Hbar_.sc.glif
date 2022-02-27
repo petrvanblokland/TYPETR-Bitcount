@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar.sc" format="1">
+  <advance width="600.0"/>
+  <note>
+  </note>
+  <outline>
+    <component base="px" xOffset="400.0" yOffset="100.0"/>
+    <component base="px" yOffset="100.0"/>
+    <component base="px"/>
+    <component base="px" xOffset="100.0" yOffset="200.0"/>
+    <component base="px" xOffset="200.0" yOffset="200.0"/>
+    <component base="px" xOffset="300.0" yOffset="200.0"/>
+    <component base="px" xOffset="400.0" yOffset="200.0"/>
+    <component base="px" yOffset="200.0"/>
+    <component base="px" xOffset="100.0" yOffset="300.0"/>
+    <component base="px" xOffset="400.0" yOffset="300.0"/>
+    <component base="px" yOffset="300.0"/>
+    <component base="px" xOffset="400.0" yOffset="400.0"/>
+    <component base="px" yOffset="400.0"/>
+    <component base="px" xOffset="400.0"/>
+    <component base="px" xOffset="200.0" yOffset="300.0"/>
+    <component base="px" xOffset="300.0" yOffset="300.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

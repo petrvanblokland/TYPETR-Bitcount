@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcommaaccent.sc_cd" format="1">
+  <advance width="600"/>
+  <note>
+  </note>
+  <outline>
+    <component base="px" xOffset="100" yOffset="200"/>
+    <component base="px" xOffset="100" yOffset="100"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="100" yOffset="300"/>
+    <component base="px" xOffset="100" yOffset="400"/>
+    <component base="px" xOffset="400"/>
+    <component base="px" xOffset="200" yOffset="-100"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.7753</real>
+        <real>0.2359</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

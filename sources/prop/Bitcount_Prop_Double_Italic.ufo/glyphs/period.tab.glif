@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period.tab" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="px" xOffset="222.0" yOffset="100"/>
+    <component base="px" xOffset="322.0" yOffset="100"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="308.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

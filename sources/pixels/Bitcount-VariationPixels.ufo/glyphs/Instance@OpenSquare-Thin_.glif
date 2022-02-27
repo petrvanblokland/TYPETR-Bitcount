@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Instance@OpenSquare-Thin" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="80" y="80" type="line"/>
+      <point x="80" y="58" type="line"/>
+      <point x="58" y="58" type="line"/>
+      <point x="58" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="43" y="80" type="line"/>
+      <point x="43" y="58" type="line"/>
+      <point x="20" y="58" type="line"/>
+      <point x="20" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="43" y="43" type="line"/>
+      <point x="43" y="20" type="line"/>
+      <point x="20" y="20" type="line"/>
+      <point x="20" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="43" type="line"/>
+      <point x="80" y="20" type="line"/>
+      <point x="58" y="20" type="line"/>
+      <point x="58" y="43" type="line"/>
+    </contour>
+  </outline>
+</glyph>

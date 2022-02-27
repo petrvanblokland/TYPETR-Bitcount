@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aogonek" format="1">
+  <advance width="600.0"/>
+  <unicode hex="0105"/>
+  <outline>
+    <component base="px" xOffset="136.0" yOffset="200.0"/>
+    <component base="px" xOffset="236.0" yOffset="200.0"/>
+    <component base="px" xOffset="336.0" yOffset="200.0"/>
+    <component base="px" xOffset="436.0" yOffset="200.0"/>
+    <component base="px" xOffset="322.0" yOffset="100.0"/>
+    <component base="px" xOffset="22.0" yOffset="100.0"/>
+    <component base="px" xOffset="108.0"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="350.0" yOffset="300.0"/>
+    <component base="px" xOffset="450.0" yOffset="300.0"/>
+    <component base="px" xOffset="164.0" yOffset="400.0"/>
+    <component base="px" xOffset="264.0" yOffset="400.0"/>
+    <component base="px" xOffset="364.0" yOffset="400.0"/>
+    <component base="px" xOffset="422.0" yOffset="100.0"/>
+    <component base="px" xOffset="408.0"/>
+    <component base="px" xOffset="294.0" yOffset="-100.0"/>
+  </outline>
+</glyph>

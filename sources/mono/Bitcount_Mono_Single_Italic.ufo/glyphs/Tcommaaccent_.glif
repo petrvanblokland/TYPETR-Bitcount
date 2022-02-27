@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcommaaccent" format="1">
+  <advance width="600.0"/>
+  <unicode hex="021A"/>
+  <outline>
+    <component base="px" xOffset="236.0" yOffset="200.0"/>
+    <component base="px" xOffset="222.0" yOffset="100.0"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="250.0" yOffset="300.0"/>
+    <component base="px" xOffset="264.0" yOffset="400.0"/>
+    <component base="px" xOffset="178.0" yOffset="500.0"/>
+    <component base="px" xOffset="278.0" yOffset="500.0"/>
+    <component base="px" xOffset="378.0" yOffset="500.0"/>
+    <component base="px" xOffset="478.0" yOffset="500.0"/>
+    <component base="px" xOffset="78.0" yOffset="500.0"/>
+    <component base="px" xOffset="180.0" yOffset="-200.0"/>
+    <component base="px" xOffset="66.0" yOffset="-300.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi.it" format="1">
+  <advance width="1200"/>
+  <outline>
+    <component base="px" xOffset="236.0" yOffset="200"/>
+    <component base="px" xOffset="222.0" yOffset="100"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="150.0" yOffset="300"/>
+    <component base="px" xOffset="250.0" yOffset="300"/>
+    <component base="px" xOffset="350.0" yOffset="300"/>
+    <component base="px" xOffset="264.0" yOffset="400"/>
+    <component base="px" xOffset="378.0" yOffset="500"/>
+    <component base="px" xOffset="478.0" yOffset="500"/>
+    <component base="px" xOffset="836.0" yOffset="200"/>
+    <component base="px" xOffset="808.0"/>
+    <component base="px" xOffset="850.0" yOffset="300"/>
+    <component base="px" xOffset="822.0" yOffset="100"/>
+    <component base="px" xOffset="94.0" yOffset="-100"/>
+    <component base="px" xOffset="450.0" yOffset="300"/>
+    <component base="px" xOffset="578.0" yOffset="500"/>
+    <component base="px" xOffset="878.0" yOffset="500"/>
+    <component base="px" xOffset="750.0" yOffset="300"/>
+    <component base="px" xOffset="650.0" yOffset="300"/>
+    <component base="px" xOffset="608.0"/>
+    <component base="px" xOffset="708.0"/>
+    <component base="px" xOffset="908.0"/>
+    <component base="px" xOffset="1008.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>721</integer>
+          <key>y</key>
+          <integer>400</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

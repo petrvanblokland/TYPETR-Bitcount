@@ -1,0 +1,130 @@
+#
+# --- Bitcount-Regular Features ---
+#
+#   _sc     Small caps
+#   _lc     Lower case variation
+#   _it     Italic shapes
+#   _cd     Condensed
+#   _ct     Contrast pixel
+#   _xh     Force x-height
+
+@g = [ g gcircumflex gbreve gdotaccent gcommaaccent gcaron ];
+@g_ct = [ g.ct gcircumflex.ct gbreve.ct gdotaccent.ct gcommaaccent.ct gcaron.ct ];
+@g_xd = [ g.xd gcircumflex.xd gbreve.xd gdotaccent.xd gcommaaccent.xd gcaron.xd ];
+@g_xd_ct = [ g.xd_ct gcircumflex.xd_ct gbreve.xd_ct gdotaccent.xd_ct gcommaaccent.xd_ct gcaron.xd_ct ];
+
+@g_salt = [ g.salt gcircumflex.salt gbreve.salt gdotaccent.salt gcommaaccent.salt gcaron.salt ];
+
+@g_cd = [ g.cd gcircumflex.cd gbreve.cd gdotaccent.cd gcommaaccent.cd gcaron.cd ];
+@g_xd_cd = [ g.xd_cd gcircumflex.xd_cd gbreve.xd_cd gdotaccent.xd_cd gcommaaccent.xd_cd gcaron.xd_cd ];
+
+@g_cd_salt = [ g.cd_salt gcircumflex.cd_salt gbreve.cd_salt gdotaccent.cd_salt gcommaaccent.cd_salt gcaron.cd_salt ];
+
+# Language systems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn PLK;
+languagesystem latn ROM;
+languagesystem latn CAT;
+languagesystem latn ESP;
+
+# http://ilovetypography.com/OpenType/opentype-features.html
+
+feature c2sc { # Caps to Small Caps
+    # caps to small caps
+    sub @not_caps by @caps;
+} c2sc;
+
+feature smcp { # Lower case to Small Caps 
+    sub @not_smcp by @smcp;
+    sub dotlessi by I.sc;
+} smcp;
+     
+feature liga {
+    sub f i by fi;
+    sub f l by fl;
+} liga;
+
+feature calt {
+    sub slash T y p e t r by typetr;
+    sub slash T Y P E T R by typetr;
+    sub slash t y p e t r by typetr;
+    sub slash m a t r i x five seven by matrix57;
+    sub slash m a t r i x five eight by matrix58;
+    sub slash m a t r i x six eight by matrix68;
+    sub slash m a t r i x six one zero by matrix610;
+    sub slash m a t r i x six one two by matrix612;
+} calt;
+            
+feature ss01 {
+    featureNames {
+      name "Extended ascenders";
+      name 1 "Extended ascenders";
+     };
+    sub @not_xascenders by @xascenders;
+} ss01;
+                          
+feature ss02 {
+    featureNames {
+      name "Extended capitals";
+      name 1 "Extended capitals";
+     };
+    sub @not_xcapitals by @xcapitals;
+} ss02;
+                          
+feature ss03 {
+    featureNames {
+      name "Extended descenders";
+      name 1 "Extended descenders";
+     };
+    sub @not_xdescenders by @xdescenders;
+} ss03;
+                          
+feature ss04 {
+    featureNames {
+      name "Contrast pixel";
+      name 1 "Contrast pixel";
+     };
+    sub @not_contrast by @contrast;
+} ss04;
+                          
+feature ss07 {
+    featureNames {
+      name "Condensed";
+      name 1 "Condensed";
+     };
+    sub @not_condensed by @condensed;
+} ss07;
+            
+feature ss08 {
+    featureNames {
+      name "Italic shapes";
+      name 1 "Italic shapes";
+     };
+    sub @not_italic by @italic;
+} ss08;
+
+feature ss09 {
+    featureNames {
+        name "Aternative g";
+        name 1 "Alterative g";
+    };
+    sub @g by @g_salt;
+    sub @g_ct by @g_salt;
+    sub @g_xd by @g_salt;
+    sub @g_xd_ct by @g_salt;
+    
+    sub @g_cd by @g_cd_salt;
+    sub @g_xd_cd by @g_cd_salt;
+} ss09;
+
+feature onum { # Case Sensitive Forms
+    sub @not_lowercase by @lowercase;
+} onum;
+            
+feature zero {
+  sub @zero by @zero_slash;
+} zero;

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I.sc_cd" format="1">
+  <advance width="200"/>
+  <outline>
+    <component base="px" yOffset="200"/>
+    <component base="px" yOffset="100"/>
+    <component base="px"/>
+    <component base="px" yOffset="300"/>
+    <component base="px" yOffset="400"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.1518</real>
+        <real>0.2217</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

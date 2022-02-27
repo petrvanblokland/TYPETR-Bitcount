@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="InstanceItalic@Plus-Semibold" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="62" y="37" type="line"/>
+      <point x="55" y="-8" type="line"/>
+      <point x="28" y="-8" type="line"/>
+      <point x="35" y="37" type="line"/>
+      <point x="-10" y="37" type="line"/>
+      <point x="-6" y="63" type="line"/>
+      <point x="38" y="63" type="line"/>
+      <point x="45" y="108" type="line"/>
+      <point x="72" y="108" type="line"/>
+      <point x="65" y="63" type="line"/>
+      <point x="110" y="63" type="line"/>
+      <point x="106" y="37" type="line"/>
+    </contour>
+  </outline>
+</glyph>

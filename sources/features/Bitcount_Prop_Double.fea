@@ -1,0 +1,200 @@
+#
+# --- Bitcount-Double Prop Features ---
+#
+
+@dnom = [ zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ];
+
+@figures = [ zero one two three four five six seven eight nine ];
+
+@numr = [ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr ];
+
+@not_small_numbers = [ zero one two three four five six seven eight nine ];
+
+@g = [ g gcircumflex gbreve gdotaccent gcommaaccent gcaron ];
+@g_nct = [ g.nct gcircumflex.nct gbreve.nct gdotaccent.nct gcommaaccent.nct gcaron.nct ];
+@g_xd = [ g.xd gcircumflex.xd gbreve.xd gdotaccent.xd gcommaaccent.xd gcaron.xd ];
+@g_xd_nct = [ g.xd_nct gcircumflex.xd_nct gbreve.xd_nct gdotaccent.xd_nct gcommaaccent.xd_nct gcaron.xd_nct ];
+
+@g_salt = [ g.salt gcircumflex.salt gbreve.salt gdotaccent.salt gcommaaccent.salt gcaron.salt ];
+
+# Language systems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn PLK;
+languagesystem latn ROM;
+languagesystem latn CAT;
+languagesystem latn ESP;
+
+     
+feature c2sc { # Caps to Small Caps
+    # caps to small caps
+    sub @not_caps by @caps;
+} c2sc;
+
+feature smcp { # Lower case to Small Caps
+    sub @not_smcp by @smcp;
+    sub dotlessi by I.sc;
+} smcp;
+   
+feature frac {
+  lookup FractionBar {
+    ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures slash;
+    ignore sub slash @figures @figures slash';
+    ignore sub slash' @figures @figures slash;
+    ignore sub slash @figures slash';
+    ignore sub slash' @figures slash;
+    sub @figures slash' @figures by fraction;
+  } FractionBar;
+
+  lookup numr1 {
+    sub @figures' fraction by @numr;
+  } numr1;
+
+  lookup numr2 {
+    sub @figures' @numr fraction by @numr;
+  } numr2;
+
+  lookup numr3 {
+    sub @figures' @numr @numr fraction by @numr;
+  } numr3;
+
+  lookup numr4 {
+    sub @figures' @numr @numr @numr fraction by @numr;
+  } numr4;
+
+  lookup numr5 {
+    sub @figures' @numr @numr @numr @numr fraction by @numr;
+  } numr5;
+
+  lookup numr6 {
+    sub @figures' @numr @numr @numr @numr @numr fraction by @numr;
+  } numr6;
+
+  lookup numr7 {
+    sub @figures' @numr @numr @numr @numr @numr @numr fraction by @numr;
+  } numr7;
+
+  lookup numr8 {
+    sub @figures' @numr @numr @numr @numr @numr @numr @numr fraction by @numr;
+  } numr8;
+
+  lookup numr9 {
+    sub @figures' @numr @numr @numr @numr @numr @numr @numr @numr fraction by @numr;
+  } numr9;
+
+  lookup numr10 {
+    sub @figures' @numr @numr @numr @numr @numr @numr @numr @numr @numr fraction by @numr;
+  } numr10;
+
+  lookup dnom {
+    sub [fraction @dnom] @figures' by @dnom;
+  } dnom;
+
+} frac;
+
+feature dnom {
+     sub @figures by @dnom;
+} dnom;
+
+feature numr {
+    sub @figures by @numr;
+} numr;
+
+feature liga {
+    sub f i by fi;
+    sub f l by fl;
+} liga;
+
+feature calt {
+    sub slash T y p e t r by typetr;
+    sub slash T Y P E T R by typetr;
+    sub slash t y p e t r by typetr;
+    sub slash m a t r i x five seven by matrix57;
+    sub slash m a t r i x five eight by matrix58;
+    sub slash m a t r i x six eight by matrix68;
+    sub slash m a t r i x six one zero by matrix610;
+    sub slash m a t r i x six one two by matrix612;
+} calt;
+            
+feature ss01 {
+    featureNames {
+      name "Extended ascenders";
+      name 1 "Extended ascenders";
+     };
+    sub @not_xascenders by @xascenders;
+} ss01;
+
+feature ss02 {
+    featureNames {
+      name "Extended capitals";
+      name 1 "Extended capitals";
+     };
+    sub @not_xcapitals by @xcapitals;
+} ss02;
+                          
+feature ss03 {
+    featureNames {
+      name "Ext. descenders";
+      name 1 "Ext. descenders";
+     };
+    sub @not_xdescenders by @xdescenders;
+} ss03;
+                          
+feature ss05 {
+    featureNames {
+      name "No contrast pixel";
+      name 1 "No contrast pixel";
+     };
+    sub @not_ncontrast by @ncontrast;
+} ss05;
+                                                  
+feature ss08 {
+    featureNames {
+      name "Italic shapes";
+      name 1 "Italic shapes";
+     };
+    sub @not_italic by @italic;
+} ss08;
+
+feature ss09 {
+    featureNames {
+        name "Aternative g";
+        name 1 "Alterative g";
+    };
+    sub @g by @g_salt;
+    sub @g_nct by @g_salt;
+    sub @g_xd by @g_salt;
+    sub @g_xd_nct by @g_salt;
+} ss09;
+    
+feature onum { # Case Sensitive Forms
+    sub @not_lowercase by @lowercase;
+} onum;
+    
+feature tnum {
+  sub @not_tab by @tab;
+} tnum;
+        
+feature zero {
+  sub @zero by @zero_slash;
+} zero;
+
+   

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark.xc" format="1">
+  <advance width="900"/>
+  <outline>
+    <component base="px" xOffset="100" yOffset="300"/>
+    <component base="px" xOffset="300" yOffset="300"/>
+    <component base="px" xOffset="100" yOffset="400"/>
+    <component base="px" xOffset="300" yOffset="400"/>
+    <component base="px" xOffset="100" yOffset="500"/>
+    <component base="px" xOffset="300" yOffset="600"/>
+    <component base="px" xOffset="300" yOffset="500"/>
+    <component base="px" xOffset="100" yOffset="600"/>
+    <component base="px" xOffset="200" yOffset="600"/>
+    <component base="px" xOffset="400" yOffset="500"/>
+    <component base="px" yOffset="600"/>
+    <component base="px" xOffset="700" yOffset="300"/>
+    <component base="px" xOffset="500" yOffset="400"/>
+    <component base="px" xOffset="700" yOffset="400"/>
+    <component base="px" xOffset="700" yOffset="500"/>
+    <component base="px" xOffset="600" yOffset="500"/>
+    <component base="px" xOffset="700" yOffset="600"/>
+  </outline>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="germandbls" format="1">
+  <advance width="700.0"/>
+  <unicode hex="00DF"/>
+  <outline>
+    <component base="px" xOffset="136.0" yOffset="200.0"/>
+    <component base="px" xOffset="336.0" yOffset="200.0"/>
+    <component base="px" xOffset="436.0" yOffset="200.0"/>
+    <component base="px" xOffset="36.0" yOffset="200.0"/>
+    <component base="px" xOffset="122.0" yOffset="100.0"/>
+    <component base="px" xOffset="22.0" yOffset="100.0"/>
+    <component base="px" xOffset="108.0"/>
+    <component base="px" xOffset="308.0"/>
+    <component base="px" xOffset="8.0"/>
+    <component base="px" xOffset="150.0" yOffset="300.0"/>
+    <component base="px" xOffset="350.0" yOffset="300.0"/>
+    <component base="px" xOffset="50.0" yOffset="300.0"/>
+    <component base="px" xOffset="164.0" yOffset="400.0"/>
+    <component base="px" xOffset="464.0" yOffset="400.0"/>
+    <component base="px" xOffset="64.0" yOffset="400.0"/>
+    <component base="px" xOffset="178.0" yOffset="500.0"/>
+    <component base="px" xOffset="278.0" yOffset="500.0"/>
+    <component base="px" xOffset="378.0" yOffset="500.0"/>
+    <component base="px" xOffset="522.0" yOffset="100.0"/>
+    <component base="px" xOffset="408.0"/>
+    <component base="px" xOffset="536.0" yOffset="200.0"/>
+    <component base="px" xOffset="478.0" yOffset="500.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

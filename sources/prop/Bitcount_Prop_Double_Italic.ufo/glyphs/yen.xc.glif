@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yen.xc" format="1">
+  <advance width="700"/>
+  <outline>
+    <component base="px" xOffset="336.0" yOffset="200"/>
+    <component base="px" xOffset="322.0" yOffset="100"/>
+    <component base="px" xOffset="308.0"/>
+    <component base="px" xOffset="250.0" yOffset="300"/>
+    <component base="px" xOffset="450.0" yOffset="300"/>
+    <component base="px" xOffset="564.0" yOffset="400"/>
+    <component base="px" xOffset="164.0" yOffset="400"/>
+    <component base="px" xOffset="578.0" yOffset="500"/>
+    <component base="px" xOffset="178.0" yOffset="500"/>
+    <component base="px" xOffset="236.0" yOffset="200"/>
+    <component base="px" xOffset="222.0" yOffset="100"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="150.0" yOffset="300"/>
+    <component base="px" xOffset="64.0" yOffset="400"/>
+    <component base="px" xOffset="78.0" yOffset="500"/>
+    <component base="px" xOffset="592.0" yOffset="600"/>
+    <component base="px" xOffset="192.0" yOffset="600"/>
+    <component base="px" xOffset="92.0" yOffset="600"/>
+    <component base="px" xOffset="36.0" yOffset="200"/>
+    <component base="px" xOffset="136.0" yOffset="200"/>
+    <component base="px" xOffset="436.0" yOffset="200"/>
+    <component base="px" xOffset="536.0" yOffset="200"/>
+  </outline>
+</glyph>

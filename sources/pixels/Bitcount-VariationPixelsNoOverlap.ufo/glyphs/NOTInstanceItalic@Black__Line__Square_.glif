@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NOTInstanceItalic@Black_Line_Square" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="-58" y="-45" type="line"/>
+      <point x="-32" y="145" type="line"/>
+      <point x="158" y="145" type="line"/>
+      <point x="132" y="-45" type="line"/>
+    </contour>
+    <contour>
+      <point x="2" y="106" type="line"/>
+      <point x="-14" y="-6" type="line"/>
+      <point x="98" y="-6" type="line"/>
+      <point x="114" y="106" type="line"/>
+    </contour>
+  </outline>
+</glyph>

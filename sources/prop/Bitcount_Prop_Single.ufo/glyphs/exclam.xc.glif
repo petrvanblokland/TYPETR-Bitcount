@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam.xc" format="1">
+  <advance width="200"/>
+  <outline>
+    <component base="px" yOffset="200.0"/>
+    <component base="px"/>
+    <component base="px" yOffset="300.0"/>
+    <component base="px" yOffset="400.0"/>
+    <component base="px" yOffset="500"/>
+    <component base="px" yOffset="600"/>
+  </outline>
+</glyph>

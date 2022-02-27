@@ -130,5 +130,5 @@ dmypy.json
 
 _export
 _local
-_DS.Store
+.DS_Store
 SampleFontGoggles.txt

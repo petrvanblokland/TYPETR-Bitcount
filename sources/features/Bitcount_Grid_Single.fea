@@ -1,0 +1,93 @@
+#
+# --- Bitcount-Regular Features ---
+#
+#   _sc     Small caps
+#   _lc     Lower case variation
+#   _it     Italic shapes
+#   _cd     Condensed
+#   _ct     Contrast pixel
+#   _xh     Force x-height
+
+# Language systems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn PLK;
+languagesystem latn ROM;
+languagesystem latn CAT;
+languagesystem latn ESP;
+
+
+feature c2sc { # Caps to Small Caps and lower case to small caps.
+    # caps to small caps
+    sub @not_caps by @caps;
+} c2sc;
+
+feature smcp { # Lower case to Small Caps
+    sub @not_smcp by @smcp;
+    sub dotlessi by I.sc;
+} smcp;
+     
+feature liga {
+    sub f i by fi;
+    sub f l by fl;
+} liga;
+
+feature calt {
+    sub slash T y p e t r by typetr;
+    sub slash T Y P E T R by typetr;
+    sub slash t y p e t r by typetr;
+    sub slash m a t r i x five seven by matrix57;
+    sub slash m a t r i x five eight by matrix58;
+    sub slash m a t r i x six eight by matrix68;
+} calt;
+
+feature ss03 {
+    featureNames {
+      name "Extended descenders";
+      name 1 "Extended descenders";
+     };
+    sub @not_xdescenders by @xdescenders;
+} ss03;
+             
+feature ss04 {
+    featureNames {
+      name "Contrast pixel";
+      name 1 "Contrast pixel";
+     };
+    sub @not_contrast by @contrast;
+} ss04;
+                          
+feature ss06 {
+    featureNames {
+      name "Forced x-height";
+      name 1 "Forced x-height";
+     };
+    sub @not_xheight by @xheight;
+} ss06;
+                          
+feature ss07 {
+    featureNames {
+      name "Condensed";
+      name 1 "Condensed";
+     };
+    sub @not_condensed by @condensed;
+} ss07;
+            
+feature ss08 {
+    featureNames {
+      name "Italic shapes";
+      name 1 "Italic shapes";
+     };
+    sub @not_italic by @italic;
+} ss08;
+
+feature onum { # Case Sensitive Forms
+    sub @not_lowercase by @lowercase;
+} onum;
+
+feature zero {
+  sub @zero by @zero_slash;
+} zero;

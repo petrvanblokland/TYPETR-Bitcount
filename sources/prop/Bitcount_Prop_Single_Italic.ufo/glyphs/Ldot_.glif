@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ldot" format="1">
+  <advance width="500.0"/>
+  <unicode hex="013F"/>
+  <outline>
+    <component base="px" xOffset="36.0" yOffset="200.0"/>
+    <component base="px" xOffset="22.0" yOffset="100.0"/>
+    <component base="px" xOffset="8.0"/>
+    <component base="px" xOffset="108.0"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="50.0" yOffset="300.0"/>
+    <component base="px" xOffset="64.0" yOffset="400.0"/>
+    <component base="px" xOffset="78.0" yOffset="500.0"/>
+    <component base="px" xOffset="250.0" yOffset="300.0"/>
+    <component base="px" xOffset="308.0"/>
+  </outline>
+</glyph>

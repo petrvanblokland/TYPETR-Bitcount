@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divide.xc_cd_tab" format="1">
+  <advance width="600.0"/>
+  <outline>
+    <component base="px" xOffset="150.0" yOffset="300"/>
+    <component base="px" xOffset="250.0" yOffset="300"/>
+    <component base="px" xOffset="350.0" yOffset="300"/>
+    <component base="px" xOffset="222.0" yOffset="100"/>
+    <component base="px" xOffset="278.0" yOffset="500"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5261</real>
+        <real>0.2585</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

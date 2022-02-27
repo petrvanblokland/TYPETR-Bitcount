@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NOTInstance@Black_Open_Line_Square" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="171" y="171" type="line"/>
+      <point x="171" y="71" type="line"/>
+      <point x="129" y="71" type="line"/>
+      <point x="129" y="129" type="line"/>
+      <point x="71" y="129" type="line"/>
+      <point x="71" y="171" type="line"/>
+    </contour>
+    <contour>
+      <point x="-29" y="129" type="line"/>
+      <point x="-29" y="71" type="line"/>
+      <point x="-71" y="71" type="line"/>
+      <point x="-71" y="171" type="line"/>
+      <point x="29" y="171" type="line"/>
+      <point x="29" y="129" type="line"/>
+    </contour>
+    <contour>
+      <point x="29" y="-29" type="line"/>
+      <point x="29" y="-71" type="line"/>
+      <point x="-71" y="-71" type="line"/>
+      <point x="-71" y="29" type="line"/>
+      <point x="-29" y="29" type="line"/>
+      <point x="-29" y="-29" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="29" type="line"/>
+      <point x="171" y="-71" type="line"/>
+      <point x="71" y="-71" type="line"/>
+      <point x="71" y="-29" type="line"/>
+      <point x="129" y="-29" type="line"/>
+      <point x="129" y="29" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,1 @@
+Bitcount is a trademark of TYPETR | Buro Petr van Blokland + Claudia Mens

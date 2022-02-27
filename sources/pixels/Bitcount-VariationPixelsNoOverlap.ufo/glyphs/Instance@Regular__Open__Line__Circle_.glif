@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Instance@Regular_Open_Line_Circle" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="63" y="100" type="line"/>
+      <point x="84" y="100"/>
+      <point x="100" y="84"/>
+      <point x="100" y="63" type="curve"/>
+      <point x="84" y="63" type="line"/>
+      <point x="84" y="75"/>
+      <point x="75" y="84"/>
+      <point x="63" y="84" type="curve"/>
+    </contour>
+    <contour>
+      <point x="38" y="84" type="line"/>
+      <point x="25" y="84"/>
+      <point x="16" y="76"/>
+      <point x="16" y="63" type="curve"/>
+      <point x="0" y="63" type="line"/>
+      <point x="0" y="84"/>
+      <point x="17" y="100"/>
+      <point x="38" y="100" type="curve"/>
+    </contour>
+    <contour>
+      <point x="38" y="16" type="curve"/>
+      <point x="38" y="0" type="line"/>
+      <point x="17" y="0"/>
+      <point x="0" y="17"/>
+      <point x="0" y="38" type="curve"/>
+      <point x="16" y="38" type="line"/>
+      <point x="16" y="25"/>
+      <point x="25" y="16"/>
+    </contour>
+    <contour>
+      <point x="100" y="38" type="line"/>
+      <point x="100" y="17"/>
+      <point x="84" y="0"/>
+      <point x="63" y="0" type="curve"/>
+      <point x="63" y="16" type="line"/>
+      <point x="75" y="16"/>
+      <point x="84" y="26"/>
+      <point x="84" y="38" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

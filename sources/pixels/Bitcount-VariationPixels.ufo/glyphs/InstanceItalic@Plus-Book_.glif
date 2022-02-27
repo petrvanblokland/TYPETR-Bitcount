@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="InstanceItalic@Plus-Book" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="53" y="47" type="line"/>
+      <point x="48" y="10" type="line"/>
+      <point x="41" y="10" type="line"/>
+      <point x="46" y="47" type="line"/>
+      <point x="10" y="47" type="line"/>
+      <point x="10" y="53" type="line"/>
+      <point x="47" y="53" type="line"/>
+      <point x="52" y="90" type="line"/>
+      <point x="59" y="90" type="line"/>
+      <point x="54" y="53" type="line"/>
+      <point x="90" y="53" type="line"/>
+      <point x="90" y="47" type="line"/>
+    </contour>
+  </outline>
+</glyph>

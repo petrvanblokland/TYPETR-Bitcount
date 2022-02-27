@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fl.xa_xd_cd_it" format="1">
+  <advance width="1200"/>
+  <outline>
+    <component base="px" xOffset="236.0" yOffset="200"/>
+    <component base="px" xOffset="222.0" yOffset="100"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="264.0" yOffset="400"/>
+    <component base="px" xOffset="464.0" yOffset="400"/>
+    <component base="px" xOffset="164.0" yOffset="400"/>
+    <component base="px" xOffset="278.0" yOffset="500"/>
+    <component base="px" xOffset="392.0" yOffset="600"/>
+    <component base="px" xOffset="492.0" yOffset="600"/>
+    <component base="px" xOffset="250.0" yOffset="300"/>
+    <component base="px" xOffset="194.0" yOffset="-100"/>
+    <component base="px" xOffset="80.0" yOffset="-200"/>
+    <component base="px" xOffset="-20.0" yOffset="-200"/>
+    <component base="px" xOffset="364.0" yOffset="400"/>
+    <component base="l.xa_cd" xOffset="608.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5261</real>
+        <real>0.2585</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Instance@Plus-Semibold" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="63" y="37" type="line"/>
+      <point x="63" y="-8" type="line"/>
+      <point x="37" y="-8" type="line"/>
+      <point x="37" y="37" type="line"/>
+      <point x="-8" y="37" type="line"/>
+      <point x="-8" y="63" type="line"/>
+      <point x="37" y="63" type="line"/>
+      <point x="37" y="108" type="line"/>
+      <point x="63" y="108" type="line"/>
+      <point x="63" y="63" type="line"/>
+      <point x="108" y="63" type="line"/>
+      <point x="108" y="37" type="line"/>
+    </contour>
+  </outline>
+</glyph>

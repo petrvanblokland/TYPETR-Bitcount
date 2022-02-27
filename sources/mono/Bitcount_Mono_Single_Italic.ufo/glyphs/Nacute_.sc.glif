@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nacute.sc" format="1">
+  <advance width="600.0"/>
+  <note>
+  </note>
+  <outline>
+    <component base="px" xOffset="236.0" yOffset="200.0"/>
+    <component base="px" xOffset="436.0" yOffset="200.0"/>
+    <component base="px" xOffset="36.0" yOffset="200.0"/>
+    <component base="px" xOffset="322.0" yOffset="100.0"/>
+    <component base="px" xOffset="22.0" yOffset="100.0"/>
+    <component base="px" xOffset="408.0"/>
+    <component base="px" xOffset="8.0"/>
+    <component base="px" xOffset="150.0" yOffset="300.0"/>
+    <component base="px" xOffset="450.0" yOffset="300.0"/>
+    <component base="px" xOffset="50.0" yOffset="300.0"/>
+    <component base="px" xOffset="464.0" yOffset="400.0"/>
+    <component base="px" xOffset="64.0" yOffset="400.0"/>
+    <component base="px" xOffset="422.0" yOffset="100.0"/>
+    <component base="px" xOffset="292.0" yOffset="600.0"/>
+    <component base="px" xOffset="406.0" yOffset="700.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

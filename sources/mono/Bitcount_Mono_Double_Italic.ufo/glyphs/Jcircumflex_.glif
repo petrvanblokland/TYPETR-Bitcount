@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Jcircumflex" format="1">
+  <advance width="600"/>
+  <unicode hex="0134"/>
+  <outline>
+    <component base="px" xOffset="236.0" yOffset="200"/>
+    <component base="px" xOffset="336.0" yOffset="200"/>
+    <component base="px" xOffset="222.0" yOffset="100"/>
+    <component base="px" xOffset="108.0"/>
+    <component base="px" xOffset="250.0" yOffset="300"/>
+    <component base="px" xOffset="350.0" yOffset="300"/>
+    <component base="px" xOffset="264.0" yOffset="400"/>
+    <component base="px" xOffset="364.0" yOffset="400"/>
+    <component base="px" xOffset="478.0" yOffset="500"/>
+    <component base="px" xOffset="178.0" yOffset="500"/>
+    <component base="px" xOffset="278.0" yOffset="500"/>
+    <component base="px" xOffset="378.0" yOffset="500"/>
+    <component base="px" xOffset="322.0" yOffset="100"/>
+    <component base="px" xOffset="206.0" yOffset="700"/>
+    <component base="px" xOffset="320.0" yOffset="800"/>
+    <component base="px" xOffset="406.0" yOffset="700"/>
+    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="8.0"/>
+  </outline>
+</glyph>

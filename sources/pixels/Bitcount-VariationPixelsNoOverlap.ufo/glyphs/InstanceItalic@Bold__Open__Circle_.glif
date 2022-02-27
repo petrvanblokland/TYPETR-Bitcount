@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="InstanceItalic@Bold_Open_Circle" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="81" y="130" type="line"/>
+      <point x="115" y="130"/>
+      <point x="137" y="104"/>
+      <point x="133" y="70" type="curve"/>
+      <point x="73" y="70" type="line"/>
+    </contour>
+    <contour>
+      <point x="41" y="130" type="curve"/>
+      <point x="33" y="70" type="line"/>
+      <point x="-27" y="70" type="line"/>
+      <point x="-23" y="104"/>
+      <point x="8" y="130"/>
+    </contour>
+    <contour>
+      <point x="27" y="30" type="line"/>
+      <point x="19" y="-30" type="line"/>
+      <point x="-15" y="-30"/>
+      <point x="-37" y="-4"/>
+      <point x="-33" y="30" type="curve"/>
+    </contour>
+    <contour>
+      <point x="127" y="30" type="line"/>
+      <point x="123" y="-4"/>
+      <point x="93" y="-30"/>
+      <point x="59" y="-30" type="curve"/>
+      <point x="67" y="30" type="line"/>
+    </contour>
+  </outline>
+</glyph>

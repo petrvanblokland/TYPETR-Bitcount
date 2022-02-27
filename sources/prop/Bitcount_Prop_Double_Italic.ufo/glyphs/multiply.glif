@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="multiply" format="1">
+  <advance width="600"/>
+  <unicode hex="00D7"/>
+  <outline>
+    <component base="px" xOffset="122.0" yOffset="100"/>
+    <component base="px" xOffset="236.0" yOffset="200"/>
+    <component base="px" xOffset="350.0" yOffset="300"/>
+    <component base="px" xOffset="464.0" yOffset="400"/>
+    <component base="px" xOffset="8.0"/>
+    <component base="px" xOffset="322.0" yOffset="100"/>
+    <component base="px" xOffset="408.0"/>
+    <component base="px" xOffset="150.0" yOffset="300"/>
+    <component base="px" xOffset="64.0" yOffset="400"/>
+  </outline>
+</glyph>

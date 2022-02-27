@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Itilde.xc_cd" format="1">
+  <advance width="200"/>
+  <note>
+  </note>
+  <outline>
+    <component base="px" xOffset="36.0" yOffset="200"/>
+    <component base="px" xOffset="22.0" yOffset="100"/>
+    <component base="px" xOffset="8.0"/>
+    <component base="px" xOffset="50.0" yOffset="300"/>
+    <component base="px" xOffset="64.0" yOffset="400"/>
+    <component base="px" xOffset="78.0" yOffset="500"/>
+    <component base="px" xOffset="20.0" yOffset="800"/>
+    <component base="px" xOffset="134.0" yOffset="900"/>
+    <component base="px" xOffset="220.0" yOffset="800"/>
+    <component base="px" xOffset="334.0" yOffset="900"/>
+    <component base="px" xOffset="92.0" yOffset="600"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5261</real>
+        <real>0.2585</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

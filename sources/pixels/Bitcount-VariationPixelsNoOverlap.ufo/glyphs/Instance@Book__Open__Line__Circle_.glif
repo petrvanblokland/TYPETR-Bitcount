@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Instance@Book_Open_Line_Circle" format="1">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="60" y="90" type="line"/>
+      <point x="77" y="90"/>
+      <point x="90" y="77"/>
+      <point x="90" y="60" type="curve"/>
+      <point x="74" y="60" type="line"/>
+      <point x="74" y="68"/>
+      <point x="68" y="74"/>
+      <point x="60" y="74" type="curve"/>
+    </contour>
+    <contour>
+      <point x="40" y="74" type="line"/>
+      <point x="32" y="74"/>
+      <point x="26" y="68"/>
+      <point x="26" y="60" type="curve"/>
+      <point x="10" y="60" type="line"/>
+      <point x="10" y="77"/>
+      <point x="23" y="90"/>
+      <point x="40" y="90" type="curve"/>
+    </contour>
+    <contour>
+      <point x="40" y="26" type="curve"/>
+      <point x="40" y="10" type="line"/>
+      <point x="23" y="10"/>
+      <point x="10" y="23"/>
+      <point x="10" y="40" type="curve"/>
+      <point x="26" y="40" type="line"/>
+      <point x="26" y="32"/>
+      <point x="32" y="26"/>
+    </contour>
+    <contour>
+      <point x="90" y="40" type="line"/>
+      <point x="90" y="23"/>
+      <point x="77" y="10"/>
+      <point x="60" y="10" type="curve"/>
+      <point x="60" y="26" type="line"/>
+      <point x="68" y="26"/>
+      <point x="74" y="32"/>
+      <point x="74" y="40" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

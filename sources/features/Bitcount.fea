@@ -1,0 +1,188 @@
+#
+# --- Bitcount-Regular Features ---
+#
+#   _sc     Small caps
+#   _lc     Lower case variation
+#   _it     Italic shapes
+#   _cd     Condensed
+#   _ct     Contrast pixel
+#   _mt     Matrix fixed 5x7
+#   _xa     Extended ascenders
+#   _xd     Extended descenders
+
+@dnom = [ zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom ];
+
+@figures = [ zero one two three four five six seven eight nine ];
+
+@numr = [ zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr ];
+
+@not_small_numbers = [ zero one two three four five six seven eight nine ];
+
+
+# Language systems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn PLK;
+languagesystem latn ROM;
+languagesystem latn CAT;
+languagesystem latn ESP;
+
+feature c2sc { # Caps to Small Caps
+    # caps to small caps
+    sub @not_caps by @caps;
+} c2sc;
+
+feature smcp { # Lower case to Small Caps
+    sub @not_smcp by @smcp;
+    #sub i.trk by Idotaccent.sc;
+    sub dotlessi by I.sc;
+} smcp;
+     
+feature frac {
+  lookup FractionBar {
+    ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures slash;
+    ignore sub slash @figures @figures slash';
+    ignore sub slash' @figures @figures slash;
+    ignore sub slash @figures slash';
+    ignore sub slash' @figures slash;
+    sub @figures slash' @figures by fraction.pr;
+  } FractionBar;
+
+  lookup numr1 {
+    sub @figures' fraction.pr by @numr;
+  } numr1;
+
+  lookup numr2 {
+    sub @figures' @numr fraction.pr by @numr;
+  } numr2;
+
+  lookup numr3 {
+    sub @figures' @numr @numr fraction.pr by @numr;
+  } numr3;
+
+  lookup numr4 {
+    sub @figures' @numr @numr @numr fraction.pr by @numr;
+  } numr4;
+
+  lookup numr5 {
+    sub @figures' @numr @numr @numr @numr fraction.pr by @numr;
+  } numr5;
+
+  lookup numr6 {
+    sub @figures' @numr @numr @numr @numr @numr fraction.pr by @numr;
+  } numr6;
+
+  lookup numr7 {
+    sub @figures' @numr @numr @numr @numr @numr @numr fraction.pr by @numr;
+  } numr7;
+
+  lookup numr8 {
+    sub @figures' @numr @numr @numr @numr @numr @numr @numr fraction.pr by @numr;
+  } numr8;
+
+  lookup numr9 {
+    sub @figures' @numr @numr @numr @numr @numr @numr @numr @numr fraction.pr by @numr;
+  } numr9;
+
+  lookup numr10 {
+    sub @figures' @numr @numr @numr @numr @numr @numr @numr @numr @numr fraction.pr by @numr;
+  } numr10;
+
+  lookup dnom {
+    sub [fraction.pr @dnom] @figures' by @dnom;
+  } dnom;
+
+} frac;
+
+feature numr { # Numerators
+    sub @not_small_numbers by @numr;
+    sub slash by fraction.pr;
+} numr;
+
+feature liga {
+    sub f i by fi;
+    sub f l by fl;
+} liga;
+
+feature ss01 {
+    featureNames {
+      name "Extended ascenders";
+      name 1 "Extended ascenders";
+     };
+    sub @not_xascenders by @xascenders;
+} ss01;
+             
+feature ss02 {
+    featureNames {
+      name "Extended descenders";
+      name 1 "Extended descenders";
+     };
+    sub @not_xdescenders by @xdescenders;
+} ss02;
+             
+feature ss03 {
+    featureNames {
+      name "Contrast pixel";
+      name 1 "Contrast pixel";
+     };
+    sub @not_contrast by @contrast;
+} ss03;
+                          
+feature ss04 {
+    featureNames {
+      name "Condensed";
+      name 1 "Condensed";
+     };
+    sub @not_condensed by @condensed;
+} ss04;
+
+# Fixed and proportional figure features used for all glyphs.
+# Default is fixed width and proportional heights.
+            
+feature pnum { # Proportional widths and heights
+    sub @not_proportional by @proportional;
+} pnum;
+
+feature tnum { # Fixed width and height in 5x7 matrix
+    sub @not_matrix by @matrix;
+} tnum;
+            
+feature ss05 {
+    featureNames {
+      name "Italic";
+      name 1 "Italic";
+     };
+    sub @not_italic by @italic;
+} ss05;
+
+feature onum { # Case Sensitive Forms
+    sub @not_lowercase by @lowercase;
+} onum;
+            
+feature zero {
+    sub zero by zero.slash;
+    sub zero.lc by zero.slash_lc;
+    sub zero.cd by zero.slash_cd;
+    sub zero.lc_cd by zero.slash_lc_cd;
+    sub zero.cd_pr by zero.slash_cd_pr;
+    sub zero.lc_cd_pr by zero.slash_lc_cd_pr;
+} zero;
+        
