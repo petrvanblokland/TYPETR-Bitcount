@@ -4,8 +4,13 @@ import fontmake
 from fontmake.font_project import FontProject
 from fontTools.ttLib import TTFont, TTLibError
 
-from scriptsLib.make import makePixelMasters
+from scriptsLib.make import copyMasters, makePixelMasters, makeDesignSpaceFiles
 from scriptsLib.glyphData import PIXEL_DATA
+
+MAKE_DESIGNSPACES = False # Not yet implemented
+COPY_MASTERS = True
+MAKE_MASTERS = True
+BUILD_VF = True
 
 args = {
     'subset': None,
@@ -25,31 +30,39 @@ args = {
     'output':['variable'],
 }
 
-project = FontProject()
-
-# 5 axis variant
+# 4 axis variant
 # wght Weight by size of the pixels
 # OPEN Showing open inside of pixels - outline
 # SHPE Catalog axis with a number of pixel variants
-# LINE Thickness of outline
 # slnt Slanting angle of pixels
-axisCount = 5
+axisCount = 4
 
-PATHS = [
-    #'BitcountGrid_DoubleCircleSquare%d.designspace' % axisCount,
-    #'BitcountGrid_SingleCircleSquare%d.designspace' % axisCount,
-    #'BitcountMono_DoubleCircleSquare%d.designspace' % axisCount,
-    #'BitcountMono_SingleCircleSquare%d.designspace' % axisCount,
-    #'BitcountProp_DoubleCircleSquare%d.designspace' % axisCount,
-    #'BitcountProp_SingleCircleSquare%d.designspace' % axisCount,
-]
+# Auto generate the design space file.
+if MAKE_DESIGNSPACES:
+    makeDesignSpaceFiles(axisCount)
+
+# Copy the masters to _masters/ and apply the right file name based on location 
+if COPY_MASTERS:
+    copyMasters()
+
 # Make all master UFO's, combining the base masters with the pixel shapes
-makePixelMasters()
+if MAKE_MASTERS:
+    makePixelMasters()
+
+DESIGN_SPACE_PATHS = [
+    'BitcountGrid_Double%s.designspace' % axisCount,
+    #'BitcountGrid_Single%s.designspace' % axisCount,
+    #'BitcountMono_Double%s.designspace' % axisCount,
+    #'BitcountMono_Single%s.designspace' % axisCount,
+    #'BitcountProp_Double%s.designspace' % axisCount,
+    #'BitcountProp_Single%s.designspace' % axisCount,
+]
 
 # Build the VF fonts from the enabled design space files.
-for path in PATHS:
+project = FontProject()
+for path in DESIGN_SPACE_PATHS:
     print('--- Building VF from design space "%s"' % path)
-    #result = project.run_from_designspace(designspace_path=path, **args)
+    result = project.run_from_designspace(designspace_path=path, **args)
     print(result)
     #os.system('open variable_ttf/' + path.replace('.designspace', '-VF.ttf'))
     #os.system('open variable_ttf')

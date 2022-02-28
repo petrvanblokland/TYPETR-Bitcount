@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pix09@11" format="2">
+  <advance width="100"/>
+  <guideline x="50" y="133" angle="90" identifier="0TEQn04FOP"/>
+  <guideline x="68" y="100" angle="0" identifier="j7AK2k8kV6"/>
+  <guideline x="125" y="50" angle="0" identifier="VHhNmLRBqe"/>
+  <guideline x="-13" y="25" angle="0" identifier="lhfIYr4Ekd"/>
+  <guideline x="-22" y="75" angle="0" identifier="M8YhAuLaaj"/>
+  <outline>
+    <contour>
+      <point x="2" y="-52" type="line"/>
+      <point x="2" y="2" type="line"/>
+      <point x="2" y="2" type="line"/>
+      <point x="2.0" y="2.0"/>
+      <point x="2.0" y="2.0"/>
+      <point x="2" y="2" type="curve"/>
+      <point x="2" y="2" type="line"/>
+      <point x="-52" y="2" type="line"/>
+      <point x="-52" y="-2" type="line"/>
+      <point x="-52" y="-2" type="line"/>
+      <point x="-19.839999999999996" y="-34.160000000000004"/>
+      <point x="-36.84" y="-17.159999999999997"/>
+      <point x="-2" y="-52" type="curve"/>
+      <point x="-2" y="-52" type="line"/>
+    </contour>
+    <contour>
+      <point x="98" y="-52" type="line"/>
+      <point x="102" y="-52" type="line"/>
+      <point x="102" y="-52" type="line"/>
+      <point x="135.5" y="-18.5"/>
+      <point x="118.5" y="-35.5"/>
+      <point x="152" y="-2" type="curve"/>
+      <point x="152" y="-2" type="line"/>
+      <point x="152" y="2" type="line"/>
+      <point x="98" y="2" type="line"/>
+      <point x="98" y="2" type="line"/>
+      <point x="98.0" y="2.0"/>
+      <point x="98.0" y="2.0"/>
+      <point x="98" y="2" type="curve"/>
+      <point x="98" y="2" type="line"/>
+    </contour>
+    <contour>
+      <point x="98" y="152" type="line"/>
+      <point x="98" y="98" type="line"/>
+      <point x="98" y="98" type="line"/>
+      <point x="98.0" y="98.0"/>
+      <point x="98.0" y="98.0"/>
+      <point x="98" y="98" type="curve"/>
+      <point x="98" y="98" type="line"/>
+      <point x="152" y="98" type="line"/>
+      <point x="152" y="102" type="line"/>
+      <point x="152" y="102" type="line"/>
+      <point x="119.84" y="134.16"/>
+      <point x="136.84" y="117.16"/>
+      <point x="102" y="152" type="curve"/>
+      <point x="102" y="152" type="line"/>
+    </contour>
+    <contour>
+      <point x="2" y="152" type="line"/>
+      <point x="-2" y="152" type="line"/>
+      <point x="-2" y="152" type="line"/>
+      <point x="-36.84" y="117.16"/>
+      <point x="-19.839999999999996" y="134.16"/>
+      <point x="-52" y="102" type="curve"/>
+      <point x="-52" y="102" type="line"/>
+      <point x="-52" y="98" type="line"/>
+      <point x="2" y="98" type="line"/>
+      <point x="2" y="98" type="line"/>
+      <point x="2.0" y="98.0"/>
+      <point x="2.0" y="98.0"/>
+      <point x="2" y="98" type="curve"/>
+      <point x="2" y="98" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

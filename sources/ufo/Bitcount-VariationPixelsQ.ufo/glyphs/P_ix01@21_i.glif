@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pix01@21_i" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="-19" y="-100" type="line"/>
+      <point x="-5" y="2" type="line"/>
+      <point x="-5" y="2" type="line"/>
+      <point x="-5.0" y="2.0"/>
+      <point x="-5.0" y="2.0"/>
+      <point x="-5" y="2" type="curve"/>
+      <point x="-5" y="2" type="line"/>
+      <point x="-107" y="2" type="line"/>
+      <point x="-107" y="2" type="line"/>
+      <point x="-107" y="2" type="line"/>
+      <point x="-116.38" y="-58.300000000000004"/>
+      <point x="-79.30000000000001" y="-100.0"/>
+      <point x="-19" y="-100" type="curve"/>
+      <point x="-19" y="-100" type="line"/>
+    </contour>
+    <contour>
+      <point x="77" y="-100" type="line"/>
+      <point x="77" y="-100" type="line"/>
+      <point x="77" y="-100" type="line"/>
+      <point x="137.3" y="-100.0"/>
+      <point x="183.62" y="-58.300000000000004"/>
+      <point x="193" y="2" type="curve"/>
+      <point x="193" y="2" type="line"/>
+      <point x="193" y="2" type="line"/>
+      <point x="91" y="2" type="line"/>
+      <point x="91" y="2" type="line"/>
+      <point x="91.0" y="2.0"/>
+      <point x="91.0" y="2.0"/>
+      <point x="91" y="2" type="curve"/>
+      <point x="91" y="2" type="line"/>
+    </contour>
+    <contour>
+      <point x="119" y="200" type="line"/>
+      <point x="105" y="98" type="line"/>
+      <point x="105" y="98" type="line"/>
+      <point x="105.0" y="98.0"/>
+      <point x="105.0" y="98.0"/>
+      <point x="105" y="98" type="curve"/>
+      <point x="105" y="98" type="line"/>
+      <point x="207" y="98" type="line"/>
+      <point x="207" y="98" type="line"/>
+      <point x="207" y="98" type="line"/>
+      <point x="216.38" y="158.3"/>
+      <point x="179.3" y="200.0"/>
+      <point x="119" y="200" type="curve"/>
+      <point x="119" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="23" y="200" type="line"/>
+      <point x="23" y="200" type="line"/>
+      <point x="23" y="200" type="line"/>
+      <point x="-37.300000000000004" y="200.0"/>
+      <point x="-83.62" y="158.3"/>
+      <point x="-93" y="98" type="curve"/>
+      <point x="-93" y="98" type="line"/>
+      <point x="-93" y="98" type="line"/>
+      <point x="9" y="98" type="line"/>
+      <point x="9" y="98" type="line"/>
+      <point x="9.0" y="98.0"/>
+      <point x="9.0" y="98.0"/>
+      <point x="9" y="98" type="curve"/>
+      <point x="9" y="98" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.994,0.7266,0.7238,1</string>
+    </dict>
+  </lib>
+</glyph>

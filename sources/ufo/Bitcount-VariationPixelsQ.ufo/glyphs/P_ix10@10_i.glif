@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pix10@10_i" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="45.0" y="-2.0" type="line"/>
+      <point x="52.0" y="52.0" type="line"/>
+      <point x="52.0" y="52.0" type="line"/>
+      <point x="52.0" y="52.0"/>
+      <point x="52.0" y="52.0"/>
+      <point x="52.0" y="52.0" type="curve"/>
+      <point x="52.0" y="52.0" type="line"/>
+      <point x="-1.0" y="52.0" type="line"/>
+      <point x="-2.0" y="48.0" type="line"/>
+      <point x="-2.0" y="48.0" type="line"/>
+      <point x="27.48" y="48.0"/>
+      <point x="45.02" y="27.48"/>
+      <point x="41.0" y="-2.0" type="curve"/>
+      <point x="41.0" y="-2.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="41.0" y="-2.0" type="line"/>
+      <point x="45.0" y="-2.0" type="line"/>
+      <point x="45.0" y="-2.0" type="line"/>
+      <point x="49.02" y="27.48"/>
+      <point x="71.52" y="48.0"/>
+      <point x="101.0" y="48.0" type="curve"/>
+      <point x="101.0" y="48.0" type="line"/>
+      <point x="102.0" y="52.0" type="line"/>
+      <point x="48.0" y="52.0" type="line"/>
+      <point x="48.0" y="52.0" type="line"/>
+      <point x="48.0" y="52.0"/>
+      <point x="48.0" y="52.0"/>
+      <point x="48.0" y="52.0" type="curve"/>
+      <point x="48.0" y="52.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="56.0" y="102.0" type="line"/>
+      <point x="48.0" y="48.0" type="line"/>
+      <point x="48.0" y="48.0" type="line"/>
+      <point x="48.0" y="48.0"/>
+      <point x="48.0" y="48.0"/>
+      <point x="48.0" y="48.0" type="curve"/>
+      <point x="48.0" y="48.0" type="line"/>
+      <point x="101.0" y="48.0" type="line"/>
+      <point x="102.0" y="52.0" type="line"/>
+      <point x="102.0" y="52.0" type="line"/>
+      <point x="72.52" y="52.0"/>
+      <point x="55.98" y="72.52"/>
+      <point x="60.0" y="102.0" type="curve"/>
+      <point x="60.0" y="102.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="60.0" y="102.0" type="line"/>
+      <point x="56.0" y="102.0" type="line"/>
+      <point x="56.0" y="102.0" type="line"/>
+      <point x="51.98" y="72.52"/>
+      <point x="28.48" y="52.0"/>
+      <point x="-1.0" y="52.0" type="curve"/>
+      <point x="-1.0" y="52.0" type="line"/>
+      <point x="-2.0" y="48.0" type="line"/>
+      <point x="52.0" y="48.0" type="line"/>
+      <point x="52.0" y="48.0" type="line"/>
+      <point x="52.0" y="48.0"/>
+      <point x="52.0" y="48.0"/>
+      <point x="52.0" y="48.0" type="curve"/>
+      <point x="52.0" y="48.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.994,0.7266,0.7238,1</string>
+    </dict>
+  </lib>
+</glyph>

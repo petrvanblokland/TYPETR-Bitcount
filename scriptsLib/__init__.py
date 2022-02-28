@@ -1,25 +1,40 @@
 #
 #   Bitcount production scripts
 #
+import os, shutil
+
+# This is the common share glyph name, that all Bitcount glyph refer
+# to as component. But replacing this glyph by the pixel shape that
+# is bound to a certain location, all glyphs in the UFO’s will show
+# the right pixel shape accordingly.
+PIXEL_NAME = 'px'
+
 SOURCES_PATH = 'sources/'
 UFO_PATH = SOURCES_PATH + 'ufo/'
 FEATURES_PATH = SOURCES_PATH + 'features/'
 MASTERS_PATH = '_masters/'
+MASTERS_GRID_PATH = MASTERS_PATH + 'grid/'
+MASTERS_MONO_PATH = MASTERS_PATH + 'mono/'
+MASTERS_PROP_PATH = MASTERS_PATH + 'prop/'
+MASTER_PATHS = (MASTERS_GRID_PATH, MASTERS_MONO_PATH, MASTERS_PROP_PATH)
 
 # Name parts to auto-construct generated master UFO names.
 BITCOUNT = 'Bitcount'
 GRID = 'Grid'
 MONO = 'Mono'
 PROP = 'Prop'
-TYPES = (GRID, MONO, PROP)
+VARIANTS = (GRID, MONO, PROP)
 SINGLE = 'Single'
 DOUBLE = 'Double'
 STEMS = (SINGLE, DOUBLE)
 
+# Source UFO that contains all separate pixel shapes.
+#VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
+VARIATION_PIXELS = 'Bitcount-VariationPixelsQ.ufo' # QUadratic curves in pixels
+
 # Source masters in sources/ufo/, used to copy into _masters/ with replaced pixel shape.
-VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
 GRID_DOUBLE = 'Bitcount_Grid_Double.ufo'
-GRID_SINGLE_ITALIC = 'Bitcount_Grid_Single_Italic.ufo'
+GRID_DOUBLE_ITALIC = 'Bitcount_Grid_Double_Italic.ufo'
 GRID_SINGLE = 'Bitcount_Grid_Single.ufo'
 GRID_SINGLE_ITALIC = 'Bitcount_Grid_Single_Italic.ufo'
 MONO_DOUBLE = 'Bitcount_Mono_Double.ufo'
@@ -32,38 +47,45 @@ PROP_SINGLE = 'Bitcount_Prop_Single.ufo'
 PROP_SINGLE_ITALIC = 'Bitcount_Prop_Single-Italic.ufo'
 
 # Pixel weight sizes in pixel glyph names, this is the stem width of Bitcount glyphs
-THIN = 60
-BOOK = 80
-REGULAR = 100 
-SEMIBOLD = 116
-BOLD = 160
-BLACK = 200
-WEIGHTS = (THIN, BOOK, REGULAR, SEMIBOLD, BOLD, BLACK)
+THIN = 0
+#BOOK = 80
+REGULAR = 500 
+#SEMIBOLD = 116
+#BOLD = 160
+BLACK = 1000
+#WEIGHTS = (THIN, BOOK, REGULAR, SEMIBOLD, BOLD, BLACK)
 
 CLOSED_QUAD = 0
 OPEN_QUAD = 1000
 
-FILLED = 0
-LINE = 1000
-
-# Shapes
-CIRCLE = 0
-SQUARE = 500
-PLUS = 1000
-SHAPE_NAMES = {
-    CIRCLE: 'Circle', 
-    SQUARE: 'Square', 
-    PLUS: 'Plus',
-}
-
+# Style
 ROMAN = 0
 ITALIC = 1000
+
+# Shapes
+# There are 12 separate shapes in the pixels fonts, that get distributes on ths SHPE axis.
+
+# Convert the shape index number to an actual axis value
+# This values depends on the amount of different shapes to fit in SHPE_MAX
+SHPE2VALUE = {
+    1:  0,
+    2:  90,
+    3:  180,
+    4:  270,
+    5:  360,
+    6:  450,
+    7:  540,
+    8:  630,
+    9:  720,
+    10: 810,
+    11: 900,
+    12: 1000,
+}
 
 # Axis values: Minimum, Default, Maximum
 wght_MIN, wght_DEF, wght_MAX = wght_AXIS = (THIN, REGULAR, BLACK) 
 OPEN_MIN, OPEN_DEF, OPEN_MAX = OPEN_AXIS = (CLOSED_QUAD, CLOSED_QUAD, OPEN_QUAD) # Connected or open quadrants
-LINE_MIN, LINE_DEF, LINE_MAX = LINE_AXIS = (FILLED, FILLED, LINE) # Thickness of outline
-SHPE_MIN, SHPE_DEF, SHPE_MAX = SHPE_AXIS = (CIRCLE, CIRCLE, PLUS) # Catalog of a sequence of pixel variations
+SHPE_MIN, SHPE_DEF, SHPE_MAX = SHPE_AXIS = (0, 0, 1000) # Catalog of a sequence of pixel variations
 slnt_MIN, slnt_DEF, slnt_MAX = slnt_AXIS = (ROMAN, ROMAN, ITALIC) # Slant angle
 
 # Total number of masters:
@@ -154,7 +176,7 @@ def copyUFO(srcPath, dstPath):
         assert dstPath.endswith('.ufo'), ('Wrong destination path %s' % dstPath)
     shutil.copytree(srcPath, dstPath)
 
-def copyUFOs(srcDirPath, dstDirPath):
+def XXXcopyUFOs(srcDirPath, dstDirPath):
     """Copy all UFO's in the srcDirPath to dstDirPath.
     """
     if not srcDirPath.endswith('/'):
@@ -168,5 +190,21 @@ def copyUFOs(srcDirPath, dstDirPath):
             shutil.copytree(srcDirPath + fileName, dstDirPath + fileName)
             copiedFiles.append(fileName)
     return copiedFiles
-   
+ 
+def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=True):
+    """If dstFont is omitted, then the dstGlyphName (into the same font) should be defined.
+    If dstGlyphName is omitted, then dstFont (same glyph into another font) should be defined.
+    Note that this also overwrites/copies the anchors.
+    """
+    assert glyphName in srcFont, ('### Glyph "%s" does not exist source font "%s"' % (glyphName, srcFont.path))
+    if dstFont is None:
+        dstFont = srcFont
+    if dstGlyphName is None:
+        dstGlyphName = glyphName
+    assert srcFont != dstFont or glyphName != dstGlyphName, ('### Either dstFont or dstGlyphName should be defined.')
+    srcGlyph = srcFont[glyphName]
+    #dstFont.insertGlyph(srcGlyph, name=dstGlyphName)
+    dstFont[dstGlyphName] = srcGlyph
+    #return dstFont[dstGlyphName]
+  
  

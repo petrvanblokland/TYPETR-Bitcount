@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pixel@MODEL_i" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="43" y="0.0" type="line"/>
+      <point x="50" y="50.0" type="line"/>
+      <point x="50" y="50.0" type="line"/>
+      <point x="50.0" y="50.0"/>
+      <point x="50.0" y="50.0"/>
+      <point x="50" y="50.0" type="curve"/>
+      <point x="50" y="50.0" type="line"/>
+      <point x="0" y="50.0" type="line"/>
+      <point x="-7" y="0.0" type="line"/>
+      <point x="-7" y="0.0" type="line"/>
+      <point x="-7.0" y="0.0"/>
+      <point x="-7.0" y="0.0"/>
+      <point x="-7" y="0.0" type="curve"/>
+      <point x="-7" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="43.0" y="0.0" type="line"/>
+      <point x="93.0" y="0.0" type="line"/>
+      <point x="93.0" y="0.0" type="line"/>
+      <point x="93.0" y="0.0"/>
+      <point x="93.0" y="0.0"/>
+      <point x="93.0" y="0.0" type="curve"/>
+      <point x="93.0" y="0.0" type="line"/>
+      <point x="100.0" y="50.0" type="line"/>
+      <point x="50.0" y="50.0" type="line"/>
+      <point x="50.0" y="50.0" type="line"/>
+      <point x="50.0" y="50.0"/>
+      <point x="50.0" y="50.0"/>
+      <point x="50.0" y="50.0" type="curve"/>
+      <point x="50.0" y="50.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="57.0" y="100.0" type="line"/>
+      <point x="7.0" y="100.0" type="line"/>
+      <point x="7.0" y="100.0" type="line"/>
+      <point x="7.0" y="100.0"/>
+      <point x="7.0" y="100.0"/>
+      <point x="7.0" y="100.0" type="curve"/>
+      <point x="7.0" y="100.0" type="line"/>
+      <point x="0.0" y="50.0" type="line"/>
+      <point x="50.0" y="50.0" type="line"/>
+      <point x="50.0" y="50.0" type="line"/>
+      <point x="50.0" y="50.0"/>
+      <point x="50.0" y="50.0"/>
+      <point x="50.0" y="50.0" type="curve"/>
+      <point x="50.0" y="50.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="57.0" y="100.0" type="line"/>
+      <point x="50.0" y="50.0" type="line"/>
+      <point x="50.0" y="50.0" type="line"/>
+      <point x="50.0" y="50.0"/>
+      <point x="50.0" y="50.0"/>
+      <point x="50.0" y="50.0" type="curve"/>
+      <point x="50.0" y="50.0" type="line"/>
+      <point x="100.0" y="50.0" type="line"/>
+      <point x="107.0" y="100.0" type="line"/>
+      <point x="107.0" y="100.0" type="line"/>
+      <point x="107.0" y="100.0"/>
+      <point x="107.0" y="100.0"/>
+      <point x="107.0" y="100.0" type="curve"/>
+      <point x="107.0" y="100.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.994,0.7266,0.7238,1</string>
+    </dict>
+  </lib>
+</glyph>
