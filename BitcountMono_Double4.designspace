@@ -7,7 +7,7 @@
 		<axis default="0" maximum="1000" minimum="0" name="Slanted" tag="slnt"/>
 	</axes>
 	<sources>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght500.ufo" name="Bitcount Mono Double-0" stylename="OPEN0_SHPE0_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght500.ufo" name="Bitcount Mono Double-0" stylename="OPEN0_SHPE0_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -16,7 +16,7 @@
 			</location>
 			<info copy="1"/>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght0.ufo" name="Bitcount Mono Double-1" stylename="OPEN0_SHPE0_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght0.ufo" name="Bitcount Mono Double-1" stylename="OPEN0_SHPE0_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -24,7 +24,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE0_slnt1000_wght0.ufo" name="Bitcount Mono Double-2" stylename="OPEN0_SHPE0_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt1000_wght0.ufo" name="Bitcount Mono Double-2" stylename="OPEN0_SHPE0_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -32,7 +32,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght0.ufo" name="Bitcount Mono Double-3" stylename="OPEN0_SHPE90_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght0.ufo" name="Bitcount Mono Double-3" stylename="OPEN0_SHPE90_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -40,15 +40,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght0.ufo" name="Bitcount Mono Double-4" stylename="OPEN0_SHPE90_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght0.ufo" name="Bitcount Mono Double-5" stylename="OPEN0_SHPE90_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght0.ufo" name="Bitcount Mono Double-5" stylename="OPEN0_SHPE90_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -56,15 +48,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght0.ufo" name="Bitcount Mono Double-6" stylename="OPEN0_SHPE90_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght0.ufo" name="Bitcount Mono Double-7" stylename="OPEN0_SHPE180_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght0.ufo" name="Bitcount Mono Double-7" stylename="OPEN0_SHPE180_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -72,15 +56,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght0.ufo" name="Bitcount Mono Double-8" stylename="OPEN0_SHPE180_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght0.ufo" name="Bitcount Mono Double-9" stylename="OPEN0_SHPE180_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght0.ufo" name="Bitcount Mono Double-9" stylename="OPEN0_SHPE180_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -88,15 +64,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght0.ufo" name="Bitcount Mono Double-10" stylename="OPEN0_SHPE180_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght0.ufo" name="Bitcount Mono Double-11" stylename="OPEN0_SHPE270_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght0.ufo" name="Bitcount Mono Double-11" stylename="OPEN0_SHPE270_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -104,15 +72,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght0.ufo" name="Bitcount Mono Double-12" stylename="OPEN0_SHPE270_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght0.ufo" name="Bitcount Mono Double-13" stylename="OPEN0_SHPE270_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght0.ufo" name="Bitcount Mono Double-13" stylename="OPEN0_SHPE270_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -120,15 +80,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght0.ufo" name="Bitcount Mono Double-14" stylename="OPEN0_SHPE270_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght0.ufo" name="Bitcount Mono Double-15" stylename="OPEN0_SHPE360_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght0.ufo" name="Bitcount Mono Double-15" stylename="OPEN0_SHPE360_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -136,15 +88,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght0.ufo" name="Bitcount Mono Double-16" stylename="OPEN0_SHPE360_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght0.ufo" name="Bitcount Mono Double-17" stylename="OPEN0_SHPE360_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght0.ufo" name="Bitcount Mono Double-17" stylename="OPEN0_SHPE360_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -152,15 +96,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght0.ufo" name="Bitcount Mono Double-18" stylename="OPEN0_SHPE360_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght0.ufo" name="Bitcount Mono Double-19" stylename="OPEN0_SHPE450_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght0.ufo" name="Bitcount Mono Double-19" stylename="OPEN0_SHPE450_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -168,15 +104,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght0.ufo" name="Bitcount Mono Double-20" stylename="OPEN0_SHPE450_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght0.ufo" name="Bitcount Mono Double-21" stylename="OPEN0_SHPE450_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght0.ufo" name="Bitcount Mono Double-21" stylename="OPEN0_SHPE450_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -184,15 +112,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght0.ufo" name="Bitcount Mono Double-22" stylename="OPEN0_SHPE450_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght0.ufo" name="Bitcount Mono Double-23" stylename="OPEN0_SHPE540_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght0.ufo" name="Bitcount Mono Double-23" stylename="OPEN0_SHPE540_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -200,15 +120,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght0.ufo" name="Bitcount Mono Double-24" stylename="OPEN0_SHPE540_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght0.ufo" name="Bitcount Mono Double-25" stylename="OPEN0_SHPE540_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght0.ufo" name="Bitcount Mono Double-25" stylename="OPEN0_SHPE540_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -216,15 +128,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght0.ufo" name="Bitcount Mono Double-26" stylename="OPEN0_SHPE540_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght0.ufo" name="Bitcount Mono Double-27" stylename="OPEN0_SHPE630_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght0.ufo" name="Bitcount Mono Double-27" stylename="OPEN0_SHPE630_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -232,15 +136,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght0.ufo" name="Bitcount Mono Double-28" stylename="OPEN0_SHPE630_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght0.ufo" name="Bitcount Mono Double-29" stylename="OPEN0_SHPE630_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght0.ufo" name="Bitcount Mono Double-29" stylename="OPEN0_SHPE630_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -248,15 +144,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght0.ufo" name="Bitcount Mono Double-30" stylename="OPEN0_SHPE630_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght0.ufo" name="Bitcount Mono Double-31" stylename="OPEN0_SHPE720_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght0.ufo" name="Bitcount Mono Double-31" stylename="OPEN0_SHPE720_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -264,15 +152,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght0.ufo" name="Bitcount Mono Double-32" stylename="OPEN0_SHPE720_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght0.ufo" name="Bitcount Mono Double-33" stylename="OPEN0_SHPE720_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght0.ufo" name="Bitcount Mono Double-33" stylename="OPEN0_SHPE720_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -280,15 +160,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght0.ufo" name="Bitcount Mono Double-34" stylename="OPEN0_SHPE720_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght0.ufo" name="Bitcount Mono Double-35" stylename="OPEN0_SHPE810_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght0.ufo" name="Bitcount Mono Double-35" stylename="OPEN0_SHPE810_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -296,15 +168,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght0.ufo" name="Bitcount Mono Double-36" stylename="OPEN0_SHPE810_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght0.ufo" name="Bitcount Mono Double-37" stylename="OPEN0_SHPE810_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght0.ufo" name="Bitcount Mono Double-37" stylename="OPEN0_SHPE810_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -312,15 +176,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght0.ufo" name="Bitcount Mono Double-38" stylename="OPEN0_SHPE810_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght0.ufo" name="Bitcount Mono Double-39" stylename="OPEN0_SHPE900_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght0.ufo" name="Bitcount Mono Double-39" stylename="OPEN0_SHPE900_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -328,15 +184,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght0.ufo" name="Bitcount Mono Double-40" stylename="OPEN0_SHPE900_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght0.ufo" name="Bitcount Mono Double-41" stylename="OPEN0_SHPE900_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght0.ufo" name="Bitcount Mono Double-41" stylename="OPEN0_SHPE900_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -344,15 +192,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght0.ufo" name="Bitcount Mono Double-42" stylename="OPEN0_SHPE900_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE1000_slnt0_wght0.ufo" name="Bitcount Mono Double-43" stylename="OPEN0_SHPE1000_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE1000_slnt0_wght0.ufo" name="Bitcount Mono Double-43" stylename="OPEN0_SHPE1000_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -360,7 +200,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE1000_slnt1000_wght0.ufo" name="Bitcount Mono Double-44" stylename="OPEN0_SHPE1000_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE1000_slnt1000_wght0.ufo" name="Bitcount Mono Double-44" stylename="OPEN0_SHPE1000_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
@@ -368,7 +208,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE0_slnt0_wght0.ufo" name="Bitcount Mono Double-45" stylename="OPEN1000_SHPE0_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE0_slnt0_wght0.ufo" name="Bitcount Mono Double-45" stylename="OPEN1000_SHPE0_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -376,7 +216,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE0_slnt1000_wght0.ufo" name="Bitcount Mono Double-46" stylename="OPEN1000_SHPE0_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE0_slnt1000_wght0.ufo" name="Bitcount Mono Double-46" stylename="OPEN1000_SHPE0_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -384,7 +224,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght0.ufo" name="Bitcount Mono Double-47" stylename="OPEN1000_SHPE90_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght0.ufo" name="Bitcount Mono Double-47" stylename="OPEN1000_SHPE90_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -392,15 +232,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght0.ufo" name="Bitcount Mono Double-48" stylename="OPEN1000_SHPE90_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght0.ufo" name="Bitcount Mono Double-49" stylename="OPEN1000_SHPE90_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght0.ufo" name="Bitcount Mono Double-49" stylename="OPEN1000_SHPE90_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -408,15 +240,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght0.ufo" name="Bitcount Mono Double-50" stylename="OPEN1000_SHPE90_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght0.ufo" name="Bitcount Mono Double-51" stylename="OPEN1000_SHPE180_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght0.ufo" name="Bitcount Mono Double-51" stylename="OPEN1000_SHPE180_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -424,15 +248,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght0.ufo" name="Bitcount Mono Double-52" stylename="OPEN1000_SHPE180_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght0.ufo" name="Bitcount Mono Double-53" stylename="OPEN1000_SHPE180_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght0.ufo" name="Bitcount Mono Double-53" stylename="OPEN1000_SHPE180_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -440,15 +256,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght0.ufo" name="Bitcount Mono Double-54" stylename="OPEN1000_SHPE180_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght0.ufo" name="Bitcount Mono Double-55" stylename="OPEN1000_SHPE270_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght0.ufo" name="Bitcount Mono Double-55" stylename="OPEN1000_SHPE270_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -456,15 +264,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght0.ufo" name="Bitcount Mono Double-56" stylename="OPEN1000_SHPE270_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght0.ufo" name="Bitcount Mono Double-57" stylename="OPEN1000_SHPE270_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght0.ufo" name="Bitcount Mono Double-57" stylename="OPEN1000_SHPE270_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -472,15 +272,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght0.ufo" name="Bitcount Mono Double-58" stylename="OPEN1000_SHPE270_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght0.ufo" name="Bitcount Mono Double-59" stylename="OPEN1000_SHPE360_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght0.ufo" name="Bitcount Mono Double-59" stylename="OPEN1000_SHPE360_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -488,15 +280,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght0.ufo" name="Bitcount Mono Double-60" stylename="OPEN1000_SHPE360_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght0.ufo" name="Bitcount Mono Double-61" stylename="OPEN1000_SHPE360_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght0.ufo" name="Bitcount Mono Double-61" stylename="OPEN1000_SHPE360_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -504,15 +288,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght0.ufo" name="Bitcount Mono Double-62" stylename="OPEN1000_SHPE360_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght0.ufo" name="Bitcount Mono Double-63" stylename="OPEN1000_SHPE450_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght0.ufo" name="Bitcount Mono Double-63" stylename="OPEN1000_SHPE450_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -520,15 +296,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght0.ufo" name="Bitcount Mono Double-64" stylename="OPEN1000_SHPE450_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght0.ufo" name="Bitcount Mono Double-65" stylename="OPEN1000_SHPE450_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght0.ufo" name="Bitcount Mono Double-65" stylename="OPEN1000_SHPE450_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -536,15 +304,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght0.ufo" name="Bitcount Mono Double-66" stylename="OPEN1000_SHPE450_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght0.ufo" name="Bitcount Mono Double-67" stylename="OPEN1000_SHPE540_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght0.ufo" name="Bitcount Mono Double-67" stylename="OPEN1000_SHPE540_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -552,15 +312,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght0.ufo" name="Bitcount Mono Double-68" stylename="OPEN1000_SHPE540_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght0.ufo" name="Bitcount Mono Double-69" stylename="OPEN1000_SHPE540_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght0.ufo" name="Bitcount Mono Double-69" stylename="OPEN1000_SHPE540_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -568,15 +320,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght0.ufo" name="Bitcount Mono Double-70" stylename="OPEN1000_SHPE540_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght0.ufo" name="Bitcount Mono Double-71" stylename="OPEN1000_SHPE630_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght0.ufo" name="Bitcount Mono Double-71" stylename="OPEN1000_SHPE630_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -584,15 +328,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght0.ufo" name="Bitcount Mono Double-72" stylename="OPEN1000_SHPE630_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght0.ufo" name="Bitcount Mono Double-73" stylename="OPEN1000_SHPE630_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght0.ufo" name="Bitcount Mono Double-73" stylename="OPEN1000_SHPE630_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -600,15 +336,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght0.ufo" name="Bitcount Mono Double-74" stylename="OPEN1000_SHPE630_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght0.ufo" name="Bitcount Mono Double-75" stylename="OPEN1000_SHPE720_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght0.ufo" name="Bitcount Mono Double-75" stylename="OPEN1000_SHPE720_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -616,15 +344,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght0.ufo" name="Bitcount Mono Double-76" stylename="OPEN1000_SHPE720_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght0.ufo" name="Bitcount Mono Double-77" stylename="OPEN1000_SHPE720_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght0.ufo" name="Bitcount Mono Double-77" stylename="OPEN1000_SHPE720_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -632,15 +352,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght0.ufo" name="Bitcount Mono Double-78" stylename="OPEN1000_SHPE720_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght0.ufo" name="Bitcount Mono Double-79" stylename="OPEN1000_SHPE810_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght0.ufo" name="Bitcount Mono Double-79" stylename="OPEN1000_SHPE810_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -648,15 +360,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght0.ufo" name="Bitcount Mono Double-80" stylename="OPEN1000_SHPE810_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght0.ufo" name="Bitcount Mono Double-81" stylename="OPEN1000_SHPE810_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght0.ufo" name="Bitcount Mono Double-81" stylename="OPEN1000_SHPE810_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -664,15 +368,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght0.ufo" name="Bitcount Mono Double-82" stylename="OPEN1000_SHPE810_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght0.ufo" name="Bitcount Mono Double-83" stylename="OPEN1000_SHPE900_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght0.ufo" name="Bitcount Mono Double-83" stylename="OPEN1000_SHPE900_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -680,15 +376,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght0.ufo" name="Bitcount Mono Double-84" stylename="OPEN1000_SHPE900_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght0.ufo" name="Bitcount Mono Double-85" stylename="OPEN1000_SHPE900_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght0.ufo" name="Bitcount Mono Double-85" stylename="OPEN1000_SHPE900_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -696,15 +384,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght0.ufo" name="Bitcount Mono Double-86" stylename="OPEN1000_SHPE900_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt0_wght0.ufo" name="Bitcount Mono Double-87" stylename="OPEN1000_SHPE1000_slnt0_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt0_wght0.ufo" name="Bitcount Mono Double-87" stylename="OPEN1000_SHPE1000_slnt0_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -712,7 +392,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt1000_wght0.ufo" name="Bitcount Mono Double-88" stylename="OPEN1000_SHPE1000_slnt1000_wght0">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt1000_wght0.ufo" name="Bitcount Mono Double-88" stylename="OPEN1000_SHPE1000_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -720,7 +400,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE0_slnt1000_wght500.ufo" name="Bitcount Mono Double-89" stylename="OPEN0_SHPE0_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt1000_wght500.ufo" name="Bitcount Mono Double-89" stylename="OPEN0_SHPE0_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -728,7 +408,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght500.ufo" name="Bitcount Mono Double-90" stylename="OPEN0_SHPE90_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght500.ufo" name="Bitcount Mono Double-90" stylename="OPEN0_SHPE90_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -736,15 +416,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght500.ufo" name="Bitcount Mono Double-91" stylename="OPEN0_SHPE90_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght500.ufo" name="Bitcount Mono Double-92" stylename="OPEN0_SHPE90_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght500.ufo" name="Bitcount Mono Double-92" stylename="OPEN0_SHPE90_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -752,15 +424,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght500.ufo" name="Bitcount Mono Double-93" stylename="OPEN0_SHPE90_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght500.ufo" name="Bitcount Mono Double-94" stylename="OPEN0_SHPE180_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght500.ufo" name="Bitcount Mono Double-94" stylename="OPEN0_SHPE180_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -768,15 +432,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght500.ufo" name="Bitcount Mono Double-95" stylename="OPEN0_SHPE180_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght500.ufo" name="Bitcount Mono Double-96" stylename="OPEN0_SHPE180_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght500.ufo" name="Bitcount Mono Double-96" stylename="OPEN0_SHPE180_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -784,15 +440,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght500.ufo" name="Bitcount Mono Double-97" stylename="OPEN0_SHPE180_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght500.ufo" name="Bitcount Mono Double-98" stylename="OPEN0_SHPE270_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght500.ufo" name="Bitcount Mono Double-98" stylename="OPEN0_SHPE270_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -800,15 +448,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght500.ufo" name="Bitcount Mono Double-99" stylename="OPEN0_SHPE270_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght500.ufo" name="Bitcount Mono Double-100" stylename="OPEN0_SHPE270_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght500.ufo" name="Bitcount Mono Double-100" stylename="OPEN0_SHPE270_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -816,15 +456,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght500.ufo" name="Bitcount Mono Double-101" stylename="OPEN0_SHPE270_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght500.ufo" name="Bitcount Mono Double-102" stylename="OPEN0_SHPE360_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght500.ufo" name="Bitcount Mono Double-102" stylename="OPEN0_SHPE360_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -832,15 +464,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght500.ufo" name="Bitcount Mono Double-103" stylename="OPEN0_SHPE360_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght500.ufo" name="Bitcount Mono Double-104" stylename="OPEN0_SHPE360_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght500.ufo" name="Bitcount Mono Double-104" stylename="OPEN0_SHPE360_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -848,15 +472,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght500.ufo" name="Bitcount Mono Double-105" stylename="OPEN0_SHPE360_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght500.ufo" name="Bitcount Mono Double-106" stylename="OPEN0_SHPE450_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght500.ufo" name="Bitcount Mono Double-106" stylename="OPEN0_SHPE450_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -864,15 +480,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght500.ufo" name="Bitcount Mono Double-107" stylename="OPEN0_SHPE450_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght500.ufo" name="Bitcount Mono Double-108" stylename="OPEN0_SHPE450_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght500.ufo" name="Bitcount Mono Double-108" stylename="OPEN0_SHPE450_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -880,15 +488,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght500.ufo" name="Bitcount Mono Double-109" stylename="OPEN0_SHPE450_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght500.ufo" name="Bitcount Mono Double-110" stylename="OPEN0_SHPE540_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght500.ufo" name="Bitcount Mono Double-110" stylename="OPEN0_SHPE540_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -896,15 +496,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght500.ufo" name="Bitcount Mono Double-111" stylename="OPEN0_SHPE540_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght500.ufo" name="Bitcount Mono Double-112" stylename="OPEN0_SHPE540_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght500.ufo" name="Bitcount Mono Double-112" stylename="OPEN0_SHPE540_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -912,15 +504,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght500.ufo" name="Bitcount Mono Double-113" stylename="OPEN0_SHPE540_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght500.ufo" name="Bitcount Mono Double-114" stylename="OPEN0_SHPE630_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght500.ufo" name="Bitcount Mono Double-114" stylename="OPEN0_SHPE630_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -928,15 +512,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght500.ufo" name="Bitcount Mono Double-115" stylename="OPEN0_SHPE630_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght500.ufo" name="Bitcount Mono Double-116" stylename="OPEN0_SHPE630_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght500.ufo" name="Bitcount Mono Double-116" stylename="OPEN0_SHPE630_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -944,15 +520,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght500.ufo" name="Bitcount Mono Double-117" stylename="OPEN0_SHPE630_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght500.ufo" name="Bitcount Mono Double-118" stylename="OPEN0_SHPE720_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght500.ufo" name="Bitcount Mono Double-118" stylename="OPEN0_SHPE720_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -960,15 +528,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght500.ufo" name="Bitcount Mono Double-119" stylename="OPEN0_SHPE720_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght500.ufo" name="Bitcount Mono Double-120" stylename="OPEN0_SHPE720_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght500.ufo" name="Bitcount Mono Double-120" stylename="OPEN0_SHPE720_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -976,15 +536,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght500.ufo" name="Bitcount Mono Double-121" stylename="OPEN0_SHPE720_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght500.ufo" name="Bitcount Mono Double-122" stylename="OPEN0_SHPE810_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght500.ufo" name="Bitcount Mono Double-122" stylename="OPEN0_SHPE810_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -992,15 +544,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght500.ufo" name="Bitcount Mono Double-123" stylename="OPEN0_SHPE810_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght500.ufo" name="Bitcount Mono Double-124" stylename="OPEN0_SHPE810_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght500.ufo" name="Bitcount Mono Double-124" stylename="OPEN0_SHPE810_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1008,15 +552,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght500.ufo" name="Bitcount Mono Double-125" stylename="OPEN0_SHPE810_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght500.ufo" name="Bitcount Mono Double-126" stylename="OPEN0_SHPE900_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght500.ufo" name="Bitcount Mono Double-126" stylename="OPEN0_SHPE900_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1024,15 +560,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght500.ufo" name="Bitcount Mono Double-127" stylename="OPEN0_SHPE900_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght500.ufo" name="Bitcount Mono Double-128" stylename="OPEN0_SHPE900_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght500.ufo" name="Bitcount Mono Double-128" stylename="OPEN0_SHPE900_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1040,15 +568,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght500.ufo" name="Bitcount Mono Double-129" stylename="OPEN0_SHPE900_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE1000_slnt0_wght500.ufo" name="Bitcount Mono Double-130" stylename="OPEN0_SHPE1000_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE1000_slnt0_wght500.ufo" name="Bitcount Mono Double-130" stylename="OPEN0_SHPE1000_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1056,7 +576,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE1000_slnt1000_wght500.ufo" name="Bitcount Mono Double-131" stylename="OPEN0_SHPE1000_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE1000_slnt1000_wght500.ufo" name="Bitcount Mono Double-131" stylename="OPEN0_SHPE1000_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1064,7 +584,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE0_slnt0_wght500.ufo" name="Bitcount Mono Double-132" stylename="OPEN1000_SHPE0_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE0_slnt0_wght500.ufo" name="Bitcount Mono Double-132" stylename="OPEN1000_SHPE0_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1072,7 +592,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE0_slnt1000_wght500.ufo" name="Bitcount Mono Double-133" stylename="OPEN1000_SHPE0_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE0_slnt1000_wght500.ufo" name="Bitcount Mono Double-133" stylename="OPEN1000_SHPE0_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1080,7 +600,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght500.ufo" name="Bitcount Mono Double-134" stylename="OPEN1000_SHPE90_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght500.ufo" name="Bitcount Mono Double-134" stylename="OPEN1000_SHPE90_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1088,15 +608,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght500.ufo" name="Bitcount Mono Double-135" stylename="OPEN1000_SHPE90_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght500.ufo" name="Bitcount Mono Double-136" stylename="OPEN1000_SHPE90_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght500.ufo" name="Bitcount Mono Double-136" stylename="OPEN1000_SHPE90_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1104,15 +616,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght500.ufo" name="Bitcount Mono Double-137" stylename="OPEN1000_SHPE90_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght500.ufo" name="Bitcount Mono Double-138" stylename="OPEN1000_SHPE180_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght500.ufo" name="Bitcount Mono Double-138" stylename="OPEN1000_SHPE180_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1120,15 +624,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght500.ufo" name="Bitcount Mono Double-139" stylename="OPEN1000_SHPE180_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght500.ufo" name="Bitcount Mono Double-140" stylename="OPEN1000_SHPE180_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght500.ufo" name="Bitcount Mono Double-140" stylename="OPEN1000_SHPE180_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1136,15 +632,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght500.ufo" name="Bitcount Mono Double-141" stylename="OPEN1000_SHPE180_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght500.ufo" name="Bitcount Mono Double-142" stylename="OPEN1000_SHPE270_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght500.ufo" name="Bitcount Mono Double-142" stylename="OPEN1000_SHPE270_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1152,15 +640,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght500.ufo" name="Bitcount Mono Double-143" stylename="OPEN1000_SHPE270_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght500.ufo" name="Bitcount Mono Double-144" stylename="OPEN1000_SHPE270_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght500.ufo" name="Bitcount Mono Double-144" stylename="OPEN1000_SHPE270_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1168,15 +648,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght500.ufo" name="Bitcount Mono Double-145" stylename="OPEN1000_SHPE270_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght500.ufo" name="Bitcount Mono Double-146" stylename="OPEN1000_SHPE360_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght500.ufo" name="Bitcount Mono Double-146" stylename="OPEN1000_SHPE360_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1184,15 +656,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght500.ufo" name="Bitcount Mono Double-147" stylename="OPEN1000_SHPE360_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght500.ufo" name="Bitcount Mono Double-148" stylename="OPEN1000_SHPE360_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght500.ufo" name="Bitcount Mono Double-148" stylename="OPEN1000_SHPE360_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1200,15 +664,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght500.ufo" name="Bitcount Mono Double-149" stylename="OPEN1000_SHPE360_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght500.ufo" name="Bitcount Mono Double-150" stylename="OPEN1000_SHPE450_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght500.ufo" name="Bitcount Mono Double-150" stylename="OPEN1000_SHPE450_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1216,15 +672,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght500.ufo" name="Bitcount Mono Double-151" stylename="OPEN1000_SHPE450_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght500.ufo" name="Bitcount Mono Double-152" stylename="OPEN1000_SHPE450_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght500.ufo" name="Bitcount Mono Double-152" stylename="OPEN1000_SHPE450_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1232,15 +680,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght500.ufo" name="Bitcount Mono Double-153" stylename="OPEN1000_SHPE450_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght500.ufo" name="Bitcount Mono Double-154" stylename="OPEN1000_SHPE540_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght500.ufo" name="Bitcount Mono Double-154" stylename="OPEN1000_SHPE540_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1248,15 +688,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght500.ufo" name="Bitcount Mono Double-155" stylename="OPEN1000_SHPE540_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght500.ufo" name="Bitcount Mono Double-156" stylename="OPEN1000_SHPE540_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght500.ufo" name="Bitcount Mono Double-156" stylename="OPEN1000_SHPE540_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1264,15 +696,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght500.ufo" name="Bitcount Mono Double-157" stylename="OPEN1000_SHPE540_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght500.ufo" name="Bitcount Mono Double-158" stylename="OPEN1000_SHPE630_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght500.ufo" name="Bitcount Mono Double-158" stylename="OPEN1000_SHPE630_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1280,15 +704,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght500.ufo" name="Bitcount Mono Double-159" stylename="OPEN1000_SHPE630_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght500.ufo" name="Bitcount Mono Double-160" stylename="OPEN1000_SHPE630_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght500.ufo" name="Bitcount Mono Double-160" stylename="OPEN1000_SHPE630_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1296,15 +712,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght500.ufo" name="Bitcount Mono Double-161" stylename="OPEN1000_SHPE630_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght500.ufo" name="Bitcount Mono Double-162" stylename="OPEN1000_SHPE720_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght500.ufo" name="Bitcount Mono Double-162" stylename="OPEN1000_SHPE720_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1312,15 +720,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght500.ufo" name="Bitcount Mono Double-163" stylename="OPEN1000_SHPE720_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght500.ufo" name="Bitcount Mono Double-164" stylename="OPEN1000_SHPE720_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght500.ufo" name="Bitcount Mono Double-164" stylename="OPEN1000_SHPE720_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1328,15 +728,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght500.ufo" name="Bitcount Mono Double-165" stylename="OPEN1000_SHPE720_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght500.ufo" name="Bitcount Mono Double-166" stylename="OPEN1000_SHPE810_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght500.ufo" name="Bitcount Mono Double-166" stylename="OPEN1000_SHPE810_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1344,15 +736,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght500.ufo" name="Bitcount Mono Double-167" stylename="OPEN1000_SHPE810_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght500.ufo" name="Bitcount Mono Double-168" stylename="OPEN1000_SHPE810_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght500.ufo" name="Bitcount Mono Double-168" stylename="OPEN1000_SHPE810_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1360,15 +744,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght500.ufo" name="Bitcount Mono Double-169" stylename="OPEN1000_SHPE810_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght500.ufo" name="Bitcount Mono Double-170" stylename="OPEN1000_SHPE900_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght500.ufo" name="Bitcount Mono Double-170" stylename="OPEN1000_SHPE900_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1376,15 +752,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght500.ufo" name="Bitcount Mono Double-171" stylename="OPEN1000_SHPE900_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght500.ufo" name="Bitcount Mono Double-172" stylename="OPEN1000_SHPE900_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght500.ufo" name="Bitcount Mono Double-172" stylename="OPEN1000_SHPE900_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1392,15 +760,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght500.ufo" name="Bitcount Mono Double-173" stylename="OPEN1000_SHPE900_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt0_wght500.ufo" name="Bitcount Mono Double-174" stylename="OPEN1000_SHPE1000_slnt0_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt0_wght500.ufo" name="Bitcount Mono Double-174" stylename="OPEN1000_SHPE1000_slnt0_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1408,7 +768,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt1000_wght500.ufo" name="Bitcount Mono Double-175" stylename="OPEN1000_SHPE1000_slnt1000_wght500">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt1000_wght500.ufo" name="Bitcount Mono Double-175" stylename="OPEN1000_SHPE1000_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1416,7 +776,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght1000.ufo" name="Bitcount Mono Double-176" stylename="OPEN0_SHPE0_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght1000.ufo" name="Bitcount Mono Double-176" stylename="OPEN0_SHPE0_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1424,7 +784,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE0_slnt1000_wght1000.ufo" name="Bitcount Mono Double-177" stylename="OPEN0_SHPE0_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt1000_wght1000.ufo" name="Bitcount Mono Double-177" stylename="OPEN0_SHPE0_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1432,7 +792,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght1000.ufo" name="Bitcount Mono Double-178" stylename="OPEN0_SHPE90_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght1000.ufo" name="Bitcount Mono Double-178" stylename="OPEN0_SHPE90_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1440,15 +800,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt0_wght1000.ufo" name="Bitcount Mono Double-179" stylename="OPEN0_SHPE90_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Mono Double-180" stylename="OPEN0_SHPE90_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Mono Double-180" stylename="OPEN0_SHPE90_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1456,15 +808,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Mono Double-181" stylename="OPEN0_SHPE90_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght1000.ufo" name="Bitcount Mono Double-182" stylename="OPEN0_SHPE180_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght1000.ufo" name="Bitcount Mono Double-182" stylename="OPEN0_SHPE180_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1472,15 +816,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt0_wght1000.ufo" name="Bitcount Mono Double-183" stylename="OPEN0_SHPE180_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Mono Double-184" stylename="OPEN0_SHPE180_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Mono Double-184" stylename="OPEN0_SHPE180_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1488,15 +824,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Mono Double-185" stylename="OPEN0_SHPE180_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght1000.ufo" name="Bitcount Mono Double-186" stylename="OPEN0_SHPE270_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght1000.ufo" name="Bitcount Mono Double-186" stylename="OPEN0_SHPE270_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1504,15 +832,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt0_wght1000.ufo" name="Bitcount Mono Double-187" stylename="OPEN0_SHPE270_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Mono Double-188" stylename="OPEN0_SHPE270_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Mono Double-188" stylename="OPEN0_SHPE270_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1520,15 +840,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Mono Double-189" stylename="OPEN0_SHPE270_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght1000.ufo" name="Bitcount Mono Double-190" stylename="OPEN0_SHPE360_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght1000.ufo" name="Bitcount Mono Double-190" stylename="OPEN0_SHPE360_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1536,15 +848,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt0_wght1000.ufo" name="Bitcount Mono Double-191" stylename="OPEN0_SHPE360_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Mono Double-192" stylename="OPEN0_SHPE360_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Mono Double-192" stylename="OPEN0_SHPE360_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1552,15 +856,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Mono Double-193" stylename="OPEN0_SHPE360_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght1000.ufo" name="Bitcount Mono Double-194" stylename="OPEN0_SHPE450_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght1000.ufo" name="Bitcount Mono Double-194" stylename="OPEN0_SHPE450_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1568,15 +864,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt0_wght1000.ufo" name="Bitcount Mono Double-195" stylename="OPEN0_SHPE450_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Mono Double-196" stylename="OPEN0_SHPE450_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Mono Double-196" stylename="OPEN0_SHPE450_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1584,15 +872,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Mono Double-197" stylename="OPEN0_SHPE450_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght1000.ufo" name="Bitcount Mono Double-198" stylename="OPEN0_SHPE540_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght1000.ufo" name="Bitcount Mono Double-198" stylename="OPEN0_SHPE540_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1600,15 +880,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt0_wght1000.ufo" name="Bitcount Mono Double-199" stylename="OPEN0_SHPE540_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Mono Double-200" stylename="OPEN0_SHPE540_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Mono Double-200" stylename="OPEN0_SHPE540_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1616,15 +888,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Mono Double-201" stylename="OPEN0_SHPE540_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght1000.ufo" name="Bitcount Mono Double-202" stylename="OPEN0_SHPE630_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght1000.ufo" name="Bitcount Mono Double-202" stylename="OPEN0_SHPE630_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1632,15 +896,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt0_wght1000.ufo" name="Bitcount Mono Double-203" stylename="OPEN0_SHPE630_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Mono Double-204" stylename="OPEN0_SHPE630_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Mono Double-204" stylename="OPEN0_SHPE630_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1648,15 +904,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Mono Double-205" stylename="OPEN0_SHPE630_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght1000.ufo" name="Bitcount Mono Double-206" stylename="OPEN0_SHPE720_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght1000.ufo" name="Bitcount Mono Double-206" stylename="OPEN0_SHPE720_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1664,15 +912,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt0_wght1000.ufo" name="Bitcount Mono Double-207" stylename="OPEN0_SHPE720_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Mono Double-208" stylename="OPEN0_SHPE720_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Mono Double-208" stylename="OPEN0_SHPE720_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1680,15 +920,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Mono Double-209" stylename="OPEN0_SHPE720_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght1000.ufo" name="Bitcount Mono Double-210" stylename="OPEN0_SHPE810_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght1000.ufo" name="Bitcount Mono Double-210" stylename="OPEN0_SHPE810_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1696,15 +928,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt0_wght1000.ufo" name="Bitcount Mono Double-211" stylename="OPEN0_SHPE810_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Mono Double-212" stylename="OPEN0_SHPE810_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Mono Double-212" stylename="OPEN0_SHPE810_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1712,15 +936,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Mono Double-213" stylename="OPEN0_SHPE810_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght1000.ufo" name="Bitcount Mono Double-214" stylename="OPEN0_SHPE900_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght1000.ufo" name="Bitcount Mono Double-214" stylename="OPEN0_SHPE900_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1728,15 +944,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt0_wght1000.ufo" name="Bitcount Mono Double-215" stylename="OPEN0_SHPE900_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Mono Double-216" stylename="OPEN0_SHPE900_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Mono Double-216" stylename="OPEN0_SHPE900_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1744,15 +952,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Mono Double-217" stylename="OPEN0_SHPE900_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE1000_slnt0_wght1000.ufo" name="Bitcount Mono Double-218" stylename="OPEN0_SHPE1000_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE1000_slnt0_wght1000.ufo" name="Bitcount Mono Double-218" stylename="OPEN0_SHPE1000_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1760,7 +960,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN0_SHPE1000_slnt1000_wght1000.ufo" name="Bitcount Mono Double-219" stylename="OPEN0_SHPE1000_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN0_SHPE1000_slnt1000_wght1000.ufo" name="Bitcount Mono Double-219" stylename="OPEN0_SHPE1000_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
@@ -1768,7 +968,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE0_slnt0_wght1000.ufo" name="Bitcount Mono Double-220" stylename="OPEN1000_SHPE0_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE0_slnt0_wght1000.ufo" name="Bitcount Mono Double-220" stylename="OPEN1000_SHPE0_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1776,7 +976,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE0_slnt1000_wght1000.ufo" name="Bitcount Mono Double-221" stylename="OPEN1000_SHPE0_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE0_slnt1000_wght1000.ufo" name="Bitcount Mono Double-221" stylename="OPEN1000_SHPE0_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1784,7 +984,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght1000.ufo" name="Bitcount Mono Double-222" stylename="OPEN1000_SHPE90_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght1000.ufo" name="Bitcount Mono Double-222" stylename="OPEN1000_SHPE90_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1792,15 +992,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt0_wght1000.ufo" name="Bitcount Mono Double-223" stylename="OPEN1000_SHPE90_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Mono Double-224" stylename="OPEN1000_SHPE90_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Mono Double-224" stylename="OPEN1000_SHPE90_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1808,15 +1000,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Mono Double-225" stylename="OPEN1000_SHPE90_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght1000.ufo" name="Bitcount Mono Double-226" stylename="OPEN1000_SHPE180_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght1000.ufo" name="Bitcount Mono Double-226" stylename="OPEN1000_SHPE180_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1824,15 +1008,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt0_wght1000.ufo" name="Bitcount Mono Double-227" stylename="OPEN1000_SHPE180_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Mono Double-228" stylename="OPEN1000_SHPE180_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Mono Double-228" stylename="OPEN1000_SHPE180_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1840,15 +1016,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Mono Double-229" stylename="OPEN1000_SHPE180_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght1000.ufo" name="Bitcount Mono Double-230" stylename="OPEN1000_SHPE270_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght1000.ufo" name="Bitcount Mono Double-230" stylename="OPEN1000_SHPE270_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1856,15 +1024,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt0_wght1000.ufo" name="Bitcount Mono Double-231" stylename="OPEN1000_SHPE270_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Mono Double-232" stylename="OPEN1000_SHPE270_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Mono Double-232" stylename="OPEN1000_SHPE270_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1872,15 +1032,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Mono Double-233" stylename="OPEN1000_SHPE270_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght1000.ufo" name="Bitcount Mono Double-234" stylename="OPEN1000_SHPE360_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght1000.ufo" name="Bitcount Mono Double-234" stylename="OPEN1000_SHPE360_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1888,15 +1040,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt0_wght1000.ufo" name="Bitcount Mono Double-235" stylename="OPEN1000_SHPE360_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Mono Double-236" stylename="OPEN1000_SHPE360_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Mono Double-236" stylename="OPEN1000_SHPE360_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1904,15 +1048,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Mono Double-237" stylename="OPEN1000_SHPE360_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght1000.ufo" name="Bitcount Mono Double-238" stylename="OPEN1000_SHPE450_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght1000.ufo" name="Bitcount Mono Double-238" stylename="OPEN1000_SHPE450_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1920,15 +1056,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt0_wght1000.ufo" name="Bitcount Mono Double-239" stylename="OPEN1000_SHPE450_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Mono Double-240" stylename="OPEN1000_SHPE450_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Mono Double-240" stylename="OPEN1000_SHPE450_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1936,15 +1064,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Mono Double-241" stylename="OPEN1000_SHPE450_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght1000.ufo" name="Bitcount Mono Double-242" stylename="OPEN1000_SHPE540_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght1000.ufo" name="Bitcount Mono Double-242" stylename="OPEN1000_SHPE540_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1952,15 +1072,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt0_wght1000.ufo" name="Bitcount Mono Double-243" stylename="OPEN1000_SHPE540_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Mono Double-244" stylename="OPEN1000_SHPE540_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Mono Double-244" stylename="OPEN1000_SHPE540_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1968,15 +1080,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Mono Double-245" stylename="OPEN1000_SHPE540_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght1000.ufo" name="Bitcount Mono Double-246" stylename="OPEN1000_SHPE630_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght1000.ufo" name="Bitcount Mono Double-246" stylename="OPEN1000_SHPE630_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -1984,15 +1088,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt0_wght1000.ufo" name="Bitcount Mono Double-247" stylename="OPEN1000_SHPE630_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Mono Double-248" stylename="OPEN1000_SHPE630_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Mono Double-248" stylename="OPEN1000_SHPE630_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2000,15 +1096,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Mono Double-249" stylename="OPEN1000_SHPE630_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght1000.ufo" name="Bitcount Mono Double-250" stylename="OPEN1000_SHPE720_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght1000.ufo" name="Bitcount Mono Double-250" stylename="OPEN1000_SHPE720_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2016,15 +1104,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt0_wght1000.ufo" name="Bitcount Mono Double-251" stylename="OPEN1000_SHPE720_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Mono Double-252" stylename="OPEN1000_SHPE720_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Mono Double-252" stylename="OPEN1000_SHPE720_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2032,15 +1112,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Mono Double-253" stylename="OPEN1000_SHPE720_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght1000.ufo" name="Bitcount Mono Double-254" stylename="OPEN1000_SHPE810_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght1000.ufo" name="Bitcount Mono Double-254" stylename="OPEN1000_SHPE810_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2048,15 +1120,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt0_wght1000.ufo" name="Bitcount Mono Double-255" stylename="OPEN1000_SHPE810_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Mono Double-256" stylename="OPEN1000_SHPE810_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Mono Double-256" stylename="OPEN1000_SHPE810_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2064,15 +1128,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Mono Double-257" stylename="OPEN1000_SHPE810_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght1000.ufo" name="Bitcount Mono Double-258" stylename="OPEN1000_SHPE900_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght1000.ufo" name="Bitcount Mono Double-258" stylename="OPEN1000_SHPE900_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2080,15 +1136,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt0_wght1000.ufo" name="Bitcount Mono Double-259" stylename="OPEN1000_SHPE900_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Mono Double-260" stylename="OPEN1000_SHPE900_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Mono Double-260" stylename="OPEN1000_SHPE900_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2096,15 +1144,7 @@
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Mono Double-261" stylename="OPEN1000_SHPE900_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt0_wght1000.ufo" name="Bitcount Mono Double-262" stylename="OPEN1000_SHPE1000_slnt0_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt0_wght1000.ufo" name="Bitcount Mono Double-262" stylename="OPEN1000_SHPE1000_slnt0_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2112,7 +1152,7 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Mono Double" filename="_masters/mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt1000_wght1000.ufo" name="Bitcount Mono Double-263" stylename="OPEN1000_SHPE1000_slnt1000_wght1000">
+		<source familyname="Bitcount Mono Double" filename="_masters/Mono/BitcountMono_Double_OPEN1000_SHPE1000_slnt1000_wght1000.ufo" name="Bitcount Mono Double-263" stylename="OPEN1000_SHPE1000_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
@@ -2700,10 +1740,10 @@
 
 
 
-        <!-- Diamond Grid Light -->
+        <!-- Diamond Mono Light -->
         <instance familyname="Bitcount Mono Double"
-            name="Bitcount Mono Double Diamond Grid Light"
-            stylename="Diamond Grid Light"> 
+            name="Bitcount Mono Double Diamond Mono Light"
+            stylename="Diamond Mono Light"> 
             <location>
                 <dimension name="Weight" xvalue="210"/>
                 <dimension name="Open" xvalue="170"/>
@@ -2712,8 +1752,8 @@
             </location>
         </instance>
         <instance familyname="Bitcount Mono Double Italic"
-            name="Bitcount Mono Double Diamond Grid Light Italic"
-            stylename="Diamond Grid Light Italic"> 
+            name="Bitcount Mono Double Diamond Mono Light Italic"
+            stylename="Diamond Mono Light Italic"> 
             <location>
                 <dimension name="Weight" xvalue="210"/>
                 <dimension name="Open" xvalue="170"/>
@@ -2724,10 +1764,10 @@
 
 
 
-        <!-- Diamond Grid Light -->
+        <!-- Diamond Mono Light -->
         <instance familyname="Bitcount Mono Double"
-            name="Bitcount Mono Double Diamond Grid Light"
-            stylename="Diamond Grid Light"> 
+            name="Bitcount Mono Double Diamond Mono Light"
+            stylename="Diamond Mono Light"> 
             <location>
                 <dimension name="Weight" xvalue="210"/>
                 <dimension name="Open" xvalue="170"/>
@@ -2736,8 +1776,8 @@
             </location>
         </instance>
         <instance familyname="Bitcount Mono Double Italic"
-            name="Bitcount Mono Double Diamond Grid Light Italic"
-            stylename="Diamond Grid Light Italic"> 
+            name="Bitcount Mono Double Diamond Mono Light Italic"
+            stylename="Diamond Mono Light Italic"> 
             <location>
                 <dimension name="Weight" xvalue="210"/>
                 <dimension name="Open" xvalue="170"/>
@@ -2844,10 +1884,10 @@
 
 
 
-        <!-- Background Grid Circle -->
+        <!-- Background Mono Circle -->
         <instance familyname="Bitcount Mono Double"
-            name="Bitcount Mono Double Background Grid Circle"
-            stylename="Background Grid Circle"> 
+            name="Bitcount Mono Double Background Mono Circle"
+            stylename="Background Mono Circle"> 
             <location>
                 <dimension name="Weight" xvalue="260"/>
                 <dimension name="Open" xvalue="350"/>
@@ -2856,8 +1896,8 @@
             </location>
         </instance>
         <instance familyname="Bitcount Mono Double Italic"
-            name="Bitcount Mono Double Background Grid Circle Italic"
-            stylename="Background Grid Circle Italic"> 
+            name="Bitcount Mono Double Background Mono Circle Italic"
+            stylename="Background Mono Circle Italic"> 
             <location>
                 <dimension name="Weight" xvalue="260"/>
                 <dimension name="Open" xvalue="350"/>
@@ -3492,10 +2532,10 @@
 
 
 
-        <!-- Diamond Grid Regular -->
+        <!-- Diamond Mono Regular -->
         <instance familyname="Bitcount Mono Double"
-            name="Bitcount Mono Double Diamond Grid Regular"
-            stylename="Diamond Grid Regular"> 
+            name="Bitcount Mono Double Diamond Mono Regular"
+            stylename="Diamond Mono Regular"> 
             <location>
                 <dimension name="Weight" xvalue="500"/>
                 <dimension name="Open" xvalue="170"/>
@@ -3504,8 +2544,8 @@
             </location>
         </instance>
         <instance familyname="Bitcount Mono Double Italic"
-            name="Bitcount Mono Double Diamond Grid Regular Italic"
-            stylename="Diamond Grid Regular Italic"> 
+            name="Bitcount Mono Double Diamond Mono Regular Italic"
+            stylename="Diamond Mono Regular Italic"> 
             <location>
                 <dimension name="Weight" xvalue="500"/>
                 <dimension name="Open" xvalue="170"/>
@@ -3948,10 +2988,10 @@
 
 
 
-        <!-- Rounded Grid Bold -->
+        <!-- Rounded Mono Bold -->
         <instance familyname="Bitcount Mono Double"
-            name="Bitcount Mono Double Rounded Grid Bold"
-            stylename="Rounded Grid Bold"> 
+            name="Bitcount Mono Double Rounded Mono Bold"
+            stylename="Rounded Mono Bold"> 
             <location>
                 <dimension name="Weight" xvalue="580"/>
                 <dimension name="Open" xvalue="420"/>
@@ -3960,8 +3000,8 @@
             </location>
         </instance>
         <instance familyname="Bitcount Mono Double Italic"
-            name="Bitcount Mono Double Rounded Grid Bold Italic"
-            stylename="Rounded Grid Bold Italic"> 
+            name="Bitcount Mono Double Rounded Mono Bold Italic"
+            stylename="Rounded Mono Bold Italic"> 
             <location>
                 <dimension name="Weight" xvalue="580"/>
                 <dimension name="Open" xvalue="420"/>
@@ -4164,10 +3204,10 @@
 
 
 
-        <!-- Diamond Grid Bold -->
+        <!-- Diamond Mono Bold -->
         <instance familyname="Bitcount Mono Double"
-            name="Bitcount Mono Double Diamond Grid Bold"
-            stylename="Diamond Grid Bold"> 
+            name="Bitcount Mono Double Diamond Mono Bold"
+            stylename="Diamond Mono Bold"> 
             <location>
                 <dimension name="Weight" xvalue="700"/>
                 <dimension name="Open" xvalue="170"/>
@@ -4176,8 +3216,8 @@
             </location>
         </instance>
         <instance familyname="Bitcount Mono Double Italic"
-            name="Bitcount Mono Double Diamond Grid Bold Italic"
-            stylename="Diamond Grid Bold Italic"> 
+            name="Bitcount Mono Double Diamond Mono Bold Italic"
+            stylename="Diamond Mono Bold Italic"> 
             <location>
                 <dimension name="Weight" xvalue="700"/>
                 <dimension name="Open" xvalue="170"/>
@@ -4404,10 +3444,10 @@
 
 
 
-        <!-- Diamond Grid Black -->
+        <!-- Diamond Mono Black -->
         <instance familyname="Bitcount Mono Double"
-            name="Bitcount Mono Double Diamond Grid Black"
-            stylename="Diamond Grid Black"> 
+            name="Bitcount Mono Double Diamond Mono Black"
+            stylename="Diamond Mono Black"> 
             <location>
                 <dimension name="Weight" xvalue="840"/>
                 <dimension name="Open" xvalue="170"/>
@@ -4416,8 +3456,8 @@
             </location>
         </instance>
         <instance familyname="Bitcount Mono Double Italic"
-            name="Bitcount Mono Double Diamond Grid Black Italic"
-            stylename="Diamond Grid Black Italic"> 
+            name="Bitcount Mono Double Diamond Mono Black Italic"
+            stylename="Diamond Mono Black Italic"> 
             <location>
                 <dimension name="Weight" xvalue="840"/>
                 <dimension name="Open" xvalue="170"/>

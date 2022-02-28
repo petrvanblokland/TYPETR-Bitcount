@@ -51,7 +51,7 @@ if MAKE_MASTERS:
 
 DESIGN_SPACE_PATHS = [
     'BitcountGrid_Double%s.designspace' % axisCount,
-    #'BitcountGrid_Single%s.designspace' % axisCount,
+    'BitcountGrid_Single%s.designspace' % axisCount,
     #'BitcountMono_Double%s.designspace' % axisCount,
     #'BitcountMono_Single%s.designspace' % axisCount,
     #'BitcountProp_Double%s.designspace' % axisCount,

@@ -40,27 +40,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt0_wght0.ufo" name="Bitcount Grid Single-4" stylename="OPEN0_SHPE90_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt1000_wght0.ufo" name="Bitcount Grid Single-5" stylename="OPEN0_SHPE90_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="90"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt1000_wght0.ufo" name="Bitcount Grid Single-6" stylename="OPEN0_SHPE90_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -72,27 +56,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt0_wght0.ufo" name="Bitcount Grid Single-8" stylename="OPEN0_SHPE180_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt1000_wght0.ufo" name="Bitcount Grid Single-9" stylename="OPEN0_SHPE180_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="180"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt1000_wght0.ufo" name="Bitcount Grid Single-10" stylename="OPEN0_SHPE180_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -104,27 +72,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt0_wght0.ufo" name="Bitcount Grid Single-12" stylename="OPEN0_SHPE270_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt1000_wght0.ufo" name="Bitcount Grid Single-13" stylename="OPEN0_SHPE270_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="270"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt1000_wght0.ufo" name="Bitcount Grid Single-14" stylename="OPEN0_SHPE270_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -136,27 +88,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt0_wght0.ufo" name="Bitcount Grid Single-16" stylename="OPEN0_SHPE360_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt1000_wght0.ufo" name="Bitcount Grid Single-17" stylename="OPEN0_SHPE360_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="360"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt1000_wght0.ufo" name="Bitcount Grid Single-18" stylename="OPEN0_SHPE360_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -168,27 +104,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt0_wght0.ufo" name="Bitcount Grid Single-20" stylename="OPEN0_SHPE450_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt1000_wght0.ufo" name="Bitcount Grid Single-21" stylename="OPEN0_SHPE450_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="450"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt1000_wght0.ufo" name="Bitcount Grid Single-22" stylename="OPEN0_SHPE450_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -200,27 +120,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt0_wght0.ufo" name="Bitcount Grid Single-24" stylename="OPEN0_SHPE540_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt1000_wght0.ufo" name="Bitcount Grid Single-25" stylename="OPEN0_SHPE540_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="540"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt1000_wght0.ufo" name="Bitcount Grid Single-26" stylename="OPEN0_SHPE540_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -232,27 +136,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt0_wght0.ufo" name="Bitcount Grid Single-28" stylename="OPEN0_SHPE630_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt1000_wght0.ufo" name="Bitcount Grid Single-29" stylename="OPEN0_SHPE630_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="630"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt1000_wght0.ufo" name="Bitcount Grid Single-30" stylename="OPEN0_SHPE630_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -264,27 +152,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt0_wght0.ufo" name="Bitcount Grid Single-32" stylename="OPEN0_SHPE720_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt1000_wght0.ufo" name="Bitcount Grid Single-33" stylename="OPEN0_SHPE720_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="720"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt1000_wght0.ufo" name="Bitcount Grid Single-34" stylename="OPEN0_SHPE720_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -296,27 +168,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt0_wght0.ufo" name="Bitcount Grid Single-36" stylename="OPEN0_SHPE810_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt1000_wght0.ufo" name="Bitcount Grid Single-37" stylename="OPEN0_SHPE810_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="810"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt1000_wght0.ufo" name="Bitcount Grid Single-38" stylename="OPEN0_SHPE810_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -328,27 +184,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt0_wght0.ufo" name="Bitcount Grid Single-40" stylename="OPEN0_SHPE900_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt1000_wght0.ufo" name="Bitcount Grid Single-41" stylename="OPEN0_SHPE900_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="900"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt1000_wght0.ufo" name="Bitcount Grid Single-42" stylename="OPEN0_SHPE900_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -392,27 +232,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt0_wght0.ufo" name="Bitcount Grid Single-48" stylename="OPEN1000_SHPE90_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt1000_wght0.ufo" name="Bitcount Grid Single-49" stylename="OPEN1000_SHPE90_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="90"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt1000_wght0.ufo" name="Bitcount Grid Single-50" stylename="OPEN1000_SHPE90_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -424,27 +248,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt0_wght0.ufo" name="Bitcount Grid Single-52" stylename="OPEN1000_SHPE180_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt1000_wght0.ufo" name="Bitcount Grid Single-53" stylename="OPEN1000_SHPE180_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="180"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt1000_wght0.ufo" name="Bitcount Grid Single-54" stylename="OPEN1000_SHPE180_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -456,27 +264,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt0_wght0.ufo" name="Bitcount Grid Single-56" stylename="OPEN1000_SHPE270_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt1000_wght0.ufo" name="Bitcount Grid Single-57" stylename="OPEN1000_SHPE270_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="270"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt1000_wght0.ufo" name="Bitcount Grid Single-58" stylename="OPEN1000_SHPE270_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -488,27 +280,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt0_wght0.ufo" name="Bitcount Grid Single-60" stylename="OPEN1000_SHPE360_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt1000_wght0.ufo" name="Bitcount Grid Single-61" stylename="OPEN1000_SHPE360_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="360"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt1000_wght0.ufo" name="Bitcount Grid Single-62" stylename="OPEN1000_SHPE360_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -520,27 +296,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt0_wght0.ufo" name="Bitcount Grid Single-64" stylename="OPEN1000_SHPE450_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt1000_wght0.ufo" name="Bitcount Grid Single-65" stylename="OPEN1000_SHPE450_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="450"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt1000_wght0.ufo" name="Bitcount Grid Single-66" stylename="OPEN1000_SHPE450_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -552,27 +312,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt0_wght0.ufo" name="Bitcount Grid Single-68" stylename="OPEN1000_SHPE540_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt1000_wght0.ufo" name="Bitcount Grid Single-69" stylename="OPEN1000_SHPE540_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="540"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt1000_wght0.ufo" name="Bitcount Grid Single-70" stylename="OPEN1000_SHPE540_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -584,27 +328,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt0_wght0.ufo" name="Bitcount Grid Single-72" stylename="OPEN1000_SHPE630_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt1000_wght0.ufo" name="Bitcount Grid Single-73" stylename="OPEN1000_SHPE630_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="630"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt1000_wght0.ufo" name="Bitcount Grid Single-74" stylename="OPEN1000_SHPE630_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -616,27 +344,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt0_wght0.ufo" name="Bitcount Grid Single-76" stylename="OPEN1000_SHPE720_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt1000_wght0.ufo" name="Bitcount Grid Single-77" stylename="OPEN1000_SHPE720_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="720"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt1000_wght0.ufo" name="Bitcount Grid Single-78" stylename="OPEN1000_SHPE720_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -648,27 +360,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt0_wght0.ufo" name="Bitcount Grid Single-80" stylename="OPEN1000_SHPE810_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt1000_wght0.ufo" name="Bitcount Grid Single-81" stylename="OPEN1000_SHPE810_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="810"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt1000_wght0.ufo" name="Bitcount Grid Single-82" stylename="OPEN1000_SHPE810_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -680,27 +376,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt0_wght0.ufo" name="Bitcount Grid Single-84" stylename="OPEN1000_SHPE900_slnt0_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt1000_wght0.ufo" name="Bitcount Grid Single-85" stylename="OPEN1000_SHPE900_slnt1000_wght0">
 			<location>
 				<dimension name="Weight" xvalue="0"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="900"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt1000_wght0.ufo" name="Bitcount Grid Single-86" stylename="OPEN1000_SHPE900_slnt1000_wght0">
-			<location>
-				<dimension name="Weight" xvalue="0"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -736,27 +416,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt0_wght500.ufo" name="Bitcount Grid Single-91" stylename="OPEN0_SHPE90_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt1000_wght500.ufo" name="Bitcount Grid Single-92" stylename="OPEN0_SHPE90_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="90"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt1000_wght500.ufo" name="Bitcount Grid Single-93" stylename="OPEN0_SHPE90_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -768,27 +432,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt0_wght500.ufo" name="Bitcount Grid Single-95" stylename="OPEN0_SHPE180_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt1000_wght500.ufo" name="Bitcount Grid Single-96" stylename="OPEN0_SHPE180_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="180"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt1000_wght500.ufo" name="Bitcount Grid Single-97" stylename="OPEN0_SHPE180_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -800,27 +448,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt0_wght500.ufo" name="Bitcount Grid Single-99" stylename="OPEN0_SHPE270_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt1000_wght500.ufo" name="Bitcount Grid Single-100" stylename="OPEN0_SHPE270_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="270"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt1000_wght500.ufo" name="Bitcount Grid Single-101" stylename="OPEN0_SHPE270_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -832,27 +464,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt0_wght500.ufo" name="Bitcount Grid Single-103" stylename="OPEN0_SHPE360_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt1000_wght500.ufo" name="Bitcount Grid Single-104" stylename="OPEN0_SHPE360_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="360"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt1000_wght500.ufo" name="Bitcount Grid Single-105" stylename="OPEN0_SHPE360_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -864,27 +480,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt0_wght500.ufo" name="Bitcount Grid Single-107" stylename="OPEN0_SHPE450_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt1000_wght500.ufo" name="Bitcount Grid Single-108" stylename="OPEN0_SHPE450_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="450"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt1000_wght500.ufo" name="Bitcount Grid Single-109" stylename="OPEN0_SHPE450_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -896,27 +496,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt0_wght500.ufo" name="Bitcount Grid Single-111" stylename="OPEN0_SHPE540_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt1000_wght500.ufo" name="Bitcount Grid Single-112" stylename="OPEN0_SHPE540_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="540"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt1000_wght500.ufo" name="Bitcount Grid Single-113" stylename="OPEN0_SHPE540_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -928,27 +512,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt0_wght500.ufo" name="Bitcount Grid Single-115" stylename="OPEN0_SHPE630_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt1000_wght500.ufo" name="Bitcount Grid Single-116" stylename="OPEN0_SHPE630_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="630"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt1000_wght500.ufo" name="Bitcount Grid Single-117" stylename="OPEN0_SHPE630_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -960,27 +528,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt0_wght500.ufo" name="Bitcount Grid Single-119" stylename="OPEN0_SHPE720_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt1000_wght500.ufo" name="Bitcount Grid Single-120" stylename="OPEN0_SHPE720_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="720"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt1000_wght500.ufo" name="Bitcount Grid Single-121" stylename="OPEN0_SHPE720_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -992,27 +544,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt0_wght500.ufo" name="Bitcount Grid Single-123" stylename="OPEN0_SHPE810_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt1000_wght500.ufo" name="Bitcount Grid Single-124" stylename="OPEN0_SHPE810_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="810"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt1000_wght500.ufo" name="Bitcount Grid Single-125" stylename="OPEN0_SHPE810_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1024,27 +560,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt0_wght500.ufo" name="Bitcount Grid Single-127" stylename="OPEN0_SHPE900_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt1000_wght500.ufo" name="Bitcount Grid Single-128" stylename="OPEN0_SHPE900_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="900"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt1000_wght500.ufo" name="Bitcount Grid Single-129" stylename="OPEN0_SHPE900_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1088,27 +608,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt0_wght500.ufo" name="Bitcount Grid Single-135" stylename="OPEN1000_SHPE90_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt1000_wght500.ufo" name="Bitcount Grid Single-136" stylename="OPEN1000_SHPE90_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="90"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt1000_wght500.ufo" name="Bitcount Grid Single-137" stylename="OPEN1000_SHPE90_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1120,27 +624,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt0_wght500.ufo" name="Bitcount Grid Single-139" stylename="OPEN1000_SHPE180_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt1000_wght500.ufo" name="Bitcount Grid Single-140" stylename="OPEN1000_SHPE180_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="180"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt1000_wght500.ufo" name="Bitcount Grid Single-141" stylename="OPEN1000_SHPE180_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1152,27 +640,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt0_wght500.ufo" name="Bitcount Grid Single-143" stylename="OPEN1000_SHPE270_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt1000_wght500.ufo" name="Bitcount Grid Single-144" stylename="OPEN1000_SHPE270_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="270"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt1000_wght500.ufo" name="Bitcount Grid Single-145" stylename="OPEN1000_SHPE270_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1184,27 +656,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt0_wght500.ufo" name="Bitcount Grid Single-147" stylename="OPEN1000_SHPE360_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt1000_wght500.ufo" name="Bitcount Grid Single-148" stylename="OPEN1000_SHPE360_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="360"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt1000_wght500.ufo" name="Bitcount Grid Single-149" stylename="OPEN1000_SHPE360_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1216,27 +672,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt0_wght500.ufo" name="Bitcount Grid Single-151" stylename="OPEN1000_SHPE450_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt1000_wght500.ufo" name="Bitcount Grid Single-152" stylename="OPEN1000_SHPE450_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="450"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt1000_wght500.ufo" name="Bitcount Grid Single-153" stylename="OPEN1000_SHPE450_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1248,27 +688,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt0_wght500.ufo" name="Bitcount Grid Single-155" stylename="OPEN1000_SHPE540_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt1000_wght500.ufo" name="Bitcount Grid Single-156" stylename="OPEN1000_SHPE540_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="540"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt1000_wght500.ufo" name="Bitcount Grid Single-157" stylename="OPEN1000_SHPE540_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1280,27 +704,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt0_wght500.ufo" name="Bitcount Grid Single-159" stylename="OPEN1000_SHPE630_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt1000_wght500.ufo" name="Bitcount Grid Single-160" stylename="OPEN1000_SHPE630_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="630"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt1000_wght500.ufo" name="Bitcount Grid Single-161" stylename="OPEN1000_SHPE630_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1312,27 +720,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt0_wght500.ufo" name="Bitcount Grid Single-163" stylename="OPEN1000_SHPE720_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt1000_wght500.ufo" name="Bitcount Grid Single-164" stylename="OPEN1000_SHPE720_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="720"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt1000_wght500.ufo" name="Bitcount Grid Single-165" stylename="OPEN1000_SHPE720_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1344,27 +736,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt0_wght500.ufo" name="Bitcount Grid Single-167" stylename="OPEN1000_SHPE810_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt1000_wght500.ufo" name="Bitcount Grid Single-168" stylename="OPEN1000_SHPE810_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="810"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt1000_wght500.ufo" name="Bitcount Grid Single-169" stylename="OPEN1000_SHPE810_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1376,27 +752,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt0_wght500.ufo" name="Bitcount Grid Single-171" stylename="OPEN1000_SHPE900_slnt0_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt1000_wght500.ufo" name="Bitcount Grid Single-172" stylename="OPEN1000_SHPE900_slnt1000_wght500">
 			<location>
 				<dimension name="Weight" xvalue="500"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="900"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt1000_wght500.ufo" name="Bitcount Grid Single-173" stylename="OPEN1000_SHPE900_slnt1000_wght500">
-			<location>
-				<dimension name="Weight" xvalue="500"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1440,27 +800,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt0_wght1000.ufo" name="Bitcount Grid Single-179" stylename="OPEN0_SHPE90_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Grid Single-180" stylename="OPEN0_SHPE90_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="90"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Grid Single-181" stylename="OPEN0_SHPE90_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="90.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1472,27 +816,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt0_wght1000.ufo" name="Bitcount Grid Single-183" stylename="OPEN0_SHPE180_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Grid Single-184" stylename="OPEN0_SHPE180_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="180"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Grid Single-185" stylename="OPEN0_SHPE180_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="180.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1504,27 +832,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt0_wght1000.ufo" name="Bitcount Grid Single-187" stylename="OPEN0_SHPE270_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Grid Single-188" stylename="OPEN0_SHPE270_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="270"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Grid Single-189" stylename="OPEN0_SHPE270_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="270.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1536,27 +848,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt0_wght1000.ufo" name="Bitcount Grid Single-191" stylename="OPEN0_SHPE360_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Grid Single-192" stylename="OPEN0_SHPE360_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="360"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Grid Single-193" stylename="OPEN0_SHPE360_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="360.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1568,27 +864,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt0_wght1000.ufo" name="Bitcount Grid Single-195" stylename="OPEN0_SHPE450_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Grid Single-196" stylename="OPEN0_SHPE450_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="450"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Grid Single-197" stylename="OPEN0_SHPE450_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="450.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1600,27 +880,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt0_wght1000.ufo" name="Bitcount Grid Single-199" stylename="OPEN0_SHPE540_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Grid Single-200" stylename="OPEN0_SHPE540_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="540"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Grid Single-201" stylename="OPEN0_SHPE540_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="540.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1632,27 +896,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt0_wght1000.ufo" name="Bitcount Grid Single-203" stylename="OPEN0_SHPE630_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Grid Single-204" stylename="OPEN0_SHPE630_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="630"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Grid Single-205" stylename="OPEN0_SHPE630_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="630.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1664,27 +912,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt0_wght1000.ufo" name="Bitcount Grid Single-207" stylename="OPEN0_SHPE720_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Grid Single-208" stylename="OPEN0_SHPE720_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="720"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Grid Single-209" stylename="OPEN0_SHPE720_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="720.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1696,27 +928,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt0_wght1000.ufo" name="Bitcount Grid Single-211" stylename="OPEN0_SHPE810_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Grid Single-212" stylename="OPEN0_SHPE810_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="810"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Grid Single-213" stylename="OPEN0_SHPE810_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="810.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1728,27 +944,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt0_wght1000.ufo" name="Bitcount Grid Single-215" stylename="OPEN0_SHPE900_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Grid Single-216" stylename="OPEN0_SHPE900_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="0"/>
 				<dimension name="Shape" xvalue="900"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN0_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Grid Single-217" stylename="OPEN0_SHPE900_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="0"/>
-				<dimension name="Shape" xvalue="900.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1792,27 +992,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt0_wght1000.ufo" name="Bitcount Grid Single-223" stylename="OPEN1000_SHPE90_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Grid Single-224" stylename="OPEN1000_SHPE90_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="90"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE90_slnt1000_wght1000.ufo" name="Bitcount Grid Single-225" stylename="OPEN1000_SHPE90_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="90.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1824,27 +1008,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt0_wght1000.ufo" name="Bitcount Grid Single-227" stylename="OPEN1000_SHPE180_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Grid Single-228" stylename="OPEN1000_SHPE180_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="180"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE180_slnt1000_wght1000.ufo" name="Bitcount Grid Single-229" stylename="OPEN1000_SHPE180_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="180.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1856,27 +1024,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt0_wght1000.ufo" name="Bitcount Grid Single-231" stylename="OPEN1000_SHPE270_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Grid Single-232" stylename="OPEN1000_SHPE270_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="270"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE270_slnt1000_wght1000.ufo" name="Bitcount Grid Single-233" stylename="OPEN1000_SHPE270_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="270.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1888,27 +1040,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt0_wght1000.ufo" name="Bitcount Grid Single-235" stylename="OPEN1000_SHPE360_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Grid Single-236" stylename="OPEN1000_SHPE360_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="360"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE360_slnt1000_wght1000.ufo" name="Bitcount Grid Single-237" stylename="OPEN1000_SHPE360_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="360.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1920,27 +1056,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt0_wght1000.ufo" name="Bitcount Grid Single-239" stylename="OPEN1000_SHPE450_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Grid Single-240" stylename="OPEN1000_SHPE450_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="450"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE450_slnt1000_wght1000.ufo" name="Bitcount Grid Single-241" stylename="OPEN1000_SHPE450_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="450.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1952,27 +1072,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt0_wght1000.ufo" name="Bitcount Grid Single-243" stylename="OPEN1000_SHPE540_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Grid Single-244" stylename="OPEN1000_SHPE540_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="540"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE540_slnt1000_wght1000.ufo" name="Bitcount Grid Single-245" stylename="OPEN1000_SHPE540_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="540.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -1984,27 +1088,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt0_wght1000.ufo" name="Bitcount Grid Single-247" stylename="OPEN1000_SHPE630_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Grid Single-248" stylename="OPEN1000_SHPE630_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="630"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE630_slnt1000_wght1000.ufo" name="Bitcount Grid Single-249" stylename="OPEN1000_SHPE630_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="630.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -2016,27 +1104,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt0_wght1000.ufo" name="Bitcount Grid Single-251" stylename="OPEN1000_SHPE720_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Grid Single-252" stylename="OPEN1000_SHPE720_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="720"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE720_slnt1000_wght1000.ufo" name="Bitcount Grid Single-253" stylename="OPEN1000_SHPE720_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="720.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -2048,27 +1120,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt0_wght1000.ufo" name="Bitcount Grid Single-255" stylename="OPEN1000_SHPE810_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Grid Single-256" stylename="OPEN1000_SHPE810_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="810"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE810_slnt1000_wght1000.ufo" name="Bitcount Grid Single-257" stylename="OPEN1000_SHPE810_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="810.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
@@ -2080,27 +1136,11 @@
 				<dimension name="Slanted" xvalue="0"/>
 			</location>
 		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt0_wght1000.ufo" name="Bitcount Grid Single-259" stylename="OPEN1000_SHPE900_slnt0_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
-				<dimension name="Slanted" xvalue="0"/>
-			</location>
-		</source>
 		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Grid Single-260" stylename="OPEN1000_SHPE900_slnt1000_wght1000">
 			<location>
 				<dimension name="Weight" xvalue="1000"/>
 				<dimension name="Open" xvalue="1000"/>
 				<dimension name="Shape" xvalue="900"/>
-				<dimension name="Slanted" xvalue="1000"/>
-			</location>
-		</source>
-		<source familyname="Bitcount Grid Single" filename="_masters/grid/BitcountGrid_Single_OPEN1000_SHPE900_slnt1000_wght1000.ufo" name="Bitcount Grid Single-261" stylename="OPEN1000_SHPE900_slnt1000_wght1000">
-			<location>
-				<dimension name="Weight" xvalue="1000"/>
-				<dimension name="Open" xvalue="1000"/>
-				<dimension name="Shape" xvalue="900.01"/>
 				<dimension name="Slanted" xvalue="1000"/>
 			</location>
 		</source>
