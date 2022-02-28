@@ -176,21 +176,6 @@ def copyUFO(srcPath, dstPath):
         assert dstPath.endswith('.ufo'), ('Wrong destination path %s' % dstPath)
     shutil.copytree(srcPath, dstPath)
 
-def XXXcopyUFOs(srcDirPath, dstDirPath):
-    """Copy all UFO's in the srcDirPath to dstDirPath.
-    """
-    if not srcDirPath.endswith('/'):
-        srcDirPath += '/'
-    if not dstDirPath.endswith('/'):
-        dstDirPath += '/'
-    assert os.path.isdir(srcDirPath)
-    copiedFiles = []
-    for fileName in os.listdir(srcDirPath):
-        if fileName.endswith('.ufo'):
-            shutil.copytree(srcDirPath + fileName, dstDirPath + fileName)
-            copiedFiles.append(fileName)
-    return copiedFiles
- 
 def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=True):
     """If dstFont is omitted, then the dstGlyphName (into the same font) should be defined.
     If dstGlyphName is omitted, then dstFont (same glyph into another font) should be defined.
@@ -202,12 +187,18 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=T
     if dstGlyphName is None:
         dstGlyphName = glyphName
     assert srcFont != dstFont or glyphName != dstGlyphName, ('### Either dstFont or dstGlyphName should be defined.')
+    print('@@@', glyphName, dstGlyphName, dstGlyphName in dstFont)
+    print('... Copy pixel /%s to' % dstGlyphName, dstFont.path)
     srcGlyph = srcFont[glyphName]
-    if not PIXEL_NAME in dstFont:
-        dstFont.newGlyph(PIXEL_NAME)
-    #dstFont.insertGlyph(srcGlyph, name=dstGlyphName)
-    dstFont[dstGlyphName] = srcGlyph
-    assert dstGlyphName in dstFont
+    #if not PIXEL_NAME in dstFont:
+    #    dstFont.newGlyph(PIXEL_NAME)
+    #print(srcGlyph)
+    dstFont.insertGlyph(srcGlyph, name=dstGlyphName)
+    g = dstFont[dstGlyphName]
+    #dstFont[dstGlyphName] = g = srcGlyph
+    print('@@1', glyphName, PIXEL_NAME, dstGlyphName in dstFont)
+    g.changed()
+    return g
     #return dstFont[dstGlyphName]
   
  

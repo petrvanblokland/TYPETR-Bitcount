@@ -40,10 +40,10 @@ axisCount = 4
 
 DESIGN_SPACE_PATHS = [
     #('BitcountGrid_Double%s.designspace' % axisCount, GRID),
-    ('BitcountGrid_Single%s.designspace' % axisCount, GRID),
+    #('BitcountGrid_Single%s.designspace' % axisCount, GRID),
     #('BitcountMono_Double%s.designspace' % axisCount, MONO),
     #('BitcountMono_Single%s.designspace' % axisCount, MONO),
-    #('BitcountProp_Double%s.designspace' % axisCount, PROP),
+    ('BitcountProp_Double%s.designspace' % axisCount, PROP),
     #('BitcountProp_Single%s.designspace' % axisCount, PROP),
 ]
 
@@ -62,8 +62,8 @@ for path, variant in DESIGN_SPACE_PATHS:
     if MAKE_MASTERS:
         makePixelMasters(variant)
 
-
     # Build the VF fonts from the enabled design space files.
+    if BUILD_VF:
         print('--- Building VF from design space "%s"' % path)
         result = project.run_from_designspace(designspace_path=path, **args)
         print(result)

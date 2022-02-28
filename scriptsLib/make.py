@@ -55,8 +55,7 @@ def makePixelMasters(variant):
                 dstPath = md.path + ufoName
                 dst = openFont(dstPath)
                 copyGlyph(pixels, pName, dst, PIXEL_NAME)
-                print('... Copy pixel /%s to' % pName, ufoName)
-                assert 'px' in dst
+                assert PIXEL_NAME in dst
                 dst.save()
                 dst.close()
     pixels.close()
