@@ -4,13 +4,14 @@ import fontmake
 from fontmake.font_project import FontProject
 from fontTools.ttLib import TTFont, TTLibError
 
+from scriptsLib import *
 from scriptsLib.make import copyMasters, makePixelMasters, makeDesignSpaceFiles
 from scriptsLib.glyphData import PIXEL_DATA
 
 MAKE_DESIGNSPACES = False # Not yet implemented
-COPY_MASTERS = True
+COPY_MASTERS = False
 MAKE_MASTERS = True
-BUILD_VF = True
+BUILD_VF = False
 
 args = {
     'subset': None,
@@ -37,35 +38,37 @@ args = {
 # slnt Slanting angle of pixels
 axisCount = 4
 
-# Auto generate the design space file.
-if MAKE_DESIGNSPACES:
-    makeDesignSpaceFiles(axisCount)
-
-# Copy the masters to _masters/ and apply the right file name based on location 
-if COPY_MASTERS:
-    copyMasters()
-
-# Make all master UFO's, combining the base masters with the pixel shapes
-if MAKE_MASTERS:
-    makePixelMasters()
-
 DESIGN_SPACE_PATHS = [
-    'BitcountGrid_Double%s.designspace' % axisCount,
-    'BitcountGrid_Single%s.designspace' % axisCount,
-    #'BitcountMono_Double%s.designspace' % axisCount,
-    #'BitcountMono_Single%s.designspace' % axisCount,
-    #'BitcountProp_Double%s.designspace' % axisCount,
-    #'BitcountProp_Single%s.designspace' % axisCount,
+    #('BitcountGrid_Double%s.designspace' % axisCount, GRID),
+    ('BitcountGrid_Single%s.designspace' % axisCount, GRID),
+    #('BitcountMono_Double%s.designspace' % axisCount, MONO),
+    #('BitcountMono_Single%s.designspace' % axisCount, MONO),
+    #('BitcountProp_Double%s.designspace' % axisCount, PROP),
+    #('BitcountProp_Single%s.designspace' % axisCount, PROP),
 ]
 
-# Build the VF fonts from the enabled design space files.
 project = FontProject()
-for path in DESIGN_SPACE_PATHS:
-    print('--- Building VF from design space "%s"' % path)
-    result = project.run_from_designspace(designspace_path=path, **args)
-    print(result)
-    #os.system('open variable_ttf/' + path.replace('.designspace', '-VF.ttf'))
-    #os.system('open variable_ttf')
+for path, variant in DESIGN_SPACE_PATHS:
+
+    # Auto generate the design space file.
+    if MAKE_DESIGNSPACES:
+        makeDesignSpaceFiles(variant, axisCount)
+
+    # Copy the masters to _masters/ and apply the right file name based on location 
+    if COPY_MASTERS:
+        copyMasters(variant)
+
+    # Make all master UFO's, combining the base masters with the pixel shapes
+    if MAKE_MASTERS:
+        makePixelMasters(variant)
+
+
+    # Build the VF fonts from the enabled design space files.
+        print('--- Building VF from design space "%s"' % path)
+        result = project.run_from_designspace(designspace_path=path, **args)
+        print(result)
+        #os.system('open variable_ttf/' + path.replace('.designspace', '-VF.ttf'))
+        #os.system('open variable_ttf')
 
 
 print('--- Done')

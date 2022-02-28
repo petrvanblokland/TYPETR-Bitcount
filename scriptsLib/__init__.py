@@ -203,8 +203,11 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=T
         dstGlyphName = glyphName
     assert srcFont != dstFont or glyphName != dstGlyphName, ('### Either dstFont or dstGlyphName should be defined.')
     srcGlyph = srcFont[glyphName]
+    if not PIXEL_NAME in dstFont:
+        dstFont.newGlyph(PIXEL_NAME)
     #dstFont.insertGlyph(srcGlyph, name=dstGlyphName)
     dstFont[dstGlyphName] = srcGlyph
+    assert dstGlyphName in dstFont
     #return dstFont[dstGlyphName]
   
  
