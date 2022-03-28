@@ -61,7 +61,7 @@ def makePixelMasters(variant):
     pixels.close()
     
 
-def makeDesignSpaceFiles(axisCount):
+def makeDesignSpaceFiles(axisCount, variant):
     xml = []
     for pName, pd in PIXEL_DATA.items():
         pass

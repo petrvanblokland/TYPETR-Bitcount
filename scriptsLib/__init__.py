@@ -187,16 +187,16 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=T
     if dstGlyphName is None:
         dstGlyphName = glyphName
     assert srcFont != dstFont or glyphName != dstGlyphName, ('### Either dstFont or dstGlyphName should be defined.')
-    print('@@@', glyphName, dstGlyphName, dstGlyphName in dstFont)
+    #print('@@@', glyphName, dstGlyphName, dstGlyphName in dstFont)
     print('... Copy pixel /%s to' % dstGlyphName, dstFont.path)
     srcGlyph = srcFont[glyphName]
     #if not PIXEL_NAME in dstFont:
     #    dstFont.newGlyph(PIXEL_NAME)
     #print(srcGlyph)
-    dstFont.insertGlyph(srcGlyph, name=dstGlyphName)
+    #dstFont.insertGlyph(srcGlyph, name=dstGlyphName)
+    dstFont[dstGlyphName] = srcGlyph
     g = dstFont[dstGlyphName]
-    #dstFont[dstGlyphName] = g = srcGlyph
-    print('@@1', glyphName, PIXEL_NAME, dstGlyphName in dstFont)
+    #print('@@1', glyphName, PIXEL_NAME, dstGlyphName in dstFont)
     g.changed()
     return g
     #return dstFont[dstGlyphName]

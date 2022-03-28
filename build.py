@@ -8,10 +8,10 @@ from scriptsLib import *
 from scriptsLib.make import copyMasters, makePixelMasters, makeDesignSpaceFiles
 from scriptsLib.glyphData import PIXEL_DATA
 
-MAKE_DESIGNSPACES = False # Not yet implemented
-COPY_MASTERS = False
+MAKE_DESIGNSPACES = True # Not yet implemented
+COPY_MASTERS = True
 MAKE_MASTERS = True
-BUILD_VF = False
+BUILD_VF = True
 
 args = {
     'subset': None,
@@ -39,12 +39,12 @@ args = {
 axisCount = 4
 
 DESIGN_SPACE_PATHS = [
-    #('BitcountGrid_Double%s.designspace' % axisCount, GRID),
-    #('BitcountGrid_Single%s.designspace' % axisCount, GRID),
-    #('BitcountMono_Double%s.designspace' % axisCount, MONO),
-    #('BitcountMono_Single%s.designspace' % axisCount, MONO),
+    ('BitcountGrid_Double%s.designspace' % axisCount, GRID),
+    ('BitcountGrid_Single%s.designspace' % axisCount, GRID),
+    ('BitcountMono_Double%s.designspace' % axisCount, MONO),
+    ('BitcountMono_Single%s.designspace' % axisCount, MONO),
     ('BitcountProp_Double%s.designspace' % axisCount, PROP),
-    #('BitcountProp_Single%s.designspace' % axisCount, PROP),
+    ('BitcountProp_Single%s.designspace' % axisCount, PROP),
 ]
 
 project = FontProject()
@@ -52,7 +52,7 @@ for path, variant in DESIGN_SPACE_PATHS:
 
     # Auto generate the design space file.
     if MAKE_DESIGNSPACES:
-        makeDesignSpaceFiles(variant, axisCount)
+        makeDesignSpaceFiles(axisCount, variant)
 
     # Copy the masters to _masters/ and apply the right file name based on location 
     if COPY_MASTERS:
