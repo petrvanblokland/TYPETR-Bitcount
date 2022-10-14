@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="degree" format="2">
+  <advance width="400"/>
+  <unicode hex="00B0"/>
+  <outline>
+    <component base="px.ix0.iy3"/>
+    <component base="px.ix0.iy4"/>
+    <component base="px.ix1.iy4"/>
+    <component base="px.ix0.iy5"/>
+  </outline>
+</glyph>

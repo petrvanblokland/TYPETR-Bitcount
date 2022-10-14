@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lacute" format="2">
+  <advance width="600"/>
+  <unicode hex="0139"/>
+  <outline>
+    <component base="px.ix1.iy2"/>
+    <component base="px.ix1.iy1"/>
+    <component base="px.ix1.iy0"/>
+    <component base="px.ix2.iy0"/>
+    <component base="px.ix3.iy0"/>
+    <component base="px.ix1.iy3"/>
+    <component base="px.ix2.iy5"/>
+    <component base="px.ix4.iy0"/>
+    <component base="px.ix1.iy4"/>
+  </outline>
+</glyph>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="slash" format="1">
-  <advance width="600.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash" format="2">
+  <advance width="600"/>
   <unicode hex="002F"/>
   <outline>
-    <component base="px" xOffset="236.0" yOffset="200.0"/>
-    <component base="px" xOffset="122.0" yOffset="100.0"/>
-    <component base="px" xOffset="8.0"/>
-    <component base="px" xOffset="350.0" yOffset="300.0"/>
-    <component base="px" xOffset="464.0" yOffset="400.0"/>
+    <component base="px" xOffset="236" yOffset="200"/>
+    <component base="px" xOffset="122" yOffset="100"/>
+    <component base="px" xOffset="8"/>
+    <component base="px" xOffset="350" yOffset="300"/>
+    <component base="px" xOffset="464" yOffset="400"/>
   </outline>
 </glyph>

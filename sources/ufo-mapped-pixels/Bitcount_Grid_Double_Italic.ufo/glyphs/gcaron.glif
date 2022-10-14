@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gcaron" format="2">
+  <advance width="600"/>
+  <unicode hex="01E7"/>
+  <outline>
+    <component base="px.ix1.iy2"/>
+    <component base="px.ix3.iy2"/>
+    <component base="px.ix4.iy2"/>
+    <component base="px.ix0.iy2"/>
+    <component base="px.ix1.iy1"/>
+    <component base="px.ix2.iy1"/>
+    <component base="px.ix3.iy1"/>
+    <component base="px.ix3.iy0"/>
+    <component base="px.ix4.iy0"/>
+    <component base="px.ix3.iy3"/>
+    <component base="px.ix4.iy3"/>
+    <component base="px.ix0.iy3"/>
+    <component base="px.ix1.iy4"/>
+    <component base="px.ix2.iy4"/>
+    <component base="px.ix4.iy4"/>
+    <component base="px.ix1.iy-1"/>
+    <component base="px.ix2.iy-1"/>
+    <component base="px.ix3.iy-1"/>
+    <component base="px.ix0.iy-1"/>
+    <component base="px.ix4.iy1"/>
+    <component base="px.ix2.iy5"/>
+    <component base="px.ix3.iy5"/>
+    <component base="px.ix3.iy4"/>
+  </outline>
+</glyph>

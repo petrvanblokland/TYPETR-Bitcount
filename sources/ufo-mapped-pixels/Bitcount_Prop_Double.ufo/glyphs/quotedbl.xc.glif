@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedbl.xc" format="2">
+  <advance width="400"/>
+  <outline>
+    <component base="px.ix0.iy5"/>
+    <component base="px.ix2.iy5"/>
+    <component base="px.ix0.iy6"/>
+    <component base="px.ix2.iy6"/>
+    <component base="px.ix0.iy4"/>
+    <component base="px.ix2.iy4"/>
+  </outline>
+</glyph>

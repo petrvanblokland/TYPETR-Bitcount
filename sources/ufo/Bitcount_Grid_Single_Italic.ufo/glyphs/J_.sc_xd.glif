@@ -1,26 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="J.sc_xd" format="1">
-  <advance width="600.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J.sc_xd" format="2">
+  <advance width="600"/>
   <outline>
-    <component base="px" xOffset="236.0" yOffset="200.0"/>
-    <component base="px" xOffset="94.0" yOffset="-100"/>
-    <component base="px" xOffset="250.0" yOffset="300.0"/>
-    <component base="px" xOffset="164.0" yOffset="400"/>
-    <component base="px" xOffset="364.0" yOffset="400"/>
-    <component base="px" xOffset="264.0" yOffset="400"/>
-    <component base="px" xOffset="-6.0" yOffset="-100"/>
-    <component base="px" xOffset="222.0" yOffset="100"/>
-    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="236" yOffset="200"/>
+    <component base="px" xOffset="94" yOffset="-100"/>
+    <component base="px" xOffset="250" yOffset="300"/>
+    <component base="px" xOffset="164" yOffset="400"/>
+    <component base="px" xOffset="364" yOffset="400"/>
+    <component base="px" xOffset="264" yOffset="400"/>
+    <component base="px" xOffset="-6" yOffset="-100"/>
+    <component base="px" xOffset="222" yOffset="100"/>
+    <component base="px" xOffset="208"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.1518</real>
-        <real>0.2217</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.1518,0.2217,1</string>
     </dict>
   </lib>
 </glyph>

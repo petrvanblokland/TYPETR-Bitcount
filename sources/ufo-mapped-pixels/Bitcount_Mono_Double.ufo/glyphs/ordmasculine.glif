@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ordmasculine" format="2">
+  <advance width="600"/>
+  <unicode hex="00BA"/>
+  <outline>
+    <component base="px.ix1.iy1"/>
+    <component base="px.ix2.iy1"/>
+    <component base="px.ix3.iy1"/>
+    <component base="px.ix1.iy3"/>
+    <component base="px.ix2.iy3"/>
+    <component base="px.ix1.iy4"/>
+    <component base="px.ix3.iy4"/>
+    <component base="px.ix2.iy5"/>
+    <component base="px.ix3.iy5"/>
+  </outline>
+</glyph>

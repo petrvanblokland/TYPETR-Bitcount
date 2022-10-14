@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="endash.xc_tab" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px.ix1.iy3"/>
+    <component base="px.ix2.iy3"/>
+    <component base="px.ix3.iy3"/>
+    <component base="px.ix0.iy3"/>
+  </outline>
+</glyph>

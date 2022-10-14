@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.numr" format="2">
+  <advance width="300"/>
+  <outline>
+    <component base="px.ix0.iy4"/>
+    <component base="px.ix0.iy3"/>
+    <component base="px.ix0.iy4"/>
+    <component base="px.ix0.iy5"/>
+    <component base="px.ix0.iy5"/>
+    <component base="px.ix0.iy6"/>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis.xc_cd" format="2">
+  <advance width="200"/>
+  <outline>
+    <component base="px.ix0.iy2"/>
+    <component base="px.ix0.iy1"/>
+    <component base="px.ix0.iy0"/>
+    <component base="px.ix0.iy3"/>
+    <component base="px.ix0.iy4"/>
+    <component base="px.ix0.iy5"/>
+    <component base="px.ix-1.iy8"/>
+    <component base="px.ix0.iy8"/>
+    <component base="px.ix0.iy6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5261,0.2585,1</string>
+    </dict>
+  </lib>
+</glyph>

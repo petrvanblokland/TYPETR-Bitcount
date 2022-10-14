@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="openheart" format="2">
+  <advance width="800"/>
+  <outline>
+    <component base="px.ix2.iy4"/>
+    <component base="px.ix3.iy5"/>
+    <component base="px.ix1.iy5"/>
+    <component base="px.ix0.iy5"/>
+    <component base="px.ix0.iy1"/>
+    <component base="px.ix1.iy0"/>
+    <component base="px.ix2.iy-1"/>
+    <component base="px.ix3.iy0"/>
+    <component base="px.ix4.iy1"/>
+    <component base="px.ix5.iy2"/>
+    <component base="px.ix5.iy3"/>
+    <component base="px.ix5.iy4"/>
+    <component base="px.ix4.iy5"/>
+    <component base="px.ix0.iy3"/>
+    <component base="px.ix0.iy4"/>
+    <component base="px.ix0.iy2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
+</glyph>

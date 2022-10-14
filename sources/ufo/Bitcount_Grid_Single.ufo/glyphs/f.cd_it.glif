@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="f.cd_it" format="1">
-  <advance width="600.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f.cd_it" format="2">
+  <advance width="600"/>
   <outline>
     <component base="px" xOffset="200" yOffset="200"/>
     <component base="px" xOffset="200" yOffset="100"/>
@@ -16,13 +16,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.5222</real>
-        <real>0.0891</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.5222,0.0891,1</string>
     </dict>
   </lib>
 </glyph>

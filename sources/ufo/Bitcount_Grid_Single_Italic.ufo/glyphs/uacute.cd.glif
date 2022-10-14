@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uacute.cd" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uacute.cd" format="2">
   <advance width="600"/>
   <outline>
-    <component base="px" xOffset="336.0" yOffset="200"/>
-    <component base="px" xOffset="36.0" yOffset="200"/>
-    <component base="px" xOffset="22.0" yOffset="100"/>
-    <component base="px" xOffset="208.0"/>
-    <component base="px" xOffset="108.0"/>
-    <component base="px" xOffset="308.0"/>
-    <component base="px" xOffset="350.0" yOffset="300"/>
-    <component base="px" xOffset="50.0" yOffset="300"/>
-    <component base="px" xOffset="278.0" yOffset="500"/>
-    <component base="px" xOffset="322.0" yOffset="100"/>
+    <component base="px" xOffset="336" yOffset="200"/>
+    <component base="px" xOffset="36" yOffset="200"/>
+    <component base="px" xOffset="22" yOffset="100"/>
+    <component base="px" xOffset="208"/>
+    <component base="px" xOffset="108"/>
+    <component base="px" xOffset="308"/>
+    <component base="px" xOffset="350" yOffset="300"/>
+    <component base="px" xOffset="50" yOffset="300"/>
+    <component base="px" xOffset="278" yOffset="500"/>
+    <component base="px" xOffset="322" yOffset="100"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.5261</real>
-        <real>0.2585</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.5261,0.2585,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="underscore" format="1">
-  <advance width="600.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscore" format="2">
+  <advance width="600"/>
   <unicode hex="005F"/>
   <outline>
-    <component base="px" xOffset="94.0" yOffset="-100.0"/>
-    <component base="px" xOffset="194.0" yOffset="-100.0"/>
-    <component base="px" xOffset="294.0" yOffset="-100.0"/>
-    <component base="px" xOffset="394.0" yOffset="-100.0"/>
-    <component base="px" xOffset="-6.0" yOffset="-100.0"/>
+    <component base="px" xOffset="94" yOffset="-100"/>
+    <component base="px" xOffset="194" yOffset="-100"/>
+    <component base="px" xOffset="294" yOffset="-100"/>
+    <component base="px" xOffset="394" yOffset="-100"/>
+    <component base="px" xOffset="-6" yOffset="-100"/>
   </outline>
 </glyph>

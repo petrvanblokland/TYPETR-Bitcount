@@ -1,0 +1,103 @@
+@not_caps = [ A AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D D.nct Dcaron Dcaron.nct Dcroat E Eacute Ebreve Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eth F G Gbreve Gcaron Gcircumflex Gdotaccent H Hbar Hcircumflex I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J J.xd Jcircumflex Jcircumflex.xd K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde O O.nct OE Oacute Oacute.nct Obreve Obreve.nct Ocircumflex Ocircumflex.nct Odieresis Odieresis.nct Ograve Ograve.nct Ohungarumlaut Ohungarumlaut.nct Omacron Omacron.nct Oslash Oslashacute Otilde Otilde.nct P P.nct Q Q.nct R Racute Rcaron Rcedilla Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent eight five four nine one seven six three two zero ];
+
+@caps = [ A.sc AE.sc AEacute.sc Aacute.sc Abreve.sc Acircumflex.sc Adieresis.sc Agrave.sc Amacron.sc Aogonek.sc Aring.sc Aringacute.sc Atilde.sc B.sc C.sc Cacute.sc Ccaron.sc Ccedilla.sc Ccircumflex.sc Cdotaccent.sc D.sc D.sc_nct Dcaron.sc Dcaron.sc_nct Dcroat.sc E.sc Eacute.sc Ebreve.sc Ecircumflex.sc Edieresis.sc Edotaccent.sc Egrave.sc Emacron.sc Eng.sc Eth.sc F.sc G.sc Gbreve.sc Gcaron.sc Gcircumflex.sc Gdotaccent.sc H.sc Hbar.sc Hcircumflex.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Idotaccent.sc Igrave.sc Imacron.sc Iogonek.sc Itilde.sc J.sc J.sc_xd Jcircumflex.sc Jcircumflex.sc_xd K.sc Kcommaaccent.sc L.sc Lacute.sc Lcaron.sc Lcommaaccent.sc Ldot.sc Lslash.sc M.sc N.sc Nacute.sc Ncaron.sc Ncommaaccent.sc Ntilde.sc O.sc O.sc_nct OE.sc Oacute.sc Oacute.sc_nct Obreve.sc Obreve.sc_nct Ocircumflex.sc Ocircumflex.sc_nct Odieresis.sc Odieresis.sc_nct Ograve.sc Ograve.sc_nct Ohungarumlaut.sc Ohungarumlaut.sc_nct Omacron.sc Omacron.sc_nct Oslash.sc Oslashacute.sc Otilde.sc Otilde.sc_nct P.sc P.sc_nct Q.sc Q.sc_nct R.sc Racute.sc Rcaron.sc Rcedilla.sc Rcommaaccent.sc S.sc Sacute.sc Scaron.sc Scedilla.sc Scircumflex.sc Scommaaccent.sc T.sc Tbar.sc Tcaron.sc Tcedilla.sc Tcommaaccent.sc Thorn.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Uhungarumlaut.sc Umacron.sc Uogonek.sc Uring.sc Utilde.sc V.sc W.sc Wacute.sc Wcircumflex.sc Wdieresis.sc Wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Ygrave.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc eight.sc five.sc four.sc nine.sc one.sc seven.sc six.sc three.sc two.sc zero.sc ];
+
+@not_smcp = [ a aacute abreve acircumflex adieresis ae aeacute agrave amacron aogonek aring aringacute atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d d.nct dcaron dcaron.nct dcroat e eacute ebreve ecircumflex edieresis edotaccent egrave eight emacron eng eth f fi five fl four g gbreve gcaron gcircumflex gdotaccent germandbls h hbar hcircumflex i iacute ibreve icircumflex idieresis idotaccent igrave imacron iogonek itilde j jcircumflex k kcommaaccent l lacute lcaron lcommaaccent ldot lslash m n nacute ncaron ncommaaccent nine ntilde o o.nct oacute oacute.nct obreve obreve.nct ocircumflex ocircumflex.nct odieresis odieresis.nct oe ograve ograve.nct ohungarumlaut ohungarumlaut.nct omacron omacron.nct one oslash oslashacute otilde otilde.nct p p.nct q q.nct r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent seven six t tbar tcaron tcedilla tcommaaccent thorn three two u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent zero ];
+
+@smcp = [ A.sc Aacute.sc Abreve.sc Acircumflex.sc Adieresis.sc AE.sc AEacute.sc Agrave.sc Amacron.sc Aogonek.sc Aring.sc Aringacute.sc Atilde.sc B.sc C.sc Cacute.sc Ccaron.sc Ccedilla.sc Ccircumflex.sc Cdotaccent.sc D.sc D.sc_nct Dcaron.sc Dcaron.sc_nct Dcroat.sc E.sc Eacute.sc Ebreve.sc Ecircumflex.sc Edieresis.sc Edotaccent.sc Egrave.sc eight.sc Emacron.sc eng.sc eth.sc F.sc fi.sc five.sc fl.sc four.sc G.sc Gbreve.sc Gcaron.sc Gcircumflex.sc Gdotaccent.sc germandbls.sc H.sc Hbar.sc Hcircumflex.sc I.sc Iacute.sc Ibreve.sc Icircumflex.sc Idieresis.sc Idotaccent.sc Igrave.sc Imacron.sc Iogonek.sc Itilde.sc J.sc Jcircumflex.sc K.sc Kcommaaccent.sc L.sc Lacute.sc Lcaron.sc Lcommaaccent.sc Ldot.sc Lslash.sc M.sc N.sc Nacute.sc Ncaron.sc Ncommaaccent.sc nine.sc Ntilde.sc O.sc O.sc_nct Oacute.sc Oacute.sc_nct Obreve.sc Obreve.sc_nct Ocircumflex.sc Ocircumflex.sc_nct Odieresis.sc Odieresis.sc_nct OE.sc Ograve.sc Ograve.sc_nct Ohungarumlaut.sc Ohungarumlaut.sc_nct Omacron.sc Omacron.sc_nct one.sc Oslash.sc Oslashacute.sc Otilde.sc Otilde.sc_nct P.sc P.sc_nct Q.sc Q.sc_nct R.sc Racute.sc Rcaron.sc Rcommaaccent.sc S.sc Sacute.sc Scaron.sc Scedilla.sc Scircumflex.sc Scommaaccent.sc seven.sc six.sc T.sc Tbar.sc Tcaron.sc Tcedilla.sc Tcommaaccent.sc Thorn.sc three.sc two.sc U.sc Uacute.sc Ubreve.sc Ucircumflex.sc Udieresis.sc Ugrave.sc Uhungarumlaut.sc Umacron.sc Uogonek.sc Uring.sc Utilde.sc V.sc W.sc Wacute.sc Wcircumflex.sc Wdieresis.sc Wgrave.sc X.sc Y.sc Yacute.sc Ycircumflex.sc Ydieresis.sc Ygrave.sc Z.sc Zacute.sc Zcaron.sc Zdotaccent.sc zero.sc ];
+
+@not_xdescenders = [ J J.sc Jcircumflex Jcircumflex.sc ];
+
+@xdescenders = [ J.xd J.sc_xd Jcircumflex.xd Jcircumflex.sc_xd ];
+
+@not_ncontrast = [ B D D.sc Dcaron Dcaron.sc Dcroat Eth O O.sc Oacute Oacute.sc Obreve Obreve.sc Ocircumflex Ocircumflex.sc Odieresis Odieresis.sc Ograve Ograve.sc Ohungarumlaut Ohungarumlaut.sc Omacron Omacron.sc Otilde Otilde.sc P P.sc Q Q.sc Thorn a aacute abreve acircumflex adieresis agrave amacron aogonek aring aringacute atilde b d dcaron dcroat dslash eight eight.lc eng eth g gbreve gcaron gcircumflex gcommaaccent gdotaccent h hcircumflex mu n nacute ncaron ncommaaccent nine nine.lc ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron otilde p partialdiff q six six.lc thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde ];
+
+@ncontrast = [ B.nct D.nct D.sc_nct Dcaron.nct Dcaron.sc_nct Dcroat.nct Eth.nct O.nct O.sc_nct Oacute.nct Oacute.sc_nct Obreve.nct Obreve.sc_nct Ocircumflex.nct Ocircumflex.sc_nct Odieresis.nct Odieresis.sc_nct Ograve.nct Ograve.sc_nct Ohungarumlaut.nct Ohungarumlaut.sc_nct Omacron.nct Omacron.sc_nct Otilde.nct Otilde.sc_nct P.nct P.sc_nct Q.nct Q.sc_nct Thorn.nct a.nct aacute.nct abreve.nct acircumflex.nct adieresis.nct agrave.nct amacron.nct aogonek.nct aring.nct aringacute.nct atilde.nct b.nct d.nct dcaron.nct dcroat.nct dslash.nct eight.nct eight.lc_nct eng.nct eth.nct g.nct gbreve.nct gcaron.nct gcircumflex.nct gcommaaccent.nct gdotaccent.nct h.nct hcircumflex.nct mu.nct n.nct nacute.nct ncaron.nct ncommaaccent.nct nine.nct nine.lc_nct ntilde.nct o.nct oacute.nct obreve.nct ocircumflex.nct odieresis.nct ograve.nct ohungarumlaut.nct omacron.nct otilde.nct p.nct partialdiff.nct q.nct six.nct six.lc_nct thorn.nct u.nct uacute.nct ubreve.nct ucircumflex.nct udieresis.nct ugrave.nct uhungarumlaut.nct umacron.nct uogonek.nct uring.nct utilde.nct ];
+
+@not_italic = [ a a.nct aacute aacute.nct abreve abreve.nct acircumflex acircumflex.nct adieresis adieresis.nct ae aeacute agrave agrave.nct amacron amacron.nct aogonek aogonek.nct aring aring.nct aringacute aringacute.nct atilde atilde.nct f fi fl ];
+
+@italic = [ a.it a.nct_it aacute.it aacute.nct_it abreve.it abreve.nct_it acircumflex.it acircumflex.nct_it adieresis.it adieresis.nct_it ae.it aeacute.it agrave.it agrave.nct_it amacron.it amacron.nct_it aogonek.it aogonek.nct_it aring.it aring.nct_it aringacute.it aringacute.nct_it atilde.it atilde.nct_it f.it fi.it fl.it ];
+
+@not_lowercase = [ eight eight.nct five four nine nine.nct one seven six six.nct three two zero ];
+
+@lowercase = [ eight.lc eight.lc_nct five.lc four.lc nine.lc nine.lc_nct one.lc seven.lc six.lc six.lc_nct three.lc two.lc zero.lc ];
+
+@zero = [ zero zero.lc zero.sc ];
+
+@zero_slash = [ zero.slash zero.slash_lc zero.slash_sc ];
+
+
+
+#
+# --- Bitcount-Regular Features ---
+#
+#   _sc     Small caps
+#   _lc     Lower case variation
+#   _it     Italic shapes
+#   _cd     Condensed
+#   _ct     Contrast pixel
+#   _xh     Force x-height
+
+# Language systems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn PLK;
+languagesystem latn ROM;
+languagesystem latn CAT;
+languagesystem latn ESP;
+
+feature c2sc { # Caps to Small Caps
+    # caps to small caps
+    sub @not_caps by @caps;
+} c2sc;
+
+feature smcp { # Lower case to Small Caps
+    sub @not_smcp by @smcp;
+    sub dotlessi by I.sc;
+} smcp;
+     
+feature liga {
+    sub f i by fi;
+    sub f l by fl;
+    sub slash T y p e t r by typetr;
+    sub slash T Y P E T R by typetr;
+    sub slash t y p e t r by typetr;
+    sub slash m a t r i x five seven by matrix57;
+    sub slash m a t r i x five eight by matrix58;
+    sub slash m a t r i x six eight by matrix68;
+} liga;
+
+feature ss03 {
+    featureNames {
+      name "Extended descenders";
+      name 1 "Extended descenders";
+     };
+    sub @not_xdescenders by @xdescenders;
+} ss03;
+           
+feature ss05 {
+    featureNames {
+      name "No contrast pixel";
+      name 1 "No contrast pixel";
+     };
+    sub @not_ncontrast by @ncontrast;
+} ss05;
+                                      
+feature ss08 {
+    featureNames {
+      name "Italic shapes";
+      name 1 "Italic shapes";
+     };
+} ss08;
+
+feature onum { # Case Sensitive Forms
+    sub @not_lowercase by @lowercase;
+} onum;
+            
+feature zero {
+  sub @zero by @zero_slash;
+} zero;
+

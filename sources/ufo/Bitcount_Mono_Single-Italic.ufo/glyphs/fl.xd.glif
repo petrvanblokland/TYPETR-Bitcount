@@ -1,19 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fl.xd" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="f"/>
-    <component base="px" xOffset="828.0" yOffset="200"/>
-    <component base="px" xOffset="814.0" yOffset="100"/>
-    <component base="px" xOffset="700.0"/>
-    <component base="px" xOffset="800.0"/>
-    <component base="px" xOffset="900.0"/>
-    <component base="px" xOffset="842.0" yOffset="300"/>
-    <component base="px" xOffset="856.0" yOffset="400"/>
-    <component base="px" xOffset="770.0" yOffset="500"/>
-    <component base="px" xOffset="870.0" yOffset="500"/>
-    <component base="px" xOffset="670.0" yOffset="500"/>
-    <component base="px" xOffset="600.0"/>
-    <component base="px" xOffset="1000.0"/>
+    <component base="px" xOffset="828" yOffset="200"/>
+    <component base="px" xOffset="814" yOffset="100"/>
+    <component base="px" xOffset="700"/>
+    <component base="px" xOffset="800"/>
+    <component base="px" xOffset="900"/>
+    <component base="px" xOffset="842" yOffset="300"/>
+    <component base="px" xOffset="856" yOffset="400"/>
+    <component base="px" xOffset="770" yOffset="500"/>
+    <component base="px" xOffset="870" yOffset="500"/>
+    <component base="px" xOffset="670" yOffset="500"/>
+    <component base="px" xOffset="600"/>
+    <component base="px" xOffset="1000"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="214" yOffset="100"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="242" yOffset="300"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="470" yOffset="500"/>
   </outline>
 </glyph>

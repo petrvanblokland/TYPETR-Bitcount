@@ -1,29 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="e.cd" format="1">
-  <advance width="600.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e.cd" format="2">
+  <advance width="600"/>
   <outline>
-    <component base="px" xOffset="136.0" yOffset="200.0"/>
-    <component base="px" xOffset="236.0" yOffset="200.0"/>
-    <component base="px" xOffset="336.0" yOffset="200.0"/>
-    <component base="px" xOffset="36.0" yOffset="200.0"/>
-    <component base="px" xOffset="22.0" yOffset="100.0"/>
-    <component base="px" xOffset="108.0"/>
-    <component base="px" xOffset="308.0"/>
-    <component base="px" xOffset="350.0" yOffset="300.0"/>
-    <component base="px" xOffset="50.0" yOffset="300.0"/>
-    <component base="px" xOffset="164.0" yOffset="400.0"/>
-    <component base="px" xOffset="264.0" yOffset="400.0"/>
-    <component base="px" xOffset="208.0"/>
+    <component base="px" xOffset="136" yOffset="200"/>
+    <component base="px" xOffset="236" yOffset="200"/>
+    <component base="px" xOffset="336" yOffset="200"/>
+    <component base="px" xOffset="36" yOffset="200"/>
+    <component base="px" xOffset="22" yOffset="100"/>
+    <component base="px" xOffset="108"/>
+    <component base="px" xOffset="308"/>
+    <component base="px" xOffset="350" yOffset="300"/>
+    <component base="px" xOffset="50" yOffset="300"/>
+    <component base="px" xOffset="164" yOffset="400"/>
+    <component base="px" xOffset="264" yOffset="400"/>
+    <component base="px" xOffset="208"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.5222</real>
-        <real>0.0891</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0.5222,0.0891,1</string>
     </dict>
   </lib>
 </glyph>

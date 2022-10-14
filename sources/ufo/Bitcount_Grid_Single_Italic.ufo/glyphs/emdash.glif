@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="emdash" format="1">
-  <advance width="600.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash" format="2">
+  <advance width="600"/>
   <unicode hex="2014"/>
   <outline>
-    <component base="px" xOffset="136.0" yOffset="200.0"/>
-    <component base="px" xOffset="236.0" yOffset="200.0"/>
-    <component base="px" xOffset="336.0" yOffset="200.0"/>
-    <component base="px" xOffset="436.0" yOffset="200.0"/>
-    <component base="px" xOffset="36.0" yOffset="200.0"/>
+    <component base="px" xOffset="136" yOffset="200"/>
+    <component base="px" xOffset="236" yOffset="200"/>
+    <component base="px" xOffset="336" yOffset="200"/>
+    <component base="px" xOffset="436" yOffset="200"/>
+    <component base="px" xOffset="36" yOffset="200"/>
   </outline>
 </glyph>

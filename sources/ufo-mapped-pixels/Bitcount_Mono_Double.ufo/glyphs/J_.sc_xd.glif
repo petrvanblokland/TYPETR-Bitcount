@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J.sc_xd" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px.ix2.iy2"/>
+    <component base="px.ix3.iy2"/>
+    <component base="px.ix2.iy1"/>
+    <component base="px.ix1.iy-2"/>
+    <component base="px.ix2.iy-2"/>
+    <component base="px.ix2.iy3"/>
+    <component base="px.ix3.iy3"/>
+    <component base="px.ix4.iy4"/>
+    <component base="px.ix1.iy4"/>
+    <component base="px.ix2.iy4"/>
+    <component base="px.ix3.iy4"/>
+    <component base="px.ix3.iy1"/>
+    <component base="px.ix2.iy0"/>
+    <component base="px.ix3.iy0"/>
+    <component base="px.ix2.iy-1"/>
+    <component base="px.ix3.iy-1"/>
+    <component base="px.ix0.iy-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

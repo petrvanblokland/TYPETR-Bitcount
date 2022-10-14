@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ograve.cd" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="px.ix3.iy2"/>
+    <component base="px.ix0.iy2"/>
+    <component base="px.ix0.iy1"/>
+    <component base="px.ix1.iy0"/>
+    <component base="px.ix2.iy0"/>
+    <component base="px.ix3.iy3"/>
+    <component base="px.ix0.iy3"/>
+    <component base="px.ix1.iy4"/>
+    <component base="px.ix2.iy4"/>
+    <component base="px.ix0.iy5"/>
+    <component base="px.ix3.iy1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5261,0.2585,1</string>
+    </dict>
+  </lib>
+</glyph>

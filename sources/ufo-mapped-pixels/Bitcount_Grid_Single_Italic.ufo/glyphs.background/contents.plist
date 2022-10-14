@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Euro.sc</key>
+    <string>E_uro.sc.glif</string>
+    <key>Euro.sc_cd</key>
+    <string>E_uro.sc_cd.glif</string>
+    <key>eng.cd</key>
+    <string>eng.cd.glif</string>
+    <key>matrix57</key>
+    <string>matrix57.glif</string>
+    <key>matrix58</key>
+    <string>matrix58.glif</string>
+    <key>matrix68</key>
+    <string>matrix68.glif</string>
+  </dict>
+</plist>

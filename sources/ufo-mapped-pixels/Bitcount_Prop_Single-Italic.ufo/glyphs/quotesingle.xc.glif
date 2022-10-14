@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesingle.xc" format="2">
+  <advance width="200"/>
+  <outline>
+    <component base="px.ix0.iy5"/>
+    <component base="px.ix0.iy6"/>
+    <component base="px.ix0.iy4"/>
+  </outline>
+</glyph>

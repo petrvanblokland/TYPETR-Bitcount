@@ -80,4 +80,6 @@ The "activate" step needs to be exceuted for every new terminal session.
 
 
 python add_colrv1.py variable_ttf/BitcountGrid_Double4-VF.ttf
+python build-black-pixel-Bitcount.py
+python build-COLRv1-pixel-Bitcount.py
 

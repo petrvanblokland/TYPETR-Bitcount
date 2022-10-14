@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="px.ix3.iy9" format="2">
+  <advance width="100"/>
+  <outline>
+    <contour>
+      <point x="484" y="900" type="curve" smooth="yes"/>
+      <point x="512" y="900"/>
+      <point x="534" y="922"/>
+      <point x="534" y="950" type="curve" smooth="yes"/>
+      <point x="534" y="978"/>
+      <point x="512" y="1000"/>
+      <point x="484" y="1000" type="curve" smooth="yes"/>
+      <point x="456" y="1000"/>
+      <point x="434" y="978"/>
+      <point x="434" y="950" type="curve" smooth="yes"/>
+      <point x="434" y="922"/>
+      <point x="456" y="900"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
+</glyph>
