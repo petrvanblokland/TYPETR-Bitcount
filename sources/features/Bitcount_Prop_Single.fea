@@ -146,6 +146,8 @@ feature calt {
     sub slash m a t r i x six eight by matrix68;
     sub slash m a t r i x six one zero by matrix610;
     sub slash m a t r i x six one two by matrix612;
+    sub slash h e a r t by heart;
+    sub slash o p e n h e a r t by openheart;
 } calt;
 
 feature ss01 {

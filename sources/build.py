@@ -8,10 +8,18 @@ from scriptsLib import *
 from scriptsLib.make import copyMasters, makePixelMasters, makeDesignSpaceFiles
 from scriptsLib.glyphData import PIXEL_DATA
 
-MAKE_DESIGNSPACES = True # Not yet implemented
-COPY_MASTERS = True
-MAKE_MASTERS = True
-BUILD_VF = True
+if 0: # Build all masters + COLRv1 pixels
+    MAKE_DESIGNSPACES = True # Not yet implemented
+    COPY_MASTERS = True
+    MAKE_MASTERS = True
+    BUILD_VF = True
+    ADD_COLRV1 = True
+else: # Just add the COLRv1 pixels to existing VF, to save time during development.
+    MAKE_DESIGNSPACES = True # Not yet implemented
+    COPY_MASTERS = True
+    MAKE_MASTERS = True
+    BUILD_VF = True
+    ADD_COLRV1 = True
 
 args = {
     'subset': None,
@@ -21,7 +29,7 @@ args = {
     #'kern_writer_class': None,
     'interpolate_binary_layout': False,
     'remove_overlaps': False,
-    #'autohint': False,
+    'autohint': False,
     'conversion_error': None,
     #'no_round': False,
     'masters_as_instances': False,
@@ -39,20 +47,21 @@ args = {
 axisCount = 4
 
 DESIGN_SPACE_PATHS = [
-    ('BitcountGrid_Double%s.designspace' % axisCount, GRID),
-    ('BitcountGrid_Single%s.designspace' % axisCount, GRID),
+    # Un-comment the design space that should be generated.
+    #('BitcountGrid_Double%s.designspace' % axisCount, GRID),
+    #('BitcountGrid_Single%s.designspace' % axisCount, GRID),
     ('BitcountMono_Double%s.designspace' % axisCount, MONO),
-    ('BitcountMono_Single%s.designspace' % axisCount, MONO),
-    ('BitcountProp_Double%s.designspace' % axisCount, PROP),
-    ('BitcountProp_Single%s.designspace' % axisCount, PROP),
+    #('BitcountMono_Single%s.designspace' % axisCount, MONO),
+    #('BitcountProp_Double%s.designspace' % axisCount, PROP),
+    #('BitcountProp_Single%s.designspace' % axisCount, PROP),
 ]
 
 project = FontProject()
 for path, variant in DESIGN_SPACE_PATHS:
 
-    # Auto generate the design space file.
-    if MAKE_DESIGNSPACES:
-        makeDesignSpaceFiles(axisCount, variant)
+    # Auto generate the design space file vor this variant. (TBD)
+    #if MAKE_DESIGNSPACES:
+    #    makeDesignSpaceFiles(axisCount, variant)
 
     # Copy the masters to _masters/ and apply the right file name based on location 
     if COPY_MASTERS:

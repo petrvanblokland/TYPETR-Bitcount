@@ -922,6 +922,8 @@
     <string>hcircumflex.glif</string>
     <key>hcircumflex.nct</key>
     <string>hcircumflex.nct.glif</string>
+    <key>heart</key>
+    <string>heart.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
     <key>hyphen</key>
@@ -1080,6 +1082,8 @@
     <string>onequarter.glif</string>
     <key>onesuperior</key>
     <string>onesuperior.glif</string>
+    <key>openheart</key>
+    <string>openheart.glif</string>
     <key>ordfeminine</key>
     <string>ordfeminine.glif</string>
     <key>ordmasculine</key>

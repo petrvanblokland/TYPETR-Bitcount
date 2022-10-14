@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+# 
 #
 #   Making the separate Bitcount masters, with the pixel shapes filled in.
 #
@@ -62,8 +64,11 @@ def makePixelMasters(variant):
     
 
 def makeDesignSpaceFiles(axisCount, variant):
+    """Dynamic generation of the design space file for this number of axes and this variant"""
     xml = []
     for pName, pd in PIXEL_DATA.items():
         pass
         #print(pName, pd)
     # TBD: Make dynamic designspace files here.
+
+

@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 from scriptsLib import *
 
 for f in AllFonts():

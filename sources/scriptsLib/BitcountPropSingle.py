@@ -1,3 +1,7 @@
+# -*- coding: UTF-8 -*-
+# 
+#	Glyphset for Bitcount Prop Single
+#
 glyphData_BitcountPropSingle = {
 	'A': dict(name='A', c='A', uni='0041', w=700),
 	'A.cd': dict(name='A.cd', c=None, uni=None, w=500),

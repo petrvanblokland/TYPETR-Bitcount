@@ -42,6 +42,8 @@ feature calt {
     sub slash m a t r i x five seven by matrix57;
     sub slash m a t r i x five eight by matrix58;
     sub slash m a t r i x six eight by matrix68;
+    sub slash h e a r t by heart;
+    sub slash o p e n h e a r t by openheart;
 } calt;
 
 feature ss03 {

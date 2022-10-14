@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 #
 #   Making the separate Bitcount masters, with the pixel shapes filled in.
 #

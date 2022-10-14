@@ -9,9 +9,8 @@ import os, shutil
 # the right pixel shape accordingly.
 PIXEL_NAME = 'px'
 
-SOURCES_PATH = 'sources/'
-UFO_PATH = SOURCES_PATH + 'ufo/'
-FEATURES_PATH = SOURCES_PATH + 'features/'
+UFO_PATH = 'ufo/'
+FEATURES_PATH = 'features/'
 MASTERS_PATH = '_masters/'
 MASTERS_GRID_PATH = MASTERS_PATH + 'grid/'
 MASTERS_MONO_PATH = MASTERS_PATH + 'mono/'
@@ -32,7 +31,7 @@ STEMS = (SINGLE, DOUBLE)
 #VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
 VARIATION_PIXELS = 'Bitcount-VariationPixelsQ.ufo' # QUadratic curves in pixels
 
-# Source masters in sources/ufo/, used to copy into _masters/ with replaced pixel shape.
+# Source masters in ufo/, used to copy into _masters/ with replaced pixel shape.
 GRID_DOUBLE = 'Bitcount_Grid_Double.ufo'
 GRID_DOUBLE_ITALIC = 'Bitcount_Grid_Double_Italic.ufo'
 GRID_SINGLE = 'Bitcount_Grid_Single.ufo'

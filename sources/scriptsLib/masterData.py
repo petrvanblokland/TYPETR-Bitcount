@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 #
 #   MasterData instance contain all master names, with their specific characteristics,
 #   such as VF location in axis values

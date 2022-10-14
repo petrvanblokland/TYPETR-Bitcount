@@ -1,3 +1,7 @@
+# -*- coding: UTF-8 -*-
+# 
+#	Glyphset for Bitcount Mono Double
+#
 glyphData_BitcountMonoDouble = {
 	'A': dict(name='A', c='A', uni='0041', w=600),
 	'A.sc': dict(name='A.sc', c=None, uni=None, w=600),

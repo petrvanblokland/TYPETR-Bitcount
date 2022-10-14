@@ -1,3 +1,7 @@
+# -*- coding: UTF-8 -*-
+# 
+#	Glyphset for Bitcount Grid Single
+#
 glyphData_BitcountGridSingle = {
 	'A': dict(name='A', c='A', uni='0041', w=600),
 	'A.cd': dict(name='A.cd', c=None, uni=None, w=600),

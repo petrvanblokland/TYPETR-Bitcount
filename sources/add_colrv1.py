@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 from pprint import pprint
 import random
 import sys
