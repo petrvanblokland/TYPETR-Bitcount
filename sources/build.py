@@ -1,25 +1,34 @@
 # -*- coding: UTF-8 -*-
+#
+#   Build a variants of Bitcount VF/TTF/OTF from here.
+#   Optionally add COLRv1 pixels to the VF.
+#
 import os
 import fontmake
 from fontmake.font_project import FontProject
 from fontTools.ttLib import TTFont, TTLibError
 
 from scriptsLib import *
-from scriptsLib.make import copyMasters, makePixelMasters, makeDesignSpaceFiles
-from scriptsLib.glyphData import PIXEL_DATA
+from scriptsLib.make import *
 
 if 0: # Build all masters + COLRv1 pixels
-    MAKE_DESIGNSPACES = True # Not yet implemented
-    COPY_MASTERS = True
+    MAKE_DESIGNSPACES = False # Not yet implemented
+    COPY_MASTERS = True # Copy base masters of ufo/ to named _masters/
     MAKE_MASTERS = True
     BUILD_VF = True
     ADD_COLRV1 = True
+elif 1: 
+    MAKE_DESIGNSPACES = False # Not yet implemented
+    COPY_MASTERS = False
+    MAKE_MASTERS = False
+    BUILD_VF = True
+    ADD_COLRV1 = False
 else: # Just add the COLRv1 pixels to existing VF, to save time during development.
-    MAKE_DESIGNSPACES = True # Not yet implemented
-    COPY_MASTERS = True
+    MAKE_DESIGNSPACES = False # Not yet implemented
+    COPY_MASTERS = False
     MAKE_MASTERS = True
-    BUILD_VF = True
-    ADD_COLRV1 = True
+    BUILD_VF = False
+    ADD_COLRV1 = False
 
 args = {
     'subset': None,
@@ -60,14 +69,16 @@ project = FontProject()
 for path, variant in DESIGN_SPACE_PATHS:
 
     # Auto generate the design space file vor this variant. (TBD)
-    #if MAKE_DESIGNSPACES:
-    #    makeDesignSpaceFiles(axisCount, variant)
+    if MAKE_DESIGNSPACES:
+        makeDesignSpaceFiles(axisCount, variant)
 
-    # Copy the masters to _masters/ and apply the right file name based on location 
+    # Copy the ufo/ masters to _masters/<variant> for every master and apply the 
+    # right file name based on location  and variant
     if COPY_MASTERS:
-        copyMasters(variant)
+        copyMasters(UFO_PATH, variant)
 
-    # Make all master UFO's, combining the base masters with the pixel shapes
+    # Make all master UFO's, combining the base masters with their pixel shapes
+    # based on location/variant
     if MAKE_MASTERS:
         makePixelMasters(variant)
 
@@ -79,5 +90,9 @@ for path, variant in DESIGN_SPACE_PATHS:
         #os.system('open variable_ttf/' + path.replace('.designspace', '-VF.ttf'))
         #os.system('open variable_ttf')
 
+    # Add COLRv1 pixels to the generated VF
+    if ADD_COLRV1:
+        pass
 
 print('--- Done')
+

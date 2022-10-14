@@ -9,7 +9,7 @@ import os
 from scriptsLib import *
 
 class GlyphData:
-    """Instances hold data for each glyph and or pixel glyphs.
+    """Instances hold data for each normal glyph and pixel glyphs.
 
     <axes>
         <axis default="500" maximum="1000" minimum="0" name="Weight" tag="wght"/>
@@ -71,14 +71,6 @@ GD = GlyphData
 
 # Keep GlyphData instances, that know about the design space location of the pixel glyph.
 PIXEL_DATA = {
-    #CircleSquare@cnci1000
-    #CircleSquare@line1000
-    #CircleSquare@open0
-    #CircleSquare@rndi1000
-    #CircleSquare@rndo1000
-    #CircleSquare@sqri1000
-    #CircleSquare@sqro1000
-    #CircleSquare@wght500
 
     # Roman
 

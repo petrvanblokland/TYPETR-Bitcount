@@ -9,7 +9,7 @@ from scriptsLib.glyphData import *
 
 class MasterData:
     def __init__(self, fileName=None, path=None, variant=None, # grid, mono or prop
-            stem=None, name=None, style=None, styleName=None, italicName=None,
+            stem=None, name=None, style=None, familyName=None, styleName=None, italicName=None,
             colorPixelData=None,
         ):
         self.fileName = fileName
@@ -17,8 +17,9 @@ class MasterData:
         self.path = path
         self.stem = stem
         self.variant = variant
+        self.familyName = familyName or name
         self.style = style
-        self.styleName = styleName
+        self.styleName = styleName or '%s' # Just replace by pixel name for this location/variant master
         self.italicName = italicName # The italic companion of this master
         self.colorPixelData = colorPixelData # Glyphdata with pixels/positions
      
