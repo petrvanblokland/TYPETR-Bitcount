@@ -10,6 +10,7 @@ from fontTools.ttLib import TTFont, TTLibError
 
 from scriptsLib import *
 from scriptsLib.make import *
+from scriptsLib.add_colrv1 import add_colorv1
 
 if 0: # Build all masters + COLRv1 pixels
     MAKE_DESIGNSPACES = False # Not yet implemented
@@ -17,7 +18,7 @@ if 0: # Build all masters + COLRv1 pixels
     MAKE_MASTERS = True
     BUILD_VF = True
     ADD_COLRV1 = True
-elif 1: 
+elif 0: 
     MAKE_DESIGNSPACES = False # Not yet implemented
     COPY_MASTERS = False
     MAKE_MASTERS = False
@@ -26,9 +27,9 @@ elif 1:
 else: # Just add the COLRv1 pixels to existing VF, to save time during development.
     MAKE_DESIGNSPACES = False # Not yet implemented
     COPY_MASTERS = False
-    MAKE_MASTERS = True
+    MAKE_MASTERS = False
     BUILD_VF = False
-    ADD_COLRV1 = False
+    ADD_COLRV1 = True
 
 args = {
     'subset': None,
@@ -86,13 +87,13 @@ for path, variant in DESIGN_SPACE_PATHS:
     if BUILD_VF:
         print('--- Building VF from design space "%s"' % path)
         result = project.run_from_designspace(designspace_path=path, **args)
-        print(result)
         #os.system('open variable_ttf/' + path.replace('.designspace', '-VF.ttf'))
         #os.system('open variable_ttf')
 
-    # Add COLRv1 pixels to the generated VF
+    # Add COLRv1 pixels to a copy of the generated VF
     if ADD_COLRV1:
-        pass
+        vfPath = path.replace('.designspace', '-VF.ttf')
+        addCOLRv1toVF(VF_PATH + vfPath)
 
 print('--- Done')
 

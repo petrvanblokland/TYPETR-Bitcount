@@ -140,12 +140,12 @@ pixelPositions_A = scaleTranslate(pixelPositions_A, 100, 50, 50)
 
 colorGlyphs = {
     "A": buildPixelGlyph("_pixel.square", pixelPositions_A, pixelGradient),
-    "B": buildPixelGlyphFromColorGlyph("_pixel.square", pixelPositions_A),
+    #"B": buildPixelGlyphFromColorGlyph("_pixel.square", pixelPositions_A),
     "C": buildPixelGlyphFromColorGlyphRandomRotation("_pixel.square", pixelPositions_A),
-    "_pixel.square": buildPixelGlyph("_pixel.square", [(0, 0)], pixelGradient),
+    #"px": buildPixelGlyph("px", [(0, 0)], pixelGradient),
 }
 
-pprint(colorGlyphs)
+#pprint(colorGlyphs)
 
 
 def add_colorv1(path):
@@ -153,6 +153,8 @@ def add_colorv1(path):
     font["CPAL"] = buildCPAL(palettes)
 
     glyphMap = font.getReverseGlyphMap()
+    #print(glyphMap)
+    print(font.tables.keys()) #.glyf['A'])
     font["COLR"] = buildCOLR(
         colorGlyphs,
         glyphMap=glyphMap,
@@ -163,4 +165,7 @@ def add_colorv1(path):
 
 
 if __name__ == "__main__":
-    add_colorv1(sys.argv[1])
+    path = 'variable_ttf/BitcountGrid_Double4-VF.ttf'
+    path = 'variable_ttf/BitcountMono_Double4-VF.ttf'
+    #path = sys.argv[1]
+    add_colorv1(path)

@@ -1,5 +1,3 @@
-# -*- coding: UTF-8 -*-
-
 from pprint import pprint
 import random
 import sys
@@ -89,7 +87,7 @@ def scaleTranslate(points, scale, dx, dy):
 palettes = [
     [
         (1, 0.2, 0, 1),
-        (0, 0.2, 1, 1),
+        (0, 0.2, 1, 0.3),
     ],
 ]
 
@@ -111,60 +109,31 @@ pixelGradient = {
     "y2": 0,
 }
 
-
-# draw a pixel letter
-pixelPositions_A = [
-    (0, 0),
-    (0, 1),
-    (0, 2),
-    (0, 3),
-    (0, 4),
-    (0, 5),
-    (1, 2),
-    (1, 6),
-    (2, 2),
-    (2, 6),
-    (3, 2),
-    (3, 6),
-    (4, 0),
-    (4, 1),
-    (4, 2),
-    (4, 3),
-    (4, 4),
-    (4, 5),
-]
-
-
-pixelPositions_A = scaleTranslate(pixelPositions_A, 100, 50, 50)
-
-
-colorGlyphs = {
-    #"A": buildPixelGlyph("_pixel.square", pixelPositions_A, pixelGradient),
-    #"B": buildPixelGlyphFromColorGlyph("_pixel.square", pixelPositions_A),
-    #"C": buildPixelGlyphFromColorGlyphRandomRotation("_pixel.square", pixelPositions_A),
-    "px": buildPixelGlyph("px", [(0, 0)], pixelGradient),
-}
-
-#pprint(colorGlyphs)
-
-
 def add_colorv1(path):
     font = TTFont(path)
     font["CPAL"] = buildCPAL(palettes)
 
     glyphMap = font.getReverseGlyphMap()
-    #print(glyphMap)
-    print(font.tables.keys()) #.glyf['A'])
-    #font["COLR"] = buildCOLR(
-    #    colorGlyphs,
-    #    glyphMap=glyphMap,
-    #    clipBoxes={},
-    #)
+    colorGlyphs = {}
+    for gName in glyphMap.keys(): 
+        g = font['glyf'][gName]
+        pixelPositions = []
+        if hasattr(g, 'components'):
+            for component in g.components:
+                pixelPositions.append((component.x, component.y))
+            pixelPositions.sort()
+            colorGlyphs[gName] = buildPixelGlyph("px", pixelPositions, pixelGradient)
 
-    #font.save(path)
+    font["COLR"] = buildCOLR(
+        colorGlyphs,
+        glyphMap=glyphMap,
+        clipBoxes={},
+    )
+
+    font.save(path)
 
 
 if __name__ == "__main__":
-    path = 'variable_ttf/BitcountGrid_Double4-VF.ttf'
-    #path = sys.argv[1]
+    path = '../variable_ttf/BitcountMono_Double4-VF.ttf'
     add_colorv1(path)
+    print('Done')

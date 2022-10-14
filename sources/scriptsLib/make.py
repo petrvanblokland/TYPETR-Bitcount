@@ -2,10 +2,11 @@
 #
 #   Making the separate Bitcount masters, with the pixel shapes filled in.
 #
-import os
+import os, shutil
 from scriptsLib import *
 from scriptsLib.glyphData import PIXEL_DATA # Data of all pixel glyphs
 from scriptsLib.masterData import MASTERS_DATA
+from scriptsLib.add_colrv1 import add_colorv1
 
 def getMasterName(md, pd):
     """Calculate the master name from the master data and pixel data location."""
@@ -149,4 +150,10 @@ def makeDesignSpaceFiles(axisCount, variant):
         #print(pName, pd)
     # TBD: Make dynamic designspace files here.
 
+
+def addCOLRv1toVF(vfPath):
+    dstPath = vfPath.replace('.ttf', '_COLRv1.ttf')
+    print('--- Adding COLORv1 pixels to', dstPath)
+    shutil.copy(vfPath, dstPath)
+    add_colorv1(dstPath)
 

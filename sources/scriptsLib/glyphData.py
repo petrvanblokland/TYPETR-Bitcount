@@ -76,6 +76,7 @@ PIXEL_DATA = {
 
     # Glyph names of the pixels have this format:
     # Pix<SHPEIndex>@<wghtIndex><open>
+    # wght=3, italic=2, open=2, shape=12
 
     'Pix01@00': GD(SHPEIndex=1, wght=THIN),
     'Pix01@00_i': GD(SHPEIndex=1, wght=THIN, slnt=ITALIC),

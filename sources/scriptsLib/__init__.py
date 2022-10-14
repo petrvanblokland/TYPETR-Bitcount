@@ -16,6 +16,7 @@ MASTERS_GRID_PATH = MASTERS_PATH + 'grid/'
 MASTERS_MONO_PATH = MASTERS_PATH + 'mono/'
 MASTERS_PROP_PATH = MASTERS_PATH + 'prop/'
 MASTER_PATHS = (MASTERS_GRID_PATH, MASTERS_MONO_PATH, MASTERS_PROP_PATH)
+VF_PATH = 'variable_ttf/' # vf/
 
 # Name parts to auto-construct generated master UFO names.
 BITCOUNT = 'Bitcount'
@@ -82,7 +83,7 @@ SHPE2VALUE = {
 }
 
 # Total number of masters:
-# 3 (slnt) x 3 (OPEN) x 3 (LINE) x 6 (wght) x 
+# 3 (slnt) x 3 (OPEN) x 3 (LINE) x 6 (wght) 
 # Axis values: Minimum, Default, Maximum
 wght_MIN, wght_DEF, wght_MAX = wght_AXIS = (THIN, REGULAR, BLACK) 
 OPEN_MIN, OPEN_DEF, OPEN_MAX = OPEN_AXIS = (CLOSED_QUAD, CLOSED_QUAD, OPEN_QUAD) # Connected or open quadrants
