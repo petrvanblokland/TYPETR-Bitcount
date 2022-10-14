@@ -10,9 +10,8 @@ from fontTools.ttLib import TTFont, TTLibError
 
 from scriptsLib import *
 from scriptsLib.make import *
-from scriptsLib.add_colrv1 import add_colorv1
 
-if 0: # Build all masters + COLRv1 pixels
+if 1: # Build all masters + COLRv1 pixels
     MAKE_DESIGNSPACES = False # Not yet implemented
     COPY_MASTERS = True # Copy base masters of ufo/ to named _masters/
     MAKE_MASTERS = True
@@ -58,12 +57,12 @@ axisCount = 4
 
 DESIGN_SPACE_PATHS = [
     # Un-comment the design space that should be generated.
-    #('BitcountGrid_Double%s.designspace' % axisCount, GRID),
-    #('BitcountGrid_Single%s.designspace' % axisCount, GRID),
-    ('BitcountMono_Double%s.designspace' % axisCount, MONO),
-    #('BitcountMono_Single%s.designspace' % axisCount, MONO),
-    #('BitcountProp_Double%s.designspace' % axisCount, PROP),
-    #('BitcountProp_Single%s.designspace' % axisCount, PROP),
+    ('BitcountGrid_Double%s.designspace' % axisCount, GRID),
+    ('BitcountGrid_Single%s.designspace' % axisCount, GRID),
+    #('BitcountMono_Double%s.designspace' % axisCount, MONO),
+    ('BitcountMono_Single%s.designspace' % axisCount, MONO),
+    ('BitcountProp_Double%s.designspace' % axisCount, PROP),
+    ('BitcountProp_Single%s.designspace' % axisCount, PROP),
 ]
 
 project = FontProject()
