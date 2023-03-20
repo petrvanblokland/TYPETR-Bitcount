@@ -35,7 +35,7 @@ When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
 27 Feb 2022 (Petr van Blokland) Bitcount v0.9
-- Initial push of font "Bitcount"
+- Initial push of font "TYPETR Bitcount"
 
 
 Acknowledgements
