@@ -1,0 +1,213 @@
+
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+	.playroom {
+		font-size: 200px;
+	}
+
+
+   
+    
+
+
+}
+
+@media(min-width: 768px) and (max-width: 1201px) {
+
+	.playroom {
+		font-size: 200px;
+		height: 220px;
+	}
+    #player1, #player2, #player3, #player4 {
+    	width:100%;
+		padding-left: 20px ;
+    }
+
+	.description_img_left, .description_img_right{
+		position: relative;
+		height: 460px;
+		width: 100%;
+		z-index: 1;
+	}
+	.project_description{
+		margin-top: 30px;
+	}
+
+ 	.sider_text .first_heading{
+		font-size: 80px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.sider_text .second_heading{
+		font-size:80px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.sider_text .third_heading{
+		font-size: 80px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.sider_text .fourth_heading{
+		font-size: 80px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+
+     	.sider_text p {
+		font-size: 1.5em;
+	}  
+	
+	
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+	body{
+		font-family: 'BitcountMonoSingleRegularCircle', sans-serif;
+		color: #8a8a8a;
+		font-size: 15px;
+		line-height:1.6em;
+		overflow-x: hidden;
+
+	}
+
+	.playroom {
+		font-size: 230px; /* Showing as "Bit" */
+	}
+	
+    #player1, #player2, #player3, #player4 {
+    	width:100%;
+    	padding-left: 30px ;
+    }
+    
+ 	.sider_text .first_heading{
+		font-size: 90px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.sider_text .second_heading{
+		font-size:90px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.sider_text .third_heading{
+		font-size: 90px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.sider_text .fourth_heading{
+		font-size: 90px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+   
+ 
+    
+    
+	.nivo-main-image {
+		display: block !important;
+		position: relative !important; 
+		width: auto !important;
+	}
+	.nivoSlider img  {
+		height: 430px !important;
+		background-size:cover;
+
+	}	
+	.navbar-collapse {
+		background:#000;
+	}
+
+#main_nav li a{
+	padding: 12px 9px;
+
+}
+
+a.nivo-prevNav{
+	margin-left:10px;
+
+}
+a.nivo-nextNav{
+	margin-right:10px;
+
+
+}
+
+.slider-text{
+padding-left:4em;
+padding-right:3em;
+}
+
+	/* align middle on mobile | slider title */
+
+	.slide1{
+		text-align: center;
+	}
+	.slide2{
+		text-align: center;
+	}
+	.slide3{
+		text-align: center;
+	}
+	.slide4{
+		text-align: center;
+	}
+	.sider_text p {
+		font-family: "BitcountPropSingleRegularCircle";
+		color: #fff;
+		font-size: 1.1em;
+		line-height: 1.3em;
+		margin-bottom: 50px;
+	}
+	.sider_text .first_heading{
+		font-size: 45px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;
+	}
+	.sider_text .second_heading{
+		font-size: 45px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.sider_text .third_heading{
+		font-size: 45px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.sider_text .fourth_heading{
+		font-size: 45px;
+		line-height: 1em;
+		margin-bottom: 0;	
+		margin-top: 1em;	
+	}
+	.explore_btn {
+	  font-size: 13px;
+	  padding: 12px 17px;
+	}	
+	h2,.section_title h2 {
+	  font-size: 25px;
+	}	
+	h4{
+		font-size: 16px;
+	}
+	.statistics-content {
+	  margin-bottom: 30px;
+	}	
+	#contact .right{
+		margin-top: 30px;
+	}
+}

@@ -3,10 +3,14 @@
 #   Making the separate Bitcount masters, with the pixel shapes filled in.
 #
 import os, shutil
+
+from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
+
 from scriptsLib import *
 from scriptsLib.glyphData import PIXEL_DATA # Data of all pixel glyphs
 from scriptsLib.masterData import MASTERS_DATA
-from scriptsLib.add_colrv1 import add_colorv1
+#from scriptsLib.add_colrv1 import add_colorv1
+from scriptsLib.bungeeCOLRv1Example import addCOLRv1
 
 def getMasterName(md, pd):
     """Calculate the master name from the master data and pixel data location."""
@@ -157,3 +161,34 @@ def addCOLRv1toVF(vfPath):
     shutil.copy(vfPath, dstPath)
     add_colorv1(dstPath)
 
+def ZZZaddCOLRv1toUFO(designSpacePath, variant):
+    # Open the pixel font, as lead for the masters that need to be generated.
+    print('--- Adding COLORv1 layers')
+    for masterName, md in MASTERS_DATA.items():
+        if md.variant == variant:
+            for pName, pd in PIXEL_DATA.items():
+                # Bitcount generated masters, that include location-bound pixel shape, typically is called
+                # BitcountMono_DoubleCircleSquare_LINE0_OPEN0_SHPE0_slnt0_wght500.ufo
+                ufoName = getMasterName(md, pd) # Calculate master name from master data and pixel data
+                dstPath = md.path + ufoName
+                f = openFont(dstPath)
+                print('... Adding COLRv1 layers to', dstPath)
+                addCOLRv1(f)
+                #f.lib[COLOR_PALETTES_KEY] = palettesRegular
+                #f.lib[COLOR_LAYERS_KEY] = colorGlyphsRegular
+                f.save()
+
+def addCOLRv1toUFO(designSpacePath, variant):
+    # Open the pixel font, as lead for the masters that need to be generated.
+    print('--- Adding COLORv1 layers')
+    ufoName1 = '_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght500.ufo'
+    ufoName2 = '_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght0.ufo'
+
+    f1 = openFont(ufoName1)
+    f2 = openFont(ufoName2)
+    print('... Adding COLRv1 layers to', ufoName1)
+    print('... Adding COLRv1 layers to', ufoName2)
+    addCOLRv1(f1, f2)
+    f1.save()
+    f2.save()
+    

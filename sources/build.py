@@ -59,7 +59,7 @@ DESIGN_SPACE_PATHS = [
     # Un-comment the design space that should be generated.
     ('BitcountGrid_Double%s.designspace' % axisCount, GRID),
     ('BitcountGrid_Single%s.designspace' % axisCount, GRID),
-    #('BitcountMono_Double%s.designspace' % axisCount, MONO),
+    ('BitcountMono_Double%s.designspace' % axisCount, MONO),
     ('BitcountMono_Single%s.designspace' % axisCount, MONO),
     ('BitcountProp_Double%s.designspace' % axisCount, PROP),
     ('BitcountProp_Single%s.designspace' % axisCount, PROP),
@@ -90,9 +90,9 @@ for path, variant in DESIGN_SPACE_PATHS:
         #os.system('open variable_ttf')
 
     # Add COLRv1 pixels to a copy of the generated VF
-    if ADD_COLRV1:
-        vfPath = path.replace('.designspace', '-VF.ttf')
-        addCOLRv1toVF(VF_PATH + vfPath)
+    #if ADD_COLRV1:
+    #    vfPath = path.replace('.designspace', '-VF.ttf')
+    #    addCOLRv1toVF(VF_PATH + vfPath)
 
 print('--- Done')
 

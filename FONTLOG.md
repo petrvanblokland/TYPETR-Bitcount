@@ -2,14 +2,13 @@ FONTLOG for Bitcount
 -------------------
 
 This file provides detailed information on the Bitcount font software.
-This information should be distributed along with the Bitcount fonts
-and any derivative works.
+This information should be distributed along with the Bitcount fonts and any derivative works.
 
 
 Basic Font Information
 --------------------------
 
-Bitcount is a pixel typeface, that comes in three types: grid, mono and prop. 
+Bitcount is a pixel typeface, that comes in three types: *grid*, *mono* and *prop*, and each in two flavours *double* and *single*. 
 See more about using and editing Bitcount in the [docs](/documentation).
 
 
@@ -22,10 +21,7 @@ Eventually it will be released under the SIL Open Font License, as described bel
 
 Bitcount is released under the OFL 1.1 - http://scripts.sil.org/OFL
 
-For information on what you're allowed to change or modify, consult the
-OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
-rationale and various recommendations regarding why you would want to
-contribute to the project or make your own version of the font.
+For information on what you're allowed to change or modify, consult the OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general rationale and various recommendations regarding why you would want to contribute to the project or make your own version of the font.
 
 See the project website for the current trunk and the various branches:
 

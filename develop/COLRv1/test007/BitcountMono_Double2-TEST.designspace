@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="50" maximum="500" minimum="50" name="Weight" tag="wght"/>
+        <axis default="0" maximum="500" minimum="-500" name="ColorX" tag="COLX"/>
+        <axis default="0" maximum="500" minimum="-500" name="ColorY" tag="COLY"/>
+    </axes>
+    <sources>
+
+        
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_Xmin_Ymin.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="-500"/>
+            <dimension name="ColorY" xvalue="-500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_Xmin_Y.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="-500"/>
+            <dimension name="ColorY" xvalue="0"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_Xmin_Ymax.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="-500"/>
+            <dimension name="ColorY" xvalue="500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_X_Ymin.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="0"/>
+            <dimension name="ColorY" xvalue="-500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_X_Y.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="0"/>
+            <dimension name="ColorY" xvalue="0"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_X_Ymax.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="0"/>
+            <dimension name="ColorY" xvalue="500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_Xmax_Ymin.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="500"/>
+            <dimension name="ColorY" xvalue="-500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_Xmax_Y.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="500"/>
+            <dimension name="ColorY" xvalue="0"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_S_Xmax_Ymax.ufo">
+        <location>
+            <dimension name="Weight" xvalue="50"/>
+            <dimension name="ColorX" xvalue="500"/>
+            <dimension name="ColorY" xvalue="500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_Xmin_Ymin.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="-500"/>
+            <dimension name="ColorY" xvalue="-500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_Xmin_Y.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="-500"/>
+            <dimension name="ColorY" xvalue="0"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_Xmin_Ymax.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="-500"/>
+            <dimension name="ColorY" xvalue="500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_X_Ymin.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="0"/>
+            <dimension name="ColorY" xvalue="-500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_X_Y.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="0"/>
+            <dimension name="ColorY" xvalue="0"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_X_Ymax.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="0"/>
+            <dimension name="ColorY" xvalue="500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_Xmax_Ymin.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="500"/>
+            <dimension name="ColorY" xvalue="-500"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_Xmax_Y.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="500"/>
+            <dimension name="ColorY" xvalue="0"/>
+        </location>
+        
+    </source>
+
+
+    <source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double_Smax_Xmax_Ymax.ufo">
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="ColorX" xvalue="500"/>
+            <dimension name="ColorY" xvalue="500"/>
+        </location>
+        
+    </source>
+
+
+    </sources>
+</designspace>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+	<axes>
+		<axis default="0" maximum="1000" minimum="0" name="Weight" tag="wght"/>
+	</axes>
+	<sources>
+		<source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double1.ufo" name="Bitcount Mono Double-1" stylename="Double 1">
+			<location>
+				<dimension name="Weight" xvalue="0"/>
+			</location>
+			<info copy="1"/>
+		</source>
+		<source familyname="Bitcount Mono Double" filename="ufo/Bitcount_Mono_Double2.ufo" name="Bitcount Mono Double-2" stylename="Double 2">
+			<location>
+				<dimension name="Weight" xvalue="1000"/>
+			</location>
+		</source>
+	</sources>
+</designspace>
