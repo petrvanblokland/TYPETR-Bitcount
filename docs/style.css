@@ -52,6 +52,9 @@ p b {
 .bitcountgrid {
 	font-family: "BitcountGridDoubleRegularCircle",sans-serif;
 }
+.bitcountmono {
+	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+}
 .bitcountprop {
 	font-family: "BitcountPropDoubleRegularCircle",sans-serif;
 }
