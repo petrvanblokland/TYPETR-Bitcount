@@ -18,6 +18,7 @@
 * **Petr doing, once the VF is running** Add more example images for documentation to generate BitcountReference.pdf, also including the latest state for COLRv1 examples.
 * **Petr doing, once the VF is running** Implement COLv1 VF examples with additional layers and axes.
 * **DONE. Needs editorial input from Google?** Adapt the website to include COLRv1 examples.
+*  **Petr doing, once the VF is running** Make Github repository public and start the website from there. 
 
 ## Nice to have
 
