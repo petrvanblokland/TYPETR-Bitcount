@@ -15,9 +15,11 @@
 	* Bitcount Prop Double
 	* Bitcount Prop Single
 * **Petr doing** Generate all instances font files in *otf/* and *ttf/*
+* **DONE. Needs editorial input from Google?** Adapt the website to include COLRv1 examples.
+* **Editorial checks from Google?** The “manual” document is in documentation/Bitcountreference.md which exports into documentation/BitcountReference.pdf. This document has a download link on the site.
 * **Petr doing, once the VF is running** Add more example images for documentation to generate BitcountReference.pdf, also including the latest state for COLRv1 examples.
 * **Petr doing, once the VF is running** Implement COLv1 VF examples with additional layers and axes.
-* **DONE. Needs editorial input from Google?** Adapt the website to include COLRv1 examples.
+
 *  **Petr doing, once the VF is running** Make Github repository public and start the website from there. 
 
 ## Nice to have
