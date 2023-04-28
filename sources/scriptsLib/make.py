@@ -3,6 +3,7 @@
 #   Making the separate Bitcount masters, with the pixel shapes filled in.
 #
 import os, shutil
+import codecs
 
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
@@ -12,45 +13,47 @@ from scriptsLib.masterData import MASTERS_DATA
 #from scriptsLib.add_colrv1 import add_colorv1
 from scriptsLib.bungeeCOLRv1Example import addCOLRv1
 
+BUILD = 8
+
 def getMasterName(md, pd):
     """Calculate the master name from the master data and pixel data location."""
-    return '%s%s_%s_OPEN%d_SHPE%d_slnt%d_wght%d.ufo' % (
-        BITCOUNT, md.variant, md.stem, pd.OPEN, pd.SHPE, pd.slnt, pd.wght)
+    return f'{BITCOUNT}_{md.variant}_{md.stem}-wght{pd.wght}_OPEN{pd.OPEN}_SHPE{pd.SHPE}_slnt{pd.slnt}.ufo'
 
 def deleteUFOs(path):
     """Delete all UFOs in this directory. Faster than removing them one by one."""
     os.system('rm -r %s*.ufo' % path)
 
-def copyMasters(srcPath, variant):
+def copyMasters(dsName, dsParams):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
     """
     # Make the local _masters/ path. Note that this directory does not commit to Github.
-    print('--- Cleaning/creating directories in _masters/')
-    if not os.path.exists(srcPath):
-        print('... Make %s folder' % srcPath)
-        os.mkdir(srcPath)
+    print('... Cleaning/creating directories in _masters/')
+    if not os.path.exists(MASTERS_PATH):
+        print('... Make %s folder' % MASTERS_PATH)
+        os.mkdir(MASTERS_PATH)
+    ufoPath = dsParams['ufoPath']    
     for masterPath in MASTER_PATHS:
-        if variant.lower() in masterPath: # Create variant directories, if not existing
-            if not os.path.exists(masterPath):
-                os.mkdir(masterPath)
+        if not os.path.exists(ufoPath):
+            os.mkdir(ufoPath)
+        else:
             # Remove old UFO masters one by one in case they are here
-            deleteUFOs(masterPath)
+            deleteUFOs(ufoPath)
 
     # Open the pixel font, as lead for the masters that need to be generated.
-    print('--- Copy %d location masters (wght=3, italic=2, open=2, shape=12)' % len(PIXEL_DATA))
-    for masterName, md in MASTERS_DATA.items():
-        if md.variant == variant:
-            for pName, pd in PIXEL_DATA.items():
-                if pd.slnt: # Italic, then take the related italic ufo instead to copy from
-                    srcPath = UFO_PATH + md.italicName
-                else:
-                    srcPath = UFO_PATH + masterName
-                # Bitcount generated masters, that include location-bound pixel shape, typically is called
-                # BitcountMono_DoubleCircleSquare_LINE0_OPEN0_SHPE0_slnt0_wght500.ufo
-                ufoName = getMasterName(md, pd) # Calculate master name from master data and pixel data
-                dstPath = md.path + ufoName
-                copyUFO(srcPath, dstPath)
+    masterName = dsParams['masterName']
+    print('... Copy %s %d location masters (wght=3, open=2, shape=12, slanted=2)' % (masterName, len(PIXEL_DATA)))
+    md = MASTERS_DATA[masterName]
+    for pName, pd in PIXEL_DATA.items():
+        if pd.slnt:
+            ufoName = md.italicName
+        else:
+            ufoName = md.ufoName
+        dstName = getMasterName(md, pd) # Calculate master name from master data and pixel data
+        dstPath = md.path + dstName
+        if not os.path.exists(dstPath):
+            srcPath = UFO_PATH + ufoName
+            copyUFO(srcPath, dstPath)
 
 def isRoboFont():
     try:
@@ -126,34 +129,96 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=T
     return g
     #return dstFont[dstGlyphName]
   
-def makePixelMasters(variant):
+def makePixelMasters(dsName, dsParams):
     """Copy the right pixels shapes in the copied _masters/* master ufo files."""
-    print('--- Set pixel shape of %d masters' % len(PIXEL_DATA))
+    print('... Set pixel shape %s of %d masters' % (dsName, len(PIXEL_DATA)))
     pixels = openFont(UFO_PATH + VARIATION_PIXELS)
-    for masterName, md in MASTERS_DATA.items():
-        if md.variant == variant:
-            for pName, pd in PIXEL_DATA.items():
-                ufoName = getMasterName(md, pd)
-                dstPath = md.path + ufoName
-                dst = openFont(dstPath)
-                # Copy the pixel shape to this axis/variant master
-                copyGlyph(pixels, pName, dst, PIXEL_NAME)
-                assert PIXEL_NAME in dst
-                dst.info.familyName = md.familyName
-                dst.info.styleName = md.styleName % pName
-                dst.save()
-                dst.close()
+    masterName = dsParams['masterName']
+    md = MASTERS_DATA[masterName]
+    for pName, pd in PIXEL_DATA.items():
+        ufoName = getMasterName(md, pd)
+        dstPath = md.path + ufoName
+        dst = openFont(dstPath)
+        # Copy the pixel shape to this axis/variant master
+        copyGlyph(pixels, pName, dst, PIXEL_NAME)
+        assert PIXEL_NAME in dst
+        dst.info.familyName = md.familyName
+        dst.info.styleName = md.styleName % pName
+        dst.save()
+        dst.close()
     pixels.close()
 
 
-def makeDesignSpaceFiles(axisCount, variant):
+def makeDesignSpaceFile(dsName, dsParams, axes):
     """Dynamic generation of the design space file for this number of axes and this variant"""
-    xml = []
+    print('... Make design space %s' % dsName)
     for pName, pd in PIXEL_DATA.items():
         pass
         #print(pName, pd)
-    # TBD: Make dynamic designspace files here.
 
+    fin = codecs.open(DESIGNSPACE_TEMPLATE_PATH, 'r', encoding='UTF-8')
+    template = fin.read()
+    fin.close()
+
+    #wght=dict(minValue=0, default=500, maxValue=1000, name='Weight'),
+    #OPEN=dict(minValue=0, default=0, maxValue=1000, name='Open'),
+    #SHPE=dict(minValue=0, default=0, maxValue=1000, name='Shape'),
+    #slnt=dict(minValue=0, default=0, maxValue=1000, name='Slanted'),
+    # COLRv1 axes
+    #LR1X=dict(minValue=-500, default=0, maxValue=500, name='Layer1-X'),
+    #LR1Y=dict(minValue=-500, default=0, maxValue=500, name='Layer1-Y'),
+    #LR2X=dict(minValue=-500, default=0, maxValue=500, name='Layer2-X'),
+    #LR2Y=dict(minValue=-500, default=0, maxValue=500, name='Layer2-Y'),
+
+    axisParams = dict(sources='', instances='')
+    axisParams['title'] = 'Design space of Bitcount %(variant)s %(stem)s'
+    axisParams['stem'] = stem = dsParams['stem']
+    axisParams['variant'] = variant = dsParams['variant']
+           
+    for tag, axis in axes.items():
+        axisParams[tag+'Min'] = axis['minValue']
+        axisParams[tag+'Def'] = axis['default']
+        axisParams[tag+'Max'] = axis['maxValue']
+
+    for wght in set((axes['wght']['minValue'], axes['wght']['default'], axes['wght']['maxValue'])):
+        for OPEN in set((axes['OPEN']['minValue'], axes['OPEN']['default'], axes['OPEN']['maxValue'])):
+            for SHPE in set((axes['SHPE']['minValue'], axes['SHPE']['default'], axes['SHPE']['maxValue'])):
+                for slnt in set((axes['slnt']['minValue'], axes['slnt']['default'], axes['slnt']['maxValue'])):
+                    # COLRv1 axes
+                    for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['default'], axes['LR1X']['maxValue'])):
+                        for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['default'], axes['LR1Y']['maxValue'])):
+                            for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['default'], axes['LR2X']['maxValue'])):
+                                for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['default'], axes['LR2Y']['maxValue'])):
+                                    if (wght, OPEN, SHPE, slnt, LR1X, LR1Y, LR2X, LR2Y) == DEFAULT_LOCATION:
+                                        info = '<info copy="1"/>'
+                                    else: 
+                                        info = ''
+                                    path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_OPEN{OPEN}_SHPE{SHPE}_slnt{slnt}.ufo'
+
+                                    axisParams['sources'] += f"""
+        <source familyname="Bitcount {variant} {stem}" 
+            filename="{path}" 
+            name="Bitcount {variant} {stem}" 
+            stylename="wght{wght} OPEN{OPEN} SHPE{SHPE} slnt{slnt}">
+            <location>
+                <dimension name="Weight" xvalue="{wght}"/>
+                <dimension name="Open" xvalue="{OPEN}"/>
+                <dimension name="Shape" xvalue="{SHPE}"/>
+                <dimension name="Slanted" xvalue="{slnt}"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-X" xvalue="{LR1X}"/>
+                <dimension name="Layer1-Y" xvalue="{LR1Y}"/>
+                <dimension name="Layer2-X" xvalue="{LR2X}"/>
+                <dimension name="Layer2-Y" xvalue="{LR2Y}"/>
+            </location>
+            {info}
+        </source>
+            """
+
+    xml = template % axisParams
+    fds = codecs.open(dsName, 'w', encoding='UTF-8')
+    fds.write(xml)
+    fds.close()
 
 def addCOLRv1toVF(vfPath):
     dstPath = vfPath.replace('.ttf', '_COLRv1.ttf')

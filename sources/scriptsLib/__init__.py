@@ -9,38 +9,49 @@ import os, shutil
 # the right pixel shape accordingly.
 PIXEL_NAME = 'px'
 
-UFO_PATH = 'ufo/'
-FEATURES_PATH = 'features/'
-MASTERS_PATH = '_masters/'
-
-MASTERS_GRID_PATH = MASTERS_PATH + 'grid/'
-MASTERS_MONO_PATH = MASTERS_PATH + 'mono/'
-MASTERS_PROP_PATH = MASTERS_PATH + 'prop/'
-MASTER_PATHS = (MASTERS_GRID_PATH, MASTERS_MONO_PATH, MASTERS_PROP_PATH)
-
-MASTERS_COLG_GRID_PATH = MASTERS_PATH + 'gridCOLG/'
-MASTERS_COLG_MONO_PATH = MASTERS_PATH + 'monoCOLG/'
-MASTERS_COLG_PROP_PATH = MASTERS_PATH + 'propCOLG/'
-MASTER_COLG_PATHS = (MASTERS_COLG_GRID_PATH, MASTERS_COLG_MONO_PATH, MASTERS_COLG_PROP_PATH)
-
-VF_PATH = 'variable_ttf/' # vf/
-
 # Name parts to auto-construct generated master UFO names.
 BITCOUNT = 'Bitcount'
+# Variants
 GRID = 'Grid'
 MONO = 'Mono'
 PROP = 'Prop'
 VARIANTS = (GRID, MONO, PROP)
+# Stems
 SINGLE = 'Single'
 DOUBLE = 'Double'
 STEMS = (SINGLE, DOUBLE)
+
+UFO_PATH = 'ufo/'
+FEATURES_PATH = 'features/'
+MASTERS_PATH = '_masters/' # Gitignore, not committing into Github
+
+MASTERS_GRID_SINGLE_PATH = f'{MASTERS_PATH}{GRID}-{SINGLE}/'
+MASTERS_GRID_DOUBLE_PATH = f'{MASTERS_PATH}{GRID}-{DOUBLE}/'
+MASTERS_MONO_SINGLE_PATH = f'{MASTERS_PATH}{MONO}-{SINGLE}/'
+MASTERS_MONO_DOUBLE_PATH = f'{MASTERS_PATH}{MONO}-{DOUBLE}/'
+MASTERS_PROP_SINGLE_PATH = f'{MASTERS_PATH}{PROP}-{SINGLE}/'
+MASTERS_PROP_DOUBLE_PATH = f'{MASTERS_PATH}{PROP}-{DOUBLE}/'
+MASTER_PATHS = (    
+    MASTERS_GRID_SINGLE_PATH, MASTERS_GRID_DOUBLE_PATH,
+    MASTERS_MONO_SINGLE_PATH, MASTERS_MONO_DOUBLE_PATH,
+    MASTERS_PROP_SINGLE_PATH, MASTERS_PROP_DOUBLE_PATH,
+)
+
+#MASTERS_COLG_GRID_PATH = MASTERS_PATH + 'gridCOLG/'
+#MASTERS_COLG_MONO_PATH = MASTERS_PATH + 'monoCOLG/'
+#MASTERS_COLG_PROP_PATH = MASTERS_PATH + 'propCOLG/'
+#MASTER_COLG_PATHS = (MASTERS_COLG_GRID_PATH, MASTERS_COLG_MONO_PATH, MASTERS_COLG_PROP_PATH)
+
+VF_PATH = 'variable_ttf/' # vf/
+
+DESIGNSPACE_TEMPLATE_PATH = 'Bitcount_Template.designspace'
 
 # Source UFO that contains all separate black pixel shapes.
 #VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
 VARIATION_PIXELS = 'Bitcount-VariationPixelsQ.ufo' # QUadratic curves in pixels
 
 # Source masters in ufo/, used to copy into _masters/ with replaced pixel shape.
-GRID_DOUBLE = 'Bitcount_Grid_Double.ufo'
+GRID_DOUBLE = f'{BITCOUNT}_{GRID}_{DOUBLE}.ufo'
 GRID_DOUBLE_ITALIC = 'Bitcount_Grid_Double_Italic.ufo'
 GRID_SINGLE = 'Bitcount_Grid_Single.ufo'
 GRID_SINGLE_ITALIC = 'Bitcount_Grid_Single_Italic.ufo'
@@ -52,6 +63,43 @@ PROP_DOUBLE = 'Bitcount_Prop_Double.ufo'
 PROP_DOUBLE_ITALIC = 'Bitcount_Prop_Double-Italic.ufo'
 PROP_SINGLE = 'Bitcount_Prop_Single.ufo'
 PROP_SINGLE_ITALIC = 'Bitcount_Prop_Single-Italic.ufo'
+
+AXES = dict(
+    wght=dict(minValue=0, default=500, maxValue=1000),
+    OPEN=dict(minValue=0, default=0, maxValue=1000),
+    SHPE=dict(minValue=0, default=0, maxValue=1000),
+    slnt=dict(minValue=0, default=0, maxValue=1000),
+    # COLRv1 axes
+    LR1X=dict(minValue=-500, default=0, maxValue=500),
+    LR1Y=dict(minValue=-500, default=0, maxValue=500),
+    LR2X=dict(minValue=-500, default=0, maxValue=500),
+    LR2Y=dict(minValue=-500, default=0, maxValue=500),
+    # Optionally a 3rd layer?
+)
+DEFAULT_LOCATION = (
+    AXES['wght']['default'],
+    AXES['OPEN']['default'],
+    AXES['SHPE']['default'],
+    AXES['SHPE']['default'],
+    AXES['LR1X']['default'],
+    AXES['LR1Y']['default'],
+    AXES['LR2X']['default'],
+    AXES['LR2Y']['default'],
+)
+
+AXISCOUNT = len(AXES) # Number of main axes, besides the COLV1 axes.
+
+DESIGN_SPACES= {}
+for variant in VARIANTS:
+    for stem in STEMS:
+        # Un-comment the design space that should be generated.
+        dsName = f'{BITCOUNT}_{variant}_{stem}{AXISCOUNT}-COLRv1.designspace'
+        masterName = f'{BITCOUNT}_{variant}_{stem}.ufo'
+        masterItalicName = f'{BITCOUNT}_{variant}_{stem}_Italic.ufo'
+        ufoPath = f'{MASTERS_PATH}{variant}-{stem}/'
+        dsParams = dict(variant=variant, stem=stem, axisCount=AXISCOUNT, ufoPath=ufoPath,
+            masterName=masterName, masterItalicName=masterItalicName, dsName=dsName,)
+        DESIGN_SPACES[dsName] = dsParams 
 
 # Pixel weight sizes in pixel glyph names, this is the stem width of Bitcount glyphs
 THIN = 0
