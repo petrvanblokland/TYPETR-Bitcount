@@ -76,15 +76,12 @@ AXES = dict(
     LR2Y=dict(minValue=-500, default=0, maxValue=500),
     # Optionally a 3rd layer?
 )
+# COLRv1 axes are defined as independent directions
 DEFAULT_LOCATION = (
     AXES['wght']['default'],
     AXES['OPEN']['default'],
     AXES['SHPE']['default'],
     AXES['SHPE']['default'],
-    AXES['LR1X']['default'],
-    AXES['LR1Y']['default'],
-    AXES['LR2X']['default'],
-    AXES['LR2Y']['default'],
 )
 
 AXISCOUNT = len(AXES) # Number of main axes, besides the COLV1 axes.
@@ -136,6 +133,8 @@ SHPE2VALUE = {
     11: 900,
     12: 1000,
 }
+
+SHAPES = sorted(SHPE2VALUE.values())
 
 # Total number of masters:
 # 3 (slnt) x 3 (OPEN) x 3 (LINE) x 6 (wght) 

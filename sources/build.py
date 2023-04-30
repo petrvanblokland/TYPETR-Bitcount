@@ -14,8 +14,7 @@ from scriptsLib.make import *
 
 if 0:
     MAKE_DESIGNSPACES = True # 
-    COPY_MASTERS = True
-    MAKE_MASTERS = True
+    COPY_MASTERS = True # Copy master to location and set the right pixel shape
     SET_GLYPH_ORDER = True
     MAKE_STAT = True
     MAKE_UFO = True
@@ -24,13 +23,12 @@ if 0:
     USE_PRODUCTION_NAMES = False
 else:
     MAKE_DESIGNSPACES = True 
-    COPY_MASTERS = True
-    MAKE_MASTERS = True
+    COPY_MASTERS = True # Copy master to location and set the right pixel shape
     SET_GLYPH_ORDER = False
     MAKE_STAT = False
     MAKE_UFO = False
     MAKE_TTF = False
-    MAKE_VF = True
+    MAKE_VF = False
     USE_PRODUCTION_NAMES = False
 
 if MAKE_DESIGNSPACES:
@@ -45,13 +43,7 @@ if COPY_MASTERS:
     for dsName, dsParams in DESIGN_SPACES.items():
         # Copy the ufo/ masters to _masters/<variant> for every master and apply the 
         # right file name based on location  and variant
-        copyMasters(dsName, dsParams)
-
-if MAKE_MASTERS:
-    print('--- Make masters, filling the pixel shapes')
-    for dsName, dsParams in DESIGN_SPACES.items():
-        # Make all master UFO's, combining the base masters with their pixel shapes
-        # based on location/variant
+        copyMasters(dsName, dsParams, AXES)
         makePixelMasters(dsName, dsParams)
 
 if MAKE_VF:

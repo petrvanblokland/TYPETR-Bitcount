@@ -5,13 +5,13 @@
 import os, shutil
 import codecs
 
+from fontParts.fontshell.font import RFont
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
 from scriptsLib import *
 from scriptsLib.glyphData import PIXEL_DATA # Data of all pixel glyphs
 from scriptsLib.masterData import MASTERS_DATA
-#from scriptsLib.add_colrv1 import add_colorv1
-from scriptsLib.bungeeCOLRv1Example import addCOLRv1
+from scriptsLib.colrv1 import addCOLRv1
 
 BUILD = 8
 
@@ -19,11 +19,17 @@ def getMasterName(md, pd):
     """Calculate the master name from the master data and pixel data location."""
     return f'{BITCOUNT}_{md.variant}_{md.stem}-wght{pd.wght}_OPEN{pd.OPEN}_SHPE{pd.SHPE}_slnt{pd.slnt}.ufo'
 
+def getFamilyName(md):
+    return f'{BITCOUNT} {md.variant} {md.stem}'
+
+def getStyleName(pd):
+    return f'wght{pd.wght} OPEN{pd.OPEN} SHPE{pd.SHPE} slnt{pd.slnt}'
+
 def deleteUFOs(path):
     """Delete all UFOs in this directory. Faster than removing them one by one."""
     os.system('rm -r %s*.ufo' % path)
 
-def copyMasters(dsName, dsParams):
+def copyMasters(dsName, dsParams, axes):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
     """
@@ -54,6 +60,30 @@ def copyMasters(dsName, dsParams):
         if not os.path.exists(dstPath):
             srcPath = UFO_PATH + ufoName
             copyUFO(srcPath, dstPath)
+            f = RFont(dstPath)
+            f.info.familyName = getFamilyName(md)
+            f.info.styleName = getStyleName(pd)
+            addCOLRv1(f)
+            f.save()
+            f.close()
+    
+    # COLRv1 axes are independent masters
+    stem = dsParams['stem']
+    variant = dsParams['variant']
+    for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['maxValue'])):
+        for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['maxValue'])):
+            for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['maxValue'])):
+                for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
+
+                    dstPath = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1X{LR1X}_LR1Y{LR1Y}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
+                    srcPath = UFO_PATH + md.ufoName
+                    copyUFO(srcPath, dstPath)
+                    f = RFont(dstPath)
+                    f.info.familyName = getFamilyName(md)
+                    f.info.styleName = getStyleName(pd)
+                    addCOLRv1(f)
+                    f.save()
+                    f.close()
 
 def isRoboFont():
     try:
@@ -180,22 +210,57 @@ def makeDesignSpaceFile(dsName, dsParams, axes):
         axisParams[tag+'Def'] = axis['default']
         axisParams[tag+'Max'] = axis['maxValue']
 
+    # Layer axes are independent from main Bitcount shape axes
+    LR1X = axes['LR1X']['default']
+    LR1Y = axes['LR1Y']['default']
+    LR2X = axes['LR2X']['default']
+    LR2Y = axes['LR2Y']['default']
     for wght in set((axes['wght']['minValue'], axes['wght']['default'], axes['wght']['maxValue'])):
-        for OPEN in set((axes['OPEN']['minValue'], axes['OPEN']['default'], axes['OPEN']['maxValue'])):
-            for SHPE in set((axes['SHPE']['minValue'], axes['SHPE']['default'], axes['SHPE']['maxValue'])):
-                for slnt in set((axes['slnt']['minValue'], axes['slnt']['default'], axes['slnt']['maxValue'])):
-                    # COLRv1 axes
-                    for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['default'], axes['LR1X']['maxValue'])):
-                        for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['default'], axes['LR1Y']['maxValue'])):
-                            for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['default'], axes['LR2X']['maxValue'])):
-                                for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['default'], axes['LR2Y']['maxValue'])):
-                                    if (wght, OPEN, SHPE, slnt, LR1X, LR1Y, LR2X, LR2Y) == DEFAULT_LOCATION:
-                                        info = '<info copy="1"/>'
-                                    else: 
-                                        info = ''
-                                    path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_OPEN{OPEN}_SHPE{SHPE}_slnt{slnt}.ufo'
+        # minValue is the same as default
+        for OPEN in set((axes['OPEN']['default'], axes['OPEN']['maxValue'])):
+            # minValue is the same as default
+            for SHPE in SHAPES:
+                # minValue is the same as default
+                for slnt in set((axes['slnt']['default'], axes['slnt']['maxValue'])):
+                    if (wght, OPEN, SHPE, slnt) == DEFAULT_LOCATION:
+                        info = '<info copy="1"/>'
+                    else: 
+                        info = ''
+                    path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_OPEN{OPEN}_SHPE{SHPE}_slnt{slnt}.ufo'
 
-                                    axisParams['sources'] += f"""
+                    axisParams['sources'] += f"""
+        <source familyname="Bitcount {variant} {stem}" 
+            filename="{path}" 
+            name="Bitcount {variant} {stem}" 
+            stylename="wght{wght} OPEN{OPEN} SHPE{SHPE} slnt{slnt}">
+            <location>
+                <dimension name="Weight" xvalue="{wght}"/>
+                <dimension name="Open" xvalue="{OPEN}"/>
+                <dimension name="Shape" xvalue="{SHPE}"/>
+                <dimension name="Slanted" xvalue="{slnt}"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-X" xvalue="{LR1X}"/>
+                <dimension name="Layer1-Y" xvalue="{LR1Y}"/>
+                <dimension name="Layer2-X" xvalue="{LR2X}"/>
+                <dimension name="Layer2-Y" xvalue="{LR2Y}"/>
+            </location>
+            {info}
+        </source>
+            """
+
+    # COLRv1 axes
+    wght = axes['wght']['default']
+    OPEN = axes['OPEN']['default']
+    SHPE = axes['SHPE']['default']
+    slnt = axes['slnt']['default']
+    for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['maxValue'])):
+        for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['maxValue'])):
+            for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['maxValue'])):
+                for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
+
+                    path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1X{LR1X}_LR1Y{LR1Y}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
+
+                    axisParams['sources'] += f"""
         <source familyname="Bitcount {variant} {stem}" 
             filename="{path}" 
             name="Bitcount {variant} {stem}" 
