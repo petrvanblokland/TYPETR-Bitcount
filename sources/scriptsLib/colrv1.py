@@ -14,40 +14,22 @@ from fontTools.ttLib.tables import otTables as ot
 from fontTools.colorLib.builder import buildCOLR
 from fontTools.colorLib.builder import buildCPAL
 
-def addCOLRv1(f):
+def addCOLRv1Layers(f, LR1S=1, LR1X=0, LR1Y=0, LR2S=1, LR2X=0, LR2Y=0):
     print(f'... Add COLRv1 to {f.path}')
 
-'''
-DS = """<?xml version='1.0' encoding='utf-8'?>
-<designspace format="3">
-    <axes>
-        <axis default="50" maximum="500" minimum="50" name="Weight" tag="wght"/>
-        <axis default="0" maximum="500" minimum="-500" name="Layer1-X" tag="LR1X"/>
-        <axis default="0" maximum="500" minimum="-500" name="Layer1-Y" tag="LR1Y"/>
-        <axis default="0" maximum="500" minimum="-500" name="Layer2-X" tag="LR2X"/>
-        <axis default="0" maximum="500" minimum="-500" name="Layer2-Y" tag="LR2Y"/>
-    </axes>
-    <sources>
+    pixelLayer1 = getPaintRadialGradient1(LR1S, LR1X, LR1Y)
+    pixelLayer2 = getPaintRadialGradient2(LR2S, LR2X, LR2Y)
+    #circleLayer2 = getPaintCircle(values[s], values[x]+20, values[y]+20, color2)
+    colorGlyphs = {}
+    for glyphName in f.keys():
+        #circleLayer1 = getPaintCircle(glyphName, values[s], values[x2], values[y2], white)
+        #circleLayer2 = getPaintCircle(glyphName, values[s], values[x2], values[y2], white)
 
-        %(sources)s
+        colorGlyphs[glyphName] = buildPixelGlyph("px", pixelPositions(f, glyphName), pixelLayer1, pixelLayer2)
 
-    </sources>
-</designspace>
-"""
-
-SRC = """
-    <source familyname="Bitcount Mono Double" filename="%(ufoPath)s">
-        <location>
-            <dimension name="Weight" xvalue="%(s)d"/>
-            <dimension name="Layer1-X" xvalue="%(x1)d"/>
-            <dimension name="Layer1-Y" xvalue="%(y1)d"/>
-            <dimension name="Layer2-X" xvalue="%(x2)d"/>
-            <dimension name="Layer2-Y" xvalue="%(y2)d"/>
-        </location>
-        %(info)s
-    </source>
-"""
-
+    #print(colorGlyphs)
+    f.lib[COLOR_PALETTES_KEY] = palettes
+    f.lib[COLOR_LAYERS_KEY] = colorGlyphs
 
 def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2):
     layers = []
@@ -83,69 +65,6 @@ def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2):
     else:
         return (ot.PaintFormat.PaintColrLayers, layers)
 
-def XXXbuildPixelGlyph(pixelGlyphName, pixelPositions, s, gx, gy):
-    layers = []
-    for layerIndex in range(3):
-        for x, y in pixelPositions:
-            # Three nested Paints:
-            # - PaintTranslate to move the pixel to the right place
-            # - PaintGlyph to say which glyph to be drawn
-            # - PaintGradient to say how to fill the glyph
-            pixel = {
-                "Format": ot.PaintFormat.PaintTranslate,
-                "Paint": {
-                    "Format": ot.PaintFormat.PaintGlyph,
-                    "Paint": {
-                        "Format": ot.PaintFormat.PaintRadialGradient,
-                        "ColorLine": {
-                            "ColorStop": ((0.0, color1), (0.15, color2), (0.3, color3), (0.45, color4), (0.6, color5), (0.65, color6), (1, color7)),  # can be more than 2
-                            #"ColorStop": ((0.0, color1), (0.25, color2), (0.5, color3), (0.75, color4), (1, color5)),  # can be more than 2
-                            "Extend": "pad",  # pad, repeat, reflect
-                        },
-                        "x0": gx+50+layerIndex*10,
-                        "y0": gy+50+layerIndex+10,
-                        "r0": 5,
-                        "x1": gx+50,
-                        "y1": gy+50,
-                        "r1": s+5+layerIndex*20,
-                    },
-                    "Glyph": pixelGlyphName,
-                },
-                "dx": x,
-                "dy": y,
-            }
-            layers.append(pixel)
-    if len(layers) == 1:
-        return layers[0]
-    else:
-        return (ot.PaintFormat.PaintColrLayers, layers)
-
-fonts = {}
-ufoNameTemplates = dict(S='Bitcount_Mono_Double_S.ufo', Smax='Bitcount_Mono_Double_Smax.ufo')
-for s in ('S', 'Smax'):
-    for x1 in ('X1min', 'X1', 'X1max'):
-        for y1 in ('Y1min', 'Y1', 'Y1max'):
-            for x2 in ('X2min', 'X2', 'X2max'):
-                for y2 in ('Y2min', 'Y2', 'Y2max'):
-                    key = s + x1 + y1 + x2 + y2
-                    srcPath = 'ufo-src/' + ufoNameTemplates[s]
-                    ufoPath = 'ufo/' + ufoNameTemplates[s].replace('.ufo', '_%s_%s_%s_%s.ufo' % (x1, y1, x2, y2))
-                    if os.path.exists(ufoPath):
-                        shutil.rmtree(ufoPath)
-                    shutil.copytree(srcPath, ufoPath)
-                    fonts[key] = ufoLib2.Font.open(ufoPath)
-
-palettes = (
-    (
-        (1, 0, 1, 1),
-        (1, 1, 1, 1),
-        (0, 0.2, 1, 1),
-        (1, 0.2, 0, 1),
-        (0, 1, 0, 1),
-        (0, 1, 1, 1),
-        (0, 0, 0, 1),
-    ),
-)
 palettes = (
     (
         (1, 0, 1, 0.5),
@@ -273,6 +192,103 @@ def pixelPositions(f, gName):
         positions.append(tuple(component.transformation[-2:]))
     return tuple(positions)
 
+'''
+DS = """<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="50" maximum="500" minimum="50" name="Weight" tag="wght"/>
+        <axis default="0" maximum="500" minimum="-500" name="Layer1-X" tag="LR1X"/>
+        <axis default="0" maximum="500" minimum="-500" name="Layer1-Y" tag="LR1Y"/>
+        <axis default="0" maximum="500" minimum="-500" name="Layer2-X" tag="LR2X"/>
+        <axis default="0" maximum="500" minimum="-500" name="Layer2-Y" tag="LR2Y"/>
+    </axes>
+    <sources>
+
+        %(sources)s
+
+    </sources>
+</designspace>
+"""
+
+SRC = """
+    <source familyname="Bitcount Mono Double" filename="%(ufoPath)s">
+        <location>
+            <dimension name="Weight" xvalue="%(s)d"/>
+            <dimension name="Layer1-X" xvalue="%(x1)d"/>
+            <dimension name="Layer1-Y" xvalue="%(y1)d"/>
+            <dimension name="Layer2-X" xvalue="%(x2)d"/>
+            <dimension name="Layer2-Y" xvalue="%(y2)d"/>
+        </location>
+        %(info)s
+    </source>
+"""
+
+
+
+def XXXbuildPixelGlyph(pixelGlyphName, pixelPositions, s, gx, gy):
+    layers = []
+    for layerIndex in range(3):
+        for x, y in pixelPositions:
+            # Three nested Paints:
+            # - PaintTranslate to move the pixel to the right place
+            # - PaintGlyph to say which glyph to be drawn
+            # - PaintGradient to say how to fill the glyph
+            pixel = {
+                "Format": ot.PaintFormat.PaintTranslate,
+                "Paint": {
+                    "Format": ot.PaintFormat.PaintGlyph,
+                    "Paint": {
+                        "Format": ot.PaintFormat.PaintRadialGradient,
+                        "ColorLine": {
+                            "ColorStop": ((0.0, color1), (0.15, color2), (0.3, color3), (0.45, color4), (0.6, color5), (0.65, color6), (1, color7)),  # can be more than 2
+                            #"ColorStop": ((0.0, color1), (0.25, color2), (0.5, color3), (0.75, color4), (1, color5)),  # can be more than 2
+                            "Extend": "pad",  # pad, repeat, reflect
+                        },
+                        "x0": gx+50+layerIndex*10,
+                        "y0": gy+50+layerIndex+10,
+                        "r0": 5,
+                        "x1": gx+50,
+                        "y1": gy+50,
+                        "r1": s+5+layerIndex*20,
+                    },
+                    "Glyph": pixelGlyphName,
+                },
+                "dx": x,
+                "dy": y,
+            }
+            layers.append(pixel)
+    if len(layers) == 1:
+        return layers[0]
+    else:
+        return (ot.PaintFormat.PaintColrLayers, layers)
+
+fonts = {}
+ufoNameTemplates = dict(S='Bitcount_Mono_Double_S.ufo', Smax='Bitcount_Mono_Double_Smax.ufo')
+for s in ('S', 'Smax'):
+    for x1 in ('X1min', 'X1', 'X1max'):
+        for y1 in ('Y1min', 'Y1', 'Y1max'):
+            for x2 in ('X2min', 'X2', 'X2max'):
+                for y2 in ('Y2min', 'Y2', 'Y2max'):
+                    key = s + x1 + y1 + x2 + y2
+                    srcPath = 'ufo-src/' + ufoNameTemplates[s]
+                    ufoPath = 'ufo/' + ufoNameTemplates[s].replace('.ufo', '_%s_%s_%s_%s.ufo' % (x1, y1, x2, y2))
+                    if os.path.exists(ufoPath):
+                        shutil.rmtree(ufoPath)
+                    shutil.copytree(srcPath, ufoPath)
+                    fonts[key] = ufoLib2.Font.open(ufoPath)
+
+palettes = (
+    (
+        (1, 0, 1, 1),
+        (1, 1, 1, 1),
+        (0, 0.2, 1, 1),
+        (1, 0.2, 0, 1),
+        (0, 1, 0, 1),
+        (0, 1, 1, 1),
+        (0, 0, 0, 1),
+    ),
+)
+
 designSpaceSources = []
 
 #print(fonts)
@@ -319,5 +335,4 @@ designSpaceSources = []
 
 # os.system('fontmake -m BitcountMono_Double2-TEST.designspace -o variable')
 
-# print('--- Done')
 '''

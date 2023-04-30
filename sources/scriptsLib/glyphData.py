@@ -69,6 +69,8 @@ class GlyphData:
 
 GD = GlyphData
 
+DEFAULT_PIXEL_NAME = 'Pix01@10'
+
 # Keep GlyphData instances, that know about the design space location of the pixel glyph.
 PIXEL_DATA = {
 
@@ -77,12 +79,13 @@ PIXEL_DATA = {
     # Glyph names of the pixels have this format:
     # Pix<SHPEIndex>@<wghtIndex><open>
     # wght=3, italic=2, open=2, shape=12
+    # Add "_i" for the italic pixel varant. Circles remain circles, but verticals get slanted."
 
     'Pix01@00': GD(SHPEIndex=1, wght=THIN),
     'Pix01@00_i': GD(SHPEIndex=1, wght=THIN, slnt=ITALIC),
     'Pix01@01': GD(SHPEIndex=1, wght=THIN, OPEN=OPEN_QUAD),
     'Pix01@01_i': GD(SHPEIndex=1, wght=THIN, OPEN=OPEN_QUAD, slnt=ITALIC),
-    'Pix01@10': GD(SHPEIndex=1, wght=REGULAR, ),
+    DEFAULT_PIXEL_NAME: GD(SHPEIndex=1, wght=REGULAR, ),
     'Pix01@10_i': GD(SHPEIndex=1, wght=REGULAR, slnt=ITALIC),
     'Pix01@11': GD(SHPEIndex=1, wght=REGULAR, OPEN=OPEN_QUAD),
     'Pix01@11_i': GD(SHPEIndex=1, wght=REGULAR, OPEN=OPEN_QUAD, slnt=ITALIC),

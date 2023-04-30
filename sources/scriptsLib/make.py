@@ -9,9 +9,9 @@ from fontParts.fontshell.font import RFont
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
 from scriptsLib import *
-from scriptsLib.glyphData import PIXEL_DATA # Data of all pixel glyphs
+from scriptsLib.glyphData import PIXEL_DATA, DEFAULT_PIXEL_NAME # Data of all pixel glyphs
 from scriptsLib.masterData import MASTERS_DATA
-from scriptsLib.colrv1 import addCOLRv1
+from scriptsLib.colrv1 import addCOLRv1Layers
 
 BUILD = 8
 
@@ -46,6 +46,9 @@ def copyMasters(dsName, dsParams, axes):
             # Remove old UFO masters one by one in case they are here
             deleteUFOs(ufoPath)
 
+    # Copy pixels from this UFO.
+    pixels = openFont(UFO_PATH + VARIATION_PIXELS)
+
     # Open the pixel font, as lead for the masters that need to be generated.
     masterName = dsParams['masterName']
     print('... Copy %s %d location masters (wght=3, open=2, shape=12, slanted=2)' % (masterName, len(PIXEL_DATA)))
@@ -60,30 +63,36 @@ def copyMasters(dsName, dsParams, axes):
         if not os.path.exists(dstPath):
             srcPath = UFO_PATH + ufoName
             copyUFO(srcPath, dstPath)
-            f = RFont(dstPath)
-            f.info.familyName = getFamilyName(md)
-            f.info.styleName = getStyleName(pd)
-            addCOLRv1(f)
-            f.save()
-            f.close()
+            dst = RFont(dstPath)
+            dst.info.familyName = getFamilyName(md)
+            dst.info.styleName = getStyleName(pd)
+            copyGlyph(pixels, pName, dst, PIXEL_NAME)
+            addCOLRv1Layers(dst)
+            dst.save()
+            dst.close()
     
     # COLRv1 axes are independent masters
     stem = dsParams['stem']
     variant = dsParams['variant']
-    for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['maxValue'])):
-        for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['maxValue'])):
-            for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['maxValue'])):
-                for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
+    for LR1S in set((axes['LR1S']['minValue'], axes['LR1S']['maxValue'])):
+        for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['maxValue'])):
+            for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['maxValue'])):
+                for LR2S in set((axes['LR2S']['minValue'], axes['LR2S']['maxValue'])):
+                    for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['maxValue'])):
+                        for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
 
-                    dstPath = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1X{LR1X}_LR1Y{LR1Y}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
-                    srcPath = UFO_PATH + md.ufoName
-                    copyUFO(srcPath, dstPath)
-                    f = RFont(dstPath)
-                    f.info.familyName = getFamilyName(md)
-                    f.info.styleName = getStyleName(pd)
-                    addCOLRv1(f)
-                    f.save()
-                    f.close()
+                            dstPath = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{LR1S}_LR1X{LR1X}_LR1Y{LR1Y}_LR2S{LR2S}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
+                            srcPath = UFO_PATH + md.ufoName
+                            copyUFO(srcPath, dstPath)
+                            dst = RFont(dstPath)
+                            dst.info.familyName = getFamilyName(md)
+                            dst.info.styleName = getStyleName(pd)
+                            copyGlyph(pixels, DEFAULT_PIXEL_NAME, dst, PIXEL_NAME)
+                            addCOLRv1Layers(dst, LR1S, LR1X, LR1Y, LR2S, LR2X, LR2Y)
+                            dst.save()
+                            dst.close()
+
+    pixels.close()
 
 def isRoboFont():
     try:
@@ -159,26 +168,6 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=T
     return g
     #return dstFont[dstGlyphName]
   
-def makePixelMasters(dsName, dsParams):
-    """Copy the right pixels shapes in the copied _masters/* master ufo files."""
-    print('... Set pixel shape %s of %d masters' % (dsName, len(PIXEL_DATA)))
-    pixels = openFont(UFO_PATH + VARIATION_PIXELS)
-    masterName = dsParams['masterName']
-    md = MASTERS_DATA[masterName]
-    for pName, pd in PIXEL_DATA.items():
-        ufoName = getMasterName(md, pd)
-        dstPath = md.path + ufoName
-        dst = openFont(dstPath)
-        # Copy the pixel shape to this axis/variant master
-        copyGlyph(pixels, pName, dst, PIXEL_NAME)
-        assert PIXEL_NAME in dst
-        dst.info.familyName = md.familyName
-        dst.info.styleName = md.styleName % pName
-        dst.save()
-        dst.close()
-    pixels.close()
-
-
 def makeDesignSpaceFile(dsName, dsParams, axes):
     """Dynamic generation of the design space file for this number of axes and this variant"""
     print('... Make design space %s' % dsName)
@@ -211,8 +200,10 @@ def makeDesignSpaceFile(dsName, dsParams, axes):
         axisParams[tag+'Max'] = axis['maxValue']
 
     # Layer axes are independent from main Bitcount shape axes
+    LR1S = axes['LR1S']['default']
     LR1X = axes['LR1X']['default']
     LR1Y = axes['LR1Y']['default']
+    LR2S = axes['LR2S']['default']
     LR2X = axes['LR2X']['default']
     LR2Y = axes['LR2Y']['default']
     for wght in set((axes['wght']['minValue'], axes['wght']['default'], axes['wght']['maxValue'])):
@@ -239,8 +230,10 @@ def makeDesignSpaceFile(dsName, dsParams, axes):
                 <dimension name="Shape" xvalue="{SHPE}"/>
                 <dimension name="Slanted" xvalue="{slnt}"/>
                 <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="{LR1S}"/>
                 <dimension name="Layer1-X" xvalue="{LR1X}"/>
                 <dimension name="Layer1-Y" xvalue="{LR1Y}"/>
+                <dimension name="Layer2-Scale" xvalue="{LR2S}"/>
                 <dimension name="Layer2-X" xvalue="{LR2X}"/>
                 <dimension name="Layer2-Y" xvalue="{LR2Y}"/>
             </location>
@@ -253,32 +246,36 @@ def makeDesignSpaceFile(dsName, dsParams, axes):
     OPEN = axes['OPEN']['default']
     SHPE = axes['SHPE']['default']
     slnt = axes['slnt']['default']
-    for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['maxValue'])):
-        for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['maxValue'])):
-            for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['maxValue'])):
-                for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
+    for LR1S in set((axes['LR1S']['minValue'], axes['LR1S']['maxValue'])):
+        for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['maxValue'])):
+            for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['maxValue'])):
+                for LR2S in set((axes['LR2S']['minValue'], axes['LR2S']['maxValue'])):
+                    for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['maxValue'])):
+                        for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
 
-                    path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1X{LR1X}_LR1Y{LR1Y}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
+                            path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{LR1S}_LR1X{LR1X}_LR1Y{LR1Y}_LR2S{LR2S}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
 
-                    axisParams['sources'] += f"""
-        <source familyname="Bitcount {variant} {stem}" 
-            filename="{path}" 
-            name="Bitcount {variant} {stem}" 
-            stylename="wght{wght} OPEN{OPEN} SHPE{SHPE} slnt{slnt}">
-            <location>
-                <dimension name="Weight" xvalue="{wght}"/>
-                <dimension name="Open" xvalue="{OPEN}"/>
-                <dimension name="Shape" xvalue="{SHPE}"/>
-                <dimension name="Slanted" xvalue="{slnt}"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-X" xvalue="{LR1X}"/>
-                <dimension name="Layer1-Y" xvalue="{LR1Y}"/>
-                <dimension name="Layer2-X" xvalue="{LR2X}"/>
-                <dimension name="Layer2-Y" xvalue="{LR2Y}"/>
-            </location>
-            {info}
-        </source>
-            """
+                            axisParams['sources'] += f"""
+                <source familyname="Bitcount {variant} {stem}" 
+                    filename="{path}" 
+                    name="Bitcount {variant} {stem}" 
+                    stylename="wght{wght} OPEN{OPEN} SHPE{SHPE} slnt{slnt}">
+                    <location>
+                        <dimension name="Weight" xvalue="{wght}"/>
+                        <dimension name="Open" xvalue="{OPEN}"/>
+                        <dimension name="Shape" xvalue="{SHPE}"/>
+                        <dimension name="Slanted" xvalue="{slnt}"/>
+                        <!-- COLRv1 axes -->
+                        <dimension name="Layer1-Scale" xvalue="{LR1S}"/>
+                        <dimension name="Layer1-X" xvalue="{LR1X}"/>
+                        <dimension name="Layer1-Y" xvalue="{LR1Y}"/>
+                        <dimension name="Layer2-Scale" xvalue="{LR2S}"/>
+                        <dimension name="Layer2-X" xvalue="{LR2X}"/>
+                        <dimension name="Layer2-Y" xvalue="{LR2Y}"/>
+                    </location>
+                    {info}
+                </source>
+                    """
 
     xml = template % axisParams
     fds = codecs.open(dsName, 'w', encoding='UTF-8')

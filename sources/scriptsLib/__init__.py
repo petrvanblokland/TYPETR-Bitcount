@@ -70,8 +70,10 @@ AXES = dict(
     SHPE=dict(minValue=0, default=0, maxValue=1000),
     slnt=dict(minValue=0, default=0, maxValue=1000),
     # COLRv1 axes
+    LR1S=dict(minValue=50, default=100, maxValue=500), # Overall scale of Layer 1
     LR1X=dict(minValue=-500, default=0, maxValue=500),
     LR1Y=dict(minValue=-500, default=0, maxValue=500),
+    LR2S=dict(minValue=50, default=100, maxValue=500), # Overall scale of Layer 2
     LR2X=dict(minValue=-500, default=0, maxValue=500),
     LR2Y=dict(minValue=-500, default=0, maxValue=500),
     # Optionally a 3rd layer?
@@ -81,7 +83,7 @@ DEFAULT_LOCATION = (
     AXES['wght']['default'],
     AXES['OPEN']['default'],
     AXES['SHPE']['default'],
-    AXES['SHPE']['default'],
+    AXES['slnt']['default'],
 )
 
 AXISCOUNT = len(AXES) # Number of main axes, besides the COLV1 axes.

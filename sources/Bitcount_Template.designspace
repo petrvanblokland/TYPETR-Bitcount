@@ -7,8 +7,10 @@
 		<axis minimum="%(SHPEMin)d" default="%(SHPEDef)d" maximum="%(SHPEMax)d" name="Shape" tag="SHPE"/>
 		<axis minimum="%(slntMin)d" default="%(slntDef)d" maximum="%(slntMax)d" name="Slanted" tag="slnt"/>
 		<!-- COLRV1 axes, final names to be defined -->
+        <axis minimum="%(LR1SMin)d" default="%(LR1SDef)d" maximum="%(LR1SMax)d" name="Layer1-Scale" tag="LR1S"/>
         <axis minimum="%(LR1XMin)d" default="%(LR1XDef)d" maximum="%(LR1XMax)d" name="Layer1-X" tag="LR1X"/>
         <axis minimum="%(LR1YMin)d" default="%(LR1YDef)d" maximum="%(LR1YMax)d" name="Layer1-Y" tag="LR1Y"/>
+        <axis minimum="%(LR2SMin)d" default="%(LR2SDef)d" maximum="%(LR2SMax)d" name="Layer2-Scale" tag="LR2S"/>
         <axis minimum="%(LR2XMin)d" default="%(LR2XDef)d" maximum="%(LR2XMax)d" name="Layer2-X" tag="LR2X"/>
         <axis minimum="%(LR2YMin)d" default="%(LR2YDef)d" maximum="%(LR2YMax)d" name="Layer2-Y" tag="LR2Y"/>
         <!-- Add 3rd axis? -->

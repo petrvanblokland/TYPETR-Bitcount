@@ -14,7 +14,7 @@ from scriptsLib.make import *
 
 if 0:
     MAKE_DESIGNSPACES = True # 
-    COPY_MASTERS = True # Copy master to location and set the right pixel shape
+    COPY_MASTERS = True # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = True
     MAKE_STAT = True
     MAKE_UFO = True
@@ -22,38 +22,36 @@ if 0:
     MAKE_VF = True
     USE_PRODUCTION_NAMES = False
 else:
-    MAKE_DESIGNSPACES = True 
-    COPY_MASTERS = True # Copy master to location and set the right pixel shape
+    MAKE_DESIGNSPACES = False 
+    COPY_MASTERS = False # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = False
     MAKE_STAT = False
     MAKE_UFO = False
     MAKE_TTF = False
-    MAKE_VF = False
+    MAKE_VF = True
     USE_PRODUCTION_NAMES = False
 
-if MAKE_DESIGNSPACES:
-    print('--- Make design space files')
-    for dsName, dsParams in DESIGN_SPACES.items():
+for dsName, dsParams in DESIGN_SPACES.items():
+
+    if MAKE_DESIGNSPACES:
         # For all 6 design spaces, generate the OTF/TTF/VF
         # Auto generate the design space file vor this variant. (TBD)
         makeDesignSpaceFile(dsName, dsParams, AXES)
 
-if COPY_MASTERS:
-    print('--- Copy UFO masters')
-    for dsName, dsParams in DESIGN_SPACES.items():
+    if COPY_MASTERS:
+        print('--- Copy UFO masters')
         # Copy the ufo/ masters to _masters/<variant> for every master and apply the 
         # right file name based on location  and variant
         copyMasters(dsName, dsParams, AXES)
-        makePixelMasters(dsName, dsParams)
 
-if MAKE_VF:
-    print('--- Make variable fonts')
-    for dsName, dsParams in DESIGN_SPACES.items():
+    if MAKE_VF:
+        print('--- Make variable fonts')
         # Compile calibrated UFOs masters/ into vf/ variable font
         if not os.path.exists('vf'):
             os.system('mkdir vf')
         vfPath = 'vf/' + dsName.replace('.designspace', '-%03d.ttf' % BUILD)
         cmd = 'fontmake -o variable -m %s --output-path %s' % (dsName, vfPath)
+        print('...', cmd)
         os.system(cmd)
         continue
 
@@ -66,10 +64,11 @@ if MAKE_VF:
         fixTTFNameTables('vf/', NAME_TABLES)
         os.system(cmd)
         cmd = 'statmake --designspace %s --stylespace %s %s' % (DESIGN_SPACE_VF, STYLE_SPACE, vfPath)
-        print('---', cmd)
+        print('...', cmd)
         if MAKE_STAT:
             os.system(cmd)
 
+    break
 
 print('Done')
 
