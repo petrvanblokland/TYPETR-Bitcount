@@ -3,11 +3,12 @@
 ## TODO
 
 * **Needs some working with Simon** Decide on final color pixel types (design and layers) to show COLRv1 functions 
+* **Petr doing** Make a VF with one layer first, to understand the relation on scaling and gradient positions.
 * **Need input from Google** Decide on axis names for the main design space. 
 * ** Petr doing** Merge the test VF design space with the main Bitcount design spaces and build new VF. 
 * **Petr doing** Since the Bitcount-Bold has overlapping pixels (which is not visible in monochrome colors) needs to be sorted in the base masters in order to achieve a more consistent pattern inside letters. Now the order of the pixel components it random from copy/paste in the past. 
-* **Petr doing** Rewrite the *build.py* using plain fontmake instead of the current FontProject. 
-* **Petr doing** Generate all 6 standard VF (mono width black pixels only), including the COLRv1 axes.
+* **DONE** Rewrite the *build.py* using plain fontmake instead of the current FontProject. 
+* **DONE** Generate all 6 standard VF (mono width black pixels only), including the COLRv1 axes.
 	* Bitcount Grid Double
 	* Bitcount Grid Single
 	* Bitcount Mono Double
