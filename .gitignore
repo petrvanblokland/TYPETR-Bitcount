@@ -132,6 +132,7 @@ dmypy.json
 _export
 _local
 _masters
+_develop
 _vf
 _otf
 _ttf

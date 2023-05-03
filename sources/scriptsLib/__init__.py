@@ -70,10 +70,10 @@ AXES = dict(
     SHPE=dict(minValue=0, default=0, maxValue=1000),
     slnt=dict(minValue=0, default=0, maxValue=1000),
     # COLRv1 axes
-    LR1S=dict(minValue=50, default=100, maxValue=500), # Overall scale of Layer 1
+    LR1S=dict(minValue=50, default=100, maxValue=200), # Overall scale of Layer 1, from 50% to 200%
     LR1X=dict(minValue=-500, default=0, maxValue=500),
     LR1Y=dict(minValue=-500, default=0, maxValue=500),
-    LR2S=dict(minValue=50, default=100, maxValue=500), # Overall scale of Layer 2
+    LR2S=dict(minValue=50, default=100, maxValue=200), # Overall scale of Layer 2, from 50% to 200%
     LR2X=dict(minValue=-500, default=0, maxValue=500),
     LR2Y=dict(minValue=-500, default=0, maxValue=500),
     # Optionally a 3rd layer?

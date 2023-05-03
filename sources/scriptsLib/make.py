@@ -184,8 +184,10 @@ def makeDesignSpaceFile(dsName, dsParams, axes):
     #SHPE=dict(minValue=0, default=0, maxValue=1000, name='Shape'),
     #slnt=dict(minValue=0, default=0, maxValue=1000, name='Slanted'),
     # COLRv1 axes
+    #LR1S=dict(minValue=50, default=100, maxValue=200, name='Layer1-Scale'),
     #LR1X=dict(minValue=-500, default=0, maxValue=500, name='Layer1-X'),
     #LR1Y=dict(minValue=-500, default=0, maxValue=500, name='Layer1-Y'),
+    #LR2S=dict(minValue=50, default=0, maxValue=200, name='Layer2-Scale'),
     #LR2X=dict(minValue=-500, default=0, maxValue=500, name='Layer2-X'),
     #LR2Y=dict(minValue=-500, default=0, maxValue=500, name='Layer2-Y'),
 
