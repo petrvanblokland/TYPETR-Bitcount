@@ -22,13 +22,13 @@ if 0:
     MAKE_VF = True
     USE_PRODUCTION_NAMES = False
 else:
-    MAKE_DESIGNSPACES = False 
+    MAKE_DESIGNSPACES = True 
     COPY_MASTERS = False # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = False
     MAKE_STAT = False
     MAKE_UFO = False
     MAKE_TTF = False
-    MAKE_VF = True
+    MAKE_VF = False
     USE_PRODUCTION_NAMES = False
 
 for dsName, dsParams in DESIGN_SPACES.items():
@@ -68,7 +68,6 @@ for dsName, dsParams in DESIGN_SPACES.items():
         if MAKE_STAT:
             os.system(cmd)
 
-    break
 
 print('Done')
 
