@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclamdown" format="2">
   <advance width="400"/>
   <unicode hex="00A1"/>
   <outline>
-    <component base="px" xOffset="100" yOffset="200"/>
-    <component base="px" xOffset="200" yOffset="200"/>
-    <component base="px" xOffset="100" yOffset="100"/>
-    <component base="px" xOffset="200" yOffset="100"/>
-    <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="100" yOffset="400"/>
-    <component base="px" xOffset="200" yOffset="400"/>
     <component base="px" xOffset="100" yOffset="-100"/>
     <component base="px" xOffset="200" yOffset="-100"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="100" yOffset="100"/>
+    <component base="px" xOffset="200" yOffset="100"/>
+    <component base="px" xOffset="100" yOffset="200"/>
+    <component base="px" xOffset="200" yOffset="200"/>
+    <component base="px" xOffset="100" yOffset="400"/>
+    <component base="px" xOffset="200" yOffset="400"/>
   </outline>
   <lib>
     <dict>

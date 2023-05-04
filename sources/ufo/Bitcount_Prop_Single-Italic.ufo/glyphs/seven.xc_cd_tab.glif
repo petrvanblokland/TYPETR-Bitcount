@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.xc_cd_tab" format="2">
   <advance width="600"/>
   <outline>
-    <component base="px" xOffset="242.0" yOffset="300"/>
-    <component base="px" xOffset="128.0" yOffset="200"/>
-    <component base="px" xOffset="114.0" yOffset="100"/>
-    <component base="px" xOffset="370.0" yOffset="500"/>
-    <component base="px" xOffset="84.0" yOffset="600"/>
-    <component base="px" xOffset="184.0" yOffset="600"/>
-    <component base="px" xOffset="284.0" yOffset="600"/>
-    <component base="px" xOffset="384.0" yOffset="600"/>
-    <component base="px" xOffset="100.0"/>
-    <component base="px" xOffset="256.0" yOffset="400"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="242" yOffset="300"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="84" yOffset="600"/>
+    <component base="px" xOffset="184" yOffset="600"/>
+    <component base="px" xOffset="284" yOffset="600"/>
+    <component base="px" xOffset="384" yOffset="600"/>
   </outline>
   <lib>
     <dict>

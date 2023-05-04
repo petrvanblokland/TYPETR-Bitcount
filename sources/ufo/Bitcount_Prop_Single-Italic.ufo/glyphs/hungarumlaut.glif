@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlaut" format="2">
   <advance width="400"/>
   <unicode hex="02DD"/>
   <outline>
-    <component base="px" xOffset="56.0" yOffset="400"/>
-    <component base="px" xOffset="256.0" yOffset="400"/>
-    <component base="px" xOffset="70.0" yOffset="500"/>
-    <component base="px" xOffset="270.0" yOffset="500"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="70" yOffset="500"/>
+    <component base="px" xOffset="270" yOffset="500"/>
   </outline>
 </glyph>

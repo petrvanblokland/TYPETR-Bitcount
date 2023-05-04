@@ -2,35 +2,35 @@
 <glyph name="fi.sc" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="px" xOffset="122" yOffset="100"/>
-    <component base="px" xOffset="22" yOffset="100"/>
-    <component base="px" xOffset="108"/>
     <component base="px" xOffset="8"/>
+    <component base="px" xOffset="108"/>
+    <component base="px" xOffset="608"/>
+    <component base="px" xOffset="708"/>
+    <component base="px" xOffset="808"/>
+    <component base="px" xOffset="908"/>
+    <component base="px" xOffset="22" yOffset="100"/>
+    <component base="px" xOffset="122" yOffset="100"/>
+    <component base="px" xOffset="722" yOffset="100"/>
+    <component base="px" xOffset="822" yOffset="100"/>
+    <component base="px" xOffset="36" yOffset="200"/>
     <component base="px" xOffset="136" yOffset="200"/>
     <component base="px" xOffset="236" yOffset="200"/>
     <component base="px" xOffset="336" yOffset="200"/>
-    <component base="px" xOffset="36" yOffset="200"/>
-    <component base="px" xOffset="150" yOffset="300"/>
+    <component base="px" xOffset="736" yOffset="200"/>
+    <component base="px" xOffset="836" yOffset="200"/>
     <component base="px" xOffset="50" yOffset="300"/>
+    <component base="px" xOffset="150" yOffset="300"/>
+    <component base="px" xOffset="750" yOffset="300"/>
+    <component base="px" xOffset="850" yOffset="300"/>
+    <component base="px" xOffset="64" yOffset="400"/>
     <component base="px" xOffset="164" yOffset="400"/>
     <component base="px" xOffset="264" yOffset="400"/>
     <component base="px" xOffset="364" yOffset="400"/>
     <component base="px" xOffset="464" yOffset="400"/>
-    <component base="px" xOffset="64" yOffset="400"/>
-    <component base="px" xOffset="736" yOffset="200"/>
-    <component base="px" xOffset="836" yOffset="200"/>
-    <component base="px" xOffset="722" yOffset="100"/>
-    <component base="px" xOffset="822" yOffset="100"/>
-    <component base="px" xOffset="708"/>
-    <component base="px" xOffset="808"/>
-    <component base="px" xOffset="908"/>
-    <component base="px" xOffset="608"/>
-    <component base="px" xOffset="750" yOffset="300"/>
-    <component base="px" xOffset="850" yOffset="300"/>
+    <component base="px" xOffset="664" yOffset="400"/>
     <component base="px" xOffset="764" yOffset="400"/>
     <component base="px" xOffset="864" yOffset="400"/>
     <component base="px" xOffset="964" yOffset="400"/>
-    <component base="px" xOffset="664" yOffset="400"/>
   </outline>
   <lib>
     <dict>

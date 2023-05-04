@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis" format="2">
   <advance width="600"/>
   <unicode hex="2026"/>
   <outline>
+    <component base="px"/>
     <component base="px" xOffset="200"/>
     <component base="px" xOffset="400"/>
-    <component base="px"/>
   </outline>
 </glyph>

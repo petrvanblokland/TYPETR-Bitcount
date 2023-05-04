@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Itilde.cd" format="2">
   <advance width="200"/>
   <outline>
-    <component base="px" xOffset="28.0" yOffset="200"/>
-    <component base="px" xOffset="14.0" yOffset="100"/>
     <component base="px"/>
-    <component base="px" xOffset="42.0" yOffset="300"/>
-    <component base="px" xOffset="56.0" yOffset="400"/>
-    <component base="px" xOffset="70.0" yOffset="500"/>
-    <component base="px" xOffset="-2.0" yOffset="700"/>
-    <component base="px" xOffset="112.0" yOffset="800"/>
-    <component base="px" xOffset="198.0" yOffset="700"/>
-    <component base="px" xOffset="312.0" yOffset="800"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="70" yOffset="500"/>
+    <component base="px" xOffset="-2" yOffset="700"/>
+    <component base="px" xOffset="198" yOffset="700"/>
+    <component base="px" xOffset="112" yOffset="800"/>
+    <component base="px" xOffset="312" yOffset="800"/>
   </outline>
   <lib>
     <dict>

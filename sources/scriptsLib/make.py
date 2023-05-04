@@ -32,6 +32,7 @@ def deleteUFOs(path):
 def copyMasters(dsName, dsParams, axes):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
+    Then add the COLRv1 layers in the f.lib.
     """
     # Make the local _masters/ path. Note that this directory does not commit to Github.
     print('... Cleaning/creating directories in _masters/')
@@ -61,6 +62,7 @@ def copyMasters(dsName, dsParams, axes):
         dstName = getMasterName(md, pd) # Calculate master name from master data and pixel data
         dstPath = md.path + dstName
         if not os.path.exists(dstPath):
+            print('    ... Make master %s' % dstName)
             srcPath = UFO_PATH + ufoName
             copyUFO(srcPath, dstPath)
             dst = RFont(dstPath)
@@ -82,6 +84,7 @@ def copyMasters(dsName, dsParams, axes):
                         for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
 
                             dstPath = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{LR1S}_LR1X{LR1X}_LR1Y{LR1Y}_LR2S{LR2S}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
+                            print('    ... Make COLRv1 master %s' % dstName)
                             srcPath = UFO_PATH + md.ufoName
                             copyUFO(srcPath, dstPath)
                             dst = RFont(dstPath)

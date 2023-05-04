@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Nacute.sc" format="2">
   <advance width="700"/>
   <outline>
-    <component base="px" xOffset="228.0" yOffset="200.0"/>
-    <component base="px" xOffset="428.0" yOffset="200.0"/>
-    <component base="px" xOffset="28.0" yOffset="200.0"/>
-    <component base="px" xOffset="314.0" yOffset="100.0"/>
-    <component base="px" xOffset="14.0" yOffset="100.0"/>
-    <component base="px" xOffset="400.0"/>
     <component base="px"/>
-    <component base="px" xOffset="142.0" yOffset="300.0"/>
-    <component base="px" xOffset="442.0" yOffset="300.0"/>
-    <component base="px" xOffset="42.0" yOffset="300.0"/>
-    <component base="px" xOffset="456.0" yOffset="400.0"/>
-    <component base="px" xOffset="56.0" yOffset="400.0"/>
-    <component base="px" xOffset="414.0" yOffset="100.0"/>
-    <component base="px" xOffset="284.0" yOffset="600.0"/>
-    <component base="px" xOffset="398.0" yOffset="700.0"/>
+    <component base="px" xOffset="400"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="414" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="456" yOffset="400"/>
+    <component base="px" xOffset="284" yOffset="600"/>
+    <component base="px" xOffset="398" yOffset="700"/>
   </outline>
   <lib>
     <dict>

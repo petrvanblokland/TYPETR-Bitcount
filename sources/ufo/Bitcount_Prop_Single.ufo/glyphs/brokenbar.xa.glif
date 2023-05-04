@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brokenbar.xa" format="2">
   <advance width="200"/>
   <outline>
-    <component base="px" yOffset="100.0"/>
+    <component base="px" yOffset="-100"/>
     <component base="px"/>
+    <component base="px" yOffset="100"/>
     <component base="px" yOffset="400"/>
     <component base="px" yOffset="500"/>
     <component base="px" yOffset="600"/>
-    <component base="px" yOffset="-100.0"/>
   </outline>
 </glyph>

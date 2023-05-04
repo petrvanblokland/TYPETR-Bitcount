@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="period" format="2">
   <advance width="300"/>
   <unicode hex="002E"/>
   <outline>
-    <component base="px" xOffset="14.0" yOffset="100.0"/>
-    <component base="px" xOffset="114.0" yOffset="100"/>
     <component base="px"/>
-    <component base="px" xOffset="100.0"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
   </outline>
 </glyph>

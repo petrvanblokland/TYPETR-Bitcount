@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Cacute.cd" format="2">
   <advance width="500"/>
   <outline>
-    <component base="px" xOffset="28.0" yOffset="200.0"/>
-    <component base="px" xOffset="14.0" yOffset="100.0"/>
-    <component base="px" xOffset="100.0"/>
-    <component base="px" xOffset="200.0"/>
-    <component base="px" xOffset="42.0" yOffset="300.0"/>
-    <component base="px" xOffset="56.0" yOffset="400.0"/>
-    <component base="px" xOffset="170.0" yOffset="500.0"/>
-    <component base="px" xOffset="270.0" yOffset="500.0"/>
-    <component base="px" xOffset="370.0" yOffset="500.0"/>
-    <component base="px" xOffset="300.0"/>
-    <component base="px" xOffset="198.0" yOffset="700.0"/>
-    <component base="px" xOffset="312.0" yOffset="800.0"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="198" yOffset="700"/>
+    <component base="px" xOffset="312" yOffset="800"/>
   </outline>
   <lib>
     <dict>

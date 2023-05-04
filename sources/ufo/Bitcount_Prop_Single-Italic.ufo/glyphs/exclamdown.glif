@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclamdown" format="2">
   <advance width="200"/>
   <unicode hex="00A1"/>
   <outline>
-    <component base="px" xOffset="28.0" yOffset="200.0"/>
-    <component base="px" xOffset="14.0" yOffset="100.0"/>
+    <component base="px" xOffset="-14" yOffset="-100"/>
     <component base="px"/>
-    <component base="px" xOffset="56.0" yOffset="400.0"/>
-    <component base="px" xOffset="-14.0" yOffset="-100.0"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="56" yOffset="400"/>
   </outline>
 </glyph>

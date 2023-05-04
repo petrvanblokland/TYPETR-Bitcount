@@ -2,18 +2,18 @@
 <glyph name="X.cd" format="2">
   <advance width="600"/>
   <outline>
-    <component base="px" xOffset="136" yOffset="200"/>
+    <component base="px" xOffset="8"/>
+    <component base="px" xOffset="308"/>
     <component base="px" xOffset="22" yOffset="100"/>
     <component base="px" xOffset="322" yOffset="100"/>
-    <component base="px" xOffset="308"/>
-    <component base="px" xOffset="8"/>
+    <component base="px" xOffset="136" yOffset="200"/>
+    <component base="px" xOffset="236" yOffset="200"/>
     <component base="px" xOffset="150" yOffset="300"/>
+    <component base="px" xOffset="250" yOffset="300"/>
     <component base="px" xOffset="64" yOffset="400"/>
     <component base="px" xOffset="364" yOffset="400"/>
-    <component base="px" xOffset="378" yOffset="500"/>
     <component base="px" xOffset="78" yOffset="500"/>
-    <component base="px" xOffset="250" yOffset="300"/>
-    <component base="px" xOffset="236" yOffset="200"/>
+    <component base="px" xOffset="378" yOffset="500"/>
   </outline>
   <lib>
     <dict>

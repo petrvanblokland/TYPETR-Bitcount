@@ -2,26 +2,26 @@
 <glyph name="AEacute.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="px" xOffset="136" yOffset="200"/>
-    <component base="px" xOffset="236" yOffset="200"/>
-    <component base="px" xOffset="336" yOffset="200"/>
-    <component base="px" xOffset="36" yOffset="200"/>
-    <component base="px" xOffset="222" yOffset="100"/>
-    <component base="px" xOffset="22" yOffset="100"/>
+    <component base="px" xOffset="8"/>
     <component base="px" xOffset="208"/>
     <component base="px" xOffset="308"/>
     <component base="px" xOffset="408"/>
-    <component base="px" xOffset="8"/>
-    <component base="px" xOffset="250" yOffset="300"/>
+    <component base="px" xOffset="22" yOffset="100"/>
+    <component base="px" xOffset="222" yOffset="100"/>
+    <component base="px" xOffset="322" yOffset="100"/>
+    <component base="px" xOffset="36" yOffset="200"/>
+    <component base="px" xOffset="136" yOffset="200"/>
+    <component base="px" xOffset="236" yOffset="200"/>
+    <component base="px" xOffset="336" yOffset="200"/>
     <component base="px" xOffset="436" yOffset="200"/>
     <component base="px" xOffset="50" yOffset="300"/>
+    <component base="px" xOffset="250" yOffset="300"/>
+    <component base="px" xOffset="350" yOffset="300"/>
     <component base="px" xOffset="164" yOffset="400"/>
     <component base="px" xOffset="264" yOffset="400"/>
     <component base="px" xOffset="364" yOffset="400"/>
     <component base="px" xOffset="464" yOffset="400"/>
     <component base="px" xOffset="378" yOffset="500"/>
-    <component base="px" xOffset="322" yOffset="100"/>
-    <component base="px" xOffset="350" yOffset="300"/>
   </outline>
   <lib>
     <dict>

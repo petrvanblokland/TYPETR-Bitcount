@@ -3,22 +3,22 @@
   <advance width="600"/>
   <unicode hex="0032"/>
   <outline>
-    <component base="px" xOffset="236" yOffset="200"/>
-    <component base="px" xOffset="336" yOffset="200"/>
-    <component base="px" xOffset="122" yOffset="100"/>
-    <component base="px" xOffset="222" yOffset="100"/>
+    <component base="px" xOffset="8"/>
     <component base="px" xOffset="108"/>
     <component base="px" xOffset="208"/>
     <component base="px" xOffset="308"/>
     <component base="px" xOffset="408"/>
-    <component base="px" xOffset="8"/>
+    <component base="px" xOffset="122" yOffset="100"/>
+    <component base="px" xOffset="222" yOffset="100"/>
+    <component base="px" xOffset="236" yOffset="200"/>
+    <component base="px" xOffset="336" yOffset="200"/>
+    <component base="px" xOffset="350" yOffset="300"/>
+    <component base="px" xOffset="450" yOffset="300"/>
+    <component base="px" xOffset="64" yOffset="400"/>
     <component base="px" xOffset="364" yOffset="400"/>
     <component base="px" xOffset="464" yOffset="400"/>
-    <component base="px" xOffset="64" yOffset="400"/>
     <component base="px" xOffset="178" yOffset="500"/>
     <component base="px" xOffset="278" yOffset="500"/>
     <component base="px" xOffset="378" yOffset="500"/>
-    <component base="px" xOffset="350" yOffset="300"/>
-    <component base="px" xOffset="450" yOffset="300"/>
   </outline>
 </glyph>

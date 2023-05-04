@@ -3,11 +3,11 @@
   <advance width="600"/>
   <unicode hex="00BB"/>
   <outline>
+    <component base="px" xOffset="22" yOffset="100"/>
+    <component base="px" xOffset="322" yOffset="100"/>
     <component base="px" xOffset="136" yOffset="200"/>
     <component base="px" xOffset="436" yOffset="200"/>
-    <component base="px" xOffset="322" yOffset="100"/>
-    <component base="px" xOffset="22" yOffset="100"/>
-    <component base="px" xOffset="350" yOffset="300"/>
     <component base="px" xOffset="50" yOffset="300"/>
+    <component base="px" xOffset="350" yOffset="300"/>
   </outline>
 </glyph>

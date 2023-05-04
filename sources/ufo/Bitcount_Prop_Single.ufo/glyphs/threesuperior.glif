@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threesuperior" format="2">
   <advance width="300"/>
   <unicode hex="00B3"/>
   <outline>
-    <component base="px" yOffset="600.0"/>
-    <component base="px" yOffset="300.0"/>
-    <component base="px" xOffset="100.0" yOffset="600.0"/>
-    <component base="px" xOffset="100.0" yOffset="500.0"/>
-    <component base="px" xOffset="100.0" yOffset="300.0"/>
-    <component base="px" xOffset="100.0" yOffset="400.0"/>
+    <component base="px" yOffset="300"/>
+    <component base="px" xOffset="100" yOffset="300"/>
+    <component base="px" xOffset="100" yOffset="400"/>
+    <component base="px" xOffset="100" yOffset="500"/>
+    <component base="px" yOffset="600"/>
+    <component base="px" xOffset="100" yOffset="600"/>
   </outline>
 </glyph>

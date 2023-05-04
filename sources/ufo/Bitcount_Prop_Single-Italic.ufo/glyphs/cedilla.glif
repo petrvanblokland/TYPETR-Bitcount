@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedilla" format="2">
   <advance width="300"/>
   <unicode hex="00B8"/>
   <outline>
-    <component base="px" xOffset="86.0" yOffset="-100"/>
-    <component base="px" xOffset="72.0" yOffset="-200"/>
-    <component base="px" xOffset="-28.0" yOffset="-200"/>
+    <component base="px" xOffset="-28" yOffset="-200"/>
+    <component base="px" xOffset="72" yOffset="-200"/>
+    <component base="px" xOffset="86" yOffset="-100"/>
   </outline>
 </glyph>

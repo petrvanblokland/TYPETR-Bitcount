@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="trademark" format="2">
   <advance width="600"/>
   <unicode hex="2122"/>
@@ -10,9 +10,9 @@
     <component base="px" xOffset="156" yOffset="400"/>
     <component base="px" xOffset="356" yOffset="400"/>
     <component base="px" xOffset="456" yOffset="400"/>
+    <component base="px" xOffset="70" yOffset="500"/>
     <component base="px" xOffset="170" yOffset="500"/>
     <component base="px" xOffset="270" yOffset="500"/>
     <component base="px" xOffset="470" yOffset="500"/>
-    <component base="px" xOffset="70" yOffset="500"/>
   </outline>
 </glyph>

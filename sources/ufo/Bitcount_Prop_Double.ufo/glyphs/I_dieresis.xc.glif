@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresis.xc" format="2">
   <advance width="300"/>
   <outline>
-    <component base="px" yOffset="300"/>
-    <component base="px" xOffset="100" yOffset="300"/>
-    <component base="px" yOffset="200"/>
-    <component base="px" xOffset="100" yOffset="200"/>
+    <component base="px"/>
+    <component base="px" xOffset="100"/>
     <component base="px" yOffset="100"/>
     <component base="px" xOffset="100" yOffset="100"/>
+    <component base="px" yOffset="200"/>
+    <component base="px" xOffset="100" yOffset="200"/>
+    <component base="px" yOffset="300"/>
+    <component base="px" xOffset="100" yOffset="300"/>
     <component base="px" yOffset="400"/>
     <component base="px" xOffset="100" yOffset="400"/>
     <component base="px" yOffset="500"/>
@@ -16,7 +18,5 @@
     <component base="px" xOffset="100" yOffset="600"/>
     <component base="px" yOffset="800"/>
     <component base="px" xOffset="200" yOffset="800"/>
-    <component base="px"/>
-    <component base="px" xOffset="100"/>
   </outline>
 </glyph>

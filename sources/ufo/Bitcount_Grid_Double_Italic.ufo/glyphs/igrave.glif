@@ -3,15 +3,15 @@
   <advance width="600"/>
   <unicode hex="00EC"/>
   <outline>
-    <component base="px" xOffset="236" yOffset="200"/>
-    <component base="px" xOffset="336" yOffset="200"/>
-    <component base="px" xOffset="222" yOffset="100"/>
-    <component base="px" xOffset="322" yOffset="100"/>
+    <component base="px" xOffset="8"/>
     <component base="px" xOffset="108"/>
     <component base="px" xOffset="208"/>
     <component base="px" xOffset="308"/>
     <component base="px" xOffset="408"/>
-    <component base="px" xOffset="8"/>
+    <component base="px" xOffset="222" yOffset="100"/>
+    <component base="px" xOffset="322" yOffset="100"/>
+    <component base="px" xOffset="236" yOffset="200"/>
+    <component base="px" xOffset="336" yOffset="200"/>
     <component base="px" xOffset="250" yOffset="300"/>
     <component base="px" xOffset="350" yOffset="300"/>
     <component base="px" xOffset="164" yOffset="400"/>

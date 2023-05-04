@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two" format="2">
   <advance width="600"/>
   <unicode hex="0032"/>
   <outline>
-    <component base="px" xOffset="228.0" yOffset="200"/>
-    <component base="px" xOffset="328.0" yOffset="200.0"/>
-    <component base="px" xOffset="14.0" yOffset="100"/>
-    <component base="px" xOffset="100.0"/>
-    <component base="px" xOffset="200.0"/>
-    <component base="px" xOffset="300.0"/>
-    <component base="px" xOffset="400.0"/>
     <component base="px"/>
-    <component base="px" xOffset="456.0" yOffset="400.0"/>
-    <component base="px" xOffset="56.0" yOffset="400.0"/>
-    <component base="px" xOffset="170.0" yOffset="500.0"/>
-    <component base="px" xOffset="270.0" yOffset="500.0"/>
-    <component base="px" xOffset="370.0" yOffset="500.0"/>
-    <component base="px" xOffset="442.0" yOffset="300.0"/>
-    <component base="px" xOffset="128.0" yOffset="200"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="400"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="456" yOffset="400"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="370" yOffset="500"/>
   </outline>
 </glyph>

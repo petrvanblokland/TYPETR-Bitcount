@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="T.cd" format="2">
   <advance width="400"/>
   <outline>
-    <component base="px" xOffset="100" yOffset="200"/>
-    <component base="px" xOffset="100" yOffset="100"/>
     <component base="px" xOffset="100"/>
+    <component base="px" xOffset="100" yOffset="100"/>
+    <component base="px" xOffset="100" yOffset="200"/>
     <component base="px" xOffset="100" yOffset="300"/>
     <component base="px" xOffset="100" yOffset="400"/>
     <component base="px" yOffset="500"/>
