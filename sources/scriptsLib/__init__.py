@@ -64,23 +64,25 @@ PROP_DOUBLE_ITALIC = 'Bitcount_Prop_Double-Italic.ufo'
 PROP_SINGLE = 'Bitcount_Prop_Single.ufo'
 PROP_SINGLE_ITALIC = 'Bitcount_Prop_Single-Italic.ufo'
 
-SMIN = 0 
-S1DEF = 30 # Show them on start
-S2DEF = 5
-SMAX = 500
-LMIN = -500
-LDEF = 0
-LMAX = 500
+# Pixel weight sizes in pixel glyph names, this is the stem width of Bitcount glyphs
+# Instead we use OS/2 weight values on the axis values.
+THIN = 100 # Pixel size: 24, smaller get irregular curves
+REGULAR = 400 # Pixel size: 100
+BLACK = 900 # Pixel size: 200
 
-WGHT_MIN = 100
-WGHT_DEF = 400
-WGHT_MAX = 900 # Black
-OPEN_MIN = SLNT_MIN = SHPE_MIN = 0
-OPEN_DEF = SLNT_DEF = SHPE_DEF = 0
-OPEN_MAX = SLNT_MAX = SHPE_MAX = 1000
+SMIN = 0 
+SMAX = 1000
+LMIN = 0
+LMAX = 1000
+
+WGHT_MIN = THIN
+WGHT_DEF = REGULAR
+WGHT_MAX = BLACK
+OPEN_MIN = SHPE_MIN = SLNT_MIN = 0
+OPEN_MAX = SHPE_MAX = SLNT_MAX = 1000
 
 # COLRv1 axes are defined as independent directions
-DEFAULT_LOCATION = (WGHT_DEF, OPEN_DEF, SHPE_DEF, SLNT_DEF)
+DEFAULT_LOCATION = (WGHT_MIN, OPEN_MIN, SHPE_MIN, SLNT_MIN)
 
 AXISCOUNT = len(DEFAULT_LOCATION) # Number of main axes, besides the COLV1 axes.
 
@@ -96,14 +98,6 @@ for variant in VARIANTS:
             masterName=masterName, masterItalicName=masterItalicName, dsName=dsName,)
         DESIGN_SPACES[dsName] = dsParams 
 
-# Pixel weight sizes in pixel glyph names, this is the stem width of Bitcount glyphs
-THIN = 0
-#BOOK = 80
-REGULAR = 500 
-#SEMIBOLD = 116
-#BOLD = 160
-BLACK = 1000
-#WEIGHTS = (THIN, BOOK, REGULAR, SEMIBOLD, BOLD, BLACK)
 
 CLOSED_QUAD = 0
 OPEN_QUAD = 1000

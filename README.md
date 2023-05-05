@@ -61,7 +61,26 @@ This file.
 
 ### sources/
 
+#### Current archtecture of design spaces
+
 This directary contains all UFO sources, build scripts and design space file, that are used to generate the font files in *otf/*, *ttf/* and *vf/*.
+
+~~~
+
+Bitcount_Grid_Double4-COLRv1.designspaceBitcount_Grid_Single4-COLRv1.designspaceBitcount_Mono_Double4-COLRv1.designspaceBitcount_Mono_Single4-COLRv1.designspaceBitcount_Prop_Double4-COLRv1.designspaceBitcount_Prop_Single4-COLRv1.designspace
+
+~~~
+
+The flags in sources/build.py decide which VF is building and which stage of the building process is exectuted.
+
+**WARNING** Generating the 6 different Bitcount VF flavours of about 8Mb, each of the 6 design spaces needs over 22Gb of free space in the _masters/ folder for the 208 expanded pixel UFO’s files (3x2x12x2 + 2x2x2x2x2x2), each over 100Mb.
+
+#### Earlier attempts
+
+Earliers attempts to create a separate 8-axes COLRv1 disign space, each with 3 masters expanded the project to too many masters.
+
+Generating the 6 different Bitcount VF flavours of about 8Mb, each of the 6 design spaces needs over 100Gb of free space in the _masters/ folder for the 873 expanded pixel UFO’s files (3x2x12x2 + 3x3x3x3x3x3, with 3 masters on the COLRv1 axes), each with a size over 100Mb.
+
 
 ### TODO.md
 

@@ -32,15 +32,27 @@ else:
     USE_PRODUCTION_NAMES = False
 
 for dsName, dsParams in DESIGN_SPACES.items():
+    print('---', dsName)
 
     if MAKE_DESIGNSPACES:
         # For all 6 design spaces, generate the OTF/TTF/VF
-        # Auto generate the design space file vor this variant. (TBD)
+        # Auto generate the design space file for this variant.
+        # This is fast, we can always do all of them.
         makeDesignSpaceFile(dsName, dsParams)
+
+    if dsName not in [
+        #'Bitcount_Grid_Double4-COLRv1.designspace',
+        'Bitcount_Grid_Single4-COLRv1.designspace',
+        #'Bitcount_Mono_Double4-COLRv1.designspace',
+        #'Bitcount_Mono_Single4-COLRv1.designspace',
+        #'Bitcount_Prop_Double4-COLRv1.designspace',
+        #'Bitcount_Prop_Single4-COLRv1.designspace',
+    ]:
+        continue
 
     if COPY_MASTERS:
         print('--- Copy UFO masters')
-        # Copy the ufo/ masters to _masters/<variant> for every master and apply the 
+        # Copy the ufo/ masters to _masters/<variant>/<UFOs> for every master and apply the 
         # right file name based on location  and variant
         copyMasters(dsName, dsParams)
 
@@ -68,7 +80,6 @@ for dsName, dsParams in DESIGN_SPACES.items():
         if MAKE_STAT:
             os.system(cmd)
 
-    break
 
 print('Done')
 

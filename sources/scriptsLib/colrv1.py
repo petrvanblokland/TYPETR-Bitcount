@@ -14,10 +14,10 @@ from fontTools.ttLib.tables import otTables as ot
 from fontTools.colorLib.builder import buildCOLR
 from fontTools.colorLib.builder import buildCPAL
 
-from scriptsLib import SMIN, S1DEF, S2DEF, SMAX, LMIN, LDEF, LMAX
+from scriptsLib import SMIN, SMAX, LMIN, LMAX
 
 
-def addCOLRv1Layers(f, LR1S=S1DEF, LR1X=LDEF, LR1Y=LDEF, LR2S=S2DEF, LR2X=LDEF, LR2Y=LDEF):
+def addCOLRv1Layers(f, LR1S=SMIN, LR1X=LMIN, LR1Y=LMIN, LR2S=SMIN, LR2X=LMIN, LR2Y=LMIN):
     #print(f'... Add COLRv1 to {f.path}')
 
     pixelLayer1 = getPaintRadialGradient1(LR1S, LR1X, LR1Y)
