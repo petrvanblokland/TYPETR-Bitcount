@@ -14,7 +14,10 @@ from fontTools.ttLib.tables import otTables as ot
 from fontTools.colorLib.builder import buildCOLR
 from fontTools.colorLib.builder import buildCPAL
 
-def addCOLRv1Layers(f, LR1S=1, LR1X=0, LR1Y=0, LR2S=1, LR2X=0, LR2Y=0):
+from scriptsLib import SMIN, S1DEF, S2DEF, SMAX, LMIN, LDEF, LMAX
+
+
+def addCOLRv1Layers(f, LR1S=S1DEF, LR1X=LDEF, LR1Y=LDEF, LR2S=S2DEF, LR2X=LDEF, LR2Y=LDEF):
     #print(f'... Add COLRv1 to {f.path}')
 
     pixelLayer1 = getPaintRadialGradient1(LR1S, LR1X, LR1Y)
@@ -119,10 +122,10 @@ def getPaintRadialGradient1(s, x, y):
         },
         "x0": x+50,
         "y0": y+50,
-        "r0": 5,
+        "r0": 1,
         "x1": x+50,
         "y1": y+50,
-        "r1": s+5,
+        "r1": s+1,
     }
     r2 = {
         "Format": ot.PaintFormat.PaintRadialGradient,
@@ -146,8 +149,7 @@ def getPaintRadialGradient2(s, x, y):
     r1 = {
         "Format": ot.PaintFormat.PaintRadialGradient,
         "ColorLine": {
-            "ColorStop": ((0.0, color1), (0.15, color2), (0.3, color3), (0.45, color4), (0.6, color5), (0.65, color6), (1, color7)),  # can be more than 2
-            #"ColorStop": ((0.0, color1), (0.25, color2), (0.5, color3), (0.75, color4), (1, color5)),  # can be more than 2
+            "ColorStop": COLOR_STOPS2,  # can be more than 2
             "Extend": "pad",  # pad, repeat, reflect
         },
         "x0": x+50,
@@ -155,51 +157,11 @@ def getPaintRadialGradient2(s, x, y):
         "r0": 1,
         "x1": x+50,
         "y1": y+50,
-        "r1": s+5,
+        "r1": s+1,
     }
     layers.append(r1)
     return layers[0] # @@@@@ This should be changed
     return (ot.PaintFormat.PaintColrLayers, layers)
-
-def XXXgetPaintCircle(gName, s, x, y, colorIndex):
-    layers = []
-    r1 = {
-        "Format": ot.PaintFormat.PaintTranslate,
-        "Paint": {
-            "Format": ot.PaintFormat.PaintGlyph,
-            "Paint": {
-                "Format": ot.PaintFormat.PaintSolid,
-                "PaletteIndex":  colorIndex,
-                "Alpha": 1,
-            },
-            "Glyph": 'circle',
-        },
-        "dx": x,
-        "dy": y,
-    }
-    layers.append(r1)
-    r1 = {
-        "Format": ot.PaintFormat.PaintScale,
-        "Paint": {
-            "Format": ot.PaintFormat.PaintTranslate,
-            "Paint": {
-                "Format": ot.PaintFormat.PaintGlyph,
-                "Paint": {
-                    "Format": ot.PaintFormat.PaintSolid,
-                    "PaletteIndex":  colorIndex,
-                    "Alpha": 1,
-                },
-                "Glyph": gName,
-            },
-            "dx": x+200,
-            "dy": y+200,
-        },
-        "scaleX": 0.1,
-        "scaleY": 0.1,
-    }
-    layers.append(r1)
-    return (ot.PaintFormat.PaintColrLayers, layers)
-
 
 
 def pixelPositions(f, gName):

@@ -29,7 +29,7 @@ def deleteUFOs(path):
     """Delete all UFOs in this directory. Faster than removing them one by one."""
     os.system('rm -r %s*.ufo' % path)
 
-def copyMasters(dsName, dsParams, axes):
+def copyMasters(dsName, dsParams):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
     Then add the COLRv1 layers in the f.lib.
@@ -76,12 +76,12 @@ def copyMasters(dsName, dsParams, axes):
     # COLRv1 axes are independent masters
     stem = dsParams['stem']
     variant = dsParams['variant']
-    for LR1S in set((axes['LR1S']['minValue'], axes['LR1S']['maxValue'])):
-        for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['maxValue'])):
-            for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['maxValue'])):
-                for LR2S in set((axes['LR2S']['minValue'], axes['LR2S']['maxValue'])):
-                    for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['maxValue'])):
-                        for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
+    for LR1S in (SMIN, S1DEF, SMAX):
+        for LR1X in (LMIN, LDEF, LMAX):
+            for LR1Y in (LMIN, LDEF, LMAX):
+                for LR2S in (SMIN, S2DEF, SMAX):
+                    for LR2X in (LMIN, LDEF, LMAX):
+                        for LR2Y in (LMIN, LDEF, LMAX):
 
                             dstPath = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{LR1S}_LR1X{LR1X}_LR1Y{LR1Y}_LR2S{LR2S}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
                             print('    ... Make COLRv1 master %s' % dstName)
@@ -171,7 +171,7 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=T
     return g
     #return dstFont[dstGlyphName]
   
-def makeDesignSpaceFile(dsName, dsParams, axes):
+def makeDesignSpaceFile(dsName, dsParams):
     """Dynamic generation of the design space file for this number of axes and this variant"""
     print('... Make design space %s' % dsName)
     for pName, pd in PIXEL_DATA.items():
@@ -182,43 +182,52 @@ def makeDesignSpaceFile(dsName, dsParams, axes):
     template = fin.read()
     fin.close()
 
-    #wght=dict(minValue=0, default=500, maxValue=1000, name='Weight'),
-    #OPEN=dict(minValue=0, default=0, maxValue=1000, name='Open'),
-    #SHPE=dict(minValue=0, default=0, maxValue=1000, name='Shape'),
-    #slnt=dict(minValue=0, default=0, maxValue=1000, name='Slanted'),
-    # COLRv1 axes
-    #LR1S=dict(minValue=50, default=100, maxValue=200, name='Layer1-Scale'),
-    #LR1X=dict(minValue=-500, default=0, maxValue=500, name='Layer1-X'),
-    #LR1Y=dict(minValue=-500, default=0, maxValue=500, name='Layer1-Y'),
-    #LR2S=dict(minValue=50, default=0, maxValue=200, name='Layer2-Scale'),
-    #LR2X=dict(minValue=-500, default=0, maxValue=500, name='Layer2-X'),
-    #LR2Y=dict(minValue=-500, default=0, maxValue=500, name='Layer2-Y'),
-
     axisParams = dict(sources='', instances='')
     axisParams['title'] = 'Design space of Bitcount %(variant)s %(stem)s'
     axisParams['stem'] = stem = dsParams['stem']
     axisParams['variant'] = variant = dsParams['variant']
-           
-    for tag, axis in axes.items():
-        axisParams[tag+'Min'] = axis['minValue']
-        axisParams[tag+'Def'] = axis['default']
-        axisParams[tag+'Max'] = axis['maxValue']
+    axisParams['wghtMin'] = WGHT_MIN
+    axisParams['wghtDef'] = WGHT_DEF
+    axisParams['wghtMax'] = WGHT_MAX
+    axisParams['OPENMin'] = OPEN_MIN
+    axisParams['OPENDef'] = OPEN_DEF
+    axisParams['OPENMax'] = OPEN_MAX
+    axisParams['SHPEMin'] = SHPE_MIN
+    axisParams['SHPEDef'] = SHPE_DEF
+    axisParams['SHPEMax'] = SHPE_MAX
+    axisParams['slntMin'] = SLNT_MIN
+    axisParams['slntDef'] = SLNT_DEF
+    axisParams['slntMax'] = SLNT_MAX
+
+    axisParams['LR1SMin'] = SMIN
+    axisParams['LR1SDef'] = S1DEF
+    axisParams['LR1SMax'] = SMAX
+    axisParams['LR1XMin'] = LMIN
+    axisParams['LR1XDef'] = LDEF
+    axisParams['LR1XMax'] = LMAX
+    axisParams['LR1YMin'] = LMIN
+    axisParams['LR1YDef'] = LDEF
+    axisParams['LR1YMax'] = LMAX
+
+    axisParams['LR2SMin'] = SMIN
+    axisParams['LR2SDef'] = S2DEF
+    axisParams['LR2SMax'] = SMAX
+    axisParams['LR2XMin'] = LMIN
+    axisParams['LR2XDef'] = LDEF
+    axisParams['LR2XMax'] = LMAX
+    axisParams['LR2YMin'] = LMIN
+    axisParams['LR2YDef'] = LDEF
+    axisParams['LR2YMax'] = LMAX
 
     # Layer axes are independent from main Bitcount shape axes
-    LR1S = axes['LR1S']['default']
-    LR1X = axes['LR1X']['default']
-    LR1Y = axes['LR1Y']['default']
-    LR2S = axes['LR2S']['default']
-    LR2X = axes['LR2X']['default']
-    LR2Y = axes['LR2Y']['default']
-    for wght in set((axes['wght']['minValue'], axes['wght']['default'], axes['wght']['maxValue'])):
+    for wght in (WGHT_MIN, WGHT_DEF, WGHT_MAX):
         # minValue is the same as default
-        for OPEN in set((axes['OPEN']['default'], axes['OPEN']['maxValue'])):
+        for OPEN in (OPEN_DEF, OPEN_MAX):
             # minValue is the same as default
             for SHPE in SHAPES:
                 # minValue is the same as default
-                for slnt in set((axes['slnt']['default'], axes['slnt']['maxValue'])):
-                    if (wght, OPEN, SHPE, slnt) == DEFAULT_LOCATION:
+                for slnt in (SLNT_DEF, SLNT_MAX):
+                    if DEFAULT_LOCATION == (wght, OPEN, SHPE, slnt):
                         info = '<info copy="1"/>'
                     else: 
                         info = ''
@@ -235,28 +244,24 @@ def makeDesignSpaceFile(dsName, dsParams, axes):
                 <dimension name="Shape" xvalue="{SHPE}"/>
                 <dimension name="Slanted" xvalue="{slnt}"/>
                 <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="{LR1S}"/>
-                <dimension name="Layer1-X" xvalue="{LR1X}"/>
-                <dimension name="Layer1-Y" xvalue="{LR1Y}"/>
-                <dimension name="Layer2-Scale" xvalue="{LR2S}"/>
-                <dimension name="Layer2-X" xvalue="{LR2X}"/>
-                <dimension name="Layer2-Y" xvalue="{LR2Y}"/>
+                <dimension name="Layer1-Scale" xvalue="{S1DEF}"/>
+                <dimension name="Layer1-X" xvalue="{LDEF}"/>
+                <dimension name="Layer1-Y" xvalue="{LDEF}"/>
+                <dimension name="Layer2-Scale" xvalue="{S2DEF}"/>
+                <dimension name="Layer2-X" xvalue="{LDEF}"/>
+                <dimension name="Layer2-Y" xvalue="{LDEF}"/>
             </location>
             {info}
         </source>
             """
 
     # COLRv1 axes
-    wght = axes['wght']['default']
-    OPEN = axes['OPEN']['default']
-    SHPE = axes['SHPE']['default']
-    slnt = axes['slnt']['default']
-    for LR1S in set((axes['LR1S']['minValue'], axes['LR1S']['maxValue'])):
-        for LR1X in set((axes['LR1X']['minValue'], axes['LR1X']['maxValue'])):
-            for LR1Y in set((axes['LR1Y']['minValue'], axes['LR1Y']['maxValue'])):
-                for LR2S in set((axes['LR2S']['minValue'], axes['LR2S']['maxValue'])):
-                    for LR2X in set((axes['LR2X']['minValue'], axes['LR2X']['maxValue'])):
-                        for LR2Y in set((axes['LR2Y']['minValue'], axes['LR2Y']['maxValue'])):
+    for LR1S in (SMIN, S1DEF, SMAX):
+        for LR1X in (LMIN, LDEF, LMAX):
+            for LR1Y in (LMIN, LDEF, LMAX):
+                for LR2S in (SMIN, S2DEF, SMAX):
+                    for LR2X in (LMIN, LDEF, LMAX):
+                        for LR2Y in (LMIN, LDEF, LMAX):
 
                             path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{LR1S}_LR1X{LR1X}_LR1Y{LR1Y}_LR2S{LR2S}_LR2X{LR2X}_LR2Y{LR2Y}.ufo'
 
@@ -266,10 +271,10 @@ def makeDesignSpaceFile(dsName, dsParams, axes):
                     name="Bitcount {variant} {stem}" 
                     stylename="wght{wght} OPEN{OPEN} SHPE{SHPE} slnt{slnt}">
                     <location>
-                        <dimension name="Weight" xvalue="{wght}"/>
-                        <dimension name="Open" xvalue="{OPEN}"/>
-                        <dimension name="Shape" xvalue="{SHPE}"/>
-                        <dimension name="Slanted" xvalue="{slnt}"/>
+                        <dimension name="Weight" xvalue="{WGHT_DEF}"/>
+                        <dimension name="Open" xvalue="{OPEN_DEF}"/>
+                        <dimension name="Shape" xvalue="{SHPE_DEF}"/>
+                        <dimension name="Slanted" xvalue="{SLNT_DEF}"/>
                         <!-- COLRv1 axes -->
                         <dimension name="Layer1-Scale" xvalue="{LR1S}"/>
                         <dimension name="Layer1-X" xvalue="{LR1X}"/>

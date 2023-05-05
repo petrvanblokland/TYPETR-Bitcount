@@ -36,13 +36,13 @@ for dsName, dsParams in DESIGN_SPACES.items():
     if MAKE_DESIGNSPACES:
         # For all 6 design spaces, generate the OTF/TTF/VF
         # Auto generate the design space file vor this variant. (TBD)
-        makeDesignSpaceFile(dsName, dsParams, AXES)
+        makeDesignSpaceFile(dsName, dsParams)
 
     if COPY_MASTERS:
         print('--- Copy UFO masters')
         # Copy the ufo/ masters to _masters/<variant> for every master and apply the 
         # right file name based on location  and variant
-        copyMasters(dsName, dsParams, AXES)
+        copyMasters(dsName, dsParams)
 
     if MAKE_VF:
         print('--- Make variable fonts')
@@ -69,7 +69,7 @@ for dsName, dsParams in DESIGN_SPACES.items():
             os.system(cmd)
 
     break
-    
+
 print('Done')
 
 

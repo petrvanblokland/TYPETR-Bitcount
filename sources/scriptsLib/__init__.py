@@ -64,29 +64,25 @@ PROP_DOUBLE_ITALIC = 'Bitcount_Prop_Double-Italic.ufo'
 PROP_SINGLE = 'Bitcount_Prop_Single.ufo'
 PROP_SINGLE_ITALIC = 'Bitcount_Prop_Single-Italic.ufo'
 
-AXES = dict(
-    wght=dict(minValue=0, default=500, maxValue=1000),
-    OPEN=dict(minValue=0, default=0, maxValue=1000),
-    SHPE=dict(minValue=0, default=0, maxValue=1000),
-    slnt=dict(minValue=0, default=0, maxValue=1000),
-    # COLRv1 axes
-    LR1S=dict(minValue=1, default=1, maxValue=100), # Overall scale of Layer 1, from 100% to 10000%
-    LR1X=dict(minValue=-500, default=0, maxValue=500),
-    LR1Y=dict(minValue=-500, default=0, maxValue=500),
-    LR2S=dict(minValue=1, default=1, maxValue=100), # Overall scale of Layer 2, from 100% to 10000%
-    LR2X=dict(minValue=-500, default=0, maxValue=500),
-    LR2Y=dict(minValue=-500, default=0, maxValue=500),
-    # Optionally a 3rd layer?
-)
-# COLRv1 axes are defined as independent directions
-DEFAULT_LOCATION = (
-    AXES['wght']['default'],
-    AXES['OPEN']['default'],
-    AXES['SHPE']['default'],
-    AXES['slnt']['default'],
-)
+SMIN = 0 
+S1DEF = 30 # Show them on start
+S2DEF = 5
+SMAX = 500
+LMIN = -500
+LDEF = 0
+LMAX = 500
 
-AXISCOUNT = len(AXES) # Number of main axes, besides the COLV1 axes.
+WGHT_MIN = 100
+WGHT_DEF = 400
+WGHT_MAX = 900 # Black
+OPEN_MIN = SLNT_MIN = SHPE_MIN = 0
+OPEN_DEF = SLNT_DEF = SHPE_DEF = 0
+OPEN_MAX = SLNT_MAX = SHPE_MAX = 1000
+
+# COLRv1 axes are defined as independent directions
+DEFAULT_LOCATION = (WGHT_DEF, OPEN_DEF, SHPE_DEF, SLNT_DEF)
+
+AXISCOUNT = len(DEFAULT_LOCATION) # Number of main axes, besides the COLV1 axes.
 
 DESIGN_SPACES= {}
 for variant in VARIANTS:
