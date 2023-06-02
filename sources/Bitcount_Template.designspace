@@ -2,28 +2,25 @@
 <!-- %(title)s -->
 <designspace format="3">
 	<axes>
+        <!-- Main pixel shape axes, final names to be defined -->
 		<axis minimum="%(wghtMin)d" default="%(wghtDef)d" maximum="%(wghtMax)d" name="Weight" tag="wght"/>
 		<axis minimum="%(OPENMin)d" default="%(OPENMin)d" maximum="%(OPENMax)d" name="Open" tag="OPEN"/>
 		<axis minimum="%(SHPEMin)d" default="%(SHPEMin)d" maximum="%(SHPEMax)d" name="Shape" tag="SHPE"/>
 		<axis minimum="%(slntMin)d" default="%(slntMin)d" maximum="%(slntMax)d" name="Slanted" tag="slnt"/>
-		<!-- COLRV1 axes, final names to be defined -->
-        <axis minimum="%(LR1SMin)d" default="%(LR1SMin)d" maximum="%(LR1SMax)d" name="Layer1-Scale" tag="LR1S"/>
-        <axis minimum="%(LR1XMin)d" default="%(LR1XMin)d" maximum="%(LR1XMax)d" name="Layer1-X" tag="LR1X"/>
-        <axis minimum="%(LR1YMin)d" default="%(LR1YMin)d" maximum="%(LR1YMax)d" name="Layer1-Y" tag="LR1Y"/>
-        <axis minimum="%(LR2SMin)d" default="%(LR2SMin)d" maximum="%(LR2SMax)d" name="Layer2-Scale" tag="LR2S"/>
-        <axis minimum="%(LR2XMin)d" default="%(LR2XMin)d" maximum="%(LR2XMax)d" name="Layer2-X" tag="LR2X"/>
-        <axis minimum="%(LR2YMin)d" default="%(LR2YMin)d" maximum="%(LR2YMax)d" name="Layer2-Y" tag="LR2Y"/>
+		<!-- COLRV1 axes for 2 independent layers, final names to be defined -->
+        <axis minimum="%(LR1SMin)d" default="%(LR1SDef)d" maximum="%(LR1SMax)d" name="Layer1-Scale" tag="LR1S"/>
+        <axis minimum="%(LR1XMin)d" default="%(LR1XDef)d" maximum="%(LR1XMax)d" name="Layer1-X" tag="LR1X"/>
+        <axis minimum="%(LR1YMin)d" default="%(LR1YDef)d" maximum="%(LR1YMax)d" name="Layer1-Y" tag="LR1Y"/>
+        <axis minimum="%(LR2SMin)d" default="%(LR2SDef)d" maximum="%(LR2SMax)d" name="Layer2-Scale" tag="LR2S"/>
+        <axis minimum="%(LR2XMin)d" default="%(LR2XDef)d" maximum="%(LR2XMax)d" name="Layer2-X" tag="LR2X"/>
+        <axis minimum="%(LR2YMin)d" default="%(LR2YDef)d" maximum="%(LR2YMax)d" name="Layer2-Y" tag="LR2Y"/>
         <!-- Add 3rd axis? -->
 	</axes>
 	<sources>
-
 		%(sources)s
-
 	</sources>
 
 	<instances>
-
 		%(instances)s
-
 	</instances>
 </designspace>

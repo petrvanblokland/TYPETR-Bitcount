@@ -17,15 +17,23 @@ from fontTools.colorLib.builder import buildCPAL
 from scriptsLib import SMIN, SMAX, LMIN, LMAX
 
 
-def addCOLRv1Layers(f, LR1S=SMIN, LR1X=LMIN, LR1Y=LMIN, LR2S=SMIN, LR2X=LMIN, LR2Y=LMIN):
+def addCOLRv1Layers(f, s1=SMIN, x1=LMIN, y1=LMIN, s2=SMIN, x2=LMIN, y2=LMIN):
+    """Default is to fill them with default values, used in the main shaped axes."""
     #print(f'... Add COLRv1 to {f.path}')
 
-    pixelLayer1 = getPaintRadialGradient1(LR1S, LR1X, LR1Y)
-    pixelLayer2 = getPaintRadialGradient2(LR2S, LR2X, LR2Y)
+    pixelLayer1 = getPaintRadialGradient1(s1, x1, y1)
+    pixelLayer2 = getPaintRadialGradient2(s2, x2, y2)
+
+    # Position of the /canvas pixel component /_canvas
+    pixelLayer1x = getPaintRadialGradient1(s1, x1+450, y1+100)
+    pixelLayer2x = getPaintRadialGradient2(s2, x2+450, y2+100)
+
     colorGlyphs = {}
     for glyphName in f.keys():
-
-        colorGlyphs[glyphName] = buildPixelGlyph("px", pixelPositions(f, glyphName), pixelLayer1, pixelLayer2)
+        if glyphName == 'canvas':
+            colorGlyphs[glyphName] = buildPixelGlyph('_canvas', pixelPositions(f, glyphName), pixelLayer1x, pixelLayer2x)
+        else:
+            colorGlyphs[glyphName] = buildPixelGlyph('px', pixelPositions(f, glyphName), pixelLayer1, pixelLayer2)
 
     #print(colorGlyphs)
     f.lib[COLOR_PALETTES_KEY] = palettes
@@ -38,6 +46,17 @@ def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2):
         # - PaintTranslate to move the pixel to the right place
         # - PaintGlyph to say which glyph to be drawn
         # - PaintGradient to say how to fill the glyph
+        layer = {
+            "Format": ot.PaintFormat.PaintTranslate,
+            "Paint": {
+                "Format": ot.PaintFormat.PaintGlyph,
+                "Paint": layer1,
+                "Glyph": pixelGlyphName,
+            },
+            "dx": x,
+            "dy": y,
+        }
+        layers.append(layer)
         layer = {
             "Format": ot.PaintFormat.PaintTranslate,
             "Paint": {
@@ -120,7 +139,7 @@ def getPaintRadialGradient1(s, x, y):
             "ColorStop": COLOR_STOPS1,  # can be more than 2
             "Extend": "pad",  # pad, repeat, reflect
         },
-        "x0": x+50,
+        "x0": x+50, # Offset into middle of pixel and middle of canvas
         "y0": y+50,
         "r0": 1,
         "x1": x+50,
@@ -133,10 +152,10 @@ def getPaintRadialGradient1(s, x, y):
             "ColorStop": COLOR_STOPS2,  # can be more than 2
             "Extend": "pad",  # pad, repeat, reflect
         },
-        "x0": x+500, # Offset into middle of pixel
+        "x0": x+50, # Offset into middle of pixel
         "y0": y+50,
         "r0": 1,
-        "x1": x+500,
+        "x1": x+50,
         "y1": y+50,
         "r1": s+1,
     }

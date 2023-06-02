@@ -1264,6 +1264,8 @@
     <string>cacute.cd.glif</string>
     <key>cacute.ct</key>
     <string>cacute.ct.glif</string>
+    <key>canvas</key>
+    <string>canvas.glif</string>
     <key>caron</key>
     <string>caron.glif</string>
     <key>ccaron</key>

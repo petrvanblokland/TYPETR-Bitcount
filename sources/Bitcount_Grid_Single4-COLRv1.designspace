@@ -2,11 +2,12 @@
 <!-- Design space of Bitcount %(variant)s %(stem)s -->
 <designspace format="3">
 	<axes>
+        <!-- Main pixel shape axes, final names to be defined -->
 		<axis minimum="100" default="400" maximum="900" name="Weight" tag="wght"/>
 		<axis minimum="0" default="0" maximum="1000" name="Open" tag="OPEN"/>
 		<axis minimum="0" default="0" maximum="1000" name="Shape" tag="SHPE"/>
 		<axis minimum="0" default="0" maximum="1000" name="Slanted" tag="slnt"/>
-		<!-- COLRV1 axes, final names to be defined -->
+		<!-- COLRV1 axes for 2 independent layers, final names to be defined -->
         <axis minimum="0" default="0" maximum="1000" name="Layer1-Scale" tag="LR1S"/>
         <axis minimum="0" default="0" maximum="1000" name="Layer1-X" tag="LR1X"/>
         <axis minimum="0" default="0" maximum="1000" name="Layer1-Y" tag="LR1Y"/>
@@ -16,13 +17,13 @@
         <!-- Add 3rd axis? -->
 	</axes>
 	<sources>
-
 		
         <source familyname="Bitcount Grid Single" 
             filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE0_slnt0.ufo" 
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE0 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -43,6 +44,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE0 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -63,6 +65,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE90 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -83,6 +86,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE90 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -103,6 +107,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE180 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -123,6 +128,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE180 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -143,6 +149,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE270 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -163,6 +170,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE270 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -183,6 +191,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE360 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -203,6 +212,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE360 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -223,6 +233,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE450 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -243,6 +254,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE450 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -263,6 +275,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE540 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -283,6 +296,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE540 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -303,6 +317,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE630 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -323,6 +338,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE630 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -343,6 +359,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE720 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -363,6 +380,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE720 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -383,6 +401,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE810 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -403,6 +422,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE810 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -423,6 +443,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE900 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -443,6 +464,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE900 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -463,6 +485,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE1000 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -483,6 +506,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN0 SHPE1000 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -503,6 +527,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE0 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -523,6 +548,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE0 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -543,6 +569,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE90 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -563,6 +590,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE90 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -583,6 +611,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE180 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -603,6 +632,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE180 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -623,6 +653,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE270 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -643,6 +674,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE270 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -663,6 +695,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE360 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -683,6 +716,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE360 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -703,6 +737,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE450 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -723,6 +758,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE450 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -743,6 +779,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE540 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -763,6 +800,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE540 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -783,6 +821,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE630 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -803,6 +842,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE630 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -823,6 +863,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE720 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -843,6 +884,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE720 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -863,6 +905,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE810 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -883,6 +926,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE810 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -903,6 +947,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE900 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -923,6 +968,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE900 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -943,6 +989,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE1000 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -963,6 +1010,7 @@
             name="Bitcount Grid Single" 
             stylename="wght100 OPEN1000 SHPE1000 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -983,6 +1031,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE0 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -1003,6 +1052,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE0 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -1023,6 +1073,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE90 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -1043,6 +1094,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE90 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -1063,6 +1115,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE180 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -1083,6 +1136,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE180 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -1103,6 +1157,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE270 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -1123,6 +1178,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE270 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -1143,6 +1199,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE360 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -1163,6 +1220,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE360 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -1183,6 +1241,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE450 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -1203,6 +1262,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE450 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -1223,6 +1283,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE540 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -1243,6 +1304,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE540 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -1263,6 +1325,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE630 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -1283,6 +1346,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE630 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -1303,6 +1367,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE720 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -1323,6 +1388,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE720 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -1343,6 +1409,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE810 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -1363,6 +1430,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE810 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -1383,6 +1451,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE900 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -1403,6 +1472,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE900 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -1423,6 +1493,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE1000 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -1443,6 +1514,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN0 SHPE1000 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -1463,6 +1535,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE0 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -1483,6 +1556,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE0 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -1503,6 +1577,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE90 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -1523,6 +1598,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE90 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -1543,6 +1619,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE180 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -1563,6 +1640,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE180 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -1583,6 +1661,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE270 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -1603,6 +1682,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE270 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -1623,6 +1703,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE360 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -1643,6 +1724,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE360 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -1663,6 +1745,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE450 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -1683,6 +1766,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE450 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -1703,6 +1787,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE540 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -1723,6 +1808,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE540 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -1743,6 +1829,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE630 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -1763,6 +1850,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE630 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -1783,6 +1871,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE720 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -1803,6 +1892,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE720 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -1823,6 +1913,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE810 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -1843,6 +1934,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE810 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -1863,6 +1955,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE900 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -1883,6 +1976,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE900 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -1903,6 +1997,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE1000 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -1923,6 +2018,7 @@
             name="Bitcount Grid Single" 
             stylename="wght400 OPEN1000 SHPE1000 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -1943,6 +2039,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE0 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -1963,6 +2060,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE0 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -1983,6 +2081,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE90 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -2003,6 +2102,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE90 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -2023,6 +2123,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE180 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -2043,6 +2144,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE180 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -2063,6 +2165,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE270 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -2083,6 +2186,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE270 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -2103,6 +2207,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE360 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -2123,6 +2228,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE360 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -2143,6 +2249,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE450 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -2163,6 +2270,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE450 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -2183,6 +2291,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE540 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -2203,6 +2312,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE540 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -2223,6 +2333,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE630 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -2243,6 +2354,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE630 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -2263,6 +2375,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE720 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -2283,6 +2396,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE720 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -2303,6 +2417,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE810 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -2323,6 +2438,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE810 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -2343,6 +2459,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE900 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -2363,6 +2480,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE900 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -2383,6 +2501,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE1000 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -2403,6 +2522,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN0 SHPE1000 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -2423,6 +2543,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE0 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -2443,6 +2564,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE0 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
@@ -2463,6 +2585,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE90 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -2483,6 +2606,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE90 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
@@ -2503,6 +2627,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE180 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -2523,6 +2648,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE180 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
@@ -2543,6 +2669,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE270 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -2563,6 +2690,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE270 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
@@ -2583,6 +2711,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE360 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -2603,6 +2732,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE360 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
@@ -2623,6 +2753,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE450 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -2643,6 +2774,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE450 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
@@ -2663,6 +2795,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE540 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -2683,6 +2816,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE540 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
@@ -2703,6 +2837,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE630 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -2723,6 +2858,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE630 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
@@ -2743,6 +2879,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE720 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -2763,6 +2900,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE720 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
@@ -2783,6 +2921,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE810 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -2803,6 +2942,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE810 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
@@ -2823,6 +2963,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE900 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -2843,6 +2984,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE900 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
@@ -2863,6 +3005,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE1000 slnt0">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -2883,6 +3026,7 @@
             name="Bitcount Grid Single" 
             stylename="wght900 OPEN1000 SHPE1000 slnt1000">
             <location>
+                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
@@ -2898,1292 +3042,1332 @@
             
         </source>
             
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="0"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="0"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="0"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="0"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X0_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X0_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="0"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="0"/>
-                    </location>
-                    
-                </source>
-                    
-                <source familyname="Bitcount Grid Single" 
-                    filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-                    name="Bitcount Grid Single" 
-                    stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-                    <location>
-                        <dimension name="Weight" xvalue="400"/>
-                        <dimension name="Open" xvalue="0"/>
-                        <dimension name="Shape" xvalue="0"/>
-                        <dimension name="Slanted" xvalue="0"/>
-                        <!-- COLRv1 axes -->
-                        <dimension name="Layer1-Scale" xvalue="1000"/>
-                        <dimension name="Layer1-X" xvalue="1000"/>
-                        <dimension name="Layer1-Y" xvalue="1000"/>
-                        <dimension name="Layer2-Scale" xvalue="1000"/>
-                        <dimension name="Layer2-X" xvalue="1000"/>
-                        <dimension name="Layer2-Y" xvalue="1000"/>
-                    </location>
-                    
-                </source>
-                    
-
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="0"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="0"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="0"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="0"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="0"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="0"/>
+            </location>
+            
+        </source>
+                    
+        <source familyname="Bitcount Grid Single" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
+            name="Bitcount Grid Single" 
+            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Open" xvalue="0"/>
+                <dimension name="Shape" xvalue="0"/>
+                <dimension name="Slanted" xvalue="0"/>
+                <!-- COLRv1 axes -->
+                <dimension name="Layer1-Scale" xvalue="1000"/>
+                <dimension name="Layer1-X" xvalue="1000"/>
+                <dimension name="Layer1-Y" xvalue="1000"/>
+                <dimension name="Layer2-Scale" xvalue="1000"/>
+                <dimension name="Layer2-X" xvalue="1000"/>
+                <dimension name="Layer2-Y" xvalue="1000"/>
+            </location>
+            
+        </source>
+                    
 	</sources>
 
 	<instances>
-
 		
-
 	</instances>
 </designspace>

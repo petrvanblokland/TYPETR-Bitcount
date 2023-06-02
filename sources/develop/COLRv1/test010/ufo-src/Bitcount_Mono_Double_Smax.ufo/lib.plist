@@ -3349,8 +3349,9 @@
       <string>f</string>
       <string>px</string>
       <string>circle</string>
+      <string>_canvas</string>
+      <string>canvas</string>
       <string>e</string>
-      <string>emsquare</string>
     </array>
     <key>tnCurvePalette</key>
     <dict>

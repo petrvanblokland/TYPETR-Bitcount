@@ -22,6 +22,7 @@ DOUBLE = 'Double'
 STEMS = (SINGLE, DOUBLE)
 
 UFO_PATH = 'ufo/'
+UFO_TEST_PATH = 'ufo-test/' # Subset masters with only a couply of glyphs for fast test compiling
 FEATURES_PATH = 'features/'
 MASTERS_PATH = '_masters/' # Gitignore, not committing into Github
 
@@ -71,9 +72,11 @@ REGULAR = 400 # Pixel size: 100
 BLACK = 900 # Pixel size: 200
 
 SMIN = 0 
+SDEF = 0 #500
 SMAX = 1000
-LMIN = 0
-LMAX = 1000
+LMIN = 0 #-500 # Position of the COLRv1 layers
+LDEF = 0
+LMAX = 1000 #500
 
 WGHT_MIN = THIN
 WGHT_DEF = REGULAR
@@ -89,13 +92,17 @@ AXISCOUNT = len(DEFAULT_LOCATION) # Number of main axes, besides the COLV1 axes.
 DESIGN_SPACES= {}
 for variant in VARIANTS:
     for stem in STEMS:
-        # Un-comment the design space that should be generated.
+        # Name of the design space to generate
         dsName = f'{BITCOUNT}_{variant}_{stem}{AXISCOUNT}-COLRv1.designspace'
+        # Master UFO to be used as source for all different pixel masters
         masterName = f'{BITCOUNT}_{variant}_{stem}.ufo'
+        # Same for italic (slanted) master
         masterItalicName = f'{BITCOUNT}_{variant}_{stem}_Italic.ufo'
+        # Path to copy the created masters to
         ufoPath = f'{MASTERS_PATH}{variant}-{stem}/'
         dsParams = dict(variant=variant, stem=stem, axisCount=AXISCOUNT, ufoPath=ufoPath,
-            masterName=masterName, masterItalicName=masterItalicName, dsName=dsName,)
+            masterName=masterName, masterItalicName=masterItalicName, dsName=dsName,
+        )
         DESIGN_SPACES[dsName] = dsParams 
 
 

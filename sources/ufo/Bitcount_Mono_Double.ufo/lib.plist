@@ -11780,6 +11780,7 @@
       <string>copyrightsound</string>
       <string>lozenge</string>
       <string>apple</string>
+      <string>canvas</string>
       <string>dslash</string>
       <string>heart</string>
       <string>idotaccent</string>
@@ -12389,6 +12390,7 @@
       <string>Euro.xc</string>
       <string>florin.xc</string>
       <string>.notdef</string>
+      <string>_canvas</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

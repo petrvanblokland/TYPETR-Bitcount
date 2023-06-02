@@ -12,8 +12,9 @@ import os
 from fontParts.fontshell.font import RFont
 from scriptsLib.make import *
 
-if 0:
+if 1:
     MAKE_DESIGNSPACES = True # 
+    SUBSET_AS_TEST = True # If True, then compile with a subset of only a couple of glyph (whithout features)
     COPY_MASTERS = True # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = True
     MAKE_STAT = True
@@ -23,7 +24,8 @@ if 0:
     USE_PRODUCTION_NAMES = False
 else:
     MAKE_DESIGNSPACES = True 
-    COPY_MASTERS = True # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
+    SUBSET_AS_TEST = False # If True, then compile with a subset of only a couple of glyph (whithout features)
+    COPY_MASTERS = False # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = False
     MAKE_STAT = False
     MAKE_UFO = False
@@ -42,8 +44,8 @@ for dsName, dsParams in DESIGN_SPACES.items():
 
     if dsName not in [
         #'Bitcount_Grid_Double4-COLRv1.designspace',
-        'Bitcount_Grid_Single4-COLRv1.designspace',
-        #'Bitcount_Mono_Double4-COLRv1.designspace',
+        #'Bitcount_Grid_Single4-COLRv1.designspace',
+        'Bitcount_Mono_Double4-COLRv1.designspace',
         #'Bitcount_Mono_Single4-COLRv1.designspace',
         #'Bitcount_Prop_Double4-COLRv1.designspace',
         #'Bitcount_Prop_Single4-COLRv1.designspace',
@@ -54,7 +56,7 @@ for dsName, dsParams in DESIGN_SPACES.items():
         print('--- Copy UFO masters')
         # Copy the ufo/ masters to _masters/<variant>/<UFOs> for every master and apply the 
         # right file name based on location  and variant
-        copyMasters(dsName, dsParams)
+        copyMasters(dsName, dsParams, SUBSET_AS_TEST)
 
     if MAKE_VF:
         print('--- Make variable fonts')
