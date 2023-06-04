@@ -2,23 +2,6 @@
 <glyph name="canvas" format="2">
   <advance width="1000"/>
   <outline>
-    <contour>
-      <point x="0" y="-300" type="line"/>
-      <point x="1000" y="-300" type="line"/>
-      <point x="1000" y="700" type="line"/>
-      <point x="0" y="700" type="line"/>
-    </contour>
-    <contour>
-      <point x="450" y="100" type="line"/>
-      <point x="450" y="200" type="line"/>
-      <point x="550" y="200" type="line"/>
-      <point x="550" y="100" type="line"/>
-    </contour>
-    <contour>
-      <point x="434" y="84" type="line"/>
-      <point x="434" y="216" type="line"/>
-      <point x="566" y="216" type="line"/>
-      <point x="566" y="84" type="line"/>
-    </contour>
+    <component base="_canvas"/>
   </outline>
 </glyph>

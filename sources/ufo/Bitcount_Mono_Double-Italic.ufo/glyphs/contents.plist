@@ -914,6 +914,8 @@
     <string>Z_dotaccent.sc.glif</string>
     <key>Zdotaccent.xc</key>
     <string>Z_dotaccent.xc.glif</string>
+    <key>_canvas</key>
+    <string>_canvas.glif</string>
     <key>a</key>
     <string>a.glif</string>
     <key>a.it</key>

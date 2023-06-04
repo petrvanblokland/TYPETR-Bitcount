@@ -14,7 +14,7 @@ from scriptsLib.make import *
 
 if 1:
     MAKE_DESIGNSPACES = True # 
-    SUBSET_AS_TEST = True # If True, then compile with a subset of only a couple of glyph (whithout features)
+    SUBSET_AS_TEST = False # If True, then compile with a subset of only a couple of glyph (whithout features)
     COPY_MASTERS = True # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = True
     MAKE_STAT = True

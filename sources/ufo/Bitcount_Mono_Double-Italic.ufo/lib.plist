@@ -12381,6 +12381,7 @@
       <string>openheart</string>
       <string>.notdef</string>
       <string>canvas</string>
+      <string>_canvas</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>
