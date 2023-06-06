@@ -71,13 +71,15 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
         if not os.path.exists(dstPath):
             print('    ... Make master %s' % dstName)
             srcPath = ufoDirPath + ufoName
-            copyUFO(srcPath, dstPath)
-
-            dst = ufoLib2.Font.open(dstPath)
+            if pd.SHPE or pd.OPEN or pd.wght != wght_DEF: # Only copy pixels, this can be sparse
+                dst = ufoLib2.Font()
+            else:
+                copyUFO(srcPath, dstPath)
+                dst = ufoLib2.Font.open(dstPath)
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
-            dst.save()
+            dst.save(dstPath, overwrite=True)
             dst.close()
 
     pixels.close()
