@@ -9,7 +9,6 @@
 #
 import os
 
-from fontParts.fontshell.font import RFont
 from scriptsLib.make import *
 
 if 1:

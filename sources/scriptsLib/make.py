@@ -4,8 +4,8 @@
 #
 import os, shutil
 import codecs
+import ufoLib2
 
-from fontParts.fontshell.font import RFont
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
 from scriptsLib import *
@@ -74,7 +74,7 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
             srcPath = ufoDirPath + ufoName
             copyUFO(srcPath, dstPath)
 
-            dst = RFont(dstPath)
+            dst = ufoLib2.Font.open(dstPath)
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
@@ -139,9 +139,8 @@ def openFont(nameOrPath, showInterface=False):
         return f
         
     # Else not in RoboFont, use plain fontParts instead
-    from fontParts.fontshell.font import RFont
     #print('RFONT', nameOrPath) 
-    return RFont(nameOrPath, showInterface=showInterface)
+    return ufoLib2.Font.open(nameOrPath)
 
 def copyUFO(srcPath, dstPath):
     """Copy the UFO in srcPath to dstPath (directory or UFO name).
@@ -177,7 +176,6 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=T
     assert dstGlyphName in dstFont, ('### Glyph /%s does not exist destination font "%s"' % (dstGlyphName, dstFont.path))
     g = dstFont[dstGlyphName]
     #print('@@1', glyphName, PIXEL_NAME, dstGlyphName in dstFont)
-    g.changed()
     return g
     #return dstFont[dstGlyphName]
   
