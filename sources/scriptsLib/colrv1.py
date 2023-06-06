@@ -15,6 +15,7 @@ from scriptsLib import slnt_AXIS, OPEN_AXIS, wght_AXIS, SHPE_AXIS
 
 COLORS = [
     "#FFFFFFFF",  # (1, 1, 1, 1)
+    "#808080FF",  # color16=grey
     "#FF00FF80",  # color1 = (1, 0, 1, 0.5)
     "#FFFFFF80",  # color2 = (1, 1, 1, 0.5)
     "#0033FF80",  # color3 = (0, 0.2, 1, 0.5)
@@ -28,13 +29,12 @@ COLORS = [
     "#00FF00FF",  # color13= (0, 1, 0, 1),
     "#FFFFFFFF",  # color14= (1, 1, 1, 1),
     "#000000FF",  # color15=(0, 0, 0, 1),
-    "#00FFFFFF",  # color16=(0, 1, 1, 1),
 ]
 
+COLORS2 = [COLORS[0]] + COLORS[-1:0:-1]
+
 COLOR_STOPS1 = ColorLine({ix / len(COLORS): stop for ix, stop in enumerate(COLORS)})
-COLOR_STOPS2 = ColorLine(
-    {ix / len(COLORS): stop for ix, stop in enumerate(reversed(COLORS))}
-)
+COLOR_STOPS2 = ColorLine({ix / len(COLORS2): stop for ix, stop in enumerate(COLORS2)})
 
 pt1 = (
     {
@@ -66,8 +66,8 @@ rg2 = PaintRadialGradient(pt2, 1, pt2, LR2S, COLOR_STOPS2)
 
 pt1x = (
     {
-        (("LR1X", LMIN),): LMIN + 50 + 450,
-        (("LR1X", LMAX),): LMAX + 50 + 450,
+        (("LR1X", LMIN),): LMIN + 500,
+        (("LR1X", LMAX),): LMAX + 500,
     },
     {
         (("LR1Y", LMIN),): LMIN + 50 + 100,
@@ -76,8 +76,8 @@ pt1x = (
 )
 pt2x = (
     {
-        (("LR2X", LMIN),): LMIN + 50 + 450,
-        (("LR2X", LMAX),): LMAX + 50 + 450,
+        (("LR2X", LMIN),): LMIN + 500,
+        (("LR2X", LMAX),): LMAX + 500,
     },
     {
         (("LR2Y", LMIN),): LMIN + 50 + 100,
