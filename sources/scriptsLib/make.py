@@ -78,32 +78,8 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
-            addCOLRv1Layers(dst)
             dst.save()
             dst.close()
-    
-    # COLRv1 axes are independent masters
-    stem = dsParams['stem']
-    variant = dsParams['variant']
-    for s1 in (SMIN, SMAX):
-        for x1 in (LMIN, LMAX):
-            for y1 in (LMIN, LMAX):
-                for s2 in (SMIN, SMAX):
-                    for x2 in (LMIN, LMAX):
-                        for y2 in (LMIN, LMAX):
-
-                            dstPath = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{s1}_LR1X{x1}_LR1Y{y1}_LR2S{s2}_LR2X{x2}_LR2Y{y2}.ufo'
-                            print('    ... Make COLRv1 master %s' % dstPath)
-                            srcPath = ufoDirPath + md.ufoName
-                            copyUFO(srcPath, dstPath)
-
-                            dst = RFont(dstPath)
-                            dst.info.familyName = getFamilyName(md)
-                            dst.info.styleName = getStyleName(pd)
-                            copyGlyph(pixels, DEFAULT_PIXEL_NAME, dst, PIXEL_NAME)
-                            addCOLRv1Layers(dst, s1, x1, y1, s2, x2, y2)
-                            dst.save()
-                            dst.close()
 
     pixels.close()
 
@@ -259,53 +235,10 @@ def makeDesignSpaceFile(dsName, dsParams):
                 <dimension name="Open" xvalue="{OPEN}"/>
                 <dimension name="Shape" xvalue="{SHPE}"/>
                 <dimension name="Slanted" xvalue="{slnt}"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="{SDEF}"/>
-                <dimension name="Layer1-X" xvalue="{LDEF}"/>
-                <dimension name="Layer1-Y" xvalue="{LDEF}"/>
-                <dimension name="Layer2-Scale" xvalue="{SDEF}"/>
-                <dimension name="Layer2-X" xvalue="{LDEF}"/>
-                <dimension name="Layer2-Y" xvalue="{LDEF}"/>
             </location>
             {info}
         </source>
             """
-
-    # COLRv1 axes
-    for s1 in (SMIN, SMAX):
-        for x1 in (LMIN, LMAX):
-            for y1 in (LMIN, LMAX):
-                for s2 in (SMIN, SMAX):
-                    for x2 in (LMIN, LMAX):
-                        for y2 in (LMIN, LMAX):
-
-                            if s1 == s2 == SDEF and x1 == y1 == x2 == y2 == LDEF:
-                                continue # We don't need another default location.
-
-                            path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{s1}_LR1X{x1}_LR1Y{x2}_LR2S{s2}_LR2X{x2}_LR2Y{y2}.ufo'
-
-                            axisParams['sources'] += f"""
-        <source familyname="Bitcount {variant} {stem}" 
-            filename="{path}" 
-            name="Bitcount {variant} {stem}" 
-            stylename="wght{wght} OPEN{OPEN} SHPE{SHPE} slnt{slnt}">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="{WGHT_DEF}"/>
-                <dimension name="Open" xvalue="{OPEN_MIN}"/>
-                <dimension name="Shape" xvalue="{SHPE_MIN}"/>
-                <dimension name="Slanted" xvalue="{SLNT_MIN}"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="{s1}"/>
-                <dimension name="Layer1-X" xvalue="{x1}"/>
-                <dimension name="Layer1-Y" xvalue="{y1}"/>
-                <dimension name="Layer2-Scale" xvalue="{s2}"/>
-                <dimension name="Layer2-X" xvalue="{x2}"/>
-                <dimension name="Layer2-Y" xvalue="{y2}"/>
-            </location>
-            {info}
-        </source>
-                    """
 
     xml = template % axisParams
     fds = codecs.open(dsName, 'w', encoding='UTF-8')
