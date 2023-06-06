@@ -72,11 +72,11 @@ REGULAR = 400 # Pixel size: 100
 BLACK = 900 # Pixel size: 200
 
 SMIN = 0 
-SDEF = 0 #500
+SDEF = 500
 SMAX = 1000
-LMIN = 0 #-500 # Position of the COLRv1 layers
+LMIN = -500 # Position of the COLRv1 layers
 LDEF = 0
-LMAX = 1000 #500
+LMAX = 500
 
 WGHT_MIN = THIN
 WGHT_DEF = REGULAR
