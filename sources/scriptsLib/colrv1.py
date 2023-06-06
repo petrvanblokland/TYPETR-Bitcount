@@ -5,187 +5,126 @@
 #
 #   https://github.com/googlefonts/colr-gradients-spec
 #
-import os
-import ufoLib2
-import shutil
-import codecs
-from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
-from fontTools.ttLib.tables import otTables as ot
-from fontTools.colorLib.builder import buildCOLR
-from fontTools.colorLib.builder import buildCPAL
+import sys
+from collections import defaultdict
 
+sys.path.append(".")
 from scriptsLib import SMIN, SMAX, LMIN, LMAX
+from scriptsLib import slnt_AXIS, OPEN_AXIS, wght_AXIS, SHPE_AXIS
 
 
-def addCOLRv1Layers(f, s1=SMIN, x1=LMIN, y1=LMIN, s2=SMIN, x2=LMIN, y2=LMIN):
-    """Default is to fill them with default values, used in the main shaped axes."""
-    #print(f'... Add COLRv1 to {f.path}')
+COLORS = [
+    "#FFFFFFFF",  # (1, 1, 1, 1)
+    "#FF00FF80",  # color1 = (1, 0, 1, 0.5)
+    "#FFFFFF80",  # color2 = (1, 1, 1, 0.5)
+    "#0033FF80",  # color3 = (0, 0.2, 1, 0.5)
+    "#FF330080",  # color4 = (1, 0.2, 0, 0.5)
+    "#00FF0080",  # color5 = (0, 1, 0, 0.5),
+    "#00FFFF80",  # color6 = (0, 1, 1, 0.5),
+    "#00000080",  # color7 = (0, 0, 0, 0.5),
+    "#0033FFFF",  # color10 = (0, 0.2, 1, 1),
+    "#FF3300FF",  # color11 = (1, 0.2, 0, 1),
+    "#FF00FFFF",  # color12= (1, 0, 1, 1),
+    "#00FF00FF",  # color13= (0, 1, 0, 1),
+    "#FFFFFFFF",  # color14= (1, 1, 1, 1),
+    "#000000FF",  # color15=(0, 0, 0, 1),
+    "#00FFFFFF",  # color16=(0, 1, 1, 1),
+]
 
-    pixelLayer1 = getPaintRadialGradient1(s1, x1, y1)
-    pixelLayer2 = getPaintRadialGradient2(s2, x2, y2)
+COLOR_STOPS1 = ColorLine({ix / len(COLORS): stop for ix, stop in enumerate(COLORS)})
+COLOR_STOPS2 = ColorLine(
+    {ix / len(COLORS): stop for ix, stop in enumerate(reversed(COLORS))}
+)
 
-    # Position of the /canvas pixel component /_canvas
-    pixelLayer1x = getPaintRadialGradient1(s1, x1+450, y1+100)
-    pixelLayer2x = getPaintRadialGradient2(s2, x2+450, y2+100)
+pt1 = (
+    {
+        (("LR1X", LMIN),): LMIN + 50,
+        (("LR1X", LMAX),): LMAX + 50,
+    },
+    {
+        (("LR1Y", LMIN),): LMIN + 50,
+        (("LR1Y", LMAX),): LMAX + 50,
+    },
+)
+pt2 = (
+    {
+        (("LR2X", LMIN),): LMIN + 50,
+        (("LR2X", LMAX),): LMAX + 50,
+    },
+    {
+        (("LR2Y", LMIN),): LMIN + 50,
+        (("LR2Y", LMAX),): LMAX + 50,
+    },
+)
+LR1S = {(("LR1S", SMIN),): 1, (("LR1S", SMAX),): SMAX + 1}
+LR2S = {(("LR2S", SMIN),): 1, (("LR2S", SMAX),): SMAX + 1}
 
-    colorGlyphs = {}
-    for glyphName in f.keys():
-        if glyphName == 'canvas':
-            colorGlyphs[glyphName] = buildPixelGlyph('_canvas', pixelPositions(f, glyphName), pixelLayer1x, pixelLayer2x)
-        else:
-            colorGlyphs[glyphName] = buildPixelGlyph('px', pixelPositions(f, glyphName), pixelLayer1, pixelLayer2)
+rg1 = PaintRadialGradient(pt1, 1, pt1, LR1S, COLOR_STOPS1)
 
-    #print(colorGlyphs)
-    f.lib[COLOR_PALETTES_KEY] = palettes
-    f.lib[COLOR_LAYERS_KEY] = colorGlyphs
+rg2 = PaintRadialGradient(pt2, 1, pt2, LR2S, COLOR_STOPS2)
+
+
+pt1x = (
+    {
+        (("LR1X", LMIN),): LMIN + 50 + 450,
+        (("LR1X", LMAX),): LMAX + 50 + 450,
+    },
+    {
+        (("LR1Y", LMIN),): LMIN + 50 + 100,
+        (("LR1Y", LMAX),): LMAX + 50 + 100,
+    },
+)
+pt2x = (
+    {
+        (("LR2X", LMIN),): LMIN + 50 + 450,
+        (("LR2X", LMAX),): LMAX + 50 + 450,
+    },
+    {
+        (("LR2Y", LMIN),): LMIN + 50 + 100,
+        (("LR2Y", LMAX),): LMAX + 50 + 100,
+    },
+)
+
+rg1x = PaintRadialGradient(pt1x, 1, pt1x, LR1S, COLOR_STOPS1)
+rg2x = PaintRadialGradient(pt2x, 1, pt2x, LR2S, COLOR_STOPS2)
+
 
 def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2):
     layers = []
     for x, y in pixelPositions:
-        # Three nested Paints:
-        # - PaintTranslate to move the pixel to the right place
-        # - PaintGlyph to say which glyph to be drawn
-        # - PaintGradient to say how to fill the glyph
-        layer = {
-            "Format": ot.PaintFormat.PaintTranslate,
-            "Paint": {
-                "Format": ot.PaintFormat.PaintGlyph,
-                "Paint": layer1,
-                "Glyph": pixelGlyphName,
-            },
-            "dx": x,
-            "dy": y,
-        }
-        layers.append(layer)
-        layer = {
-            "Format": ot.PaintFormat.PaintTranslate,
-            "Paint": {
-                "Format": ot.PaintFormat.PaintGlyph,
-                "Paint": layer1,
-                "Glyph": pixelGlyphName,
-            },
-            "dx": x,
-            "dy": y,
-        }
-        layers.append(layer)
-        layer = {
-            "Format": ot.PaintFormat.PaintTranslate,
-            "Paint": {
-                "Format": ot.PaintFormat.PaintGlyph,
-                "Paint": layer2,
-                "Glyph": pixelGlyphName,
-            },
-            "dx": x,
-            "dy": y,
-        }
-        layers.append(layer)
-    if len(layers) == 1:
-        return layers[0]
-    else:
-        return (ot.PaintFormat.PaintColrLayers, layers)
-
-palettes = (
-    (
-        (1, 0, 1, 0.5),
-        (1, 1, 1, 0.5),
-        (0, 0.2, 1, 0.5),
-        (1, 0.2, 0, 0.5),
-        (0, 1, 0, 0.5),
-        (0, 1, 1, 0.5),
-        (0, 0, 0, 0.5),
-
-        (0, 0.2, 1, 1),
-        (1, 0.2, 0, 1),
-        (1, 0, 1, 1),
-        (0, 1, 0, 1),
-        (1, 1, 1, 1),
-        (0, 0, 0, 1),
-        (0, 1, 1, 1),
-
-        (1, 1, 1, 1), # White
-    ),
-)
-
-color1 = 0  # palette index
-color2 = 1  # palette index
-color3 = 2  # palette index
-color4 = 3  # palette index
-color5 = 4  # palette index
-color6 = 5  # palette index
-color7 = 6  # palette index
-
-color10 = 7
-color11 = 8
-color12 = 9
-color13 = 10
-color14 = 11
-color15 = 12
-color16 = 13
-
-white = 14
-
-N = 14
-# TODO: Organize this as a loop
-COLOR_STOPS1 = ((0/N, white), (1/N, color1), (2/N, color2), (3/N, color3), (4/N, color4), (5/N, color5), (6/N, color6), (7/N, color7),
-                (8/N, color10), (9/N, color11), (10/N, color12), (11/N, color13), (12/N, color14), (13/N, color15), (14/N, color16))
-COLOR_STOPS2 = ((0/N, white), (1/N, color16), (2/N, color15), (3/N, color14), (4/N, color13), (5/N, color12), (6/N, color11), (7/N, color10),
-                (8/N, color7), (9/N, color6), (10/N, color5), (11/N, color4), (12/N, color3), (13/N, color2), (14/N, color1))
-
-def getPaintRadialGradient1(s, x, y):
-    layers = []
-    r1 = {
-        "Format": ot.PaintFormat.PaintRadialGradient,
-        "ColorLine": {
-            "ColorStop": COLOR_STOPS1,  # can be more than 2
-            "Extend": "pad",  # pad, repeat, reflect
-        },
-        "x0": x+50, # Offset into middle of pixel and middle of canvas
-        "y0": y+50,
-        "r0": 1,
-        "x1": x+50,
-        "y1": y+50,
-        "r1": s+1,
-    }
-    r2 = {
-        "Format": ot.PaintFormat.PaintRadialGradient,
-        "ColorLine": {
-            "ColorStop": COLOR_STOPS2,  # can be more than 2
-            "Extend": "pad",  # pad, repeat, reflect
-        },
-        "x0": x+50, # Offset into middle of pixel
-        "y0": y+50,
-        "r0": 1,
-        "x1": x+50,
-        "y1": y+50,
-        "r1": s+1,
-    }
-    layers.append(r1)
-    return layers[0] # @@@@@ This should be changed
-    return (ot.PaintFormat.PaintColrLayers, layers)
-
-def getPaintRadialGradient2(s, x, y):
-    layers = []
-    r1 = {
-        "Format": ot.PaintFormat.PaintRadialGradient,
-        "ColorLine": {
-            "ColorStop": COLOR_STOPS2,  # can be more than 2
-            "Extend": "pad",  # pad, repeat, reflect
-        },
-        "x0": x+50,
-        "y0": y+50,
-        "r0": 1,
-        "x1": x+50,
-        "y1": y+50,
-        "r1": s+1,
-    }
-    layers.append(r1)
-    return layers[0] # @@@@@ This should be changed
-    return (ot.PaintFormat.PaintColrLayers, layers)
+        layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer1)))
+        layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer2)))
+    return PaintColrLayers(layers)
 
 
+# Now admittedly this is complicated; we need to make a variable
+# translate, specifying the pixel positions at all the points in 
+# the designspace that we care about (using the original B&W axes)
 def pixelPositions(f, gName):
-    positions = []
-    for component in f[gName].components:
-        positions.append(tuple(component.transformation[-2:]))
-    return tuple(positions)
+    positions_x = defaultdict(dict)
+    positions_y = defaultdict(dict)
+    for slnt_ax in [0, 1000]:
+        # slnt is actually the only one that moves the pixels
+        location = {"slnt": slnt_ax}
+        gs = font.getGlyphSet(location=location)
+        glyph = gs[gName]._getGlyphInstance()
+        if not hasattr(glyph, "components"):
+            return []
+        for ix, component in enumerate(glyph.components):
+            positions_x[ix][tuple(location.items())] = component.x
+            positions_y[ix][tuple(location.items())] = component.y
+    return list(zip(list(positions_x.values()), list(positions_y.values())))
 
+
+for glyphName in font.getGlyphOrder():
+    if glyphName == "canvas":
+        glyphs[glyphName] = buildPixelGlyph(
+            "_canvas", pixelPositions(font, glyphName), rg1x, rg2x
+        )
+    else:
+        glyphs[glyphName] = buildPixelGlyph(
+            "px", pixelPositions(font, glyphName), rg1, rg2
+        )
+
+# I hate you, HVAR table, go away.
+del font["HVAR"]

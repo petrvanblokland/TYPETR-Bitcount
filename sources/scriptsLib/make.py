@@ -11,7 +11,6 @@ from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 from scriptsLib import *
 from scriptsLib.glyphData import PIXEL_DATA, DEFAULT_PIXEL_NAME # Data of all pixel glyphs
 from scriptsLib.masterData import MASTERS_DATA
-from scriptsLib.colrv1 import addCOLRv1Layers
 
 BUILD = 9
 
@@ -245,23 +244,16 @@ def makeDesignSpaceFile(dsName, dsParams):
     fds.write(xml)
     fds.close()
 
-def XXXaddCOLRv1toVF(vfPath):
+def addCOLRv1toVF(vfPath):
     dstPath = vfPath.replace('.ttf', '_COLRv1.ttf')
     print('--- Adding COLORv1 pixels to', dstPath)
-    shutil.copy(vfPath, dstPath)
-    add_colorv1(dstPath)
-
-def XXXaddCOLRv1toUFO(designSpacePath, variant):
-    # Open the pixel font, as lead for the masters that need to be generated.
-    print('--- Adding COLORv1 layers')
-    ufoName1 = '_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght500.ufo'
-    ufoName2 = '_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght0.ufo'
-
-    f1 = openFont(ufoName1)
-    f2 = openFont(ufoName2)
-    print('... Adding COLRv1 layers to', ufoName1)
-    print('... Adding COLRv1 layers to', ufoName2)
-    addCOLRv1(f1, f2)
-    f1.save()
-    f2.save()
-    
+    cmd = (f'paintcompiler -o {dstPath} '
+           f'--add-axis LR1X:{LMIN}:{LDEF}:{LMAX}:Layer1-X '
+           f'--add-axis LR1Y:{LMIN}:{LDEF}:{LMAX}:Layer1-Y '
+           f'--add-axis LR1S:{SMIN}:{SDEF}:{SMAX}:Layer1-Scale '
+           f'--add-axis LR2X:{LMIN}:{LDEF}:{LMAX}:Layer2-X '
+           f'--add-axis LR2Y:{LMIN}:{LDEF}:{LMAX}:Layer2-Y '
+           f'--add-axis LR2S:{SMIN}:{SDEF}:{SMAX}:Layer2-Scale '
+           '--paints scriptsLib/colrv1.py '+vfPath)
+    print(cmd)
+    os.system(cmd)

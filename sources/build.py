@@ -66,6 +66,9 @@ for dsName, dsParams in DESIGN_SPACES.items():
         cmd = 'fontmake -o variable -m %s --output-path %s' % (dsName, vfPath)
         print('...', cmd)
         os.system(cmd)
+
+        addCOLRv1toVF(vfPath)
+        
         continue
 
         if USE_PRODUCTION_NAMES:
