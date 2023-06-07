@@ -4,14 +4,13 @@
 #
 import os, shutil
 import codecs
+import ufoLib2
 
-from fontParts.fontshell.font import RFont
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
 from scriptsLib import *
 from scriptsLib.glyphData import PIXEL_DATA, DEFAULT_PIXEL_NAME # Data of all pixel glyphs
 from scriptsLib.masterData import MASTERS_DATA
-from scriptsLib.colrv1 import addCOLRv1Layers
 
 BUILD = 9
 
@@ -72,38 +71,16 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
         if not os.path.exists(dstPath):
             print('    ... Make master %s' % dstName)
             srcPath = ufoDirPath + ufoName
-            copyUFO(srcPath, dstPath)
-
-            dst = RFont(dstPath)
+            if pd.SHPE or pd.OPEN or pd.wght != wght_DEF: # Only copy pixels, this can be sparse
+                dst = ufoLib2.Font()
+            else:
+                copyUFO(srcPath, dstPath)
+                dst = ufoLib2.Font.open(dstPath)
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
-            addCOLRv1Layers(dst)
-            dst.save()
+            dst.save(dstPath, overwrite=True)
             dst.close()
-    
-    # COLRv1 axes are independent masters
-    stem = dsParams['stem']
-    variant = dsParams['variant']
-    for s1 in (SMIN, SMAX):
-        for x1 in (LMIN, LMAX):
-            for y1 in (LMIN, LMAX):
-                for s2 in (SMIN, SMAX):
-                    for x2 in (LMIN, LMAX):
-                        for y2 in (LMIN, LMAX):
-
-                            dstPath = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{s1}_LR1X{x1}_LR1Y{y1}_LR2S{s2}_LR2X{x2}_LR2Y{y2}.ufo'
-                            print('    ... Make COLRv1 master %s' % dstPath)
-                            srcPath = ufoDirPath + md.ufoName
-                            copyUFO(srcPath, dstPath)
-
-                            dst = RFont(dstPath)
-                            dst.info.familyName = getFamilyName(md)
-                            dst.info.styleName = getStyleName(pd)
-                            copyGlyph(pixels, DEFAULT_PIXEL_NAME, dst, PIXEL_NAME)
-                            addCOLRv1Layers(dst, s1, x1, y1, s2, x2, y2)
-                            dst.save()
-                            dst.close()
 
     pixels.close()
 
@@ -139,9 +116,8 @@ def openFont(nameOrPath, showInterface=False):
         return f
         
     # Else not in RoboFont, use plain fontParts instead
-    from fontParts.fontshell.font import RFont
     #print('RFONT', nameOrPath) 
-    return RFont(nameOrPath, showInterface=showInterface)
+    return ufoLib2.Font.open(nameOrPath)
 
 def copyUFO(srcPath, dstPath):
     """Copy the UFO in srcPath to dstPath (directory or UFO name).
@@ -177,7 +153,6 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=T
     assert dstGlyphName in dstFont, ('### Glyph /%s does not exist destination font "%s"' % (dstGlyphName, dstFont.path))
     g = dstFont[dstGlyphName]
     #print('@@1', glyphName, PIXEL_NAME, dstGlyphName in dstFont)
-    g.changed()
     return g
     #return dstFont[dstGlyphName]
   
@@ -261,76 +236,26 @@ def makeDesignSpaceFile(dsName, dsParams):
                 <dimension name="Open" xvalue="{OPEN}"/>
                 <dimension name="Shape" xvalue="{SHPE}"/>
                 <dimension name="Slanted" xvalue="{slnt}"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="{SDEF}"/>
-                <dimension name="Layer1-X" xvalue="{LDEF}"/>
-                <dimension name="Layer1-Y" xvalue="{LDEF}"/>
-                <dimension name="Layer2-Scale" xvalue="{SDEF}"/>
-                <dimension name="Layer2-X" xvalue="{LDEF}"/>
-                <dimension name="Layer2-Y" xvalue="{LDEF}"/>
             </location>
             {info}
         </source>
             """
-
-    # COLRv1 axes
-    for s1 in (SMIN, SMAX):
-        for x1 in (LMIN, LMAX):
-            for y1 in (LMIN, LMAX):
-                for s2 in (SMIN, SMAX):
-                    for x2 in (LMIN, LMAX):
-                        for y2 in (LMIN, LMAX):
-
-                            if s1 == s2 == SDEF and x1 == y1 == x2 == y2 == LDEF:
-                                continue # We don't need another default location.
-
-                            path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-LR1S{s1}_LR1X{x1}_LR1Y{x2}_LR2S{s2}_LR2X{x2}_LR2Y{y2}.ufo'
-
-                            axisParams['sources'] += f"""
-        <source familyname="Bitcount {variant} {stem}" 
-            filename="{path}" 
-            name="Bitcount {variant} {stem}" 
-            stylename="wght{wght} OPEN{OPEN} SHPE{SHPE} slnt{slnt}">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="{WGHT_DEF}"/>
-                <dimension name="Open" xvalue="{OPEN_MIN}"/>
-                <dimension name="Shape" xvalue="{SHPE_MIN}"/>
-                <dimension name="Slanted" xvalue="{SLNT_MIN}"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="{s1}"/>
-                <dimension name="Layer1-X" xvalue="{x1}"/>
-                <dimension name="Layer1-Y" xvalue="{y1}"/>
-                <dimension name="Layer2-Scale" xvalue="{s2}"/>
-                <dimension name="Layer2-X" xvalue="{x2}"/>
-                <dimension name="Layer2-Y" xvalue="{y2}"/>
-            </location>
-            {info}
-        </source>
-                    """
 
     xml = template % axisParams
     fds = codecs.open(dsName, 'w', encoding='UTF-8')
     fds.write(xml)
     fds.close()
 
-def XXXaddCOLRv1toVF(vfPath):
+def addCOLRv1toVF(vfPath):
     dstPath = vfPath.replace('.ttf', '_COLRv1.ttf')
     print('--- Adding COLORv1 pixels to', dstPath)
-    shutil.copy(vfPath, dstPath)
-    add_colorv1(dstPath)
-
-def XXXaddCOLRv1toUFO(designSpacePath, variant):
-    # Open the pixel font, as lead for the masters that need to be generated.
-    print('--- Adding COLORv1 layers')
-    ufoName1 = '_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght500.ufo'
-    ufoName2 = '_masters/Mono/BitcountMono_Double_OPEN0_SHPE0_slnt0_wght0.ufo'
-
-    f1 = openFont(ufoName1)
-    f2 = openFont(ufoName2)
-    print('... Adding COLRv1 layers to', ufoName1)
-    print('... Adding COLRv1 layers to', ufoName2)
-    addCOLRv1(f1, f2)
-    f1.save()
-    f2.save()
-    
+    cmd = (f'paintcompiler -o {dstPath} '
+           f'--add-axis LR1X:{LMIN}:{LDEF}:{LMAX}:Layer1-X '
+           f'--add-axis LR1Y:{LMIN}:{LDEF}:{LMAX}:Layer1-Y '
+           f'--add-axis LR1S:{SMIN}:{SDEF}:{SMAX}:Layer1-Scale '
+           f'--add-axis LR2X:{LMIN}:{LDEF}:{LMAX}:Layer2-X '
+           f'--add-axis LR2Y:{LMIN}:{LDEF}:{LMAX}:Layer2-Y '
+           f'--add-axis LR2S:{SMIN}:{SDEF}:{SMAX}:Layer2-Scale '
+           '--paints scriptsLib/colrv1.py '+vfPath)
+    print(cmd)
+    os.system(cmd)

@@ -7,14 +7,6 @@
 		<axis minimum="0" default="0" maximum="1000" name="Open" tag="OPEN"/>
 		<axis minimum="0" default="0" maximum="1000" name="Shape" tag="SHPE"/>
 		<axis minimum="0" default="0" maximum="1000" name="Slanted" tag="slnt"/>
-		<!-- COLRV1 axes for 2 independent layers, final names to be defined -->
-        <axis minimum="0" default="0" maximum="1000" name="Layer1-Scale" tag="LR1S"/>
-        <axis minimum="0" default="0" maximum="1000" name="Layer1-X" tag="LR1X"/>
-        <axis minimum="0" default="0" maximum="1000" name="Layer1-Y" tag="LR1Y"/>
-        <axis minimum="0" default="0" maximum="1000" name="Layer2-Scale" tag="LR2S"/>
-        <axis minimum="0" default="0" maximum="1000" name="Layer2-X" tag="LR2X"/>
-        <axis minimum="0" default="0" maximum="1000" name="Layer2-Y" tag="LR2Y"/>
-        <!-- Add 3rd axis? -->
 	</axes>
 	<sources>
 		
@@ -28,13 +20,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             <info copy="1"/>
         </source>
@@ -49,13 +34,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -70,13 +48,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -91,13 +62,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -112,13 +76,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -133,13 +90,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -154,13 +104,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -175,13 +118,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -196,13 +132,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -217,13 +146,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -238,13 +160,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -259,13 +174,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -280,13 +188,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -301,13 +202,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -322,13 +216,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -343,13 +230,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -364,13 +244,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -385,13 +258,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -406,13 +272,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -427,13 +286,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -448,13 +300,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -469,13 +314,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -490,13 +328,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -511,13 +342,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -532,13 +356,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -553,13 +370,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -574,13 +384,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -595,13 +398,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -616,13 +412,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -637,13 +426,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -658,13 +440,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -679,13 +454,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -700,13 +468,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -721,13 +482,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -742,13 +496,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -763,13 +510,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -784,13 +524,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -805,13 +538,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -826,13 +552,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -847,13 +566,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -868,13 +580,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -889,13 +594,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -910,13 +608,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -931,13 +622,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -952,13 +636,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -973,13 +650,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -994,13 +664,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1015,13 +678,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1036,13 +692,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1057,13 +706,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1078,13 +720,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1099,13 +734,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1120,13 +748,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1141,13 +762,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1162,13 +776,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1183,13 +790,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1204,13 +804,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1225,13 +818,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1246,13 +832,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1267,13 +846,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1288,13 +860,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1309,13 +874,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1330,13 +888,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1351,13 +902,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1372,13 +916,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1393,13 +930,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1414,13 +944,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1435,13 +958,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1456,13 +972,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1477,13 +986,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1498,13 +1000,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1519,13 +1014,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1540,13 +1028,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1561,13 +1042,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1582,13 +1056,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1603,13 +1070,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1624,13 +1084,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1645,13 +1098,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1666,13 +1112,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1687,13 +1126,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1708,13 +1140,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1729,13 +1154,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1750,13 +1168,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1771,13 +1182,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1792,13 +1196,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1813,13 +1210,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1834,13 +1224,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1855,13 +1238,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1876,13 +1252,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1897,13 +1266,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1918,13 +1280,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1939,13 +1294,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1960,13 +1308,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -1981,13 +1322,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2002,13 +1336,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2023,13 +1350,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2044,13 +1364,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2065,13 +1378,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2086,13 +1392,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2107,13 +1406,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2128,13 +1420,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2149,13 +1434,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2170,13 +1448,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2191,13 +1462,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2212,13 +1476,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2233,13 +1490,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2254,13 +1504,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2275,13 +1518,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2296,13 +1532,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2317,13 +1546,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2338,13 +1560,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2359,13 +1574,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2380,13 +1588,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2401,13 +1602,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2422,13 +1616,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2443,13 +1630,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2464,13 +1644,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2485,13 +1658,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2506,13 +1672,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2527,13 +1686,6 @@
                 <dimension name="Open" xvalue="0"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2548,13 +1700,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2569,13 +1714,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="0"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2590,13 +1728,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2611,13 +1742,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="90"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2632,13 +1756,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2653,13 +1770,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="180"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2674,13 +1784,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2695,13 +1798,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="270"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2716,13 +1812,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2737,13 +1826,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="360"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2758,13 +1840,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2779,13 +1854,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="450"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2800,13 +1868,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2821,13 +1882,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="540"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2842,13 +1896,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2863,13 +1910,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="630"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2884,13 +1924,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2905,13 +1938,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="720"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2926,13 +1952,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2947,13 +1966,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="810"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2968,13 +1980,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -2989,13 +1994,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="900"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -3010,13 +2008,6 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
@@ -3031,1340 +2022,10 @@
                 <dimension name="Open" xvalue="1000"/>
                 <dimension name="Shape" xvalue="1000"/>
                 <dimension name="Slanted" xvalue="1000"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
             </location>
             
         </source>
             
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S0_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="0"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X0_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="0"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="0"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y0_LR2S0_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y1000_LR2S0_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="0"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y0_LR2S1000_LR2X0_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="0"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y0.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="0"/>
-            </location>
-            
-        </source>
-                    
-        <source familyname="Bitcount Mono Double" 
-            filename="_masters/Mono-Double/Bitcount_Mono_Double-LR1S1000_LR1X1000_LR1Y1000_LR2S1000_LR2X1000_LR2Y1000.ufo" 
-            name="Bitcount Mono Double" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
-                <!-- COLRv1 axes -->
-                <dimension name="Layer1-Scale" xvalue="1000"/>
-                <dimension name="Layer1-X" xvalue="1000"/>
-                <dimension name="Layer1-Y" xvalue="1000"/>
-                <dimension name="Layer2-Scale" xvalue="1000"/>
-                <dimension name="Layer2-X" xvalue="1000"/>
-                <dimension name="Layer2-Y" xvalue="1000"/>
-            </location>
-            
-        </source>
-                    
 	</sources>
 
 	<instances>
