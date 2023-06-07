@@ -77,9 +77,9 @@ BLACK = 900 # Pixel size: 200
 SMIN = 0 
 SDEF = 500
 SMAX = 1000
-LMIN = -500 # Position of the COLRv1 layers
+LMIN = -200 # Position of the COLRv1 layers
 LDEF = 0
-LMAX = 500
+LMAX = 200
 
 WGHT_MIN = THIN
 WGHT_DEF = REGULAR
