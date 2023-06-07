@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zigzag" format="2">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="0" y="100" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="500" y="0" type="line"/>
+      <point x="500" y="100" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="300" type="line"/>
+      <point x="0" y="200" type="line"/>
+      <point x="500" y="200" type="line"/>
+      <point x="500" y="300" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="500" type="line"/>
+      <point x="0" y="400" type="line"/>
+      <point x="500" y="400" type="line"/>
+      <point x="500" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="100" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="500" y="200" type="line"/>
+      <point x="500" y="300" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="300" type="line"/>
+      <point x="0" y="200" type="line"/>
+      <point x="500" y="400" type="line"/>
+      <point x="500" y="500" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2023-06-07 09:34:57 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -31,7 +31,6 @@ def deleteUFOs(path):
 def copyMasters(dsName, dsParams, subsetAsTest=False):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
-    Then add the COLRv1 layers in the f.lib.
     If subsetAsTest is True, then copy from a source UFO with a small sybset of glyphs.
     """
     # Make the local _masters/ path. Note that this directory does not commit to Github.
@@ -49,6 +48,8 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
 
     # Copy pixels from this UFO.
     pixels = openFont(UFO_PATH + VARIATION_PIXELS)
+    # Copy elements from this UFO.
+    elements: ufoLib2.Font = openFont(UFO_PATH + LAYER_ELEMENTS)
 
     # Open the pixel font, as lead for the masters that need to be generated.
     masterName = dsParams['masterName']
@@ -79,6 +80,10 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
+            # If this is the default instance, we add the elements too
+            if pd.is_default:
+                for elementGlyph in elements:
+                    copyGlyph(elements, elementGlyph.name, dst, "el_"+elementGlyph.name)
             dst.save(dstPath, overwrite=True)
             dst.close()
 

@@ -67,6 +67,13 @@ class GlyphData:
         return None
     hex = property(_get_hex)
 
+    @property
+    def is_default(self):
+        return (self.wght == wght_DEF and
+                self.OPEN == OPEN_DEF and
+                self.SHPE == SHPE_DEF and
+                self.slnt == slnt_DEF)
+
 GD = GlyphData
 
 DEFAULT_PIXEL_NAME = 'Pix01@10'

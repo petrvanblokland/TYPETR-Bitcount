@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>com.schriftgestaltung.DisplayStrings</key>
+    <array>
+      <string>/zigzag</string>
+      <string>/square</string>
+    </array>
+    <key>com.schriftgestaltung.appVersion</key>
+    <string>3195</string>
+    <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+    <false/>
+    <key>com.schriftgestaltung.fontMasterID</key>
+    <string>m01</string>
+    <key>com.schriftgestaltung.formatVersion</key>
+    <integer>3</integer>
+    <key>com.schriftgestaltung.useGlyphOrder</key>
+    <false/>
+    <key>com.schriftgestaltung.useNiceNames</key>
+    <false/>
+    <key>public.glyphOrder</key>
+    <array>
+      <string>circle</string>
+      <string>square</string>
+      <string>stripe</string>
+      <string>zigzag</string>
+    </array>
+  </dict>
+</plist>

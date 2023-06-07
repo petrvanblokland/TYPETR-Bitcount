@@ -51,6 +51,9 @@ DESIGNSPACE_TEMPLATE_PATH = 'Bitcount_Template.designspace'
 #VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
 VARIATION_PIXELS = 'Bitcount-VariationPixelsQ.ufo' # QUadratic curves in pixels
 
+# Source UFO that contains all colour layer "elements"
+LAYER_ELEMENTS = 'Bitcount-LayerElements.ufo'
+
 # Source masters in ufo/, used to copy into _masters/ with replaced pixel shape.
 GRID_DOUBLE = f'{BITCOUNT}_{GRID}_{DOUBLE}.ufo'
 GRID_DOUBLE_ITALIC = 'Bitcount_Grid_Double_Italic.ufo'
