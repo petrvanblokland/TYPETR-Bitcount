@@ -241,7 +241,6 @@ layer1_canvas = PaintTranslate(
 # Same deal for layer 2
 layer2 = PaintColrLayers(
     [
-        # PaintSolid("#003300FF"),
         PaintTranslate(-150, 100, vstripes),
         PaintTranslate(-50, 100, balls),
         PaintTranslate(50, 100, zigzag_right),
@@ -333,7 +332,7 @@ def pixelPositions(f, gName):
 # OK, we are finally ready to create the paint trees for each glyph.
 # We do this by adding an entry into the "glyphs" dictionary mapping
 # the glyph name to the paint tree.
-for glyphName in ["canvas", "a", "b", "c"]:
+for glyphName in font.getGlyphOrder():
     if glyphName == "canvas":
         glyphs[glyphName] = buildPixelGlyph(
             "_canvas",
