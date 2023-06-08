@@ -19,6 +19,7 @@ pip install defcon
 pip install fontbakery
 pip install fontmake
 pip install fontparts
+pip install paintcompiler
 pip install statmake
 pip install ttfautohint-py
 pip install brotli

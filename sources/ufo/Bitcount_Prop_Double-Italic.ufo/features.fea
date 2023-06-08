@@ -163,6 +163,10 @@ feature numr {
 feature liga {
     sub f i by fi;
     sub f l by fl;
+} liga;
+
+feature calt {
+    sub slash c a n v a s by canvas;
     sub slash h e a r t by heart;
     sub slash o p e n h e a r t by openheart;
     sub slash T y p e t r by typetr;
@@ -173,7 +177,7 @@ feature liga {
     sub slash m a t r i x six eight by matrix68;
     sub slash m a t r i x six one zero by matrix610;
     sub slash m a t r i x six one two by matrix612;
-} liga;
+} calt;
              
 feature ss01 {
     featureNames {
