@@ -11745,6 +11745,8 @@
       <string>openheart</string>
       <string>.notdef</string>
       <string>canvas</string>
+      <string>matrix610</string>
+      <string>matrix612</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

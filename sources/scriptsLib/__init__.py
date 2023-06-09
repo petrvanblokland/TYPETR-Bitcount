@@ -96,7 +96,7 @@ DESIGN_SPACES= {}
 for variant in VARIANTS:
     for stem in STEMS:
         # Name of the design space to generate
-        dsName = f'{BITCOUNT}_{variant}_{stem}{AXISCOUNT}-COLRv1.designspace'
+        dsName = f'{BITCOUNT}_{variant}_{stem}{AXISCOUNT}.designspace'
         # Master UFO to be used as source for all different pixel masters
         masterName = f'{BITCOUNT}_{variant}_{stem}.ufo'
         # Same for italic (slanted) master

@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict/>
+  <dict>
+    <key>matrix610</key>
+    <string>matrix610.glif</string>
+    <key>matrix612</key>
+    <string>matrix612.glif</string>
+  </dict>
 </plist>

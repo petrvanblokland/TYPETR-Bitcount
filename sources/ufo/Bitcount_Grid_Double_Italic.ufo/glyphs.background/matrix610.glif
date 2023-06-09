@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="matrix610" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="pixel" xOffset="125.26123167155492" yOffset="250.4478592375367"/>
+    <component base="pixel" xOffset="249.86099706744972" yOffset="250.4478592375367"/>
+    <component base="pixel" xOffset="375.32756598240576" yOffset="250.4478592375367"/>
+    <component base="pixel" xOffset="500.4630498533734" yOffset="250.4478592375367"/>
+    <component base="pixel" xOffset="-0.43231671554167406" yOffset="250.4478592375367"/>
+    <component base="pixel" xOffset="125.26123167155492" yOffset="124.83847507331393"/>
+    <component base="pixel" xOffset="249.86099706744972" yOffset="124.83847507331393"/>
+    <component base="pixel" xOffset="375.32756598240576" yOffset="124.83847507331393"/>
+    <component base="pixel" xOffset="-0.43231671554167406" yOffset="124.83847507331393"/>
+    <component base="pixel" xOffset="125.26123167155492" yOffset="0.16868035190600494"/>
+    <component base="pixel" xOffset="249.86099706744972" yOffset="0.16868035190600494"/>
+    <component base="pixel" xOffset="375.32756598240576" yOffset="0.16868035190600494"/>
+    <component base="pixel" xOffset="500.4630498533734" yOffset="0.16868035190600494"/>
+    <component base="pixel" xOffset="-0.43231671554167406" yOffset="0.16868035190600494"/>
+    <component base="pixel" xOffset="125.26123167155492" yOffset="375.1402346041057"/>
+    <component base="pixel" xOffset="249.86099706744972" yOffset="375.1402346041057"/>
+    <component base="pixel" xOffset="375.32756598240576" yOffset="375.1402346041057"/>
+    <component base="pixel" xOffset="500.4630498533734" yOffset="375.1402346041057"/>
+    <component base="pixel" xOffset="-0.43231671554167406" yOffset="375.1402346041057"/>
+    <component base="pixel" xOffset="125.26123167155492" yOffset="500.17513196480945"/>
+    <component base="pixel" xOffset="249.86099706744972" yOffset="500.17513196480945"/>
+    <component base="pixel" xOffset="375.32756598240576" yOffset="500.17513196480945"/>
+    <component base="pixel" xOffset="500.4630498533734" yOffset="500.17513196480945"/>
+    <component base="pixel" xOffset="-0.43231671554167406" yOffset="500.17513196480945"/>
+    <component base="pixel" xOffset="125.26123167155492" yOffset="625.3936070381233"/>
+    <component base="pixel" xOffset="249.86099706744972" yOffset="625.3936070381233"/>
+    <component base="pixel" xOffset="375.32756598240576" yOffset="625.3936070381233"/>
+    <component base="pixel" xOffset="500.4630498533734" yOffset="625.3936070381233"/>
+    <component base="pixel" xOffset="-0.43231671554167406" yOffset="625.3936070381233"/>
+    <component base="pixel" xOffset="125.26123167155492" yOffset="-124.91929618768313"/>
+    <component base="pixel" xOffset="249.86099706744972" yOffset="-124.91929618768313"/>
+    <component base="pixel" xOffset="375.32756598240576" yOffset="-124.91929618768313"/>
+    <component base="pixel" xOffset="500.4630498533734" yOffset="-124.91929618768313"/>
+    <component base="pixel" xOffset="-0.43231671554167406" yOffset="-124.91929618768313"/>
+    <component base="pixel" xOffset="500.4630498533734" yOffset="125.37337243401771"/>
+  </outline>
+</glyph>
