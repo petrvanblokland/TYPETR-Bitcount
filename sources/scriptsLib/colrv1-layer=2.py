@@ -136,9 +136,6 @@ circle1 = PaintGlyph(
 circle2 = PaintGlyph(
     "el_circle", PaintRadialGradient((0, 0), 1, (0, 0), 8*G, COLOR_STOPS2)
 )
-circle3 = PaintGlyph(
-    "el_circle", PaintRadialGradient((0, 0), 1, (0, 0), 8*G, COLOR_STOPS2)
-)
 
 
 linear_box = PaintGlyph(
@@ -203,7 +200,8 @@ vstripes = PaintRotate(
     center=(G/2, G/2),
 )
 
-# Now we make the layers, by transforming those elements into place in a grid
+# Now we make the layers, by transforming those elements into place in a
+# grid
 layer1 = PaintColrLayers(
     [
         PaintTranslate(-G, G, circle1),
@@ -225,7 +223,6 @@ scale_factor1 = {
     (("LR1S", SDEF),): 1.0, 
     (("LR1S", SMAX),): 5,
 }
-# Position of the pixels in normal glyphs
 x_pixel1 = {
     (("LR1X", LMIN),): - 2 * G,
     (("LR1X", LDEF),): 0,
@@ -236,7 +233,6 @@ y_pixel1 = {
     (("LR1Y", LDEF),): 0,
     (("LR1Y", LMAX),): 2 * G,
 }
-# Position of the pixels in the /canvas glyph
 x_canvas1 = {
     (("LR1X", LMIN),): 500 - P/2 - 2 * G,
     (("LR1X", LDEF),): 500 - P/2,
@@ -248,6 +244,13 @@ y_canvas1 = {
     (("LR1Y", LMAX),): P + 2 * G,
 }
 
+#layer1_pixel = PaintTransform(
+#    (scale_factor1, 0, 0, scale_factor1, 0, 0), PaintTranslate(x_pixel1, y_pixel1, layer1)
+#)
+#layer1_canvas = PaintTransform(
+#    (scale_factor1, 0, 0, scale_factor1, 0, 0), PaintTranslate(x_canvas1, y_canvas1, layer1)
+#    #x_canvas1, y_canvas1, PaintTransform((scale_factor1, 0, 0, scale_factor1, 0, 0), layer1)
+#)
 layer1_pixel = PaintTranslate(
     x_pixel1, y_pixel1, PaintTransform((scale_factor1, 0, 0, scale_factor1, 0, 0), layer1)
 )
@@ -281,7 +284,6 @@ scale_factor2 = {
     (("LR2S", SDEF),): 1.0, 
     (("LR2S", SMAX),): 5,
 }
-# Position of the pixels in normal glyphs
 x_pixel2 = {
     (("LR2X", LMIN),): -2 * G,
     (("LR2X", LDEF),): 0,
@@ -292,7 +294,6 @@ y_pixel2 = {
     (("LR2Y", LDEF),): 0,
     (("LR2Y", LMAX),): 2 * G,
 }
-# Position of the pixels in the /canvas glyph
 x_canvas2 = {
     (("LR2X", LMIN),): 500 - P/2 - 2 * G,
     (("LR2X", LDEF),): 500 - P/2,
@@ -304,58 +305,18 @@ y_canvas2 = {
     (("LR2Y", LMAX),): P + 2 * G
 }
 
+#layer2_pixel = PaintTransform(
+#    (scale_factor2, 0, 0, scale_factor2, 0, 0), PaintTranslate(x_pixel2, y_pixel2, layer2)
+#)
+#layer2_canvas = PaintTransform(
+#    (scale_factor2, 0, 0, scale_factor2, 0, 0), PaintTranslate(x_canvas2, y_canvas2, layer2)
+#    #x_canvas2, y_canvas2, PaintTransform((scale_factor2, 0, 0, scale_factor2, 0, 0), layer2)
+#)
 layer2_pixel = PaintTranslate(
     x_pixel2, y_pixel2, PaintTransform((scale_factor2, 0, 0, scale_factor2, 0, 0), layer2)
 )
 layer2_canvas = PaintTranslate(
     x_canvas2, y_canvas2, PaintTransform((scale_factor2, 0, 0, scale_factor2, 0, 0), layer2)
-)
-
-# Same deal for layer 3
-layer3 = PaintColrLayers(
-    [
-        PaintTranslate(-G, G, circle3),
-        PaintTranslate(0, G, circle3),
-        PaintTranslate(G, G, circle3),
-        PaintTranslate(-G, 0, circle3),
-        PaintTranslate(0, 0, circle3),
-        PaintTranslate(G, 0, circle3),
-        PaintTranslate(-G, -G, circle3),
-        PaintTranslate(0, -G, circle3),
-        PaintTranslate(G, -G, circle3),
-    ]
-)
-scale_factor3 = {
-    (("LR3S", SMIN),): 0.1, 
-    (("LR3S", SDEF),): 1.0, 
-    (("LR3S", SMAX),): 5,
-}
-x_pixel3 = {
-    (("LR3X", LMIN),): -2 * G,
-    (("LR3X", LDEF),): 0,
-    (("LR3X", LMAX),): 2 * G,
-}
-y_pixel3 = {
-    (("LR3Y", LMIN),): -2 * G,
-    (("LR3Y", LDEF),): 0,
-    (("LR3Y", LMAX),): 2 * G,
-}
-x_canvas3 = {
-    (("LR3X", LMIN),): 500 - P/2 - 2 * G,
-    (("LR3X", LDEF),): 500 - P/2,
-    (("LR3X", LMAX),): 500 - P/2 + 2 * G,
-}
-y_canvas3 = {
-    (("LR3Y", LMIN),): P - 2 * G,
-    (("LR3Y", LDEF),): P,
-    (("LR3Y", LMAX),): P + 2 * G
-}
-
-layer3_pixel = PaintTranslate(
-    x_pixel3, y_pixel3, PaintTransform((scale_factor3, 0, 0, scale_factor3, 0, 0), layer3)
-)
-layer3_canvas = PaintTranslate(
-    x_canvas3, y_canvas3, PaintTransform((scale_factor3, 0, 0, scale_factor3, 0, 0), layer3)
 )
 
 ##
@@ -368,12 +329,11 @@ layer3_canvas = PaintTranslate(
 # later, depending on how things look when we have the layers working
 # correctly. So this function returns a paint tree with a PaintColrLayers
 # operation, containing two layers for each pixel.
-def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2, layer3):
+def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2):
     layers = []
     for x, y in pixelPositions:
         layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer1)))
         layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer2)))
-        layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer3)))
     return PaintColrLayers(layers)
 
 
@@ -413,7 +373,6 @@ for glyphName in font.getGlyphOrder():
             pixelPositions(font, glyphName),
             layer1_canvas,
             layer2_canvas,
-            layer3_canvas,
         )
     else:
         glyphs[glyphName] = buildPixelGlyph(
@@ -421,7 +380,6 @@ for glyphName in font.getGlyphOrder():
             pixelPositions(font, glyphName),
             layer1_pixel,
             layer2_pixel,
-            layer3_pixel,
         )
 
 # We have a problem; we have added six new axes to the font at this point,

@@ -216,6 +216,17 @@ def makeDesignSpaceFile(dsName, dsParams):
     axisParams['LR2YDef'] = LDEF
     axisParams['LR2YMax'] = LMAX
 
+    # COLRv1 layer #3 axis values   
+    axisParams['LR3SMin'] = SMIN # Scale
+    axisParams['LR3SDef'] = SDEF
+    axisParams['LR3SMax'] = SMAX
+    axisParams['LR3XMin'] = LMIN # Horizontal position
+    axisParams['LR3XDef'] = LDEF
+    axisParams['LR3XMax'] = LMAX
+    axisParams['LR3YMin'] = LMIN # Vertical position
+    axisParams['LR3YDef'] = LDEF
+    axisParams['LR3YMax'] = LMAX
+
     # Layer axes are independent from main Bitcount shape axes
     for wght in (WGHT_MIN, WGHT_DEF, WGHT_MAX):
         # minValue is the same as default
@@ -261,6 +272,9 @@ def addCOLRv1toVF(vfPath):
            f'--add-axis LR2X:{LMIN}:{LDEF}:{LMAX}:Layer2-X '
            f'--add-axis LR2Y:{LMIN}:{LDEF}:{LMAX}:Layer2-Y '
            f'--add-axis LR2S:{SMIN}:{SDEF}:{SMAX}:Layer2-Scale '
+           f'--add-axis LR3X:{LMIN}:{LDEF}:{LMAX}:Layer3-X '
+           f'--add-axis LR3Y:{LMIN}:{LDEF}:{LMAX}:Layer3-Y '
+           f'--add-axis LR3S:{SMIN}:{SDEF}:{SMAX}:Layer3-Scale '
            '--paints scriptsLib/colrv1.py '+vfPath)
     print(cmd)
     os.system(cmd)

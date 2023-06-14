@@ -30,6 +30,9 @@ DS = f"""<?xml version='1.0' encoding='utf-8'?>
         <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer2-Scale" tag="LR2S"/>
         <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-X" tag="LR2X"/>
         <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-Y" tag="LR2Y"/>
+        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer3-Scale" tag="LR3S"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer3-X" tag="LR3X"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer3-Y" tag="LR3Y"/>
     </axes>
     <sources>
 
@@ -48,13 +51,16 @@ SRC = """
             <dimension name="Layer2-Scale" xvalue="%(s2)d"/>
             <dimension name="Layer2-X" xvalue="%(x2)d"/>
             <dimension name="Layer2-Y" xvalue="%(y2)d"/>
+            <dimension name="Layer3-Scale" xvalue="%(s3)d"/>
+            <dimension name="Layer3-X" xvalue="%(x3)d"/>
+            <dimension name="Layer3-Y" xvalue="%(y3)d"/>
         </location>
         %(info)s
     </source>
 """
 
 
-def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2):
+def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2, layer3):
     layers = []
     for x, y in pixelPositions:
         # Three nested Paints:

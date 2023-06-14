@@ -49,7 +49,7 @@ for dsName, dsParams in DESIGN_SPACES.items():
         'Bitcount_Prop_Single4.designspace',
         'Bitcount_Prop_Double4.designspace',
     ]:
-        print('AAAAAA')
+        print('### Skipping design space', dsName)
         continue
 
     if COPY_MASTERS:
@@ -71,6 +71,7 @@ for dsName, dsParams in DESIGN_SPACES.items():
         print('... Add COLRv1 to', vfPath)
         addCOLRv1toVF(vfPath)
         
+        # Ignore the STAT for now
         continue
 
         if USE_PRODUCTION_NAMES:
