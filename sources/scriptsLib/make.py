@@ -207,7 +207,7 @@ def makeDesignSpaceFile(dsName, dsParams):
 
     # COLRv1 layer #2 axis values   
     axisParams['LR2SMin'] = SMIN # Scale
-    axisParams['LR2SDef'] = SDEF
+    axisParams['LR2SDef'] = SMIN # Layer #2 is not visible by default.
     axisParams['LR2SMax'] = SMAX
     axisParams['LR2XMin'] = LMIN # Horizontal position
     axisParams['LR2XDef'] = LDEF
@@ -217,15 +217,15 @@ def makeDesignSpaceFile(dsName, dsParams):
     axisParams['LR2YMax'] = LMAX
 
     # COLRv1 layer #3 axis values   
-    axisParams['LR3SMin'] = SMIN # Scale
-    axisParams['LR3SDef'] = SDEF
-    axisParams['LR3SMax'] = SMAX
-    axisParams['LR3XMin'] = LMIN # Horizontal position
-    axisParams['LR3XDef'] = LDEF
-    axisParams['LR3XMax'] = LMAX
-    axisParams['LR3YMin'] = LMIN # Vertical position
-    axisParams['LR3YDef'] = LDEF
-    axisParams['LR3YMax'] = LMAX
+    #axisParams['LR3SMin'] = SMIN # Scale
+    #axisParams['LR3SDef'] = SMIN # Layer #3 is not visible by default.
+    #axisParams['LR3SMax'] = SMAX
+    #axisParams['LR3XMin'] = LMIN # Horizontal position
+    #axisParams['LR3XDef'] = LDEF
+    #axisParams['LR3XMax'] = LMAX
+    #axisParams['LR3YMin'] = LMIN # Vertical position
+    #axisParams['LR3YDef'] = LDEF
+    #axisParams['LR3YMax'] = LMAX
 
     # Layer axes are independent from main Bitcount shape axes
     for wght in (WGHT_MIN, WGHT_DEF, WGHT_MAX):
@@ -266,15 +266,17 @@ def addCOLRv1toVF(vfPath):
     dstPath = vfPath.replace('.ttf', '_COLRv1.ttf')
     print('--- Adding COLORv1 pixels to', dstPath)
     cmd = (f'paintcompiler -o {dstPath} '
+           f'--add-axis LR1S:{SMIN}:{SDEF}:{SMAX}:Layer1-Scale '
            f'--add-axis LR1X:{LMIN}:{LDEF}:{LMAX}:Layer1-X '
            f'--add-axis LR1Y:{LMIN}:{LDEF}:{LMAX}:Layer1-Y '
-           f'--add-axis LR1S:{SMIN}:{SDEF}:{SMAX}:Layer1-Scale '
+           f'--add-axis LR2S:{SMIN}:{SDEF}:{SMAX}:Layer2-Scale '
            f'--add-axis LR2X:{LMIN}:{LDEF}:{LMAX}:Layer2-X '
            f'--add-axis LR2Y:{LMIN}:{LDEF}:{LMAX}:Layer2-Y '
-           f'--add-axis LR2S:{SMIN}:{SDEF}:{SMAX}:Layer2-Scale '
-           f'--add-axis LR3X:{LMIN}:{LDEF}:{LMAX}:Layer3-X '
-           f'--add-axis LR3Y:{LMIN}:{LDEF}:{LMAX}:Layer3-Y '
-           f'--add-axis LR3S:{SMIN}:{SDEF}:{SMAX}:Layer3-Scale '
+           # 3 layers gets too slow in t FontGoggles to select something
+           # So we better can stay with 2 layers. That's still a lot to choose from.
+           #f'--add-axis LR3S:{SMIN}:{SDEF}:{SMAX}:Layer3-Scale '
+           #f'--add-axis LR3X:{LMIN}:{LDEF}:{LMAX}:Layer3-X '
+           #f'--add-axis LR3Y:{LMIN}:{LDEF}:{LMAX}:Layer3-Y '
            '--paints scriptsLib/colrv1.py '+vfPath)
     print(cmd)
     os.system(cmd)

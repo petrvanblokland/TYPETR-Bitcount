@@ -7,7 +7,7 @@ sys.path.append(".")
 from scriptsLib import SMIN, SDEF, SMAX, LDEF, LMIN, LMAX
 
 P = 100
-G = 2*P # Layer grid size
+G = 5*P # Layer grid size
 LS = 1 # Layer scaling of elements
 
 ###
@@ -35,10 +35,12 @@ COLORS = [
 
 # Define our two colour lines for the radial gradient.
 # Colour line one is just all the colours spaced out linearly.
-COLOR_STOPS1 = ColorLine({ix / len(COLORS): stop for ix, stop in enumerate(COLORS)})
+COLOR_LINE1 = {ix / len(COLORS): stop for ix, stop in enumerate(COLORS)}
+COLOR_STOPS1 = ColorLine(COLOR_LINE1)
 
 # Colour line two is white plus all the colours in reverse.
 COLORS2 = [COLORS[0]] + COLORS[-1:0:-1]
+COLOR_LINE2 = {ix / len(COLORS): stop for ix, stop in enumerate(COLORS2)}
 COLOR_STOPS2 = ColorLine({ix / len(COLORS2): stop for ix, stop in enumerate(COLORS2)})
 
 
@@ -131,22 +133,25 @@ zigzag_down = PaintRotate(
 )
 
 circle1 = PaintGlyph(
-    "el_circle", PaintRadialGradient((0, 0), 1, (0, 0), 8*G, COLOR_STOPS1)
+    "el_circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)
 )
 circle2 = PaintGlyph(
-    "el_circle", PaintRadialGradient((0, 0), 1, (0, 0), 8*G, COLOR_STOPS2)
+    "el_circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS2)
 )
-circle3 = PaintGlyph(
-    "el_circle", PaintRadialGradient((0, 0), 1, (0, 0), 8*G, COLOR_STOPS2)
-)
+#circle3 = PaintGlyph(
+#    "el_circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS2)
+#)
 
 
-linear_box = PaintGlyph(
-    "el_square", PaintLinearGradient((0, 0), (G, G), (4*G, 4*G), COLOR_STOPS1)
+linear_box1 = PaintGlyph(
+    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/2, COLOR_STOPS1)
 )
 linear_box2 = PaintGlyph(
-    "el_square", PaintLinearGradient((0, 0), (G, G), (4*G, 4*G), COLOR_STOPS2)
+    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/2, COLOR_STOPS1)
 )
+#linear_box3 = PaintGlyph(
+    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/3, COLOR_STOPS1)
+#)
 
 concentric_boxes = PaintColrLayers(
     [
@@ -206,9 +211,9 @@ vstripes = PaintRotate(
 # Now we make the layers, by transforming those elements into place in a grid
 layer1 = PaintColrLayers(
     [
-        PaintTranslate(-G, G, circle1),
-        PaintTranslate(0, G, circle1),
-        PaintTranslate(G, G, circle1),
+        PaintTranslate(-G, G, linear_box1),
+        PaintTranslate(0, G, linear_box1),
+        PaintTranslate(G, G, linear_box1),
         PaintTranslate(-G, 0, circle1),
         PaintTranslate(0, 0, circle1),
         PaintTranslate(G, 0, circle1),
@@ -221,9 +226,9 @@ layer1 = PaintColrLayers(
 # The layer now gets shifted and scaled based on the value of the
 # LR1X/LR1Y/LR1S coords
 scale_factor1 = {
-    (("LR1S", SMIN),): 0.1, 
+    (("LR1S", SMIN),): 0, 
     (("LR1S", SDEF),): 1.0, 
-    (("LR1S", SMAX),): 5,
+    (("LR1S", SMAX),): 20,
 }
 # Position of the pixels in normal glyphs
 x_pixel1 = {
@@ -265,9 +270,9 @@ layer2 = PaintColrLayers(
         #PaintTranslate(-G, 0, linear_box2),
         #PaintTranslate(5G 0, concentric_boxes2),
 
-        PaintTranslate(-G, G, circle2),
-        PaintTranslate(0, G, circle2),
-        PaintTranslate(G, G, circle2),
+        PaintTranslate(-G, G, linear_box2),
+        PaintTranslate(0, G, linear_box2),
+        PaintTranslate(G, G, linear_box2),
         PaintTranslate(-G, 0, circle2),
         PaintTranslate(0, 0, circle2),
         PaintTranslate(G, 0, circle2),
@@ -277,9 +282,9 @@ layer2 = PaintColrLayers(
     ]
 )
 scale_factor2 = {
-    (("LR2S", SMIN),): 0.1, 
-    (("LR2S", SDEF),): 1.0, 
-    (("LR2S", SMAX),): 5,
+    (("LR2S", SMIN),): 0, 
+    (("LR2S", SDEF),): 0, # By default layer #2 and layer #3 are not visible
+    (("LR2S", SMAX),): 20,
 }
 # Position of the pixels in normal glyphs
 x_pixel2 = {
@@ -311,52 +316,53 @@ layer2_canvas = PaintTranslate(
     x_canvas2, y_canvas2, PaintTransform((scale_factor2, 0, 0, scale_factor2, 0, 0), layer2)
 )
 
-# Same deal for layer 3
-layer3 = PaintColrLayers(
-    [
-        PaintTranslate(-G, G, circle3),
-        PaintTranslate(0, G, circle3),
-        PaintTranslate(G, G, circle3),
-        PaintTranslate(-G, 0, circle3),
-        PaintTranslate(0, 0, circle3),
-        PaintTranslate(G, 0, circle3),
-        PaintTranslate(-G, -G, circle3),
-        PaintTranslate(0, -G, circle3),
-        PaintTranslate(G, -G, circle3),
-    ]
-)
-scale_factor3 = {
-    (("LR3S", SMIN),): 0.1, 
-    (("LR3S", SDEF),): 1.0, 
-    (("LR3S", SMAX),): 5,
-}
-x_pixel3 = {
-    (("LR3X", LMIN),): -2 * G,
-    (("LR3X", LDEF),): 0,
-    (("LR3X", LMAX),): 2 * G,
-}
-y_pixel3 = {
-    (("LR3Y", LMIN),): -2 * G,
-    (("LR3Y", LDEF),): 0,
-    (("LR3Y", LMAX),): 2 * G,
-}
-x_canvas3 = {
-    (("LR3X", LMIN),): 500 - P/2 - 2 * G,
-    (("LR3X", LDEF),): 500 - P/2,
-    (("LR3X", LMAX),): 500 - P/2 + 2 * G,
-}
-y_canvas3 = {
-    (("LR3Y", LMIN),): P - 2 * G,
-    (("LR3Y", LDEF),): P,
-    (("LR3Y", LMAX),): P + 2 * G
-}
+if 0:
+    # Same deal for layer 3
+    layer3 = PaintColrLayers(
+        [
+            PaintTranslate(-G, G, linear_box3),
+            PaintTranslate(0, G, linear_box3),
+            PaintTranslate(G, G, linear_box3),
+            PaintTranslate(-G, 0, circle3),
+            PaintTranslate(0, 0, circle3),
+            PaintTranslate(G, 0, circle3),
+            PaintTranslate(-G, -G, circle3),
+            PaintTranslate(0, -G, circle3),
+            PaintTranslate(G, -G, circle3),
+        ]
+    )
+    scale_factor3 = {
+        (("LR3S", SMIN),): 0, 
+        (("LR3S", SDEF),): 0, # By default layer #2 and layer #3 are not visible
+        (("LR3S", SMAX),): 20,
+    }
+    x_pixel3 = {
+        (("LR3X", LMIN),): -2 * G,
+        (("LR3X", LDEF),): 0,
+        (("LR3X", LMAX),): 2 * G,
+    }
+    y_pixel3 = {
+        (("LR3Y", LMIN),): -2 * G,
+        (("LR3Y", LDEF),): 0,
+        (("LR3Y", LMAX),): 2 * G,
+    }
+    x_canvas3 = {
+        (("LR3X", LMIN),): 500 - P/2 - 2 * G,
+        (("LR3X", LDEF),): 500 - P/2,
+        (("LR3X", LMAX),): 500 - P/2 + 2 * G,
+    }
+    y_canvas3 = {
+        (("LR3Y", LMIN),): P - 2 * G,
+        (("LR3Y", LDEF),): P,
+        (("LR3Y", LMAX),): P + 2 * G
+    }
 
-layer3_pixel = PaintTranslate(
-    x_pixel3, y_pixel3, PaintTransform((scale_factor3, 0, 0, scale_factor3, 0, 0), layer3)
-)
-layer3_canvas = PaintTranslate(
-    x_canvas3, y_canvas3, PaintTransform((scale_factor3, 0, 0, scale_factor3, 0, 0), layer3)
-)
+    layer3_pixel = PaintTranslate(
+        x_pixel3, y_pixel3, PaintTransform((scale_factor3, 0, 0, scale_factor3, 0, 0), layer3)
+    )
+    layer3_canvas = PaintTranslate(
+        x_canvas3, y_canvas3, PaintTransform((scale_factor3, 0, 0, scale_factor3, 0, 0), layer3)
+    )
 
 ##
 # Applying the pixels
@@ -368,12 +374,14 @@ layer3_canvas = PaintTranslate(
 # later, depending on how things look when we have the layers working
 # correctly. So this function returns a paint tree with a PaintColrLayers
 # operation, containing two layers for each pixel.
-def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2, layer3):
+def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2): #, layer3):
     layers = []
     for x, y in pixelPositions:
         layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer1)))
         layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer2)))
-        layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer3)))
+        # 3 layers gets too slow in t FontGoggles to select something
+        # So we better can stay with 2 layers. That's still a lot to choose from.
+        #layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer3)))
     return PaintColrLayers(layers)
 
 
@@ -413,7 +421,9 @@ for glyphName in font.getGlyphOrder():
             pixelPositions(font, glyphName),
             layer1_canvas,
             layer2_canvas,
-            layer3_canvas,
+            # 3 layers gets too slow in t FontGoggles to select something
+            # So we better can stay with 2 layers. That's still a lot to choose from.
+            #layer3_canvas,
         )
     else:
         glyphs[glyphName] = buildPixelGlyph(
@@ -421,7 +431,9 @@ for glyphName in font.getGlyphOrder():
             pixelPositions(font, glyphName),
             layer1_pixel,
             layer2_pixel,
-            layer3_pixel,
+            # 3 layers gets too slow in t FontGoggles to select something
+            # So we better can stay with 2 layers. That's still a lot to choose from.
+            #layer3_pixel,
         )
 
 # We have a problem; we have added six new axes to the font at this point,

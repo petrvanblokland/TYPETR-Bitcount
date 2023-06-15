@@ -4,8 +4,12 @@
   <dict>
     <key>circle</key>
     <string>circle.glif</string>
+    <key>circle_large</key>
+    <string>circle_large.glif</string>
     <key>square</key>
     <string>square.glif</string>
+    <key>square_large</key>
+    <string>square_large.glif</string>
     <key>stripe</key>
     <string>stripe.glif</string>
     <key>zigzag</key>
