@@ -144,13 +144,13 @@ circle2 = PaintGlyph(
 
 
 linear_box1 = PaintGlyph(
-    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/2, COLOR_STOPS1)
+    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), (G/2, G/2), COLOR_STOPS1)
 )
 linear_box2 = PaintGlyph(
-    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/2, COLOR_STOPS1)
+    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), (G/2, G/2), COLOR_STOPS2)
 )
 #linear_box3 = PaintGlyph(
-    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/3, COLOR_STOPS1)
+#    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/3, COLOR_STOPS1)
 #)
 
 concentric_boxes = PaintColrLayers(
@@ -227,7 +227,7 @@ layer1 = PaintColrLayers(
 # LR1X/LR1Y/LR1S coords
 scale_factor1 = {
     (("LR1S", SMIN),): 0, 
-    (("LR1S", SDEF),): 1.0, 
+    (("LR1S", SDEF),): 1, 
     (("LR1S", SMAX),): 20,
 }
 # Position of the pixels in normal glyphs
@@ -283,7 +283,7 @@ layer2 = PaintColrLayers(
 )
 scale_factor2 = {
     (("LR2S", SMIN),): 0, 
-    (("LR2S", SDEF),): 0, # By default layer #2 and layer #3 are not visible
+    (("LR2S", SDEF),): 1, 
     (("LR2S", SMAX),): 20,
 }
 # Position of the pixels in normal glyphs
