@@ -4,7 +4,11 @@
 	<axes>
         <!-- Main pixel shape axes, final names to be defined -->
 		<axis minimum="100" default="400" maximum="900" name="Weight" tag="wght"/>
-		<axis minimum="0" default="0" maximum="1000" name="Open" tag="OPEN"/>
+		<axis minimum="0" default="0" maximum="1000" name="Open" tag="OPEN">
+			<!-- OPEN distance should not be linear. Most usage and control in small OPEN values. -->
+            <map input="125" output="500" />    
+            <map input="500" output="875" /> 
+		</axis>
 		<axis minimum="0" default="0" maximum="1000" name="Shape" tag="SHPE"/>
 		<axis minimum="0" default="0" maximum="1000" name="Slanted" tag="slnt"/>
 	</axes>
