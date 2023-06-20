@@ -78,7 +78,7 @@ REGULAR = 400 # Pixel size: 100
 BLACK = 900 # Pixel size: 200
 
 SMIN = 0 
-SDEF = 500
+SDEF = 300
 SMAX = 1000
 LMIN = -200 # Position of the COLRv1 layers
 LDEF = 0

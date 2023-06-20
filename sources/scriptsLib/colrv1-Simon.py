@@ -208,27 +208,27 @@ layer1 = PaintColrLayers(
 )
 
 # The layer now gets shifted and scaled based on the value of the
-# LR1X/LR1Y/LR1S coords
-scale_factor = {(("LR1S", SMIN),): 0.2, (("LR1S", SDEF),): 1.0, (("LR1S", SMAX),): 1.99}
+# BG-X/BG-Y/BG-S coords
+scale_factor = {(("BG-S", SMIN),): 0.2, (("BG-S", SDEF),): 1.0, (("BG-S", SMAX),): 1.99}
 x_pixel = {
-    (("LR1X", LMIN),): 200 + 50,
-    (("LR1X", LDEF),): 50,
-    (("LR1X", LMAX),): -200 + 50,
+    (("BG-X", LMIN),): 200 + 50,
+    (("BG-X", LDEF),): 50,
+    (("BG-X", LMAX),): -200 + 50,
 }
 y_pixel = {
-    (("LR1Y", LMIN),): 100,
-    (("LR1X", LDEF),): 0,
-    (("LR1Y", LMAX),): -200,
+    (("BG-Y", LMIN),): 100,
+    (("BG-X", LDEF),): 0,
+    (("BG-Y", LMAX),): -200,
 }
 x_canvas = {
-    (("LR1X", LMIN),): 200 + 480,
-    (("LR1X", LDEF),): 50 + 480,
-    (("LR1X", LMAX),): -200 + 480,
+    (("BG-X", LMIN),): 200 + 480,
+    (("BG-X", LDEF),): 50 + 480,
+    (("BG-X", LMAX),): -200 + 480,
 }
 y_canvas = {
-    (("LR1Y", LMIN),): 100 + 100,
-    (("LR1X", LDEF),): 0 + 100,
-    (("LR1Y", LMAX),): -200 + 100,
+    (("BG-Y", LMIN),): 100 + 100,
+    (("BG-X", LDEF),): 0 + 100,
+    (("BG-Y", LMAX),): -200 + 100,
 }
 
 layer1_pixel = PaintTransform(
@@ -250,29 +250,29 @@ layer2 = PaintColrLayers(
     ]
 )
 scale_factor2 = {
-    (("LR2S", SMIN),): 0.2,
-    (("LR2S", SDEF),): 1.0,
-    (("LR2S", SMAX),): 1.99,
+    (("FG-S", SMIN),): 0.2,
+    (("FG-S", SDEF),): 1.0,
+    (("FG-S", SMAX),): 1.99,
 }
 x_pixel2 = {
-    (("LR2X", LMIN),): 200 + 50,
-    (("LR2X", LDEF),): 50,
-    (("LR2X", LMAX),): -200 + 50,
+    (("FG-X", LMIN),): 200 + 50,
+    (("FG-X", LDEF),): 50,
+    (("FG-X", LMAX),): -200 + 50,
 }
 y_pixel2 = {
-    (("LR2Y", LMIN),): 100,
-    (("LR2X", LDEF),): 0,
-    (("LR2Y", LMAX),): -200,
+    (("FG-Y", LMIN),): 100,
+    (("FG-X", LDEF),): 0,
+    (("FG-Y", LMAX),): -200,
 }
 x_canvas2 = {
-    (("LR2X", LMIN),): 200 + 480,
-    (("LR2X", LDEF),): 50 + 480,
-    (("LR2X", LMAX),): -200 + 480,
+    (("FG-X", LMIN),): 200 + 480,
+    (("FG-X", LDEF),): 50 + 480,
+    (("FG-X", LMAX),): -200 + 480,
 }
 y_canvas2 = {
-    (("LR2Y", LMIN),): 100 + 100,
-    (("LR2X", LDEF),): 0 + 100,
-    (("LR2Y", LMAX),): -200 + 100,
+    (("FG-Y", LMIN),): 100 + 100,
+    (("FG-X", LDEF),): 0 + 100,
+    (("FG-Y", LMAX),): -200 + 100,
 }
 
 layer2_pixel = PaintTransform(

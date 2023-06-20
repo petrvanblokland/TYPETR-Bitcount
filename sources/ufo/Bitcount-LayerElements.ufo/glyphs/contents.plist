@@ -14,6 +14,8 @@
     <string>square.glif</string>
     <key>square_large</key>
     <string>square_large.glif</string>
+    <key>squares</key>
+    <string>squares.glif</string>
     <key>vstripe</key>
     <string>vstripe.glif</string>
     <key>vzigzag</key>

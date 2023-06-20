@@ -15,7 +15,7 @@ from fontTools.colorLib.builder import buildCOLR
 from fontTools.colorLib.builder import buildCPAL
 
 SMIN = 0
-SDEF = 500
+SDEF = 300
 SMAX = 1000
 LMIN = -500
 LDEF = 0
@@ -24,12 +24,12 @@ LMAX = 500
 DS = f"""<?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer1-Scale" tag="LR1S"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-X" tag="LR1X"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-Y" tag="LR1Y"/>
-        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer2-Scale" tag="LR2S"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-X" tag="LR2X"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-Y" tag="LR2Y"/>
+        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer1-Scale" tag="BG-S"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-X" tag="BG-X"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-Y" tag="BG-Y"/>
+        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer2-Scale" tag="FG-S"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-X" tag="FG-X"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-Y" tag="FG-Y"/>
         <!--
         <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer3-Scale" tag="LR3S"/>
         <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer3-X" tag="LR3X"/>

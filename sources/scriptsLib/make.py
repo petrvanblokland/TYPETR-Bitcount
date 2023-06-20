@@ -201,37 +201,26 @@ def makeDesignSpaceFile(dsName, dsParams):
     axisParams['slntMax'] = SLNT_MAX
 
     # COLRv1 layer #1 axis values
-    axisParams['LR1SMin'] = SMIN # Scale
-    axisParams['LR1SDef'] = SDEF
-    axisParams['LR1SMax'] = SMAX
-    axisParams['LR1XMin'] = LMIN # Horizontal position
-    axisParams['LR1XDef'] = LDEF
-    axisParams['LR1XMax'] = LMAX
-    axisParams['LR1YMin'] = LMIN
-    axisParams['LR1YDef'] = LDEF
-    axisParams['LR1YMax'] = LMAX
+    axisParams['BG-SMin'] = SMIN # Scale
+    axisParams['BG-SDef'] = SDEF
+    axisParams['BG-SMax'] = SMAX
+    axisParams['BG-XMin'] = LMIN # Horizontal position
+    axisParams['BG-XDef'] = LDEF
+    axisParams['BG-XMax'] = LMAX
+    axisParams['BG-YMin'] = LMIN
+    axisParams['BG-YDef'] = LDEF
+    axisParams['BG-YMax'] = LMAX
 
     # COLRv1 layer #2 axis values   
-    axisParams['LR2SMin'] = SMIN # Scale
-    axisParams['LR2SDef'] = SMIN # Layer #2 is not visible by default.
-    axisParams['LR2SMax'] = SMAX
-    axisParams['LR2XMin'] = LMIN # Horizontal position
-    axisParams['LR2XDef'] = LDEF
-    axisParams['LR2XMax'] = LMAX
-    axisParams['LR2YMin'] = LMIN # Vertical position
-    axisParams['LR2YDef'] = LDEF
-    axisParams['LR2YMax'] = LMAX
-
-    # COLRv1 layer #3 axis values   
-    #axisParams['LR3SMin'] = SMIN # Scale
-    #axisParams['LR3SDef'] = SMIN # Layer #3 is not visible by default.
-    #axisParams['LR3SMax'] = SMAX
-    #axisParams['LR3XMin'] = LMIN # Horizontal position
-    #axisParams['LR3XDef'] = LDEF
-    #axisParams['LR3XMax'] = LMAX
-    #axisParams['LR3YMin'] = LMIN # Vertical position
-    #axisParams['LR3YDef'] = LDEF
-    #axisParams['LR3YMax'] = LMAX
+    axisParams['FG-SMin'] = SMIN # Scale
+    axisParams['FG-SDef'] = SMIN # Layer #2 is not visible by default.
+    axisParams['FG-SMax'] = SMAX
+    axisParams['FG-XMin'] = LMIN # Horizontal position
+    axisParams['FG-XDef'] = LDEF
+    axisParams['FG-XMax'] = LMAX
+    axisParams['FG-YMin'] = LMIN # Vertical position
+    axisParams['FG-YDef'] = LDEF
+    axisParams['FG-YMax'] = LMAX
 
     # Layer axes are independent from main Bitcount shape axes
     for wght in (WGHT_MIN, WGHT_DEF, WGHT_MAX):
@@ -272,17 +261,12 @@ def addCOLRv1toVF(vfPath):
     dstPath = vfPath.replace('.ttf', '_COLRv1.ttf')
     print('--- Adding COLORv1 pixels to', dstPath)
     cmd = (f'paintcompiler -o {dstPath} '
-           f'--add-axis LR1S:{SMIN}:{SDEF}:{SMAX}:Layer1-Scale '
-           f'--add-axis LR1X:{LMIN}:{LDEF}:{LMAX}:Layer1-X '
-           f'--add-axis LR1Y:{LMIN}:{LDEF}:{LMAX}:Layer1-Y '
-           f'--add-axis LR2S:{SMIN}:{SDEF}:{SMAX}:Layer2-Scale '
-           f'--add-axis LR2X:{LMIN}:{LDEF}:{LMAX}:Layer2-X '
-           f'--add-axis LR2Y:{LMIN}:{LDEF}:{LMAX}:Layer2-Y '
-           # 3 layers gets too slow in t FontGoggles to select something
-           # So we better can stay with 2 layers. That's still a lot to choose from.
-           #f'--add-axis LR3S:{SMIN}:{SDEF}:{SMAX}:Layer3-Scale '
-           #f'--add-axis LR3X:{LMIN}:{LDEF}:{LMAX}:Layer3-X '
-           #f'--add-axis LR3Y:{LMIN}:{LDEF}:{LMAX}:Layer3-Y '
+           f'--add-axis BG-S:{SMIN}:{SDEF}:{SMAX}:Background-Scale '
+           f'--add-axis BG-X:{LMIN}:{LDEF}:{LMAX}:Background-X '
+           f'--add-axis BG-Y:{LMIN}:{LDEF}:{LMAX}:Background-Y '
+           f'--add-axis FG-S:{SMIN}:{SDEF}:{SMAX}:Foreground-Scale '
+           f'--add-axis FG-X:{LMIN}:{LDEF}:{LMAX}:Foreground-X '
+           f'--add-axis FG-Y:{LMIN}:{LDEF}:{LMAX}:Foreground-Y '
            '--paints scriptsLib/colrv1.py '+vfPath)
     print(cmd)
     os.system(cmd)
