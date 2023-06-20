@@ -1082,6 +1082,10 @@
     <string>cedilla.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
+    <key>circle</key>
+    <string>circle.glif</string>
+    <key>circle_large</key>
+    <string>circle_large.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
     <key>colon</key>
@@ -1398,6 +1402,8 @@
     <string>hcircumflex.xa_nct.glif</string>
     <key>heart</key>
     <string>heart.glif</string>
+    <key>hstripe</key>
+    <string>hstripe.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
     <key>hyphen</key>
@@ -1776,6 +1782,10 @@
     <string>slash.glif</string>
     <key>space</key>
     <string>space.glif</string>
+    <key>square</key>
+    <string>square.glif</string>
+    <key>square_large</key>
+    <string>square_large.glif</string>
     <key>sterling</key>
     <string>sterling.glif</string>
     <key>sterling.xc</key>
@@ -1898,6 +1908,8 @@
     <string>utilde.nct.glif</string>
     <key>v</key>
     <string>v.glif</string>
+    <key>vstripe</key>
+    <string>vstripe.glif</string>
     <key>w</key>
     <string>w.glif</string>
     <key>wacute</key>
@@ -1978,5 +1990,7 @@
     <string>zero.slash_xc.glif</string>
     <key>zero.xc</key>
     <string>zero.xc.glif</string>
+    <key>zigzag</key>
+    <string>zigzag.glif</string>
   </dict>
 </plist>

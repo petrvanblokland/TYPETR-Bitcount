@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="square_large" format="2">
-  <advance width="100"/>
   <outline>
     <contour>
-      <point x="-250" y="250" type="line"/>
-      <point x="-250" y="-250" type="line"/>
-      <point x="250" y="-250" type="line"/>
-      <point x="250" y="250" type="line"/>
+      <point x="-300" y="300" type="line"/>
+      <point x="-300" y="-300" type="line"/>
+      <point x="300" y="-300" type="line"/>
+      <point x="300" y="300" type="line"/>
     </contour>
   </outline>
   <lib>

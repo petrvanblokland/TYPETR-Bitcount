@@ -4,45 +4,63 @@ import sys
 from collections import defaultdict
 
 sys.path.append(".")
-from scriptsLib import SMIN, SDEF, SMAX, LDEF, LMIN, LMAX
+from scriptsLib import SMIN, SDEF, SMAX, LDEF, LMIN, LMAX, POST_FIX
 
 P = 100
-G = 5*P # Layer grid size
+G = 6*P # Layer grid size, so we can divide into 6 spectrum colors
 LS = 1 # Layer scaling of elements
+
+# String additions to the colors, defining standard level of opacity
+OPAQUE = "FF"
+TRANSPARANT = "AA"
+FAINT = "80"
 
 ###
 # Colors and gradients
 ###
 
-COLORS = [
-    "#FFFFFFFF",  # white
-    "#808080FF",  # color16=grey
+BLACK = "#000000"
+GREY = "#808080"
+WHITE = "#FFFFFF"
+
+RED = "#FF0000"  # Red=(1, 0, 0, ?)
+ORANGE = "#FFAB00"
+YELLOW = "#FFFF00"
+GREEN = "#88FF00"
+BLUE = "#01A6F0"
+PURPLE = "#C700FF"
+
+# Interesting range of colors for the gradient circles
+CIRCLE_COLORS = [
+    WHITE + OPAQUE,  # white
+    GREY + OPAQUE,  # color16=grey
     "#FF00FF80",  # color1 = (1, 0, 1, 0.5)
     "#FFFFFF80",  # color2 = (1, 1, 1, 0.5)
     "#0033FF80",  # color3 = (0, 0.2, 1, 0.5)
     "#FF330080",  # color4 = (1, 0.2, 0, 0.5)
     "#00FF0080",  # color5 = (0, 1, 0, 0.5),
     "#00FFFF80",  # color6 = (0, 1, 1, 0.5),
-    "#00000080",  # color7 = (0, 0, 0, 0.5),
+    BLACK + OPAQUE,  # color7 = (0, 0, 0, 0.5),
     "#0033FFFF",  # color10 = (0, 0.2, 1, 1),
     "#FF3300FF",  # color11 = (1, 0.2, 0, 1),
     "#FF00FFFF",  # color12= (1, 0, 1, 1),
     "#00FF00FF",  # color13= (0, 1, 0, 1),
-    "#FFFFFFFF",  # color14= (1, 1, 1, 1),
-    "#000000FF",  # color15=(0, 0, 0, 1),
+    WHITE + OPAQUE,  # color14= (1, 1, 1, 1),
+    BLACK + OPAQUE,  # color15=(0, 0, 0, 1),
 ]
 
 
 # Define our two colour lines for the radial gradient.
 # Colour line one is just all the colours spaced out linearly.
-COLOR_LINE1 = {ix / len(COLORS): stop for ix, stop in enumerate(COLORS)}
+COLOR_LINE1 = {ix / len(CIRCLE_COLORS): stop for ix, stop in enumerate(CIRCLE_COLORS)}
 COLOR_STOPS1 = ColorLine(COLOR_LINE1)
 
 # Colour line two is white plus all the colours in reverse.
-COLORS2 = [COLORS[0]] + COLORS[-1:0:-1]
-COLOR_LINE2 = {ix / len(COLORS): stop for ix, stop in enumerate(COLORS2)}
-COLOR_STOPS2 = ColorLine({ix / len(COLORS2): stop for ix, stop in enumerate(COLORS2)})
+CIRCLE_COLORS2 = [CIRCLE_COLORS[0]] + CIRCLE_COLORS[-1:0:-1]
+COLOR_LINE2 = {ix / len(CIRCLE_COLORS): stop for ix, stop in enumerate(CIRCLE_COLORS2)}
+COLOR_STOPS2 = ColorLine({ix / len(CIRCLE_COLORS2): stop for ix, stop in enumerate(CIRCLE_COLORS2)})
 
+SPECTRUM = ColorLine({0: RED, 0.25: ORANGE, 0.5: YELLOW, 0.75: GREEN, 1: BLUE})
 
 ###
 # Elements and layers
@@ -55,37 +73,116 @@ COLOR_STOPS2 = ColorLine({ix / len(COLORS2): stop for ix, stop in enumerate(COLO
 ## element to be 100x100 and to be placed at the origin. We'll translate
 ## them to their correct place on the "layer" later.
 ## These elements come from the UFO Bitcount-LayerElements but when we
-## copy them into the current font, we add an el_ to the start of their
+## copy them into the current font, we add an POST_FIX (el_) to the start of their
 ## names.
 
 # "hstripes" is an element made up of a red stripe at the bottom,
 # a green stripe in the middle and a blue stripe at the top.
+
 hstripes = PaintColrLayers(
     [
-        PaintScale(0.2, PaintGlyph("el_stripe", PaintSolid("#FF0000FF"))),
         PaintTranslate(
-            0, G, PaintScale(LS, PaintGlyph("el_stripe", PaintSolid("#00FF00FF")))
+            0, -G/2 + P/2, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(RED + OPAQUE)))
         ),
         PaintTranslate(
-            0, G, PaintScale(LS, PaintGlyph("el_stripe", PaintSolid("#0000FFFF")))
+            0, -G/2 + P/2 + G * 1/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(ORANGE + OPAQUE)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 2/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(YELLOW + OPAQUE)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 3/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(GREEN + OPAQUE)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 4/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(BLUE + OPAQUE)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 5/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(PURPLE + OPAQUE)))
         ),
     ]
 )
+hstripes_opaque = PaintColrLayers(
+    [
+        PaintTranslate(
+            0, -G/2 + P/2, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(RED + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 1/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(ORANGE + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 2/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(YELLOW + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 3/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(GREEN + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 4/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(BLUE + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            0, -G/2 + P/2 + G * 5/6, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(PURPLE + TRANSPARANT)))
+        ),
+    ]
+)
+vstripes = PaintColrLayers(
+    [
+        PaintTranslate(
+            -G/2 + P/2, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(RED + OPAQUE)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 1/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(ORANGE + OPAQUE)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 2/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(YELLOW + OPAQUE)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 3/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(GREEN + OPAQUE)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 4/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(BLUE + OPAQUE)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 5/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(PURPLE + OPAQUE)))
+        ),
+    ]
+)
+vstripes_opaque = PaintColrLayers(
+    [
+        PaintTranslate(
+            -G/2 + P/2, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(RED + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 1/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(ORANGE + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 2/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(YELLOW + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 3/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(GREEN + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 4/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(BLUE + TRANSPARANT)))
+        ),
+        PaintTranslate(
+            -G/2 + P/2 + G * 5/6, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(PURPLE + TRANSPARANT)))
+        ),
+    ]
+)
+
 # boxes is four boxes; the element is 100x100 so we'll scale it down,
 # then reposition four copies of it.
 boxes = PaintColrLayers(
     [
         PaintTranslate(
-            0, G/2, PaintScale(LS, PaintGlyph("el_square", PaintSolid("#F34F1CFF")))
+            0, G/2, PaintScale(LS, PaintGlyph(POST_FIX + "square", PaintSolid("#F34F1CFF")))
         ),
         PaintTranslate(
-            G/2, G/2, PaintScale(LS, PaintGlyph("el_square", PaintSolid("#7FBC00FF")))
+            G/2, G/2, PaintScale(LS, PaintGlyph(POST_FIX + "square", PaintSolid("#7FBC00FF")))
         ),
         PaintTranslate(
-            0, 0, PaintScale(LS, PaintGlyph("el_square", PaintSolid("#01A6F0FF")))
+            0, 0, PaintScale(LS, PaintGlyph(POST_FIX + "square", PaintSolid("#01A6F0FF")))
         ),
         PaintTranslate(
-            G/2, 0, PaintScale(LS, PaintGlyph("el_square", PaintSolid("#FFBA01FF")))
+            G/2, 0, PaintScale(LS, PaintGlyph(POST_FIX + "square", PaintSolid("#FFBA01FF")))
         ),
         # Oh look it's the Microsoft logo.
     ]
@@ -94,16 +191,16 @@ boxes = PaintColrLayers(
 balls = PaintColrLayers(
     [
         PaintTranslate(
-            0, G/2, PaintScale(LS, PaintGlyph("el_circle1", PaintSolid("#F34F1CFF")))
+            0, G/2, PaintScale(LS, PaintGlyph(POST_FIX + "circle", PaintSolid("#F34F1CFF")))
         ),
         PaintTranslate(
-            G/2, G/2, PaintScale(LS, PaintGlyph("el_circle1", PaintSolid("#7FBC00FF")))
+            G/2, G/2, PaintScale(LS, PaintGlyph(POST_FIX + "circle", PaintSolid("#7FBC00FF")))
         ),
         PaintTranslate(
-            0, 0, PaintScale(LS, PaintGlyph("el_circle1", PaintSolid("#01A6F0FF")))
+            0, 0, PaintScale(LS, PaintGlyph(POST_FIX + "circle", PaintSolid("#01A6F0FF")))
         ),
         PaintTranslate(
-            G/2, 0, PaintScale(LS, PaintGlyph("el_circle1", PaintSolid("#FFBA01FF")))
+            G/2, 0, PaintScale(LS, PaintGlyph(POST_FIX + "circle", PaintSolid("#FFBA01FF")))
         ),
     ]
 )
@@ -111,7 +208,7 @@ balls = PaintColrLayers(
 zigzag_right = PaintScale(
     LS,
     PaintGlyph(
-        "el_zigzag",
+        POST_FIX + "zigzag",
         PaintLinearGradient(
             (G/2, G/2),
             (G/2*10, G/2*10),
@@ -128,46 +225,59 @@ zigzag_right = PaintScale(
 
 zigzag_down = PaintRotate(
     90,
-    PaintScale(LS, PaintGlyph("el_zigzag", PaintSolid("#FF00FFFF"))),
+    PaintScale(LS, PaintGlyph(POST_FIX + "zigzag", PaintSolid("#FF00FFFF"))),
     center=(G/2, G/2),
 )
 
-circle1 = PaintGlyph(
-    "el_circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)
+chess = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "chess", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)),
+    ]
+)
+
+circle1 = PaintColrLayers(
+    [   
+        # Start with a gray square to fill the space a bit.
+        PaintGlyph(POST_FIX + "square_large", PaintSolid("#DDDDDDFF")),
+        # The a white circle as background.
+        PaintGlyph(POST_FIX + "circle_large", PaintSolid("#FFFFFFFF")),
+        PaintGlyph(POST_FIX + "circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)),
+
+    ]
 )
 circle2 = PaintGlyph(
-    "el_circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS2)
+   POST_FIX + "circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS2)
 )
 #circle3 = PaintGlyph(
-#    "el_circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS2)
+#    POST_FIX + "circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS2)
 #)
 
 
 linear_box1 = PaintGlyph(
-    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), (G/2, G/2), COLOR_STOPS1)
+    POST_FIX + "square_large", PaintLinearGradient((0, 0), (P/2, P/2), (G/2, G/2), COLOR_STOPS1)
 )
 linear_box2 = PaintGlyph(
-    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), (G/2, G/2), COLOR_STOPS2)
+    POST_FIX + "square_large", PaintLinearGradient((0, 0), (P/2, P/2), (G/2, G/2), COLOR_STOPS2)
 )
 #linear_box3 = PaintGlyph(
-#    "el_square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/3, COLOR_STOPS1)
+#    POST_FIX + "square_large", PaintLinearGradient((0, 0), (P/2, P/2), G/3, COLOR_STOPS1)
 #)
 
 concentric_boxes = PaintColrLayers(
     [
         PaintTransform(
-            (1.0, 0.0, 0.0, 1.0, 0, 0), PaintGlyph("el_square", PaintSolid(COLORS[1]))
+            (1.0, 0.0, 0.0, 1.0, 0, 0), PaintGlyph(POST_FIX + "square", PaintSolid(CIRCLE_COLORS[1]))
         ),
         PaintTransform(
             (0.75, 0.0, 0.0, 0.75, 12, 12),
-            PaintGlyph("el_square", PaintSolid(COLORS[2])),
+            PaintGlyph(POST_FIX + "square", PaintSolid(CIRCLE_COLORS[2])),
         ),
         PaintTransform(
-            (0.5, 0.0, 0.0, 0.5, 25, 25), PaintGlyph("el_square", PaintSolid(COLORS[3]))
+            (0.5, 0.0, 0.0, 0.5, 25, 25), PaintGlyph(POST_FIX + "square", PaintSolid(CIRCLE_COLORS[3]))
         ),
         PaintTransform(
             (0.25, 0.0, 0.0, 0.25, 37, 37),
-            PaintGlyph("el_square", PaintSolid(COLORS[4])),
+            PaintGlyph(POST_FIX + "square", PaintSolid(CIRCLE_COLORS[4])),
         ),
     ]
 )
@@ -175,51 +285,35 @@ concentric_boxes = PaintColrLayers(
 concentric_boxes2 = PaintColrLayers(
     [
         PaintTransform(
-            (1.0, 0.0, 0.0, 1.0, 0, 0), PaintGlyph("el_square", PaintSolid(COLORS[-1]))
+            (1.0, 0.0, 0.0, 1.0, 0, 0), PaintGlyph(POST_FIX + "square", PaintSolid(CIRCLE_COLORS[-1]))
         ),
         PaintTransform(
             (0.75, 0.0, 0.0, 0.75, 12, 12),
-            PaintGlyph("el_square", PaintSolid(COLORS[-2])),
+            PaintGlyph(POST_FIX + "square", PaintSolid(CIRCLE_COLORS[-2])),
         ),
         PaintTransform(
             (0.5, 0.0, 0.0, 0.5, 25, 25),
-            PaintGlyph("el_square", PaintSolid(COLORS[-3])),
+            PaintGlyph(POST_FIX + "square", PaintSolid(CIRCLE_COLORS[-3])),
         ),
         PaintTransform(
             (0.25, 0.0, 0.0, 0.25, 37, 37),
-            PaintGlyph("el_square", PaintSolid(COLORS[-4])),
+            PaintGlyph(POST_FIX + "square", PaintSolid(CIRCLE_COLORS[-4])),
         ),
     ]
-)
-
-vstripes = PaintRotate(
-    90,
-    PaintColrLayers(
-        [
-            PaintScale(LS, PaintGlyph("el_stripe", PaintSolid("#FFFF0033"))),
-            PaintTranslate(
-                0, G/2, PaintScale(LS, PaintGlyph("el_stripe", PaintSolid("#FFFF0033")))
-            ),
-            PaintTranslate(
-                0, G/2, PaintScale(LS, PaintGlyph("el_stripe", PaintSolid("#00FFFF33")))
-            ),
-        ]
-    ),
-    center=(G/2, G/2),
 )
 
 # Now we make the layers, by transforming those elements into place in a grid
 layer1 = PaintColrLayers(
     [
-        PaintTranslate(-G, G, linear_box1),
-        PaintTranslate(0, G, linear_box1),
-        PaintTranslate(G, G, linear_box1),
-        PaintTranslate(-G, 0, circle1),
-        PaintTranslate(0, 0, circle1),
-        PaintTranslate(G, 0, circle1),
-        PaintTranslate(-G, -G, circle1),
-        PaintTranslate(0, -G, circle1),
-        PaintTranslate(G, -G, circle1),
+        PaintTranslate(-G + P/2, G + P/2, hstripes),
+        PaintTranslate(P/2, G + P/2, chess),
+        PaintTranslate(G + P/2, G + P/2, vstripes),
+        PaintTranslate(-G + P/2, P/2, circle1),
+        PaintTranslate(P/2, P/2, circle1),
+        PaintTranslate(G + P/2, P/2, circle1),
+        PaintTranslate(-G + P/2, -G + P/2, circle1),
+        PaintTranslate(P/2, -G + P/2, circle1),
+        PaintTranslate(G + P/2, -G + P/2, circle1),
     ]
 )
 
@@ -270,15 +364,15 @@ layer2 = PaintColrLayers(
         #PaintTranslate(-G, 0, linear_box2),
         #PaintTranslate(5G 0, concentric_boxes2),
 
-        PaintTranslate(-G, G, linear_box2),
-        PaintTranslate(0, G, linear_box2),
-        PaintTranslate(G, G, linear_box2),
-        PaintTranslate(-G, 0, circle2),
-        PaintTranslate(0, 0, circle2),
-        PaintTranslate(G, 0, circle2),
-        PaintTranslate(-G, -G, circle2),
-        PaintTranslate(0, -G, circle2),
-        PaintTranslate(G, -G, circle2),
+        PaintTranslate(-G + P/2, G + P/2, vstripes_opaque),
+        PaintTranslate(P/2, G + P/2, chess),
+        PaintTranslate(G + P/2, G + P/2, hstripes_opaque),
+        PaintTranslate(-G + P/2, P/2, circle2),
+        PaintTranslate(P/2, P/2, circle2),
+        PaintTranslate(G + P/2, P/2, circle2),
+        PaintTranslate(-G + P/2, -G + P/2, circle2),
+        PaintTranslate(P/2, -G + P/2, circle2),
+        PaintTranslate(G + P/2, -G + P/2, circle2),
     ]
 )
 scale_factor2 = {
@@ -320,15 +414,15 @@ if 0:
     # Same deal for layer 3
     layer3 = PaintColrLayers(
         [
-            PaintTranslate(-G, G, linear_box3),
-            PaintTranslate(0, G, linear_box3),
-            PaintTranslate(G, G, linear_box3),
-            PaintTranslate(-G, 0, circle3),
-            PaintTranslate(0, 0, circle3),
-            PaintTranslate(G, 0, circle3),
-            PaintTranslate(-G, -G, circle3),
-            PaintTranslate(0, -G, circle3),
-            PaintTranslate(G, -G, circle3),
+            PaintTranslate(-G + P/2, G + P/2, linear_box3),
+            PaintTranslate(P/2, G + P/2, linear_box3),
+            PaintTranslate(G + P/2, G + P/2, linear_box3),
+            PaintTranslate(-G + P/2, P/2, circle3),
+            PaintTranslate(P/2, P/2, circle3),
+            PaintTranslate(G + P/2, P/2, circle3),
+            PaintTranslate(-G + P/2, -G + P/2, circle3),
+            PaintTranslate(P/2, -G + P/2, circle3),
+            PaintTranslate(G + P/2, -G + P/2, circle3),
         ]
     )
     scale_factor3 = {

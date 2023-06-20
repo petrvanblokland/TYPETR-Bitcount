@@ -12391,6 +12391,13 @@
       <string>florin.xc</string>
       <string>.notdef</string>
       <string>_canvas</string>
+      <string>circle</string>
+      <string>square</string>
+      <string>hstripe</string>
+      <string>zigzag</string>
+      <string>circle_large</string>
+      <string>square_large</string>
+      <string>vstripe</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

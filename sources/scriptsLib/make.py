@@ -50,12 +50,13 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
     pixels = openFont(UFO_PATH + VARIATION_PIXELS)
     # Copy elements from this UFO.
     elements: ufoLib2.Font = openFont(UFO_PATH + LAYER_ELEMENTS)
+    elementsItalic: ufoLib2.Font = openFont(UFO_PATH + LAYER_ELEMENTS_ITALIC)
 
     # Open the pixel font, as lead for the masters that need to be generated.
     masterName = dsParams['masterName']
     md = MASTERS_DATA[masterName]
 
-    # In case of fast susbest compiling, use different source UFO
+    # In case of fast subset compiling, use different source UFO
     if subsetAsTest:
         ufoDirPath = UFO_TEST_PATH
     else:
@@ -81,9 +82,14 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
             # If this is the default instance, we add the elements too
-            if pd.is_default:
-                for elementGlyph in elements:
-                    copyGlyph(elements, elementGlyph.name, dst, "el_"+elementGlyph.name)
+            if pd.is_default or dst.info.italicAngle:
+                if dst.info.italicAngle:
+                    eFont = elementsItalic
+                else:
+                    eFont = elements
+                for elementGlyph in eFont:
+                    print('... Copy element', elementGlyph.name,'to', POST_FIX+elementGlyph.name)
+                    copyGlyph(elements, elementGlyph.name, dst, POST_FIX+elementGlyph.name)
             dst.save(dstPath, overwrite=True)
             dst.close()
 

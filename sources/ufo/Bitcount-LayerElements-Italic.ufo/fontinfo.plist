@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>capHeight</key>
+    <integer>700</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>familyName</key>
+    <string>Bitcount Elements</string>
+    <key>guidelines</key>
+    <array/>
+    <key>italicAngle</key>
+    <real>-7.96961</real>
+    <key>openTypeHeadCreated</key>
+    <string>2023/06/07 09:31:41</string>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-16</integer>
+      <integer>0</integer>
+      <integer>500</integer>
+      <integer>516</integer>
+      <integer>700</integer>
+      <integer>716</integer>
+      <integer>800</integer>
+      <integer>816</integer>
+    </array>
+    <key>postscriptFamilyBlues</key>
+    <array/>
+    <key>postscriptFamilyOtherBlues</key>
+    <array/>
+    <key>postscriptFontName</key>
+    <string>NewFont-Regular</string>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-216</integer>
+      <integer>-200</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array/>
+    <key>postscriptStemSnapV</key>
+    <array/>
+    <key>styleName</key>
+    <string>Regular Italic</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>xHeight</key>
+    <integer>500</integer>
+  </dict>
+</plist>

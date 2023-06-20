@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="stripe" format="2">
-  <advance width="500"/>
+<glyph name="hstripe" format="2">
   <outline>
     <contour>
-      <point x="-250" y="50" type="line"/>
-      <point x="-250" y="-50" type="line"/>
-      <point x="250" y="-50" type="line"/>
-      <point x="250" y="50" type="line"/>
+      <point x="-300" y="50" type="line"/>
+      <point x="-300" y="-50" type="line"/>
+      <point x="300" y="-50" type="line"/>
+      <point x="300" y="50" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -11,7 +11,7 @@ import os
 
 from scriptsLib.make import *
 
-if 1:
+if 0:
     MAKE_DESIGNSPACES = True # 
     SUBSET_AS_TEST = False # If True, then compile with a subset of only a couple of glyph (whithout features)
     COPY_MASTERS = True # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
@@ -20,16 +20,18 @@ if 1:
     MAKE_UFO = True
     MAKE_TTF = True
     MAKE_VF = True
+    ADD_COLRV1 = True
     USE_PRODUCTION_NAMES = False
 else:
     MAKE_DESIGNSPACES = True 
     SUBSET_AS_TEST = False # If True, then compile with a subset of only a couple of glyph (whithout features)
-    COPY_MASTERS = False # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
+    COPY_MASTERS = True # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = False
     MAKE_STAT = False
     MAKE_UFO = False
     MAKE_TTF = False
-    MAKE_VF = True
+    MAKE_VF = False
+    ADD_COLRV1 = True
     USE_PRODUCTION_NAMES = False
 
 for dsName, dsParams in DESIGN_SPACES.items():
@@ -67,26 +69,26 @@ for dsName, dsParams in DESIGN_SPACES.items():
         cmd = 'fontmake -o variable -m %s --output-path %s' % (dsName, vfPath)
         print('...', cmd)
         os.system(cmd)
-
-        print('... Add COLRv1 to', vfPath)
-        addCOLRv1toVF(vfPath)
         
-        # Ignore the STAT for now
-        continue
-
-        if USE_PRODUCTION_NAMES:
-            cmd += ' --use_production_names'
-        else:
-            cmd += ' --no-production-names'
-        print('---', cmd)
-        print('--- Fixing TTF name tables')
-        fixTTFNameTables('vf/', NAME_TABLES)
-        os.system(cmd)
-        cmd = 'statmake --designspace %s --stylespace %s %s' % (DESIGN_SPACE_VF, STYLE_SPACE, vfPath)
-        print('...', cmd)
-        if MAKE_STAT:
+        if 0:
+            if USE_PRODUCTION_NAMES:
+                cmd += ' --use_production_names'
+            else:
+                cmd += ' --no-production-names'
+            print('---', cmd)
+            print('--- Fixing TTF name tables')
+            fixTTFNameTables('vf/', NAME_TABLES)
             os.system(cmd)
 
+            cmd = 'statmake --designspace %s --stylespace %s %s' % (dsName, STYLE_SPACE, vfPath)
+            print('...', cmd)
+            if MAKE_STAT:
+                os.system(cmd)
+
+    if ADD_COLRV1:
+        vfPath = 'vf/' + dsName.replace('.designspace', '-%03d.ttf' % BUILD)
+        print('... Add COLRv1 to', vfPath)
+        addCOLRv1toVF(vfPath)
 
 print('Done')
 

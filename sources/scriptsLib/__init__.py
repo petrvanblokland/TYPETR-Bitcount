@@ -9,6 +9,8 @@ import os, shutil
 # the right pixel shape accordingly.
 PIXEL_NAME = 'px'
 
+POST_FIX = "el_" # Add to element name
+
 # Name parts to auto-construct generated master UFO names.
 BITCOUNT = 'Bitcount'
 # Variants
@@ -53,6 +55,7 @@ VARIATION_PIXELS = 'Bitcount-VariationPixelsQ.ufo' # QUadratic curves in pixels
 
 # Source UFO that contains all colour layer "elements"
 LAYER_ELEMENTS = 'Bitcount-LayerElements.ufo'
+LAYER_ELEMENTS_ITALIC = 'Bitcount-LayerElements-Italic.ufo'
 
 # Source masters in ufo/, used to copy into _masters/ with replaced pixel shape.
 GRID_DOUBLE = f'{BITCOUNT}_{GRID}_{DOUBLE}.ufo'
