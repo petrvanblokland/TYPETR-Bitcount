@@ -235,7 +235,7 @@ zigzag = PaintScale(
     ),
 )
 
-vzigzag = PaintRotate(
+vzigzag = PaintScale(
     LS,
     PaintGlyph(
         POST_FIX + "vzigzag",

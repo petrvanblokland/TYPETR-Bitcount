@@ -6,7 +6,7 @@ The **venv/** is not included into Github, it needs to be created in the local r
 
 ~~~
 
-cd sources/
+cd TYPETR-Bitcount/sources
 
 mkdir venv
 python -m venv venv --prompt=Bitcount
