@@ -31,6 +31,14 @@
       <string>chess</string>
       <string>vzigzag</string>
       <string>squares</string>
+      <string>squares2</string>
+      <string>rastersquare</string>
+      <string>raster</string>
+      <string>chesssquare</string>
+      <string>circles</string>
+      <string>five</string>
+      <string>diamond</string>
+      <string>star</string>
     </array>
   </dict>
 </plist>

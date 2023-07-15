@@ -4,18 +4,32 @@
   <dict>
     <key>chess</key>
     <string>chess.glif</string>
+    <key>chesssquare</key>
+    <string>chesssquare.glif</string>
     <key>circle</key>
     <string>circle.glif</string>
     <key>circle_large</key>
     <string>circle_large.glif</string>
+    <key>circles</key>
+    <string>circles.glif</string>
+    <key>diamond</key>
+    <string>diamond.glif</string>
+    <key>five</key>
+    <string>five.glif</string>
     <key>hstripe</key>
     <string>hstripe.glif</string>
+    <key>raster</key>
+    <string>raster.glif</string>
     <key>square</key>
     <string>square.glif</string>
     <key>square_large</key>
     <string>square_large.glif</string>
     <key>squares</key>
     <string>squares.glif</string>
+    <key>squares2</key>
+    <string>squares2.glif</string>
+    <key>star</key>
+    <string>star.glif</string>
     <key>vstripe</key>
     <string>vstripe.glif</string>
     <key>vzigzag</key>

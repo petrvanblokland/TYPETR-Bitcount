@@ -2,10 +2,10 @@
 <glyph name="square_large" format="2">
   <outline>
     <contour>
-      <point x="-258" y="300" type="line"/>
-      <point x="-342" y="-300" type="line"/>
-      <point x="258" y="-300" type="line"/>
-      <point x="342" y="300" type="line"/>
+      <point x="-301" y="350" type="line"/>
+      <point x="-399" y="-350" type="line"/>
+      <point x="301" y="-350" type="line"/>
+      <point x="399" y="350" type="line"/>
     </contour>
   </outline>
   <lib>

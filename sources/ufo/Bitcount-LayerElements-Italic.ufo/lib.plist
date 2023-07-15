@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>TYPETR.CurvePalette</key>
+    <dict>
+      <key>gridSize</key>
+      <integer>18</integer>
+      <key>maxRange</key>
+      <integer>100</integer>
+      <key>minRange</key>
+      <integer>30</integer>
+    </dict>
     <key>com.schriftgestaltung.DisplayStrings</key>
     <array>
       <string>/zigzag</string>
@@ -46,7 +55,14 @@
       <string>vstripe</string>
       <string>chess</string>
       <string>vzigzag</string>
+      <string>squares2</string>
       <string>squares</string>
+      <string>raster</string>
+      <string>chesssquare</string>
+      <string>circles</string>
+      <string>five</string>
+      <string>diamond</string>
+      <string>star</string>
     </array>
   </dict>
 </plist>
