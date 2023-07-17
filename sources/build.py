@@ -44,12 +44,12 @@ for dsName, dsParams in DESIGN_SPACES.items():
         makeDesignSpaceFile(dsName, dsParams)
 
     if dsName not in [
-        #'Bitcount_Grid_Single4.designspace',
-        #'Bitcount_Grid_Double4.designspace',
-        #'Bitcount_Mono_Single4.designspace',
+        'Bitcount_Grid_Single4.designspace',
+        'Bitcount_Grid_Double4.designspace',
+        'Bitcount_Mono_Single4.designspace',
         'Bitcount_Mono_Double4.designspace',
-        #'Bitcount_Prop_Single4.designspace',
-        #'Bitcount_Prop_Double4.designspace',
+        'Bitcount_Prop_Single4.designspace',
+        'Bitcount_Prop_Double4.designspace',
     ]:
         print('### Skipping design space', dsName)
         continue

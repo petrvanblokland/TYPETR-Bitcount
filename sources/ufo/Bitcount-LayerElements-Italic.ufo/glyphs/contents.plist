@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>_canvas</key>
+    <string>_canvas.glif</string>
+    <key>canvas</key>
+    <string>canvas.glif</string>
     <key>chess</key>
     <string>chess.glif</string>
     <key>chesssquare</key>
@@ -30,6 +34,8 @@
     <string>squares2.glif</string>
     <key>star</key>
     <string>star.glif</string>
+    <key>triangle</key>
+    <string>triangle.glif</string>
     <key>vstripe</key>
     <string>vstripe.glif</string>
     <key>vzigzag</key>

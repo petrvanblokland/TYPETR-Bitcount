@@ -1082,10 +1082,16 @@
     <string>cedilla.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
+    <key>chess</key>
+    <string>chess.glif</string>
+    <key>chesssquare</key>
+    <string>chesssquare.glif</string>
     <key>circle</key>
     <string>circle.glif</string>
     <key>circle_large</key>
     <string>circle_large.glif</string>
+    <key>circles</key>
+    <string>circles.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
     <key>colon</key>
@@ -1124,6 +1130,8 @@
     <string>dcroat.xa_nct.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
+    <key>diamond</key>
+    <string>diamond.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
     <key>divide</key>
@@ -1256,6 +1264,8 @@
     <string>five.sc.glif</string>
     <key>five.xc</key>
     <string>five.xc.glif</string>
+    <key>five_circles</key>
+    <string>five_circles.glif</string>
     <key>fl</key>
     <string>fl.glif</string>
     <key>fl.it</key>
@@ -1726,6 +1736,8 @@
     <string>racute.glif</string>
     <key>radical</key>
     <string>radical.glif</string>
+    <key>raster</key>
+    <string>raster.glif</string>
     <key>rcaron</key>
     <string>rcaron.glif</string>
     <key>rcommaaccent</key>
@@ -1786,6 +1798,12 @@
     <string>square.glif</string>
     <key>square_large</key>
     <string>square_large.glif</string>
+    <key>squares</key>
+    <string>squares.glif</string>
+    <key>squares2</key>
+    <string>squares2.glif</string>
+    <key>star</key>
+    <string>star.glif</string>
     <key>sterling</key>
     <string>sterling.glif</string>
     <key>sterling.xc</key>
@@ -1848,6 +1866,8 @@
     <string>tilde.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
+    <key>triangle</key>
+    <string>triangle.glif</string>
     <key>two</key>
     <string>two.glif</string>
     <key>two.lc</key>
@@ -1910,6 +1930,8 @@
     <string>v.glif</string>
     <key>vstripe</key>
     <string>vstripe.glif</string>
+    <key>vzigzag</key>
+    <string>vzigzag.glif</string>
     <key>w</key>
     <string>w.glif</string>
     <key>wacute</key>

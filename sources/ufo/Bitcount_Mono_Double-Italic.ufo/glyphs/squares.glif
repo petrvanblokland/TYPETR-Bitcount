@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squares" format="2">
+  <outline>
+    <contour>
+      <point x="-258" y="300" type="line"/>
+      <point x="-342" y="-300" type="line"/>
+      <point x="258" y="-300" type="line"/>
+      <point x="342" y="300" type="line"/>
+    </contour>
+    <contour>
+      <point x="-172" y="200" type="line"/>
+      <point x="228" y="200" type="line"/>
+      <point x="172" y="-200" type="line"/>
+      <point x="-228" y="-200" type="line"/>
+    </contour>
+    <contour>
+      <point x="-64" y="74" type="line"/>
+      <point x="-85" y="-74" type="line"/>
+      <point x="63" y="-74" type="line"/>
+      <point x="84" y="74" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2023-06-07 09:35:25 +0000</string>
+    </dict>
+  </lib>
+</glyph>

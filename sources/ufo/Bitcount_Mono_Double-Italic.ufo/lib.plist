@@ -12389,6 +12389,17 @@
       <string>circle_large</string>
       <string>square_large</string>
       <string>vstripe</string>
+      <string>chess</string>
+      <string>vzigzag</string>
+      <string>squares2</string>
+      <string>squares</string>
+      <string>raster</string>
+      <string>chesssquare</string>
+      <string>circles</string>
+      <string>five_circles</string>
+      <string>diamond</string>
+      <string>star</string>
+      <string>triangle</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

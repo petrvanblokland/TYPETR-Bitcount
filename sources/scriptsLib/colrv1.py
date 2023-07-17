@@ -9,6 +9,14 @@ from scriptsLib import SMIN, SDEF, SMAX, LDEF, LMIN, LMAX, POST_FIX
 P = 100
 G = 7*P # Layer grid size, so we can divide into 7 spectrum colors
 LS = 1 # Layer scaling of elements
+SLOPE = 14 # Horizontal slant offset per 100 vertical units 
+
+if font['post'].italicAngle:
+    slope = SLOPE
+    so1 = SLOPE * 7
+    so2 = SLOPE * 7 * 2 
+else:
+    slope = so2 = so1 = 0
 
 # String additions to the colors, defining standard level of opacity
 OPAQUE = "FF"
@@ -28,10 +36,17 @@ WHITE = "#FFFFFF"
 RED = "#FF0000"  # Red=(1, 0, 0, ?)
 ORANGE = "#FFAB00"
 YELLOW = "#FFFF00"
-GREEN = "#88FF00"
+GREEN = "#70E000"
 BLUE = "#01A6F0"
 PURPLE = "#C700FF"
 #RED = "#FF0000"  # Red=(1, 0, 0, ?)
+
+DARK_RED = ""
+DARK_ORANGE = ""
+DARK_YELLOW = ""
+DARK_GREEN = ""
+DARK_BLUE = "005080"
+DARK_PURPLE = ""
 
 # Interesting range of colors for the gradient circles
 CIRCLE_COLORS = [
@@ -62,6 +77,8 @@ COLOR_STOPS1 = ColorLine(COLOR_LINE1)
 CIRCLE_COLORS2 = [CIRCLE_COLORS[0]] + CIRCLE_COLORS[-1:0:-1]
 COLOR_LINE2 = {ix / len(CIRCLE_COLORS): stop for ix, stop in enumerate(CIRCLE_COLORS2)}
 COLOR_STOPS2 = ColorLine({ix / len(CIRCLE_COLORS2): stop for ix, stop in enumerate(CIRCLE_COLORS2)})
+
+BLUE_RANGE = ColorLine({0: BLUE + OPAQUE, 1: YELLOW + OPAQUE})
 
 SPECTRUM = ColorLine({
     0: RED + OPAQUE, 
@@ -97,8 +114,7 @@ SPECTRUM_TRANSPARANT = ColorLine({
 ## copy them into the current font, we add an POST_FIX (el_) to the start of their
 ## names.
 
-# "hstripes" is an element made up of a red stripe at the bottom,
-# a green stripe in the middle and a blue stripe at the top.
+# "hstripes" is an element made up of a 7 stripes in spectrum color, with red on top and bottom.
 
 hstripes = PaintColrLayers(
     [
@@ -106,22 +122,22 @@ hstripes = PaintColrLayers(
             0, -G/2 + P/2, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(RED + OPAQUE)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(ORANGE + OPAQUE)))
+            slope, -G/2 + P/2 + P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(ORANGE + OPAQUE)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 2*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(YELLOW + OPAQUE)))
+            2*slope, -G/2 + P/2 + 2*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(YELLOW + OPAQUE)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 3*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(GREEN + OPAQUE)))
+            3*slope, -G/2 + P/2 + 3*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(GREEN + OPAQUE)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 4*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(BLUE + OPAQUE)))
+            4*slope, -G/2 + P/2 + 4*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(BLUE + OPAQUE)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 5*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(PURPLE + OPAQUE)))
+            5*slope, -G/2 + P/2 + 5*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(PURPLE + OPAQUE)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 6*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(RED + OPAQUE)))
+            6*slope, -G/2 + P/2 + 6*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(RED + OPAQUE)))
         ),
     ]
 )
@@ -131,22 +147,22 @@ hstripes_opaque = PaintColrLayers(
             0, -G/2 + P/2, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(RED + TRANSPARANT)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(ORANGE + TRANSPARANT)))
+            slope, -G/2 + P/2 + P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(ORANGE + TRANSPARANT)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 2*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(YELLOW + TRANSPARANT)))
+            2*slope, -G/2 + P/2 + 2*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(YELLOW + TRANSPARANT)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 3*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(GREEN + TRANSPARANT)))
+            3*slope, -G/2 + P/2 + 3*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(GREEN + TRANSPARANT)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 4*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(BLUE + TRANSPARANT)))
+            4*slope, -G/2 + P/2 + 4*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(BLUE + TRANSPARANT)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 5*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(PURPLE + TRANSPARANT)))
+            5*slope, -G/2 + P/2 + 5*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(PURPLE + TRANSPARANT)))
         ),
         PaintTranslate(
-            0, -G/2 + P/2 + 6*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(RED + TRANSPARANT)))
+            6*slope, -G/2 + P/2 + 6*P, PaintScale(LS, PaintGlyph(POST_FIX + "hstripe", PaintSolid(RED + TRANSPARANT)))
         ),
     ]
 )
@@ -196,7 +212,7 @@ vstripes_opaque = PaintColrLayers(
             -G/2 + P/2 + 5*P, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(PURPLE + TRANSPARANT)))
         ),
         PaintTranslate(
-            -G/2 + P/2 + 6*P, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(PURPLE + TRANSPARANT)))
+            -G/2 + P/2 + 6*P, 0, PaintScale(LS, PaintGlyph(POST_FIX + "vstripe", PaintSolid(RED + TRANSPARANT)))
         ),
     ]
 )
@@ -272,6 +288,28 @@ squares = PaintScale(
     ),
 )
 
+# Full colored squares
+squareLargeBlue = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "square_large", PaintLinearGradient((0, 0), (G/2, G/2), (0, G/2), BLUE_RANGE)),
+    ]
+)
+squareLargeRed = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "square_large", PaintSolid(RED + OPAQUE)),
+    ]
+)
+squareLargeYellow = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "square_large", PaintSolid(YELLOW + OPAQUE)),
+    ]
+)
+squareLargeGreen = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "square_large", PaintSolid(GREEN + OPAQUE)),
+    ]
+)
+
 chesssquare = PaintColrLayers(
     [   
         PaintGlyph(POST_FIX + "chesssquare", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)),
@@ -299,12 +337,33 @@ circles = PaintColrLayers(
 )
 diamond = PaintColrLayers(
     [   
-        PaintGlyph(POST_FIX + "diamonds", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)),
+        PaintGlyph(POST_FIX + "diamond", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)),
     ]
 )
 star = PaintColrLayers(
     [   
         PaintGlyph(POST_FIX + "star", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)),
+    ]
+)
+
+circleLargeBlue = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "circle_large", PaintSolid(BLUE + OPAQUE)),
+    ]
+)
+circleLargeRed = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "circle_large", PaintSolid(RED + OPAQUE)),
+    ]
+)
+circleLargeYellow = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "circle_large", PaintSolid(YELLOW + OPAQUE)),
+    ]
+)
+circleLargeGreen = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "circle_large", PaintSolid(GREEN + OPAQUE)),
     ]
 )
 
@@ -324,6 +383,96 @@ circle2 = PaintGlyph(
 #circle3 = PaintGlyph(
 #    POST_FIX + "circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS2)
 #)
+
+triangleLargeBlue = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "triangle", PaintSolid(BLUE + OPAQUE)),
+    ]
+)
+triangleLargeRed = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "triangle", PaintSolid(RED + OPAQUE)),
+    ]
+)
+triangleLargeYellow = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "triangle", PaintSolid(YELLOW + OPAQUE)),
+    ]
+)
+triangleLargeGreen = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "triangle", PaintSolid(GREEN + OPAQUE)),
+    ]
+)
+
+diamondLargeBlue = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "diamond", PaintSolid(BLUE + OPAQUE)),
+    ]
+)
+diamondLargeRed = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "diamond", PaintSolid(RED + OPAQUE)),
+    ]
+)
+diamondLargeYellow = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "diamond", PaintSolid(YELLOW + OPAQUE)),
+    ]
+)
+diamondLargeGreen = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "diamond", PaintSolid(GREEN + OPAQUE)),
+    ]
+)
+
+starLargeBlue = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "star", PaintSolid(BLUE + OPAQUE)),
+    ]
+)
+starLargeRed = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "star", PaintSolid(RED + OPAQUE)),
+    ]
+)
+starLargeYellow = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "star", PaintSolid(YELLOW + OPAQUE)),
+    ]
+)
+starLargeGreen = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "star", PaintSolid(GREEN + OPAQUE)),
+    ]
+)
+
+fiveCircles = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "five_circles", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS1)),
+    ]
+)
+fiveCirclesBlue = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "five_circles", PaintSolid(BLUE + OPAQUE)),
+    ]
+)
+fiveCirclesRed = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "five_circles", PaintSolid(RED + OPAQUE)),
+    ]
+)
+fiveCirclesYellow = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "five_circles", PaintSolid(YELLOW + OPAQUE)),
+    ]
+)
+fiveCircleGreen = PaintColrLayers(
+    [   
+        PaintGlyph(POST_FIX + "five_circles", PaintSolid(GREEN + OPAQUE)),
+    ]
+)
+
 
 
 linear_box1 = PaintGlyph(
@@ -378,44 +527,78 @@ concentric_boxes2 = PaintColrLayers(
 # Now we make the background layer, by transforming those elements into place in a grid
 layer1 = PaintColrLayers(
     [
-        PaintTranslate(-2*G + P/2, 2*G + P/2, raster),
-        PaintTranslate(-G + P/2, 2*G + P/2, zigzag),
-        PaintTranslate(P/2, 2*G + P/2, squares2),
-        PaintTranslate(G + P/2, 2*G + P/2, vzigzag),
-        PaintTranslate(2*G + P/2, 2*G + P/2, chesssquare),
+        # Dark background for background layer
 
-        PaintTranslate(-2*G + P/2, G + P/2, raster),
-        PaintTranslate(-G + P/2, G + P/2, diamond),
-        PaintTranslate(P/2, G + P/2, chesssquare),
-        PaintTranslate(G + P/2, G + P/2, circles),
-        PaintTranslate(2*G + P/2, G + P/2, raster),
+        PaintTranslate(2*G + P/2, -2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid(BLACK + OPAQUE))),
+        PaintTranslate(G + P/2, -2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid(BLACK + OPAQUE))),
+        PaintTranslate( + P/2, -2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid(BLACK + OPAQUE))),
+        PaintTranslate(-G + P/2, -2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid(BLACK + OPAQUE))),
+        PaintTranslate(-2*G + P/2, -2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid(BLACK + OPAQUE))),
+
+        PaintTranslate(2*G + P/2, -G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#222222" + OPAQUE))),
+        PaintTranslate(G + P/2, -G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#222222" + OPAQUE))),
+        PaintTranslate( + P/2, -G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#222222" + OPAQUE))),
+        PaintTranslate(-G + P/2, -G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#222222" + OPAQUE))),
+        PaintTranslate(-2*G + P/2, -G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#222222" + OPAQUE))),
+
+        PaintTranslate(2*G + P/2, P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#444444" + OPAQUE))),
+        PaintTranslate(G + P/2,  P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#444444" + OPAQUE))),
+        PaintTranslate(P/2 + P/2, P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#444444" + OPAQUE))),
+        PaintTranslate(-G + P/2, P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#444444" + OPAQUE))),
+        PaintTranslate(-2*G + P/2, P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#444444" + OPAQUE))),
+
+        PaintTranslate(2*G + P/2, G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#666666" + OPAQUE))),
+        PaintTranslate(G + P/2, G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#666666" + OPAQUE))),
+        PaintTranslate(P/2, G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#666666" + OPAQUE))),
+        PaintTranslate(-G + P/2, G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#666666" + OPAQUE))),
+        PaintTranslate(-2*G + P/2, G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#666666" + OPAQUE))),
+
+        PaintTranslate(2*G + P/2, 2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#888888" + OPAQUE))),
+        PaintTranslate(G + P/2, 2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#888888" + OPAQUE))),
+        PaintTranslate(P/2, 2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#888888" + OPAQUE))),
+        PaintTranslate(-G + P/2, 2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#888888" + OPAQUE))),
+        PaintTranslate(-2*G + P/2, 2*G + P/2, PaintGlyph(POST_FIX + "square_large", PaintSolid("#888888" + OPAQUE))),
+
+        # Background cells
+
+        PaintTranslate(-2*G + P/2 + so2, 2*G + P/2, squareLargeBlue),
+        PaintTranslate(-G + P/2 + so2, 2*G + P/2, zigzag),
+        PaintTranslate(P/2 + so2, 2*G + P/2, squares2),
+        PaintTranslate(G + P/2 + so2, 2*G + P/2, vzigzag),
+        PaintTranslate(2*G + P/2 + so2, 2*G + P/2, squareLargeRed),
+
+        PaintTranslate(-2*G + P/2 + so1, G + P/2, raster),
+        PaintTranslate(-G + P/2 + so1, G + P/2, diamond),
+        PaintTranslate(P/2 + so1, G + P/2, chesssquare),
+        PaintTranslate(G + P/2 + so1, G + P/2, circles),
+        PaintTranslate(2*G + P/2 + so1, G + P/2, raster),
 
         PaintTranslate(-2*G + P/2, P/2, circle1),
         PaintTranslate(-G + P/2, P/2, circles),
-        PaintTranslate(P/2, P/2, five),
+        PaintTranslate(P/2, P/2, fiveCircles),
         PaintTranslate(G + P/2, P/2, diamond),
         PaintTranslate(2*G + P/2, P/2, star),
         
-        PaintTranslate(-2*G + P/2, -G + P/2, circles),
-        PaintTranslate(-G + P/2, -G + P/2, raster),
-        PaintTranslate(P/2, -G + P/2, star),
-        PaintTranslate(G + P/2, -G + P/2, chesssquare),
-        PaintTranslate(2*G + P/2, -G + P/2, squares),
+        PaintTranslate(-2*G + P/2 - so1, -G + P/2, circles),
+        PaintTranslate(-G + P/2 - so1, -G + P/2, raster),
+        PaintTranslate(P/2 - so1, -G + P/2, star),
+        PaintTranslate(G + P/2 - so1, -G + P/2, chesssquare),
+        PaintTranslate(2*G + P/2 - so1, -G + P/2, squares),
 
-        PaintTranslate(-2*G + P/2, -2*G + P/2, zigzag),
-        PaintTranslate(-G + P/2, -2*G + P/2, hstripes),
-        PaintTranslate(P/2, -2*G + P/2, raster),
-        PaintTranslate(G + P/2, -2*G + P/2, vstripes),
-        PaintTranslate(2*G + P/2, -2*G + P/2, vzigzag),
+        PaintTranslate(-2*G + P/2 - so2, -2*G + P/2, squareLargeYellow),
+        PaintTranslate(-G + P/2 - so2, -2*G + P/2, hstripes),
+        PaintTranslate(P/2 - so2, -2*G + P/2, raster),
+        PaintTranslate(G + P/2 - so2, -2*G + P/2, vstripes),
+        PaintTranslate(2*G + P/2 - so2, -2*G + P/2, squareLargeGreen),
     ]
 )
 
 # The layer now gets shifted and scaled based on the value of the
 # BG-X/BG-Y/BG-S coords
 scale_factor1 = {
-    (("BG-S", SMIN),): 1, # Smallest scale of the background, ensures that there never will be all white pixels
+    (("BG-S", SMIN),): 0.85, # Smallest scale of the background, ensures that there never will be all white pixels
     (("BG-S", SDEF),): 1, 
-    (("BG-S", SMAX),): 20, # Arbitrary enlargement factor.
+    (("BG-S", SMAX),): 10, # Arbitrary enlargement factor.
 }
 # Position of the pixels in normal glyphs
 x_pixel1 = {
@@ -448,43 +631,44 @@ layer1_canvas = PaintTranslate(
 )
 
 # Same deal for foreground layer
+# And the slant offset to the X, in case the font is slanted.
 layer2 = PaintColrLayers(
     [
-        PaintTranslate(-2*G + P/2, 2*G + P/2, raster),
-        PaintTranslate(-G + P/2, 2*G + P/2, zigzag),
-        PaintTranslate(P/2, 2*G + P/2, squares2),
-        PaintTranslate(G + P/2, 2*G + P/2, vzigzag),
-        PaintTranslate(2*G + P/2, 2*G + P/2, chesssquare),
+        PaintTranslate(-2*G + P/2 + so2, 2*G + P/2, squareLargeBlue),
+        PaintTranslate(-G + P/2 + so2, 2*G + P/2, circleLargeRed),
+        PaintTranslate(P/2 + so2, 2*G + P/2, fiveCircles),
+        PaintTranslate(G + P/2 + so2, 2*G + P/2, circleLargeBlue),
+        PaintTranslate(2*G + P/2 + so2, 2*G + P/2, squareLargeRed),
 
-        PaintTranslate(-2*G + P/2, G + P/2, vstripes_opaque),
-        PaintTranslate(-G + P/2, G + P/2, vstripes_opaque),
-        PaintTranslate(P/2, G + P/2, chesssquare),
-        PaintTranslate(G + P/2, G + P/2, hstripes_opaque),
-        PaintTranslate(2*G + P/2, G + P/2, hstripes_opaque),
+        PaintTranslate(-2*G + P/2 + so1, G + P/2, triangleLargeYellow),
+        PaintTranslate(-G + P/2 + so1, G + P/2, vstripes_opaque),
+        PaintTranslate(P/2 + so1, G + P/2, chesssquare),
+        PaintTranslate(G + P/2 + so1, G + P/2, hstripes_opaque),
+        PaintTranslate(2*G + P/2 + so1, G + P/2, triangleLargeGreen),
 
-        PaintTranslate(-2*G + P/2, P/2, vzigzag),
-        PaintTranslate(-G + P/2, P/2, vzigzag),
+        PaintTranslate(-2*G + P/2, P/2, fiveCirclesBlue),
+        PaintTranslate(-G + P/2, P/2, diamondLargeBlue),
         PaintTranslate(P/2, P/2, circle2),
-        PaintTranslate(G + P/2, P/2, zigzag),
-        PaintTranslate(2*G + P/2, P/2, zigzag),
+        PaintTranslate(G + P/2, P/2, starLargeRed),
+        PaintTranslate(2*G + P/2, P/2, fiveCirclesRed),
         
-        PaintTranslate(-2*G + P/2, -G + P/2, vstripes_opaque),
-        PaintTranslate(-G + P/2, -G + P/2, vstripes_opaque),
-        PaintTranslate(P/2, -G + P/2, chesssquare),
-        PaintTranslate(G + P/2, -G + P/2, hstripes_opaque),
-        PaintTranslate(2*G + P/2, -G + P/2, hstripes_opaque),
+        PaintTranslate(-2*G + P/2 - so1, -G + P/2, triangleLargeBlue),
+        PaintTranslate(-G + P/2 - so1, -G + P/2, vzigzag),
+        PaintTranslate(P/2 - so1, -G + P/2, chesssquare),
+        PaintTranslate(G + P/2 - so1, -G + P/2, zigzag),
+        PaintTranslate(2*G + P/2 - so1, -G + P/2, triangleLargeRed),
 
-        PaintTranslate(-2*G + P/2, -2*G + P/2, zigzag),
-        PaintTranslate(-G + P/2, -2*G + P/2, hstripes),
-        PaintTranslate(P/2, -2*G + P/2, raster),
-        PaintTranslate(G + P/2, -2*G + P/2, vstripes),
-        PaintTranslate(2*G + P/2, -2*G + P/2, vzigzag),
+        PaintTranslate(-2*G + P/2 - so2, -2*G + P/2, squareLargeYellow),
+        PaintTranslate(-G + P/2 - so2, -2*G + P/2, circleLargeGreen),
+        PaintTranslate(P/2 - so2, -2*G + P/2, raster),
+        PaintTranslate(G + P/2 - so2, -2*G + P/2, circleLargeYellow),
+        PaintTranslate(2*G + P/2 - so2, -2*G + P/2, squareLargeGreen),
     ]
 )
 scale_factor2 = {
     (("FG-S", SMIN),): 0, # Allow foreground layer scaling to 0
-    (("FG-S", SDEF),): 1, # Default foreground layer is 100% of pixel (100 Em-units)
-    (("FG-S", SMAX),): 20, # Arbitrary enlargement scale
+    (("FG-S", SDEF),): 0.5, # Default foreground layer is 100% of pixel (100 Em-units)
+    (("FG-S", SMAX),): 10, # Arbitrary enlargement scale
 }
 # Position of the pixels in normal glyphs
 x_pixel2 = {
@@ -530,7 +714,7 @@ layer2_canvas = PaintTranslate(
 def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2): #, layer3):
     layers = []
     for x, y in pixelPositions:
-        layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer1))) # Background
+        #layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer1))) # Background
         layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer2))) # Foreground
     return PaintColrLayers(layers)
 

@@ -2,34 +2,34 @@
 <glyph name="zigzag" format="2">
   <outline>
     <contour>
-      <point x="-250" y="-150" type="line"/>
-      <point x="-250" y="-250" type="line"/>
-      <point x="250" y="-250" type="line"/>
-      <point x="250" y="-150" type="line"/>
+      <point x="-350" y="-250" type="line"/>
+      <point x="-350" y="-350" type="line"/>
+      <point x="350" y="-350" type="line"/>
+      <point x="350" y="-250" type="line"/>
     </contour>
     <contour>
-      <point x="-250" y="50" type="line"/>
-      <point x="-250" y="-50" type="line"/>
-      <point x="250" y="-50" type="line"/>
-      <point x="250" y="50" type="line"/>
+      <point x="-350" y="50" type="line"/>
+      <point x="-350" y="-50" type="line"/>
+      <point x="350" y="-50" type="line"/>
+      <point x="350" y="50" type="line"/>
     </contour>
     <contour>
-      <point x="-250" y="250" type="line"/>
-      <point x="-250" y="150" type="line"/>
-      <point x="250" y="150" type="line"/>
-      <point x="250" y="250" type="line"/>
+      <point x="-350" y="350" type="line"/>
+      <point x="-350" y="250" type="line"/>
+      <point x="350" y="250" type="line"/>
+      <point x="350" y="350" type="line"/>
     </contour>
     <contour>
-      <point x="-250" y="-150" type="line"/>
-      <point x="-250" y="-250" type="line"/>
-      <point x="250" y="-50" type="line"/>
-      <point x="250" y="50" type="line"/>
+      <point x="-350" y="-226" type="line"/>
+      <point x="-350" y="-318" type="line"/>
+      <point x="350" y="-74" type="line"/>
+      <point x="350" y="18" type="line"/>
     </contour>
     <contour>
-      <point x="-250" y="50" type="line"/>
-      <point x="-250" y="-50" type="line"/>
-      <point x="250" y="150" type="line"/>
-      <point x="250" y="250" type="line"/>
+      <point x="-350" y="74" type="line"/>
+      <point x="-350" y="-18" type="line"/>
+      <point x="350" y="226" type="line"/>
+      <point x="350" y="318" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -12,7 +12,8 @@ from scriptsLib import *
 from scriptsLib.glyphData import PIXEL_DATA, DEFAULT_PIXEL_NAME # Data of all pixel glyphs
 from scriptsLib.masterData import MASTERS_DATA
 
-BUILD = 9
+ITALIC_ANGLE = -7.9696100000 # Italic angle to make exact 14:100 ratio.
+BUILD = 11
 
 def getMasterName(md, pd):
     """Calculate the master name from the master data and pixel data location."""
@@ -48,9 +49,10 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
 
     # Copy pixels from this UFO.
     pixels = openFont(UFO_PATH + VARIATION_PIXELS)
-    # Copy elements from this UFO.
-    elements: ufoLib2.Font = openFont(UFO_PATH + LAYER_ELEMENTS)
-    elementsItalic: ufoLib2.Font = openFont(UFO_PATH + LAYER_ELEMENTS_ITALIC)
+    # Copy COLRv1 mask elements from this UFO.
+    #elements: ufoLib2.Font = openFont(UFO_PATH + LAYER_ELEMENTS)
+    elements = openFont(UFO_PATH + LAYER_ELEMENTS)
+    elementsItalic = openFont(UFO_PATH + LAYER_ELEMENTS_ITALIC)
 
     # Open the pixel font, as lead for the masters that need to be generated.
     masterName = dsParams['masterName']
@@ -81,15 +83,18 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
+            # Copy the COLRv1 mask pixel glyphs. Roman and italic pixels get copied from their own element source.
             # If this is the default instance, we add the elements too
-            if pd.is_default or dst.info.italicAngle:
-                if dst.info.italicAngle:
+            dst.info.italicAngle = 0 # Set default angle
+            if pd.is_default or pd.slnt:
+                if pd.slnt:
+                    dst.info.italicAngle = ITALIC_ANGLE 
                     eFont = elementsItalic
                 else:
                     eFont = elements
-                for elementGlyph in eFont:
-                    print('... Copy element', elementGlyph.name,'to', POST_FIX+elementGlyph.name)
-                    copyGlyph(elements, elementGlyph.name, dst, POST_FIX+elementGlyph.name)
+                for elementName in eFont.keys():
+                    print('... Copy element', elementName,'to', POST_FIX+elementName)
+                    copyGlyph(eFont, elementName, dst, POST_FIX+elementName)
             dst.save(dstPath, overwrite=True)
             dst.close()
 

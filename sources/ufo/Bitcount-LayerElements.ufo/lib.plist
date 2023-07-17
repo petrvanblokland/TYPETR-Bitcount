@@ -36,9 +36,12 @@
       <string>raster</string>
       <string>chesssquare</string>
       <string>circles</string>
-      <string>five</string>
+      <string>five_circles</string>
       <string>diamond</string>
       <string>star</string>
+      <string>triangle</string>
+      <string>_canvas</string>
+      <string>canvas</string>
     </array>
   </dict>
 </plist>
