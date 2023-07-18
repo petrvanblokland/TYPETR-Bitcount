@@ -714,7 +714,7 @@ layer2_canvas = PaintTranslate(
 def buildPixelGlyph(pixelGlyphName, pixelPositions, layer1, layer2): #, layer3):
     layers = []
     for x, y in pixelPositions:
-        #layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer1))) # Background
+        layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer1))) # Background
         layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer2))) # Foreground
     return PaintColrLayers(layers)
 
