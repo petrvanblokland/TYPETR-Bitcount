@@ -50,8 +50,8 @@ VF_PATH = 'variable_ttf/' # vf/
 DESIGNSPACE_TEMPLATE_PATH = 'Bitcount_Template.designspace'
 
 # Source UFO that contains all separate black pixel shapes.
-#VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
-VARIATION_PIXELS = 'Bitcount-VariationPixelsQ.ufo' # QUadratic curves in pixels
+VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
+#VARIATION_PIXELS = 'Bitcount-VariationPixelsQ.ufo' # Quadratic curves in pixels
 
 # Source UFO that contains all colour layer "elements"
 LAYER_ELEMENTS = 'Bitcount-LayerElements.ufo'

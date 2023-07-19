@@ -83,6 +83,12 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
+            #if pd.slnt:
+            #    copyGlyph(pixels, '_canvas_i', dst, '_canvas')
+            #    copyGlyph(pixels, 'canvas_i', dst, 'canvas')
+            #else:
+            #    copyGlyph(pixels, '_canvas', dst, '_canvas')
+            #    copyGlyph(pixels, 'canvas', dst, 'canvas')
             # Copy the COLRv1 mask pixel glyphs. Roman and italic pixels get copied from their own element source.
             # If this is the default instance, we add the elements too
             dst.info.italicAngle = 0 # Set default angle

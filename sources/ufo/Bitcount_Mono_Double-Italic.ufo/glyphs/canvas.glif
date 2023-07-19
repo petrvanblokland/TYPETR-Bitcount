@@ -3,5 +3,6 @@
   <advance width="1000"/>
   <outline>
     <component base="_canvas"/>
+    <component base="px" xOffset="464" yOffset="100"/>
   </outline>
 </glyph>

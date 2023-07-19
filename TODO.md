@@ -1,11 +1,22 @@
 # TYPETR-Bitcount TODO
 
+
 ## TODO
 
-* **Needs some working with Simon** Decide on final color pixel types (design and layers) to show COLRv1 functions 
-* **Petr doing** Make a VF with one layer first, to understand the relation on scaling and gradient positions.
-* **Need input from Google** Decide on axis names for the main design space. 
+* **Petr doing** Some solid color elements in both layers should still get some gradient and some minor adjustments to elements when there is slant. For the rest I think we are done.
+* **Need input from Google** Decide on axis names for the main design space: 4 main axes and 6 color axes.
 * ** Petr doing** Merge the test VF design space with the main Bitcount design spaces and build new VF. 
+* **Editorial checks from Google?** The “manual” document is in documentation/Bitcountreference.md which exports into documentation/BitcountReference.pdf. This document has a download link on the site.
+* **Petr doing, once the VF is running** Add more example images for documentation to generate BitcountReference.pdf, also including the latest state for COLRv1 examples.
+* **Petr doing, once the VF is running** Implement COLv1 VF examples with additional layers and axes.
+* **Petr doing, once the VF is running** Make Github repository public and start the website from there. 
+* **Petr doing** Add comments to code about building and structure with COLRv1 layers.
+
+## DONE
+
+* **Aligning the /canvas with the actual shape of the pixels, cut from the layer size/position.**
+* **DONE Needs some working with Simon** Decide on final color pixel types (design and layers) to show COLRv1 functions. ** This works great now, with very rapid compilation, thanks to Simon**
+* **DONE** Make a VF with one layer first, to understand the relation on scaling and gradient positions.
 * **DONE** Since the Bitcount-Bold has overlapping pixels (which is not visible in monochrome colors) needs to be sorted in the base masters in order to achieve a more consistent pattern inside letters. Now the order of the pixel components it random from copy/paste in the past. 
 * **DONE** Rewrite the *build.py* using plain fontmake instead of the current FontProject. 
 * **DONE** Generate all 6 standard VF (mono width black pixels only), including the COLRv1 axes.
@@ -17,14 +28,11 @@
 	* Bitcount Prop Single
 * **Petr doing** Generate all instances font files in *otf/* and *ttf/*
 * **DONE. Needs editorial input from Google?** Adapt the website to include COLRv1 examples.
-* **Editorial checks from Google?** The “manual” document is in documentation/Bitcountreference.md which exports into documentation/BitcountReference.pdf. This document has a download link on the site.
-* **Petr doing, once the VF is running** Add more example images for documentation to generate BitcountReference.pdf, also including the latest state for COLRv1 examples.
-* **Petr doing, once the VF is running** Implement COLv1 VF examples with additional layers and axes.
 
-*  **Petr doing, once the VF is running** Make Github repository public and start the website from there. 
 
 ## Nice to have
 
+* An online editor to move/scale the two layers interactively?
 * Add Bitcount outline masters.
 
 ## Committed

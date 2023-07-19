@@ -64,8 +64,7 @@
       <string>diamond</string>
       <string>star</string>
       <string>triangle</string>
-      <string>canvas</string>
-      <string>_canvas</string>
+      <string>vtriangle</string>
     </array>
   </dict>
 </plist>
