@@ -8,6 +8,9 @@
 #
 #
 import os
+import sys
+
+sys.path.append(".")
 
 from scriptsLib.make import *
 
@@ -63,9 +66,9 @@ for dsName, dsParams in DESIGN_SPACES.items():
     if MAKE_VF:
         print('--- Make variable fonts')
         # Compile calibrated UFOs masters/ into vf/ variable font
-        if not os.path.exists('vf'):
-            os.system('mkdir vf')
-        vfPath = 'vf/' + dsName.replace('.designspace', '-%03d.ttf' % BUILD)
+        if not os.path.exists(VF_PATH):
+            os.makedirs(VF_PATH)
+        vfPath = VF_PATH + dsName.replace('.designspace', '-%03d.ttf' % BUILD)
         cmd = 'fontmake -o variable -m %s --output-path %s' % (dsName, vfPath)
         print('...', cmd)
         os.system(cmd)
@@ -77,7 +80,7 @@ for dsName, dsParams in DESIGN_SPACES.items():
                 cmd += ' --no-production-names'
             print('---', cmd)
             print('--- Fixing TTF name tables')
-            fixTTFNameTables('vf/', NAME_TABLES)
+            fixTTFNameTables(VF_PATH, NAME_TABLES)
             os.system(cmd)
 
             cmd = 'statmake --designspace %s --stylespace %s %s' % (dsName, STYLE_SPACE, vfPath)
@@ -86,7 +89,7 @@ for dsName, dsParams in DESIGN_SPACES.items():
                 os.system(cmd)
 
     if ADD_COLRV1:
-        vfPath = 'vf/' + dsName.replace('.designspace', '-%03d.ttf' % BUILD)
+        vfPath = VF_PATH + dsName.replace('.designspace', '-%03d.ttf' % BUILD)
         print('... Add COLRv1 to', vfPath)
         addCOLRv1toVF(vfPath)
 

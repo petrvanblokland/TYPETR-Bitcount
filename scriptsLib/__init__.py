@@ -23,10 +23,10 @@ SINGLE = 'Single'
 DOUBLE = 'Double'
 STEMS = (SINGLE, DOUBLE)
 
-UFO_PATH = 'ufo/'
-UFO_TEST_PATH = 'ufo-test/' # Subset masters with only a couply of glyphs for fast test compiling
-FEATURES_PATH = 'features/'
-MASTERS_PATH = '_masters/' # Gitignore, not committing into Github
+UFO_PATH = 'sources/ufo/'
+UFO_TEST_PATH = 'sources/ufo-test/' # Subset masters with only a couply of glyphs for fast test compiling
+FEATURES_PATH = 'sources/features/'
+MASTERS_PATH = 'sources/build/' # Gitignore, not committing into Github
 
 MASTERS_GRID_SINGLE_PATH = f'{MASTERS_PATH}{GRID}-{SINGLE}/'
 MASTERS_GRID_DOUBLE_PATH = f'{MASTERS_PATH}{GRID}-{DOUBLE}/'
@@ -45,9 +45,9 @@ MASTER_PATHS = (
 #MASTERS_COLG_PROP_PATH = MASTERS_PATH + 'propCOLG/'
 #MASTER_COLG_PATHS = (MASTERS_COLG_GRID_PATH, MASTERS_COLG_MONO_PATH, MASTERS_COLG_PROP_PATH)
 
-VF_PATH = 'variable_ttf/' # vf/
+VF_PATH = 'fonts/ttf/variable/' # vf/
 
-DESIGNSPACE_TEMPLATE_PATH = 'Bitcount_Template.designspace'
+DESIGNSPACE_TEMPLATE_PATH = 'sources/Bitcount_Template.designspace'
 
 # Source UFO that contains all separate black pixel shapes.
 VARIATION_PIXELS = 'Bitcount-VariationPixels.ufo'
