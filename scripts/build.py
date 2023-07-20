@@ -8,6 +8,7 @@
 #
 #
 import os
+import subprocess
 import sys
 
 sys.path.append(".")
@@ -37,14 +38,17 @@ else:
     ADD_COLRV1 = True
     USE_PRODUCTION_NAMES = False
 
+processes = {}
+
 for dsName, dsParams in DESIGN_SPACES.items():
     print('---', dsName)
+    dsPath = os.path.join(MASTERS_PATH, dsName)
 
     if MAKE_DESIGNSPACES:
         # For all 6 design spaces, generate the OTF/TTF/VF
         # Auto generate the design space file for this variant.
         # This is fast, we can always do all of them.
-        makeDesignSpaceFile(dsName, dsParams)
+        makeDesignSpaceFile(dsPath, dsParams)
 
     if dsName not in [
         'Bitcount_Grid_Single4.designspace',
@@ -63,36 +67,38 @@ for dsName, dsParams in DESIGN_SPACES.items():
         # right file name based on location  and variant
         copyMasters(dsName, dsParams, SUBSET_AS_TEST)
 
+    axis_suffix = ",".join(MONO_AXES)
+    vfPath = VF_PATH + dsName.replace('.designspace', f'[{axis_suffix}].ttf')
+
     if MAKE_VF:
         print('--- Make variable fonts')
         # Compile calibrated UFOs masters/ into vf/ variable font
         if not os.path.exists(VF_PATH):
             os.makedirs(VF_PATH)
-        vfPath = VF_PATH + dsName.replace('.designspace', '-%03d.ttf' % BUILD)
-        cmd = 'fontmake -o variable -m %s --output-path %s' % (dsName, vfPath)
-        print('...', cmd)
-        os.system(cmd)
-        
-        if 0:
-            if USE_PRODUCTION_NAMES:
-                cmd += ' --use_production_names'
-            else:
-                cmd += ' --no-production-names'
-            print('---', cmd)
-            print('--- Fixing TTF name tables')
-            fixTTFNameTables(VF_PATH, NAME_TABLES)
-            os.system(cmd)
-
-            cmd = 'statmake --designspace %s --stylespace %s %s' % (dsName, STYLE_SPACE, vfPath)
-            print('...', cmd)
-            if MAKE_STAT:
-                os.system(cmd)
+        cmd = [
+            "fontmake",
+            "-o", "variable",
+            "-m", dsPath,
+            '--output-path', vfPath
+        ]
+        print('...', " ".join(cmd))
+        subprocess.run(cmd, check=True)
 
     if ADD_COLRV1:
-        vfPath = VF_PATH + dsName.replace('.designspace', '-%03d.ttf' % BUILD)
-        print('... Add COLRv1 to', vfPath)
-        addCOLRv1toVF(vfPath)
+        axis_suffix = ",".join(MONO_AXES + COLOR_AXES)
+        colorPath = VF_PATH + dsName.replace('.designspace', f'-Color[{axis_suffix}].ttf')
 
+        print('... Add COLRv1 to', vfPath)
+        # Run in the background, so we can get on with other stuff
+        process = addCOLRv1toVF(vfPath, colorPath)
+        processes[process.pid] = process
+
+print("Waiting for %d processes..." % len(processes))
+while processes:
+    pid, status = os.wait()
+    if pid in processes:
+        del processes[pid]
+        print("Waiting for %d processes..." % len(processes))
 print('Done')
 
 

@@ -5,6 +5,7 @@
 import os, shutil
 import codecs
 import ufoLib2
+import subprocess
 
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
@@ -99,7 +100,7 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
                 else:
                     eFont = elements
                 for elementName in eFont.keys():
-                    print('... Copy element', elementName,'to', POST_FIX+elementName)
+                    # print('... Copy element', elementName,'to', POST_FIX+elementName)
                     copyGlyph(eFont, elementName, dst, POST_FIX+elementName)
             dst.save(dstPath, overwrite=True)
             dst.close()
@@ -245,7 +246,7 @@ def makeDesignSpaceFile(dsName, dsParams):
                         info = '<info copy="1"/>'
                     else: 
                         info = ''
-                    path = f'_masters/{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_OPEN{OPEN}_SHPE{SHPE}_slnt{slnt}.ufo'
+                    path = f'{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_OPEN{OPEN}_SHPE{SHPE}_slnt{slnt}.ufo'
 
                     axisParams['sources'] += f"""
         <source familyname="Bitcount {variant} {stem}" 
@@ -268,16 +269,19 @@ def makeDesignSpaceFile(dsName, dsParams):
     fds.write(xml)
     fds.close()
 
-def addCOLRv1toVF(vfPath):
-    dstPath = vfPath.replace('.ttf', '_COLRv1.ttf')
+def addCOLRv1toVF(vfPath, dstPath):
     print('--- Adding COLORv1 pixels to', dstPath)
-    cmd = (f'paintcompiler -o {dstPath} '
-           f'--add-axis BG-S:{SMIN}:{SDEF}:{SMAX}:Background-Scale '
-           f'--add-axis BG-X:{LMIN}:{LDEF}:{LMAX}:Background-X '
-           f'--add-axis BG-Y:{LMIN}:{LDEF}:{LMAX}:Background-Y '
-           f'--add-axis FG-S:{SMIN}:{SDEF}:{SMAX}:Foreground-Scale '
-           f'--add-axis FG-X:{LMIN}:{LDEF}:{LMAX}:Foreground-X '
-           f'--add-axis FG-Y:{LMIN}:{LDEF}:{LMAX}:Foreground-Y '
-           '--paints scriptsLib/colrv1.py '+vfPath)
-    print(cmd)
-    os.system(cmd)
+    cmd = [
+        'paintcompiler',
+        '-o', dstPath,
+       '--add-axis', f'BG-S:{SMIN}:{SDEF}:{SMAX}:Background-Scale',
+       '--add-axis', f'BG-X:{LMIN}:{LDEF}:{LMAX}:Background-X',
+       '--add-axis', f'BG-Y:{LMIN}:{LDEF}:{LMAX}:Background-Y',
+       '--add-axis', f'FG-S:{SMIN}:{SDEF}:{SMAX}:Foreground-Scale',
+       '--add-axis', f'FG-X:{LMIN}:{LDEF}:{LMAX}:Foreground-X',
+       '--add-axis', f'FG-Y:{LMIN}:{LDEF}:{LMAX}:Foreground-Y',
+       '--paints', 'scriptsLib/colrv1.py'
+       ,vfPath
+    ]
+    print(" ".join(cmd))
+    return subprocess.Popen(cmd)

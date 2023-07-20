@@ -149,3 +149,5 @@ OPEN_MIN, OPEN_DEF, OPEN_MAX = OPEN_AXIS = (CLOSED_QUAD, CLOSED_QUAD, OPEN_QUAD)
 SHPE_MIN, SHPE_DEF, SHPE_MAX = SHPE_AXIS = (0, 0, 1000) # Catalog of a sequence of pixel variations
 slnt_MIN, slnt_DEF, slnt_MAX = slnt_AXIS = (ROMAN, ROMAN, ITALIC) # Slant angle
 
+MONO_AXES = ["wght", "OPEN", "SHPE", "slnt"]
+COLOR_AXES = ["BG-S", "BG-X", "BG-Y", "FG-S", "FG-X", "FG-Y"]
