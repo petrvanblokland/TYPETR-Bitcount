@@ -67,7 +67,12 @@ This directary contains all UFO sources, build scripts and design space file, th
 
 ~~~
 
-Bitcount_Grid_Double4-COLRv1.designspaceBitcount_Grid_Single4-COLRv1.designspaceBitcount_Mono_Double4-COLRv1.designspaceBitcount_Mono_Single4-COLRv1.designspaceBitcount_Prop_Double4-COLRv1.designspaceBitcount_Prop_Single4-COLRv1.designspace
+Bitcount_Grid_Double4-COLRv1.designspace
+Bitcount_Grid_Single4-COLRv1.designspace
+Bitcount_Mono_Double4-COLRv1.designspace
+Bitcount_Mono_Single4-COLRv1.designspace
+Bitcount_Prop_Double4-COLRv1.designspace
+Bitcount_Prop_Single4-COLRv1.designspace
 
 ~~~
 
