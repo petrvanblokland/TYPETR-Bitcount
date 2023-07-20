@@ -15,7 +15,7 @@ build: build.stamp
 
 venv: venv/touchfile
 
-build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
+build.stamp: venv .init.stamp sources/config.yaml
 	. venv/bin/activate; rm -rf fonts/; python3 scripts/build.py
 
 .init.stamp: venv
