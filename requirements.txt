@@ -21,13 +21,14 @@ dehinter==4.0.0
 font-v==2.1.0
 fontbakery==0.8.13
 fontFeatures==1.8.0
-fontmake==3.6.1
+fontmake==3.5.1
 fontMath==0.9.3
 fontParts==0.11.0
 fontPens==0.2.4
 fonttools==4.41.0
 fs==2.4.16
 gflanguages==0.8.9
+gftools==0.9.32
 gitdb==4.0.10
 GitPython==3.1.32
 glyphsets==0.6.2
@@ -54,6 +55,7 @@ PyYAML==6.0.1
 requests==2.31.0
 rich==13.4.2
 rstr==3.2.1
+sh==2.0.4
 six==1.16.0
 skia-pathops==0.8.0
 smmap==5.0.0
@@ -64,7 +66,7 @@ stringbrewer==0.0.1
 toml==0.10.2
 tqdm==4.65.0
 ttfautohint-py==0.5.1
-ufo2ft==2.32.0
+ufo2ft==2.30.0
 ufoLib2==0.14.0
 ufolint==1.2.0
 uharfbuzz==0.37.1.post1
