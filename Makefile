@@ -36,8 +36,8 @@ proof: venv build.stamp
 	python3 $< --output $@
 
 clean:
-	rm -rf venv
-	find . -name "*.pyc" | xargs rm delete
+	rm -rf venv build.stamp
+	find . -name "*.pyc" | xargs rm 
 
 update-project-template:
 	npx update-template https://github.com/googlefonts/googlefonts-project-template/
