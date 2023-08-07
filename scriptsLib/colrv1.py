@@ -66,7 +66,15 @@ CIRCLE_COLORS = [
     WHITE + OPAQUE,  # color14= (1, 1, 1, 1),
     BLACK + OPAQUE,  # color15=(0, 0, 0, 1),
 ]
-
+SPECTRUM_COLORS = [ # Colors in spectrum order, starting with a color in the middle, so default contains a color
+    BLUE + OPAQUE, 
+    GREEN + OPAQUE,  
+    YELLOW + OPAQUE, 
+    ORANGE + OPAQUE, 
+    RED + OPAQUE, 
+    PURPLE + OPAQUE,
+    BLUE + OPAQUE, 
+]    
 
 # Define our two colour lines for the radial gradient.
 # Colour line one is just all the colours spaced out linearly.
@@ -77,6 +85,10 @@ COLOR_STOPS1 = ColorLine(COLOR_LINE1)
 CIRCLE_COLORS2 = [CIRCLE_COLORS[0]] + CIRCLE_COLORS[-1:0:-1]
 COLOR_LINE2 = {ix / len(CIRCLE_COLORS): stop for ix, stop in enumerate(CIRCLE_COLORS2)}
 COLOR_STOPS2 = ColorLine({ix / len(CIRCLE_COLORS2): stop for ix, stop in enumerate(CIRCLE_COLORS2)})
+
+# Colour line two is white plus all the colours in reverse.
+COLOR_LINE3 = {ix / len(SPECTRUM_COLORS): stop for ix, stop in enumerate(SPECTRUM_COLORS)}
+COLOR_STOPS3 = ColorLine({ix / len(SPECTRUM_COLORS): stop for ix, stop in enumerate(SPECTRUM_COLORS)})
 
 # Extended ranges with a fixed 20% of the same color in the middle
 BLUE_RANGE = ColorLine({0: GREEN + OPAQUE, 0.4: BLUE + OPAQUE, 0.6: BLUE + OPAQUE, 1: PURPLE + OPAQUE})
@@ -391,6 +403,9 @@ circle1 = PaintColrLayers(
 circle2 = PaintGlyph(
    POST_FIX + "circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS2)
 )
+circle3 = PaintGlyph(
+   POST_FIX + "circle_large", PaintRadialGradient((0, 0), 1, (0, 0), G/2, COLOR_STOPS3)
+)
 
 #   C H E S S
 
@@ -694,7 +709,7 @@ layer2 = PaintColrLayers(
 
         PaintTranslate(-2*G + P/2, P/2, fiveCirclesGray),
         PaintTranslate(-G + P/2, P/2, PaintColrLayers([rasterGray, diamond])),
-        PaintTranslate(P/2, P/2, circle2),
+        PaintTranslate(P/2, P/2, circle3),
         PaintTranslate(G + P/2, P/2, PaintColrLayers([rasterGray, star])),
         PaintTranslate(2*G + P/2, P/2, vFiveCirclesGray),
         
