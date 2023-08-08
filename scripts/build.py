@@ -38,8 +38,6 @@ else:
     ADD_COLRV1 = True
     USE_PRODUCTION_NAMES = False
 
-processes = {}
-
 for dsName, dsParams in DESIGN_SPACES.items():
     print('---', dsName)
     dsPath = os.path.join(MASTERS_PATH, dsName)
@@ -89,16 +87,7 @@ for dsName, dsParams in DESIGN_SPACES.items():
         colorPath = VF_PATH + dsName.replace('.designspace', f'-Color[{axis_suffix}].ttf')
 
         print('... Add COLRv1 to', vfPath)
-        # Run in the background, so we can get on with other stuff
-        process = addCOLRv1toVF(vfPath, colorPath)
-        processes[process.pid] = process
+        addCOLRv1toVF(vfPath, colorPath)
 
-print("Waiting for %d processes..." % len(processes))
-while processes:
-    pid, status = os.wait()
-    if pid in processes:
-        del processes[pid]
-        print("Waiting for %d processes..." % len(processes))
-print('Done')
 
 

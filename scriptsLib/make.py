@@ -284,4 +284,4 @@ def addCOLRv1toVF(vfPath, dstPath):
        ,vfPath
     ]
     print(" ".join(cmd))
-    return subprocess.Popen(cmd)
+    subprocess.run(cmd, check=True)
