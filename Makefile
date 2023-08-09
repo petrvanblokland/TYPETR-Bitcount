@@ -17,7 +17,6 @@ venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config.yaml
 	. venv/bin/activate; rm -rf fonts/; python3 scripts/build.py && touch build.stamp
-	. venv/bin/activate; for i in $(shell find fonts/ttf -type f); do gftools-fix-font --out $$i $$i --include-source-fixes; done
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
