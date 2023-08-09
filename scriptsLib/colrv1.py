@@ -762,20 +762,21 @@ layer2_pixel = PaintTranslate(
 #     x_canvas2, y_canvas2, PaintTransform((scale_factor2, 0, 0, scale_factor2, 0, 0), layer2)
 # )
 
+# Here is the color definition of the pixel glyph
+pixelGlyphName = 'px'
+
+glyphs[pixelGlyphName] = PaintColrLayers([
+    PaintGlyph(pixelGlyphName, layer1_pixel), # Background
+    PaintGlyph(pixelGlyphName, layer2_pixel)  # Foreground
+])
+
 ##
 # Applying the pixels
 ##
 
-# To build a pixel glyph, we paint each pixel twice, once with each
-# layer. We might want to change this to clever compositing/blending
-# later, depending on how things look when we have the layers working
-# correctly. So this function returns a paint tree with a PaintColrLayers
-# operation, containing two layers for each pixel.
 def buildPixelGlyph(glyphName, pixelPositions, layer1, layer2): #, layer3):
     layers = []
-    #for pixelGlyphName, x, y in pixelPositions:
     for ix, (x, y) in enumerate(pixelPositions):
-        pixelGlyphName = 'px'
         if glyphName == 'canvas' and ix == 0: # Just the canvas, ignore the /px
             #layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, PaintTranslate(-G, -P, layer1)))) # Background
             #layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, PaintTranslate(-G, -P, layer2)))) # Foreground
@@ -784,10 +785,11 @@ def buildPixelGlyph(glyphName, pixelPositions, layer1, layer2): #, layer3):
                     PaintGlyph('_canvas', PaintTranslate(450, 100, layer2))  # Foreground
             ])))
         else:
-            layers.append(PaintTranslate(x, y, PaintColrLayers([
-                PaintGlyph(pixelGlyphName, layer1), # Background
-                PaintGlyph(pixelGlyphName, layer2)  # Foreground
-            ])))
+            layers.append(PaintTranslate(x, y, PaintColrGlyph(pixelGlyphName)))
+            # layers.append(PaintTranslate(x, y, PaintColrLayers([
+            #         PaintGlyph(pixelGlyphName, layer1), # Background
+            #         PaintGlyph(pixelGlyphName, layer2)  # Foreground
+            # ])))
     return PaintColrLayers(layers)
 
 
@@ -825,8 +827,11 @@ def pixelPositions(f, gName):
 # OK, we are finally ready to create the paint trees for each glyph.
 # We do this by adding an entry into the "glyphs" dictionary mapping
 # the glyph name to the paint tree.
+
 for glyphName in font.getGlyphOrder():
     if glyphName.startswith("el_"):
+        continue
+    if glyphName == pixelGlyphName:  # We did this already
         continue
     glyphs[glyphName] = buildPixelGlyph(
         glyphName,
