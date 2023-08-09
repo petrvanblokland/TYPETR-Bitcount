@@ -255,14 +255,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
@@ -618,14 +618,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
@@ -936,14 +936,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
@@ -1138,7 +1138,7 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, plusminus, lessequal
+lessequal, plusminus, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -1299,14 +1299,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
@@ -1628,14 +1628,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
@@ -2030,14 +2030,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
@@ -2414,14 +2414,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
@@ -2774,14 +2774,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
@@ -2934,7 +2934,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, plusminus, lessequal
+lessequal, plusminus, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -3095,14 +3095,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
@@ -3421,14 +3421,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
@@ -3773,14 +3773,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
@@ -4141,14 +4141,14 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
