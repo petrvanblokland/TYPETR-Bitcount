@@ -779,11 +779,15 @@ def buildPixelGlyph(glyphName, pixelPositions, layer1, layer2): #, layer3):
         if glyphName == 'canvas' and ix == 0: # Just the canvas, ignore the /px
             #layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, PaintTranslate(-G, -P, layer1)))) # Background
             #layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, PaintTranslate(-G, -P, layer2)))) # Foreground
-            layers.append(PaintTranslate(x, y, PaintGlyph('_canvas', PaintTranslate(450, 100, layer1)))), # Background
-            layers.append(PaintTranslate(x, y, PaintGlyph('_canvas', PaintTranslate(450, 100, layer2)))), # Foreground
+            layers.append(PaintTranslate(x, y, PaintColrLayers([
+                    PaintGlyph('_canvas', PaintTranslate(450, 100, layer1)), # Background
+                    PaintGlyph('_canvas', PaintTranslate(450, 100, layer2))  # Foreground
+            ])))
         else:
-            layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer1))) # Background
-            layers.append(PaintTranslate(x, y, PaintGlyph(pixelGlyphName, layer2))) # Foreground
+            layers.append(PaintTranslate(x, y, PaintColrLayers([
+                PaintGlyph(pixelGlyphName, layer1), # Background
+                PaintGlyph(pixelGlyphName, layer2)  # Foreground
+            ])))
     return PaintColrLayers(layers)
 
 
@@ -822,6 +826,8 @@ def pixelPositions(f, gName):
 # We do this by adding an entry into the "glyphs" dictionary mapping
 # the glyph name to the paint tree.
 for glyphName in font.getGlyphOrder():
+    if glyphName.startswith("el_"):
+        continue
     glyphs[glyphName] = buildPixelGlyph(
         glyphName,
         pixelPositions(font, glyphName),
