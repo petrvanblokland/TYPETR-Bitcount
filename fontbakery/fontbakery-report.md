@@ -100,7 +100,7 @@ Detected underlineThickness values are:
 * 'Bitcount Mono Single' was found in:
   - Bitcount_Mono_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf (nameID 16)
   - Bitcount_Mono_Single4[wght,OPEN,SHPE,slnt].ttf (nameID 16) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[39] Bitcount_Prop_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] Bitcount_Prop_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountPropDouble[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Prop_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -261,14 +261,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -385,10 +385,6 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 
 
 * ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
-
-
-* ⚠ **WARN** Font file is 1.2Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -628,14 +624,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -946,14 +942,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -1073,7 +1069,7 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
-* ⚠ **WARN** Font file is 1.7Mb; ideally it should be less than 1.0Mb [code: large-font]
+* ⚠ **WARN** Font file is 1.0Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1142,7 +1138,7 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, lessequal, plusminus
+greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -1309,14 +1305,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -1638,14 +1634,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -2040,14 +2036,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -2263,7 +2259,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 1000.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[39] Bitcount_Mono_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] Bitcount_Mono_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountMonoSingle[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Mono_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -2424,14 +2420,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -2556,10 +2552,6 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 
 
 * ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
-
-
-* ⚠ **WARN** Font file is 1.5Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -2788,14 +2780,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -2942,7 +2934,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, lessequal, plusminus
+greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -3109,14 +3101,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -3435,14 +3427,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -3787,14 +3779,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -3994,7 +3986,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 1000.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[39] Bitcount_Mono_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] Bitcount_Mono_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountMonoDouble[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Mono_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -4155,14 +4147,14 @@ But instead we have got:
 | Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -4287,10 +4279,6 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 
 
 * ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
-
-
-* ⚠ **WARN** Font file is 1.1Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -4426,7 +4414,7 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 337 | 104 | 1269 | 73 | 970 | 0 |
+| 0 | 337 | 101 | 1269 | 73 | 973 | 0 |
 | 0% | 12% | 4% | 46% | 3% | 35% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
