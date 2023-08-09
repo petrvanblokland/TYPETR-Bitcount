@@ -33,7 +33,7 @@ fontmake==3.5.1
 fontMath==0.9.3
 fontParts==0.11.0
 fontPens==0.2.4
-fonttools==4.41.0
+fonttools @ git+https://github.com/fonttools/fonttools@6ff8f34ddae77115f12e9ce797dfd5c8843f1888
 fs==2.4.16
 gflanguages==0.8.9
 gftools==0.9.32
