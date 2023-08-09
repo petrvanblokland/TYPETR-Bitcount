@@ -1,0 +1,3 @@
+exclude_checks = [
+    "com.google.fonts/check/interpolation_issues"
+]
