@@ -100,7 +100,7 @@ Detected underlineThickness values are:
 * 'Bitcount Mono Single' was found in:
   - Bitcount_Mono_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf (nameID 16)
   - Bitcount_Mono_Single4[wght,OPEN,SHPE,slnt].ttf (nameID 16) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[38] Bitcount_Prop_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] Bitcount_Prop_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountPropDouble[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Prop_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -255,20 +255,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -289,29 +289,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (700) and hhea ascent (840) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
-
-
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-ERROR: Variations: Axis count mismatch
-ERROR: Variations: Failed to parse variation region list
-ERROR: MVAR: Failed to parse item variation store
-ERROR: Dropping all Variation tables
-ERROR: avar: Discarding Variations table
-ERROR: Table discarded
-ERROR: fvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: gvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: MVAR: Discarding Variations table
-ERROR: Table discarded
-ERROR: Variations: Required fvar table is missing
-ERROR: Variations: Failed to parse variation region list
-ERROR: COLR: Failed to parse item variation store
-ERROR: COLR: Failed to parse table
-Failed to sanitize file!
- [code: ots-sanitize-error]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -618,20 +595,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -781,7 +758,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 1000.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[39] Bitcount_Prop_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] Bitcount_Prop_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountPropSingle[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Prop_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -936,20 +913,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -970,29 +947,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (700) and hhea ascent (840) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
-
-
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-ERROR: Variations: Axis count mismatch
-ERROR: Variations: Failed to parse variation region list
-ERROR: MVAR: Failed to parse item variation store
-ERROR: Dropping all Variation tables
-ERROR: avar: Discarding Variations table
-ERROR: Table discarded
-ERROR: fvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: gvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: MVAR: Discarding Variations table
-ERROR: Table discarded
-ERROR: Variations: Required fvar table is missing
-ERROR: Variations: Failed to parse variation region list
-ERROR: COLR: Failed to parse item variation store
-ERROR: COLR: Failed to parse table
-Failed to sanitize file!
- [code: ots-sanitize-error]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -1066,10 +1020,6 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 
 
 * ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
-
-
-* ⚠ **WARN** Font file is 1.0Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1299,20 +1249,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -1473,7 +1423,7 @@ plusminus
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 1000.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] Bitcount_Grid_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] Bitcount_Grid_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountGridDouble[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Grid_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -1628,20 +1578,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -1662,29 +1612,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (700) and hhea ascent (840) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
-
-
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-ERROR: Variations: Axis count mismatch
-ERROR: Variations: Failed to parse variation region list
-ERROR: MVAR: Failed to parse item variation store
-ERROR: Dropping all Variation tables
-ERROR: avar: Discarding Variations table
-ERROR: Table discarded
-ERROR: fvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: gvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: MVAR: Discarding Variations table
-ERROR: Table discarded
-ERROR: Variations: Required fvar table is missing
-ERROR: Variations: Failed to parse variation region list
-ERROR: COLR: Failed to parse item variation store
-ERROR: COLR: Failed to parse table
-Failed to sanitize file!
- [code: ots-sanitize-error]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -2030,20 +1957,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -2259,7 +2186,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 1000.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] Bitcount_Mono_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] Bitcount_Mono_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountMonoSingle[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Mono_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -2414,20 +2341,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -2448,29 +2375,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (700) and hhea ascent (840) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
-
-
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-ERROR: Variations: Axis count mismatch
-ERROR: Variations: Failed to parse variation region list
-ERROR: MVAR: Failed to parse item variation store
-ERROR: Dropping all Variation tables
-ERROR: avar: Discarding Variations table
-ERROR: Table discarded
-ERROR: fvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: gvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: MVAR: Discarding Variations table
-ERROR: Table discarded
-ERROR: Variations: Required fvar table is missing
-ERROR: Variations: Failed to parse variation region list
-ERROR: COLR: Failed to parse item variation store
-ERROR: COLR: Failed to parse table
-Failed to sanitize file!
- [code: ots-sanitize-error]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -2774,20 +2678,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -3095,20 +2999,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -3266,7 +3170,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 1000.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] Bitcount_Grid_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] Bitcount_Grid_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountGridSingle[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Grid_Single4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -3421,20 +3325,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -3455,29 +3359,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (700) and hhea ascent (840) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
-
-
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-ERROR: Variations: Axis count mismatch
-ERROR: Variations: Failed to parse variation region list
-ERROR: MVAR: Failed to parse item variation store
-ERROR: Dropping all Variation tables
-ERROR: avar: Discarding Variations table
-ERROR: Table discarded
-ERROR: fvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: gvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: MVAR: Discarding Variations table
-ERROR: Table discarded
-ERROR: Variations: Required fvar table is missing
-ERROR: Variations: Failed to parse variation region list
-ERROR: COLR: Failed to parse item variation store
-ERROR: COLR: Failed to parse table
-Failed to sanitize file!
- [code: ots-sanitize-error]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -3773,20 +3654,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -3986,7 +3867,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 1000.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] Bitcount_Mono_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] Bitcount_Mono_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountMonoDouble[BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y,OPEN,SHPE,slnt,wght].ttf. Got Bitcount_Mono_Double4-Color[wght,OPEN,SHPE,slnt,BG-S,BG-X,BG-Y,FG-S,FG-X,FG-Y].ttf. [code: bad-filename]
@@ -4141,20 +4022,20 @@ But instead we have got:
 | Thin | N/A | wght=100.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Light Italic | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Light | N/A | wght=300.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Regular | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Italic | N/A | wght=400.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Medium Italic | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Medium | N/A | wght=500.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | SemiBold Italic | N/A | wght=600.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | Bold | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Bold Italic | N/A | wght=700.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
 | ExtraBold | N/A | wght=800.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
-| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
+| Black | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 |
+| Black Italic | N/A | wght=900.0, OPEN=0.0, SHPE=0.0, slnt=0.0, BG-S=300.0, BG-X=0.0, BG-Y=0.0, FG-S=300.0, FG-X=0.0, FG-Y=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -4175,29 +4056,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (700) and hhea ascent (840) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with ots-sanitize. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ots">com.google.fonts/check/ots</a>)</summary><div>
-
-
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-ERROR: Variations: Axis count mismatch
-ERROR: Variations: Failed to parse variation region list
-ERROR: MVAR: Failed to parse item variation store
-ERROR: Dropping all Variation tables
-ERROR: avar: Discarding Variations table
-ERROR: Table discarded
-ERROR: fvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: gvar: Discarding Variations table
-ERROR: Table discarded
-ERROR: MVAR: Discarding Variations table
-ERROR: Table discarded
-ERROR: Variations: Required fvar table is missing
-ERROR: Variations: Failed to parse variation region list
-ERROR: COLR: Failed to parse item variation store
-ERROR: COLR: Failed to parse table
-Failed to sanitize file!
- [code: ots-sanitize-error]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -4414,8 +4272,8 @@ Foundry-defined tags must only use uppercase or digits. [code: invalid-foundry-d
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 337 | 101 | 1269 | 73 | 973 | 0 |
-| 0% | 12% | 4% | 46% | 3% | 35% | 0% |
+| 0 | 331 | 100 | 1269 | 73 | 980 | 0 |
+| 0% | 12% | 4% | 46% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
