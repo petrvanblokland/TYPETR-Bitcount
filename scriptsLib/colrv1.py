@@ -848,3 +848,4 @@ for glyphName in font.getGlyphOrder():
 # to save the font. Thankfully, HVAR isn't very necessary anyway, so we
 # just get rid of it.
 del font["HVAR"]
+del font["MVAR"]
