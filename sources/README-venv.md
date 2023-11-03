@@ -27,6 +27,11 @@ pip install fontPens
 pip install ufo2ft
 pip install pillow
 
+Then:
+make build 
+or forced:
+python scripts/build,py
+creates a new set of VF in  
 ~~~
 
 The "activate" step needs to be executed for every new terminal session.

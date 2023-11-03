@@ -131,6 +131,8 @@ dmypy.json
 # Local export folders, MacOS desktop storage and everchanging FontGoggles sample text line.
 _export
 _local
+_old
+_build
 _masters
 _develop
 _vf

@@ -77,12 +77,14 @@ THIN = 100 # Pixel size: 24, smaller get irregular curves
 REGULAR = 400 # Pixel size: 100
 BLACK = 900 # Pixel size: 200
 
+# Scale of the COLRv1 layers
 SMIN = 0 
 SDEF = 300
 SMAX = 1000
-LMIN = -200 # Position of the COLRv1 layers
+# Position of the COLRv1 layers
+LMIN = -100 #For 3x3 elements. Before it was -200 for 5x5 elements
 LDEF = 0
-LMAX = 200
+LMAX = 100 #For 3x3 elements. Before it was 200 for 5x5 elements
 
 WGHT_MIN = THIN
 WGHT_DEF = REGULAR
