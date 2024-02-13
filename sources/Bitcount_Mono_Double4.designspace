@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Design space of Bitcount %(variant)s %(stem)s -->
 <designspace format="3">
+</designspace>
+    <axes>
         <!-- Main pixel shape axes with final names -->
         <axis minimum="100" default="400" maximum="900" name="Weight" tag="wght"/>
         <axis minimum="0" default="0" maximum="1000" name="Open" tag="ELXP">

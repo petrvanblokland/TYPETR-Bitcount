@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- Design space of Bitcount %(variant)s %(stem)s -->
 <designspace format="3">
     <axes>
         <!-- Main pixel shape axes with final names -->
         <axis minimum="100" default="400" maximum="900" name="Weight" tag="wght"/>
         <axis minimum="0" default="0" maximum="1000" name="Open" tag="ELXP">
-            <!-- Previous name: ELXP
+            <!-- Previous name: OPEN
                  ELXP distance should not be linear. Most usage and control in small ELXP values. 
              -->
             <map input="0" output="0" />    
@@ -14,9 +13,11 @@
             <map input="875" output="500" /> 
             <map input="1000" output="1000" /> 
         </axis>
-        <axis minimum="0" default="0" maximum="1000" name="Shape" tag="ELSH"/> <!-- Previous ELSH -->
+        <axis minimum="0" default="0" maximum="1000" name="Shape" tag="ELSH"/> 
+        <!-- Previous SHPE -->
         <axis minimum="0" default="0" maximum="1000" name="Slanted" tag="slnt"/>
     </axes>
+
     <sources>
         
         <source familyname="Bitcount Grid Single" 
