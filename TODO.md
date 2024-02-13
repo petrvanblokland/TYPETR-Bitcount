@@ -43,8 +43,8 @@ Try sources/vf/Bitcount_Mono_Double4-COLRv1-009.ttf in FontGoggles.
 
 * slnt = Slant, circles stay circles, verticals slant, pixels positions slant. Note that there is a separate [ss08] OT-feature to make italic shapes, independent of the slanting angle.
 * wght = Weight, size of the pixels. Default (400) is a pixel size, e.g. circles, where the pixels just touch. Lighter makes separate pixels, bolder makes them overlap.
-* OPEN = Open pixels, split into 4 quadrants.
-* SHPE = Shape, the axis enables a catalogue of shapes, fluently blending into the next. In order of appearance: filled circles (0), outline circles (80), filled squares with circle inside (180), filled square with diamond inside (265), outline square (362), filled square (500), plus (620), filled diamond (720), filled star (800), outline star (900), filled square with star inside (1000)
+* ELXP = Open pixels, split into 4 quadrants.
+* ELSH = Shape, the axis enables a catalogue of shapes, fluently blending into the next. In order of appearance: filled circles (0), outline circles (80), filled squares with circle inside (180), filled square with diamond inside (265), outline square (362), filled square (500), plus (620), filled diamond (720), filled star (800), outline star (900), filled square with star inside (1000)
 
 Then there are 6 independent COLRv1 axes that define the coloring of the selected pixel shape. Type /canvas (with the slash) and enable the [calt] OT-feature to show a canvas square as glyph. Different from showing the COLRv1 pattern in each individual pixel, the /canvas glyph show the full em-square with the color layers. There is a small square in the middle that shows the clipping area of the pixel. This was it's easy to select a color pattern and calibrate the position of the layers.
 

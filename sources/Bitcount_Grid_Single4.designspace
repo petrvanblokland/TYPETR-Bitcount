@@ -5,7 +5,7 @@
         <!-- Main pixel shape axes with final names -->
         <axis minimum="100" default="400" maximum="900" name="Weight" tag="wght"/>
         <axis minimum="0" default="0" maximum="1000" name="Open" tag="ELXP">
-            <!-- Previous name: OPEN
+            <!-- Previous name: ELXP
                  ELXP distance should not be linear. Most usage and control in small ELXP values. 
              -->
             <map input="0" output="0" />    
@@ -14,15 +14,15 @@
             <map input="875" output="500" /> 
             <map input="1000" output="1000" /> 
         </axis>
-        <axis minimum="0" default="0" maximum="1000" name="Shape" tag="ELSH"/> <!-- Previous SHPE -->
+        <axis minimum="0" default="0" maximum="1000" name="Shape" tag="ELSH"/> <!-- Previous ELSH -->
         <axis minimum="0" default="0" maximum="1000" name="Slanted" tag="slnt"/>
     </axes>
     <sources>
         
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE0_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE0 slnt0">
+            stylename="wght100 ELXP0 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -34,9 +34,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE0_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH0_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE0 slnt1000">
+            stylename="wght100 ELXP0 ELSH0 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -48,9 +48,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE90_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE90 slnt0">
+            stylename="wght100 ELXP0 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -62,9 +62,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE90_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH90_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE90 slnt1000">
+            stylename="wght100 ELXP0 ELSH90 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -76,9 +76,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE180_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH180_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE180 slnt0">
+            stylename="wght100 ELXP0 ELSH180 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -90,9 +90,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE180_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH180_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE180 slnt1000">
+            stylename="wght100 ELXP0 ELSH180 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -104,9 +104,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE270_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH270_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE270 slnt0">
+            stylename="wght100 ELXP0 ELSH270 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -118,9 +118,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE270_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH270_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE270 slnt1000">
+            stylename="wght100 ELXP0 ELSH270 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -132,9 +132,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE360_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH360_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE360 slnt0">
+            stylename="wght100 ELXP0 ELSH360 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -146,9 +146,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE360_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH360_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE360 slnt1000">
+            stylename="wght100 ELXP0 ELSH360 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -160,9 +160,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE450_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH450_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE450 slnt0">
+            stylename="wght100 ELXP0 ELSH450 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -174,9 +174,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE450_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH450_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE450 slnt1000">
+            stylename="wght100 ELXP0 ELSH450 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -188,9 +188,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE540_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH540_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE540 slnt0">
+            stylename="wght100 ELXP0 ELSH540 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -202,9 +202,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE540_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH540_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE540 slnt1000">
+            stylename="wght100 ELXP0 ELSH540 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -216,9 +216,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE630_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH630_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE630 slnt0">
+            stylename="wght100 ELXP0 ELSH630 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -230,9 +230,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE630_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH630_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE630 slnt1000">
+            stylename="wght100 ELXP0 ELSH630 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -244,9 +244,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE720_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH720_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE720 slnt0">
+            stylename="wght100 ELXP0 ELSH720 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -258,9 +258,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE720_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH720_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE720 slnt1000">
+            stylename="wght100 ELXP0 ELSH720 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -272,9 +272,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE810_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH810_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE810 slnt0">
+            stylename="wght100 ELXP0 ELSH810 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -286,9 +286,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE810_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH810_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE810 slnt1000">
+            stylename="wght100 ELXP0 ELSH810 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -300,9 +300,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE900_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH900_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE900 slnt0">
+            stylename="wght100 ELXP0 ELSH900 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -314,9 +314,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE900_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH900_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE900 slnt1000">
+            stylename="wght100 ELXP0 ELSH900 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -328,9 +328,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE1000_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH1000_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE1000 slnt0">
+            stylename="wght100 ELXP0 ELSH1000 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -342,9 +342,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN0_SHPE1000_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP0_ELSH1000_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN0 SHPE1000 slnt1000">
+            stylename="wght100 ELXP0 ELSH1000 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -356,9 +356,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE0_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE0 slnt0">
+            stylename="wght100 ELXP1000 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -370,9 +370,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE0_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH0_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE0 slnt1000">
+            stylename="wght100 ELXP1000 ELSH0 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -384,9 +384,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE90_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE90 slnt0">
+            stylename="wght100 ELXP1000 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -398,9 +398,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE90_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH90_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE90 slnt1000">
+            stylename="wght100 ELXP1000 ELSH90 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -412,9 +412,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE180_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH180_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE180 slnt0">
+            stylename="wght100 ELXP1000 ELSH180 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -426,9 +426,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE180_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH180_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE180 slnt1000">
+            stylename="wght100 ELXP1000 ELSH180 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -440,9 +440,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE270_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH270_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE270 slnt0">
+            stylename="wght100 ELXP1000 ELSH270 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -454,9 +454,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE270_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH270_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE270 slnt1000">
+            stylename="wght100 ELXP1000 ELSH270 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -468,9 +468,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE360_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH360_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE360 slnt0">
+            stylename="wght100 ELXP1000 ELSH360 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -482,9 +482,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE360_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH360_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE360 slnt1000">
+            stylename="wght100 ELXP1000 ELSH360 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -496,9 +496,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE450_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH450_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE450 slnt0">
+            stylename="wght100 ELXP1000 ELSH450 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -510,9 +510,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE450_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH450_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE450 slnt1000">
+            stylename="wght100 ELXP1000 ELSH450 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -524,9 +524,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE540_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH540_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE540 slnt0">
+            stylename="wght100 ELXP1000 ELSH540 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -538,9 +538,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE540_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH540_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE540 slnt1000">
+            stylename="wght100 ELXP1000 ELSH540 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -552,9 +552,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE630_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH630_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE630 slnt0">
+            stylename="wght100 ELXP1000 ELSH630 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -566,9 +566,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE630_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH630_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE630 slnt1000">
+            stylename="wght100 ELXP1000 ELSH630 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -580,9 +580,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE720_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH720_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE720 slnt0">
+            stylename="wght100 ELXP1000 ELSH720 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -594,9 +594,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE720_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH720_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE720 slnt1000">
+            stylename="wght100 ELXP1000 ELSH720 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -608,9 +608,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE810_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH810_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE810 slnt0">
+            stylename="wght100 ELXP1000 ELSH810 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -622,9 +622,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE810_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH810_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE810 slnt1000">
+            stylename="wght100 ELXP1000 ELSH810 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -636,9 +636,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE900_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH900_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE900 slnt0">
+            stylename="wght100 ELXP1000 ELSH900 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -650,9 +650,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE900_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH900_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE900 slnt1000">
+            stylename="wght100 ELXP1000 ELSH900 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -664,9 +664,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE1000_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH1000_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE1000 slnt0">
+            stylename="wght100 ELXP1000 ELSH1000 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -678,9 +678,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_OPEN1000_SHPE1000_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght100_ELXP1000_ELSH1000_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght100 OPEN1000 SHPE1000 slnt1000">
+            stylename="wght100 ELXP1000 ELSH1000 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
@@ -692,9 +692,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE0_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE0 slnt0">
+            stylename="wght400 ELXP0 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -706,9 +706,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE0_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH0_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE0 slnt1000">
+            stylename="wght400 ELXP0 ELSH0 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -720,9 +720,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE90_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE90 slnt0">
+            stylename="wght400 ELXP0 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -734,9 +734,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE90_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH90_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE90 slnt1000">
+            stylename="wght400 ELXP0 ELSH90 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -748,9 +748,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE180_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH180_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE180 slnt0">
+            stylename="wght400 ELXP0 ELSH180 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -762,9 +762,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE180_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH180_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE180 slnt1000">
+            stylename="wght400 ELXP0 ELSH180 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -776,9 +776,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE270_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH270_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE270 slnt0">
+            stylename="wght400 ELXP0 ELSH270 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -790,9 +790,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE270_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH270_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE270 slnt1000">
+            stylename="wght400 ELXP0 ELSH270 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -804,9 +804,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE360_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH360_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE360 slnt0">
+            stylename="wght400 ELXP0 ELSH360 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -818,9 +818,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE360_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH360_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE360 slnt1000">
+            stylename="wght400 ELXP0 ELSH360 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -832,9 +832,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE450_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH450_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE450 slnt0">
+            stylename="wght400 ELXP0 ELSH450 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -846,9 +846,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE450_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH450_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE450 slnt1000">
+            stylename="wght400 ELXP0 ELSH450 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -860,9 +860,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE540_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH540_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE540 slnt0">
+            stylename="wght400 ELXP0 ELSH540 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -874,9 +874,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE540_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH540_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE540 slnt1000">
+            stylename="wght400 ELXP0 ELSH540 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -888,9 +888,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE630_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH630_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE630 slnt0">
+            stylename="wght400 ELXP0 ELSH630 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -902,9 +902,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE630_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH630_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE630 slnt1000">
+            stylename="wght400 ELXP0 ELSH630 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -916,9 +916,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE720_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH720_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE720 slnt0">
+            stylename="wght400 ELXP0 ELSH720 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -930,9 +930,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE720_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH720_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE720 slnt1000">
+            stylename="wght400 ELXP0 ELSH720 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -944,9 +944,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE810_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH810_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE810 slnt0">
+            stylename="wght400 ELXP0 ELSH810 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -958,9 +958,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE810_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH810_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE810 slnt1000">
+            stylename="wght400 ELXP0 ELSH810 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -972,9 +972,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE900_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH900_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE900 slnt0">
+            stylename="wght400 ELXP0 ELSH900 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -986,9 +986,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE900_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH900_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE900 slnt1000">
+            stylename="wght400 ELXP0 ELSH900 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1000,9 +1000,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE1000_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH1000_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE1000 slnt0">
+            stylename="wght400 ELXP0 ELSH1000 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1014,9 +1014,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN0_SHPE1000_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP0_ELSH1000_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN0 SHPE1000 slnt1000">
+            stylename="wght400 ELXP0 ELSH1000 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1028,9 +1028,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE0_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE0 slnt0">
+            stylename="wght400 ELXP1000 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1042,9 +1042,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE0_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH0_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE0 slnt1000">
+            stylename="wght400 ELXP1000 ELSH0 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1056,9 +1056,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE90_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE90 slnt0">
+            stylename="wght400 ELXP1000 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1070,9 +1070,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE90_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH90_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE90 slnt1000">
+            stylename="wght400 ELXP1000 ELSH90 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1084,9 +1084,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE180_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH180_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE180 slnt0">
+            stylename="wght400 ELXP1000 ELSH180 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1098,9 +1098,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE180_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH180_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE180 slnt1000">
+            stylename="wght400 ELXP1000 ELSH180 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1112,9 +1112,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE270_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH270_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE270 slnt0">
+            stylename="wght400 ELXP1000 ELSH270 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1126,9 +1126,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE270_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH270_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE270 slnt1000">
+            stylename="wght400 ELXP1000 ELSH270 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1140,9 +1140,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE360_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH360_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE360 slnt0">
+            stylename="wght400 ELXP1000 ELSH360 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1154,9 +1154,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE360_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH360_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE360 slnt1000">
+            stylename="wght400 ELXP1000 ELSH360 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1168,9 +1168,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE450_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH450_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE450 slnt0">
+            stylename="wght400 ELXP1000 ELSH450 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1182,9 +1182,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE450_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH450_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE450 slnt1000">
+            stylename="wght400 ELXP1000 ELSH450 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1196,9 +1196,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE540_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH540_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE540 slnt0">
+            stylename="wght400 ELXP1000 ELSH540 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1210,9 +1210,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE540_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH540_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE540 slnt1000">
+            stylename="wght400 ELXP1000 ELSH540 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1224,9 +1224,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE630_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH630_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE630 slnt0">
+            stylename="wght400 ELXP1000 ELSH630 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1238,9 +1238,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE630_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH630_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE630 slnt1000">
+            stylename="wght400 ELXP1000 ELSH630 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1252,9 +1252,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE720_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH720_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE720 slnt0">
+            stylename="wght400 ELXP1000 ELSH720 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1266,9 +1266,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE720_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH720_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE720 slnt1000">
+            stylename="wght400 ELXP1000 ELSH720 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1280,9 +1280,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE810_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH810_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE810 slnt0">
+            stylename="wght400 ELXP1000 ELSH810 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1294,9 +1294,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE810_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH810_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE810 slnt1000">
+            stylename="wght400 ELXP1000 ELSH810 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1308,9 +1308,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE900_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH900_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE900 slnt0">
+            stylename="wght400 ELXP1000 ELSH900 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1322,9 +1322,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE900_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH900_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE900 slnt1000">
+            stylename="wght400 ELXP1000 ELSH900 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1336,9 +1336,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE1000_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH1000_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE1000 slnt0">
+            stylename="wght400 ELXP1000 ELSH1000 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1350,9 +1350,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_OPEN1000_SHPE1000_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght400_ELXP1000_ELSH1000_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght400 OPEN1000 SHPE1000 slnt1000">
+            stylename="wght400 ELXP1000 ELSH1000 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
@@ -1364,9 +1364,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE0_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE0 slnt0">
+            stylename="wght900 ELXP0 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1378,9 +1378,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE0_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH0_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE0 slnt1000">
+            stylename="wght900 ELXP0 ELSH0 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1392,9 +1392,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE90_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE90 slnt0">
+            stylename="wght900 ELXP0 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1406,9 +1406,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE90_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH90_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE90 slnt1000">
+            stylename="wght900 ELXP0 ELSH90 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1420,9 +1420,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE180_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH180_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE180 slnt0">
+            stylename="wght900 ELXP0 ELSH180 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1434,9 +1434,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE180_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH180_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE180 slnt1000">
+            stylename="wght900 ELXP0 ELSH180 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1448,9 +1448,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE270_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH270_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE270 slnt0">
+            stylename="wght900 ELXP0 ELSH270 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1462,9 +1462,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE270_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH270_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE270 slnt1000">
+            stylename="wght900 ELXP0 ELSH270 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1476,9 +1476,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE360_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH360_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE360 slnt0">
+            stylename="wght900 ELXP0 ELSH360 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1490,9 +1490,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE360_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH360_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE360 slnt1000">
+            stylename="wght900 ELXP0 ELSH360 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1504,9 +1504,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE450_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH450_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE450 slnt0">
+            stylename="wght900 ELXP0 ELSH450 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1518,9 +1518,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE450_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH450_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE450 slnt1000">
+            stylename="wght900 ELXP0 ELSH450 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1532,9 +1532,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE540_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH540_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE540 slnt0">
+            stylename="wght900 ELXP0 ELSH540 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1546,9 +1546,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE540_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH540_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE540 slnt1000">
+            stylename="wght900 ELXP0 ELSH540 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1560,9 +1560,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE630_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH630_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE630 slnt0">
+            stylename="wght900 ELXP0 ELSH630 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1574,9 +1574,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE630_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH630_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE630 slnt1000">
+            stylename="wght900 ELXP0 ELSH630 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1588,9 +1588,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE720_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH720_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE720 slnt0">
+            stylename="wght900 ELXP0 ELSH720 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1602,9 +1602,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE720_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH720_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE720 slnt1000">
+            stylename="wght900 ELXP0 ELSH720 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1616,9 +1616,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE810_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH810_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE810 slnt0">
+            stylename="wght900 ELXP0 ELSH810 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1630,9 +1630,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE810_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH810_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE810 slnt1000">
+            stylename="wght900 ELXP0 ELSH810 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1644,9 +1644,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE900_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH900_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE900 slnt0">
+            stylename="wght900 ELXP0 ELSH900 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1658,9 +1658,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE900_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH900_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE900 slnt1000">
+            stylename="wght900 ELXP0 ELSH900 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1672,9 +1672,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE1000_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH1000_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE1000 slnt0">
+            stylename="wght900 ELXP0 ELSH1000 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1686,9 +1686,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN0_SHPE1000_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP0_ELSH1000_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN0 SHPE1000 slnt1000">
+            stylename="wght900 ELXP0 ELSH1000 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1700,9 +1700,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE0_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE0 slnt0">
+            stylename="wght900 ELXP1000 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1714,9 +1714,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE0_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH0_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE0 slnt1000">
+            stylename="wght900 ELXP1000 ELSH0 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1728,9 +1728,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE90_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE90 slnt0">
+            stylename="wght900 ELXP1000 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1742,9 +1742,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE90_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH90_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE90 slnt1000">
+            stylename="wght900 ELXP1000 ELSH90 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1756,9 +1756,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE180_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH180_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE180 slnt0">
+            stylename="wght900 ELXP1000 ELSH180 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1770,9 +1770,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE180_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH180_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE180 slnt1000">
+            stylename="wght900 ELXP1000 ELSH180 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1784,9 +1784,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE270_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH270_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE270 slnt0">
+            stylename="wght900 ELXP1000 ELSH270 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1798,9 +1798,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE270_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH270_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE270 slnt1000">
+            stylename="wght900 ELXP1000 ELSH270 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1812,9 +1812,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE360_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH360_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE360 slnt0">
+            stylename="wght900 ELXP1000 ELSH360 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1826,9 +1826,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE360_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH360_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE360 slnt1000">
+            stylename="wght900 ELXP1000 ELSH360 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1840,9 +1840,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE450_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH450_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE450 slnt0">
+            stylename="wght900 ELXP1000 ELSH450 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1854,9 +1854,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE450_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH450_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE450 slnt1000">
+            stylename="wght900 ELXP1000 ELSH450 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1868,9 +1868,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE540_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH540_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE540 slnt0">
+            stylename="wght900 ELXP1000 ELSH540 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1882,9 +1882,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE540_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH540_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE540 slnt1000">
+            stylename="wght900 ELXP1000 ELSH540 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1896,9 +1896,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE630_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH630_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE630 slnt0">
+            stylename="wght900 ELXP1000 ELSH630 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1910,9 +1910,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE630_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH630_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE630 slnt1000">
+            stylename="wght900 ELXP1000 ELSH630 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1924,9 +1924,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE720_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH720_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE720 slnt0">
+            stylename="wght900 ELXP1000 ELSH720 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1938,9 +1938,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE720_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH720_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE720 slnt1000">
+            stylename="wght900 ELXP1000 ELSH720 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1952,9 +1952,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE810_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH810_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE810 slnt0">
+            stylename="wght900 ELXP1000 ELSH810 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1966,9 +1966,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE810_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH810_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE810 slnt1000">
+            stylename="wght900 ELXP1000 ELSH810 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1980,9 +1980,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE900_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH900_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE900 slnt0">
+            stylename="wght900 ELXP1000 ELSH900 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -1994,9 +1994,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE900_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH900_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE900 slnt1000">
+            stylename="wght900 ELXP1000 ELSH900 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -2008,9 +2008,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE1000_slnt0.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH1000_slnt0.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt0">
+            stylename="wght900 ELXP1000 ELSH1000 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
@@ -2022,9 +2022,9 @@
         </source>
             
         <source familyname="Bitcount Grid Single" 
-            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_OPEN1000_SHPE1000_slnt1000.ufo" 
+            filename="_masters/Grid-Single/Bitcount_Grid_Single-wght900_ELXP1000_ELSH1000_slnt1000.ufo" 
             name="Bitcount Grid Single" 
-            stylename="wght900 OPEN1000 SHPE1000 slnt1000">
+            stylename="wght900 ELXP1000 ELSH1000 slnt1000">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>

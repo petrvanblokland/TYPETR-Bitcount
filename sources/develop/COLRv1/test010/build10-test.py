@@ -24,12 +24,12 @@ LMAX = 500
 DS = f"""<?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer1-Scale" tag="BG-S"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-X" tag="BG-X"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-Y" tag="BG-Y"/>
-        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer2-Scale" tag="FG-S"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-X" tag="FG-X"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-Y" tag="FG-Y"/>
+        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer1-Scale" tag="SZP1"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-X" tag="XPN1"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-Y" tag="XPN1"/>
+        <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer2-Scale" tag="SZP2"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-X" tag="XPN2"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-Y" tag="YPN2"/>
         <!--
         <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer3-Scale" tag="LR3S"/>
         <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer3-X" tag="LR3X"/>

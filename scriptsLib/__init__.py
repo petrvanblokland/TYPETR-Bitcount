@@ -89,11 +89,11 @@ LMAX = 100 #For 3x3 elements. Before it was 200 for 5x5 elements
 WGHT_MIN = THIN
 WGHT_DEF = REGULAR
 WGHT_MAX = BLACK
-OPEN_MIN = SHPE_MIN = SLNT_MIN = 0
-OPEN_MAX = SHPE_MAX = SLNT_MAX = 1000
+ELXP_MIN = ELSH_MIN = SLNT_MIN = 0
+ELXP_MAX = ELSH_MAX = SLNT_MAX = 1000
 
 # COLRv1 axes are defined as independent directions
-DEFAULT_LOCATION = (WGHT_MIN, OPEN_MIN, SHPE_MIN, SLNT_MIN)
+DEFAULT_LOCATION = (WGHT_MIN, ELXP_MIN, ELSH_MIN, SLNT_MIN)
 
 AXISCOUNT = len(DEFAULT_LOCATION) # Number of main axes, besides the COLV1 axes.
 
@@ -115,18 +115,18 @@ for variant in VARIANTS:
 
 
 CLOSED_QUAD = 0
-OPEN_QUAD = 1000
+ELXP_QUAD = 1000
 
 # Style
 ROMAN = 0
 ITALIC = 1000
 
 # Shapes
-# There are 12 separate shapes in the pixels fonts, that get distributes on ths SHPE axis.
+# There are 12 separate shapes in the pixels fonts, that get distributes on ths ELSH axis.
 
 # Convert the shape index number to an actual axis value
-# This values depends on the amount of different shapes to fit in SHPE_MAX
-SHPE2VALUE = {
+# This values depends on the amount of different shapes to fit in ELSH_MAX
+ELSH2VALUE = {
     1:  0,
     2:  90,
     3:  180,
@@ -141,15 +141,15 @@ SHPE2VALUE = {
     12: 1000,
 }
 
-SHAPES = sorted(SHPE2VALUE.values())
+SHAPES = sorted(ELSH2VALUE.values())
 
 # Total number of masters:
-# 3 (slnt) x 3 (OPEN) x 3 (LINE) x 6 (wght) 
+# 3 (slnt) x 3 (ELXP) x 3 (LINE) x 6 (wght) 
 # Axis values: Minimum, Default, Maximum
 wght_MIN, wght_DEF, wght_MAX = wght_AXIS = (THIN, REGULAR, BLACK) 
-OPEN_MIN, OPEN_DEF, OPEN_MAX = OPEN_AXIS = (CLOSED_QUAD, CLOSED_QUAD, OPEN_QUAD) # Connected or open quadrants
-SHPE_MIN, SHPE_DEF, SHPE_MAX = SHPE_AXIS = (0, 0, 1000) # Catalog of a sequence of pixel variations
+ELXP_MIN, ELXP_DEF, ELXP_MAX = ELXP_AXIS = (CLOSED_QUAD, CLOSED_QUAD, ELXP_QUAD) # Connected or open quadrants
+ELSH_MIN, ELSH_DEF, ELSH_MAX = ELSH_AXIS = (0, 0, 1000) # Catalog of a sequence of pixel variations
 slnt_MIN, slnt_DEF, slnt_MAX = slnt_AXIS = (ROMAN, ROMAN, ITALIC) # Slant angle
 
-MONO_AXES = ["wght", "OPEN", "SHPE", "slnt"]
-COLOR_AXES = ["BG-S", "BG-X", "BG-Y", "FG-S", "FG-X", "FG-Y"]
+MONO_AXES = ["wght", "ELXP", "ELSH", "slnt"]
+COLOR_AXES = ["SZP1", "XPN1", "XPN1", "SZP2", "XPN2", "YPN2"]

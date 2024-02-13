@@ -18,13 +18,13 @@ BUILD = 11
 
 def getMasterName(md, pd):
     """Calculate the master name from the master data and pixel data location."""
-    return f'{BITCOUNT}_{md.variant}_{md.stem}-wght{pd.wght}_OPEN{pd.OPEN}_SHPE{pd.SHPE}_slnt{pd.slnt}.ufo'
+    return f'{BITCOUNT}_{md.variant}_{md.stem}-wght{pd.wght}_ELXP{pd.ELXP}_ELSH{pd.ELSH}_slnt{pd.slnt}.ufo'
 
 def getFamilyName(md):
     return f'{BITCOUNT} {md.variant} {md.stem}'
 
 def getStyleName(pd):
-    return f'wght{pd.wght} OPEN{pd.OPEN} SHPE{pd.SHPE} slnt{pd.slnt}'
+    return f'wght{pd.wght} ELXP{pd.ELXP} ELSH{pd.ELSH} slnt{pd.slnt}'
 
 def deleteUFOs(path):
     """Delete all UFOs in this directory. Faster than removing them one by one."""
@@ -76,7 +76,7 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
         if not os.path.exists(dstPath):
             print('    ... Make master %s' % dstName)
             srcPath = ufoDirPath + ufoName
-            if pd.SHPE or pd.OPEN or pd.wght != wght_DEF: # Only copy pixels, this can be sparse
+            if pd.ELSH or pd.ELXP or pd.wght != wght_DEF: # Only copy pixels, this can be sparse
                 dst = ufoLib2.Font()
             else:
                 copyUFO(srcPath, dstPath)
@@ -205,59 +205,59 @@ def makeDesignSpaceFile(dsName, dsParams):
     axisParams['wghtMin'] = WGHT_MIN
     axisParams['wghtDef'] = WGHT_DEF
     axisParams['wghtMax'] = WGHT_MAX
-    axisParams['OPENMin'] = OPEN_MIN # Also default for the open axis
-    axisParams['OPENMax'] = OPEN_MAX
-    axisParams['SHPEMin'] = SHPE_MIN # Also default for the shape axis
-    axisParams['SHPEMax'] = SHPE_MAX
+    axisParams['ELXPMin'] = ELXP_MIN # Also default for the open axis
+    axisParams['ELXPMax'] = ELXP_MAX
+    axisParams['ELSHMin'] = ELSH_MIN # Also default for the shape axis
+    axisParams['ELSHMax'] = ELSH_MAX
     axisParams['slntMin'] = SLNT_MIN # Also default for the slant axis
     axisParams['slntMax'] = SLNT_MAX
 
     # COLRv1 layer #1 axis values
-    axisParams['BG-SMin'] = SMIN # Scale
-    axisParams['BG-SDef'] = SDEF
-    axisParams['BG-SMax'] = SMAX
-    axisParams['BG-XMin'] = LMIN # Horizontal position
-    axisParams['BG-XDef'] = LDEF
-    axisParams['BG-XMax'] = LMAX
-    axisParams['BG-YMin'] = LMIN
-    axisParams['BG-YDef'] = LDEF
-    axisParams['BG-YMax'] = LMAX
+    axisParams['SZP1Min'] = SMIN # Scale
+    axisParams['SZP1Def'] = SDEF
+    axisParams['SZP1Max'] = SMAX
+    axisParams['XPN1Min'] = LMIN # Horizontal position
+    axisParams['XPN1Def'] = LDEF
+    axisParams['XPN1Max'] = LMAX
+    axisParams['XPN1Min'] = LMIN
+    axisParams['XPN1Def'] = LDEF
+    axisParams['XPN1Max'] = LMAX
 
     # COLRv1 layer #2 axis values   
-    axisParams['FG-SMin'] = SMIN # Scale
-    axisParams['FG-SDef'] = SMIN # Layer #2 is not visible by default.
-    axisParams['FG-SMax'] = SMAX
-    axisParams['FG-XMin'] = LMIN # Horizontal position
-    axisParams['FG-XDef'] = LDEF
-    axisParams['FG-XMax'] = LMAX
-    axisParams['FG-YMin'] = LMIN # Vertical position
-    axisParams['FG-YDef'] = LDEF
-    axisParams['FG-YMax'] = LMAX
+    axisParams['SZP2Min'] = SMIN # Scale
+    axisParams['SZP2Def'] = SMIN # Layer #2 is not visible by default.
+    axisParams['SZP2Max'] = SMAX
+    axisParams['XPN2Min'] = LMIN # Horizontal position
+    axisParams['XPN2Def'] = LDEF
+    axisParams['XPN2Max'] = LMAX
+    axisParams['YPN2Min'] = LMIN # Vertical position
+    axisParams['YPN2Def'] = LDEF
+    axisParams['YPN2Max'] = LMAX
 
     # Layer axes are independent from main Bitcount shape axes
     for wght in (WGHT_MIN, WGHT_DEF, WGHT_MAX):
         # minValue is the same as default
-        for OPEN in (OPEN_MIN, OPEN_MAX):
+        for ELXP in (ELXP_MIN, ELXP_MAX):
             # minValue is the same as default
-            for SHPE in SHAPES:
+            for ELSH in SHAPES:
                 # minValue is the same as default
                 for slnt in (SLNT_MIN, SLNT_MAX):
-                    if DEFAULT_LOCATION == (wght, OPEN, SHPE, slnt):
+                    if DEFAULT_LOCATION == (wght, ELXP, ELSH, slnt):
                         info = '<info copy="1"/>'
                     else: 
                         info = ''
-                    path = f'{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_OPEN{OPEN}_SHPE{SHPE}_slnt{slnt}.ufo'
+                    path = f'{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_ELXP{ELXP}_ELSH{ELSH}_slnt{slnt}.ufo'
 
                     axisParams['sources'] += f"""
         <source familyname="Bitcount {variant} {stem}" 
             filename="{path}" 
             name="Bitcount {variant} {stem}" 
-            stylename="wght{wght} OPEN{OPEN} SHPE{SHPE} slnt{slnt}">
+            stylename="wght{wght} ELXP{ELXP} ELSH{ELSH} slnt{slnt}">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="{wght}"/>
-                <dimension name="Open" xvalue="{OPEN}"/>
-                <dimension name="Shape" xvalue="{SHPE}"/>
+                <dimension name="Open" xvalue="{ELXP}"/>
+                <dimension name="Shape" xvalue="{ELSH}"/>
                 <dimension name="Slanted" xvalue="{slnt}"/>
             </location>
             {info}
@@ -274,12 +274,12 @@ def addCOLRv1toVF(vfPath, dstPath):
     cmd = [
         'paintcompiler',
         '-o', dstPath,
-       '--add-axis', f'BG-S:{SMIN}:{SDEF}:{SMAX}:Background-Scale',
-       '--add-axis', f'BG-X:{LMIN}:{LDEF}:{LMAX}:Background-X',
-       '--add-axis', f'BG-Y:{LMIN}:{LDEF}:{LMAX}:Background-Y',
-       '--add-axis', f'FG-S:{SMIN}:{SDEF}:{SMAX}:Foreground-Scale',
-       '--add-axis', f'FG-X:{LMIN}:{LDEF}:{LMAX}:Foreground-X',
-       '--add-axis', f'FG-Y:{LMIN}:{LDEF}:{LMAX}:Foreground-Y',
+       '--add-axis', f'SZP1:{SMIN}:{SDEF}:{SMAX}:Background-Scale',
+       '--add-axis', f'XPN1:{LMIN}:{LDEF}:{LMAX}:Background-X',
+       '--add-axis', f'XPN1:{LMIN}:{LDEF}:{LMAX}:Background-Y',
+       '--add-axis', f'SZP2:{SMIN}:{SDEF}:{SMAX}:Foreground-Scale',
+       '--add-axis', f'XPN2:{LMIN}:{LDEF}:{LMAX}:Foreground-X',
+       '--add-axis', f'YPN2:{LMIN}:{LDEF}:{LMAX}:Foreground-Y',
        '--paints', 'scriptsLib/colrv1.py'
        ,vfPath
     ]
