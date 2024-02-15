@@ -2582,7 +2582,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-lessequal, plusminus, greaterequal
+greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -4304,7 +4304,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-lessequal, plusminus, greaterequal
+greaterequal, plusminus, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
