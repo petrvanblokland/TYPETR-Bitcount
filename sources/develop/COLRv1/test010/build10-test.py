@@ -26,7 +26,7 @@ DS = f"""<?xml version='1.0' encoding='utf-8'?>
     <axes>
         <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer1-Scale" tag="SZP1"/>
         <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-X" tag="XPN1"/>
-        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-Y" tag="XPN1"/>
+        <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer1-Y" tag="YPN1"/>
         <axis minimum="{SMIN}" default="{SDEF}" maximum="{SMAX}" name="Layer2-Scale" tag="SZP2"/>
         <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-X" tag="XPN2"/>
         <axis minimum="{LMIN}" default="{LDEF}" maximum="{LMAX}" name="Layer2-Y" tag="YPN2"/>

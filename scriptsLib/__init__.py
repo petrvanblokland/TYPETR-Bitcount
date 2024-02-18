@@ -152,4 +152,4 @@ ELSH_MIN, ELSH_DEF, ELSH_MAX = ELSH_AXIS = (0, 0, 1000) # Catalog of a sequence 
 slnt_MIN, slnt_DEF, slnt_MAX = slnt_AXIS = (ROMAN, ROMAN, ITALIC) # Slant angle
 
 MONO_AXES = ["wght", "ELXP", "ELSH", "slnt"]
-COLOR_AXES = ["SZP1", "XPN1", "XPN1", "SZP2", "XPN2", "YPN2"]
+COLOR_AXES = ["SZP1", "XPN1", "YPN1", "SZP2", "XPN2", "YPN2"]

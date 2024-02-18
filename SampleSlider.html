@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variable Font Example</title>
+  <style>
+    @font-face {
+      font-family: 'BitCountVF';
+      src: url('fonts/ttf/variable/Bitcount_Mono_Double4-Color[wght,ELXP,ELSH,slnt,SZP1,XPN1,YPN1,SZP2,XPN2,YPN2].ttf') format('truetype');
+      /* Add other font properties if needed */
+    }
+    #text-container {
+      width: 80%;
+      margin: 50px auto;
+    }
+    #sample-text {
+      font-family: 'BitCountVF', sans-serif;
+      font-size: 36px;
+    }
+    .slider-container {
+      margin-bottom: 20px;
+    }
+    .slider-container label {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div id="text-container">
+  <div id="sample-text">/canvas Bitcount COLRv1</div>
+
+  <div>
+    <button id="randomButton">Randomize</button>
+    <button id="randomPixelShapeButton">Randomize Pixel Shape</button>
+    <button id="randomForegroundButton">Randomize Color Foreground</button>
+    <button id="randomBackgroundButton">Randomize Color Background</button>
+  </div>
+
+  <div class="slider-container">
+    <label for="size-slider">Font Size</label>
+    <input type="range" min="10" max="300" value="72" class="slider" id="size-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="weight-slider">Font Weight</label>
+    <input type="range" min="100" max="900" value="400" class="slider" id="weight-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="ELXP-slider">Pixel Open</label>
+    <input type="range" min="0" max="1000" value="0" class="slider" id="ELXP-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="ELSH-slider">Element Shape:</label>
+    <input type="range" min="0" max="1000" value="0" class="slider" id="ELSH-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="slant-slider">Slant</label>
+    <input type="range" min="1" max="1000" value="1" class="slider" id="slant-slider">
+  </div>
+
+  <h2>COLRv1 axes</h2>
+
+  <div class="slider-container">
+    <label for="fgSize-slider">Foreground Size</label>
+    <input type="range" min="0" max="1000" value="300" class="slider" id="fgSize-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="fgX-slider">Foreground X</label>
+    <input type="range" min="-100" max="100" value="0" class="slider" id="fgX-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="fgY-slider">Foreground Y</label>
+    <input type="range" min="-100" max="100" value="0" class="slider" id="fgY-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="bgSize-slider">Background Size</label>
+    <input type="range" min="0" max="1000" value="300" class="slider" id="bgSize-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="bgX-slider">Background X</label>
+    <input type="range" min="-100" max="100" value="0" class="slider" id="bgX-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="bgY-slider">Background Y</label>
+    <input type="range" min="-100" max="100" value="0" class="slider" id="bgY-slider">
+  </div>
+
+
+  </div>
+
+
+<script>
+    // Check if the browser is Chrome
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+
+    // Function to update the sample text style
+    function updateTextStyle() {
+      const weight = document.getElementById('weight-slider').value;
+      const elementOpen = document.getElementById('ELXP-slider').value;
+      const elementShape = document.getElementById('ELSH-slider').value;
+      const slant = document.getElementById('slant-slider').value;
+      const size = document.getElementById('size-slider').value;
+      // COLRv1 
+      const bgSize = document.getElementById('bgSize-slider').value;
+      const bgX = document.getElementById('bgX-slider').value;
+      const bgY = document.getElementById('bgY-slider').value;
+      const fgSize = document.getElementById('fgSize-slider').value;
+      const fgX = document.getElementById('fgX-slider').value;
+      const fgY = document.getElementById('fgY-slider').value;
+
+      const sampleText = document.getElementById('sample-text');
+      sampleText.style.fontVariationSettings = `'wght' ${weight}, 'ELXP' ${elementOpen}, 'ELSH' ${elementShape}, 'slnt' ${slant},
+        'SZP1' ${bgSize}, 'XPN1' ${bgX}, 'YPN1' ${bgY}, 
+        'SZP2' ${fgSize}, 'XPN2' ${fgX}, 'YPN2' ${fgY}`;
+      sampleText.style.fontSize = `${size}px`;
+    }
+
+  // Event listeners for sliders
+  const sliders = document.querySelectorAll('.slider');
+  sliders.forEach(slider => {
+    slider.addEventListener('input', updateTextStyle);
+  });
+
+  // Initial call to set the sample text style
+  updateTextStyle();
+
+    if (isChrome) {
+      document.write("<p>This page is running on Chrome browser.</p>");
+    } else {
+      document.write("<p>This page is not running on Chrome browser.</p>");
+    }
+
+  // Get the sample text element
+  const sampleText = document.getElementById('sample-text');
+
+  // Function to animate through all axes smoothly
+  function animateVariableFont() {
+    const animationDuration = 2000; // in milliseconds
+    const axes = ['wght', 'ELXP', 'ELSH', 'slnt', 'SZP1', 'XPN1', 'YPN1', 'SZP2', 'XPN2', 'YPN2']; // Add more axes if needed
+    const variations = [ // Define the range of variation for each axis
+      { axis: 'wght', min: 100, max: 900, step: 750 },
+      { axis: 'ELXP', min: 0, max: 1000, step: 20 },
+      { axis: 'ELSH', min: 0, max: 1000, step: 30 },
+      { axis: 'slnt', min: 0, max: 1000, step: 40 },
+      // COL
+      { axis: 'SZP1', min: 0, max: 1000, step: 6 },
+      { axis: 'XPN1', min: -100, max: 100, step: 8 },
+      { axis: 'YPN1', min: -100, max: 100, step: 10 },
+      { axis: 'SZP2', min: 0, max: 1000, step: 12 },
+      { axis: 'XPN2', min: -100, max: 100, step: 14 },
+      { axis: 'YPN2', min: -100, max: 100, step: 16 }
+    ];
+
+    let startTime = null;
+
+    function animate(timestamp) {
+      if (!startTime) startTime = timestamp;
+      const progress = timestamp - startTime;
+
+      variations.forEach((variation, index) => {
+        const { axis, min, max, step } = variation;
+        const value = min + (Math.sin(progress / animationDuration) + 1) / 2 * (max - min); // Smooth sinusoidal animation
+        sampleText.style.fontVariationSettings = `'${axis}' ${value}`;
+      });
+
+      if (progress < animationDuration) {
+        requestAnimationFrame(animate);
+      } else {
+        startTime = null; // Reset start time for next animation loop
+        requestAnimationFrame(animateVariableFont); // Repeat animation loop
+      }
+    }
+
+    requestAnimationFrame(animate);
+  }
+
+  // Call the function to start the animation
+  //animateVariableFont();
+
+  function handleClick() {
+    alert("Button clicked!");
+    // Add your JavaScript code here
+  }
+
+  function setRandomValue(slider) {
+
+    // Generate a random value between min and max
+    var randomValue = Math.floor(Math.random() * (parseInt(slider.max) - parseInt(slider.min) + 1)) + parseInt(slider.min);
+
+    // Set the slider value to the random value
+    slider.value = randomValue;
+  }
+
+  function randomize() {
+    randomizeShape();
+    randomizeForegroundColor();
+    randomizeBackgroundColor();
+    updateTextStyle();
+  }
+  function randomizeShape() {
+    setRandomValue(document.getElementById('weight-slider'));
+    setRandomValue(document.getElementById('ELXP-slider'));
+    setRandomValue(document.getElementById('ELSH-slider'));
+    setRandomValue(document.getElementById('slant-slider'));
+    updateTextStyle();
+  }
+  // COLRv1
+  function randomizeForegroundColor() {
+    setRandomValue(document.getElementById('fgSize-slider'));
+    setRandomValue(document.getElementById('fgX-slider'));
+    setRandomValue(document.getElementById('fgY-slider'));
+    updateTextStyle();
+  }
+  function randomizeBackgroundColor() {
+    setRandomValue(document.getElementById('bgSize-slider'));
+    setRandomValue(document.getElementById('bgX-slider'));
+    setRandomValue(document.getElementById('bgY-slider'));
+    updateTextStyle();
+  }
+
+  // Get the button element
+  const randomButton = document.getElementById('randomButton');
+  const randomPixelShapeButton = document.getElementById('randomPixelShapeButton');
+  const randomForegroundButton = document.getElementById('randomForegroundButton');
+  const randomBackgroundButton = document.getElementById('randomBackgroundButton');
+
+  // Add a click event listener to the button, which calls the handleClick function when clicked
+  randomButton.addEventListener('click', randomize);
+  randomPixelShapeButton.addEventListener('click', randomizeShape);
+  randomForegroundButton.addEventListener('click', randomizeForegroundColor);
+  randomBackgroundButton.addEventListener('click', randomizeBackgroundColor);
+
+  </script>
+
+</body>
+</html>

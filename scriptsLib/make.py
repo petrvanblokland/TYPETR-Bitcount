@@ -219,9 +219,9 @@ def makeDesignSpaceFile(dsName, dsParams):
     axisParams['XPN1Min'] = LMIN # Horizontal position
     axisParams['XPN1Def'] = LDEF
     axisParams['XPN1Max'] = LMAX
-    axisParams['XPN1Min'] = LMIN
-    axisParams['XPN1Def'] = LDEF
-    axisParams['XPN1Max'] = LMAX
+    axisParams['YPN1Min'] = LMIN
+    axisParams['YPN1Def'] = LDEF
+    axisParams['YPN1Max'] = LMAX
 
     # COLRv1 layer #2 axis values   
     axisParams['SZP2Min'] = SMIN # Scale
@@ -276,7 +276,7 @@ def addCOLRv1toVF(vfPath, dstPath):
         '-o', dstPath,
        '--add-axis', f'SZP1:{SMIN}:{SDEF}:{SMAX}:Background-Scale',
        '--add-axis', f'XPN1:{LMIN}:{LDEF}:{LMAX}:Background-X',
-       '--add-axis', f'XPN1:{LMIN}:{LDEF}:{LMAX}:Background-Y',
+       '--add-axis', f'YPN1:{LMIN}:{LDEF}:{LMAX}:Background-Y',
        '--add-axis', f'SZP2:{SMIN}:{SDEF}:{SMAX}:Foreground-Scale',
        '--add-axis', f'XPN2:{LMIN}:{LDEF}:{LMAX}:Foreground-X',
        '--add-axis', f'YPN2:{LMIN}:{LDEF}:{LMAX}:Foreground-Y',

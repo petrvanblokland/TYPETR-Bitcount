@@ -216,9 +216,9 @@ x_pixel = {
     (("XPN1", LMAX),): -200 + 50,
 }
 y_pixel = {
-    (("XPN1", LMIN),): 100,
-    (("XPN1", LDEF),): 0,
-    (("XPN1", LMAX),): -200,
+    (("YPN1", LMIN),): 100,
+    (("YPN1", LDEF),): 0,
+    (("YPN1", LMAX),): -200,
 }
 x_canvas = {
     (("XPN1", LMIN),): 200 + 480,
@@ -226,9 +226,9 @@ x_canvas = {
     (("XPN1", LMAX),): -200 + 480,
 }
 y_canvas = {
-    (("XPN1", LMIN),): 100 + 100,
-    (("XPN1", LDEF),): 0 + 100,
-    (("XPN1", LMAX),): -200 + 100,
+    (("YPN1", LMIN),): 100 + 100,
+    (("YPN1", LDEF),): 0 + 100,
+    (("YPN1", LMAX),): -200 + 100,
 }
 
 layer1_pixel = PaintTransform(

@@ -674,9 +674,9 @@ x_pixel1 = {
     (("XPN1", LMAX),): 2 * G,
 }
 y_pixel1 = {
-    (("XPN1", LMIN),): - 2 * G,
-    (("XPN1", LDEF),): 0,
-    (("XPN1", LMAX),): 2 * G,
+    (("YPN1", LMIN),): - 2 * G,
+    (("YPN1", LDEF),): 0,
+    (("YPN1", LMAX),): 2 * G,
 }
 # Position of the pixels in the /canvas glyph
 x_canvas1 = {
@@ -685,9 +685,9 @@ x_canvas1 = {
     (("XPN1", LMAX),): 500 - P/2 + 2 * G,
 }
 y_canvas1 = {
-    (("XPN1", LMIN),): P - 2 * G,
-    (("XPN1", LDEF),): P,
-    (("XPN1", LMAX),): P + 2 * G,
+    (("YPN1", LMIN),): P - 2 * G,
+    (("YPN1", LDEF),): P,
+    (("YPN1", LMAX),): P + 2 * G,
 }
 
 layer1_pixel = PaintTranslate(
