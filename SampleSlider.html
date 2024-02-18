@@ -16,7 +16,7 @@
     }
     #sample-text {
       font-family: 'BitCountVF', sans-serif;
-      font-size: 36px;
+      font-size: 300px;
     }
     .slider-container {
       margin-bottom: 20px;
@@ -29,7 +29,7 @@
 <body>
 
 <div id="text-container">
-  <div id="sample-text">/canvas Bitcount COLRv1</div>
+  <div id="sample-text"><span style="font-size: 500px;">/canvas a</span><br/>Bitcount-VF</div>
 
   <div>
     <button id="randomButton">Randomize</button>
@@ -40,7 +40,7 @@
 
   <div class="slider-container">
     <label for="size-slider">Font Size</label>
-    <input type="range" min="10" max="300" value="72" class="slider" id="size-slider">
+    <input type="range" min="10" max="300" value="180" class="slider" id="size-slider">
   </div>
 
   <div class="slider-container">
@@ -143,50 +143,93 @@
   // Get the sample text element
   const sampleText = document.getElementById('sample-text');
 
-  // Function to animate through all axes smoothly
-  function animateVariableFont() {
-    const animationDuration = 2000; // in milliseconds
-    const axes = ['wght', 'ELXP', 'ELSH', 'slnt', 'SZP1', 'XPN1', 'YPN1', 'SZP2', 'XPN2', 'YPN2']; // Add more axes if needed
-    const variations = [ // Define the range of variation for each axis
-      { axis: 'wght', min: 100, max: 900, step: 750 },
-      { axis: 'ELXP', min: 0, max: 1000, step: 20 },
-      { axis: 'ELSH', min: 0, max: 1000, step: 30 },
-      { axis: 'slnt', min: 0, max: 1000, step: 40 },
-      // COL
-      { axis: 'SZP1', min: 0, max: 1000, step: 6 },
-      { axis: 'XPN1', min: -100, max: 100, step: 8 },
-      { axis: 'YPN1', min: -100, max: 100, step: 10 },
-      { axis: 'SZP2', min: 0, max: 1000, step: 12 },
-      { axis: 'XPN2', min: -100, max: 100, step: 14 },
-      { axis: 'YPN2', min: -100, max: 100, step: 16 }
-    ];
+  angleELSH = 0; // Shaping the pixel
+  angleELXP = 0; // Open pixel in quadrants
 
-    let startTime = null;
+  angleSZP1 = 0;
+  angleXPN1 = 0;
+  angleYPN1 = 0;
+  angleSZP2 = 0;
+  angleXPN2 = 0;
+  angleYPN2 = 0;
 
-    function animate(timestamp) {
-      if (!startTime) startTime = timestamp;
-      const progress = timestamp - startTime;
+  const stepELSH = 6; // Increment of the cycle angles
+  const stepELXP = 5;
+  const stepSZP1 = 3;
+  const stepXPN1 = 5;
+  const stepYPN1 = 7;
+  const stepSZP2 = 4;
+  const stepXPN2 = 6;
+  const stepYPN2 = 8;
 
-      variations.forEach((variation, index) => {
-        const { axis, min, max, step } = variation;
-        const value = min + (Math.sin(progress / animationDuration) + 1) / 2 * (max - min); // Smooth sinusoidal animation
-        sampleText.style.fontVariationSettings = `'${axis}' ${value}`;
-      });
+  stepFactor = 0.5 // Overall speed factor for steps
 
-      if (progress < animationDuration) {
-        requestAnimationFrame(animate);
-      } else {
-        startTime = null; // Reset start time for next animation loop
-        requestAnimationFrame(animateVariableFont); // Repeat animation loop
-      }
-    }
+  const minELSH = 700;
+  const minELXP = 0;
+  const minSZP1 = 0;
+  const minXPN1 = -50;
+  const minYPN1 = -50;
+  const minSZP2 = 50;
+  const minXPN2 = -100;
+  const minYPN2 = -100;
 
-    requestAnimationFrame(animate);
+  const maxELSH = 1000;
+  const maxELXP = 800; // Not too open in this animation
+  const maxSZP1 = 1000;
+  const maxXPN1 = 50;
+  const maxYPN1 = 50;
+  const maxSZP2 = 500;
+  const maxXPN2 = 100;
+  const maxYPN2 = 100;
+
+  function normalizeAngle(angle) {
+      return (angle % 360 + 360) % 360;
   }
 
-  // Call the function to start the animation
-  //animateVariableFont();
+  function updateValues() {
+    valELSH = (Math.sin((angleELSH * Math.PI/180))/2 + 0.5) * (maxELSH - minELSH) + minELSH;
+    document.getElementById('ELSH-slider').value = valELSH;
 
+    valELXP = (Math.sin((angleELXP * Math.PI/180))/2 + 0.5) * (maxELXP - minELXP) + minELXP;
+    document.getElementById('ELXP-slider').value = valELXP;
+
+    valSZP1 = (Math.sin((angleSZP1 * Math.PI/180))/2 + 0.5) * (maxSZP1 - minSZP1) + minSZP1;
+    document.getElementById('bgSize-slider').value = valSZP1;
+
+    valXPN1 = (Math.sin((angleXPN1 * Math.PI/180))/2 + 0.5) * (maxXPN1 - minXPN1) + minXPN1;
+    document.getElementById('bgX-slider').value = valXPN1;
+
+    valYPN1 = (Math.sin((angleYPN1 * Math.PI/180))/2 + 0.5) * (maxYPN1 - minYPN1) + minYPN1;
+    document.getElementById('bgY-slider').value = valYPN1;
+
+    valSZP2 = (Math.sin((angleSZP2 * Math.PI/180))/2 + 0.5) * (maxSZP2 - minSZP2) + minSZP2;
+    document.getElementById('fgSize-slider').value = valSZP2;
+
+    valXPN2 = (Math.sin((angleXPN2 * Math.PI/180))/2 + 0.5) * (maxXPN2 - minXPN2) + minXPN2;
+    document.getElementById('fgX-slider').value = valXPN2;
+
+  }
+  // Function to animate through all axes smoothly
+  function animateVariableFont() {
+    updateValues();
+
+    angleELSH = normalizeAngle(angleELSH + stepELSH * stepFactor);
+    angleELXP = normalizeAngle(angleELXP + stepELXP * stepFactor);
+    angleSZP1 = normalizeAngle(angleSZP1 + stepSZP1 * stepFactor);
+    angleXPN1 = normalizeAngle(angleXPN1 + stepXPN1 * stepFactor);
+    angleYPN1 = normalizeAngle(angleYPN1 + stepYPN1 * stepFactor);
+    angleSZP2 = normalizeAngle(angleSZP2 + stepSZP2 * stepFactor);
+    angleXPN2 = normalizeAngle(angleXPN2 + stepXPN2 * stepFactor);
+    angleYPN2 = normalizeAngle(angleYPN2 + stepYPN2 * stepFactor);
+
+    updateTextStyle();
+    //sampleText.style.fontVariationSettings = "'SZP1' ${valSZP1}, 'XPN1' ${valXPN1}, 'XPN1' ${valXPN1}, 'SZP2' ${valSZP2}, 'XPN2' ${valXPN2}, 'XPN2' ${valXPN2}, ";
+
+  }
+
+  // Periodically call the function
+  setInterval(animateVariableFont, 100); 
+  
   function handleClick() {
     alert("Button clicked!");
     // Add your JavaScript code here
@@ -205,27 +248,25 @@
     randomizeShape();
     randomizeForegroundColor();
     randomizeBackgroundColor();
-    updateTextStyle();
   }
   function randomizeShape() {
-    setRandomValue(document.getElementById('weight-slider'));
-    setRandomValue(document.getElementById('ELXP-slider'));
-    setRandomValue(document.getElementById('ELSH-slider'));
-    setRandomValue(document.getElementById('slant-slider'));
-    updateTextStyle();
+    // Set the animation angles to random values, instead of the sliders. 
+    // They get updated anyway.
+    angleELSH = Math.floor(Math.random() * (maxELSH - minELSH) + minELSH);
+    updateValues();
   }
   // COLRv1
-  function randomizeForegroundColor() {
-    setRandomValue(document.getElementById('fgSize-slider'));
-    setRandomValue(document.getElementById('fgX-slider'));
-    setRandomValue(document.getElementById('fgY-slider'));
-    updateTextStyle();
-  }
   function randomizeBackgroundColor() {
-    setRandomValue(document.getElementById('bgSize-slider'));
-    setRandomValue(document.getElementById('bgX-slider'));
-    setRandomValue(document.getElementById('bgY-slider'));
-    updateTextStyle();
+    angleSZP1 = Math.floor(Math.random() * (maxSZP1 - minSZP1) + minSZP1);
+    angleXPN1 = Math.floor(Math.random() * (maxXPN1 - minXPN1) + minXPN1);
+    angleYPN1 = Math.floor(Math.random() * (maxYPN1 - minYPN1) + minYPN1);
+    updateValues();
+  }
+  function randomizeForegroundColor() {
+    angleSZP2 = Math.floor(Math.random() * (maxSZP2 - minSZP2) + minSZP2);
+    angleXPN2 = Math.floor(Math.random() * (maxXPN2 - minXPN2) + minXPN2);
+    angleYPN2 = Math.floor(Math.random() * (maxYPN2 - minYPN2) + minYPN2);
+    updateValues();
   }
 
   // Get the button element
