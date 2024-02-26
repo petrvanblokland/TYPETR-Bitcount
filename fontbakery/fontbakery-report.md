@@ -255,8 +255,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -265,8 +265,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -599,8 +599,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -609,8 +609,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -942,8 +942,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -952,8 +952,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -1276,8 +1276,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -1286,8 +1286,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -1678,8 +1678,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -1688,8 +1688,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -1856,7 +1856,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, plusminus, lessequal
+lessequal, plusminus, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -2017,8 +2017,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2027,8 +2027,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2185,7 +2185,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, plusminus, lessequal
+lessequal, plusminus, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -2346,8 +2346,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2356,8 +2356,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2683,8 +2683,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -2693,8 +2693,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -3015,8 +3015,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3025,8 +3025,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3403,8 +3403,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3413,8 +3413,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3729,8 +3729,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -3739,8 +3739,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
@@ -4111,8 +4111,8 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -4121,8 +4121,8 @@ But instead we have got:
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
