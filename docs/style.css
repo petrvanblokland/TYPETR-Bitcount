@@ -11,9 +11,32 @@ Author URL: http://getmasum.net
 Version: 1.2
 
 */
+@font-face {
+  font-family: 'TYPETR-Bitcount-VF';
+  src: url('fonts/ttf/variable/Bitcount-Color[wght,ELXP,ELSH,slnt,SZP1,XPN1,YPN1,SZP2,XPN2,YPN2].ttf') format('truetype');
+  /* Add other font properties if needed */
+}
+#color-text-container1 {
+  width: 100%;
+  margin: 50px 50px;
+}
+#color-sample-text1 {
+  font-family: 'TYPETR-Bitcount-VF', sans-serif;
+  font-size: 500px;	
+}
+#color-sample-text2 {
+  font-family: 'TYPETR-Bitcount-VF', sans-serif;
+  font-size: 1000px;	
+}
+.color-slider-container {
+  margin-bottom: 0px;
+}
+.color-slider-container label {
+  display: block;
+}
 
 body{
-	font-family: 'BitcountMonoSingleRegularCircle', sans-serif;
+	font-family: 'TYPETR-Bitcount-VF', sans-serif;
 	color: #8a8a8a;
 	font-size: 18px;
 	line-height:1.4em;
@@ -22,7 +45,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
 	color: #333;
-	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 	margin: 0 0 15px;	
 	/*font-weight: 700;*/
 	line-height: normal;
@@ -30,7 +53,7 @@ h1, h2, h3, h4, h5, h6{
 
 h3 {
 	color: #333;
-	/*font-family: "BitcountPropDoubleRegularCircle",sans-serif;*/
+	/*font-family: "TYPETR-Bitcount-VF",sans-serif;*/
 	margin: 0 0 15px;
 	font-size: 22px;
 	/*font-weight: 700;*/
@@ -39,28 +62,28 @@ h3 {
 
 h1 {
 	color: #333;
-	text-transform:uppercase;
-	/*font-family: "BitcountPropDoubleRegularCircle",sans-serif;*/
+	/*text-transform:uppercase;*/
+	/*font-family: "TYPETR-Bitcount-VF",sans-serif;*/
 	margin: 0 0 15px;
 	font-size: 52px;
 	/*font-weight: 700;*/
 	line-height: normal;
 }
 p b {
-	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 }
 .bitcountgrid {
-	font-family: "BitcountGridDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 }
 .bitcountmono {
-	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 }
 .bitcountprop {
-	font-family: "BitcountPropDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 }
 .playroom {
 	position: relative;
-	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 	text-align: center;
 	margin: -50px auto 50px auto;
 	height:180px;
@@ -72,7 +95,7 @@ p b {
 	position: absolute;
 	height:220px;
 	width: 100%;
-	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 	padding: 0 0 50px 10px ;
 	z-index: 30;
 }
@@ -80,7 +103,7 @@ p b {
 	position: absolute;
 	height:220px;
 	width: 100%;
-	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 	padding: 0 0 50px 10px ;
 	z-index: 20;
 }
@@ -88,7 +111,7 @@ p b {
 	position: absolute;
 	height:220px;
 	width: 100%;
-	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 	padding: 0 0 50px 10px ;
 	z-index: 10;
 }
@@ -96,7 +119,7 @@ p b {
 	position: absolute;
 	height:220px;
 	width: 100%;
-	font-family: "BitcountMonoDoubleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 	padding: 0 0 50px 10px ;
 	z-index: 5;
 }
@@ -110,7 +133,7 @@ div#css_sample {
 	padding: 2px 2px 1px 3px;
 }
 #selectDouble, #selectMix {
-	font-family: "BitcountMonoDoubleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 	border: none;
 	padding: 2px 2px 1px 3px;
 }
@@ -217,11 +240,11 @@ button:focus,
 }
 #main_nav li a{
 	color: #fff;
-	font-family: "BitcountMonoSingleRegularCircle",sans-serif;
+	font-family: "TYPETR-Bitcount-VF",sans-serif;
 	font-size: 20px;
 	/*font-weight: 500;*/
 	padding: 3px 9px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	/*font-weight: 700;*/
 	text-align:center;
 }
@@ -241,7 +264,7 @@ button:focus,
 	background: #fff;
 }
 /*-------------------------------
-# dropdwon menu 
+# drop down menu 
 --------------------------------*/
 
 
@@ -363,10 +386,10 @@ button:focus,
 	margin-bottom: 40px;
 	text-transform: None;
 	line-height: 120px;
-	font-family: "BitcountMonoDoubleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 }
 .sider_text .home_sub_heading {
-	font-family: "BitcountMonoSingleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 }
 .sider_text .first_heading{
 	font-size: 170px;
@@ -374,10 +397,10 @@ button:focus,
 	margin-bottom: 40px;
 	text-transform: None;
 	line-height: 120px;
-	font-family: "BitcountMonoDoubleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 }
 .sider_text .first_sub_heading {
-	font-family: "BitcountMonoSingleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 }
 .sider_text .second_heading{
 	font-size: 170px;
@@ -385,23 +408,23 @@ button:focus,
 	margin-bottom: 40px;
 	text-transform: None;
 	line-height: 120px;
-	font-family: "BitcountGridDoubleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 } 
 .sider_text .second_sub_heading {
-	font-family: "BitcountGridSingleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 }
 .sider_text .third_heading{
 	font-size: 170px;
 	/*font-weight: 700;*/
 	text-transform: None;
 	line-height: 120px;
-	font-family: "BitcountPropDoubleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 } 
 .sider_text .third_sub_heading {
-	font-family: "BitcountPropSingleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 }
 .sider_text p {
-	font-family: "BitcountPropSingleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 	color: #fff;
 	font-size: 30px;
 	line-height: 33px;
@@ -455,14 +478,14 @@ button:focus,
 	line-height:17px;
 }
 a.nivo-prevNav{
-	font-family: "BitcountMonoSingleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 	font-size: 2em;
 	padding-left: 0;
 	letter-spacing: -0.35em;
 	margin-left:20px;
 }
 a.nivo-nextNav{
-	font-family: "BitcountMonoSingleRegularCircle";
+	font-family: "TYPETR-Bitcount-VF";
 	font-size: 2em;
 	letter-spacing: -0.35em;
 	padding-left: 0;
@@ -1048,7 +1071,7 @@ a.nivo-nextNav{
 	transition: 0.5s;
 	color: #167FFF;	
 	font-size: 48px;
-	font-family: "BitcountMonoDoubleRegularCircle"
+	font-family: "TYPETR-Bitcount-VF"
 }
 
 .single_service:hover .service_icon{
@@ -1083,7 +1106,7 @@ a.nivo-nextNav{
 }
 .counter_area h1{
 	font-size: 55px;
-	font-family: 'BitcountMonoSingleRegularCircle', sans-serif;
+	font-family: 'TYPETR-Bitcount-VF', sans-serif;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	color: #fff;

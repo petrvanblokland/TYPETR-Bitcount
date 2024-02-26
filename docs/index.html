@@ -235,139 +235,72 @@
 							Bitcount is perfect for creating layered typographic effects using different colors and font styles. A slight shift in position creates shadows, highlights, and 3D effects. If you want to reproduce a certain combination on your own site, purchase a Bitcount web license, copy the HTML/CSS, and integrate the code into your site. Or just keep playing!
  							
 							</p>
-							<img src="img/colrv1/example1.png" width="100%"/>
-							<img src="img/colrv1/example2.png" width="100%"/>
-							<img src="img/colrv1/example3.png" width="100%"/>
-							<img src="img/colrv1/example4.png" width="100%"/>
-							<img src="img/colrv1/example5.png" width="100%"/>
+  <div id="color-sample-text1">/canvasa</div>
+
+  <div class="slider-container">
+    <label for="size-slider">Font Size</label>
+    <input type="range" min="10" max="300" value="180" class="slider" id="size-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="weight-slider">Font Weight</label>
+    <input type="range" min="100" max="900" value="400" class="slider" id="weight-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="ELXP-slider">Pixel Open</label>
+    <input type="range" min="0" max="1000" value="0" class="slider" id="ELXP-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="ELSH-slider">Element Shape:</label>
+    <input type="range" min="0" max="1000" value="0" class="slider" id="ELSH-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="slant-slider">Slant</label>
+    <input type="range" min="1" max="1000" value="1" class="slider" id="slant-slider">
+  </div>
+
+  <h2>COLRv1 axes</h2>
+
+  <div class="slider-container">
+    <label for="fgSize-slider">Foreground Size</label>
+    <input type="range" min="0" max="1000" value="300" class="slider" id="fgSize-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="fgX-slider">Foreground X</label>
+    <input type="range" min="-100" max="100" value="0" class="slider" id="fgX-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="fgY-slider">Foreground Y</label>
+    <input type="range" min="-100" max="100" value="0" class="slider" id="fgY-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="bgSize-slider">Background Size</label>
+    <input type="range" min="0" max="1000" value="300" class="slider" id="bgSize-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="bgX-slider">Background X</label>
+    <input type="range" min="-100" max="100" value="0" class="slider" id="bgX-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="bgY-slider">Background Y</label>
+    <input type="range" min="-100" max="100" value="0" class="slider" id="bgY-slider">
+  </div>
+
+
+  </div>
+
 					</div>
 				</div>			
 			</div>	
 
-			<div class="row">
-				<div class="col-md-8 center-block">
-					<div class="section_title text-center">						
-						<h1>Color by layers</h1>
-						<p class="extended">For browsers (other than Chrome) that don’t support COLRv1 yet, it is possible to use coloring by layers, using the 4 shape axes of Bitcount VF: 
-							<li><ul>Weight (wght)</ul>
-								<ul>Open (ELXP)</ul>
-								<ul>Shape (ELSH)</ul>
-								<ul>Slant (slnt)</ul>
-							</li>
-						Play with the layer generator! Bitcount is perfect for creating layered typographic effects using different colors and font styles. A slight shift in position creates shadows, highlights, and 3D effects. If you want to reproduce a certain combination on your own site, purchase a Bitcount web license, copy the HTML/CSS, and integrate the code into your site. Or just keep playing!
- 							
-							</p>
-					</div>
-				</div>			
-			</div>	
-
-			<div class="row text-center">
-				<div class="playroom">
-					
-					<div id="player1">Bitcount</div>
-					<div id="player2">Bitcount</div>
-					<div id="player3">Bitcount</div>
-					<div id="player4">Bitcount</div>
-			
-				</div>
-			</div>
-
-			<div class="row text-center">
-				<div class="service_carousel">
-					<div class="single_service">
-						<div onClick="makeNewLayers();" class="service_icon">
-							+
-						</div>
-						<div onClick="makeNewLayers();" class="service_text">
-							<h4 class="extended">New random layers</h4>
-							<p class="extended">Click to select a new set of random layers and colors. Use the HTML/CSS code below to recreate the current combination in your website.</p>
-						</div>							
-					</div>		
-
-
-					<div class="single_service">
-						<div onClick="selectStem('toggle');" class="service_icon">
-						<!--<i class="fa fa-windows"></i>-->
-						 <span style="font-family: BitcountMonoSingleRegularCircle">a</span>a
-						</div>
-						<div class="service_text extended">
-							<h4 onClick="selectStem('toggle');">Single or Double</h4>
-							<p>
-								<span id="selectSingle" onClick="selectStem('single');">Single</span>
-								<span id="selectDouble" onClick="selectStem('double');">Double</span>
-								<span id="selectMix" onClick="selectStem('mixed');">Mixed</span>
-								<span onClick="selectStem('toggle');">Click to select a Single or Double pixel stem, or mix them together!</span>
-							</p>	
-							<p>
-								<span id="selectCircle" onClick="selectCircle(true);">On</span>
-								<span id="selectNoCircle" onClick="selectCircle(false);">Off</span>
-								<span onClick="selectCircle(-1);">Cicle</span><br/>
-
-								<span id="selectOpenCircle" onClick="selectOpenCircle(true);">On</span>
-								<span id="selectNoOpenCircle" onClick="selectOpenCircle(false);">Off</span>
-								<span onClick="selectOpenCircle(-1);">Open circle </span><br/>
-
-								<span id="selectSquare" onClick="selectSquare(true);">On</span>
-								<span id="selectNoSquare" onClick="selectSquare(false);">Off</span>
-								<span onClick="selectSquare(-1);">Square</span><br/>
-
-								<span id="selectOpenSquare" onClick="selectOpenSquare(true);">On</span>
-								<span id="selectNoOpenSquare" onClick="selectOpenSquare(false);">Off</span>
-								<span onClick="selectOpenSquare(-1);">Open square</span><br/>
-
-								<span id="selectPlus" onClick="selectPlus(true);">On</span>
-								<span id="selectNoPlus" onClick="selectPlus(false);">Off</span>
-								<span onClick="selectPlus(-1);">Plus</span><br/>
-
-							</p>
-						</div>							
-					</div>					
-									
-
-					<div class="single_service">
-						<div id="layerCnt" onClick="selectLayers(0);" class="service_icon">
-							<!--<i class="fa fa-windows"></i>-->
-							2
-						</div>
-						<div class="service_text extended">
-							<h4 onClick="selectLayers(0);">Select layers</h4>
-							<p>								
-								<span id="selectLayer1" onClick="selectLayers(1);">1&nbsp;layer</span>
-								<span id="selectLayer2" onClick="selectLayers(2);">2&nbsp;layers</span>
-								<span id="selectLayer3" onClick="selectLayers(3);">3&nbsp;layers</span>
-								<span id="selectLayer4" onClick="selectLayers(4);">4&nbsp;layers</span>
-								<span onClick="selectLayers(0);">Click to select the number of layers.</span>
-							</p>		
-							<p>
-								<span id="selectOpacity" onClick="selectOpacity(true);">On</span>
-								<span id="selectNoOpacity" onClick="selectOpacity(false);">Off</span>
-								<span onClick="selectOpacity(-1);">Opacity</span><br/>
-
-								<span id="selectShift" onClick="selectShift(true);">On</span>
-								<span id="selectNoShift" onClick="selectShift(false);">Off</span>
-								<span onClick="selectShift(-1);">Shift</span><br/>
-
-								<span onClick="selectShift(-1);selectOpacity(-1);">Click to toggle the shift and opacity options.</span>
-							</p>
-						</div>
-					</div>					
-								
-					<div clasS="single_service">
-						<div onClick="toggleRomanItalic();" class="service_icon">
-							<!--<i class="fa fa-windows"></i>-->
-							A<span style="font-style: italic">A</span>
-						</div>
-						<div onClick="toggleRomanItalic();" class="service_text extended">
-							<h4>Roman or italic</h4>
-							<p>Click to toggle between <span id="selectRoman">Roman</span> and <span id="selectItalic">Italic</span>.<br/>
-							<p>Click to toggle between <span id="selectLowercase">Lower case</span> and <span id="selectSmallcaps">Small&nbsp;caps</span>.
-							</p>	
-						</div>
-					</div>					
-				</div>					
-
-			</div>
-			<div id="css_sample"></div>
 		</div>
 	</section>
 	<!-- End services -->
@@ -1113,6 +1046,9 @@ The base package of Bitcount includes four sizes/weight for each unique pixel sh
 				<div class="col-md-8 center-block">
 					<div class="section_title text-center">
 						<img src="img/pixelshapes/AllPixelsOverlayA_8.gif" alt="AllPixelsOverlayA_8.gif"/>
+						<h1>Animation as gif in traditional layering of Bitcount variants.</h1>
+					    <div id="color-sample-text2">a</div>
+						<h1>Animating Bitcount by COLV1 layers with changing size and position.</h1>
 					</div>
 				</div>
 			</div>
@@ -1132,7 +1068,6 @@ The base package of Bitcount includes four sizes/weight for each unique pixel sh
 	</section>
 
 	<!-- End contact -->
-	
 	
 	<!-- jquery library -->
     <script src="js/vendor/jquery.1.11.3.js"></script>
@@ -1156,7 +1091,15 @@ The base package of Bitcount includes four sizes/weight for each unique pixel sh
     <script src="js/jquery.easypiechart.min.js"></script>	
     <script src="js/retina.min.js"></script>	
 	<script src="js/wow.min.js"></script>
+	<!-- Specific js for Bitcount site -->
 	<script src="js/main.js"></script>	
-	<script src="js/bitcountselector.js"></script>
+	<script src="js/bitcountselector.js"></script> <!-- Should be implemented later again -->
+	<!-- colrv1-animation functions -->
+	<script src="js/colrv1-animator"></script>
+
+	<script>
+    // Periodically call the function
+    setInterval(animateVariableFont, 400); 
+    </script>
 </body>
 </html>
