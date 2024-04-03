@@ -65,8 +65,8 @@ for dsName, dsParams in DESIGN_SPACES.items():
         # right file name based on location  and variant
         copyMasters(dsName, dsParams, SUBSET_AS_TEST)
 
-    axis_suffix = ",".join(MONO_AXES)
-    color_axis_suffix = ",".join(MONO_AXES + COLOR_AXES)
+    axis_suffix = ",".join(sorted(MONO_AXES))
+    color_axis_suffix = ",".join(sorted(COLOR_AXES) + sorted(MONO_AXES))
 
     vfNames = { # Translate design space name into VF output name as requested by Google.
         'Bitcount_Grid_Single4.designspace': (f'BitcountGridSingle[{axis_suffix}].ttf', f'BitcountGridSingle[{color_axis_suffix}].ttf'), 
