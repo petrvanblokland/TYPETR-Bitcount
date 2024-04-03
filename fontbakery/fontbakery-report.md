@@ -243,22 +243,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -565,22 +565,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -889,22 +889,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1261,22 +1261,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1655,22 +1655,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1985,22 +1985,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2328,22 +2328,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2660,22 +2660,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2828,7 +2828,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, plusminus, lessequal
+plusminus, greaterequal, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -2981,22 +2981,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3310,22 +3310,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3698,22 +3698,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4080,22 +4080,22 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
-| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
+| ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 |
 | Black Italic | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=300.0, XPN1=0.0, YPN1=0.0, SZP2=300.0, XPN2=0.0, YPN2=0.0 | [code: bad-fvar-instances]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4258,7 +4258,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, plusminus, lessequal
+plusminus, greaterequal, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
