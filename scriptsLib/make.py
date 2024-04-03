@@ -256,9 +256,9 @@ def makeDesignSpaceFile(dsName, dsParams):
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="{wght}"/>
-                <dimension name="Open" xvalue="{ELXP}"/>
-                <dimension name="Shape" xvalue="{ELSH}"/>
-                <dimension name="Slanted" xvalue="{slnt}"/>
+                <dimension name="Element Expansion" xvalue="{ELXP}"/>
+                <dimension name="Element Shape" xvalue="{ELSH}"/>
+                <dimension name="Slant" xvalue="{slnt}"/>
             </location>
             {info}
         </source>
@@ -274,12 +274,12 @@ def addCOLRv1toVF(vfPath, dstPath):
     cmd = [
         'paintcompiler',
         '-o', dstPath,
-       '--add-axis', f'SZP1:{SMIN}:{SDEF}:{SMAX}:Background-Scale',
-       '--add-axis', f'XPN1:{LMIN}:{LDEF}:{LMAX}:Background-X',
-       '--add-axis', f'YPN1:{LMIN}:{LDEF}:{LMAX}:Background-Y',
-       '--add-axis', f'SZP2:{SMIN}:{SDEF}:{SMAX}:Foreground-Scale',
-       '--add-axis', f'XPN2:{LMIN}:{LDEF}:{LMAX}:Foreground-X',
-       '--add-axis', f'YPN2:{LMIN}:{LDEF}:{LMAX}:Foreground-Y',
+       '--add-axis', f'SZP1:{SMIN}:{SDEF}:{SMAX}:Size of Paint 1',
+       '--add-axis', f'XPN1:{LMIN}:{LDEF}:{LMAX}:Horizontal Position of Paint 1',
+       '--add-axis', f'YPN1:{LMIN}:{LDEF}:{LMAX}:Vertical Position of Paint 1',
+       '--add-axis', f'SZP2:{SMIN}:{SDEF}:{SMAX}:Size of Paint 2',
+       '--add-axis', f'XPN2:{LMIN}:{LDEF}:{LMAX}:Horizontal Position of Paint 2',
+       '--add-axis', f'YPN2:{LMIN}:{LDEF}:{LMAX}:Vertical Position of Paint 2',
        '--paints', 'scriptsLib/colrv1.py'
        ,vfPath
     ]

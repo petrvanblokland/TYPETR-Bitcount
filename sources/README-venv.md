@@ -28,6 +28,8 @@ pip install ufo2ft
 pip install pillow
 
 Then:
+cd ..
+make clean
 make build 
 or forced:
 python scripts/build,py
@@ -46,3 +48,4 @@ Don't for the README:
 
 
 
+	

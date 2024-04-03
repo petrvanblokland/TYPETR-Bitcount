@@ -69,12 +69,12 @@ for dsName, dsParams in DESIGN_SPACES.items():
     color_axis_suffix = ",".join(MONO_AXES + COLOR_AXES)
 
     vfNames = { # Translate design space name into VF output name as requested by Google.
-        'Bitcount_Grid_Single4.designspace': (f'BitcountGridSingle[{axis_suffix}].ttf', f'BitcountGridSingle-Color[{color_axis_suffix}].ttf'), 
-        'Bitcount_Grid_Double4.designspace': (f'BitcountGridDouble[{axis_suffix}].ttf', f'BitcountGridDouble-Color[{color_axis_suffix}].ttf'),
-        'Bitcount_Mono_Single4.designspace': (f'BitcountSingle[{axis_suffix}].ttf',     f'BitcountSingle-Color[{color_axis_suffix}].ttf'),
-        'Bitcount_Mono_Double4.designspace': (f'Bitcount[{axis_suffix}].ttf',           f'Bitcount-Color[{color_axis_suffix}].ttf'),
-        'Bitcount_Prop_Single4.designspace': (f'BitcountPropSingle[{axis_suffix}].ttf', f'BitcountPropSingle-Color[{color_axis_suffix}].ttf'),
-        'Bitcount_Prop_Double4.designspace': (f'BitcountPropDouble[{axis_suffix}].ttf', f'BitcountPropDouble-Color[{color_axis_suffix}].ttf'),
+        'Bitcount_Grid_Single4.designspace': (f'BitcountGridSingle[{axis_suffix}].ttf', f'BitcountGridSingle[{color_axis_suffix}].ttf'), 
+        'Bitcount_Grid_Double4.designspace': (f'BitcountGridDouble[{axis_suffix}].ttf', f'BitcountGridDouble[{color_axis_suffix}].ttf'),
+        'Bitcount_Mono_Single4.designspace': (f'BitcountSingle[{axis_suffix}].ttf',     f'BitcountSingle[{color_axis_suffix}].ttf'),
+        'Bitcount_Mono_Double4.designspace': (f'Bitcount[{axis_suffix}].ttf',           f'Bitcount[{color_axis_suffix}].ttf'),
+        'Bitcount_Prop_Single4.designspace': (f'BitcountPropSingle[{axis_suffix}].ttf', f'BitcountPropSingle[{color_axis_suffix}].ttf'),
+        'Bitcount_Prop_Double4.designspace': (f'BitcountPropDouble[{axis_suffix}].ttf', f'BitcountPropDouble[{color_axis_suffix}].ttf'),
     }
     #vfPath = VF_PATH + dsName.replace('.designspace', f'[{axis_suffix}].ttf')
     vfPath = VF_PATH + vfNames[dsName][0] # Regular VF name

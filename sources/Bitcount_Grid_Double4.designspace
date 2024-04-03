@@ -4,18 +4,18 @@
     <axes>
         <!-- Main pixel shape axes with final names -->
 		<axis minimum="100" default="400" maximum="900" name="Weight" tag="wght"/>
-		<axis minimum="0" default="0" maximum="1000" name="Open" tag="ELXP">
+		<axis minimum="0" default="0" maximum="100" name="Element Expansion" tag="ELXP">
 			<!-- Previous name: ELXP
                  ELXP distance should not be linear. Most usage and control in small ELXP values. 
              -->
             <map input="0" output="0" />    
-            <map input="500" output="125" />    
-            <map input="750" output="250" /> 
-            <map input="875" output="500" /> 
-            <map input="1000" output="1000" /> 
+            <map input="50" output="12" />    
+            <map input="75" output="25" /> 
+            <map input="90" output="50" /> 
+            <map input="100" output="100" /> 
 		</axis>
-		<axis minimum="0" default="0" maximum="1000" name="Shape" tag="ELSH"/> <!-- Previous ELSH -->
-		<axis minimum="0" default="0" maximum="1000" name="Slanted" tag="slnt"/>
+		<axis minimum="0" default="0" maximum="100" name="Element Shape" tag="ELSH"/> <!-- Previous ELSH -->
+		<axis minimum="0" default="0" maximum="90" name="Slant" tag="slnt"/>
 	</axes>
 	<sources>
 		
@@ -26,23 +26,275 @@
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             <info copy="1"/>
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH0_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH0_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH0 slnt1000">
+            stylename="wght100 ELXP0 ELSH0 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH9_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH9 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH9_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH9 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH18_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH18 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH18_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH18 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH27_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH27 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH27_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH27 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH36_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH36 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH36_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH36 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH45_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH45 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH45_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH45 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH54_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH54 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH54_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH54 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH63_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH63 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH63_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH63 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH72_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH72 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH72_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH72 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH81_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH81 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH81_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght100 ELXP0 ELSH81 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="100"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
@@ -54,639 +306,387 @@
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH90_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH90_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH90 slnt1000">
+            stylename="wght100 ELXP0 ELSH90 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH180_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH100_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH180 slnt0">
+            stylename="wght100 ELXP0 ELSH100 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH180_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH100_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH180 slnt1000">
+            stylename="wght100 ELXP0 ELSH100 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH270_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH270 slnt0">
+            stylename="wght100 ELXP100 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH270_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH0_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH270 slnt1000">
+            stylename="wght100 ELXP100 ELSH0 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH360_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH9_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH360 slnt0">
+            stylename="wght100 ELXP100 ELSH9 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH360_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH9_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH360 slnt1000">
+            stylename="wght100 ELXP100 ELSH9 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH450_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH18_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH450 slnt0">
+            stylename="wght100 ELXP100 ELSH18 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH450_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH18_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH450 slnt1000">
+            stylename="wght100 ELXP100 ELSH18 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH540_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH27_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH540 slnt0">
+            stylename="wght100 ELXP100 ELSH27 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH540_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH27_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH540 slnt1000">
+            stylename="wght100 ELXP100 ELSH27 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH630_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH36_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH630 slnt0">
+            stylename="wght100 ELXP100 ELSH36 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH630_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH36_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH630 slnt1000">
+            stylename="wght100 ELXP100 ELSH36 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH720_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH45_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH720 slnt0">
+            stylename="wght100 ELXP100 ELSH45 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH720_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH45_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH720 slnt1000">
+            stylename="wght100 ELXP100 ELSH45 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH810_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH54_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH810 slnt0">
+            stylename="wght100 ELXP100 ELSH54 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH810_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH54_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH810 slnt1000">
+            stylename="wght100 ELXP100 ELSH54 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH900_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH63_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH900 slnt0">
+            stylename="wght100 ELXP100 ELSH63 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH900_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH63_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH900 slnt1000">
+            stylename="wght100 ELXP100 ELSH63 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH1000_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH72_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH1000 slnt0">
+            stylename="wght100 ELXP100 ELSH72 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP0_ELSH1000_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH72_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP0 ELSH1000 slnt1000">
+            stylename="wght100 ELXP100 ELSH72 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH0_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH81_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH0 slnt0">
+            stylename="wght100 ELXP100 ELSH81 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH0_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH81_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH0 slnt1000">
+            stylename="wght100 ELXP100 ELSH81 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH90_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH90 slnt0">
+            stylename="wght100 ELXP100 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH90_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH90_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH90 slnt1000">
+            stylename="wght100 ELXP100 ELSH90 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH180_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH100_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH180 slnt0">
+            stylename="wght100 ELXP100 ELSH100 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH180_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP100_ELSH100_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH180 slnt1000">
+            stylename="wght100 ELXP100 ELSH100 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH270_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH270 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH270_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH270 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH360_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH360 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH360_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH360 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH450_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH450 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH450_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH450 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH540_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH540 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH540_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH540 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH630_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH630 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH630_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH630 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH720_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH720 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH720_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH720 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH810_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH810 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH810_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH810 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH900_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH900 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH900_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH900 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH1000_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH1000 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght100_ELXP1000_ELSH1000_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght100 ELXP1000 ELSH1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="100"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
@@ -698,23 +698,275 @@
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH0_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH0_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH0 slnt1000">
+            stylename="wght400 ELXP0 ELSH0 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH9_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH9 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH9_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH9 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH18_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH18 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH18_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH18 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH27_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH27 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH27_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH27 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH36_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH36 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH36_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH36 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH45_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH45 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH45_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH45 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH54_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH54 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH54_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH54 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH63_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH63 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH63_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH63 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH72_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH72 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH72_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH72 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH81_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH81 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH81_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght400 ELXP0 ELSH81 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="400"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
@@ -726,639 +978,387 @@
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH90_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH90_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH90 slnt1000">
+            stylename="wght400 ELXP0 ELSH90 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH180_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH100_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH180 slnt0">
+            stylename="wght400 ELXP0 ELSH100 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH180_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH100_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH180 slnt1000">
+            stylename="wght400 ELXP0 ELSH100 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH270_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH270 slnt0">
+            stylename="wght400 ELXP100 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH270_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH0_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH270 slnt1000">
+            stylename="wght400 ELXP100 ELSH0 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH360_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH9_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH360 slnt0">
+            stylename="wght400 ELXP100 ELSH9 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH360_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH9_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH360 slnt1000">
+            stylename="wght400 ELXP100 ELSH9 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH450_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH18_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH450 slnt0">
+            stylename="wght400 ELXP100 ELSH18 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH450_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH18_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH450 slnt1000">
+            stylename="wght400 ELXP100 ELSH18 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH540_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH27_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH540 slnt0">
+            stylename="wght400 ELXP100 ELSH27 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH540_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH27_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH540 slnt1000">
+            stylename="wght400 ELXP100 ELSH27 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH630_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH36_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH630 slnt0">
+            stylename="wght400 ELXP100 ELSH36 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH630_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH36_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH630 slnt1000">
+            stylename="wght400 ELXP100 ELSH36 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH720_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH45_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH720 slnt0">
+            stylename="wght400 ELXP100 ELSH45 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH720_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH45_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH720 slnt1000">
+            stylename="wght400 ELXP100 ELSH45 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH810_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH54_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH810 slnt0">
+            stylename="wght400 ELXP100 ELSH54 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH810_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH54_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH810 slnt1000">
+            stylename="wght400 ELXP100 ELSH54 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH900_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH63_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH900 slnt0">
+            stylename="wght400 ELXP100 ELSH63 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH900_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH63_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH900 slnt1000">
+            stylename="wght400 ELXP100 ELSH63 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH1000_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH72_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH1000 slnt0">
+            stylename="wght400 ELXP100 ELSH72 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP0_ELSH1000_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH72_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP0 ELSH1000 slnt1000">
+            stylename="wght400 ELXP100 ELSH72 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH0_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH81_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH0 slnt0">
+            stylename="wght400 ELXP100 ELSH81 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH0_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH81_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH0 slnt1000">
+            stylename="wght400 ELXP100 ELSH81 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH90_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH90 slnt0">
+            stylename="wght400 ELXP100 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH90_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH90_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH90 slnt1000">
+            stylename="wght400 ELXP100 ELSH90 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH180_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH100_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH180 slnt0">
+            stylename="wght400 ELXP100 ELSH100 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH180_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP100_ELSH100_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH180 slnt1000">
+            stylename="wght400 ELXP100 ELSH100 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH270_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH270 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH270_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH270 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH360_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH360 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH360_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH360 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH450_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH450 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH450_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH450 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH540_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH540 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH540_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH540 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH630_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH630 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH630_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH630 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH720_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH720 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH720_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH720 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH810_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH810 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH810_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH810 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH900_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH900 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH900_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH900 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH1000_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH1000 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght400_ELXP1000_ELSH1000_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght400 ELXP1000 ELSH1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="400"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
@@ -1370,23 +1370,275 @@
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH0_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH0_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH0 slnt1000">
+            stylename="wght900 ELXP0 ELSH0 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH9_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH9 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH9_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH9 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH18_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH18 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH18_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH18 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH27_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH27 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH27_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH27 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH36_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH36 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH36_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH36 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH45_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH45 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH45_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH45 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH54_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH54 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH54_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH54 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH63_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH63 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH63_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH63 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH72_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH72 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH72_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH72 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="90"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH81_slnt0.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH81 slnt0">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="0"/>
+            </location>
+            
+        </source>
+            
+        <source familyname="Bitcount Grid Double" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH81_slnt90.ufo" 
+            name="Bitcount Grid Double" 
+            stylename="wght900 ELXP0 ELSH81 slnt90">
+            <location>
+                <!-- Main pixel shape axes, final names to be defined -->
+                <dimension name="Weight" xvalue="900"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
@@ -1398,639 +1650,387 @@
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH90_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH90_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH90 slnt1000">
+            stylename="wght900 ELXP0 ELSH90 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH180_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH100_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH180 slnt0">
+            stylename="wght900 ELXP0 ELSH100 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH180_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH100_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH180 slnt1000">
+            stylename="wght900 ELXP0 ELSH100 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="0"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH270_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH0_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH270 slnt0">
+            stylename="wght900 ELXP100 ELSH0 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH270_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH0_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH270 slnt1000">
+            stylename="wght900 ELXP100 ELSH0 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="0"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH360_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH9_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH360 slnt0">
+            stylename="wght900 ELXP100 ELSH9 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH360_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH9_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH360 slnt1000">
+            stylename="wght900 ELXP100 ELSH9 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="9"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH450_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH18_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH450 slnt0">
+            stylename="wght900 ELXP100 ELSH18 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH450_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH18_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH450 slnt1000">
+            stylename="wght900 ELXP100 ELSH18 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="18"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH540_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH27_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH540 slnt0">
+            stylename="wght900 ELXP100 ELSH27 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH540_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH27_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH540 slnt1000">
+            stylename="wght900 ELXP100 ELSH27 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="27"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH630_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH36_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH630 slnt0">
+            stylename="wght900 ELXP100 ELSH36 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH630_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH36_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH630 slnt1000">
+            stylename="wght900 ELXP100 ELSH36 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="36"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH720_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH45_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH720 slnt0">
+            stylename="wght900 ELXP100 ELSH45 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH720_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH45_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH720 slnt1000">
+            stylename="wght900 ELXP100 ELSH45 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="45"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH810_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH54_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH810 slnt0">
+            stylename="wght900 ELXP100 ELSH54 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH810_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH54_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH810 slnt1000">
+            stylename="wght900 ELXP100 ELSH54 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="54"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH900_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH63_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH900 slnt0">
+            stylename="wght900 ELXP100 ELSH63 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH900_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH63_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH900 slnt1000">
+            stylename="wght900 ELXP100 ELSH63 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="63"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH1000_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH72_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH1000 slnt0">
+            stylename="wght900 ELXP100 ELSH72 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP0_ELSH1000_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH72_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP0 ELSH1000 slnt1000">
+            stylename="wght900 ELXP100 ELSH72 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="0"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="72"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH0_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH81_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH0 slnt0">
+            stylename="wght900 ELXP100 ELSH81 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH0_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH81_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH0 slnt1000">
+            stylename="wght900 ELXP100 ELSH81 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="0"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="81"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH90_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH90_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH90 slnt0">
+            stylename="wght900 ELXP100 ELSH90 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH90_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH90_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH90 slnt1000">
+            stylename="wght900 ELXP100 ELSH90 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="90"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="90"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH180_slnt0.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH100_slnt0.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH180 slnt0">
+            stylename="wght900 ELXP100 ELSH100 slnt0">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="0"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="0"/>
             </location>
             
         </source>
             
         <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH180_slnt1000.ufo" 
+            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP100_ELSH100_slnt90.ufo" 
             name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH180 slnt1000">
+            stylename="wght900 ELXP100 ELSH100 slnt90">
             <location>
                 <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="180"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH270_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH270 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH270_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH270 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="270"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH360_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH360 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH360_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH360 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="360"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH450_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH450 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH450_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH450 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="450"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH540_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH540 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH540_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH540 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="540"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH630_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH630 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH630_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH630 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="630"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH720_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH720 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH720_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH720 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="720"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH810_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH810 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH810_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH810 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="810"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH900_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH900 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH900_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH900 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="900"/>
-                <dimension name="Slanted" xvalue="1000"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH1000_slnt0.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH1000 slnt0">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="0"/>
-            </location>
-            
-        </source>
-            
-        <source familyname="Bitcount Grid Double" 
-            filename="_masters/Grid-Double/Bitcount_Grid_Double-wght900_ELXP1000_ELSH1000_slnt1000.ufo" 
-            name="Bitcount Grid Double" 
-            stylename="wght900 ELXP1000 ELSH1000 slnt1000">
-            <location>
-                <!-- Main pixel shape axes, final names to be defined -->
-                <dimension name="Weight" xvalue="900"/>
-                <dimension name="Open" xvalue="1000"/>
-                <dimension name="Shape" xvalue="1000"/>
-                <dimension name="Slanted" xvalue="1000"/>
+                <dimension name="Element Expansion" xvalue="100"/>
+                <dimension name="Element Shape" xvalue="100"/>
+                <dimension name="Slant" xvalue="90"/>
             </location>
             
         </source>
