@@ -79,18 +79,18 @@ BLACK = 900 # Pixel size: 200
 
 # Scale of the COLRv1 layers
 SMIN = 0 
-SDEF = 300
-SMAX = 1000
+SDEF = 30
+SMAX = 100
 # Position of the COLRv1 layers
-LMIN = -100 #For 3x3 elements. Before it was -200 for 5x5 elements
-LDEF = 0
+LMIN = 0 # -100 #For 3x3 elements. Before it was -200 for 5x5 elements
+LDEF = 50 # 0
 LMAX = 100 #For 3x3 elements. Before it was 200 for 5x5 elements
 
 WGHT_MIN = THIN
 WGHT_DEF = REGULAR
 WGHT_MAX = BLACK
 ELXP_MIN = ELSH_MIN = SLNT_MIN = 0
-ELXP_MAX = ELSH_MAX = SLNT_MAX = 1000
+ELXP_MAX = ELSH_MAX = SLNT_MAX = 90
 
 # COLRv1 axes are defined as independent directions
 DEFAULT_LOCATION = (WGHT_MIN, ELXP_MIN, ELSH_MIN, SLNT_MIN)
@@ -115,11 +115,11 @@ for variant in VARIANTS:
 
 
 CLOSED_QUAD = 0
-ELXP_QUAD = 1000
+ELXP_QUAD = 100
 
 # Style
 ROMAN = 0
-ITALIC = 1000
+ITALIC = 90
 
 # Shapes
 # There are 12 separate shapes in the pixels fonts, that get distributes on ths ELSH axis.
@@ -128,17 +128,17 @@ ITALIC = 1000
 # This values depends on the amount of different shapes to fit in ELSH_MAX
 ELSH2VALUE = {
     1:  0,
-    2:  90,
-    3:  180,
-    4:  270,
-    5:  360,
-    6:  450,
-    7:  540,
-    8:  630,
-    9:  720,
-    10: 810,
-    11: 900,
-    12: 1000,
+    2:  9,
+    3:  18,
+    4:  27,
+    5:  36,
+    6:  45,
+    7:  54,
+    8:  63,
+    9:  72,
+    10: 81,
+    11: 90,
+    12: 100,
 }
 
 SHAPES = sorted(ELSH2VALUE.values())
@@ -148,7 +148,7 @@ SHAPES = sorted(ELSH2VALUE.values())
 # Axis values: Minimum, Default, Maximum
 wght_MIN, wght_DEF, wght_MAX = wght_AXIS = (THIN, REGULAR, BLACK) 
 ELXP_MIN, ELXP_DEF, ELXP_MAX = ELXP_AXIS = (CLOSED_QUAD, CLOSED_QUAD, ELXP_QUAD) # Connected or open quadrants
-ELSH_MIN, ELSH_DEF, ELSH_MAX = ELSH_AXIS = (0, 0, 1000) # Catalog of a sequence of pixel variations
+ELSH_MIN, ELSH_DEF, ELSH_MAX = ELSH_AXIS = (0, 0, 100) # Catalog of a sequence of pixel variations
 slnt_MIN, slnt_DEF, slnt_MAX = slnt_AXIS = (ROMAN, ROMAN, ITALIC) # Slant angle
 
 MONO_AXES = ["wght", "ELXP", "ELSH", "slnt"]

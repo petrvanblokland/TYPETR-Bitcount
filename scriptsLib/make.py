@@ -234,6 +234,16 @@ def makeDesignSpaceFile(dsName, dsParams):
     axisParams['YPN2Def'] = LDEF
     axisParams['YPN2Max'] = LMAX
 
+    weightInstances = {
+        200:    'Thin',
+        300:    'Light',
+        400:    'Regular', 
+        500:    'Medium',
+        600:    'Semibold',
+        700:    'Bold',
+        800:    'Extrabold',
+        900:    'Black',
+    }
     # Layer axes are independent from main Bitcount shape axes
     for wght in (WGHT_MIN, WGHT_DEF, WGHT_MAX):
         # minValue is the same as default
@@ -254,7 +264,6 @@ def makeDesignSpaceFile(dsName, dsParams):
             name="Bitcount {variant} {stem}" 
             stylename="wght{wght} ELXP{ELXP} ELSH{ELSH} slnt{slnt}">
             <location>
-                <!-- Main pixel shape axes, final names to be defined -->
                 <dimension name="Weight" xvalue="{wght}"/>
                 <dimension name="Element Expansion" xvalue="{ELXP}"/>
                 <dimension name="Element Shape" xvalue="{ELSH}"/>
@@ -263,6 +272,32 @@ def makeDesignSpaceFile(dsName, dsParams):
             {info}
         </source>
             """
+
+    if 1: # Adding the instances XML to the design spaces files, gives an error in paintcompiler
+        for wght, weightName in sorted(weightInstances.items()):
+            # minValue is the same as default
+            for ELXP in (ELXP_MIN, ELXP_MAX):
+                # minValue is the same as default
+                for ELSH in SHAPES:
+                    # minValue is the same as default
+                    for slnt in (SLNT_MIN, SLNT_MAX):
+                        wName = weightName
+                        if slnt == SLNT_MAX:
+                            wName += ' Italic'
+                        axisParams['instances'] += f"""
+
+            <instance familyname="Bitcount {variant} {stem}" 
+                name="Bitcount {variant} {stem}" 
+                stylename="wght {wName} ELXP {ELXP} ELSH{ELSH} slnt{slnt}">
+                <location>
+                    <dimension name="Weight" xvalue="{wght}"/>
+                    <dimension name="Element Expansion" xvalue="{ELXP}"/>
+                    <dimension name="Element Shape" xvalue="{ELSH}"/>
+                    <dimension name="Slant" xvalue="{slnt}"/>
+                </location>
+            </instance>
+                """
+            #print(axisParams['instances'])
 
     xml = template % axisParams
     fds = codecs.open(dsName, 'w', encoding='UTF-8')
