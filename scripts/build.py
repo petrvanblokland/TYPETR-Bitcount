@@ -40,7 +40,9 @@ else:
 
 for dsName, dsParams in DESIGN_SPACES.items():
     print('---', dsName)
-    dsPath = os.path.join(MASTERS_PATH, dsName)
+    dsPath = os.path.join(MASTERS_PATH, dsName) 
+    styleSpacePath = 'sources/Bitcount.stylespace'
+    styleSpaceCOLRv1Path = 'sources/Bitcount_COLRv1.stylespace'
 
     if MAKE_DESIGNSPACES:
         # For all 6 design spaces, generate the OTF/TTF/VF
@@ -93,10 +95,22 @@ for dsName, dsParams in DESIGN_SPACES.items():
         print('...', " ".join(cmd))
         subprocess.run(cmd, check=True)
 
+    #if FIX_NAME_TABLES:
+    #    fixTTFNameTables('vf/', MASTERS_DATA)
+
+    colorPath = VF_PATH + vfNames[dsName][1] # Target color VF name
     if ADD_COLRV1:
-        colorPath = VF_PATH + vfNames[dsName][1] # Target color VF name
         print('... Add COLRv1 to', vfPath)
         addCOLRv1toVF(vfPath, colorPath)
 
+    # Add STAT table to the freshly generate VF for all 10 axes
+    if MAKE_STAT:
+        cmd = 'statmake --stylespace %s --designspace %s %s' % (styleSpacePath, dsPath, vfPath)
+        print('... statMake VF', cmd)
+        os.system(cmd)
+        if ADD_COLRV1:
+            cmd = 'statmake --stylespace %s --designspace %s %s' % (styleSpaceCOLRv1Path, dsPath, colorPath)
+            print('... statMake COLRv1 VF', cmd)
+            os.system(cmd)
 
 
