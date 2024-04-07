@@ -247,10 +247,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -259,8 +259,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -619,10 +619,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -631,8 +631,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -798,7 +798,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountGridDouble[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
@@ -953,10 +953,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -965,8 +965,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -1032,22 +1032,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
-</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
-
-
-* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
-
-	- SZP1
-
-	- SZP2
-
-	- XPN1
-
-	- XPN2
-
-	- YPN1 
-
-	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -1184,7 +1168,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountPropDouble[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
@@ -1339,10 +1323,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -1351,8 +1335,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -1410,22 +1394,6 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
-</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
-
-
-* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
-
-	- SZP1
-
-	- SZP2
-
-	- XPN1
-
-	- XPN2
-
-	- YPN1 
-
-	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -1531,7 +1499,7 @@ plusminus
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountPropSingle[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
@@ -1686,10 +1654,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -1698,8 +1666,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -1757,22 +1725,6 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
-</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
-
-
-* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
-
-	- SZP1
-
-	- SZP2
-
-	- XPN1
-
-	- XPN2
-
-	- YPN1 
-
-	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -1864,7 +1816,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-plusminus, greaterequal, lessequal
+plusminus, lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -2021,10 +1973,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2033,8 +1985,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2189,7 +2141,7 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 The following math glyphs have a different width, though:
 
 Width = 400:
-plusminus, greaterequal, lessequal
+plusminus, lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -2199,7 +2151,7 @@ plusminus, greaterequal, lessequal
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountMonoDouble[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
@@ -2354,10 +2306,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -2366,8 +2318,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -2433,22 +2385,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
-</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
-
-
-* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
-
-	- SZP1
-
-	- SZP2
-
-	- XPN1
-
-	- XPN2
-
-	- YPN1 
-
-	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -2748,10 +2684,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2760,8 +2696,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2930,7 +2866,7 @@ plusminus
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountMonoSingle[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
@@ -3085,10 +3021,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -3097,8 +3033,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -3164,22 +3100,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
-</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
-
-
-* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
-
-	- SZP1
-
-	- SZP2
-
-	- XPN1
-
-	- XPN2
-
-	- YPN1 
-
-	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -3421,10 +3341,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3433,8 +3353,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3743,10 +3663,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3755,8 +3675,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3980,7 +3900,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[38] BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[37] BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountGridSingle[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
@@ -4135,10 +4055,10 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -4147,8 +4067,8 @@ But instead we have got:
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Bold Italic | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Bold | N/A | wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold Italic | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraBold | N/A | wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Black | N/A | wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -4214,22 +4134,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
-</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
-
-
-* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
-
-	- SZP1
-
-	- SZP2
-
-	- XPN1
-
-	- XPN2
-
-	- YPN1 
-
-	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -4322,8 +4226,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 345 | 100 | 1269 | 73 | 966 | 0 |
-| 0% | 13% | 4% | 46% | 3% | 35% | 0% |
+| 0 | 339 | 100 | 1269 | 73 | 972 | 0 |
+| 0% | 12% | 4% | 46% | 3% | 35% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
