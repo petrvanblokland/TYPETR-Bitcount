@@ -13,9 +13,9 @@ class GlyphData:
 
     <axes>
         <axis default="500" maximum="1000" minimum="0" name="Weight" tag="wght"/>
-        <axis default="0" maximum="1000" minimum="0" name="Open" tag="ELXP"/> <!-- Previoud ELXP -->
-        <axis default="300" maximum="900" minimum="0" name="Shape" tag="ELSH"/> <!-- Previous ELSH -->
-        <axis default="0" maximum="1000" minimum="0" name="Slanted" tag="slnt"/>
+        <axis default="0" maximum="1000" minimum="0" name="Element Expansion" tag="ELXP"/> <!-- Previoud ELXP -->
+        <axis default="300" maximum="900" minimum="0" name="Element Shape" tag="ELSH"/> <!-- Previous ELSH -->
+        <axis default="0" maximum="1000" minimum="0" name="Slant" tag="slnt"/>
     </axes>
     """
     def __init__(self, uni=None, unicodes=None, c=None, name=None, comment=None, hex=None,

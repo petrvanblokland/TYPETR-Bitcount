@@ -273,7 +273,7 @@ def makeDesignSpaceFile(dsName, dsParams):
         </source>
             """
 
-    if 1: # Adding the instances XML to the design spaces files, gives an error in paintcompiler
+    if 0: # Adding the instances XML to the design spaces files, gives an error in paintcompiler
         for wght, weightName in sorted(weightInstances.items()):
             # minValue is the same as default
             for ELXP in (ELXP_MIN, ELXP_MAX):
