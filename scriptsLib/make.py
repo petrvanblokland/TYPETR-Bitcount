@@ -17,8 +17,6 @@ from scriptsLib import (
     BITCOUNT,
     DEFAULT_LOCATION,
     DESIGNSPACE_TEMPLATE_PATH,
-    ELSH_MAX,
-    ELSH_MIN,
     ELXP_MAX,
     ELXP_MIN,
     LAYER_ELEMENTS,
@@ -122,12 +120,6 @@ def copyMasters(dsName, dsParams):
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
             copyGlyph(pixels, pName, dst, PIXEL_NAME)
-            # if pd.slnt:
-            #    copyGlyph(pixels, '_canvas_i', dst, '_canvas')
-            #    copyGlyph(pixels, 'canvas_i', dst, 'canvas')
-            # else:
-            #    copyGlyph(pixels, '_canvas', dst, '_canvas')
-            #    copyGlyph(pixels, 'canvas', dst, 'canvas')
             # Copy the COLRv1 mask pixel glyphs. Roman and italic pixels get copied from their own element source.
             # If this is the default instance, we add the elements too
             dst.info.italicAngle = 0  # Set default angle
@@ -162,13 +154,7 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None):
         glyphName,
         srcFont.path,
     )
-    # print('@@@', glyphName, dstGlyphName, dstGlyphName in dstFont)
-    # print('... Copy pixel /%s to /%s to' % (glyphName, dstGlyphName), dstFont.path)
     srcGlyph = srcFont[glyphName]
-    # if not PIXEL_NAME in dstFont:
-    #    dstFont.newGlyph(PIXEL_NAME)
-    # print('---', srcGlyph.name)
-    # dstFont.insertGlyph(srcGlyph, name=dstGlyphName)
     dstFont[dstGlyphName] = srcGlyph
     assert (
         dstGlyphName in dstFont
@@ -176,10 +162,7 @@ def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None):
         dstGlyphName,
         dstFont.path,
     )
-    g = dstFont[dstGlyphName]
-    # print('@@1', glyphName, PIXEL_NAME, dstGlyphName in dstFont)
-    return g
-    # return dstFont[dstGlyphName]
+    return dstFont[dstGlyphName]
 
 
 def makeDesignSpaceFile(dsName, dsParams):
