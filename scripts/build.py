@@ -16,28 +16,16 @@ sys.path.insert(0, ".")
 from scriptsLib import COLOR_AXES, DESIGN_SPACES, MASTERS_PATH, MONO_AXES, VF_PATH
 from scriptsLib.make import addCOLRv1toVF, copyMasters, makeDesignSpaceFile
 
-if 1:
-    MAKE_DESIGNSPACES = True  #
-    SUBSET_AS_TEST = False  # If True, then compile with a subset of only a couple of glyph (whithout features)
-    COPY_MASTERS = True  # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
-    SET_GLYPH_ORDER = True
-    MAKE_STAT = True
-    MAKE_UFO = True
-    MAKE_TTF = True
-    MAKE_VF = True
-    ADD_COLRV1 = True
-    USE_PRODUCTION_NAMES = False
-else:
-    MAKE_DESIGNSPACES = True
-    SUBSET_AS_TEST = False  # If True, then compile with a subset of only a couple of glyph (whithout features)
-    COPY_MASTERS = True  # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
-    SET_GLYPH_ORDER = False
-    MAKE_STAT = False
-    MAKE_UFO = False
-    MAKE_TTF = False
-    MAKE_VF = False
-    ADD_COLRV1 = True
-    USE_PRODUCTION_NAMES = False
+MAKE_DESIGNSPACES = True
+COPY_MASTERS = True  # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
+SET_GLYPH_ORDER = True
+MAKE_STAT = True
+MAKE_UFO = True
+MAKE_TTF = True
+MAKE_VF = True
+ADD_COLRV1 = True
+USE_PRODUCTION_NAMES = False
+
 
 for dsName, dsParams in DESIGN_SPACES.items():
     print("---", dsName)
@@ -66,7 +54,7 @@ for dsName, dsParams in DESIGN_SPACES.items():
         print("--- Copy UFO masters")
         # Copy the ufo/ masters to _masters/<variant>/<UFOs> for every master and apply the
         # right file name based on location  and variant
-        copyMasters(dsName, dsParams, SUBSET_AS_TEST)
+        copyMasters(dsName, dsParams)
 
     axis_suffix = ",".join(sorted(MONO_AXES))
     color_axis_suffix = ",".join(sorted(COLOR_AXES) + sorted(MONO_AXES))

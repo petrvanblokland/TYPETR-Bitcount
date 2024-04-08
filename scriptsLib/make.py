@@ -33,7 +33,6 @@ from scriptsLib import (
     SMAX,
     SMIN,
     UFO_PATH,
-    UFO_TEST_PATH,
     VARIATION_PIXELS,
     WGHT_DEF,
     WGHT_MAX,
@@ -67,7 +66,7 @@ def deleteUFOs(path):
     os.system("rm -r %s*.ufo" % path)
 
 
-def copyMasters(dsName, dsParams, subsetAsTest=False):
+def copyMasters(dsName, dsParams):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
     If subsetAsTest is True, then copy from a source UFO with a small sybset of glyphs.
@@ -97,10 +96,7 @@ def copyMasters(dsName, dsParams, subsetAsTest=False):
     md = MASTERS_DATA[masterName]
 
     # In case of fast subset compiling, use different source UFO
-    if subsetAsTest:
-        ufoDirPath = UFO_TEST_PATH
-    else:
-        ufoDirPath = UFO_PATH
+    ufoDirPath = UFO_PATH
 
     print(
         "... Copy %s %d location masters (wght=3, open=2, shape=12, slanted=2)"

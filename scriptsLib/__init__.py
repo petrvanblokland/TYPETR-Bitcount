@@ -24,7 +24,6 @@ DOUBLE = "Double"
 STEMS = (SINGLE, DOUBLE)
 
 UFO_PATH = "sources/ufo/"
-UFO_TEST_PATH = "sources/ufo-test/"  # Subset masters with only a couply of glyphs for fast test compiling
 FEATURES_PATH = "sources/features/"
 MASTERS_PATH = "sources/build/"  # Gitignore, not committing into Github
 
