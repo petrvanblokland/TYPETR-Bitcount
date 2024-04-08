@@ -61,7 +61,7 @@ def getStyleName(pd):
     return f"wght{pd.wght} ELXP{pd.ELXP} ELSH{pd.ELSH} slnt{pd.slnt}"
 
 
-def copyMasters(dsName, dsParams):
+def copyMasters(dsParams):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
     If subsetAsTest is True, then copy from a source UFO with a small sybset of glyphs.

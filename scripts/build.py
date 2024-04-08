@@ -45,7 +45,7 @@ for dsName in [
     print("--- Copy UFO masters")
     # Copy the ufo/ masters to _masters/<variant>/<UFOs> for every master and apply the
     # right file name based on location  and variant
-    copyMasters(dsName, dsParams)
+    copyMasters(dsParams)
 
     print("--- Make variable fonts")
     vfPath = VF_PATH + dsParams.vfName  # Regular VF name
