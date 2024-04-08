@@ -71,23 +71,6 @@ PROP_DOUBLE_ITALIC = 'Bitcount_Prop_Double-Italic.ufo'
 PROP_SINGLE = 'Bitcount_Prop_Single.ufo'
 PROP_SINGLE_ITALIC = 'Bitcount_Prop_Single-Italic.ufo'
 
-# Names for generated VF and VF_COLRv1: entries in MASTERS_DATA to fix name tables
-GRID_SINGLE_VF = 'BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf'
-GRID_SINGLE_VF_COLRv1 = 'BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf'
-GRID_DOUBLE_VF = 'BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf'
-GRID_DOUBLE_VF_COLRv1 = 'BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf'
-
-MONO_SINGLE_VF = 'BitcountSingle[ELSH,ELXP,slnt,wght].ttf'
-MONO_SINGLE_VF_COLRv1 = 'BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf'
-MONO_DOUBLE_VF = 'Bitcount[ELSH,ELXP,slnt,wght].ttf'
-MONO_DOUBLE_VF_COLRv1 = 'Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf'
-
-PROP_SINGLE_VF = 'BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf'
-PROP_SINGLE_VF_COLRv1 = 'BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf'
-PROP_DOUBLE_VF = 'BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf'
-PROP_DOUBLE_VF_COLRv1 = 'BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf'
-
-
 # Pixel weight sizes in pixel glyph names, this is the stem width of Bitcount glyphs
 # Instead we use OS/2 weight values on the axis values.
 THIN = 100 # Pixel size: 24, smaller get irregular curves
