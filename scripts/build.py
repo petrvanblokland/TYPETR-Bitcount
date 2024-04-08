@@ -65,7 +65,7 @@ for dsName in [
         vfPath,
     )
     print("... statMake VF", cmd)
-    os.system(cmd)
+    subprocess.run(cmd, shell=True, check=True)
 
     cmd = "statmake --stylespace %s --designspace %s %s" % (
         styleSpaceCOLRv1Path,
@@ -73,4 +73,4 @@ for dsName in [
         colorPath,
     )
     print("... statMake COLRv1 VF", cmd)
-    os.system(cmd)
+    subprocess.run(cmd, shell=True, check=True)
