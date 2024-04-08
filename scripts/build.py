@@ -64,7 +64,10 @@ for dsName in [
     subprocess.run(cmd, shell=True, check=True)
 
     print("... Run Google Fonts fixes", cmd)
-    subprocess.run(["gftools", "fix-font", "-o", vfPath, vfPath], check=True)
+    subprocess.run(
+        ["gftools", "fix-family", "--include-source-fixes", "--inplace", vfPath],
+        check=True,
+    )
 
     print("... Add COLRv1 to", vfPath)
     colorPath = VF_PATH + dsParams.colorVfName  # Target color VF name

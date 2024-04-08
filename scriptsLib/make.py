@@ -16,6 +16,8 @@ from scriptsLib import (
     BITCOUNT,
     DEFAULT_LOCATION,
     DESIGNSPACE_TEMPLATE_PATH,
+    ELSH_DEF,
+    ELXP_DEF,
     ELXP_MAX,
     ELXP_MIN,
     LAYER_ELEMENTS,
@@ -30,6 +32,7 @@ from scriptsLib import (
     SHAPES,
     SLNT_MAX,
     SLNT_MIN,
+    slnt_DEF,
     SMAX,
     SMIN,
     UFO_PATH,
@@ -146,6 +149,10 @@ def makeDesignSpaceFile(dsName, dsParams):
     stem = dsParams.stem  # Stem width in pixels: Single or Double
     variant = dsParams.variant  # Variant of VF: Grid, Mono or Prop
 
+    familyName = f"Bitcount {variant} {stem}"
+    if familyName == "Bitcount Mono Double":
+        familyName = "Bitcount"
+
     weightInstances = {
         200: "Thin",
         300: "Light",
@@ -157,6 +164,7 @@ def makeDesignSpaceFile(dsName, dsParams):
         900: "Black",
     }
     # Layer axes are independent from main Bitcount shape axes
+
     for wght in (WGHT_MIN, WGHT_DEF, WGHT_MAX):
         # minValue is the same as default
         for ELXP in (ELXP_MIN, ELXP_MAX):
@@ -167,8 +175,8 @@ def makeDesignSpaceFile(dsName, dsParams):
                     path = f"{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_ELXP{ELXP}_ELSH{ELSH}_slnt{slnt}.ufo"
                     source = SourceDescriptor(
                         filename=path,
-                        familyName=f"Bitcount {variant} {stem}",
-                        name=f"Bitcount {variant} {stem}",
+                        familyName=familyName,
+                        name=familyName,
                         styleName=f"wght{wght} ELXP{ELXP} ELSH{ELSH} slnt{slnt}",
                         location={
                             "Weight": wght,
@@ -191,11 +199,15 @@ def makeDesignSpaceFile(dsName, dsParams):
                     wName = weightName
                     if slnt == SLNT_MAX:
                         wName += " Italic"
+                    stylename = f"{wName} ELXP {ELXP} ELSH{ELSH} slnt{slnt}"
+                    if ELXP == ELXP_DEF and ELSH == ELSH_DEF and slnt == slnt_DEF:
+                        stylename = wName
+
                     template.instances.append(
                         InstanceDescriptor(
-                            familyName=f"Bitcount {variant} {stem}",
-                            name=f"Bitcount {variant} {stem}",
-                            styleName=f"wght {wName} ELXP {ELXP} ELSH{ELSH} slnt{slnt}",
+                            familyName=familyName,
+                            name=familyName,
+                            styleName=stylename,
                             location={
                                 "Weight": wght,
                                 "Element Expansion": ELXP,

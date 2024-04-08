@@ -58,7 +58,7 @@ MASTERS = [
     MasterData(variant=GRID, stem=SINGLE, style=ROMAN),
     # Grid is horizontally fixed on 5 pixels (6 including space), but vertical it
     # takes the space the is needed for full accent showing, to max of 11.
-    MasterData(variant=MONO, stem=DOUBLE),
+    MasterData(variant=MONO, stem=DOUBLE, familyName="Bitcount"),
     MasterData(variant=MONO, stem=SINGLE, style=ROMAN),
     # Same height as GRID (max 11 pixels), but here glyphs take horizontally
     # the amount of pixels that they need (max is 10 pixels).
