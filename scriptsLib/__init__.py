@@ -39,6 +39,9 @@ VARIATION_PIXELS = "Bitcount-VariationPixels.ufo"
 LAYER_ELEMENTS = "Bitcount-LayerElements.ufo"
 LAYER_ELEMENTS_ITALIC = "Bitcount-LayerElements-Italic.ufo"
 
+# Metadata for the Googlefonts build
+GF_COPYRIGHT = "Copyright 2024 The Bitcount Project Authors (https://github.com/petrvanblokland/TYPETR-Bitcount)"
+
 # Pixel weight sizes in pixel glyph names, this is the stem width of Bitcount glyphs
 # Instead we use OS/2 weight values on the axis values.
 THIN = 100  # Pixel size: 24, smaller get irregular curves
@@ -115,7 +118,7 @@ COLOR_AXES = ["SZP1", "XPN1", "YPN1", "SZP2", "XPN2", "YPN2"]
 
 
 axis_suffix = ",".join(sorted(MONO_AXES))
-color_axis_suffix = ",".join(sorted(COLOR_AXES) + sorted(MONO_AXES))
+color_axis_suffix = ",".join(sorted(COLOR_AXES + MONO_AXES))
 
 
 @dataclass

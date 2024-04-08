@@ -6,6 +6,7 @@ import os, shutil
 import ufoLib2
 import subprocess
 
+from gftools.constants import OFL_LICENSE_INFO
 from fontTools.designspaceLib import (
     DesignSpaceDocument,
     SourceDescriptor,
@@ -20,6 +21,7 @@ from scriptsLib import (
     ELXP_DEF,
     ELXP_MAX,
     ELXP_MIN,
+    GF_COPYRIGHT,
     LAYER_ELEMENTS,
     LAYER_ELEMENTS_ITALIC,
     LDEF,
@@ -64,7 +66,7 @@ def getStyleName(pd):
     return f"wght{pd.wght} ELXP{pd.ELXP} ELSH{pd.ELSH} slnt{pd.slnt}"
 
 
-def copyMasters(dsParams):
+def copyMasters(dsParams, googlefonts=False):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
     If subsetAsTest is True, then copy from a source UFO with a small sybset of glyphs.
@@ -129,6 +131,26 @@ def copyMasters(dsParams):
                 for elementName in eFont.keys():
                     # print('... Copy element', elementName,'to', POST_FIX+elementName)
                     dst[POST_FIX + elementName] = eFont[elementName]
+            if googlefonts:
+                dst.info.openTypeNameLicense = OFL_LICENSE_INFO
+                dst.info.copyright = GF_COPYRIGHT
+                if dst.info.familyName == "Bitcount Mono Double":
+                    dst.info.familyName = "Bitcount"
+                    dst.info.styleMapFamilyName = "Bitcount"
+                    dst.info.postscriptFontName = "Bitcount-Regular"
+                    dst.info.openTypeNamePreferredFamilyName = "Bitcount"
+                dst.info.openTypeOS2WinAscent = 1000
+                dst.info.openTypeOS2TypoLineGap = 0
+                dst.info.openTypeOS2TypoAscender = 840
+                dst.info.openTypeOS2TypoDescender = -360
+                dst.info.openTypeNameDescription = ""
+                if "space" in dst:
+                    dst["uni00A0"] = dst["space"].copy("uni00A0")
+                    dst["uni00A0"].unicode = 0x00A0
+                    dst.info.styleName = "Regular"
+                dst.info.openTypeOS2Type = []
+                dst.info.openTypeOS2Selection = [7]
+
             dst.save(dstPath, overwrite=True)
             dst.close()
 

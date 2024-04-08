@@ -16,6 +16,8 @@ sys.path.insert(0, ".")
 from scriptsLib import DESIGN_SPACES, MASTERS_PATH, VF_PATH
 from scriptsLib.make import addCOLRv1toVF, copyMasters, makeDesignSpaceFile
 
+GOOGLEFONTS = True
+
 styleSpacePath = "sources/Bitcount.stylespace"
 styleSpaceCOLRv1Path = "sources/Bitcount_COLRv1.stylespace"
 
@@ -45,7 +47,7 @@ for dsName in [
     print("--- Copy UFO masters")
     # Copy the ufo/ masters to _masters/<variant>/<UFOs> for every master and apply the
     # right file name based on location  and variant
-    copyMasters(dsParams)
+    copyMasters(dsParams, googlefonts=GOOGLEFONTS)
 
     print("--- Make variable fonts")
     vfPath = VF_PATH + dsParams.vfName  # Regular VF name
@@ -65,7 +67,7 @@ for dsName in [
 
     print("... Run Google Fonts fixes", cmd)
     subprocess.run(
-        ["gftools", "fix-family", "--include-source-fixes", "--inplace", vfPath],
+        ["gftools", "fix-family", "--inplace", vfPath],
         check=True,
     )
 

@@ -6,7 +6,7 @@ http://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
-SIL ELXP FONT LICENSE Version 1.1 - 26 February 2007
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 -----------------------------------------------------------
 
 PREAMBLE
