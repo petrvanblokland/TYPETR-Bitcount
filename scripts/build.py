@@ -54,10 +54,6 @@ for dsName in [
     print("...", " ".join(cmd))
     subprocess.run(cmd, check=True)
 
-    print("... Add COLRv1 to", vfPath)
-    colorPath = VF_PATH + dsParams.colorVfName  # Target color VF name
-    addCOLRv1toVF(vfPath, colorPath)
-
     # Add STAT table to the freshly generate VF for all 10 axes
     cmd = "statmake --stylespace %s --designspace %s %s" % (
         styleSpacePath,
@@ -66,6 +62,13 @@ for dsName in [
     )
     print("... statMake VF", cmd)
     subprocess.run(cmd, shell=True, check=True)
+
+    print("... Run Google Fonts fixes", cmd)
+    subprocess.run(["gftools", "fix-font", "-o", vfPath, vfPath], check=True)
+
+    print("... Add COLRv1 to", vfPath)
+    colorPath = VF_PATH + dsParams.colorVfName  # Target color VF name
+    addCOLRv1toVF(vfPath, colorPath)
 
     cmd = "statmake --stylespace %s --designspace %s %s" % (
         styleSpaceCOLRv1Path,
