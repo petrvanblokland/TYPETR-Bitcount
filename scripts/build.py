@@ -11,9 +11,10 @@ import os
 import subprocess
 import sys
 
-sys.path.append(".")
+sys.path.insert(0, ".")
 
-from scriptsLib.make import *
+from scriptsLib import COLOR_AXES, DESIGN_SPACES, MASTERS_PATH, MONO_AXES, VF_PATH
+from scriptsLib.make import addCOLRv1toVF, copyMasters, makeDesignSpaceFile
 
 if 1:
     MAKE_DESIGNSPACES = True  #

@@ -9,10 +9,39 @@ import subprocess
 
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
-from scriptsLib import *
+from scriptsLib import (
+    BITCOUNT,
+    DEFAULT_LOCATION,
+    DESIGNSPACE_TEMPLATE_PATH,
+    ELSH_MAX,
+    ELSH_MIN,
+    ELXP_MAX,
+    ELXP_MIN,
+    LAYER_ELEMENTS,
+    LAYER_ELEMENTS_ITALIC,
+    LDEF,
+    LMAX,
+    LMIN,
+    MASTER_PATHS,
+    MASTERS_PATH,
+    PIXEL_NAME,
+    POST_FIX,
+    SDEF,
+    SHAPES,
+    SLNT_MAX,
+    SLNT_MIN,
+    SMAX,
+    SMIN,
+    UFO_PATH,
+    UFO_TEST_PATH,
+    VARIATION_PIXELS,
+    WGHT_DEF,
+    WGHT_MAX,
+    WGHT_MIN,
+    wght_DEF,
+)
 from scriptsLib.glyphData import (
     PIXEL_DATA,
-    DEFAULT_PIXEL_NAME,
 )  # Data of all pixel glyphs
 from scriptsLib.masterData import MASTERS_DATA
 

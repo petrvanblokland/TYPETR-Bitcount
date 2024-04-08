@@ -4,8 +4,38 @@
 #   such as VF location in axis values
 #
 
-from scriptsLib import *
-from scriptsLib.glyphData import *
+
+from scriptsLib import (
+    DOUBLE,
+    SINGLE,
+    ROMAN,
+    GRID,
+    GRID_DOUBLE,
+    GRID_DOUBLE_ITALIC,
+    GRID_SINGLE,
+    GRID_SINGLE_ITALIC,
+    MASTERS_GRID_DOUBLE_PATH,
+    MASTERS_GRID_SINGLE_PATH,
+    MASTERS_MONO_DOUBLE_PATH,
+    MASTERS_MONO_SINGLE_PATH,
+    MASTERS_PROP_DOUBLE_PATH,
+    MASTERS_PROP_SINGLE_PATH,
+    MONO,
+    MONO_DOUBLE,
+    MONO_DOUBLE_ITALIC,
+    MONO_SINGLE,
+    MONO_SINGLE_ITALIC,
+    PROP,
+    PROP_DOUBLE,
+    PROP_DOUBLE_ITALIC,
+    PROP_SINGLE,
+    PROP_SINGLE_ITALIC,
+)
+from scriptsLib.glyphData import (
+    COLR_PIX_GRID_DATA,
+    COLR_PIX_MONO_DATA,
+    COLR_PIX_PROP_DATA,
+)
 
 
 class MasterData:
@@ -108,6 +138,3 @@ MASTERS_DATA = {
     # Other master data generated automatically for the key positions in
     # extreme axis positions for various design spaces.
 }
-
-# Collection of pixel shapes for every design space configuration
-VARIATION_PIXELS: MD(ufoName=VARIATION_PIXELS)

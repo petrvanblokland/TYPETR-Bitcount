@@ -5,8 +5,22 @@
 #
 #   Glyph data for each glyph stored here.
 #
-import os
-from scriptsLib import *
+
+
+from scriptsLib import (
+    BLACK,
+    CLOSED_QUAD,
+    ELSH2VALUE,
+    ELSH_DEF,
+    ELXP_DEF,
+    ELXP_QUAD,
+    REGULAR,
+    THIN,
+    wght_DEF,
+    slnt_DEF,
+    ITALIC,
+    ROMAN,
+)
 
 
 class GlyphData:
