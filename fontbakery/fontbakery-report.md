@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure that all variable font files have the same set of axes and axis ranges. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/consistent_axes">com.google.fonts/check/varfont/consistent_axes</a>)</summary><div>
+<details><summary><b>[5] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure that all variable font files have the same set of axes and axis ranges. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/consistent_axes">com.google.fonts/check/varfont/consistent_axes</a>)</summary><div>
 
 
 * 🔥 **FAIL** BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf: lacks a 'SZP1' variation axis. [code: missing-axis]
@@ -41,6 +41,19 @@ Fontbakery version: 0.8.13
 * 🔥 **FAIL** Bitcount[ELSH,ELXP,slnt,wght].ttf: lacks a 'SZP2' variation axis. [code: missing-axis]
 * 🔥 **FAIL** Bitcount[ELSH,ELXP,slnt,wght].ttf: lacks a 'XPN2' variation axis. [code: missing-axis]
 * 🔥 **FAIL** Bitcount[ELSH,ELXP,slnt,wght].ttf: lacks a 'YPN2' variation axis. [code: missing-axis]
+</div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent PANOSE proportion? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_proportion">com.google.fonts/check/family/panose_proportion</a>)</summary><div>
+
+
+* 🔥 **FAIL** PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
+
+
+* 🔥 **FAIL** Family 'BitcountGridDouble' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+* 🔥 **FAIL** Family 'BitcountMonoSingle' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+* 🔥 **FAIL** Family 'BitcountPropDouble' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+* 🔥 **FAIL** Family 'BitcountPropSingle' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+* 🔥 **FAIL** Family 'BitcountMonoDouble' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+* 🔥 **FAIL** Family 'BitcountGridSingle' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
 </div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent underline thickness? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/family/underline_thickness">com.google.fonts/check/family/underline_thickness</a>)</summary><div>
 
 
@@ -62,48 +75,32 @@ Detected underlineThickness values are:
 </div></details><details><summary>🔥 <b>FAIL:</b> Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present,  otherwise uses Font Family name (nameID 1) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.adobe.fonts/check/family/consistent_family_name">com.adobe.fonts/check/family/consistent_family_name</a>)</summary><div>
 
 
-* 🔥 **FAIL** 12 different Font Family names were found:
+* 🔥 **FAIL** 6 different Font Family names were found:
 
-* 'Bitcount Grid Double VF' was found in:
-  - BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf (nameID 1)
+* 'Bitcount Grid Double' was found in:
+  - BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf (nameID 16)
+  - BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 16)
 
-* 'Bitcount Mono Single VF' was found in:
-  - BitcountSingle[ELSH,ELXP,slnt,wght].ttf (nameID 1)
+* 'Bitcount Mono Single' was found in:
+  - BitcountSingle[ELSH,ELXP,slnt,wght].ttf (nameID 16)
+  - BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 16)
 
-* 'Bitcount Grid Double VF COLRv1' was found in:
-  - BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 1)
+* 'Bitcount Prop Double' was found in:
+  - BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 16)
+  - BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf (nameID 16)
 
-* 'Bitcount Prop Double VF COLRv1' was found in:
-  - BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 1)
+* 'Bitcount Prop Single' was found in:
+  - BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 16)
+  - BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf (nameID 16)
 
-* 'Bitcount Prop Single VF COLRv1' was found in:
-  - BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 1)
+* 'Bitcount Mono Double' was found in:
+  - Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 16)
+  - Bitcount[ELSH,ELXP,slnt,wght].ttf (nameID 16)
 
-* 'Bitcount Prop Single VF' was found in:
-  - BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf (nameID 1)
-
-* 'Bitcount Mono Double VF COLRv1' was found in:
-  - Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 1)
-
-* 'Bitcount Prop Double VF' was found in:
-  - BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf (nameID 1)
-
-* 'Bitcount Mono Single VF COLRv1' was found in:
-  - BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 1)
-
-* 'Bitcount Grid Single VF' was found in:
-  - BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf (nameID 1)
-
-* 'Bitcount Mono Double VF' was found in:
-  - Bitcount[ELSH,ELXP,slnt,wght].ttf (nameID 1)
-
-* 'Bitcount Grid Single VF COLRv1' was found in:
-  - BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 1) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[34] BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Expected "BitcountGridDoubleVF[ELSH,ELXP,slnt,wght].ttf. Got BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+* 'Bitcount Grid Single' was found in:
+  - BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf (nameID 16)
+  - BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf (nameID 16) [code: inconsistent-family-name]
+</div></details><br></div></details><details><summary><b>[35] BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 4 meaning that:
@@ -208,6 +205,19 @@ But instead we have got:
 
 
 * 🔥 **FAIL** The right-leaning glyphs have a positive 'slnt' axis value, which is likely a mistake. It needs to be negative to lean rightwards. [code: positive-value-for-clockwise-lean]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | BitcountGridDouble | Bitcount Grid Double |
+| Subfamily Name | Regular | Regular |
+| Full Name | Bitcount Grid Double wght400 ELXP0 ELSH0 slnt0 | Bitcount Grid Double Regular |
+| Poscript Name | BitcountGridDouble-Regular | BitcountGridDouble-Regular |
+| Typographic Family Name | Bitcount Grid Double | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -237,14 +247,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -263,6 +273,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -292,6 +306,10 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 672 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 8 glyphs (1.16%) have a different width. You should check the widths of: ['px', 'fi', 'fl', 'fi.it', 'fi.sc', 'fl.it', 'fl.sc', 'canvas'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Grid Double wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountGridDouble' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -325,13 +343,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Grid Double VF' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -457,10 +468,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[34] BitcountSingle[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[36] BitcountSingle[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "BitcountMonoSingleVF[ELSH,ELXP,slnt,wght].ttf. Got BitcountSingle[ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
+* 🔥 **FAIL** Expected "BitcountMonoSingle[ELSH,ELXP,slnt,wght].ttf. Got BitcountSingle[ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
@@ -566,6 +577,19 @@ But instead we have got:
 
 
 * 🔥 **FAIL** The right-leaning glyphs have a positive 'slnt' axis value, which is likely a mistake. It needs to be negative to lean rightwards. [code: positive-value-for-clockwise-lean]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | BitcountMonoSingle | Bitcount Mono Single |
+| Subfamily Name | Regular | Regular |
+| Full Name | Bitcount Mono Single wght400 ELXP0 ELSH0 slnt0 | Bitcount Mono Single Regular |
+| Poscript Name | BitcountMonoSingle-Regular | BitcountMonoSingle-Regular |
+| Typographic Family Name | Bitcount Mono Single | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -595,14 +619,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -621,6 +645,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -650,6 +678,10 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1707 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 38 glyphs (2.20%) have a different width. You should check the widths of: ['px', 'fi', 'fl', 'fi.xa_cd', 'fl.xa_cd', 'fi.xa', 'fl.xa', 'fi.xd', 'fl.xd', 'fi.it', 'fl.it', 'fi.cd_it', 'fl.cd_it', 'fi.xd_cd', 'fl.xd_cd', 'fi.xa_xd', 'fl.xa_xd', 'fi.xa_xd_cd', 'fl.xa_xd_cd', 'fi.xa_it', 'fl.xa_it', 'fi.xd_it', 'fl.xd_it', 'fi.xa_cd_it', 'fl.xa_cd_it', 'fi.xa_xd_it', 'fl.xa_xd_it', 'fi.xd_cd_it', 'fl.xd_cd_it', 'fi.xa_xd_cd_it', 'fl.xa_xd_cd_it', 'fi.sc', 'fl.sc', 'fi.cd', 'fl.cd', 'fi.sc_cd', 'fl.sc_cd', 'canvas'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Mono Single wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountMonoSingle' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -683,13 +715,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Mono Single VF' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -773,10 +798,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[36] BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "BitcountGridDoubleVFCOLRv1[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
+* 🔥 **FAIL** Expected "BitcountGridDouble[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
@@ -889,10 +914,12 @@ But instead we have got:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Bitcount Grid Double VF COLRv1 | Bitcount Grid Double VF COLRv1 |
+| Family Name | BitcountGridDouble | Bitcount Grid Double |
 | Subfamily Name | Regular | Regular |
-| Full Name | Bitcount Grid Double VF COLRv1 Regular | Bitcount Grid Double VF COLRv1 Regular |
-| Poscript Name | BitcountVFGridDoubleCOLRv1-Regular | BitcountGridDoubleVFCOLRv1-Regular | [code: bad-names]
+| Full Name | Bitcount Grid Double wght400 ELXP0 ELSH0 slnt0 | Bitcount Grid Double Regular |
+| Poscript Name | BitcountGridDouble-Regular | BitcountGridDouble-Regular |
+| Typographic Family Name | Bitcount Grid Double | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that variable fonts have an HVAR table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/has_HVAR">com.google.fonts/check/varfont/has_HVAR</a>)</summary><div>
 
 
@@ -926,14 +953,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -952,6 +979,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -981,6 +1012,10 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 672 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 8 glyphs (1.16%) have a different width. You should check the widths of: ['px', 'fi', 'fl', 'fi.it', 'fi.sc', 'fl.it', 'fl.sc', 'canvas'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Grid Double wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountGridDouble' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -997,6 +1032,22 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
+</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
+
+
+* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
+
+	- SZP1
+
+	- SZP2
+
+	- XPN1
+
+	- XPN2
+
+	- YPN1 
+
+	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -1014,13 +1065,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Grid Double VF COLRv1' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1140,10 +1184,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[36] BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "BitcountPropDoubleVFCOLRv1[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
+* 🔥 **FAIL** Expected "BitcountPropDouble[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
@@ -1256,10 +1300,12 @@ But instead we have got:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Bitcount Prop Double VF COLRv1 | Bitcount Prop Double VF COLRv1 |
+| Family Name | BitcountPropDouble | Bitcount Prop Double |
 | Subfamily Name | Regular | Regular |
-| Full Name | Bitcount Prop Double VF COLRv1 Regular | Bitcount Prop Double VF COLRv1 Regular |
-| Poscript Name | BitcountVFPropDoubleCOLRv1-Regular | BitcountPropDoubleVFCOLRv1-Regular | [code: bad-names]
+| Full Name | Bitcount Prop Double wght400 ELXP0 ELSH0 slnt0 | Bitcount Prop Double Regular |
+| Poscript Name | BitcountPropDouble-Regular | BitcountPropDouble-Regular |
+| Typographic Family Name | Bitcount Prop Double | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that variable fonts have an HVAR table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/has_HVAR">com.google.fonts/check/varfont/has_HVAR</a>)</summary><div>
 
 
@@ -1293,14 +1339,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -1319,6 +1365,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1340,6 +1390,10 @@ But instead we have got:
 
 * 🔥 **FAIL** FreeType is not available. To fix this, invoke the 'freetype' extra when installing Font Bakery:
 pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Prop Double wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountPropDouble' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -1356,6 +1410,22 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
+</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
+
+
+* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
+
+	- SZP1
+
+	- SZP2
+
+	- XPN1
+
+	- XPN2
+
+	- YPN1 
+
+	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -1381,13 +1451,6 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 	- f + i 
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Prop Double VF COLRv1' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1468,10 +1531,10 @@ plusminus
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[36] BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "BitcountPropSingleVFCOLRv1[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
+* 🔥 **FAIL** Expected "BitcountPropSingle[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
@@ -1584,10 +1647,12 @@ But instead we have got:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Bitcount Prop Single VF COLRv1 | Bitcount Prop Single VF COLRv1 |
+| Family Name | BitcountPropSingle | Bitcount Prop Single |
 | Subfamily Name | Regular | Regular |
-| Full Name | Bitcount Prop Single VF COLRv1 Regular | Bitcount Prop Single VF COLRv1 Regular |
-| Poscript Name | BitcountVFPropSingleCOLRv1-Regular | BitcountPropSingleVFCOLRv1-Regular | [code: bad-names]
+| Full Name | Bitcount Prop Single wght400 ELXP0 ELSH0 slnt0 | Bitcount Prop Single Regular |
+| Poscript Name | BitcountPropSingle-Regular | BitcountPropSingle-Regular |
+| Typographic Family Name | Bitcount Prop Single | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that variable fonts have an HVAR table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/has_HVAR">com.google.fonts/check/varfont/has_HVAR</a>)</summary><div>
 
 
@@ -1621,14 +1686,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -1647,6 +1712,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1668,6 +1737,10 @@ But instead we have got:
 
 * 🔥 **FAIL** FreeType is not available. To fix this, invoke the 'freetype' extra when installing Font Bakery:
 pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Prop Single wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountPropSingle' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -1684,6 +1757,22 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
+</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
+
+
+* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
+
+	- SZP1
+
+	- SZP2
+
+	- XPN1
+
+	- XPN2
+
+	- YPN1 
+
+	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -1709,13 +1798,6 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 	- f + i 
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Prop Single VF COLRv1' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1792,11 +1874,7 @@ plusminus, greaterequal, lessequal
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[34] BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Expected "BitcountPropSingleVF[ELSH,ELXP,slnt,wght].ttf. Got BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[35] BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 4 meaning that:
@@ -1901,6 +1979,19 @@ But instead we have got:
 
 
 * 🔥 **FAIL** The right-leaning glyphs have a positive 'slnt' axis value, which is likely a mistake. It needs to be negative to lean rightwards. [code: positive-value-for-clockwise-lean]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | BitcountPropSingle | Bitcount Prop Single |
+| Subfamily Name | Regular | Regular |
+| Full Name | Bitcount Prop Single wght400 ELXP0 ELSH0 slnt0 | Bitcount Prop Single Regular |
+| Poscript Name | BitcountPropSingle-Regular | BitcountPropSingle-Regular |
+| Typographic Family Name | Bitcount Prop Single | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -1930,14 +2021,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -1956,6 +2047,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1977,6 +2072,10 @@ But instead we have got:
 
 * 🔥 **FAIL** FreeType is not available. To fix this, invoke the 'freetype' extra when installing Font Bakery:
 pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Prop Single wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountPropSingle' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -2018,13 +2117,6 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 	- f + i 
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Prop Single VF' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2107,10 +2199,10 @@ plusminus, greaterequal, lessequal
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[36] Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "BitcountMonoDoubleVFCOLRv1[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
+* 🔥 **FAIL** Expected "BitcountMonoDouble[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
@@ -2223,10 +2315,12 @@ But instead we have got:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Bitcount Mono Double VF COLRv1 | Bitcount Mono Double VF COLRv1 |
+| Family Name | BitcountMonoDouble | Bitcount Mono Double |
 | Subfamily Name | Regular | Regular |
-| Full Name | Bitcount Mono Double VF COLRv1 Regular | Bitcount Mono Double VF COLRv1 Regular |
-| Poscript Name | BitcountVFMonoDoubleCOLRv1-Regular | BitcountMonoDoubleVFCOLRv1-Regular | [code: bad-names]
+| Full Name | Bitcount Mono Double wght400 ELXP0 ELSH0 slnt0 | Bitcount Mono Double Regular |
+| Poscript Name | BitcountMonoDouble-Regular | BitcountMonoDouble-Regular |
+| Typographic Family Name | Bitcount Mono Double | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that variable fonts have an HVAR table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/has_HVAR">com.google.fonts/check/varfont/has_HVAR</a>)</summary><div>
 
 
@@ -2260,14 +2354,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -2286,6 +2380,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2315,6 +2413,10 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 989 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 21 glyphs (2.04%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.xd', 'fl.xd', 'fi.it', 'fl.it', 'fi.xa_xd', 'fl.xa_xd', 'fi.xa_it', 'fl.xa_it', 'fi.xd_it', 'fl.xd_it', 'fi.xa_xd_it', 'fl.xa_xd_it', 'fi.xa', 'fl.xa', 'fi.sc', 'fl.sc', '_canvas'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Mono Double wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountMonoDouble' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -2331,6 +2433,22 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
+</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
+
+
+* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
+
+	- SZP1
+
+	- SZP2
+
+	- XPN1
+
+	- XPN2
+
+	- YPN1 
+
+	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -2348,13 +2466,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Mono Double VF COLRv1' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2490,11 +2601,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[34] BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Expected "BitcountPropDoubleVF[ELSH,ELXP,slnt,wght].ttf. Got BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[35] BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 4 meaning that:
@@ -2599,6 +2706,19 @@ But instead we have got:
 
 
 * 🔥 **FAIL** The right-leaning glyphs have a positive 'slnt' axis value, which is likely a mistake. It needs to be negative to lean rightwards. [code: positive-value-for-clockwise-lean]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | BitcountPropDouble | Bitcount Prop Double |
+| Subfamily Name | Regular | Regular |
+| Full Name | Bitcount Prop Double wght400 ELXP0 ELSH0 slnt0 | Bitcount Prop Double Regular |
+| Poscript Name | BitcountPropDouble-Regular | BitcountPropDouble-Regular |
+| Typographic Family Name | Bitcount Prop Double | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -2628,14 +2748,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -2654,6 +2774,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2675,6 +2799,10 @@ But instead we have got:
 
 * 🔥 **FAIL** FreeType is not available. To fix this, invoke the 'freetype' extra when installing Font Bakery:
 pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Prop Double wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountPropDouble' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -2716,13 +2844,6 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 	- f + i 
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Prop Double VF' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2809,10 +2930,10 @@ plusminus
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[36] BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "BitcountMonoSingleVFCOLRv1[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
+* 🔥 **FAIL** Expected "BitcountMonoSingle[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
@@ -2925,10 +3046,12 @@ But instead we have got:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Bitcount Mono Single VF COLRv1 | Bitcount Mono Single VF COLRv1 |
+| Family Name | BitcountMonoSingle | Bitcount Mono Single |
 | Subfamily Name | Regular | Regular |
-| Full Name | Bitcount Mono Single VF COLRv1 Regular | Bitcount Mono Single VF COLRv1 Regular |
-| Poscript Name | BitcountVFMonoSingleCOLRv1-Regular | BitcountMonoSingleVFCOLRv1-Regular | [code: bad-names]
+| Full Name | Bitcount Mono Single wght400 ELXP0 ELSH0 slnt0 | Bitcount Mono Single Regular |
+| Poscript Name | BitcountMonoSingle-Regular | BitcountMonoSingle-Regular |
+| Typographic Family Name | Bitcount Mono Single | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that variable fonts have an HVAR table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/has_HVAR">com.google.fonts/check/varfont/has_HVAR</a>)</summary><div>
 
 
@@ -2962,14 +3085,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -2988,6 +3111,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3017,6 +3144,10 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1707 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 38 glyphs (2.20%) have a different width. You should check the widths of: ['px', 'fi', 'fl', 'fi.xa_cd', 'fl.xa_cd', 'fi.xa', 'fl.xa', 'fi.xd', 'fl.xd', 'fi.it', 'fl.it', 'fi.cd_it', 'fl.cd_it', 'fi.xd_cd', 'fl.xd_cd', 'fi.xa_xd', 'fl.xa_xd', 'fi.xa_xd_cd', 'fl.xa_xd_cd', 'fi.xa_it', 'fl.xa_it', 'fi.xd_it', 'fl.xd_it', 'fi.xa_cd_it', 'fl.xa_cd_it', 'fi.xa_xd_it', 'fl.xa_xd_it', 'fi.xd_cd_it', 'fl.xd_cd_it', 'fi.xa_xd_cd_it', 'fl.xa_xd_cd_it', 'fi.sc', 'fl.sc', 'fi.cd', 'fl.cd', 'fi.sc_cd', 'fl.sc_cd', 'canvas'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Mono Single wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountMonoSingle' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -3033,6 +3164,22 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
+</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
+
+
+* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
+
+	- SZP1
+
+	- SZP2
+
+	- XPN1
+
+	- XPN2
+
+	- YPN1 
+
+	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -3050,13 +3197,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Mono Single VF COLRv1' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3134,11 +3274,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[34] BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Expected "BitcountGridSingleVF[ELSH,ELXP,slnt,wght].ttf. Got BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[35] BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 4 meaning that:
@@ -3243,6 +3379,19 @@ But instead we have got:
 
 
 * 🔥 **FAIL** The right-leaning glyphs have a positive 'slnt' axis value, which is likely a mistake. It needs to be negative to lean rightwards. [code: positive-value-for-clockwise-lean]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | BitcountGridSingle | Bitcount Grid Single |
+| Subfamily Name | Regular | Regular |
+| Full Name | Bitcount Grid Single wght400 ELXP0 ELSH0 slnt0 | Bitcount Grid Single Regular |
+| Poscript Name | BitcountGridSingle-Regular | BitcountGridSingle-Regular |
+| Typographic Family Name | Bitcount Grid Single | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -3272,14 +3421,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3298,6 +3447,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3327,6 +3480,10 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1143 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 14 glyphs (1.20%) have a different width. You should check the widths of: ['px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.cd_it', 'fl.cd_it', 'fi.cd', 'fl.cd', 'fl.sc', 'fi.sc', 'fl.sc_cd', 'fi.sc_cd', 'canvas'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Grid Single wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountGridSingle' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -3360,13 +3517,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Grid Single VF' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3442,10 +3592,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[34] Bitcount[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[36] Bitcount[ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "BitcountMonoDoubleVF[ELSH,ELXP,slnt,wght].ttf. Got Bitcount[ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
+* 🔥 **FAIL** Expected "BitcountMonoDouble[ELSH,ELXP,slnt,wght].ttf. Got Bitcount[ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
@@ -3551,6 +3701,19 @@ But instead we have got:
 
 
 * 🔥 **FAIL** The right-leaning glyphs have a positive 'slnt' axis value, which is likely a mistake. It needs to be negative to lean rightwards. [code: positive-value-for-clockwise-lean]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font names are incorrect:
+
+| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | BitcountMonoDouble | Bitcount Mono Double |
+| Subfamily Name | Regular | Regular |
+| Full Name | Bitcount Mono Double wght400 ELXP0 ELSH0 slnt0 | Bitcount Mono Double Regular |
+| Poscript Name | BitcountMonoDouble-Regular | BitcountMonoDouble-Regular |
+| Typographic Family Name | Bitcount Mono Double | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
@@ -3580,14 +3743,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0 |
@@ -3606,6 +3769,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3635,6 +3802,10 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 989 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 21 glyphs (2.04%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.xd', 'fl.xd', 'fi.it', 'fl.it', 'fi.xa_xd', 'fl.xa_xd', 'fi.xa_it', 'fl.xa_it', 'fi.xd_it', 'fl.xd_it', 'fi.xa_xd_it', 'fl.xa_xd_it', 'fi.xa', 'fl.xa', 'fi.sc', 'fl.sc', '_canvas'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Mono Double wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountMonoDouble' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -3668,13 +3839,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Mono Double VF' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3816,10 +3980,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The range of values for the "slnt" axis in this font only allows positive coordinates (from 0.0 to 90.0), indicating that this may be a back slanted design, which is rare. If that's not the case, then the "slant" axis should be a range of negative values instead. [code: unusual-slnt-range]
-</div></details><br></div></details><details><summary><b>[36] BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[38] BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 🔥 **FAIL** Expected "BitcountGridSingleVFCOLRv1[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
+* 🔥 **FAIL** Expected "BitcountGridSingle[ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
@@ -3932,10 +4096,12 @@ But instead we have got:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Bitcount Grid Single VF COLRv1 | Bitcount Grid Single VF COLRv1 |
+| Family Name | BitcountGridSingle | Bitcount Grid Single |
 | Subfamily Name | Regular | Regular |
-| Full Name | Bitcount Grid Single VF COLRv1 Regular | Bitcount Grid Single VF COLRv1 Regular |
-| Poscript Name | BitcountVFGridSingleCOLRv1-Regular | BitcountGridSingleVFCOLRv1-Regular | [code: bad-names]
+| Full Name | Bitcount Grid Single wght400 ELXP0 ELSH0 slnt0 | Bitcount Grid Single Regular |
+| Poscript Name | BitcountGridSingle-Regular | BitcountGridSingle-Regular |
+| Typographic Family Name | Bitcount Grid Single | N/A |
+| Typographic Subfamily Name | wght400 ELXP0 ELSH0 slnt0 | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that variable fonts have an HVAR table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/has_HVAR">com.google.fonts/check/varfont/has_HVAR</a>)</summary><div>
 
 
@@ -3969,14 +4135,14 @@ But instead we have got:
 
 | Name | current | expected |
 | :--- | :--- | :--- |
-| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Thin Italic | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Thin | N/A | wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight Italic | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | ExtraLight | N/A | wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Light Italic | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
-| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Light | N/A | wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Italic | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
+| Regular | N/A | wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium Italic | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | Medium | N/A | wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
 | SemiBold Italic | N/A | wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0 |
@@ -3995,6 +4161,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** STAT table is missing Axis Value Records [code: missing-axis-values]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/variable/BitcountGridDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountPropDouble[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/Bitcount[ELSH,ELXP,slnt,wght].ttf', 'fonts/ttf/variable/BitcountGridSingle[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4024,6 +4194,10 @@ pip3 install -U fontbakery[freetype] [code: freetype-not-installed]
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1143 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 14 glyphs (1.20%) have a different width. You should check the widths of: ['px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.cd_it', 'fl.cd_it', 'fi.cd', 'fl.cd', 'fl.sc', 'fi.sc', 'fl.sc_cd', 'fi.sc_cd', 'canvas'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
+
+
+* 🔥 **FAIL** On the 'name' table, the full font name 'Bitcount Grid Single wght400 ELXP0 ELSH0 slnt0' does not begin with the font family name 'BitcountGridSingle' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord">com.google.fonts/check/varfont/regular_wght_coord</a>)</summary><div>
 
 
@@ -4040,6 +4214,22 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * 🔥 **FAIL** Instance records don't all have the same size. [code: different-size-instance-records]
+</div></details><details><summary>🔥 <b>FAIL:</b> All fvar axes have a correspondent Axis Record on STAT table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.google.fonts/check/varfont/stat_axis_record_for_each_axis">com.google.fonts/check/varfont/stat_axis_record_for_each_axis</a>)</summary><div>
+
+
+* 🔥 **FAIL** STAT table is missing Axis Records for the following axes:
+
+	- SZP1
+
+	- SZP2
+
+	- XPN1
+
+	- XPN2
+
+	- YPN1 
+
+	- YPN2 [code: missing-axis-records]
 </div></details><details><summary>🔥 <b>FAIL:</b> STAT table has Axis Value tables? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/stat.html#com.adobe.fonts/check/stat_has_axis_value_tables">com.adobe.fonts/check/stat_has_axis_value_tables</a>)</summary><div>
 
 
@@ -4057,13 +4247,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Bitcount Grid Single VF COLRv1' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4139,8 +4322,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 311 | 112 | 1269 | 73 | 988 | 0 |
-| 0% | 11% | 4% | 46% | 3% | 36% | 0% |
+| 0 | 345 | 100 | 1269 | 73 | 966 | 0 |
+| 0% | 13% | 4% | 46% | 3% | 35% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
