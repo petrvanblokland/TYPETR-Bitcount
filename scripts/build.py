@@ -14,6 +14,7 @@ import sys
 sys.path.append(".")
 
 from scriptsLib.make import *
+from scriptsLib.fixttf import fixTTFNameTables
 
 if 1:
     MAKE_DESIGNSPACES = True # 
@@ -21,6 +22,7 @@ if 1:
     COPY_MASTERS = True # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = True
     MAKE_STAT = True
+    FIX_NAME_TABLES = True
     MAKE_UFO = True
     MAKE_TTF = True
     MAKE_VF = True
@@ -32,6 +34,7 @@ else:
     COPY_MASTERS = True # Copy master to location. Set the right pixel shape. Add COLRV1 pixel layers to each glyph.
     SET_GLYPH_ORDER = False
     MAKE_STAT = False
+    FIX_NAME_TABLES = True
     MAKE_UFO = False
     MAKE_TTF = False
     MAKE_VF = False
@@ -102,6 +105,9 @@ for dsName, dsParams in DESIGN_SPACES.items():
     if ADD_COLRV1:
         print('... Add COLRv1 to', vfPath)
         addCOLRv1toVF(vfPath, colorPath)
+
+    if FIX_NAME_TABLES:
+        fixTTFNameTables('fonts/ttf/variable/', MASTERS_DATA)
 
     # Add STAT table to the freshly generate VF for all 10 axes
     if MAKE_STAT:
