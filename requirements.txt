@@ -58,7 +58,7 @@ opentype-sanitizer==9.1.0
 opentypespec==1.9.1
 orjson==3.9.2
 packaging==23.1
-paintcompiler==0.1.2
+paintcompiler==0.3.2
 picosvg==0.22.0
 Pillow==10.0.0
 pip-api==0.0.30
