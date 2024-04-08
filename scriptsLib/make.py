@@ -79,7 +79,7 @@ def copyMasters(dsName, dsParams):
     if not os.path.exists(MASTERS_PATH):
         print("... Make %s folder" % MASTERS_PATH)
         os.mkdir(MASTERS_PATH)
-    ufoPath = dsParams["ufoPath"]
+    ufoPath = dsParams.ufoPath
     if not os.path.exists(ufoPath):
         os.mkdir(ufoPath)
     else:
@@ -93,15 +93,12 @@ def copyMasters(dsName, dsParams):
     elementsItalic = ufoLib2.Font.open(UFO_PATH + LAYER_ELEMENTS_ITALIC)
 
     # Open the pixel font, as lead for the masters that need to be generated.
-    masterName = dsParams["masterName"]
-    md = MASTERS_DATA[masterName]
-
-    # In case of fast subset compiling, use different source UFO
+    md = MASTERS_DATA[dsParams.masterName]
     ufoDirPath = UFO_PATH
 
     print(
         "... Copy %s %d location masters (wght=3, open=2, shape=12, slanted=2)"
-        % (masterName, len(PIXEL_DATA))
+        % (dsParams.masterName, len(PIXEL_DATA))
     )
     for pName, pd in PIXEL_DATA.items():
         if pd.slnt:
@@ -120,7 +117,7 @@ def copyMasters(dsName, dsParams):
             ):  # Only copy pixels, this can be sparse
                 dst = ufoLib2.Font()
             else:
-                copyUFO(srcPath, dstPath)
+                shutil.copytree(srcPath, dstPath)
                 dst = ufoLib2.Font.open(dstPath)
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
@@ -147,23 +144,6 @@ def copyMasters(dsName, dsParams):
             dst.close()
 
     pixels.close()
-
-
-def copyUFO(srcPath, dstPath):
-    """Copy the UFO in srcPath to dstPath (directory or UFO name).
-    Make sure they are not equal and that the srcPath indeed is
-    has a ufo extension.
-    """
-    assert os.path.exists(srcPath) and srcPath.endswith(".ufo"), (
-        "Wrong source path %s" % srcPath
-    )
-    if os.path.exists(dstPath):
-        assert os.path.isdir(dstPath) or dstPath.endswith(".ufo"), (
-            "Wrong existing destination path %s" % dstPath
-        )
-    else:
-        assert dstPath.endswith(".ufo"), "Wrong destination path %s" % dstPath
-    shutil.copytree(srcPath, dstPath)
 
 
 def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None):
@@ -213,8 +193,8 @@ def makeDesignSpaceFile(dsName, dsParams):
     # Read the template file
     template = DesignSpaceDocument.fromfile(DESIGNSPACE_TEMPLATE_PATH)
 
-    stem = dsParams["stem"]  # Stem width in pixels: Single or Double
-    variant = dsParams["variant"]  # Variant of VF: Grid, Mono or Prop
+    stem = dsParams.stem  # Stem width in pixels: Single or Double
+    variant = dsParams.variant  # Variant of VF: Grid, Mono or Prop
 
     weightInstances = {
         200: "Thin",

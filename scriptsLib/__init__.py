@@ -1,6 +1,7 @@
 #
 #   Bitcount production scripts
 #
+from dataclasses import dataclass
 import os, shutil
 
 # This is the common share glyph name, that all Bitcount glyph refer
@@ -99,29 +100,6 @@ DEFAULT_LOCATION = (WGHT_MIN, ELXP_MIN, ELSH_MIN, SLNT_MIN)
 
 AXISCOUNT = len(DEFAULT_LOCATION)  # Number of main axes, besides the COLV1 axes.
 
-DESIGN_SPACES = {}
-for variant in VARIANTS:
-    for stem in STEMS:
-        # Name of the design space to generate
-        dsName = f"{BITCOUNT}_{variant}_{stem}{AXISCOUNT}.designspace"
-        # Master UFO to be used as source for all different pixel masters
-        masterName = f"{BITCOUNT}_{variant}_{stem}.ufo"
-        # Same for italic (slanted) master
-        masterItalicName = f"{BITCOUNT}_{variant}_{stem}_Italic.ufo"
-        # Path to copy the created masters to
-        ufoPath = f"{MASTERS_PATH}{variant}-{stem}/"
-        dsParams = dict(
-            variant=variant,
-            stem=stem,
-            axisCount=AXISCOUNT,
-            ufoPath=ufoPath,
-            masterName=masterName,
-            masterItalicName=masterItalicName,
-            dsName=dsName,
-        )
-        DESIGN_SPACES[dsName] = dsParams
-
-
 CLOSED_QUAD = 0
 ELXP_QUAD = 100
 
@@ -169,3 +147,58 @@ slnt_MIN, slnt_DEF, slnt_MAX = slnt_AXIS = (ROMAN, ROMAN, ITALIC)  # Slant angle
 
 MONO_AXES = ["wght", "ELXP", "ELSH", "slnt"]
 COLOR_AXES = ["SZP1", "XPN1", "YPN1", "SZP2", "XPN2", "YPN2"]
+
+
+axis_suffix = ",".join(sorted(MONO_AXES))
+color_axis_suffix = ",".join(sorted(COLOR_AXES) + sorted(MONO_AXES))
+
+
+@dataclass
+class DesignSpaceParams:
+    variant: str
+    stem: str
+
+    @property
+    def dsName(self):
+        return f"{BITCOUNT}_{self.variant}_{self.stem}{AXISCOUNT}.designspace"
+
+    @property
+    def masterName(self):
+        return f"{BITCOUNT}_{self.variant}_{self.stem}.ufo"
+
+    @property
+    def masterItalicName(self):
+        return f"{BITCOUNT}_{self.variant}_{self.stem}_Italic.ufo"
+
+    # Path to copy the created masters to
+    @property
+    def ufoPath(self):
+        return f"{MASTERS_PATH}{self.variant}-{self.stem}/"
+
+    @property
+    def _vfPrefix(self):
+        # Bitcount Mono Double -> Bitcount
+        # Bitcount Mono Single -> Bitcount Single
+        # everthing else -> Bitcount Variant Stem
+        if self.variant == "Mono":
+            if self.stem == "Double":
+                return BITCOUNT
+            else:
+                return f"{BITCOUNT}{self.stem}"
+        else:
+            return f"{BITCOUNT}{self.variant}{self.stem}"
+
+    @property
+    def vfName(self):
+        return self._vfPrefix + f"[{axis_suffix}].ttf"
+
+    @property
+    def colorVfName(self):
+        return self._vfPrefix + f"[{color_axis_suffix}].ttf"
+
+
+DESIGN_SPACES = {}
+for variant in VARIANTS:
+    for stem in STEMS:
+        designspace = DesignSpaceParams(variant, stem)
+        DESIGN_SPACES[designspace.dsName] = designspace
