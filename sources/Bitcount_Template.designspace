@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- %(title)s -->
 <designspace format="3">
 	<axes>
         <!-- Main pixel shape axes with final names -->
@@ -17,11 +16,4 @@
 		<axis minimum="0" default="0" maximum="100" name="Element Shape" tag="ELSH"/> <!-- Previous ELSH -->
 		<axis minimum="0" default="0" maximum="90" name="Slant" tag="slnt"/>
 	</axes>
-	<sources>
-		%(sources)s
-	</sources>
-
-	<instances>
-		%(instances)s
-	</instances>
 </designspace>

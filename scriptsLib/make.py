@@ -7,7 +7,11 @@ import codecs
 import ufoLib2
 import subprocess
 
-from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
+from fontTools.designspaceLib import (
+    DesignSpaceDocument,
+    SourceDescriptor,
+    InstanceDescriptor,
+)
 
 from scriptsLib import (
     BITCOUNT,
@@ -22,7 +26,6 @@ from scriptsLib import (
     LDEF,
     LMAX,
     LMIN,
-    MASTER_PATHS,
     MASTERS_PATH,
     PIXEL_NAME,
     POST_FIX,
@@ -207,55 +210,11 @@ def makeDesignSpaceFile(dsName, dsParams):
     layers that use the main pixels as mask.
     """
     print("... Make design space %s" % dsName)
+    # Read the template file
+    template = DesignSpaceDocument.fromfile(DESIGNSPACE_TEMPLATE_PATH)
 
-    fin = codecs.open(DESIGNSPACE_TEMPLATE_PATH, "r", encoding="UTF-8")
-    template = fin.read()
-    fin.close()
-
-    # Define the dictionary of values that are substituted in the Bitcount_Template.designspace file.
-    axisParams = dict(
-        sources="", instances=""
-    )  # XML for the <sources> and <instances> will be filled here.
-    axisParams["title"] = "Design space of Bitcount %(variant)s %(stem)s"
-    axisParams["stem"] = stem = dsParams[
-        "stem"
-    ]  # Stem width in pixels: Single or Double
-    axisParams["variant"] = variant = dsParams[
-        "variant"
-    ]  # Variant of VF: Grid, Mono or Prop
-
-    # Main axis values
-    axisParams["wghtMin"] = WGHT_MIN
-    axisParams["wghtDef"] = WGHT_DEF
-    axisParams["wghtMax"] = WGHT_MAX
-    axisParams["ELXPMin"] = ELXP_MIN  # Also default for the open axis
-    axisParams["ELXPMax"] = ELXP_MAX
-    axisParams["ELSHMin"] = ELSH_MIN  # Also default for the shape axis
-    axisParams["ELSHMax"] = ELSH_MAX
-    axisParams["slntMin"] = SLNT_MIN  # Also default for the slant axis
-    axisParams["slntMax"] = SLNT_MAX
-
-    # COLRv1 layer #1 axis values
-    axisParams["SZP1Min"] = SMIN  # Scale
-    axisParams["SZP1Def"] = SDEF
-    axisParams["SZP1Max"] = SMAX
-    axisParams["XPN1Min"] = LMIN  # Horizontal position
-    axisParams["XPN1Def"] = LDEF
-    axisParams["XPN1Max"] = LMAX
-    axisParams["YPN1Min"] = LMIN
-    axisParams["YPN1Def"] = LDEF
-    axisParams["YPN1Max"] = LMAX
-
-    # COLRv1 layer #2 axis values
-    axisParams["SZP2Min"] = SMIN  # Scale
-    axisParams["SZP2Def"] = SMIN  # Layer #2 is not visible by default.
-    axisParams["SZP2Max"] = SMAX
-    axisParams["XPN2Min"] = LMIN  # Horizontal position
-    axisParams["XPN2Def"] = LDEF
-    axisParams["XPN2Max"] = LMAX
-    axisParams["YPN2Min"] = LMIN  # Vertical position
-    axisParams["YPN2Def"] = LDEF
-    axisParams["YPN2Max"] = LMAX
+    stem = dsParams["stem"]  # Stem width in pixels: Single or Double
+    variant = dsParams["variant"]  # Variant of VF: Grid, Mono or Prop
 
     weightInstances = {
         200: "Thin",
@@ -275,63 +234,48 @@ def makeDesignSpaceFile(dsName, dsParams):
             for ELSH in SHAPES:
                 # minValue is the same as default
                 for slnt in (SLNT_MIN, SLNT_MAX):
-                    if DEFAULT_LOCATION == (wght, ELXP, ELSH, slnt):
-                        info = '<info copy="1"/>'
-                    else:
-                        info = ""
                     path = f"{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_ELXP{ELXP}_ELSH{ELSH}_slnt{slnt}.ufo"
+                    source = SourceDescriptor(
+                        filename=path,
+                        familyName=f"Bitcount {variant} {stem}",
+                        name=f"Bitcount {variant} {stem}",
+                        styleName=f"wght{wght} ELXP{ELXP} ELSH{ELSH} slnt{slnt}",
+                        location={
+                            "Weight": wght,
+                            "Element Expansion": ELXP,
+                            "Element Shape": ELSH,
+                            "Slant": slnt,
+                        },
+                    )
+                    if DEFAULT_LOCATION == (wght, ELXP, ELSH, slnt):
+                        source.copyInfo = True
+                    template.sources.append(source)
 
-                    axisParams[
-                        "sources"
-                    ] += f"""
-        <source familyname="Bitcount {variant} {stem}" 
-            filename="{path}" 
-            name="Bitcount {variant} {stem}" 
-            stylename="wght{wght} ELXP{ELXP} ELSH{ELSH} slnt{slnt}">
-            <location>
-                <dimension name="Weight" xvalue="{wght}"/>
-                <dimension name="Element Expansion" xvalue="{ELXP}"/>
-                <dimension name="Element Shape" xvalue="{ELSH}"/>
-                <dimension name="Slant" xvalue="{slnt}"/>
-            </location>
-            {info}
-        </source>
-            """
-
-    if (
-        0
-    ):  # Adding the instances XML to the design spaces files, gives an error in paintcompiler
-        for wght, weightName in sorted(weightInstances.items()):
+    for wght, weightName in sorted(weightInstances.items()):
+        # minValue is the same as default
+        for ELXP in (ELXP_MIN, ELXP_MAX):
             # minValue is the same as default
-            for ELXP in (ELXP_MIN, ELXP_MAX):
+            for ELSH in SHAPES:
                 # minValue is the same as default
-                for ELSH in SHAPES:
-                    # minValue is the same as default
-                    for slnt in (SLNT_MIN, SLNT_MAX):
-                        wName = weightName
-                        if slnt == SLNT_MAX:
-                            wName += " Italic"
-                        axisParams[
-                            "instances"
-                        ] += f"""
+                for slnt in (SLNT_MIN, SLNT_MAX):
+                    wName = weightName
+                    if slnt == SLNT_MAX:
+                        wName += " Italic"
+                    template.instances.append(
+                        InstanceDescriptor(
+                            familyName=f"Bitcount {variant} {stem}",
+                            name=f"Bitcount {variant} {stem}",
+                            styleName=f"wght {wName} ELXP {ELXP} ELSH{ELSH} slnt{slnt}",
+                            location={
+                                "Weight": wght,
+                                "Element Expansion": ELXP,
+                                "Element Shape": ELSH,
+                                "Slant": slnt,
+                            },
+                        )
+                    )
 
-            <instance familyname="Bitcount {variant} {stem}" 
-                name="Bitcount {variant} {stem}" 
-                stylename="wght {wName} ELXP {ELXP} ELSH{ELSH} slnt{slnt}">
-                <location>
-                    <dimension name="Weight" xvalue="{wght}"/>
-                    <dimension name="Element Expansion" xvalue="{ELXP}"/>
-                    <dimension name="Element Shape" xvalue="{ELSH}"/>
-                    <dimension name="Slant" xvalue="{slnt}"/>
-                </location>
-            </instance>
-                """
-            # print(axisParams['instances'])
-
-    xml = template % axisParams
-    fds = codecs.open(dsName, "w", encoding="UTF-8")
-    fds.write(xml)
-    fds.close()
+    template.write(dsName)
 
 
 def addCOLRv1toVF(vfPath, dstPath):
