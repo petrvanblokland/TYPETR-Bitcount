@@ -3,7 +3,6 @@
 #   Making the separate Bitcount masters, with the pixel shapes filled in.
 #
 import os, shutil
-import codecs
 import ufoLib2
 import subprocess
 
@@ -62,11 +61,6 @@ def getStyleName(pd):
     return f"wght{pd.wght} ELXP{pd.ELXP} ELSH{pd.ELSH} slnt{pd.slnt}"
 
 
-def deleteUFOs(path):
-    """Delete all UFOs in this directory. Faster than removing them one by one."""
-    os.system("rm -r %s*.ufo" % path)
-
-
 def copyMasters(dsName, dsParams):
     """Copy the Bitcount masters into MASTERS_PATH, alther their name an fill in the pixels
     shape at that location in the design space.
@@ -82,7 +76,7 @@ def copyMasters(dsName, dsParams):
         os.mkdir(ufoPath)
     else:
         # Remove old UFO masters one by one in case they are here
-        deleteUFOs(ufoPath)
+        os.system("rm -r %s*.ufo" % ufoPath)
 
     # Copy pixels from this UFO.
     pixels = ufoLib2.Font.open(UFO_PATH + VARIATION_PIXELS)
@@ -119,7 +113,7 @@ def copyMasters(dsName, dsParams):
                 dst = ufoLib2.Font.open(dstPath)
             dst.info.familyName = getFamilyName(md)
             dst.info.styleName = getStyleName(pd)
-            copyGlyph(pixels, pName, dst, PIXEL_NAME)
+            dst[PIXEL_NAME] = pixels[pName]
             # Copy the COLRv1 mask pixel glyphs. Roman and italic pixels get copied from their own element source.
             # If this is the default instance, we add the elements too
             dst.info.italicAngle = 0  # Set default angle
@@ -131,38 +125,11 @@ def copyMasters(dsName, dsParams):
                     eFont = elements
                 for elementName in eFont.keys():
                     # print('... Copy element', elementName,'to', POST_FIX+elementName)
-                    copyGlyph(eFont, elementName, dst, POST_FIX + elementName)
+                    dst[POST_FIX + elementName] = eFont[elementName]
             dst.save(dstPath, overwrite=True)
             dst.close()
 
     pixels.close()
-
-
-def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None):
-    """If dstFont is omitted, then the dstGlyphName (into the same font) should be defined.
-    If dstGlyphName is omitted, then dstFont (same glyph into another font) should be defined.
-    Note that this also overwrites/copies the anchors.
-    """
-    if dstFont is None:
-        dstFont = srcFont
-    if dstGlyphName is None:
-        dstGlyphName = glyphName
-    assert (
-        srcFont != dstFont or glyphName != dstGlyphName
-    ), "### Either dstFont or dstGlyphName should be defined."
-    assert glyphName in srcFont, '### Glyph /%s does not exist source font "%s"' % (
-        glyphName,
-        srcFont.path,
-    )
-    srcGlyph = srcFont[glyphName]
-    dstFont[dstGlyphName] = srcGlyph
-    assert (
-        dstGlyphName in dstFont
-    ), '### Glyph /%s does not exist destination font "%s"' % (
-        dstGlyphName,
-        dstFont.path,
-    )
-    return dstFont[dstGlyphName]
 
 
 def makeDesignSpaceFile(dsName, dsParams):
