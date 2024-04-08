@@ -28,13 +28,6 @@ UFO_PATH = "sources/ufo/"
 FEATURES_PATH = "sources/features/"
 MASTERS_PATH = "sources/build/"  # Gitignore, not committing into Github
 
-MASTERS_GRID_SINGLE_PATH = f"{MASTERS_PATH}{GRID}-{SINGLE}/"
-MASTERS_GRID_DOUBLE_PATH = f"{MASTERS_PATH}{GRID}-{DOUBLE}/"
-MASTERS_MONO_SINGLE_PATH = f"{MASTERS_PATH}{MONO}-{SINGLE}/"
-MASTERS_MONO_DOUBLE_PATH = f"{MASTERS_PATH}{MONO}-{DOUBLE}/"
-MASTERS_PROP_SINGLE_PATH = f"{MASTERS_PATH}{PROP}-{SINGLE}/"
-MASTERS_PROP_DOUBLE_PATH = f"{MASTERS_PATH}{PROP}-{DOUBLE}/"
-
 VF_PATH = "fonts/ttf/variable/"  # vf/
 
 DESIGNSPACE_TEMPLATE_PATH = "sources/Bitcount_Template.designspace"
@@ -45,20 +38,6 @@ VARIATION_PIXELS = "Bitcount-VariationPixels.ufo"
 # Source UFO that contains all colour layer "elements"
 LAYER_ELEMENTS = "Bitcount-LayerElements.ufo"
 LAYER_ELEMENTS_ITALIC = "Bitcount-LayerElements-Italic.ufo"
-
-# Source masters in ufo/, used to copy into _masters/ with replaced pixel shape.
-GRID_DOUBLE = f"{BITCOUNT}_{GRID}_{DOUBLE}.ufo"
-GRID_DOUBLE_ITALIC = "Bitcount_Grid_Double_Italic.ufo"
-GRID_SINGLE = "Bitcount_Grid_Single.ufo"
-GRID_SINGLE_ITALIC = "Bitcount_Grid_Single_Italic.ufo"
-MONO_DOUBLE = "Bitcount_Mono_Double.ufo"
-MONO_DOUBLE_ITALIC = "Bitcount_Mono_Double-Italic.ufo"
-MONO_SINGLE = "Bitcount_Mono_Single.ufo"
-MONO_SINGLE_ITALIC = "Bitcount_Mono_Single-Italic.ufo"
-PROP_DOUBLE = "Bitcount_Prop_Double.ufo"
-PROP_DOUBLE_ITALIC = "Bitcount_Prop_Double-Italic.ufo"
-PROP_SINGLE = "Bitcount_Prop_Single.ufo"
-PROP_SINGLE_ITALIC = "Bitcount_Prop_Single-Italic.ufo"
 
 # Pixel weight sizes in pixel glyph names, this is the stem width of Bitcount glyphs
 # Instead we use OS/2 weight values on the axis values.
