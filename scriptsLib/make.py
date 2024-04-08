@@ -77,19 +77,17 @@ def copyMasters(dsName, dsParams):
         print("... Make %s folder" % MASTERS_PATH)
         os.mkdir(MASTERS_PATH)
     ufoPath = dsParams["ufoPath"]
-    for masterPath in MASTER_PATHS:
-        if not os.path.exists(ufoPath):
-            os.mkdir(ufoPath)
-        else:
-            # Remove old UFO masters one by one in case they are here
-            deleteUFOs(ufoPath)
+    if not os.path.exists(ufoPath):
+        os.mkdir(ufoPath)
+    else:
+        # Remove old UFO masters one by one in case they are here
+        deleteUFOs(ufoPath)
 
     # Copy pixels from this UFO.
-    pixels = openFont(UFO_PATH + VARIATION_PIXELS)
+    pixels = ufoLib2.Font.open(UFO_PATH + VARIATION_PIXELS)
     # Copy COLRv1 mask elements from this UFO.
-    # elements: ufoLib2.Font = openFont(UFO_PATH + LAYER_ELEMENTS)
-    elements = openFont(UFO_PATH + LAYER_ELEMENTS)
-    elementsItalic = openFont(UFO_PATH + LAYER_ELEMENTS_ITALIC)
+    elements = ufoLib2.Font.open(UFO_PATH + LAYER_ELEMENTS)
+    elementsItalic = ufoLib2.Font.open(UFO_PATH + LAYER_ELEMENTS_ITALIC)
 
     # Open the pixel font, as lead for the masters that need to be generated.
     masterName = dsParams["masterName"]
@@ -148,46 +146,6 @@ def copyMasters(dsName, dsParams):
     pixels.close()
 
 
-def isRoboFont():
-    try:
-        from mojo.roboFont import AllFonts, OpenFont
-
-        return True
-    except ModuleNotFoundError:  # Not in RoboFont
-        pass
-    return False
-
-
-def openFont(nameOrPath, showInterface=False):
-    """
-    Open a font defined by the name of path. If the font is already open
-    in RoboFont, then answer it.
-    """
-    if nameOrPath.endswith(".otf") or nameOrPath.endswith(".ttf"):
-        from fontTools.ttLib.ttFont import TTFont
-
-        return TTFont(nameOrPath)
-
-    if isRoboFont():
-        from mojo.roboFont import AllFonts, OpenFont
-
-        for f in AllFonts():
-            if nameOrPath == f.info.familyName or f.path.endswith(nameOrPath):
-                return f
-        assert os.path.exists(nameOrPath)
-        try:
-            f = OpenFont(nameOrPath, showInterface=False)
-        except:
-            f = OpenFont(nameOrPath, showUI=False)
-        if showInterface:
-            f.openInterface()
-        return f
-
-    # Else not in RoboFont, use plain fontParts instead
-    # print('RFONT', nameOrPath)
-    return ufoLib2.Font.open(nameOrPath)
-
-
 def copyUFO(srcPath, dstPath):
     """Copy the UFO in srcPath to dstPath (directory or UFO name).
     Make sure they are not equal and that the srcPath indeed is
@@ -205,7 +163,7 @@ def copyUFO(srcPath, dstPath):
     shutil.copytree(srcPath, dstPath)
 
 
-def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None, copyUnicode=True):
+def copyGlyph(srcFont, glyphName, dstFont=None, dstGlyphName=None):
     """If dstFont is omitted, then the dstGlyphName (into the same font) should be defined.
     If dstGlyphName is omitted, then dstFont (same glyph into another font) should be defined.
     Note that this also overwrites/copies the anchors.
@@ -249,9 +207,6 @@ def makeDesignSpaceFile(dsName, dsParams):
     layers that use the main pixels as mask.
     """
     print("... Make design space %s" % dsName)
-    for pName, pd in PIXEL_DATA.items():
-        pass
-        # print(pName, pd)
 
     fin = codecs.open(DESIGNSPACE_TEMPLATE_PATH, "r", encoding="UTF-8")
     template = fin.read()
