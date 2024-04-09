@@ -56,29 +56,36 @@ for dsName in [
     print("...", " ".join(cmd))
     subprocess.run(cmd, check=True)
 
-    # Add STAT table to the freshly generate VF for all 10 axes
-    cmd = "statmake --stylespace %s --designspace %s %s" % (
-        styleSpacePath,
-        dsPath,
-        vfPath,
-    )
+    if GOOGLEFONTS:
+        cmd = "gftools-gen-stat --inplace %s" % vfPath
+    else:
+        # Add STAT table to the freshly generate VF for all 10 axes
+        cmd = "statmake --stylespace %s --designspace %s %s" % (
+            styleSpacePath,
+            dsPath,
+            vfPath,
+        )
     print("... statMake VF", cmd)
     subprocess.run(cmd, shell=True, check=True)
 
-    print("... Run Google Fonts fixes", cmd)
-    subprocess.run(
-        ["gftools", "fix-family", "--inplace", vfPath],
-        check=True,
-    )
+    if GOOGLEFONTS:
+        print("... Run Google Fonts fixes", cmd)
+        subprocess.run(
+            ["gftools", "fix-family", "--inplace", vfPath],
+            check=True,
+        )
 
     print("... Add COLRv1 to", vfPath)
     colorPath = VF_PATH + dsParams.colorVfName  # Target color VF name
     addCOLRv1toVF(vfPath, colorPath)
 
-    cmd = "statmake --stylespace %s --designspace %s %s" % (
-        styleSpaceCOLRv1Path,
-        dsPath,
-        colorPath,
-    )
+    if GOOGLEFONTS:
+        cmd = "gftools-gen-stat --inplace %s" % colorPath
+    else:
+        cmd = "statmake --stylespace %s --designspace %s %s" % (
+            styleSpaceCOLRv1Path,
+            dsPath,
+            colorPath,
+        )
     print("... statMake COLRv1 VF", cmd)
     subprocess.run(cmd, shell=True, check=True)
