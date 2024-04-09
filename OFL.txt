@@ -1,4 +1,4 @@
-Copyright 1980 The Bitcount Project Authors (tptr@petr.com)
+Copyright 1980 The Bitcount Project Authors (https://github.com/petrvanblokland/TYPETR-Bitcount)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
