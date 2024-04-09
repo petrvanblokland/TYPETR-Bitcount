@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="quoteleft.xc" format="2">
-  <advance width="600"/>
-  <outline>
-    <component base="px.ix2.iy4"/>
-    <component base="px.ix2.iy5"/>
-    <component base="px.ix3.iy6"/>
-  </outline>
-</glyph>
