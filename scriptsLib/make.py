@@ -7,6 +7,7 @@ import ufoLib2
 import subprocess
 
 from gftools.constants import OFL_LICENSE_INFO
+from gftools.util.google_fonts import _KNOWN_WEIGHTS
 from fontTools.designspaceLib import (
     DesignSpaceDocument,
     SourceDescriptor,
@@ -32,17 +33,16 @@ from scriptsLib import (
     POST_FIX,
     SDEF,
     SHAPES,
-    SLNT_MAX,
-    SLNT_MIN,
+    slnt_MAX,
+    slnt_MIN,
     slnt_DEF,
     SMAX,
     SMIN,
     UFO_PATH,
     VARIATION_PIXELS,
-    WGHT_DEF,
-    WGHT_MAX,
-    WGHT_MIN,
     wght_DEF,
+    wght_MAX,
+    wght_MIN,
 )
 from scriptsLib.glyphData import (
     PIXEL_DATA,
@@ -157,7 +157,7 @@ def copyMasters(dsParams, googlefonts=False):
     pixels.close()
 
 
-def makeDesignSpaceFile(dsName, dsParams):
+def makeDesignSpaceFile(dsName, dsParams, googlefonts=False):
     """Dynamic generation of the design space file for this number of axes and this variant.
     The <sources> definition has two parts, it's actually a merge of two independent design spaces.
     The main part is the “traditional” definition of the shapes of the pixels in 4 axes.
@@ -185,15 +185,19 @@ def makeDesignSpaceFile(dsName, dsParams):
         800: "Extrabold",
         900: "Black",
     }
+    if googlefonts:
+        weightInstances = {v: k for k, v in _KNOWN_WEIGHTS.items() if k}
+        weightInstances[100] = "Thin"
+
     # Layer axes are independent from main Bitcount shape axes
 
-    for wght in (WGHT_MIN, WGHT_DEF, WGHT_MAX):
+    for wght in (wght_MIN, wght_DEF, wght_MAX):
         # minValue is the same as default
         for ELXP in (ELXP_MIN, ELXP_MAX):
             # minValue is the same as default
             for ELSH in SHAPES:
                 # minValue is the same as default
-                for slnt in (SLNT_MIN, SLNT_MAX):
+                for slnt in (slnt_MIN, slnt_MAX):
                     path = f"{variant}-{stem}/Bitcount_{variant}_{stem}-wght{wght}_ELXP{ELXP}_ELSH{ELSH}_slnt{slnt}.ufo"
                     source = SourceDescriptor(
                         filename=path,
@@ -217,13 +221,19 @@ def makeDesignSpaceFile(dsName, dsParams):
             # minValue is the same as default
             for ELSH in SHAPES:
                 # minValue is the same as default
-                for slnt in (SLNT_MIN, SLNT_MAX):
+                for slnt in (slnt_MIN, slnt_MAX):
                     wName = weightName
-                    if slnt == SLNT_MAX:
-                        wName += " Italic"
                     stylename = f"{wName} ELXP {ELXP} ELSH{ELSH} slnt{slnt}"
-                    if ELXP == ELXP_DEF and ELSH == ELSH_DEF and slnt == slnt_DEF:
+                    if ELXP == ELXP_DEF and ELSH == ELSH_DEF:
                         stylename = wName
+                        if slnt == slnt_MIN:
+                            stylename += " Italic"
+                        if stylename == "Regular Italic":
+                            stylename = "Italic"
+                    elif (
+                        googlefonts
+                    ):  # For GF builds, only add default wght/slnt instances
+                        continue
 
                     template.instances.append(
                         InstanceDescriptor(

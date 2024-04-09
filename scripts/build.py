@@ -42,7 +42,7 @@ for dsName in [
     # For all 6 design spaces, generate the OTF/TTF/VF
     # Auto generate the design space file for this variant.
     # This is fast, we can always do all of them.
-    makeDesignSpaceFile(dsPath, dsParams)
+    makeDesignSpaceFile(dsPath, dsParams, googlefonts=GOOGLEFONTS)
 
     print("--- Copy UFO masters")
     # Copy the ufo/ masters to _masters/<variant>/<UFOs> for every master and apply the
