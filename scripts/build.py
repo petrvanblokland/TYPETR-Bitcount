@@ -57,7 +57,7 @@ for dsName in [
     subprocess.run(cmd, check=True)
 
     if GOOGLEFONTS:
-        cmd = "gftools-gen-stat --inplace %s" % vfPath
+        cmd = "gftools-gen-stat --src sources/stat.yaml --inplace %s" % vfPath
     else:
         # Add STAT table to the freshly generate VF for all 10 axes
         cmd = "statmake --stylespace %s --designspace %s %s" % (
@@ -80,7 +80,7 @@ for dsName in [
     addCOLRv1toVF(vfPath, colorPath)
 
     if GOOGLEFONTS:
-        cmd = "gftools-gen-stat --inplace %s" % colorPath
+        cmd = "gftools-gen-stat --src sources/stat-color.yaml  --inplace %s" % colorPath
     else:
         cmd = "statmake --stylespace %s --designspace %s %s" % (
             styleSpaceCOLRv1Path,
