@@ -1,0 +1,52 @@
+- name: Weight
+  tag: wght
+  values:
+  - name: Thin
+    value: 100.0
+  - name: ExtraLight
+    value: 200.0
+  - name: Light
+    value: 300.0
+  - name: Regular
+    value: 400.0
+    flags: 0x2
+    linkedValue: 700.0
+  - name: Medium
+    value: 500.0
+  - name: SemiBold
+    value: 600.0
+  - name: Bold
+    value: 700.0
+  - name: ExtraBold
+    value: 800.0
+  - name: Black
+    value: 900.0
+- name: Element Expansion
+  tag: ELXP
+  values:
+  - name: Open
+    value: 0.0
+  - name: Closed
+    value: 100.0
+- name: Element Shape
+  tag: ELSH
+  values:
+  - name: Default
+    value: 0.0
+- name: Slant
+  tag: slnt
+  values:
+  - name: Default
+    value: 0.0
+  - name: Slanted
+    value: -8.0
+- name: Cursive
+  tag: CRSV
+  values:
+  - name: Roman
+    value: 0.0
+  - name: Auto
+    value: 0.5
+    flags: 0x2
+  - name: Cursive
+    value: 1.0

@@ -9,7 +9,7 @@ import sys
 from collections import defaultdict
 
 sys.path.append(".")
-from scriptsLib import SMIN, SDEF, SMAX, LDEF, LMIN, LMAX, POST_FIX
+from scriptsLib import SMIN, SDEF, SMAX, LDEF, LMIN, LMAX, POST_FIX, slnt_MIN, slnt_MAX
 
 P = 100
 G = 5 * P  # Layer grid size, so we can divide into 7 spectrum colors
@@ -1097,7 +1097,7 @@ def pixelPositions(f, gName):
     positions_x = defaultdict(dict)
     positions_y = defaultdict(dict)
     # pixelPositions = []
-    for slnt_ax in [0, 1000]:
+    for slnt_ax in [slnt_MIN, slnt_MAX]:
         location = {"slnt": slnt_ax}
         # We are working on the (binary) TTFont, so we have to do
         # horrible magic to find the component locations.

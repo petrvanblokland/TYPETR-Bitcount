@@ -42,7 +42,7 @@ for dsName in [
     # For all 6 design spaces, generate the OTF/TTF/VF
     # Auto generate the design space file for this variant.
     # This is fast, we can always do all of them.
-    makeDesignSpaceFile(dsPath, dsParams)
+    makeDesignSpaceFile(dsPath, dsParams, googlefonts=GOOGLEFONTS)
 
     print("--- Copy UFO masters")
     # Copy the ufo/ masters to _masters/<variant>/<UFOs> for every master and apply the
@@ -56,29 +56,36 @@ for dsName in [
     print("...", " ".join(cmd))
     subprocess.run(cmd, check=True)
 
-    # Add STAT table to the freshly generate VF for all 10 axes
-    cmd = "statmake --stylespace %s --designspace %s %s" % (
-        styleSpacePath,
-        dsPath,
-        vfPath,
-    )
+    if GOOGLEFONTS:
+        cmd = "gftools-gen-stat --src sources/stat.yaml --inplace %s" % vfPath
+    else:
+        # Add STAT table to the freshly generate VF for all 10 axes
+        cmd = "statmake --stylespace %s --designspace %s %s" % (
+            styleSpacePath,
+            dsPath,
+            vfPath,
+        )
     print("... statMake VF", cmd)
     subprocess.run(cmd, shell=True, check=True)
 
-    print("... Run Google Fonts fixes", cmd)
-    subprocess.run(
-        ["gftools", "fix-family", "--inplace", vfPath],
-        check=True,
-    )
+    if GOOGLEFONTS:
+        print("... Run Google Fonts fixes", cmd)
+        subprocess.run(
+            ["gftools", "fix-family", "--inplace", vfPath],
+            check=True,
+        )
 
     print("... Add COLRv1 to", vfPath)
     colorPath = VF_PATH + dsParams.colorVfName  # Target color VF name
     addCOLRv1toVF(vfPath, colorPath)
 
-    cmd = "statmake --stylespace %s --designspace %s %s" % (
-        styleSpaceCOLRv1Path,
-        dsPath,
-        colorPath,
-    )
+    if GOOGLEFONTS:
+        cmd = "gftools-gen-stat --src sources/stat-color.yaml  --inplace %s" % colorPath
+    else:
+        cmd = "statmake --stylespace %s --designspace %s %s" % (
+            styleSpaceCOLRv1Path,
+            dsPath,
+            colorPath,
+        )
     print("... statMake COLRv1 VF", cmd)
     subprocess.run(cmd, shell=True, check=True)
