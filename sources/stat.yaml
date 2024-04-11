@@ -40,3 +40,13 @@
     value: 0.0
   - name: Slanted
     value: -8.0
+- name: Cursive
+  tag: CRSV
+  values:
+  - name: Roman
+    value: 0.0
+  - name: Auto
+    value: 0.5
+    flags: 0x2
+  - name: Cursive
+    value: 1.0

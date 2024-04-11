@@ -110,7 +110,7 @@ ELSH2VALUE = {
 
 SHAPES = sorted(ELSH2VALUE.values())
 
-MONO_AXES = ["wght", "ELXP", "ELSH", "slnt"]
+MONO_AXES = ["wght", "CRSV", "ELXP", "ELSH", "slnt"]
 COLOR_AXES = ["SZP1", "XPN1", "YPN1", "SZP2", "XPN2", "YPN2"]
 
 

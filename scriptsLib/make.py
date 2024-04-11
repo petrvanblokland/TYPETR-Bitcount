@@ -13,6 +13,8 @@ from fontTools.designspaceLib import (
     SourceDescriptor,
     InstanceDescriptor,
 )
+from fontTools.feaLib.parser import Parser
+from fontTools.feaLib import ast
 
 from scriptsLib import (
     BITCOUNT,
@@ -249,6 +251,22 @@ def makeDesignSpaceFile(dsName, dsParams, googlefonts=False):
                         )
                     )
 
+    # Add cursive axis rules
+    #
+    features = Parser(UFO_PATH + f"Bitcount_{variant}_{stem}.ufo/features.fea").parse()
+    # Find ss08
+    ss08 = [
+        s
+        for s in features.statements
+        if isinstance(s, ast.FeatureBlock) and s.name == "ss08"
+    ][0]
+    for statement in ss08.statements:
+        if not isinstance(statement, ast.SingleSubstStatement):
+            continue
+        not_italic = statement.glyphs[0].glyphSet()
+        italic = statement.replacements[0].glyphSet()
+        for src, dest in zip(not_italic, italic):
+            template.rules[0].subs.append((src, dest))
     template.write(dsName)
 
 
