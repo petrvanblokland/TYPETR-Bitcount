@@ -13,7 +13,7 @@ Version: 1.2
 */
 @font-face {
   font-family: 'TYPETR-Bitcount-VF';
-  src: url('fonts/ttf/variable/Bitcount[SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,ELSH,ELXP,slnt,wght].ttf') format('truetype');
+  src: url('fonts/ttf/variable/Bitcount[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf') format('truetype');
   /* Add other font properties if needed */
 }
 #color-text-container1 {

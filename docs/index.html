@@ -1171,18 +1171,18 @@ stepFactor = 0.5 // Overall speed factor for steps
 const minELSH = 700;
 const minELXP = 0;
 const minSZP1 = 0;
-const minXPN1 = -50;
-const minYPN1 = -50;
+const minXPN1 = 0;
+const minYPN1 = 0;
 const minSZP2 = 50;
-const minXPN2 = -100;
-const minYPN2 = -100;
+const minXPN2 = 0;
+const minYPN2 = 0;
 
-const maxELSH = 1000;
-const maxELXP = 800; // Not too open in this animation
-const maxSZP1 = 1000;
-const maxXPN1 = 50;
-const maxYPN1 = 50;
-const maxSZP2 = 500;
+const maxELSH = 100;
+const maxELXP = 80; // Not too open in this animation
+const maxSZP1 = 100;
+const maxXPN1 = 100;
+const maxYPN1 = 100;
+const maxSZP2 = 50;
 const maxXPN2 = 100;
 const maxYPN2 = 100;
 
@@ -1191,26 +1191,37 @@ function normalizeAngle(angle) {
 }
 
 function updateValues() {
+		// Element shape
     valELSH = (Math.sin((angleELSH * Math.PI/180))/2 + 0.5) * (maxELSH - minELSH) + minELSH;
     document.getElementById('ELSH-slider').value = valELSH;
 
+    // Element expansion
     valELXP = (Math.sin((angleELXP * Math.PI/180))/2 + 0.5) * (maxELXP - minELXP) + minELXP;
     document.getElementById('ELXP-slider').value = valELXP;
 
+    // Size of Paint 1
     valSZP1 = (Math.sin((angleSZP1 * Math.PI/180))/2 + 0.5) * (maxSZP1 - minSZP1) + minSZP1;
     document.getElementById('bgSize-slider').value = valSZP1;
 
+    // Horizontal Position of Paint 1
     valXPN1 = (Math.sin((angleXPN1 * Math.PI/180))/2 + 0.5) * (maxXPN1 - minXPN1) + minXPN1;
     document.getElementById('bgX-slider').value = valXPN1;
 
+    // Vertical Position of Paint 1
     valYPN1 = (Math.sin((angleYPN1 * Math.PI/180))/2 + 0.5) * (maxYPN1 - minYPN1) + minYPN1;
     document.getElementById('bgY-slider').value = valYPN1;
 
+    // Size of Paint 2
     valSZP2 = (Math.sin((angleSZP2 * Math.PI/180))/2 + 0.5) * (maxSZP2 - minSZP2) + minSZP2;
     document.getElementById('fgSize-slider').value = valSZP2;
 
+    // Horizontal Position of Paint 2
     valXPN2 = (Math.sin((angleXPN2 * Math.PI/180))/2 + 0.5) * (maxXPN2 - minXPN2) + minXPN2;
     document.getElementById('fgX-slider').value = valXPN2;
+
+    // Vertical Position of Paint 2
+    valYPN2 = (Math.sin((angleYPN2 * Math.PI/180))/2 + 0.5) * (maxYPN2 - minYPN2) + minYPN2;
+    document.getElementById('fgY-slider').value = valYPN2;
 
 }
 // Function to animate through all axes smoothly
