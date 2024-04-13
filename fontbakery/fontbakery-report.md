@@ -36,49 +36,15 @@ fontbakery version: 0.11.2
 
 
 * 🔥 **FAIL** Kerning between zero and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and T is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and T is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between zero and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and Tcedilla is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and Tcedilla is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between zero and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and Tcaron is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and Tcaron is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between zero and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and Tcommaaccent is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Z is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Z is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Zacute is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Zacute is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Zdotaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Zdotaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Zcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Zcaron is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between zero and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and Tbar is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between four and seven is not zero [code: has-tabular-kerning]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
 
 
@@ -113,49 +79,15 @@ fontbakery version: 0.11.2
 
 
 * 🔥 **FAIL** Kerning between zero and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and T is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and T is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and T is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between zero and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and Tcedilla is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and Tcedilla is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and Tcedilla is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between zero and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and Tcaron is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and Tcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and Tcaron is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between zero and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and Tcommaaccent is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and Tcommaaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Z is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Z is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Zacute is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Zacute is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Zdotaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Zdotaccent is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Zcaron is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Zcaron is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between zero and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between two and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between three and Tbar is not zero [code: has-tabular-kerning]
 * 🔥 **FAIL** Kerning between four and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between five and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between eight and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between nine and Tbar is not zero [code: has-tabular-kerning]
-* 🔥 **FAIL** Kerning between four and seven is not zero [code: has-tabular-kerning]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
 
 
@@ -278,7 +210,7 @@ Detected underlineThickness values are:
 
 
 * ⚠ **WARN** PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[14] BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'LookupType'
@@ -433,6 +365,10 @@ ERROR: GSUB: Failed to parse lookup list table
 ERROR: GSUB: Failed to parse table
 Failed to sanitize file!
  [code: ots-sanitize-error]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -458,7 +394,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -496,7 +432,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><br></div></details><details><summary><b>[11] Bitcount[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Bitcount[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -599,6 +535,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -620,7 +560,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -777,7 +717,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><br></div></details><details><summary><b>[14] BitcountPropDouble[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] BitcountPropDouble[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -913,6 +853,10 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
@@ -931,7 +875,7 @@ This has been found to cause shaping issues for some accented letters in Microso
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -1041,7 +985,7 @@ The following math glyphs have a different width, though:
 Width = 400:
 plusminus
  [code: width-outliers]
-</div></details><br></div></details><details><summary><b>[10] Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1140,6 +1084,10 @@ plusminus
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -1161,7 +1109,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -1324,7 +1272,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><br></div></details><details><summary><b>[14] BitcountGridSingle[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] BitcountGridSingle[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1466,6 +1414,10 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -1491,7 +1443,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -1582,7 +1534,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><br></div></details><details><summary><b>[15] BitcountSingle[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] BitcountSingle[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountMonoSingle[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountSingle[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. [code: bad-filename]
@@ -1728,6 +1680,10 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -1753,7 +1709,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -1852,7 +1808,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><br></div></details><details><summary><b>[14] BitcountPropSingle[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] BitcountPropSingle[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1994,6 +1950,10 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
@@ -2012,7 +1972,7 @@ This has been found to cause shaping issues for some accented letters in Microso
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -2116,9 +2076,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, lessequal, plusminus
+greaterequal, plusminus, lessequal
  [code: width-outliers]
-</div></details><br></div></details><details><summary><b>[15] BitcountGridDouble[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] BitcountGridDouble[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'LookupType'
@@ -2277,6 +2237,10 @@ ERROR: GSUB: Failed to parse lookup list table
 ERROR: GSUB: Failed to parse table
 Failed to sanitize file!
  [code: ots-sanitize-error]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -2302,7 +2266,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -2340,7 +2304,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><br></div></details><details><summary><b>[14] BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "BitcountMonoSingle[CRSV,ELSH,ELXP,slnt,wght].ttf. Got BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf. [code: bad-filename]
@@ -2482,6 +2446,10 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -2507,7 +2475,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -2612,7 +2580,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><br></div></details><details><summary><b>[13] BitcountGridSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] BitcountGridSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2750,6 +2718,10 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -2775,7 +2747,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -2872,7 +2844,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><br></div></details><details><summary><b>[13] BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3010,6 +2982,10 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
@@ -3028,7 +3004,7 @@ This has been found to cause shaping issues for some accented letters in Microso
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -3138,9 +3114,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 400:
-greaterequal, lessequal, plusminus
+greaterequal, plusminus, lessequal
  [code: width-outliers]
-</div></details><br></div></details><details><summary><b>[13] BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3272,6 +3248,10 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** On the font variation axis 'slnt', the name 'Slanted' is not among the expected ones (Default) according to the Google Fonts Axis Registry. [code: invalid-name]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.11.2, while a newer 0.12.0 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
@@ -3290,7 +3270,7 @@ This has been found to cause shaping issues for some accented letters in Microso
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
@@ -3412,8 +3392,8 @@ plusminus
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 2 | 0 | 99 | 75 | 1282 | 85 | 1356 | 0 |
-| 0% | 0% | 3% | 3% | 44% | 3% | 47% | 0% |
+| 2 | 0 | 111 | 75 | 1282 | 85 | 1344 | 0 |
+| 0% | 0% | 4% | 3% | 44% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
