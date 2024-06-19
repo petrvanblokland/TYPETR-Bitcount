@@ -11747,6 +11747,24 @@
       <string>canvas</string>
       <string>matrix610</string>
       <string>matrix612</string>
+      <string>nbspace</string>
+      <string>jdotless</string>
+      <string>gravecomb</string>
+      <string>acutecomb</string>
+      <string>circumflexcomb</string>
+      <string>tildecomb</string>
+      <string>macroncomb</string>
+      <string>brevecomb</string>
+      <string>dotaccentcomb</string>
+      <string>dieresiscomb</string>
+      <string>ringcomb</string>
+      <string>hungarumlautcomb</string>
+      <string>caroncomb</string>
+      <string>commaaccentcomb</string>
+      <string>cedillacomb</string>
+      <string>ogonekcomb</string>
+      <string>Germandbls</string>
+      <string>Germandbls.sc</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

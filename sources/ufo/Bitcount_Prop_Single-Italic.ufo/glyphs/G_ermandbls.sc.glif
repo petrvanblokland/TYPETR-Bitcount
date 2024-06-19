@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Germandbls.sc" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="px"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="600"/>
+    <component base="px" xOffset="700"/>
+    <component base="px" xOffset="800"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="914" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="628" yOffset="200"/>
+    <component base="px" xOffset="728" yOffset="200"/>
+    <component base="px" xOffset="828" yOffset="200"/>
+    <component base="px" xOffset="928" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="642" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="756" yOffset="400"/>
+    <component base="px" xOffset="856" yOffset="400"/>
+    <component base="px" xOffset="956" yOffset="400"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.1518,0.2217,1</string>
+    </dict>
+  </lib>
+</glyph>

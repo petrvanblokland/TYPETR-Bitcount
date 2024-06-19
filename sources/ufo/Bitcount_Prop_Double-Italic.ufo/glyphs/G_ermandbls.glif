@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Germandbls" format="2">
+  <advance width="700"/>
+  <unicode hex="1E9E"/>
+  <outline>
+    <component base="px"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="400"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="514" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="528" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="456" yOffset="400"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="470" yOffset="500"/>
+    <component base="px" xOffset="570" yOffset="500"/>
+    <component base="px" xOffset="70" yOffset="500"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

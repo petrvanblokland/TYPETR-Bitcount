@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogonekcomb" format="2">
+  <unicode hex="0328"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <outline>
+    <component base="px" xOffset="-121" yOffset="-200"/>
+    <component base="px" xOffset="-21" yOffset="-200"/>
+    <component base="px" xOffset="-107" yOffset="-100"/>
+  </outline>
+</glyph>

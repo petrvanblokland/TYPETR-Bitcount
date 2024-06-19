@@ -186,6 +186,10 @@
     <string>G_dotaccent.glif</string>
     <key>Gdotaccent.sc</key>
     <string>G_dotaccent.sc.glif</string>
+    <key>Germandbls</key>
+    <string>G_ermandbls.glif</string>
+    <key>Germandbls.sc</key>
+    <string>G_ermandbls.sc.glif</string>
     <key>H</key>
     <string>H_.glif</string>
     <key>H.sc</key>
@@ -624,6 +628,8 @@
     <string>acircumflex.nct_it.glif</string>
     <key>acute</key>
     <string>acute.glif</string>
+    <key>acutecomb</key>
+    <string>acutecomb.glif</string>
     <key>adieresis</key>
     <string>adieresis.glif</string>
     <key>adieresis.it</key>
@@ -720,6 +726,8 @@
     <string>bracketright.glif</string>
     <key>breve</key>
     <string>breve.glif</string>
+    <key>brevecomb</key>
+    <string>brevecomb.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
     <key>bullet</key>
@@ -732,6 +740,8 @@
     <string>canvas.glif</string>
     <key>caron</key>
     <string>caron.glif</string>
+    <key>caroncomb</key>
+    <string>caroncomb.glif</string>
     <key>ccaron</key>
     <string>ccaron.glif</string>
     <key>ccedilla</key>
@@ -742,14 +752,20 @@
     <string>cdotaccent.glif</string>
     <key>cedilla</key>
     <string>cedilla.glif</string>
+    <key>cedillacomb</key>
+    <string>cedillacomb.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
+    <key>circumflexcomb</key>
+    <string>circumflexcomb.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>comma</key>
     <string>comma.glif</string>
+    <key>commaaccentcomb</key>
+    <string>commaaccentcomb.glif</string>
     <key>copyright</key>
     <string>copyright.glif</string>
     <key>copyrightsound</key>
@@ -776,12 +792,16 @@
     <string>degree.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
+    <key>dieresiscomb</key>
+    <string>dieresiscomb.glif</string>
     <key>divide</key>
     <string>divide.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
+    <key>dotaccentcomb</key>
+    <string>dotaccentcomb.glif</string>
     <key>dotlessi</key>
     <string>dotlessi.glif</string>
     <key>dslash</key>
@@ -904,6 +924,8 @@
     <string>germandbls.sc.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
+    <key>gravecomb</key>
+    <string>gravecomb.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greaterequal</key>
@@ -930,6 +952,8 @@
     <string>heart.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
+    <key>hungarumlautcomb</key>
+    <string>hungarumlautcomb.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>i</key>
@@ -960,6 +984,8 @@
     <string>j.glif</string>
     <key>jcircumflex</key>
     <string>jcircumflex.glif</string>
+    <key>jdotless</key>
+    <string>jdotless.glif</string>
     <key>k</key>
     <string>k.glif</string>
     <key>kcommaaccent</key>
@@ -988,6 +1014,8 @@
     <string>m.glif</string>
     <key>macron</key>
     <string>macron.glif</string>
+    <key>macroncomb</key>
+    <string>macroncomb.glif</string>
     <key>matrix57</key>
     <string>matrix57.glif</string>
     <key>matrix58</key>
@@ -1016,6 +1044,8 @@
     <string>nacute.glif</string>
     <key>nacute.nct</key>
     <string>nacute.nct.glif</string>
+    <key>nbspace</key>
+    <string>nbspace.glif</string>
     <key>ncaron</key>
     <string>ncaron.glif</string>
     <key>ncaron.nct</key>
@@ -1066,6 +1096,8 @@
     <string>oe.glif</string>
     <key>ogonek</key>
     <string>ogonek.glif</string>
+    <key>ogonekcomb</key>
+    <string>ogonekcomb.glif</string>
     <key>ograve</key>
     <string>ograve.glif</string>
     <key>ograve.nct</key>
@@ -1174,6 +1206,8 @@
     <string>registered.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
+    <key>ringcomb</key>
+    <string>ringcomb.glif</string>
     <key>s</key>
     <string>s.glif</string>
     <key>sacute</key>
@@ -1240,6 +1274,8 @@
     <string>threesuperior.glif</string>
     <key>tilde</key>
     <string>tilde.glif</string>
+    <key>tildecomb</key>
+    <string>tildecomb.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
     <key>two</key>
