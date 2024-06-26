@@ -1130,13 +1130,3 @@ for glyphName in font.getGlyphOrder():
         layer1_pixel,  # Background
         layer2_pixel,  # Foreground
     )
-
-
-# We have a problem; we have added six new axes to the font at this point,
-# and while the gvar table can cope with that because it gets rebuilt when
-# the font is saved, the HVAR table is not fully decompiled by fontTools,
-# so it still refers to four axes, which makes it invalid when you try
-# to save the font. Thankfully, HVAR isn't very necessary anyway, so we
-# just get rid of it.
-del font["HVAR"]
-del font["MVAR"]
