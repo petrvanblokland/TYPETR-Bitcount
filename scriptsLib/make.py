@@ -236,6 +236,8 @@ def makeDesignSpaceFile(dsName, dsParams, googlefonts=False):
                         googlefonts
                     ):  # For GF builds, only add default wght/slnt instances
                         continue
+                    if slnt != slnt_DEF and googlefonts:
+                        continue
 
                     template.instances.append(
                         InstanceDescriptor(

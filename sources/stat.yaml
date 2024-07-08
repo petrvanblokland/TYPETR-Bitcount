@@ -38,8 +38,6 @@
   values:
   - name: Default
     value: 0.0
-  - name: Slanted
-    value: -8.0
 - name: Cursive
   tag: CRSV
   values:

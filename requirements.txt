@@ -72,7 +72,7 @@ opentype-sanitizer==9.1.0
 opentypespec==1.9.1
 orjson==3.10.0
 packaging==23.1
-paintcompiler==0.3.2
+paintcompiler==0.3.4
 parso==0.8.4
 pexpect==4.9.0
 picosvg==0.22.0
