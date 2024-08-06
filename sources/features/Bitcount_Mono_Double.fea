@@ -48,7 +48,7 @@ feature calt {
     sub slash h e a r t by heart;
     sub slash o p e n h e a r t by openheart;
     sub slash c a n v a s by canvas;
-    sub slash d e s i g n by Dcircle;
+    sub slash d e s i g n by Dcircle; 
 } calt;
            
 feature ss01 {
