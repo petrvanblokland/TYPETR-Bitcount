@@ -2,13 +2,13 @@
 <glyph name="question.xc_cd" format="2">
   <advance width="400"/>
   <outline>
+    <component base="px" xOffset="70" yOffset="500"/>
     <component base="px" xOffset="100"/>
     <component base="px" xOffset="128" yOffset="200"/>
     <component base="px" xOffset="142" yOffset="300"/>
-    <component base="px" xOffset="256" yOffset="400"/>
-    <component base="px" xOffset="70" yOffset="500"/>
-    <component base="px" xOffset="270" yOffset="500"/>
     <component base="px" xOffset="184" yOffset="600"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="270" yOffset="500"/>
   </outline>
   <lib>
     <dict>

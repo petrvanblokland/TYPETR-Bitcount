@@ -2,10 +2,11 @@
 <glyph name="ringcomb" format="2">
   <unicode hex="030A"/>
   <anchor x="70" y="500" name="_top"/>
+  <anchor x="112" y="800" name="top"/>
   <outline>
-    <component base="px" xOffset="63" yOffset="400"/>
-    <component base="px" xOffset="-23" yOffset="500"/>
-    <component base="px" xOffset="177" yOffset="500"/>
-    <component base="px" xOffset="91" yOffset="600"/>
+    <component base="px" xOffset="-30" yOffset="500"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="84" yOffset="600"/>
+    <component base="px" xOffset="170" yOffset="500"/>
   </outline>
 </glyph>

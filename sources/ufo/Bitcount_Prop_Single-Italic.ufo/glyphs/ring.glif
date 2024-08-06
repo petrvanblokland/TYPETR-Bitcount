@@ -3,9 +3,9 @@
   <advance width="400"/>
   <unicode hex="02DA"/>
   <outline>
-    <component base="px" xOffset="142" yOffset="300"/>
     <component base="px" xOffset="56" yOffset="400"/>
-    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="142" yOffset="300"/>
     <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="256" yOffset="400"/>
   </outline>
 </glyph>

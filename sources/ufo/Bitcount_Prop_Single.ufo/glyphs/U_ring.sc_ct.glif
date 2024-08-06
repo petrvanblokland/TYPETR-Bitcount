@@ -1,23 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uring.sc_ct" format="2">
   <advance width="700"/>
+  <anchor x="400" y="900" name="top"/>
+  <anchor x="400" y="0" name="bottom"/>
+  <anchor x="300" y="0" name="ogonek"/>
   <outline>
-    <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="300"/>
     <component base="px" yOffset="100"/>
-    <component base="px" xOffset="100" yOffset="100"/>
-    <component base="px" xOffset="400" yOffset="100"/>
     <component base="px" yOffset="200"/>
-    <component base="px" xOffset="400" yOffset="200"/>
     <component base="px" yOffset="300"/>
-    <component base="px" xOffset="400" yOffset="300"/>
     <component base="px" yOffset="400"/>
-    <component base="px" xOffset="400" yOffset="400"/>
-    <component base="px" xOffset="200" yOffset="500"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="100" yOffset="100"/>
     <component base="px" xOffset="100" yOffset="600"/>
-    <component base="px" xOffset="300" yOffset="600"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="200" yOffset="500"/>
     <component base="px" xOffset="200" yOffset="700"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="300" yOffset="600"/>
+    <component base="px" xOffset="400" yOffset="100"/>
+    <component base="px" xOffset="400" yOffset="200"/>
+    <component base="px" xOffset="400" yOffset="300"/>
+    <component base="px" xOffset="400" yOffset="400"/>
   </outline>
   <lib>
     <dict>

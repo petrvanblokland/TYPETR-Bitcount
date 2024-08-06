@@ -208,6 +208,8 @@
     <string>D_caron.sc_cd.glif</string>
     <key>Dcaron.sc_ct</key>
     <string>D_caron.sc_ct.glif</string>
+    <key>Dcircle</key>
+    <string>D_circle.glif</string>
     <key>Dcroat</key>
     <string>D_croat.glif</string>
     <key>Dcroat.cd</key>

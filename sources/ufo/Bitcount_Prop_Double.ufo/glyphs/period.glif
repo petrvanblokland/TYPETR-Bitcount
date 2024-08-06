@@ -4,8 +4,8 @@
   <unicode hex="002E"/>
   <outline>
     <component base="px"/>
-    <component base="px" xOffset="100"/>
     <component base="px" yOffset="100"/>
+    <component base="px" xOffset="100"/>
     <component base="px" xOffset="100" yOffset="100"/>
   </outline>
   <lib>

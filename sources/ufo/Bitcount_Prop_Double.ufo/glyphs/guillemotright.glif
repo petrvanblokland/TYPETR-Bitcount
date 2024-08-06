@@ -4,10 +4,10 @@
   <unicode hex="00BB"/>
   <outline>
     <component base="px" xOffset="100" yOffset="100"/>
-    <component base="px" xOffset="400" yOffset="100"/>
-    <component base="px" xOffset="200" yOffset="200"/>
-    <component base="px" xOffset="500" yOffset="200"/>
     <component base="px" xOffset="100" yOffset="300"/>
+    <component base="px" xOffset="200" yOffset="200"/>
+    <component base="px" xOffset="400" yOffset="100"/>
     <component base="px" xOffset="400" yOffset="300"/>
+    <component base="px" xOffset="500" yOffset="200"/>
   </outline>
 </glyph>

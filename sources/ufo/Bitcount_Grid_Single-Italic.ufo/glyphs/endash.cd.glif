@@ -2,10 +2,10 @@
 <glyph name="endash.cd" format="2">
   <advance width="600"/>
   <outline>
-    <component base="px" xOffset="36" yOffset="200"/>
-    <component base="px" xOffset="136" yOffset="200"/>
-    <component base="px" xOffset="236" yOffset="200"/>
-    <component base="px" xOffset="336" yOffset="200"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="328" yOffset="200"/>
   </outline>
   <lib>
     <dict>

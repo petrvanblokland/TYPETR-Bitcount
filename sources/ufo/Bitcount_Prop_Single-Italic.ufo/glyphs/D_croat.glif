@@ -2,24 +2,26 @@
 <glyph name="Dcroat" format="2">
   <advance width="800"/>
   <unicode hex="0110"/>
+  <anchor x="400" y="700" name="top"/>
+  <anchor x="400" y="0" name="bottom"/>
   <outline>
-    <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="300"/>
-    <component base="px" xOffset="400"/>
-    <component base="px" xOffset="114" yOffset="100"/>
-    <component base="px" xOffset="514" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
     <component base="px" xOffset="128" yOffset="200"/>
-    <component base="px" xOffset="228" yOffset="200"/>
-    <component base="px" xOffset="528" yOffset="200"/>
     <component base="px" xOffset="142" yOffset="300"/>
-    <component base="px" xOffset="542" yOffset="300"/>
     <component base="px" xOffset="156" yOffset="400"/>
-    <component base="px" xOffset="556" yOffset="400"/>
     <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
     <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="300"/>
     <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="400"/>
     <component base="px" xOffset="470" yOffset="500"/>
+    <component base="px" xOffset="514" yOffset="100"/>
+    <component base="px" xOffset="528" yOffset="200"/>
+    <component base="px" xOffset="542" yOffset="300"/>
+    <component base="px" xOffset="556" yOffset="400"/>
   </outline>
 </glyph>

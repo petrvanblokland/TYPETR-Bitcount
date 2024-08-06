@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lacute.xa_cd" format="2">
   <advance width="200"/>
+  <anchor x="100" y="1100" name="top"/>
+  <anchor x="100" y="0" name="bottom"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="14" yOffset="100"/>
@@ -10,6 +12,6 @@
     <component base="px" xOffset="70" yOffset="500"/>
     <component base="px" xOffset="84" yOffset="600"/>
     <component base="px" xOffset="112" yOffset="800"/>
-    <component base="px" xOffset="226" yOffset="900"/>
+    <component base="px" xOffset="198" yOffset="900"/>
   </outline>
 </glyph>

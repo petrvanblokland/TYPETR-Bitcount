@@ -2,8 +2,9 @@
 <glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
   <anchor x="71" y="500" name="_top"/>
+  <anchor x="113" y="800" name="top"/>
   <outline>
-    <component base="px" xOffset="-22" yOffset="500"/>
-    <component base="px" xOffset="93" yOffset="600"/>
+    <component base="px" xOffset="-30" yOffset="500"/>
+    <component base="px" xOffset="84" yOffset="600"/>
   </outline>
 </glyph>

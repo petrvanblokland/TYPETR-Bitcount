@@ -2,25 +2,25 @@
 <glyph name="four.lc_xd" format="2">
   <advance width="600"/>
   <outline>
-    <component base="px" xOffset="172" yOffset="-200"/>
-    <component base="px" xOffset="272" yOffset="-200"/>
-    <component base="px" xOffset="186" yOffset="-100"/>
-    <component base="px" xOffset="286" yOffset="-100"/>
     <component base="px"/>
-    <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="300"/>
-    <component base="px" xOffset="400"/>
     <component base="px" xOffset="14" yOffset="100"/>
-    <component base="px" xOffset="214" yOffset="100"/>
-    <component base="px" xOffset="314" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>
-    <component base="px" xOffset="228" yOffset="200"/>
-    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="100"/>
     <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="172" yOffset="-200"/>
+    <component base="px" xOffset="186" yOffset="-100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="214" yOffset="100"/>
+    <component base="px" xOffset="228" yOffset="200"/>
     <component base="px" xOffset="242" yOffset="300"/>
-    <component base="px" xOffset="342" yOffset="300"/>
     <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="272" yOffset="-200"/>
+    <component base="px" xOffset="286" yOffset="-100"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="342" yOffset="300"/>
     <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="400"/>
   </outline>
 </glyph>

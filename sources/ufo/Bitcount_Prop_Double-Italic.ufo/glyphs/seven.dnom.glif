@@ -4,8 +4,8 @@
   <outline>
     <component base="px" xOffset="-14" yOffset="-100"/>
     <component base="px"/>
-    <component base="px" xOffset="114" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="114" yOffset="100"/>
     <component base="px" xOffset="128" yOffset="200"/>
   </outline>
   <lib>

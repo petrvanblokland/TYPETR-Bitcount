@@ -1,24 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gcommaaccent.salt" format="2">
   <advance width="500"/>
+  <anchor x="200" y="900" name="top"/>
+  <anchor x="200" y="-300" name="bottom"/>
   <outline>
-    <component base="px" xOffset="100" yOffset="-300"/>
-    <component base="px" xOffset="200" yOffset="-300"/>
-    <component base="px" xOffset="300" yOffset="-200"/>
     <component base="px" yOffset="-100"/>
-    <component base="px" xOffset="100" yOffset="-100"/>
-    <component base="px" xOffset="200" yOffset="-100"/>
-    <component base="px" xOffset="300" yOffset="-100"/>
     <component base="px"/>
-    <component base="px" xOffset="100" yOffset="100"/>
-    <component base="px" xOffset="200" yOffset="100"/>
     <component base="px" yOffset="200"/>
-    <component base="px" xOffset="300" yOffset="200"/>
     <component base="px" yOffset="300"/>
-    <component base="px" xOffset="300" yOffset="300"/>
+    <component base="px" xOffset="100" yOffset="-300"/>
+    <component base="px" xOffset="100" yOffset="-100"/>
+    <component base="px" xOffset="100" yOffset="100"/>
     <component base="px" xOffset="100" yOffset="400"/>
+    <component base="px" xOffset="200" yOffset="-300"/>
+    <component base="px" xOffset="200" yOffset="-100"/>
+    <component base="px" xOffset="200" yOffset="100"/>
     <component base="px" xOffset="200" yOffset="400"/>
     <component base="px" xOffset="200" yOffset="600"/>
+    <component base="px" xOffset="300" yOffset="-200"/>
+    <component base="px" xOffset="300" yOffset="-100"/>
+    <component base="px" xOffset="300" yOffset="200"/>
+    <component base="px" xOffset="300" yOffset="300"/>
     <component base="px" xOffset="300" yOffset="700"/>
   </outline>
 </glyph>

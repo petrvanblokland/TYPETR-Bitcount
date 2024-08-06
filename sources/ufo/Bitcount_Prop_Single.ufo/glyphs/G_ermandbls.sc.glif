@@ -1,30 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Germandbls.sc" format="2">
   <advance width="1200"/>
+  <anchor x="600" y="600" name="top"/>
+  <anchor x="600" y="0" name="bottom"/>
   <outline>
     <component base="px"/>
-    <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="600"/>
-    <component base="px" xOffset="700"/>
-    <component base="px" xOffset="800"/>
-    <component base="px" xOffset="300" yOffset="100"/>
-    <component base="px" xOffset="900" yOffset="100"/>
     <component base="px" yOffset="200"/>
-    <component base="px" xOffset="100" yOffset="200"/>
-    <component base="px" xOffset="200" yOffset="200"/>
-    <component base="px" xOffset="300" yOffset="200"/>
-    <component base="px" xOffset="600" yOffset="200"/>
-    <component base="px" xOffset="700" yOffset="200"/>
-    <component base="px" xOffset="800" yOffset="200"/>
-    <component base="px" xOffset="900" yOffset="200"/>
     <component base="px" yOffset="300"/>
-    <component base="px" xOffset="600" yOffset="300"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="100" yOffset="200"/>
     <component base="px" xOffset="100" yOffset="400"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="200" yOffset="200"/>
     <component base="px" xOffset="200" yOffset="400"/>
+    <component base="px" xOffset="300" yOffset="100"/>
+    <component base="px" xOffset="300" yOffset="200"/>
     <component base="px" xOffset="300" yOffset="400"/>
+    <component base="px" xOffset="600"/>
+    <component base="px" xOffset="600" yOffset="200"/>
+    <component base="px" xOffset="600" yOffset="300"/>
+    <component base="px" xOffset="700"/>
+    <component base="px" xOffset="700" yOffset="200"/>
     <component base="px" xOffset="700" yOffset="400"/>
+    <component base="px" xOffset="800"/>
+    <component base="px" xOffset="800" yOffset="200"/>
     <component base="px" xOffset="800" yOffset="400"/>
+    <component base="px" xOffset="900" yOffset="100"/>
+    <component base="px" xOffset="900" yOffset="200"/>
     <component base="px" xOffset="900" yOffset="400"/>
   </outline>
   <lib>

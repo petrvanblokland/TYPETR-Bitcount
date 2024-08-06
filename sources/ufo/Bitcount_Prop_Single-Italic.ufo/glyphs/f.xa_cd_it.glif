@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f.xa_cd_it" format="2">
   <advance width="400"/>
+  <anchor x="200" y="800" name="top"/>
+  <anchor x="200" y="-100" name="bottom"/>
   <outline>
     <component base="px" xOffset="-14" yOffset="-100"/>
+    <component base="px" xOffset="56" yOffset="400"/>
     <component base="px" xOffset="100"/>
     <component base="px" xOffset="114" yOffset="100"/>
     <component base="px" xOffset="128" yOffset="200"/>
     <component base="px" xOffset="142" yOffset="300"/>
-    <component base="px" xOffset="56" yOffset="400"/>
     <component base="px" xOffset="156" yOffset="400"/>
-    <component base="px" xOffset="256" yOffset="400"/>
     <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="256" yOffset="400"/>
     <component base="px" xOffset="284" yOffset="600"/>
     <component base="px" xOffset="384" yOffset="600"/>
   </outline>

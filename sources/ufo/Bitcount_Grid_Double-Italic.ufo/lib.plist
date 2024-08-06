@@ -8917,7 +8917,6 @@
           <string>Q</string>
           <string>R</string>
           <string>Racute</string>
-          <string>Rcedilla</string>
           <string>Rcaron</string>
           <string>S</string>
           <string>Sacute</string>
@@ -9390,7 +9389,6 @@
           <string>Omacron.nct</string>
           <string>D.nct</string>
           <string>Dcroat.nct</string>
-          <string>Rcedilla.sc</string>
           <string>ugrave.nct</string>
           <string>aringacute.nct_it</string>
           <string>udieresis.nct</string>
@@ -9977,8 +9975,6 @@
       <string>R + #caroncmb|0158</string>
       <key>Rcaron.sc</key>
       <string>R.sc + #caroncmb</string>
-      <key>Rcedilla</key>
-      <string>R + #cedillacmb</string>
       <key>Rcommaaccent</key>
       <string>R + #commaaccentcmb|0156</string>
       <key>Rcommaaccent.sc</key>
@@ -11148,7 +11144,6 @@
       <string>Q</string>
       <string>R</string>
       <string>Racute</string>
-      <string>Rcedilla</string>
       <string>Rcaron</string>
       <string>S</string>
       <string>Sacute</string>
@@ -11621,7 +11616,6 @@
       <string>Omacron.nct</string>
       <string>D.nct</string>
       <string>Dcroat.nct</string>
-      <string>Rcedilla.sc</string>
       <string>ugrave.nct</string>
       <string>aringacute.nct_it</string>
       <string>udieresis.nct</string>
@@ -11765,6 +11759,7 @@
       <string>ogonekcomb</string>
       <string>Germandbls</string>
       <string>Germandbls.sc</string>
+      <string>Dcircle</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

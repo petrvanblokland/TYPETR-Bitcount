@@ -5,18 +5,20 @@
   <note>
 caron.vertcmb|0165
 </note>
+  <anchor x="299" y="700" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
   <outline>
-    <component base="px" xOffset="208"/>
-    <component base="px" xOffset="308"/>
-    <component base="px" xOffset="122" yOffset="100"/>
-    <component base="px" xOffset="136" yOffset="200"/>
-    <component base="px" xOffset="150" yOffset="300"/>
-    <component base="px" xOffset="350" yOffset="300"/>
-    <component base="px" xOffset="64" yOffset="400"/>
-    <component base="px" xOffset="164" yOffset="400"/>
-    <component base="px" xOffset="264" yOffset="400"/>
-    <component base="px" xOffset="464" yOffset="400"/>
-    <component base="px" xOffset="178" yOffset="500"/>
-    <component base="px" xOffset="478" yOffset="500"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="456" yOffset="400"/>
+    <component base="px" xOffset="470" yOffset="500"/>
   </outline>
 </glyph>

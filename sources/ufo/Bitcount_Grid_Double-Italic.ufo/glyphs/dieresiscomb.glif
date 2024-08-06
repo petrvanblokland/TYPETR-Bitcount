@@ -2,8 +2,9 @@
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
   <anchor x="71" y="500" name="_top"/>
+  <anchor x="99" y="700" name="top"/>
   <outline>
-    <component base="px" xOffset="-23" yOffset="500"/>
-    <component base="px" xOffset="177" yOffset="500"/>
+    <component base="px" xOffset="-30" yOffset="500"/>
+    <component base="px" xOffset="170" yOffset="500"/>
   </outline>
 </glyph>

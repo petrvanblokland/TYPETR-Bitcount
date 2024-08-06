@@ -3,15 +3,15 @@
   <advance width="500"/>
   <outline>
     <component base="px"/>
-    <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="300"/>
-    <component base="px" xOffset="114" yOffset="100"/>
-    <component base="px" xOffset="228" yOffset="200"/>
     <component base="px" xOffset="42" yOffset="300"/>
-    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
     <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
     <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="342" yOffset="300"/>
   </outline>
   <lib>
     <dict>

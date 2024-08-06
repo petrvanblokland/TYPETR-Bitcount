@@ -1,23 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gcircumflex.cd" format="2">
   <advance width="600"/>
+  <anchor x="299" y="700" name="top"/>
+  <anchor x="186" y="-100" name="bottom"/>
   <outline>
-    <component base="px" xOffset="-6" yOffset="-100"/>
-    <component base="px" xOffset="94" yOffset="-100"/>
-    <component base="px" xOffset="194" yOffset="-100"/>
-    <component base="px" xOffset="308"/>
-    <component base="px" xOffset="122" yOffset="100"/>
-    <component base="px" xOffset="222" yOffset="100"/>
-    <component base="px" xOffset="322" yOffset="100"/>
-    <component base="px" xOffset="36" yOffset="200"/>
-    <component base="px" xOffset="336" yOffset="200"/>
-    <component base="px" xOffset="50" yOffset="300"/>
-    <component base="px" xOffset="350" yOffset="300"/>
-    <component base="px" xOffset="164" yOffset="400"/>
-    <component base="px" xOffset="264" yOffset="400"/>
-    <component base="px" xOffset="364" yOffset="400"/>
-    <component base="px" xOffset="178" yOffset="500"/>
-    <component base="px" xOffset="278" yOffset="500"/>
+    <component base="px" xOffset="-14" yOffset="-100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="86" yOffset="-100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="186" yOffset="-100"/>
+    <component base="px" xOffset="214" yOffset="100"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="356" yOffset="400"/>
   </outline>
   <lib>
     <dict>

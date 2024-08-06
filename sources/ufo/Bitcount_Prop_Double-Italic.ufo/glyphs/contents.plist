@@ -152,6 +152,8 @@
     <string>D_caron.xc.glif</string>
     <key>Dcaron.xc_nct</key>
     <string>D_caron.xc_nct.glif</string>
+    <key>Dcircle</key>
+    <string>D_circle.glif</string>
     <key>Dcroat</key>
     <string>D_croat.glif</string>
     <key>Dcroat.nct</key>

@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tcedilla.cd" format="2">
   <advance width="600"/>
+  <anchor x="298" y="700" name="top"/>
+  <anchor x="172" y="-200" name="bottom"/>
   <outline>
+    <component base="px" xOffset="170" yOffset="500"/>
     <component base="px" xOffset="172" yOffset="-200"/>
-    <component base="px" xOffset="286" yOffset="-100"/>
     <component base="px" xOffset="200"/>
     <component base="px" xOffset="214" yOffset="100"/>
     <component base="px" xOffset="228" yOffset="200"/>
     <component base="px" xOffset="242" yOffset="300"/>
     <component base="px" xOffset="256" yOffset="400"/>
-    <component base="px" xOffset="170" yOffset="500"/>
     <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="286" yOffset="-100"/>
     <component base="px" xOffset="370" yOffset="500"/>
   </outline>
   <lib>

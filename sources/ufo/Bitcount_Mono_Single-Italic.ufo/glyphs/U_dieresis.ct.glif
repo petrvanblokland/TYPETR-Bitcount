@@ -1,22 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresis.ct" format="2">
   <advance width="600"/>
+  <anchor x="326" y="900" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="300" y="0" name="ogonek"/>
   <outline>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="70" yOffset="500"/>
     <component base="px" xOffset="100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="198" yOffset="700"/>
     <component base="px" xOffset="200"/>
     <component base="px" xOffset="300"/>
-    <component base="px" xOffset="14" yOffset="100"/>
-    <component base="px" xOffset="114" yOffset="100"/>
-    <component base="px" xOffset="414" yOffset="100"/>
-    <component base="px" xOffset="28" yOffset="200"/>
-    <component base="px" xOffset="428" yOffset="200"/>
-    <component base="px" xOffset="42" yOffset="300"/>
-    <component base="px" xOffset="442" yOffset="300"/>
-    <component base="px" xOffset="56" yOffset="400"/>
-    <component base="px" xOffset="456" yOffset="400"/>
-    <component base="px" xOffset="70" yOffset="500"/>
-    <component base="px" xOffset="470" yOffset="500"/>
-    <component base="px" xOffset="198" yOffset="700"/>
     <component base="px" xOffset="398" yOffset="700"/>
+    <component base="px" xOffset="414" yOffset="100"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="456" yOffset="400"/>
+    <component base="px" xOffset="470" yOffset="500"/>
   </outline>
 </glyph>

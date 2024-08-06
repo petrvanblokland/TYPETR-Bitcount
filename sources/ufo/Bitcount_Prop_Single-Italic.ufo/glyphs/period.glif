@@ -4,8 +4,8 @@
   <unicode hex="002E"/>
   <outline>
     <component base="px"/>
-    <component base="px" xOffset="100"/>
     <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="100"/>
     <component base="px" xOffset="114" yOffset="100"/>
   </outline>
 </glyph>

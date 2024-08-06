@@ -2,21 +2,23 @@
 <glyph name="scommaaccent" format="2">
   <advance width="600"/>
   <unicode hex="0219"/>
+  <anchor x="200" y="600" name="top"/>
+  <anchor x="200" y="-300" name="bottom"/>
   <outline>
-    <component base="px" xOffset="100" yOffset="-300"/>
-    <component base="px" xOffset="200" yOffset="-200"/>
     <component base="px"/>
-    <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="300"/>
-    <component base="px" xOffset="400" yOffset="100"/>
-    <component base="px" xOffset="100" yOffset="200"/>
-    <component base="px" xOffset="200" yOffset="200"/>
-    <component base="px" xOffset="300" yOffset="200"/>
     <component base="px" yOffset="300"/>
+    <component base="px" xOffset="100" yOffset="-300"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="100" yOffset="200"/>
     <component base="px" xOffset="100" yOffset="400"/>
+    <component base="px" xOffset="200" yOffset="-200"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="200" yOffset="200"/>
     <component base="px" xOffset="200" yOffset="400"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="300" yOffset="200"/>
     <component base="px" xOffset="300" yOffset="400"/>
+    <component base="px" xOffset="400" yOffset="100"/>
     <component base="px" xOffset="400" yOffset="400"/>
   </outline>
 </glyph>

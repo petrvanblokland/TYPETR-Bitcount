@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lacute.sc_cd" format="2">
   <advance width="600"/>
+  <anchor x="199" y="700" name="top"/>
+  <anchor x="100" y="0" name="bottom"/>
   <outline>
-    <component base="px" xOffset="108"/>
-    <component base="px" xOffset="208"/>
-    <component base="px" xOffset="308"/>
-    <component base="px" xOffset="408"/>
-    <component base="px" xOffset="122" yOffset="100"/>
-    <component base="px" xOffset="136" yOffset="200"/>
-    <component base="px" xOffset="150" yOffset="300"/>
-    <component base="px" xOffset="164" yOffset="400"/>
-    <component base="px" xOffset="278" yOffset="500"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="400"/>
   </outline>
   <lib>
     <dict>

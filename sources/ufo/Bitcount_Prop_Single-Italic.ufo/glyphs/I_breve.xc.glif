@@ -1,7 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ibreve.xc" format="2">
   <advance width="300"/>
+  <anchor x="200" y="1100" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
   <outline>
+    <component base="px" xOffset="-2" yOffset="900"/>
     <component base="px"/>
     <component base="px" xOffset="14" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>
@@ -11,7 +14,6 @@
     <component base="px" xOffset="84" yOffset="600"/>
     <component base="px" xOffset="112" yOffset="800"/>
     <component base="px" xOffset="212" yOffset="800"/>
-    <component base="px" xOffset="26" yOffset="900"/>
-    <component base="px" xOffset="326" yOffset="900"/>
+    <component base="px" xOffset="298" yOffset="900"/>
   </outline>
 </glyph>

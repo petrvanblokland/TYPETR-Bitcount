@@ -3,16 +3,16 @@
   <advance width="600"/>
   <unicode hex="005D"/>
   <outline>
-    <component base="px" xOffset="-6" yOffset="-100"/>
-    <component base="px" xOffset="94" yOffset="-100"/>
-    <component base="px" xOffset="194" yOffset="-100"/>
-    <component base="px" xOffset="208"/>
-    <component base="px" xOffset="222" yOffset="100"/>
-    <component base="px" xOffset="236" yOffset="200"/>
-    <component base="px" xOffset="250" yOffset="300"/>
-    <component base="px" xOffset="264" yOffset="400"/>
-    <component base="px" xOffset="78" yOffset="500"/>
-    <component base="px" xOffset="178" yOffset="500"/>
-    <component base="px" xOffset="278" yOffset="500"/>
+    <component base="px" xOffset="-14" yOffset="-100"/>
+    <component base="px" xOffset="70" yOffset="500"/>
+    <component base="px" xOffset="86" yOffset="-100"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="186" yOffset="-100"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="214" yOffset="100"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="242" yOffset="300"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="270" yOffset="500"/>
   </outline>
 </glyph>

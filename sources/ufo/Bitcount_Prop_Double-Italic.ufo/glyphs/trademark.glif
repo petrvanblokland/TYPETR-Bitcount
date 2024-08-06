@@ -3,22 +3,22 @@
   <advance width="900"/>
   <unicode hex="2122"/>
   <outline>
-    <component base="px" xOffset="128" yOffset="200"/>
-    <component base="px" xOffset="328" yOffset="200"/>
-    <component base="px" xOffset="728" yOffset="200"/>
-    <component base="px" xOffset="142" yOffset="300"/>
-    <component base="px" xOffset="342" yOffset="300"/>
-    <component base="px" xOffset="542" yOffset="300"/>
-    <component base="px" xOffset="742" yOffset="300"/>
-    <component base="px" xOffset="156" yOffset="400"/>
-    <component base="px" xOffset="356" yOffset="400"/>
-    <component base="px" xOffset="456" yOffset="400"/>
-    <component base="px" xOffset="656" yOffset="400"/>
-    <component base="px" xOffset="756" yOffset="400"/>
     <component base="px" xOffset="70" yOffset="500"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
     <component base="px" xOffset="170" yOffset="500"/>
     <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="356" yOffset="400"/>
     <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="456" yOffset="400"/>
+    <component base="px" xOffset="542" yOffset="300"/>
+    <component base="px" xOffset="656" yOffset="400"/>
+    <component base="px" xOffset="728" yOffset="200"/>
+    <component base="px" xOffset="742" yOffset="300"/>
+    <component base="px" xOffset="756" yOffset="400"/>
     <component base="px" xOffset="770" yOffset="500"/>
   </outline>
   <lib>

@@ -152,6 +152,8 @@
     <string>D_caron.xc.glif</string>
     <key>Dcaron.xc_nct</key>
     <string>D_caron.xc_nct.glif</string>
+    <key>Dcircle</key>
+    <string>D_circle.glif</string>
     <key>Dcroat</key>
     <string>D_croat.glif</string>
     <key>Dcroat.nct</key>
@@ -662,14 +664,6 @@
     <string>R_caron.xc.glif</string>
     <key>Rcaron.xc_nct</key>
     <string>R_caron.xc_nct.glif</string>
-    <key>Rcedilla</key>
-    <string>R_cedilla.glif</string>
-    <key>Rcedilla.nct</key>
-    <string>R_cedilla.nct.glif</string>
-    <key>Rcedilla.xc</key>
-    <string>R_cedilla.xc.glif</string>
-    <key>Rcedilla.xc_nct</key>
-    <string>R_cedilla.xc_nct.glif</string>
     <key>Rcommaaccent</key>
     <string>R_commaaccent.glif</string>
     <key>Rcommaaccent.nct</key>

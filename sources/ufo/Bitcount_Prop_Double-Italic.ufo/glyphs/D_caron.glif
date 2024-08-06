@@ -2,30 +2,32 @@
 <glyph name="Dcaron" format="2">
   <advance width="600"/>
   <unicode hex="010E"/>
+  <anchor x="300" y="1000" name="top"/>
+  <anchor x="300" y="0" name="bottom"/>
   <outline>
     <component base="px"/>
-    <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="300"/>
     <component base="px" xOffset="14" yOffset="100"/>
-    <component base="px" xOffset="114" yOffset="100"/>
-    <component base="px" xOffset="414" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>
-    <component base="px" xOffset="128" yOffset="200"/>
-    <component base="px" xOffset="428" yOffset="200"/>
     <component base="px" xOffset="42" yOffset="300"/>
-    <component base="px" xOffset="142" yOffset="300"/>
-    <component base="px" xOffset="442" yOffset="300"/>
     <component base="px" xOffset="56" yOffset="400"/>
-    <component base="px" xOffset="156" yOffset="400"/>
-    <component base="px" xOffset="356" yOffset="400"/>
-    <component base="px" xOffset="456" yOffset="400"/>
     <component base="px" xOffset="70" yOffset="500"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
     <component base="px" xOffset="170" yOffset="500"/>
-    <component base="px" xOffset="270" yOffset="500"/>
-    <component base="px" xOffset="370" yOffset="500"/>
-    <component base="px" xOffset="298" yOffset="700"/>
+    <component base="px" xOffset="200"/>
     <component base="px" xOffset="212" yOffset="800"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="298" yOffset="700"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="370" yOffset="500"/>
     <component base="px" xOffset="412" yOffset="800"/>
+    <component base="px" xOffset="414" yOffset="100"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="456" yOffset="400"/>
   </outline>
 </glyph>

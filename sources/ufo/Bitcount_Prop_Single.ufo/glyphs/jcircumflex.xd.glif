@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jcircumflex.xd" format="2">
   <advance width="200"/>
+  <anchor x="100" y="900" name="top"/>
+  <anchor x="100" y="-200" name="bottom"/>
   <outline>
     <component base="px" xOffset="-100" yOffset="-200"/>
+    <component base="px" xOffset="-100" yOffset="600"/>
     <component base="px" yOffset="-100"/>
     <component base="px"/>
     <component base="px" yOffset="100"/>
     <component base="px" yOffset="200"/>
     <component base="px" yOffset="300"/>
     <component base="px" yOffset="400"/>
-    <component base="px" xOffset="-100" yOffset="600"/>
-    <component base="px" xOffset="100" yOffset="600"/>
     <component base="px" yOffset="700"/>
+    <component base="px" xOffset="100" yOffset="600"/>
   </outline>
 </glyph>

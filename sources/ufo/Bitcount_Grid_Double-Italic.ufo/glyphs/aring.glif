@@ -2,22 +2,25 @@
 <glyph name="aring" format="2">
   <advance width="600"/>
   <unicode hex="00E5"/>
+  <anchor x="299" y="700" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="400" y="0" name="ogonek"/>
   <outline>
-    <component base="px" xOffset="108"/>
-    <component base="px" xOffset="208"/>
-    <component base="px" xOffset="408"/>
-    <component base="px" xOffset="22" yOffset="100"/>
-    <component base="px" xOffset="322" yOffset="100"/>
-    <component base="px" xOffset="422" yOffset="100"/>
-    <component base="px" xOffset="136" yOffset="200"/>
-    <component base="px" xOffset="236" yOffset="200"/>
-    <component base="px" xOffset="336" yOffset="200"/>
-    <component base="px" xOffset="436" yOffset="200"/>
-    <component base="px" xOffset="350" yOffset="300"/>
-    <component base="px" xOffset="450" yOffset="300"/>
-    <component base="px" xOffset="164" yOffset="400"/>
-    <component base="px" xOffset="264" yOffset="400"/>
-    <component base="px" xOffset="364" yOffset="400"/>
-    <component base="px" xOffset="278" yOffset="500"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="400"/>
+    <component base="px" xOffset="414" yOffset="100"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="442" yOffset="300"/>
   </outline>
 </glyph>

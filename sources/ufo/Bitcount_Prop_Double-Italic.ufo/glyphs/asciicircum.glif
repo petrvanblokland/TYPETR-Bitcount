@@ -4,9 +4,9 @@
   <unicode hex="005E"/>
   <outline>
     <component base="px" xOffset="42" yOffset="300"/>
-    <component base="px" xOffset="442" yOffset="300"/>
     <component base="px" xOffset="156" yOffset="400"/>
-    <component base="px" xOffset="356" yOffset="400"/>
     <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="442" yOffset="300"/>
   </outline>
 </glyph>

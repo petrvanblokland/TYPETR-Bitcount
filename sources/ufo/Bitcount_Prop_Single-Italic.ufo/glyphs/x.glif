@@ -2,15 +2,17 @@
 <glyph name="x" format="2">
   <advance width="600"/>
   <unicode hex="0078"/>
+  <anchor x="70" y="500" name="_top"/>
+  <anchor x="300" y="600" name="top"/>
   <outline>
     <component base="px"/>
-    <component base="px" xOffset="400"/>
-    <component base="px" xOffset="114" yOffset="100"/>
-    <component base="px" xOffset="314" yOffset="100"/>
-    <component base="px" xOffset="228" yOffset="200"/>
-    <component base="px" xOffset="142" yOffset="300"/>
-    <component base="px" xOffset="342" yOffset="300"/>
     <component base="px" xOffset="56" yOffset="400"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="400"/>
     <component base="px" xOffset="456" yOffset="400"/>
   </outline>
 </glyph>

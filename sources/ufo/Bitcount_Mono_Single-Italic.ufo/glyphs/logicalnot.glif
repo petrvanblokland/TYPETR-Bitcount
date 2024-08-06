@@ -3,12 +3,12 @@
   <advance width="600"/>
   <unicode hex="00AC"/>
   <outline>
-    <component base="px" xOffset="400"/>
-    <component base="px" xOffset="414" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>
     <component base="px" xOffset="128" yOffset="200"/>
     <component base="px" xOffset="228" yOffset="200"/>
     <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="400"/>
+    <component base="px" xOffset="414" yOffset="100"/>
     <component base="px" xOffset="428" yOffset="200"/>
   </outline>
 </glyph>

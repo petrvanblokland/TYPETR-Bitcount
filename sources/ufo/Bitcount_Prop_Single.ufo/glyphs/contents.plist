@@ -364,6 +364,8 @@
     <string>D_caron.xc_cd.glif</string>
     <key>Dcaron.xc_ct</key>
     <string>D_caron.xc_ct.glif</string>
+    <key>Dcircle</key>
+    <string>D_circle.glif</string>
     <key>Dcroat</key>
     <string>D_croat.glif</string>
     <key>Dcroat.cd</key>

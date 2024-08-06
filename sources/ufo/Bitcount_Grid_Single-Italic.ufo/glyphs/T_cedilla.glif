@@ -2,17 +2,19 @@
 <glyph name="Tcedilla" format="2">
   <advance width="600"/>
   <unicode hex="0162"/>
+  <anchor x="299" y="700" name="top"/>
+  <anchor x="186" y="-100" name="bottom"/>
   <outline>
-    <component base="px" xOffset="194" yOffset="-100"/>
-    <component base="px" xOffset="308"/>
-    <component base="px" xOffset="222" yOffset="100"/>
-    <component base="px" xOffset="236" yOffset="200"/>
-    <component base="px" xOffset="250" yOffset="300"/>
-    <component base="px" xOffset="264" yOffset="400"/>
-    <component base="px" xOffset="78" yOffset="500"/>
-    <component base="px" xOffset="178" yOffset="500"/>
-    <component base="px" xOffset="278" yOffset="500"/>
-    <component base="px" xOffset="378" yOffset="500"/>
-    <component base="px" xOffset="478" yOffset="500"/>
+    <component base="px" xOffset="70" yOffset="500"/>
+    <component base="px" xOffset="170" yOffset="500"/>
+    <component base="px" xOffset="186" yOffset="-100"/>
+    <component base="px" xOffset="214" yOffset="100"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="242" yOffset="300"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="470" yOffset="500"/>
   </outline>
 </glyph>

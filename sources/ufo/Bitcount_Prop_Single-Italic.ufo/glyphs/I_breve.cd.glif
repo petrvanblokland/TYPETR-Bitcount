@@ -3,6 +3,7 @@
   <advance width="200"/>
   <outline>
     <component base="px"/>
+    <component base="px" xOffset="12" yOffset="800"/>
     <component base="px" xOffset="14" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>
     <component base="px" xOffset="42" yOffset="300"/>
@@ -10,7 +11,6 @@
     <component base="px" xOffset="70" yOffset="500"/>
     <component base="px" xOffset="98" yOffset="700"/>
     <component base="px" xOffset="198" yOffset="700"/>
-    <component base="px" xOffset="12" yOffset="800"/>
     <component base="px" xOffset="312" yOffset="800"/>
   </outline>
   <lib>

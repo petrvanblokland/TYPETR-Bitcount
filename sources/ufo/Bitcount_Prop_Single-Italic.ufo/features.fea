@@ -195,6 +195,7 @@ feature calt {
     sub slash m a t r i x six eight by matrix68;
     sub slash m a t r i x six one zero by matrix610;
     sub slash m a t r i x six one two by matrix612;
+    sub slash d e s i g n by Dcircle;
 } calt;
              
 feature ss01 {

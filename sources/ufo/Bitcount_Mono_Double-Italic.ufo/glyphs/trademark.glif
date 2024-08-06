@@ -3,16 +3,16 @@
   <advance width="600"/>
   <unicode hex="2122"/>
   <outline>
-    <component base="px" xOffset="128" yOffset="200"/>
-    <component base="px" xOffset="428" yOffset="200"/>
-    <component base="px" xOffset="142" yOffset="300"/>
-    <component base="px" xOffset="442" yOffset="300"/>
-    <component base="px" xOffset="156" yOffset="400"/>
-    <component base="px" xOffset="356" yOffset="400"/>
-    <component base="px" xOffset="456" yOffset="400"/>
     <component base="px" xOffset="70" yOffset="500"/>
+    <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
     <component base="px" xOffset="170" yOffset="500"/>
     <component base="px" xOffset="270" yOffset="500"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="456" yOffset="400"/>
     <component base="px" xOffset="470" yOffset="500"/>
   </outline>
 </glyph>

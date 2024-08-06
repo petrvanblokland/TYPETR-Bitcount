@@ -2,10 +2,10 @@
 <glyph name="four.numr" format="2">
   <advance width="300"/>
   <outline>
-    <component base="px" xOffset="100" yOffset="300"/>
     <component base="px" yOffset="400"/>
-    <component base="px" xOffset="100" yOffset="400"/>
     <component base="px" yOffset="500"/>
+    <component base="px" xOffset="100" yOffset="300"/>
+    <component base="px" xOffset="100" yOffset="400"/>
     <component base="px" xOffset="100" yOffset="500"/>
     <component base="px" xOffset="100" yOffset="600"/>
   </outline>

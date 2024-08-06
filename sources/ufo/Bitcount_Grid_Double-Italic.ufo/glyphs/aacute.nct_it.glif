@@ -1,24 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aacute.nct_it" format="2">
   <advance width="600"/>
+  <anchor x="299" y="700" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="400" y="0" name="ogonek"/>
   <outline>
-    <component base="px" xOffset="108"/>
-    <component base="px" xOffset="208"/>
-    <component base="px" xOffset="408"/>
-    <component base="px" xOffset="22" yOffset="100"/>
-    <component base="px" xOffset="322" yOffset="100"/>
-    <component base="px" xOffset="422" yOffset="100"/>
-    <component base="px" xOffset="36" yOffset="200"/>
-    <component base="px" xOffset="336" yOffset="200"/>
-    <component base="px" xOffset="436" yOffset="200"/>
-    <component base="px" xOffset="50" yOffset="300"/>
-    <component base="px" xOffset="350" yOffset="300"/>
-    <component base="px" xOffset="450" yOffset="300"/>
-    <component base="px" xOffset="164" yOffset="400"/>
-    <component base="px" xOffset="264" yOffset="400"/>
-    <component base="px" xOffset="364" yOffset="400"/>
-    <component base="px" xOffset="464" yOffset="400"/>
-    <component base="px" xOffset="378" yOffset="500"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="370" yOffset="500"/>
+    <component base="px" xOffset="400"/>
+    <component base="px" xOffset="414" yOffset="100"/>
+    <component base="px" xOffset="428" yOffset="200"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="456" yOffset="400"/>
   </outline>
   <lib>
     <dict>

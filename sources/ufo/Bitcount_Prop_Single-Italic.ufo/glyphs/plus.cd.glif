@@ -2,11 +2,11 @@
 <glyph name="plus.cd" format="2">
   <advance width="400"/>
   <outline>
-    <component base="px" xOffset="114" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="114" yOffset="100"/>
     <component base="px" xOffset="128" yOffset="200"/>
-    <component base="px" xOffset="228" yOffset="200"/>
     <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="228" yOffset="200"/>
   </outline>
   <lib>
     <dict>

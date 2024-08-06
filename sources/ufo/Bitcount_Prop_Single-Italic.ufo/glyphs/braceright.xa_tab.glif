@@ -3,13 +3,13 @@
   <advance width="600"/>
   <outline>
     <component base="px"/>
+    <component base="px" xOffset="84" yOffset="600"/>
     <component base="px" xOffset="100"/>
+    <component base="px" xOffset="184" yOffset="600"/>
     <component base="px" xOffset="214" yOffset="100"/>
     <component base="px" xOffset="228" yOffset="200"/>
-    <component base="px" xOffset="342" yOffset="300"/>
     <component base="px" xOffset="256" yOffset="400"/>
     <component base="px" xOffset="270" yOffset="500"/>
-    <component base="px" xOffset="84" yOffset="600"/>
-    <component base="px" xOffset="184" yOffset="600"/>
+    <component base="px" xOffset="342" yOffset="300"/>
   </outline>
 </glyph>

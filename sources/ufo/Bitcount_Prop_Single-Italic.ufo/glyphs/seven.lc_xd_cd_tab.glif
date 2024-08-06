@@ -2,15 +2,15 @@
 <glyph name="seven.lc_xd_cd_tab" format="2">
   <advance width="600"/>
   <outline>
+    <component base="px" xOffset="56" yOffset="400"/>
     <component base="px" xOffset="72" yOffset="-200"/>
     <component base="px" xOffset="86" yOffset="-100"/>
     <component base="px" xOffset="100"/>
+    <component base="px" xOffset="156" yOffset="400"/>
     <component base="px" xOffset="214" yOffset="100"/>
     <component base="px" xOffset="228" yOffset="200"/>
-    <component base="px" xOffset="342" yOffset="300"/>
-    <component base="px" xOffset="56" yOffset="400"/>
-    <component base="px" xOffset="156" yOffset="400"/>
     <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="342" yOffset="300"/>
     <component base="px" xOffset="356" yOffset="400"/>
   </outline>
   <lib>

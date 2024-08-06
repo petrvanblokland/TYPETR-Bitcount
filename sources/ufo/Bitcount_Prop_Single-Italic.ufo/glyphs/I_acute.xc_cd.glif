@@ -10,7 +10,7 @@
     <component base="px" xOffset="70" yOffset="500"/>
     <component base="px" xOffset="84" yOffset="600"/>
     <component base="px" xOffset="112" yOffset="800"/>
-    <component base="px" xOffset="226" yOffset="900"/>
+    <component base="px" xOffset="198" yOffset="900"/>
   </outline>
   <lib>
     <dict>

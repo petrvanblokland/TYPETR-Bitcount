@@ -2,14 +2,14 @@
 <glyph name="seven.sc" format="2">
   <advance width="600"/>
   <outline>
-    <component base="px" xOffset="200"/>
-    <component base="px" xOffset="214" yOffset="100"/>
-    <component base="px" xOffset="328" yOffset="200"/>
-    <component base="px" xOffset="442" yOffset="300"/>
     <component base="px" xOffset="56" yOffset="400"/>
     <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="214" yOffset="100"/>
     <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="328" yOffset="200"/>
     <component base="px" xOffset="356" yOffset="400"/>
+    <component base="px" xOffset="442" yOffset="300"/>
     <component base="px" xOffset="456" yOffset="400"/>
   </outline>
   <lib>

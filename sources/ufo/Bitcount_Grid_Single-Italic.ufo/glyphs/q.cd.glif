@@ -1,20 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="q.cd" format="2">
   <advance width="600"/>
+  <anchor x="285" y="600" name="top"/>
+  <anchor x="186" y="-100" name="bottom"/>
   <outline>
-    <component base="px" xOffset="294" yOffset="-100"/>
-    <component base="px" xOffset="108"/>
-    <component base="px" xOffset="208"/>
-    <component base="px" xOffset="308"/>
-    <component base="px" xOffset="22" yOffset="100"/>
-    <component base="px" xOffset="322" yOffset="100"/>
-    <component base="px" xOffset="36" yOffset="200"/>
-    <component base="px" xOffset="336" yOffset="200"/>
-    <component base="px" xOffset="50" yOffset="300"/>
-    <component base="px" xOffset="350" yOffset="300"/>
-    <component base="px" xOffset="164" yOffset="400"/>
-    <component base="px" xOffset="264" yOffset="400"/>
-    <component base="px" xOffset="364" yOffset="400"/>
+    <component base="px" xOffset="14" yOffset="100"/>
+    <component base="px" xOffset="28" yOffset="200"/>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="100"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="256" yOffset="400"/>
+    <component base="px" xOffset="286" yOffset="-100"/>
+    <component base="px" xOffset="300"/>
+    <component base="px" xOffset="314" yOffset="100"/>
+    <component base="px" xOffset="328" yOffset="200"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="356" yOffset="400"/>
   </outline>
   <lib>
     <dict>

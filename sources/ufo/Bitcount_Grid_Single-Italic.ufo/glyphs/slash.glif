@@ -3,10 +3,10 @@
   <advance width="600"/>
   <unicode hex="002F"/>
   <outline>
-    <component base="px" xOffset="8"/>
-    <component base="px" xOffset="122" yOffset="100"/>
-    <component base="px" xOffset="236" yOffset="200"/>
-    <component base="px" xOffset="350" yOffset="300"/>
-    <component base="px" xOffset="464" yOffset="400"/>
+    <component base="px"/>
+    <component base="px" xOffset="114" yOffset="100"/>
+    <component base="px" xOffset="228" yOffset="200"/>
+    <component base="px" xOffset="342" yOffset="300"/>
+    <component base="px" xOffset="456" yOffset="400"/>
   </outline>
 </glyph>

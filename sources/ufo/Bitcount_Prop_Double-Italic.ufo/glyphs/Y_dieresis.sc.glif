@@ -1,22 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ydieresis.sc" format="2">
   <advance width="600"/>
+  <anchor x="300" y="800" name="top"/>
+  <anchor x="300" y="0" name="bottom"/>
   <outline>
+    <component base="px" xOffset="42" yOffset="300"/>
+    <component base="px" xOffset="56" yOffset="400"/>
     <component base="px" xOffset="100"/>
-    <component base="px" xOffset="200"/>
     <component base="px" xOffset="114" yOffset="100"/>
-    <component base="px" xOffset="214" yOffset="100"/>
     <component base="px" xOffset="128" yOffset="200"/>
+    <component base="px" xOffset="142" yOffset="300"/>
+    <component base="px" xOffset="156" yOffset="400"/>
+    <component base="px" xOffset="184" yOffset="600"/>
+    <component base="px" xOffset="200"/>
+    <component base="px" xOffset="214" yOffset="100"/>
     <component base="px" xOffset="228" yOffset="200"/>
     <component base="px" xOffset="328" yOffset="200"/>
-    <component base="px" xOffset="42" yOffset="300"/>
-    <component base="px" xOffset="142" yOffset="300"/>
-    <component base="px" xOffset="442" yOffset="300"/>
-    <component base="px" xOffset="56" yOffset="400"/>
-    <component base="px" xOffset="156" yOffset="400"/>
-    <component base="px" xOffset="456" yOffset="400"/>
-    <component base="px" xOffset="184" yOffset="600"/>
     <component base="px" xOffset="384" yOffset="600"/>
+    <component base="px" xOffset="442" yOffset="300"/>
+    <component base="px" xOffset="456" yOffset="400"/>
   </outline>
   <lib>
     <dict>
