@@ -8702,6 +8702,15 @@
         </array>
       </dict>
     </dict>
+    <key>com.defcon.sortDescriptor</key>
+    <array>
+      <dict>
+        <key>allowPseudoUnicode</key>
+        <true/>
+        <key>type</key>
+        <string>cannedDesign</string>
+      </dict>
+    </array>
     <key>com.typemytype.robofont.@weight.800.layerStrokeColor</key>
     <array>
       <real>0.0</real>
@@ -12903,6 +12912,7 @@
     <key>public.glyphOrder</key>
     <array>
       <string>space</string>
+      <string>nbspace</string>
       <string>A</string>
       <string>Agrave</string>
       <string>Aacute</string>
@@ -12938,6 +12948,7 @@
       <string>Gcircumflex</string>
       <string>Gbreve</string>
       <string>Gdotaccent</string>
+      <string>Gcommaaccent</string>
       <string>Gcaron</string>
       <string>H</string>
       <string>Hcircumflex</string>
@@ -12954,13 +12965,16 @@
       <string>J</string>
       <string>Jcircumflex</string>
       <string>K</string>
+      <string>Kcommaaccent</string>
       <string>L</string>
       <string>Lacute</string>
+      <string>Lcommaaccent</string>
       <string>Lcaron</string>
       <string>M</string>
       <string>N</string>
       <string>Ntilde</string>
       <string>Nacute</string>
+      <string>Ncommaaccent</string>
       <string>Ncaron</string>
       <string>O</string>
       <string>Ograve</string>
@@ -12975,6 +12989,7 @@
       <string>Q</string>
       <string>R</string>
       <string>Racute</string>
+      <string>Rcommaaccent</string>
       <string>Rcaron</string>
       <string>S</string>
       <string>Sacute</string>
@@ -13026,6 +13041,7 @@
       <string>Eng</string>
       <string>OE</string>
       <string>Tbar</string>
+      <string>Germandbls</string>
       <string>Omega</string>
       <string>a</string>
       <string>agrave</string>
@@ -13140,8 +13156,6 @@
       <string>zacute</string>
       <string>zdotaccent</string>
       <string>zcaron</string>
-      <string>ordfeminine</string>
-      <string>ordmasculine</string>
       <string>germandbls</string>
       <string>ae</string>
       <string>aeacute</string>
@@ -13157,7 +13171,24 @@
       <string>eng</string>
       <string>oe</string>
       <string>tbar</string>
+      <string>jdotless</string>
       <string>pi</string>
+      <string>ordfeminine</string>
+      <string>ordmasculine</string>
+      <string>gravecomb</string>
+      <string>acutecomb</string>
+      <string>circumflexcomb</string>
+      <string>tildecomb</string>
+      <string>macroncomb</string>
+      <string>brevecomb</string>
+      <string>dotaccentcomb</string>
+      <string>dieresiscomb</string>
+      <string>ringcomb</string>
+      <string>hungarumlautcomb</string>
+      <string>caroncomb</string>
+      <string>commaaccentcomb</string>
+      <string>cedillacomb</string>
+      <string>ogonekcomb</string>
       <string>zero</string>
       <string>one</string>
       <string>two</string>
@@ -13168,6 +13199,9 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
+      <string>onesuperior</string>
+      <string>twosuperior</string>
+      <string>threesuperior</string>
       <string>onequarter</string>
       <string>onehalf</string>
       <string>threequarters</string>
@@ -13266,21 +13300,23 @@
       <string>registered</string>
       <string>trademark</string>
       <string>degree</string>
+      <string>copyrightsound</string>
+      <string>Dcircle</string>
       <string>lozenge</string>
       <string>apple</string>
-      <string>Gcommaaccent</string>
-      <string>Kcommaaccent</string>
-      <string>Lcommaaccent</string>
-      <string>Ncommaaccent</string>
-      <string>Rcommaaccent</string>
-      <string>copyrightsound</string>
+      <string>canvas</string>
       <string>dslash</string>
+      <string>heart</string>
       <string>idotaccent</string>
+      <string>matrix57</string>
+      <string>matrix58</string>
+      <string>matrix610</string>
+      <string>matrix612</string>
+      <string>matrix68</string>
       <string>ncommaaccent</string>
-      <string>onesuperior</string>
+      <string>openheart</string>
       <string>px</string>
-      <string>threesuperior</string>
-      <string>twosuperior</string>
+      <string>typetr</string>
       <string>fi</string>
       <string>fl</string>
       <string>zero.lc</string>
@@ -13308,12 +13344,83 @@
       <string>six.lc_ct</string>
       <string>eight.lc_ct</string>
       <string>nine.lc_ct</string>
+      <string>three.lc_xd_cd</string>
+      <string>four.lc_xd_cd</string>
+      <string>five.lc_xd_cd</string>
+      <string>seven.lc_xd_cd</string>
+      <string>nine.lc_xd_cd</string>
+      <string>three.lc_xd</string>
+      <string>four.lc_xd</string>
+      <string>seven.lc_xd</string>
+      <string>nine.lc_xd</string>
+      <string>three.lc_xd_ct</string>
+      <string>five.lc_xd_ct</string>
+      <string>nine.lc_xd_ct</string>
       <string>zero.slash</string>
       <string>zero.slash_cd</string>
       <string>zero.slash_lc</string>
       <string>zero.slash_sc</string>
+      <string>zero.slash_xc</string>
       <string>zero.slash_lc_cd</string>
       <string>zero.slash_sc_cd</string>
+      <string>zero.slash_xc_cd</string>
+      <string>A.xc_ct</string>
+      <string>Agrave.xc_ct</string>
+      <string>Aacute.xc_ct</string>
+      <string>Acircumflex.xc_ct</string>
+      <string>Atilde.xc_ct</string>
+      <string>Adieresis.xc_ct</string>
+      <string>Aring.xc_ct</string>
+      <string>Amacron.xc_ct</string>
+      <string>Abreve.xc_ct</string>
+      <string>Aogonek.xc_ct</string>
+      <string>Aringacute.xc_ct</string>
+      <string>B.xc_ct</string>
+      <string>C.xc_ct</string>
+      <string>Ccedilla.xc_ct</string>
+      <string>Cacute.xc_ct</string>
+      <string>Ccircumflex.xc_ct</string>
+      <string>Cdotaccent.xc_ct</string>
+      <string>Ccaron.xc_ct</string>
+      <string>D.xc_ct</string>
+      <string>Dcaron.xc_ct</string>
+      <string>G.xc_ct</string>
+      <string>Gcircumflex.xc_ct</string>
+      <string>Gbreve.xc_ct</string>
+      <string>Gdotaccent.xc_ct</string>
+      <string>Gcommaaccent.xc_ct</string>
+      <string>Gcaron.xc_ct</string>
+      <string>O.xc_ct</string>
+      <string>Ograve.xc_ct</string>
+      <string>Oacute.xc_ct</string>
+      <string>Ocircumflex.xc_ct</string>
+      <string>Otilde.xc_ct</string>
+      <string>Odieresis.xc_ct</string>
+      <string>Omacron.xc_ct</string>
+      <string>Obreve.xc_ct</string>
+      <string>Ohungarumlaut.xc_ct</string>
+      <string>P.xc_ct</string>
+      <string>Q.xc_ct</string>
+      <string>R.xc_ct</string>
+      <string>Racute.xc_ct</string>
+      <string>Rcommaaccent.xc_ct</string>
+      <string>Rcaron.xc_ct</string>
+      <string>U.xc_ct</string>
+      <string>Ugrave.xc_ct</string>
+      <string>Uacute.xc_ct</string>
+      <string>Ucircumflex.xc_ct</string>
+      <string>Udieresis.xc_ct</string>
+      <string>Utilde.xc_ct</string>
+      <string>Umacron.xc_ct</string>
+      <string>Ubreve.xc_ct</string>
+      <string>Uring.xc_ct</string>
+      <string>Uhungarumlaut.xc_ct</string>
+      <string>Uogonek.xc_ct</string>
+      <string>V.xc_ct</string>
+      <string>Eth.xc_ct</string>
+      <string>Thorn.xc_ct</string>
+      <string>Dcroat.xc_ct</string>
+      <string>Omega.xc_ct</string>
       <string>C.sc_ct</string>
       <string>Ccedilla.sc_ct</string>
       <string>Cacute.sc_ct</string>
@@ -13326,6 +13433,7 @@
       <string>Gcircumflex.sc_ct</string>
       <string>Gbreve.sc_ct</string>
       <string>Gdotaccent.sc_ct</string>
+      <string>Gcommaaccent.sc_ct</string>
       <string>Gcaron.sc_ct</string>
       <string>O.sc_ct</string>
       <string>Ograve.sc_ct</string>
@@ -13353,7 +13461,7 @@
       <string>Eth.sc_ct</string>
       <string>Dcroat.sc_ct</string>
       <string>eth.sc_ct</string>
-      <string>Gcommaaccent.sc_ct</string>
+      <string>Germandbls.xa_cd</string>
       <string>b.xa_cd</string>
       <string>d.xa_cd</string>
       <string>dcaron.xa_cd</string>
@@ -13380,31 +13488,6 @@
       <string>dslash.xa_cd</string>
       <string>fi.xa_cd</string>
       <string>fl.xa_cd</string>
-      <string>b.xa</string>
-      <string>d.xa</string>
-      <string>f.xa</string>
-      <string>h.xa</string>
-      <string>hcircumflex.xa</string>
-      <string>k.xa</string>
-      <string>kcommaaccent.xa</string>
-      <string>l.xa</string>
-      <string>lacute.xa</string>
-      <string>lcommaaccent.xa</string>
-      <string>lcaron.xa</string>
-      <string>t.xa</string>
-      <string>tcedilla.xa</string>
-      <string>tcaron.xa</string>
-      <string>tcommaaccent.xa</string>
-      <string>germandbls.xa</string>
-      <string>thorn.xa</string>
-      <string>hbar.xa</string>
-      <string>ldot.xa</string>
-      <string>lslash.xa</string>
-      <string>tbar.xa</string>
-      <string>florin.xa</string>
-      <string>dslash.xa</string>
-      <string>fi.xa</string>
-      <string>fl.xa</string>
       <string>J.xd</string>
       <string>Jcircumflex.xd</string>
       <string>f.xd</string>
@@ -13418,10 +13501,37 @@
       <string>jcircumflex.xd</string>
       <string>p.xd</string>
       <string>q.xd</string>
+      <string>y.xd</string>
+      <string>yacute.xd</string>
+      <string>ydieresis.xd</string>
+      <string>ycircumflex.xd</string>
+      <string>ygrave.xd</string>
       <string>thorn.xd</string>
       <string>florin.xd</string>
+      <string>jdotless.xd</string>
       <string>fi.xd</string>
       <string>fl.xd</string>
+      <string>f.xd_cd</string>
+      <string>g.xd_cd</string>
+      <string>gcircumflex.xd_cd</string>
+      <string>gbreve.xd_cd</string>
+      <string>gdotaccent.xd_cd</string>
+      <string>gcommaaccent.xd_cd</string>
+      <string>gcaron.xd_cd</string>
+      <string>j.xd_cd</string>
+      <string>jcircumflex.xd_cd</string>
+      <string>p.xd_cd</string>
+      <string>q.xd_cd</string>
+      <string>y.xd_cd</string>
+      <string>yacute.xd_cd</string>
+      <string>ydieresis.xd_cd</string>
+      <string>ycircumflex.xd_cd</string>
+      <string>ygrave.xd_cd</string>
+      <string>thorn.xd_cd</string>
+      <string>florin.xd_cd</string>
+      <string>jdotless.xd_cd</string>
+      <string>fi.xd_cd</string>
+      <string>fl.xd_cd</string>
       <string>a.it</string>
       <string>agrave.it</string>
       <string>aacute.it</string>
@@ -13433,9 +13543,9 @@
       <string>abreve.it</string>
       <string>aogonek.it</string>
       <string>aringacute.it</string>
+      <string>f.it</string>
       <string>ae.it</string>
       <string>aeacute.it</string>
-      <string>f.it</string>
       <string>fi.it</string>
       <string>fl.it</string>
       <string>a.cd_it</string>
@@ -13454,21 +13564,21 @@
       <string>aeacute.cd_it</string>
       <string>fi.cd_it</string>
       <string>fl.cd_it</string>
-      <string>f.xd_cd</string>
-      <string>g.xd_cd</string>
-      <string>gcircumflex.xd_cd</string>
-      <string>gbreve.xd_cd</string>
-      <string>gdotaccent.xd_cd</string>
-      <string>gcommaaccent.xd_cd</string>
-      <string>gcaron.xd_cd</string>
-      <string>j.xd_cd</string>
-      <string>jcircumflex.xd_cd</string>
-      <string>p.xd_cd</string>
-      <string>q.xd_cd</string>
-      <string>thorn.xd_cd</string>
-      <string>florin.xd_cd</string>
-      <string>fi.xd_cd</string>
-      <string>fl.xd_cd</string>
+      <string>g.xd_ct</string>
+      <string>gcircumflex.xd_ct</string>
+      <string>gbreve.xd_ct</string>
+      <string>gdotaccent.xd_ct</string>
+      <string>gcommaaccent.xd_ct</string>
+      <string>gcaron.xd_ct</string>
+      <string>p.xd_ct</string>
+      <string>q.xd_ct</string>
+      <string>y.xd_ct</string>
+      <string>yacute.xd_ct</string>
+      <string>ydieresis.xd_ct</string>
+      <string>ycircumflex.xd_ct</string>
+      <string>ygrave.xd_ct</string>
+      <string>thorn.xd_ct</string>
+      <string>Germandbls.xa_ct</string>
       <string>b.xa_ct</string>
       <string>d.xa_ct</string>
       <string>dcaron.xa_ct</string>
@@ -13481,15 +13591,6 @@
       <string>dcroat.xa_ct</string>
       <string>tcaron.xa_ct</string>
       <string>dslash.xa_ct</string>
-      <string>g.xd_ct</string>
-      <string>gcircumflex.xd_ct</string>
-      <string>gbreve.xd_ct</string>
-      <string>gdotaccent.xd_ct</string>
-      <string>gcommaaccent.xd_ct</string>
-      <string>gcaron.xd_ct</string>
-      <string>p.xd_ct</string>
-      <string>q.xd_ct</string>
-      <string>thorn.xd_ct</string>
       <string>g.salt</string>
       <string>gcircumflex.salt</string>
       <string>gbreve.salt</string>
@@ -13532,7 +13633,51 @@
       <string>fl.xa_xd_cd_it</string>
       <string>J.sc_xd</string>
       <string>Jcircumflex.sc_xd</string>
+      <string>J.xc_xd</string>
+      <string>Jcircumflex.xc_xd</string>
       <string>thorn.xa_xd_ct</string>
+      <string>Germandbls.xa</string>
+      <string>b.xa</string>
+      <string>d.xa</string>
+      <string>dcaron.xa</string>
+      <string>f.xa</string>
+      <string>h.xa</string>
+      <string>hcircumflex.xa</string>
+      <string>k.xa</string>
+      <string>kcommaaccent.xa</string>
+      <string>l.xa</string>
+      <string>lacute.xa</string>
+      <string>lcommaaccent.xa</string>
+      <string>lcaron.xa</string>
+      <string>t.xa</string>
+      <string>tcedilla.xa</string>
+      <string>tcaron.xa</string>
+      <string>tcommaaccent.xa</string>
+      <string>germandbls.xa</string>
+      <string>thorn.xa</string>
+      <string>hbar.xa</string>
+      <string>ldot.xa</string>
+      <string>lslash.xa</string>
+      <string>tbar.xa</string>
+      <string>florin.xa</string>
+      <string>parenleft.xa</string>
+      <string>parenright.xa</string>
+      <string>bracketleft.xa</string>
+      <string>bracketright.xa</string>
+      <string>braceleft.xa</string>
+      <string>braceright.xa</string>
+      <string>exclam.xa</string>
+      <string>exclamdown.xa</string>
+      <string>question.xa</string>
+      <string>questiondown.xa</string>
+      <string>ampersand.xa</string>
+      <string>paragraph.xa</string>
+      <string>bar.xa</string>
+      <string>brokenbar.xa</string>
+      <string>yen.xa</string>
+      <string>dslash.xa</string>
+      <string>fi.xa</string>
+      <string>fl.xa</string>
       <string>A.sc</string>
       <string>Agrave.sc</string>
       <string>Aacute.sc</string>
@@ -13568,6 +13713,7 @@
       <string>Gcircumflex.sc</string>
       <string>Gbreve.sc</string>
       <string>Gdotaccent.sc</string>
+      <string>Gcommaaccent.sc</string>
       <string>Gcaron.sc</string>
       <string>H.sc</string>
       <string>Hcircumflex.sc</string>
@@ -13584,13 +13730,16 @@
       <string>J.sc</string>
       <string>Jcircumflex.sc</string>
       <string>K.sc</string>
+      <string>Kcommaaccent.sc</string>
       <string>L.sc</string>
       <string>Lacute.sc</string>
+      <string>Lcommaaccent.sc</string>
       <string>Lcaron.sc</string>
       <string>M.sc</string>
       <string>N.sc</string>
       <string>Ntilde.sc</string>
       <string>Nacute.sc</string>
+      <string>Ncommaaccent.sc</string>
       <string>Ncaron.sc</string>
       <string>O.sc</string>
       <string>Ograve.sc</string>
@@ -13605,6 +13754,7 @@
       <string>Q.sc</string>
       <string>R.sc</string>
       <string>Racute.sc</string>
+      <string>Rcommaaccent.sc</string>
       <string>Rcaron.sc</string>
       <string>S.sc</string>
       <string>Sacute.sc</string>
@@ -13656,6 +13806,7 @@
       <string>Eng.sc</string>
       <string>OE.sc</string>
       <string>Tbar.sc</string>
+      <string>Germandbls.sc</string>
       <string>germandbls.sc</string>
       <string>eth.sc</string>
       <string>eng.sc</string>
@@ -13669,128 +13820,9 @@
       <string>seven.sc</string>
       <string>eight.sc</string>
       <string>nine.sc</string>
-      <string>Gcommaaccent.sc</string>
-      <string>Kcommaaccent.sc</string>
-      <string>Lcommaaccent.sc</string>
-      <string>Ncommaaccent.sc</string>
-      <string>Rcommaaccent.sc</string>
+      <string>Euro.sc</string>
       <string>fi.sc</string>
       <string>fl.sc</string>
-      <string>A.sc_cd</string>
-      <string>Agrave.sc_cd</string>
-      <string>Aacute.sc_cd</string>
-      <string>Acircumflex.sc_cd</string>
-      <string>Atilde.sc_cd</string>
-      <string>Adieresis.sc_cd</string>
-      <string>Aring.sc_cd</string>
-      <string>Amacron.sc_cd</string>
-      <string>Abreve.sc_cd</string>
-      <string>Aogonek.sc_cd</string>
-      <string>Aringacute.sc_cd</string>
-      <string>B.sc_cd</string>
-      <string>C.sc_cd</string>
-      <string>Ccedilla.sc_cd</string>
-      <string>Cacute.sc_cd</string>
-      <string>Ccircumflex.sc_cd</string>
-      <string>Cdotaccent.sc_cd</string>
-      <string>Ccaron.sc_cd</string>
-      <string>D.sc_cd</string>
-      <string>Dcaron.sc_cd</string>
-      <string>E.sc_cd</string>
-      <string>Egrave.sc_cd</string>
-      <string>Eacute.sc_cd</string>
-      <string>Ecircumflex.sc_cd</string>
-      <string>Edieresis.sc_cd</string>
-      <string>Emacron.sc_cd</string>
-      <string>Ebreve.sc_cd</string>
-      <string>Edotaccent.sc_cd</string>
-      <string>Eogonek.sc_cd</string>
-      <string>Ecaron.sc_cd</string>
-      <string>F.sc_cd</string>
-      <string>G.sc_cd</string>
-      <string>Gcircumflex.sc_cd</string>
-      <string>Gbreve.sc_cd</string>
-      <string>Gdotaccent.sc_cd</string>
-      <string>Gcaron.sc_cd</string>
-      <string>H.sc_cd</string>
-      <string>Hcircumflex.sc_cd</string>
-      <string>K.sc_cd</string>
-      <string>L.sc_cd</string>
-      <string>Lacute.sc_cd</string>
-      <string>Lcaron.sc_cd</string>
-      <string>N.sc_cd</string>
-      <string>Ntilde.sc_cd</string>
-      <string>Nacute.sc_cd</string>
-      <string>Ncaron.sc_cd</string>
-      <string>O.sc_cd</string>
-      <string>Ograve.sc_cd</string>
-      <string>Oacute.sc_cd</string>
-      <string>Ocircumflex.sc_cd</string>
-      <string>Otilde.sc_cd</string>
-      <string>Odieresis.sc_cd</string>
-      <string>Omacron.sc_cd</string>
-      <string>Obreve.sc_cd</string>
-      <string>Ohungarumlaut.sc_cd</string>
-      <string>P.sc_cd</string>
-      <string>Q.sc_cd</string>
-      <string>R.sc_cd</string>
-      <string>Racute.sc_cd</string>
-      <string>Rcaron.sc_cd</string>
-      <string>S.sc_cd</string>
-      <string>Sacute.sc_cd</string>
-      <string>Scircumflex.sc_cd</string>
-      <string>Scedilla.sc_cd</string>
-      <string>Scaron.sc_cd</string>
-      <string>Scommaaccent.sc_cd</string>
-      <string>T.sc_cd</string>
-      <string>Tcedilla.sc_cd</string>
-      <string>Tcaron.sc_cd</string>
-      <string>Tcommaaccent.sc_cd</string>
-      <string>U.sc_cd</string>
-      <string>Ugrave.sc_cd</string>
-      <string>Uacute.sc_cd</string>
-      <string>Ucircumflex.sc_cd</string>
-      <string>Udieresis.sc_cd</string>
-      <string>Utilde.sc_cd</string>
-      <string>Umacron.sc_cd</string>
-      <string>Ubreve.sc_cd</string>
-      <string>Uring.sc_cd</string>
-      <string>Uhungarumlaut.sc_cd</string>
-      <string>Uogonek.sc_cd</string>
-      <string>V.sc_cd</string>
-      <string>X.sc_cd</string>
-      <string>Z.sc_cd</string>
-      <string>Zacute.sc_cd</string>
-      <string>Zdotaccent.sc_cd</string>
-      <string>Zcaron.sc_cd</string>
-      <string>AE.sc_cd</string>
-      <string>AEacute.sc_cd</string>
-      <string>Eth.sc_cd</string>
-      <string>Oslash.sc_cd</string>
-      <string>Oslashacute.sc_cd</string>
-      <string>Thorn.sc_cd</string>
-      <string>Dcroat.sc_cd</string>
-      <string>Hbar.sc_cd</string>
-      <string>Ldot.sc_cd</string>
-      <string>Lslash.sc_cd</string>
-      <string>Eng.sc_cd</string>
-      <string>OE.sc_cd</string>
-      <string>Tbar.sc_cd</string>
-      <string>zero.sc_cd</string>
-      <string>one.sc_cd</string>
-      <string>two.sc_cd</string>
-      <string>three.sc_cd</string>
-      <string>four.sc_cd</string>
-      <string>five.sc_cd</string>
-      <string>six.sc_cd</string>
-      <string>seven.sc_cd</string>
-      <string>eight.sc_cd</string>
-      <string>nine.sc_cd</string>
-      <string>Gcommaaccent.sc_cd</string>
-      <string>Kcommaaccent.sc_cd</string>
-      <string>Lcommaaccent.sc_cd</string>
-      <string>Ncommaaccent.sc_cd</string>
-      <string>Rcommaaccent.sc_cd</string>
       <string>A.ct</string>
       <string>Agrave.ct</string>
       <string>Aacute.ct</string>
@@ -13815,6 +13847,7 @@
       <string>Gcircumflex.ct</string>
       <string>Gbreve.ct</string>
       <string>Gdotaccent.ct</string>
+      <string>Gcommaaccent.ct</string>
       <string>Gcaron.ct</string>
       <string>O.ct</string>
       <string>Ograve.ct</string>
@@ -13829,6 +13862,7 @@
       <string>Q.ct</string>
       <string>R.ct</string>
       <string>Racute.ct</string>
+      <string>Rcommaaccent.ct</string>
       <string>Rcaron.ct</string>
       <string>U.ct</string>
       <string>Ugrave.ct</string>
@@ -13845,6 +13879,7 @@
       <string>Eth.ct</string>
       <string>Thorn.ct</string>
       <string>Dcroat.ct</string>
+      <string>Germandbls.ct</string>
       <string>Omega.ct</string>
       <string>b.ct</string>
       <string>c.ct</string>
@@ -13907,10 +13942,126 @@
       <string>eight.ct</string>
       <string>nine.ct</string>
       <string>partialdiff.ct</string>
-      <string>Gcommaaccent.ct</string>
-      <string>Rcommaaccent.ct</string>
       <string>dslash.ct</string>
       <string>ncommaaccent.ct</string>
+      <string>A.sc_cd</string>
+      <string>Agrave.sc_cd</string>
+      <string>Aacute.sc_cd</string>
+      <string>Acircumflex.sc_cd</string>
+      <string>Atilde.sc_cd</string>
+      <string>Adieresis.sc_cd</string>
+      <string>Aring.sc_cd</string>
+      <string>Amacron.sc_cd</string>
+      <string>Abreve.sc_cd</string>
+      <string>Aogonek.sc_cd</string>
+      <string>Aringacute.sc_cd</string>
+      <string>B.sc_cd</string>
+      <string>C.sc_cd</string>
+      <string>Ccedilla.sc_cd</string>
+      <string>Cacute.sc_cd</string>
+      <string>Ccircumflex.sc_cd</string>
+      <string>Cdotaccent.sc_cd</string>
+      <string>Ccaron.sc_cd</string>
+      <string>D.sc_cd</string>
+      <string>Dcaron.sc_cd</string>
+      <string>E.sc_cd</string>
+      <string>Egrave.sc_cd</string>
+      <string>Eacute.sc_cd</string>
+      <string>Ecircumflex.sc_cd</string>
+      <string>Edieresis.sc_cd</string>
+      <string>Emacron.sc_cd</string>
+      <string>Ebreve.sc_cd</string>
+      <string>Edotaccent.sc_cd</string>
+      <string>Eogonek.sc_cd</string>
+      <string>Ecaron.sc_cd</string>
+      <string>F.sc_cd</string>
+      <string>G.sc_cd</string>
+      <string>Gcircumflex.sc_cd</string>
+      <string>Gbreve.sc_cd</string>
+      <string>Gdotaccent.sc_cd</string>
+      <string>Gcommaaccent.sc_cd</string>
+      <string>Gcaron.sc_cd</string>
+      <string>H.sc_cd</string>
+      <string>Hcircumflex.sc_cd</string>
+      <string>K.sc_cd</string>
+      <string>Kcommaaccent.sc_cd</string>
+      <string>L.sc_cd</string>
+      <string>Lacute.sc_cd</string>
+      <string>Lcommaaccent.sc_cd</string>
+      <string>Lcaron.sc_cd</string>
+      <string>N.sc_cd</string>
+      <string>Ntilde.sc_cd</string>
+      <string>Nacute.sc_cd</string>
+      <string>Ncommaaccent.sc_cd</string>
+      <string>Ncaron.sc_cd</string>
+      <string>O.sc_cd</string>
+      <string>Ograve.sc_cd</string>
+      <string>Oacute.sc_cd</string>
+      <string>Ocircumflex.sc_cd</string>
+      <string>Otilde.sc_cd</string>
+      <string>Odieresis.sc_cd</string>
+      <string>Omacron.sc_cd</string>
+      <string>Obreve.sc_cd</string>
+      <string>Ohungarumlaut.sc_cd</string>
+      <string>P.sc_cd</string>
+      <string>Q.sc_cd</string>
+      <string>R.sc_cd</string>
+      <string>Racute.sc_cd</string>
+      <string>Rcommaaccent.sc_cd</string>
+      <string>Rcaron.sc_cd</string>
+      <string>S.sc_cd</string>
+      <string>Sacute.sc_cd</string>
+      <string>Scircumflex.sc_cd</string>
+      <string>Scedilla.sc_cd</string>
+      <string>Scaron.sc_cd</string>
+      <string>Scommaaccent.sc_cd</string>
+      <string>T.sc_cd</string>
+      <string>Tcedilla.sc_cd</string>
+      <string>Tcaron.sc_cd</string>
+      <string>Tcommaaccent.sc_cd</string>
+      <string>U.sc_cd</string>
+      <string>Ugrave.sc_cd</string>
+      <string>Uacute.sc_cd</string>
+      <string>Ucircumflex.sc_cd</string>
+      <string>Udieresis.sc_cd</string>
+      <string>Utilde.sc_cd</string>
+      <string>Umacron.sc_cd</string>
+      <string>Ubreve.sc_cd</string>
+      <string>Uring.sc_cd</string>
+      <string>Uhungarumlaut.sc_cd</string>
+      <string>Uogonek.sc_cd</string>
+      <string>V.sc_cd</string>
+      <string>X.sc_cd</string>
+      <string>Z.sc_cd</string>
+      <string>Zacute.sc_cd</string>
+      <string>Zdotaccent.sc_cd</string>
+      <string>Zcaron.sc_cd</string>
+      <string>AE.sc_cd</string>
+      <string>AEacute.sc_cd</string>
+      <string>Eth.sc_cd</string>
+      <string>Oslash.sc_cd</string>
+      <string>Oslashacute.sc_cd</string>
+      <string>Thorn.sc_cd</string>
+      <string>Dcroat.sc_cd</string>
+      <string>Hbar.sc_cd</string>
+      <string>Ldot.sc_cd</string>
+      <string>Lslash.sc_cd</string>
+      <string>Eng.sc_cd</string>
+      <string>OE.sc_cd</string>
+      <string>Tbar.sc_cd</string>
+      <string>zero.sc_cd</string>
+      <string>one.sc_cd</string>
+      <string>two.sc_cd</string>
+      <string>three.sc_cd</string>
+      <string>four.sc_cd</string>
+      <string>five.sc_cd</string>
+      <string>six.sc_cd</string>
+      <string>seven.sc_cd</string>
+      <string>eight.sc_cd</string>
+      <string>nine.sc_cd</string>
+      <string>Euro.sc_cd</string>
+      <string>fi.sc_cd</string>
+      <string>fl.sc_cd</string>
       <string>A.cd</string>
       <string>Agrave.cd</string>
       <string>Aacute.cd</string>
@@ -13946,17 +14097,21 @@
       <string>Gcircumflex.cd</string>
       <string>Gbreve.cd</string>
       <string>Gdotaccent.cd</string>
+      <string>Gcommaaccent.cd</string>
       <string>Gcaron.cd</string>
       <string>H.cd</string>
       <string>Hcircumflex.cd</string>
       <string>K.cd</string>
+      <string>Kcommaaccent.cd</string>
       <string>L.cd</string>
       <string>Lacute.cd</string>
+      <string>Lcommaaccent.cd</string>
       <string>Lcaron.cd</string>
       <string>M.cd</string>
       <string>N.cd</string>
       <string>Ntilde.cd</string>
       <string>Nacute.cd</string>
+      <string>Ncommaaccent.cd</string>
       <string>Ncaron.cd</string>
       <string>O.cd</string>
       <string>Ograve.cd</string>
@@ -13971,6 +14126,7 @@
       <string>Q.cd</string>
       <string>R.cd</string>
       <string>Racute.cd</string>
+      <string>Rcommaaccent.cd</string>
       <string>Rcaron.cd</string>
       <string>S.cd</string>
       <string>Sacute.cd</string>
@@ -14012,6 +14168,7 @@
       <string>Eng.cd</string>
       <string>OE.cd</string>
       <string>Tbar.cd</string>
+      <string>Germandbls.cd</string>
       <string>a.cd</string>
       <string>agrave.cd</string>
       <string>aacute.cd</string>
@@ -14133,6 +14290,7 @@
       <string>eng.cd</string>
       <string>oe.cd</string>
       <string>tbar.cd</string>
+      <string>jdotless.cd</string>
       <string>zero.cd</string>
       <string>one.cd</string>
       <string>two.cd</string>
@@ -14171,470 +14329,321 @@
       <string>sterling.cd</string>
       <string>Euro.cd</string>
       <string>florin.cd</string>
-      <string>Gcommaaccent.cd</string>
-      <string>Kcommaaccent.cd</string>
-      <string>Lcommaaccent.cd</string>
-      <string>Ncommaaccent.cd</string>
-      <string>Rcommaaccent.cd</string>
       <string>dslash.cd</string>
       <string>ncommaaccent.cd</string>
       <string>fi.cd</string>
       <string>fl.cd</string>
-      <string>Ldot.xc</string>
-      <string>Aacute.xc_cd</string>
-      <string>Abreve.xc</string>
-      <string>one.xc_cd</string>
-      <string>Aacute.xc_ct</string>
-      <string>S.xc_cd</string>
-      <string>Oacute.xc_cd</string>
-      <string>Oacute.xc_ct</string>
-      <string>Oacute.xc</string>
-      <string>Gcommaaccent.xc</string>
-      <string>five.xc_cd</string>
-      <string>Zacute.xc</string>
-      <string>Omacron.xc_cd</string>
-      <string>Udieresis.xc_cd</string>
-      <string>Scedilla.xc</string>
-      <string>Egrave.xc</string>
-      <string>brokenbar.xa</string>
-      <string>Gcircumflex.xc_ct</string>
-      <string>six.xc</string>
-      <string>Sacute.xc_cd</string>
-      <string>Edotaccent.xc_cd</string>
-      <string>four.xc_cd</string>
-      <string>Tbar.xc</string>
-      <string>Atilde.xc</string>
-      <string>Kcommaaccent.xc</string>
-      <string>X.xc</string>
-      <string>Ubreve.xc</string>
-      <string>Dcaron.xc</string>
-      <string>Edieresis.xc_cd</string>
-      <string>Tcaron.xc</string>
-      <string>quoteleft.xc</string>
-      <string>G.xc</string>
-      <string>C.xc</string>
-      <string>Lcommaaccent.xc</string>
-      <string>Hbar.xc</string>
-      <string>sterling.xc_cd</string>
-      <string>Tcaron.xc_cd</string>
-      <string>F.xc</string>
-      <string>Euro.xc</string>
-      <string>Omega.xc</string>
-      <string>Ncaron.xc_cd</string>
-      <string>Amacron.xc_ct</string>
-      <string>Hcircumflex.xc_cd</string>
-      <string>Iogonek.xc</string>
-      <string>Ecaron.xc_cd</string>
-      <string>Obreve.xc</string>
-      <string>Kcommaaccent.xc_cd</string>
-      <string>Lacute.xc_cd</string>
-      <string>Rcommaaccent.xc_ct</string>
-      <string>Tcommaaccent.xc</string>
-      <string>Rcommaaccent.xc_cd</string>
-      <string>J.xc</string>
-      <string>Zcaron.xc</string>
-      <string>Rcaron.xc</string>
-      <string>Racute.xc_ct</string>
-      <string>Racute.xc_cd</string>
-      <string>Tbar.xc_cd</string>
-      <string>Ncaron.xc</string>
-      <string>E.xc_cd</string>
-      <string>Gcircumflex.xc_cd</string>
-      <string>Iacute.xc</string>
-      <string>Gbreve.xc_ct</string>
-      <string>Gbreve.xc_cd</string>
-      <string>Y.xc</string>
-      <string>Uogonek.xc_cd</string>
-      <string>Uogonek.xc_ct</string>
-      <string>seven.xc_cd</string>
-      <string>one.xc</string>
-      <string>Uhungarumlaut.xc_cd</string>
-      <string>Uhungarumlaut.xc_ct</string>
-      <string>Oslashacute.xc</string>
-      <string>K.xc</string>
-      <string>Ebreve.xc_cd</string>
-      <string>Zdotaccent.xc_cd</string>
-      <string>D.xc_ct</string>
-      <string>Gbreve.xc</string>
-      <string>seven.xc</string>
-      <string>M.xc_cd</string>
-      <string>Z.xc_cd</string>
-      <string>Ograve.xc_cd</string>
-      <string>Ograve.xc_ct</string>
-      <string>Zacute.xc_cd</string>
-      <string>O.xc</string>
-      <string>Ubreve.xc_ct</string>
-      <string>Ubreve.xc_cd</string>
-      <string>Edotaccent.xc</string>
-      <string>G.xc_ct</string>
-      <string>Ohungarumlaut.xc_cd</string>
-      <string>Ohungarumlaut.xc_ct</string>
-      <string>Wacute.xc</string>
-      <string>Dcroat.xc_ct</string>
-      <string>Dcroat.xc_cd</string>
-      <string>V.xc_cd</string>
-      <string>V.xc_ct</string>
-      <string>N.xc</string>
-      <string>AEacute.xc</string>
-      <string>AEacute.xc_cd</string>
-      <string>product.xc</string>
-      <string>Icircumflex.xc</string>
-      <string>Scircumflex.xc</string>
-      <string>Uring.xc_ct</string>
-      <string>Delta.xc</string>
-      <string>J.xc_xd</string>
-      <string>Aogonek.xc_ct</string>
-      <string>Aogonek.xc_cd</string>
-      <string>Rcommaaccent.xc</string>
-      <string>Ydieresis.xc</string>
-      <string>Ecircumflex.xc_cd</string>
-      <string>nine.xc</string>
-      <string>A.xc_cd</string>
-      <string>A.xc_ct</string>
-      <string>Uogonek.xc</string>
-      <string>P.xc_ct</string>
-      <string>quotesingle.xc</string>
-      <string>Racute.xc</string>
-      <string>P.xc_cd</string>
-      <string>Eogonek.xc</string>
-      <string>D.xc_cd</string>
-      <string>Udieresis.xc_ct</string>
-      <string>braceleft.xa</string>
-      <string>Lslash.xc_cd</string>
-      <string>Nacute.xc</string>
-      <string>Gdotaccent.xc_cd</string>
-      <string>dollar.xc</string>
-      <string>Emacron.xc_cd</string>
-      <string>Gdotaccent.xc_ct</string>
-      <string>Scommaaccent.xc_cd</string>
-      <string>Odieresis.xc_cd</string>
-      <string>Dcaron.xc_ct</string>
-      <string>Odieresis.xc_ct</string>
-      <string>Dcaron.xc_cd</string>
-      <string>AE.xc</string>
-      <string>Ycircumflex.xc</string>
-      <string>three.xc</string>
-      <string>Ebreve.xc</string>
-      <string>Ccircumflex.xc_cd</string>
-      <string>Ccircumflex.xc_ct</string>
-      <string>R.xc</string>
-      <string>Ugrave.xc</string>
-      <string>parenleft.xa</string>
-      <string>U.xc_ct</string>
-      <string>U.xc_cd</string>
-      <string>Cacute.xc</string>
-      <string>Gcommaaccent.xc_cd</string>
-      <string>Gcommaaccent.xc_ct</string>
-      <string>Gcaron.xc_cd</string>
-      <string>OE.xc</string>
-      <string>Gcaron.xc_ct</string>
-      <string>Ncommaaccent.xc</string>
-      <string>Agrave.xc</string>
-      <string>Ograve.xc</string>
-      <string>Ccaron.xc</string>
-      <string>Gdotaccent.xc</string>
-      <string>Ugrave.xc_cd</string>
-      <string>quoteright.xc</string>
-      <string>Cdotaccent.xc</string>
-      <string>Ugrave.xc_ct</string>
-      <string>Yacute.xc</string>
-      <string>Q.xc_ct</string>
-      <string>T.xc_cd</string>
-      <string>Q.xc_cd</string>
-      <string>Acircumflex.xc</string>
-      <string>Eng.xc</string>
-      <string>Lacute.xc</string>
-      <string>Jcircumflex.xc</string>
-      <string>Adieresis.xc_cd</string>
-      <string>Scaron.xc</string>
-      <string>Adieresis.xc_ct</string>
-      <string>three.xc_cd</string>
-      <string>Hbar.xc_cd</string>
-      <string>Wcircumflex.xc</string>
-      <string>Atilde.xc_ct</string>
-      <string>Atilde.xc_cd</string>
-      <string>Idieresis.xc</string>
-      <string>Oslash.xc_cd</string>
-      <string>six.xc_cd</string>
-      <string>Hcircumflex.xc</string>
-      <string>Amacron.xc_cd</string>
-      <string>F.xc_cd</string>
-      <string>Obreve.xc_ct</string>
-      <string>Obreve.xc_cd</string>
-      <string>Aring.xc</string>
-      <string>Gcircumflex.xc</string>
-      <string>S.xc</string>
-      <string>Eacute.xc</string>
-      <string>Udieresis.xc</string>
-      <string>O.xc_cd</string>
-      <string>Umacron.xc</string>
-      <string>O.xc_ct</string>
-      <string>braceright.xa</string>
-      <string>Scedilla.xc_cd</string>
-      <string>Utilde.xc_cd</string>
-      <string>Ucircumflex.xc</string>
-      <string>Utilde.xc_ct</string>
-      <string>C.xc_cd</string>
-      <string>Ygrave.xc</string>
-      <string>C.xc_ct</string>
-      <string>Eng.xc_cd</string>
-      <string>Ccaron.xc_cd</string>
-      <string>Ccaron.xc_ct</string>
-      <string>L.xc_cd</string>
-      <string>Dcroat.xc</string>
-      <string>Scommaaccent.xc</string>
-      <string>Otilde.xc</string>
-      <string>Ncommaaccent.xc_cd</string>
-      <string>Aacute.xc</string>
       <string>A.xc</string>
-      <string>Ocircumflex.xc</string>
-      <string>Wgrave.xc</string>
-      <string>Ucircumflex.xc_cd</string>
-      <string>Utilde.xc</string>
-      <string>Gcaron.xc</string>
-      <string>Z.xc</string>
-      <string>Emacron.xc</string>
-      <string>parenright.xa</string>
-      <string>Ccedilla.xc</string>
-      <string>Lcommaaccent.xc_cd</string>
-      <string>Ucircumflex.xc_ct</string>
-      <string>X.xc_cd</string>
-      <string>two.xc</string>
-      <string>E.xc</string>
-      <string>V.xc</string>
-      <string>G.xc_cd</string>
-      <string>Cacute.xc_cd</string>
-      <string>Zdotaccent.xc</string>
-      <string>Cacute.xc_ct</string>
-      <string>bracketleft.xa</string>
-      <string>H.xc</string>
-      <string>Igrave.xc</string>
-      <string>K.xc_cd</string>
-      <string>D.xc</string>
-      <string>OE.xc_cd</string>
-      <string>Lcaron.xc</string>
-      <string>zero.xc_cd</string>
-      <string>quotedblright.xc</string>
-      <string>Cdotaccent.xc_ct</string>
-      <string>Cdotaccent.xc_cd</string>
-      <string>eight.xc</string>
-      <string>Eacute.xc_cd</string>
-      <string>Idotaccent.xc</string>
-      <string>Jcircumflex.xc_xd</string>
-      <string>T.xc</string>
-      <string>Rcaron.xc_cd</string>
-      <string>Ntilde.xc_cd</string>
-      <string>Uhungarumlaut.xc</string>
-      <string>Rcaron.xc_ct</string>
-      <string>W.xc</string>
-      <string>Tcommaaccent.xc_cd</string>
-      <string>partialdiff.xc_cd</string>
-      <string>Aring.xc_ct</string>
-      <string>Aring.xc_cd</string>
-      <string>Itilde.xc</string>
-      <string>R.xc_ct</string>
-      <string>R.xc_cd</string>
-      <string>Aogonek.xc</string>
-      <string>M.xc</string>
-      <string>L.xc</string>
-      <string>Lslash.xc</string>
-      <string>I.xc</string>
-      <string>Thorn.xc</string>
-      <string>Oslashacute.xc_cd</string>
-      <string>Ccircumflex.xc</string>
-      <string>Umacron.xc_cd</string>
-      <string>Umacron.xc_ct</string>
-      <string>Ocircumflex.xc_ct</string>
-      <string>Ocircumflex.xc_cd</string>
-      <string>Wdieresis.xc</string>
-      <string>AE.xc_cd</string>
-      <string>Acircumflex.xc_cd</string>
-      <string>Edieresis.xc</string>
-      <string>Odieresis.xc</string>
-      <string>Acircumflex.xc_ct</string>
-      <string>Otilde.xc_cd</string>
-      <string>Otilde.xc_ct</string>
-      <string>Omega.xc_ct</string>
-      <string>Ntilde.xc</string>
+      <string>Agrave.xc</string>
+      <string>Aacute.xc</string>
+      <string>Acircumflex.xc</string>
+      <string>Atilde.xc</string>
       <string>Adieresis.xc</string>
-      <string>Oslash.xc</string>
-      <string>Scaron.xc_cd</string>
-      <string>Aringacute.xc</string>
-      <string>B.xc_cd</string>
-      <string>Ibreve.xc</string>
-      <string>B.xc_ct</string>
-      <string>Imacron.xc</string>
-      <string>Tcedilla.xc</string>
-      <string>Lcaron.xc_cd</string>
-      <string>Ccedilla.xc_ct</string>
-      <string>Ccedilla.xc_cd</string>
-      <string>bracketright.xa</string>
-      <string>P.xc</string>
-      <string>nine.xc_cd</string>
-      <string>Tcedilla.xc_cd</string>
-      <string>yen.xc</string>
-      <string>Zcaron.xc_cd</string>
-      <string>Uring.xc_cd</string>
-      <string>Uacute.xc_cd</string>
-      <string>Uacute.xc_ct</string>
-      <string>Eth.xc_cd</string>
-      <string>Ecaron.xc</string>
-      <string>Eth.xc_ct</string>
-      <string>two.xc_cd</string>
-      <string>Thorn.xc_cd</string>
-      <string>U.xc</string>
-      <string>Omacron.xc_ct</string>
-      <string>Thorn.xc_ct</string>
-      <string>Uacute.xc</string>
-      <string>Ldot.xc_cd</string>
-      <string>Abreve.xc_cd</string>
-      <string>sterling.xc</string>
-      <string>Abreve.xc_ct</string>
-      <string>quotedblleft.xc</string>
-      <string>Aringacute.xc_ct</string>
-      <string>Aringacute.xc_cd</string>
-      <string>Scircumflex.xc_cd</string>
-      <string>Sacute.xc</string>
-      <string>Ecircumflex.xc</string>
-      <string>five.xc</string>
-      <string>Eth.xc</string>
-      <string>Ohungarumlaut.xc</string>
-      <string>H.xc_cd</string>
-      <string>Omacron.xc</string>
-      <string>four.xc</string>
-      <string>quotedbl.xc</string>
-      <string>zero.xc</string>
-      <string>N.xc_cd</string>
-      <string>Eogonek.xc_cd</string>
-      <string>Nacute.xc_cd</string>
-      <string>Uring.xc</string>
+      <string>Aring.xc</string>
       <string>Amacron.xc</string>
-      <string>Egrave.xc_cd</string>
-      <string>Agrave.xc_ct</string>
-      <string>Q.xc</string>
-      <string>Agrave.xc_cd</string>
+      <string>Abreve.xc</string>
+      <string>Aogonek.xc</string>
+      <string>Aringacute.xc</string>
       <string>B.xc</string>
-      <string>eight.xc_cd</string>
-      <string>bar.xa</string>
-      <string>zero.slash_xc_cd</string>
-      <string>zero.slash_xc</string>
-      <string>questiondown.xc_cd</string>
-      <string>degree.xc</string>
-      <string>ampersand.xa</string>
-      <string>ampersand.xc</string>
-      <string>braceleft.xc</string>
+      <string>C.xc</string>
+      <string>Ccedilla.xc</string>
+      <string>Cacute.xc</string>
+      <string>Ccircumflex.xc</string>
+      <string>Cdotaccent.xc</string>
+      <string>Ccaron.xc</string>
+      <string>D.xc</string>
+      <string>Dcaron.xc</string>
+      <string>E.xc</string>
+      <string>Egrave.xc</string>
+      <string>Eacute.xc</string>
+      <string>Ecircumflex.xc</string>
+      <string>Edieresis.xc</string>
+      <string>Emacron.xc</string>
+      <string>Ebreve.xc</string>
+      <string>Edotaccent.xc</string>
+      <string>Eogonek.xc</string>
+      <string>Ecaron.xc</string>
+      <string>F.xc</string>
+      <string>G.xc</string>
+      <string>Gcircumflex.xc</string>
+      <string>Gbreve.xc</string>
+      <string>Gdotaccent.xc</string>
+      <string>Gcommaaccent.xc</string>
+      <string>Gcaron.xc</string>
+      <string>H.xc</string>
+      <string>Hcircumflex.xc</string>
+      <string>I.xc</string>
+      <string>Igrave.xc</string>
+      <string>Iacute.xc</string>
+      <string>Icircumflex.xc</string>
+      <string>Idieresis.xc</string>
+      <string>Itilde.xc</string>
+      <string>Imacron.xc</string>
+      <string>Ibreve.xc</string>
+      <string>Iogonek.xc</string>
+      <string>Idotaccent.xc</string>
+      <string>J.xc</string>
+      <string>Jcircumflex.xc</string>
+      <string>K.xc</string>
+      <string>Kcommaaccent.xc</string>
+      <string>L.xc</string>
+      <string>Lacute.xc</string>
+      <string>Lcommaaccent.xc</string>
+      <string>Lcaron.xc</string>
+      <string>M.xc</string>
+      <string>N.xc</string>
+      <string>Ntilde.xc</string>
+      <string>Nacute.xc</string>
+      <string>Ncommaaccent.xc</string>
+      <string>Ncaron.xc</string>
+      <string>O.xc</string>
+      <string>Ograve.xc</string>
+      <string>Oacute.xc</string>
+      <string>Ocircumflex.xc</string>
+      <string>Otilde.xc</string>
+      <string>Odieresis.xc</string>
+      <string>Omacron.xc</string>
+      <string>Obreve.xc</string>
+      <string>Ohungarumlaut.xc</string>
+      <string>P.xc</string>
+      <string>Q.xc</string>
+      <string>R.xc</string>
+      <string>Racute.xc</string>
+      <string>Rcommaaccent.xc</string>
+      <string>Rcaron.xc</string>
+      <string>S.xc</string>
+      <string>Sacute.xc</string>
+      <string>Scircumflex.xc</string>
+      <string>Scedilla.xc</string>
+      <string>Scaron.xc</string>
+      <string>Scommaaccent.xc</string>
+      <string>T.xc</string>
+      <string>Tcedilla.xc</string>
+      <string>Tcaron.xc</string>
+      <string>Tcommaaccent.xc</string>
+      <string>U.xc</string>
+      <string>Ugrave.xc</string>
+      <string>Uacute.xc</string>
+      <string>Ucircumflex.xc</string>
+      <string>Udieresis.xc</string>
+      <string>Utilde.xc</string>
+      <string>Umacron.xc</string>
+      <string>Ubreve.xc</string>
+      <string>Uring.xc</string>
+      <string>Uhungarumlaut.xc</string>
+      <string>Uogonek.xc</string>
+      <string>V.xc</string>
+      <string>W.xc</string>
+      <string>Wcircumflex.xc</string>
+      <string>Wgrave.xc</string>
+      <string>Wacute.xc</string>
+      <string>Wdieresis.xc</string>
+      <string>X.xc</string>
+      <string>Y.xc</string>
+      <string>Yacute.xc</string>
+      <string>Ycircumflex.xc</string>
+      <string>Ydieresis.xc</string>
+      <string>Ygrave.xc</string>
+      <string>Z.xc</string>
+      <string>Zacute.xc</string>
+      <string>Zdotaccent.xc</string>
+      <string>Zcaron.xc</string>
+      <string>AE.xc</string>
+      <string>AEacute.xc</string>
+      <string>Eth.xc</string>
+      <string>Oslash.xc</string>
+      <string>Oslashacute.xc</string>
+      <string>Thorn.xc</string>
+      <string>Dcroat.xc</string>
+      <string>Hbar.xc</string>
+      <string>Ldot.xc</string>
+      <string>Lslash.xc</string>
+      <string>Eng.xc</string>
+      <string>OE.xc</string>
+      <string>Tbar.xc</string>
+      <string>Omega.xc</string>
+      <string>ordfeminine.xc</string>
+      <string>ordmasculine.xc</string>
+      <string>zero.xc</string>
+      <string>one.xc</string>
+      <string>two.xc</string>
+      <string>three.xc</string>
+      <string>four.xc</string>
+      <string>five.xc</string>
+      <string>six.xc</string>
+      <string>seven.xc</string>
+      <string>eight.xc</string>
+      <string>nine.xc</string>
+      <string>hyphen.xc</string>
       <string>parenleft.xc</string>
-      <string>braceright.xc</string>
-      <string>exclamdown.xc</string>
-      <string>exclam.xa</string>
-      <string>question.xa</string>
-      <string>question.xc</string>
       <string>parenright.xc</string>
       <string>bracketleft.xc</string>
-      <string>question.xc_cd</string>
-      <string>at.xc</string>
       <string>bracketright.xc</string>
-      <string>questiondown.xa</string>
-      <string>questiondown.xc</string>
+      <string>braceleft.xc</string>
+      <string>braceright.xc</string>
       <string>exclam.xc</string>
-      <string>exclamdown.xa</string>
+      <string>exclamdown.xc</string>
+      <string>question.xc</string>
+      <string>questiondown.xc</string>
       <string>percent.xc</string>
-      <string>greaterequal.xc</string>
+      <string>quotesingle.xc</string>
+      <string>quotedbl.xc</string>
+      <string>quoteleft.xc</string>
+      <string>quoteright.xc</string>
+      <string>quotedblleft.xc</string>
+      <string>quotedblright.xc</string>
       <string>guilsinglleft.xc</string>
-      <string>ordfeminine.xc</string>
       <string>guilsinglright.xc</string>
-      <string>paragraph.xa</string>
-      <string>divide.xc</string>
-      <string>hyphen.xc</string>
-      <string>greater.xc</string>
-      <string>guillemotright.xc</string>
-      <string>minus.xc</string>
-      <string>divide.xc_cd</string>
-      <string>ordmasculine.xc</string>
-      <string>minus.xc_cd</string>
-      <string>logicalnot.xc</string>
-      <string>lessequal.xc</string>
-      <string>less.xc</string>
-      <string>paragraph.xc</string>
-      <string>section.xc</string>
       <string>guillemotleft.xc</string>
+      <string>guillemotright.xc</string>
+      <string>at.xc</string>
+      <string>ampersand.xc</string>
+      <string>section.xc</string>
+      <string>paragraph.xc</string>
+      <string>logicalnot.xc</string>
+      <string>Delta.xc</string>
+      <string>product.xc</string>
+      <string>minus.xc</string>
       <string>plusminus.xc</string>
-      <string>percent.xc_cd</string>
-      <string>paragraph.xc_cd</string>
-      <string>notequal.xc_cd</string>
-      <string>notequal.xc</string>
-      <string>equal.xc_cd</string>
+      <string>divide.xc</string>
       <string>equal.xc</string>
-      <string>Euro.sc</string>
-      <string>Euro.sc_cd</string>
-      <string>matrix68</string>
-      <string>matrix610</string>
-      <string>matrix612</string>
-      <string>typetr</string>
-      <string>matrix58</string>
-      <string>matrix57</string>
-      <string>dcaron.xa</string>
-      <string>yacute.xd_ct</string>
-      <string>yacute.xd_cd</string>
-      <string>ydieresis.xd</string>
-      <string>ygrave.xd_ct</string>
-      <string>ygrave.xd_cd</string>
-      <string>ygrave.xd</string>
-      <string>y.xd_cd</string>
-      <string>ycircumflex.xd</string>
-      <string>y.xd_ct</string>
-      <string>yacute.xd</string>
-      <string>ydieresis.xd_cd</string>
-      <string>ydieresis.xd_ct</string>
-      <string>ycircumflex.xd_cd</string>
-      <string>ycircumflex.xd_ct</string>
-      <string>yen.xa</string>
-      <string>y.xd</string>
-      <string>seven.lc_xd</string>
-      <string>nine.lc_xd_cd</string>
-      <string>seven.lc_xd_cd</string>
-      <string>five.lc_xd_ct</string>
-      <string>five.lc_xd_cd</string>
-      <string>nine.lc_xd</string>
-      <string>three.lc_xd</string>
-      <string>four.lc_xd_cd</string>
-      <string>four.lc_xd</string>
-      <string>three.lc_xd_ct</string>
-      <string>three.lc_xd_cd</string>
-      <string>nine.lc_xd_ct</string>
-      <string>fi.sc_cd</string>
-      <string>fl.sc_cd</string>
-      <string>heart</string>
-      <string>openheart</string>
+      <string>less.xc</string>
+      <string>greater.xc</string>
+      <string>lessequal.xc</string>
+      <string>greaterequal.xc</string>
+      <string>notequal.xc</string>
+      <string>dollar.xc</string>
+      <string>sterling.xc</string>
+      <string>yen.xc</string>
+      <string>Euro.xc</string>
+      <string>degree.xc</string>
+      <string>A.xc_cd</string>
+      <string>Agrave.xc_cd</string>
+      <string>Aacute.xc_cd</string>
+      <string>Acircumflex.xc_cd</string>
+      <string>Atilde.xc_cd</string>
+      <string>Adieresis.xc_cd</string>
+      <string>Aring.xc_cd</string>
+      <string>Amacron.xc_cd</string>
+      <string>Abreve.xc_cd</string>
+      <string>Aogonek.xc_cd</string>
+      <string>Aringacute.xc_cd</string>
+      <string>B.xc_cd</string>
+      <string>C.xc_cd</string>
+      <string>Ccedilla.xc_cd</string>
+      <string>Cacute.xc_cd</string>
+      <string>Ccircumflex.xc_cd</string>
+      <string>Cdotaccent.xc_cd</string>
+      <string>Ccaron.xc_cd</string>
+      <string>D.xc_cd</string>
+      <string>Dcaron.xc_cd</string>
+      <string>E.xc_cd</string>
+      <string>Egrave.xc_cd</string>
+      <string>Eacute.xc_cd</string>
+      <string>Ecircumflex.xc_cd</string>
+      <string>Edieresis.xc_cd</string>
+      <string>Emacron.xc_cd</string>
+      <string>Ebreve.xc_cd</string>
+      <string>Edotaccent.xc_cd</string>
+      <string>Eogonek.xc_cd</string>
+      <string>Ecaron.xc_cd</string>
+      <string>F.xc_cd</string>
+      <string>G.xc_cd</string>
+      <string>Gcircumflex.xc_cd</string>
+      <string>Gbreve.xc_cd</string>
+      <string>Gdotaccent.xc_cd</string>
+      <string>Gcommaaccent.xc_cd</string>
+      <string>Gcaron.xc_cd</string>
+      <string>H.xc_cd</string>
+      <string>Hcircumflex.xc_cd</string>
+      <string>K.xc_cd</string>
+      <string>Kcommaaccent.xc_cd</string>
+      <string>L.xc_cd</string>
+      <string>Lacute.xc_cd</string>
+      <string>Lcommaaccent.xc_cd</string>
+      <string>Lcaron.xc_cd</string>
+      <string>M.xc_cd</string>
+      <string>N.xc_cd</string>
+      <string>Ntilde.xc_cd</string>
+      <string>Nacute.xc_cd</string>
+      <string>Ncommaaccent.xc_cd</string>
+      <string>Ncaron.xc_cd</string>
+      <string>O.xc_cd</string>
+      <string>Ograve.xc_cd</string>
+      <string>Oacute.xc_cd</string>
+      <string>Ocircumflex.xc_cd</string>
+      <string>Otilde.xc_cd</string>
+      <string>Odieresis.xc_cd</string>
+      <string>Omacron.xc_cd</string>
+      <string>Obreve.xc_cd</string>
+      <string>Ohungarumlaut.xc_cd</string>
+      <string>P.xc_cd</string>
+      <string>Q.xc_cd</string>
+      <string>R.xc_cd</string>
+      <string>Racute.xc_cd</string>
+      <string>Rcommaaccent.xc_cd</string>
+      <string>Rcaron.xc_cd</string>
+      <string>S.xc_cd</string>
+      <string>Sacute.xc_cd</string>
+      <string>Scircumflex.xc_cd</string>
+      <string>Scedilla.xc_cd</string>
+      <string>Scaron.xc_cd</string>
+      <string>Scommaaccent.xc_cd</string>
+      <string>T.xc_cd</string>
+      <string>Tcedilla.xc_cd</string>
+      <string>Tcaron.xc_cd</string>
+      <string>Tcommaaccent.xc_cd</string>
+      <string>U.xc_cd</string>
+      <string>Ugrave.xc_cd</string>
+      <string>Uacute.xc_cd</string>
+      <string>Ucircumflex.xc_cd</string>
+      <string>Udieresis.xc_cd</string>
+      <string>Utilde.xc_cd</string>
+      <string>Umacron.xc_cd</string>
+      <string>Ubreve.xc_cd</string>
+      <string>Uring.xc_cd</string>
+      <string>Uhungarumlaut.xc_cd</string>
+      <string>Uogonek.xc_cd</string>
+      <string>V.xc_cd</string>
+      <string>X.xc_cd</string>
+      <string>Z.xc_cd</string>
+      <string>Zacute.xc_cd</string>
+      <string>Zdotaccent.xc_cd</string>
+      <string>Zcaron.xc_cd</string>
+      <string>AE.xc_cd</string>
+      <string>AEacute.xc_cd</string>
+      <string>Eth.xc_cd</string>
+      <string>Oslash.xc_cd</string>
+      <string>Oslashacute.xc_cd</string>
+      <string>Thorn.xc_cd</string>
+      <string>Dcroat.xc_cd</string>
+      <string>Hbar.xc_cd</string>
+      <string>Ldot.xc_cd</string>
+      <string>Lslash.xc_cd</string>
+      <string>Eng.xc_cd</string>
+      <string>OE.xc_cd</string>
+      <string>Tbar.xc_cd</string>
+      <string>zero.xc_cd</string>
+      <string>one.xc_cd</string>
+      <string>two.xc_cd</string>
+      <string>three.xc_cd</string>
+      <string>four.xc_cd</string>
+      <string>five.xc_cd</string>
+      <string>six.xc_cd</string>
+      <string>seven.xc_cd</string>
+      <string>eight.xc_cd</string>
+      <string>nine.xc_cd</string>
+      <string>percent.xc_cd</string>
+      <string>question.xc_cd</string>
+      <string>questiondown.xc_cd</string>
+      <string>paragraph.xc_cd</string>
+      <string>partialdiff.xc_cd</string>
+      <string>minus.xc_cd</string>
+      <string>divide.xc_cd</string>
+      <string>equal.xc_cd</string>
+      <string>notequal.xc_cd</string>
+      <string>sterling.xc_cd</string>
       <string>.notdef</string>
-      <string>canvas</string>
-      <string>nbspace</string>
-      <string>jdotless</string>
-      <string>gravecomb</string>
-      <string>acutecomb</string>
-      <string>circumflexcomb</string>
-      <string>tildecomb</string>
-      <string>macroncomb</string>
-      <string>brevecomb</string>
-      <string>dotaccentcomb</string>
-      <string>dieresiscomb</string>
-      <string>ringcomb</string>
-      <string>hungarumlautcomb</string>
-      <string>caroncomb</string>
-      <string>commaaccentcomb</string>
-      <string>cedillacomb</string>
-      <string>ogonekcomb</string>
-      <string>Germandbls</string>
-      <string>Germandbls.xa_ct</string>
-      <string>Germandbls.xa</string>
-      <string>Germandbls.xa_cd</string>
-      <string>Germandbls.sc</string>
-      <string>Germandbls.ct</string>
-      <string>Germandbls.cd</string>
-      <string>jdotless.xd</string>
-      <string>jdotless.xd_cd</string>
-      <string>jdotless.cd</string>
-      <string>Dcircle</string>
     </array>
     <key>tnBuilderBitcount</key>
     <dict>

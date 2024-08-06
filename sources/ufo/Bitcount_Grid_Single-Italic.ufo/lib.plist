@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>com.defcon.sortDescriptor</key>
+    <array>
+      <dict>
+        <key>allowPseudoUnicode</key>
+        <true/>
+        <key>type</key>
+        <string>cannedDesign</string>
+      </dict>
+    </array>
     <key>com.typemytype.robofont.@weight.800.layerStrokeColor</key>
     <array>
       <real>0.0</real>
@@ -1287,6 +1296,7 @@
     <key>public.glyphOrder</key>
     <array>
       <string>space</string>
+      <string>nbspace</string>
       <string>A</string>
       <string>Agrave</string>
       <string>Aacute</string>
@@ -1322,6 +1332,7 @@
       <string>Gcircumflex</string>
       <string>Gbreve</string>
       <string>Gdotaccent</string>
+      <string>Gcommaaccent</string>
       <string>Gcaron</string>
       <string>H</string>
       <string>Hcircumflex</string>
@@ -1338,13 +1349,16 @@
       <string>J</string>
       <string>Jcircumflex</string>
       <string>K</string>
+      <string>Kcommaaccent</string>
       <string>L</string>
       <string>Lacute</string>
+      <string>Lcommaaccent</string>
       <string>Lcaron</string>
       <string>M</string>
       <string>N</string>
       <string>Ntilde</string>
       <string>Nacute</string>
+      <string>Ncommaaccent</string>
       <string>Ncaron</string>
       <string>O</string>
       <string>Ograve</string>
@@ -1359,6 +1373,7 @@
       <string>Q</string>
       <string>R</string>
       <string>Racute</string>
+      <string>Rcommaaccent</string>
       <string>Rcaron</string>
       <string>S</string>
       <string>Sacute</string>
@@ -1410,6 +1425,7 @@
       <string>Eng</string>
       <string>OE</string>
       <string>Tbar</string>
+      <string>Germandbls</string>
       <string>Omega</string>
       <string>a</string>
       <string>agrave</string>
@@ -1524,8 +1540,6 @@
       <string>zacute</string>
       <string>zdotaccent</string>
       <string>zcaron</string>
-      <string>ordfeminine</string>
-      <string>ordmasculine</string>
       <string>germandbls</string>
       <string>ae</string>
       <string>aeacute</string>
@@ -1541,7 +1555,24 @@
       <string>eng</string>
       <string>oe</string>
       <string>tbar</string>
+      <string>jdotless</string>
       <string>pi</string>
+      <string>ordfeminine</string>
+      <string>ordmasculine</string>
+      <string>gravecomb</string>
+      <string>acutecomb</string>
+      <string>circumflexcomb</string>
+      <string>tildecomb</string>
+      <string>macroncomb</string>
+      <string>brevecomb</string>
+      <string>dotaccentcomb</string>
+      <string>dieresiscomb</string>
+      <string>ringcomb</string>
+      <string>hungarumlautcomb</string>
+      <string>caroncomb</string>
+      <string>commaaccentcomb</string>
+      <string>cedillacomb</string>
+      <string>ogonekcomb</string>
       <string>zero</string>
       <string>one</string>
       <string>two</string>
@@ -1552,6 +1583,9 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
+      <string>onesuperior</string>
+      <string>twosuperior</string>
+      <string>threesuperior</string>
       <string>onequarter</string>
       <string>onehalf</string>
       <string>threequarters</string>
@@ -1650,21 +1684,23 @@
       <string>registered</string>
       <string>trademark</string>
       <string>degree</string>
+      <string>copyrightsound</string>
+      <string>Dcircle</string>
       <string>lozenge</string>
       <string>apple</string>
-      <string>Gcommaaccent</string>
-      <string>Kcommaaccent</string>
-      <string>Lcommaaccent</string>
-      <string>Ncommaaccent</string>
-      <string>Rcommaaccent</string>
-      <string>copyrightsound</string>
+      <string>canvas</string>
       <string>dslash</string>
+      <string>heart</string>
       <string>idotaccent</string>
+      <string>matrix57</string>
+      <string>matrix58</string>
+      <string>matrix610</string>
+      <string>matrix612</string>
+      <string>matrix68</string>
       <string>ncommaaccent</string>
-      <string>onesuperior</string>
+      <string>openheart</string>
       <string>px</string>
-      <string>threesuperior</string>
-      <string>twosuperior</string>
+      <string>typetr</string>
       <string>fi</string>
       <string>fl</string>
       <string>zero.lc</string>
@@ -1704,6 +1740,7 @@
       <string>Gcircumflex.sc_ct</string>
       <string>Gbreve.sc_ct</string>
       <string>Gdotaccent.sc_ct</string>
+      <string>Gcommaaccent.sc_ct</string>
       <string>Gcaron.sc_ct</string>
       <string>P.sc_ct</string>
       <string>Q.sc_ct</string>
@@ -1738,7 +1775,6 @@
       <string>Omacron.sc_ct</string>
       <string>Obreve.sc_ct</string>
       <string>Ohungarumlaut.sc_ct</string>
-      <string>Gcommaaccent.sc_ct</string>
       <string>a.it</string>
       <string>agrave.it</string>
       <string>aacute.it</string>
@@ -1801,6 +1837,12 @@
       <string>Ibreve.sc_xh</string>
       <string>Iogonek.sc_xh</string>
       <string>Idotaccent.sc_xh</string>
+      <string>J.xd</string>
+      <string>Jcircumflex.xd</string>
+      <string>jdotless.xd</string>
+      <string>J.sc_xd</string>
+      <string>Jcircumflex.sc_xd</string>
+      <string>jdotless.xd_cd</string>
       <string>A.sc</string>
       <string>Agrave.sc</string>
       <string>Aacute.sc</string>
@@ -1813,6 +1855,12 @@
       <string>Aogonek.sc</string>
       <string>Aringacute.sc</string>
       <string>B.sc</string>
+      <string>C.sc</string>
+      <string>Ccedilla.sc</string>
+      <string>Cacute.sc</string>
+      <string>Ccircumflex.sc</string>
+      <string>Cdotaccent.sc</string>
+      <string>Ccaron.sc</string>
       <string>D.sc</string>
       <string>Dcaron.sc</string>
       <string>E.sc</string>
@@ -1830,6 +1878,7 @@
       <string>Gcircumflex.sc</string>
       <string>Gbreve.sc</string>
       <string>Gdotaccent.sc</string>
+      <string>Gcommaaccent.sc</string>
       <string>Gcaron.sc</string>
       <string>H.sc</string>
       <string>Hcircumflex.sc</string>
@@ -1846,13 +1895,16 @@
       <string>J.sc</string>
       <string>Jcircumflex.sc</string>
       <string>K.sc</string>
+      <string>Kcommaaccent.sc</string>
       <string>L.sc</string>
       <string>Lacute.sc</string>
+      <string>Lcommaaccent.sc</string>
       <string>Lcaron.sc</string>
       <string>M.sc</string>
       <string>N.sc</string>
       <string>Ntilde.sc</string>
       <string>Nacute.sc</string>
+      <string>Ncommaaccent.sc</string>
       <string>Ncaron.sc</string>
       <string>O.sc</string>
       <string>Ograve.sc</string>
@@ -1867,6 +1919,7 @@
       <string>Q.sc</string>
       <string>R.sc</string>
       <string>Racute.sc</string>
+      <string>Rcommaaccent.sc</string>
       <string>Rcaron.sc</string>
       <string>S.sc</string>
       <string>Sacute.sc</string>
@@ -1901,15 +1954,17 @@
       <string>Ycircumflex.sc</string>
       <string>Ydieresis.sc</string>
       <string>Ygrave.sc</string>
+      <string>Z.sc</string>
+      <string>Zacute.sc</string>
+      <string>Zdotaccent.sc</string>
+      <string>Zcaron.sc</string>
       <string>AE.sc</string>
       <string>AEacute.sc</string>
       <string>Hbar.sc</string>
       <string>Lslash.sc</string>
       <string>Eng.sc</string>
+      <string>Germandbls.sc</string>
       <string>Oslashacute.sc</string>
-      <string>Zacute.sc</string>
-      <string>Zdotaccent.sc</string>
-      <string>Zcaron.sc</string>
       <string>germandbls.sc</string>
       <string>eng.sc</string>
       <string>zero.sc</string>
@@ -1922,11 +1977,9 @@
       <string>seven.sc</string>
       <string>eight.sc</string>
       <string>nine.sc</string>
-      <string>Gcommaaccent.sc</string>
-      <string>Kcommaaccent.sc</string>
-      <string>Lcommaaccent.sc</string>
-      <string>Ncommaaccent.sc</string>
-      <string>Rcommaaccent.sc</string>
+      <string>Euro.sc</string>
+      <string>fi.sc</string>
+      <string>fl.sc</string>
       <string>A.sc_cd</string>
       <string>Agrave.sc_cd</string>
       <string>Aacute.sc_cd</string>
@@ -1962,16 +2015,19 @@
       <string>Gcircumflex.sc_cd</string>
       <string>Gbreve.sc_cd</string>
       <string>Gdotaccent.sc_cd</string>
+      <string>Gcommaaccent.sc_cd</string>
       <string>Gcaron.sc_cd</string>
       <string>H.sc_cd</string>
       <string>Hcircumflex.sc_cd</string>
       <string>K.sc_cd</string>
       <string>L.sc_cd</string>
       <string>Lacute.sc_cd</string>
+      <string>Lcommaaccent.sc_cd</string>
       <string>Lcaron.sc_cd</string>
       <string>N.sc_cd</string>
       <string>Ntilde.sc_cd</string>
       <string>Nacute.sc_cd</string>
+      <string>Ncommaaccent.sc_cd</string>
       <string>Ncaron.sc_cd</string>
       <string>O.sc_cd</string>
       <string>Ograve.sc_cd</string>
@@ -1986,6 +2042,7 @@
       <string>Q.sc_cd</string>
       <string>R.sc_cd</string>
       <string>Racute.sc_cd</string>
+      <string>Rcommaaccent.sc_cd</string>
       <string>Rcaron.sc_cd</string>
       <string>S.sc_cd</string>
       <string>Sacute.sc_cd</string>
@@ -2031,10 +2088,9 @@
       <string>seven.sc_cd</string>
       <string>eight.sc_cd</string>
       <string>nine.sc_cd</string>
-      <string>Gcommaaccent.sc_cd</string>
-      <string>Lcommaaccent.sc_cd</string>
-      <string>Ncommaaccent.sc_cd</string>
-      <string>Rcommaaccent.sc_cd</string>
+      <string>Euro.sc_cd</string>
+      <string>fi.sc_cd</string>
+      <string>fl.sc_cd</string>
       <string>A.ct</string>
       <string>Aogonek.ct</string>
       <string>B.ct</string>
@@ -2050,6 +2106,7 @@
       <string>Gcircumflex.ct</string>
       <string>Gbreve.ct</string>
       <string>Gdotaccent.ct</string>
+      <string>Gcommaaccent.ct</string>
       <string>Gcaron.ct</string>
       <string>O.ct</string>
       <string>Ograve.ct</string>
@@ -2063,6 +2120,7 @@
       <string>P.ct</string>
       <string>Q.ct</string>
       <string>R.ct</string>
+      <string>Rcommaaccent.ct</string>
       <string>U.ct</string>
       <string>Ugrave.ct</string>
       <string>Uacute.ct</string>
@@ -2078,6 +2136,7 @@
       <string>Eth.ct</string>
       <string>Thorn.ct</string>
       <string>Dcroat.ct</string>
+      <string>Germandbls.ct</string>
       <string>b.ct</string>
       <string>c.ct</string>
       <string>ccedilla.ct</string>
@@ -2139,8 +2198,6 @@
       <string>eight.ct</string>
       <string>nine.ct</string>
       <string>partialdiff.ct</string>
-      <string>Gcommaaccent.ct</string>
-      <string>Rcommaaccent.ct</string>
       <string>dslash.ct</string>
       <string>ncommaaccent.ct</string>
       <string>A.cd</string>
@@ -2178,17 +2235,20 @@
       <string>Gcircumflex.cd</string>
       <string>Gbreve.cd</string>
       <string>Gdotaccent.cd</string>
+      <string>Gcommaaccent.cd</string>
       <string>Gcaron.cd</string>
       <string>H.cd</string>
       <string>Hcircumflex.cd</string>
       <string>K.cd</string>
       <string>L.cd</string>
       <string>Lacute.cd</string>
+      <string>Lcommaaccent.cd</string>
       <string>Lcaron.cd</string>
       <string>M.cd</string>
       <string>N.cd</string>
       <string>Ntilde.cd</string>
       <string>Nacute.cd</string>
+      <string>Ncommaaccent.cd</string>
       <string>Ncaron.cd</string>
       <string>O.cd</string>
       <string>Ograve.cd</string>
@@ -2203,6 +2263,7 @@
       <string>Q.cd</string>
       <string>R.cd</string>
       <string>Racute.cd</string>
+      <string>Rcommaaccent.cd</string>
       <string>Rcaron.cd</string>
       <string>S.cd</string>
       <string>Sacute.cd</string>
@@ -2239,6 +2300,7 @@
       <string>Lslash.cd</string>
       <string>Eng.cd</string>
       <string>OE.cd</string>
+      <string>Germandbls.cd</string>
       <string>a.cd</string>
       <string>agrave.cd</string>
       <string>aacute.cd</string>
@@ -2355,6 +2417,7 @@
       <string>lslash.cd</string>
       <string>eng.cd</string>
       <string>tbar.cd</string>
+      <string>jdotless.cd</string>
       <string>zero.cd</string>
       <string>one.cd</string>
       <string>two.cd</string>
@@ -2393,65 +2456,11 @@
       <string>sterling.cd</string>
       <string>Euro.cd</string>
       <string>florin.cd</string>
-      <string>Gcommaaccent.cd</string>
-      <string>Lcommaaccent.cd</string>
-      <string>Ncommaaccent.cd</string>
-      <string>Rcommaaccent.cd</string>
       <string>dslash.cd</string>
       <string>ncommaaccent.cd</string>
       <string>fi.cd</string>
       <string>fl.cd</string>
-      <string>Ccedilla.sc</string>
-      <string>Z.sc</string>
-      <string>C.sc</string>
-      <string>Cacute.sc</string>
-      <string>Ccaron.sc</string>
-      <string>Ccircumflex.sc</string>
-      <string>Cdotaccent.sc</string>
-      <string>Euro.sc</string>
-      <string>Euro.sc_cd</string>
-      <string>matrix68</string>
-      <string>matrix58</string>
-      <string>typetr</string>
-      <string>matrix57</string>
-      <string>J.xd</string>
-      <string>Jcircumflex.xd</string>
-      <string>Jcircumflex.sc_xd</string>
-      <string>J.sc_xd</string>
-      <string>fl.sc</string>
-      <string>fi.sc</string>
-      <string>fl.sc_cd</string>
-      <string>fi.sc_cd</string>
-      <string>heart</string>
-      <string>openheart</string>
       <string>.notdef</string>
-      <string>canvas</string>
-      <string>matrix610</string>
-      <string>matrix612</string>
-      <string>nbspace</string>
-      <string>jdotless</string>
-      <string>gravecomb</string>
-      <string>acutecomb</string>
-      <string>circumflexcomb</string>
-      <string>tildecomb</string>
-      <string>macroncomb</string>
-      <string>brevecomb</string>
-      <string>dotaccentcomb</string>
-      <string>dieresiscomb</string>
-      <string>ringcomb</string>
-      <string>hungarumlautcomb</string>
-      <string>caroncomb</string>
-      <string>commaaccentcomb</string>
-      <string>cedillacomb</string>
-      <string>ogonekcomb</string>
-      <string>Germandbls</string>
-      <string>Germandbls.sc</string>
-      <string>Germandbls.ct</string>
-      <string>Germandbls.cd</string>
-      <string>jdotless.xd</string>
-      <string>jdotless.xd_cd</string>
-      <string>jdotless.cd</string>
-      <string>Dcircle</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

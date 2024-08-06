@@ -8702,6 +8702,15 @@
         </array>
       </dict>
     </dict>
+    <key>com.defcon.sortDescriptor</key>
+    <array>
+      <dict>
+        <key>allowPseudoUnicode</key>
+        <true/>
+        <key>type</key>
+        <string>cannedDesign</string>
+      </dict>
+    </array>
     <key>com.typemytype.robofont.@weight.800.layerStrokeColor</key>
     <array>
       <real>0.0</real>
@@ -13143,6 +13152,7 @@
     <key>public.glyphOrder</key>
     <array>
       <string>space</string>
+      <string>nbspace</string>
       <string>A</string>
       <string>Agrave</string>
       <string>Aacute</string>
@@ -13271,6 +13281,7 @@
       <string>Eng</string>
       <string>OE</string>
       <string>Tbar</string>
+      <string>Germandbls</string>
       <string>Omega</string>
       <string>a</string>
       <string>agrave</string>
@@ -13385,8 +13396,6 @@
       <string>zacute</string>
       <string>zdotaccent</string>
       <string>zcaron</string>
-      <string>ordfeminine</string>
-      <string>ordmasculine</string>
       <string>germandbls</string>
       <string>ae</string>
       <string>aeacute</string>
@@ -13402,7 +13411,24 @@
       <string>eng</string>
       <string>oe</string>
       <string>tbar</string>
+      <string>jdotless</string>
       <string>pi</string>
+      <string>ordfeminine</string>
+      <string>ordmasculine</string>
+      <string>gravecomb</string>
+      <string>acutecomb</string>
+      <string>circumflexcomb</string>
+      <string>tildecomb</string>
+      <string>macroncomb</string>
+      <string>brevecomb</string>
+      <string>dotaccentcomb</string>
+      <string>dieresiscomb</string>
+      <string>ringcomb</string>
+      <string>hungarumlautcomb</string>
+      <string>caroncomb</string>
+      <string>commaaccentcomb</string>
+      <string>cedillacomb</string>
+      <string>ogonekcomb</string>
       <string>zero</string>
       <string>one</string>
       <string>two</string>
@@ -13515,9 +13541,12 @@
       <string>trademark</string>
       <string>degree</string>
       <string>copyrightsound</string>
+      <string>Dcircle</string>
       <string>lozenge</string>
       <string>apple</string>
+      <string>canvas</string>
       <string>dslash</string>
+      <string>heart</string>
       <string>idotaccent</string>
       <string>matrix57</string>
       <string>matrix58</string>
@@ -13525,6 +13554,7 @@
       <string>matrix612</string>
       <string>matrix68</string>
       <string>ncommaaccent</string>
+      <string>openheart</string>
       <string>px</string>
       <string>typetr</string>
       <string>fi</string>
@@ -13653,6 +13683,7 @@
       <string>nine.xc_cd_tab</string>
       <string>percent.xc_cd_tab</string>
       <string>perthousand.xc_cd_tab</string>
+      <string>section.xc_cd_tab</string>
       <string>plus.xc_cd_tab</string>
       <string>minus.xc_cd_tab</string>
       <string>divide.xc_cd_tab</string>
@@ -13660,7 +13691,52 @@
       <string>equal.xc_cd_tab</string>
       <string>sterling.xc_cd_tab</string>
       <string>yen.xc_cd_tab</string>
-      <string>section.xc_cd_tab</string>
+      <string>ordfeminine.xc_tab</string>
+      <string>ordmasculine.xc_tab</string>
+      <string>one.xc_tab</string>
+      <string>hyphen.xc_tab</string>
+      <string>endash.xc_tab</string>
+      <string>parenleft.xc_tab</string>
+      <string>parenright.xc_tab</string>
+      <string>bracketleft.xc_tab</string>
+      <string>bracketright.xc_tab</string>
+      <string>braceleft.xc_tab</string>
+      <string>braceright.xc_tab</string>
+      <string>section.xc_tab</string>
+      <string>perthousand.xc_tab</string>
+      <string>plusminus.xc_tab</string>
+      <string>less.xc_tab</string>
+      <string>greater.xc_tab</string>
+      <string>lessequal.xc_tab</string>
+      <string>greaterequal.xc_tab</string>
+      <string>degree.xc_tab</string>
+      <string>space.tab</string>
+      <string>ordfeminine.tab</string>
+      <string>ordmasculine.tab</string>
+      <string>one.tab</string>
+      <string>six.tab</string>
+      <string>seven.tab</string>
+      <string>hyphen.tab</string>
+      <string>endash.tab</string>
+      <string>parenleft.tab</string>
+      <string>parenright.tab</string>
+      <string>bracketleft.tab</string>
+      <string>bracketright.tab</string>
+      <string>braceleft.tab</string>
+      <string>braceright.tab</string>
+      <string>percent.tab</string>
+      <string>perthousand.tab</string>
+      <string>period.tab</string>
+      <string>comma.tab</string>
+      <string>colon.tab</string>
+      <string>semicolon.tab</string>
+      <string>section.tab</string>
+      <string>plusminus.tab</string>
+      <string>less.tab</string>
+      <string>greater.tab</string>
+      <string>lessequal.tab</string>
+      <string>greaterequal.tab</string>
+      <string>degree.tab</string>
       <string>C.sc_ct</string>
       <string>Ccedilla.sc_ct</string>
       <string>Cacute.sc_ct</string>
@@ -13722,6 +13798,7 @@
       <string>ygrave.xd</string>
       <string>thorn.xd</string>
       <string>florin.xd</string>
+      <string>jdotless.xd</string>
       <string>fi.xd</string>
       <string>fl.xd</string>
       <string>Jcircumflex.xd_cd</string>
@@ -13788,6 +13865,7 @@
       <string>ycircumflex.xd_ct</string>
       <string>ygrave.xd_ct</string>
       <string>thorn.xd_ct</string>
+      <string>Germandbls.xa_ct</string>
       <string>b.xa_ct</string>
       <string>d.xa_ct</string>
       <string>dcaron.xa_ct</string>
@@ -13847,6 +13925,7 @@
       <string>J.xc_xd_cd</string>
       <string>Jcircumflex.xc_xd_cd</string>
       <string>thorn.xa_xd_ct</string>
+      <string>Germandbls.xa</string>
       <string>b.xa</string>
       <string>d.xa</string>
       <string>dcaron.xa</string>
@@ -13892,6 +13971,8 @@
       <string>yen.xa</string>
       <string>dslash.xa</string>
       <string>fi.xa</string>
+      <string>fl.xa</string>
+      <string>Germandbls.xa_cd</string>
       <string>b.xa_cd</string>
       <string>d.xa_cd</string>
       <string>dcaron.xa_cd</string>
@@ -14112,6 +14193,7 @@
       <string>Eng.sc</string>
       <string>OE.sc</string>
       <string>Tbar.sc</string>
+      <string>Germandbls.sc</string>
       <string>germandbls.sc</string>
       <string>eth.sc</string>
       <string>eng.sc</string>
@@ -14252,6 +14334,7 @@
       <string>Eng.sc_cd</string>
       <string>OE.sc_cd</string>
       <string>Tbar.sc_cd</string>
+      <string>Germandbls.sc_cd</string>
       <string>germandbls.sc_cd</string>
       <string>zero.sc_cd</string>
       <string>one.sc_cd</string>
@@ -14331,6 +14414,7 @@
       <string>Thorn.ct</string>
       <string>Dcroat.ct</string>
       <string>OE.ct</string>
+      <string>Germandbls.ct</string>
       <string>Omega.ct</string>
       <string>b.ct</string>
       <string>c.ct</string>
@@ -14525,6 +14609,7 @@
       <string>Eng.cd</string>
       <string>OE.cd</string>
       <string>Tbar.cd</string>
+      <string>Germandbls.cd</string>
       <string>a.cd</string>
       <string>agrave.cd</string>
       <string>aacute.cd</string>
@@ -15000,6 +15085,8 @@
       <string>perthousand.xc_cd</string>
       <string>question.xc_cd</string>
       <string>questiondown.xc_cd</string>
+      <string>section.xc_cd</string>
+      <string>paragraph.xc_cd</string>
       <string>plus.xc_cd</string>
       <string>minus.xc_cd</string>
       <string>divide.xc_cd</string>
@@ -15009,8 +15096,6 @@
       <string>partialdiff.xc_cd</string>
       <string>sterling.xc_cd</string>
       <string>yen.xc_cd</string>
-      <string>section.xc_cd</string>
-      <string>paragraph.xc_cd</string>
       <string>florin.cd_tab</string>
       <string>zero.cd_tab</string>
       <string>one.cd_tab</string>
@@ -15025,6 +15110,8 @@
       <string>percent.cd_tab</string>
       <string>perthousand.cd_tab</string>
       <string>period.cd_tab</string>
+      <string>section.cd_tab</string>
+      <string>paragraph.cd_tab</string>
       <string>plus.cd_tab</string>
       <string>minus.cd_tab</string>
       <string>divide.cd_tab</string>
@@ -15033,85 +15120,7 @@
       <string>cent.cd_tab</string>
       <string>sterling.cd_tab</string>
       <string>yen.cd_tab</string>
-      <string>section.cd_tab</string>
-      <string>paragraph.cd_tab</string>
-      <string>ordfeminine.xc_tab</string>
-      <string>ordmasculine.xc_tab</string>
-      <string>one.xc_tab</string>
-      <string>hyphen.xc_tab</string>
-      <string>endash.xc_tab</string>
-      <string>parenleft.xc_tab</string>
-      <string>parenright.xc_tab</string>
-      <string>bracketleft.xc_tab</string>
-      <string>bracketright.xc_tab</string>
-      <string>braceleft.xc_tab</string>
-      <string>braceright.xc_tab</string>
-      <string>perthousand.xc_tab</string>
-      <string>plusminus.xc_tab</string>
-      <string>less.xc_tab</string>
-      <string>greater.xc_tab</string>
-      <string>lessequal.xc_tab</string>
-      <string>greaterequal.xc_tab</string>
-      <string>section.xc_tab</string>
-      <string>degree.xc_tab</string>
-      <string>space.tab</string>
-      <string>ordfeminine.tab</string>
-      <string>ordmasculine.tab</string>
-      <string>one.tab</string>
-      <string>six.tab</string>
-      <string>seven.tab</string>
-      <string>hyphen.tab</string>
-      <string>endash.tab</string>
-      <string>parenleft.tab</string>
-      <string>parenright.tab</string>
-      <string>bracketleft.tab</string>
-      <string>bracketright.tab</string>
-      <string>braceleft.tab</string>
-      <string>braceright.tab</string>
-      <string>percent.tab</string>
-      <string>perthousand.tab</string>
-      <string>period.tab</string>
-      <string>comma.tab</string>
-      <string>colon.tab</string>
-      <string>semicolon.tab</string>
-      <string>plusminus.tab</string>
-      <string>less.tab</string>
-      <string>greater.tab</string>
-      <string>lessequal.tab</string>
-      <string>greaterequal.tab</string>
-      <string>section.tab</string>
-      <string>degree.tab</string>
-      <string>fl.xa</string>
-      <string>heart</string>
-      <string>openheart</string>
       <string>.notdef</string>
-      <string>canvas</string>
-      <string>nbspace</string>
-      <string>jdotless</string>
-      <string>gravecomb</string>
-      <string>acutecomb</string>
-      <string>circumflexcomb</string>
-      <string>tildecomb</string>
-      <string>macroncomb</string>
-      <string>brevecomb</string>
-      <string>dotaccentcomb</string>
-      <string>dieresiscomb</string>
-      <string>ringcomb</string>
-      <string>hungarumlautcomb</string>
-      <string>caroncomb</string>
-      <string>commaaccentcomb</string>
-      <string>cedillacomb</string>
-      <string>ogonekcomb</string>
-      <string>Germandbls</string>
-      <string>Germandbls.xa_ct</string>
-      <string>Germandbls.xa</string>
-      <string>Germandbls.xa_cd</string>
-      <string>Germandbls.sc</string>
-      <string>Germandbls.sc_cd</string>
-      <string>Germandbls.ct</string>
-      <string>Germandbls.cd</string>
-      <string>jdotless.xd</string>
-      <string>Dcircle</string>
     </array>
     <key>tnBuilderBitcount</key>
     <dict>
