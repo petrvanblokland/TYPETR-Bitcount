@@ -11,7 +11,7 @@
     <key>descender</key>
     <integer>-300</integer>
     <key>familyName</key>
-    <string>Bitcount Grid</string>
+    <string>Bitcount Grid Single</string>
     <key>guidelines</key>
     <array/>
     <key>italicAngle</key>
@@ -134,11 +134,11 @@
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>styleMapFamilyName</key>
-    <string>BitcountGridSingle</string>
+    <string>Bitcount Grid Single</string>
     <key>styleMapStyleName</key>
-    <string>regular</string>
+    <string>italic</string>
     <key>styleName</key>
-    <string>Single Italic</string>
+    <string>Italic</string>
     <key>trademark</key>
     <string>Bitcount is a trademark of TYPETR | Buro Petr van Blokland + Claudia Mens</string>
     <key>unitsPerEm</key>
