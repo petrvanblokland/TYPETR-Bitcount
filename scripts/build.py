@@ -79,6 +79,16 @@ for dsName in [
     colorPath = VF_PATH + dsParams.colorVfName  # Target color VF name
     addCOLRv1toVF(vfPath, colorPath)
 
+    fontColorName = dsParams.colorVfName + " Ink"
+
+    if GOOGLEFONTS:
+        cmd = "gftools-rename-font %s %s" % (
+            colorPath,
+            fontColorName,
+        )
+    print("... rename font", cmd)
+    subproces.run(cmd, check=True)
+
     if GOOGLEFONTS:
         cmd = "gftools-gen-stat --src sources/stat-color.yaml  --inplace %s" % colorPath
     else:
