@@ -87,7 +87,7 @@ for dsName in [
             fontColorName,
         )
     print("... rename font", cmd)
-    subproces.run(cmd, check=True)
+    subprocess.run(cmd, check=True)
 
     if GOOGLEFONTS:
         cmd = "gftools-gen-stat --src sources/stat-color.yaml  --inplace %s" % colorPath
