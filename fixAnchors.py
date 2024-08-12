@@ -115,11 +115,13 @@ for f in AllFonts():
                         y = y2+100
                         if y == 600:
                             y = 500
+                        elif y == 700:
+                            y = 600
                         x = int(round(x1 + int((x2 - x1)/100/2) * 100 + y*tan(radians(-g.font.info.italicAngle or 0))))
                         if (x, y) != (a.x, a.y):
                             a.x = x
                             a.y = y
-                            print(g.name, 'Mono-top', x, y, x1, y1, x2, y2)
+                            print(g.name, 'Grid-top', x, y, x1, y1, x2, y2)
                             g.changed()
                 elif a.name == 'ogonek':
                     if 'Prop' in f.path:
@@ -144,7 +146,7 @@ for f in AllFonts():
                         if (x, y) != (a.x, a.y):
                             a.x = x
                             a.y = y
-                            print(g.name, 'Mono-ogonek', x, y, x1, y1, x2, y2)
+                            print(g.name, 'Grid-ogonek', x, y, x1, y1, x2, y2)
                             g.changed()
                 
                         
