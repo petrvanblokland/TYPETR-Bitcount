@@ -14,7 +14,12 @@ import sys
 sys.path.insert(0, ".")
 
 from scriptsLib import DESIGN_SPACES, MASTERS_PATH, VF_PATH
-from scriptsLib.make import addCOLRv1toVF, copyMasters, makeDesignSpaceFile
+from scriptsLib.make import (
+    addCOLRv1toVF,
+    copyMasters,
+    makeDesignSpaceFile,
+    getFamilyName,
+)
 
 GOOGLEFONTS = True
 
@@ -79,15 +84,22 @@ for dsName in [
     colorPath = VF_PATH + dsParams.colorVfName  # Target color VF name
     addCOLRv1toVF(vfPath, colorPath)
 
-    fontColorName = dsParams.colorVfName + " Ink"
-
     if GOOGLEFONTS:
-        cmd = "gftools-rename-font %s %s" % (
+        oldColorPath = colorPath
+        colorPath = colorPath.replace("[", "Ink[")  # Filename
+        newFamilyName = getFamilyName(dsParams) + " Ink"  # Family name
+        cmd = [  # Avoid shell globbing problems
+            "gftools-rename-font",
+            "--out",
             colorPath,
-            fontColorName,
-        )
-    print("... rename font", cmd)
-    subprocess.run(cmd, check=True)
+            oldColorPath,
+            newFamilyName,
+            "--just-family",
+        ]
+        print("... rename font", cmd)
+        subprocess.run(cmd, check=True)
+        # Remove the old font
+        os.remove(oldColorPath)
 
     if GOOGLEFONTS:
         cmd = "gftools-gen-stat --src sources/stat-color.yaml  --inplace %s" % colorPath
