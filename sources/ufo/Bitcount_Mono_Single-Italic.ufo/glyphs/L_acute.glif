@@ -2,8 +2,8 @@
 <glyph name="Lacute" format="2">
   <advance width="600"/>
   <unicode hex="0139"/>
-  <anchor x="340" y="1000" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="436.5" y="1000" name="top"/>
+  <anchor x="296.5" y="0" name="bottom"/>
   <outline>
     <component base="px" xOffset="100"/>
     <component base="px" xOffset="114" yOffset="100"/>

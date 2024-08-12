@@ -2,8 +2,7 @@
 <glyph name="x" format="2">
   <advance width="600"/>
   <unicode hex="0078"/>
-  <anchor x="71" y="500" name="_top"/>
-  <anchor x="285" y="600" name="top"/>
+  <anchor x="267.5" y="500" name="top"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="56" yOffset="400"/>

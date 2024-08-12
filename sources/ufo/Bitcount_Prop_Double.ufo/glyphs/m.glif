@@ -2,7 +2,6 @@
 <glyph name="m" format="2">
   <advance width="900"/>
   <unicode hex="006D"/>
-  <anchor x="0" y="500" name="_top"/>
   <outline>
     <component base="px"/>
     <component base="px" yOffset="100"/>

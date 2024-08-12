@@ -2,8 +2,8 @@
 <glyph name="Wdieresis" format="2">
   <advance width="600"/>
   <unicode hex="1E84"/>
-  <anchor x="326" y="900" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="322.5" y="900" name="top"/>
+  <anchor x="196.5" y="0" name="bottom"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="14" yOffset="100"/>

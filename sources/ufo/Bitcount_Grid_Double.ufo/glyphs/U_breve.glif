@@ -2,9 +2,9 @@
 <glyph name="Ubreve" format="2">
   <advance width="600"/>
   <unicode hex="016C"/>
-  <anchor x="200" y="700" name="top"/>
+  <anchor x="200" y="600" name="top"/>
   <anchor x="200" y="0" name="bottom"/>
-  <anchor x="300" y="0" name="ogonek"/>
+  <anchor x="400" y="0" name="ogonek"/>
   <outline>
     <component base="px" yOffset="100"/>
     <component base="px" yOffset="200"/>

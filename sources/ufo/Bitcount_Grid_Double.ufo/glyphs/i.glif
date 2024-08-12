@@ -2,7 +2,9 @@
 <glyph name="i" format="2">
   <advance width="600"/>
   <unicode hex="0069"/>
-  <anchor x="0" y="500" name="_top"/>
+  <anchor x="200" y="600" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="400" y="0" name="ogonek"/>
   <outline>
     <component base="px"/>
     <component base="px" yOffset="400"/>

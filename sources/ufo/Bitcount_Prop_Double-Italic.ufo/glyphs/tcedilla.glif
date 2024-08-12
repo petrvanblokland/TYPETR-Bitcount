@@ -2,8 +2,8 @@
 <glyph name="tcedilla" format="2">
   <advance width="600"/>
   <unicode hex="0163"/>
-  <anchor x="300" y="700" name="top"/>
-  <anchor x="300" y="-200" name="bottom"/>
+  <anchor x="294.5" y="700" name="top"/>
+  <anchor x="168.5" y="-200" name="bottom"/>
   <outline>
     <component base="px" xOffset="56" yOffset="400"/>
     <component base="px" xOffset="72" yOffset="-200"/>

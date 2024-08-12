@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rcommaaccent.cd" format="2">
   <advance width="500"/>
-  <anchor x="200" y="700" name="top"/>
-  <anchor x="200" y="-200" name="bottom"/>
+  <anchor x="294.5" y="700" name="top"/>
+  <anchor x="168.5" y="-200" name="bottom"/>
   <outline>
     <component base="px" xOffset="-28" yOffset="-200"/>
     <component base="px"/>

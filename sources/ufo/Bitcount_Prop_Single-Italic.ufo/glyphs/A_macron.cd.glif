@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Amacron.cd" format="2">
   <advance width="500"/>
-  <anchor x="200" y="900" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
-  <anchor x="500" y="0" name="ogonek"/>
+  <anchor x="308.5" y="800" name="top"/>
+  <anchor x="196.5" y="0" name="bottom"/>
+  <anchor x="296.5" y="0" name="ogonek"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="14" yOffset="100"/>

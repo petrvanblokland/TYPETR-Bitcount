@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uring.xc" format="2">
   <advance width="700"/>
-  <anchor x="400" y="1100" name="top"/>
-  <anchor x="400" y="0" name="bottom"/>
-  <anchor x="300" y="0" name="ogonek"/>
+  <anchor x="200.0" y="1100" name="top"/>
+  <anchor x="200.0" y="0" name="bottom"/>
+  <anchor x="400.0" y="0" name="ogonek"/>
   <outline>
     <component base="px" yOffset="100"/>
     <component base="px" yOffset="200"/>

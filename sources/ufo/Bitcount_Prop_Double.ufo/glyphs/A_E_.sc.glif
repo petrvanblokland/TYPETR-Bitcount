@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="AE.sc" format="2">
   <advance width="800"/>
-  <anchor x="400" y="600" name="top"/>
-  <anchor x="400" y="0" name="bottom"/>
-  <anchor x="500" y="0" name="ogonek"/>
+  <anchor x="300.0" y="500" name="top"/>
+  <anchor x="300.0" y="0" name="bottom"/>
+  <anchor x="600.0" y="0" name="ogonek"/>
   <outline>
     <component base="px"/>
     <component base="px" yOffset="100"/>

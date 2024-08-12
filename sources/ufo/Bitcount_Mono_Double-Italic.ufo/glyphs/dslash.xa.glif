@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dslash.xa" format="2">
   <advance width="600"/>
-  <anchor x="312" y="800" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="408.5" y="800" name="top"/>
+  <anchor x="296.5" y="0" name="bottom"/>
   <outline>
     <component base="px" xOffset="14" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>

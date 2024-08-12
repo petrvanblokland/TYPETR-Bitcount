@@ -2,9 +2,9 @@
 <glyph name="eng" format="2">
   <advance width="600"/>
   <unicode hex="014B"/>
-  <anchor x="285" y="600" name="top"/>
-  <anchor x="186" y="-100" name="bottom"/>
-  <anchor x="400" y="0" name="ogonek"/>
+  <anchor x="267.5" y="500" name="top"/>
+  <anchor x="182.5" y="-100" name="bottom"/>
+  <anchor x="396.5" y="0" name="ogonek"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="14" yOffset="100"/>

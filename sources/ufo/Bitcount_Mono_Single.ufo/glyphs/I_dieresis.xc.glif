@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresis.xc" format="2">
   <advance width="600"/>
-  <anchor x="200" y="1000" name="top"/>
   <anchor x="200" y="0" name="bottom"/>
-  <anchor x="200" y="0" name="ogonek"/>
+  <anchor x="200" y="1000" name="top"/>
   <outline>
     <component base="px" xOffset="100"/>
     <component base="px" xOffset="100" yOffset="600"/>

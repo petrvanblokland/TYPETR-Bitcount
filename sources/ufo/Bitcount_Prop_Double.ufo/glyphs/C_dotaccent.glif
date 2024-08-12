@@ -2,8 +2,8 @@
 <glyph name="Cdotaccent" format="2">
   <advance width="600"/>
   <unicode hex="010A"/>
-  <anchor x="300" y="900" name="top"/>
-  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="200.0" y="800" name="top"/>
+  <anchor x="200.0" y="0" name="bottom"/>
   <outline>
     <component base="px" yOffset="100"/>
     <component base="px" yOffset="200"/>

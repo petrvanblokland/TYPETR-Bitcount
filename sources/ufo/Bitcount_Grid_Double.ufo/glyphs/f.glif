@@ -2,8 +2,8 @@
 <glyph name="f" format="2">
   <advance width="600"/>
   <unicode hex="0066"/>
-  <anchor x="0" y="500" name="_top"/>
-  <anchor x="200" y="700" name="top"/>
+  <anchor x="200" y="600" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
   <outline>
     <component base="px"/>
     <component base="px" yOffset="300"/>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jdotless.xd_cd" format="2">
   <advance width="600"/>
-  <anchor x="100" y="600" name="top"/>
+  <anchor x="100" y="500" name="top"/>
   <anchor x="100" y="-100" name="bottom"/>
   <outline>
     <component base="px" yOffset="-100"/>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresis.ct" format="2">
   <advance width="600"/>
-  <anchor x="299" y="700" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
-  <anchor x="300" y="0" name="ogonek"/>
+  <anchor x="281.5" y="600" name="top"/>
+  <anchor x="196.5" y="0" name="bottom"/>
+  <anchor x="396.5" y="0" name="ogonek"/>
   <outline>
     <component base="px" xOffset="14" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>

@@ -2,8 +2,8 @@
 <glyph name="hbar" format="2">
   <advance width="700"/>
   <unicode hex="0127"/>
-  <anchor x="400" y="700" name="top"/>
-  <anchor x="400" y="0" name="bottom"/>
+  <anchor x="300.0" y="700" name="top"/>
+  <anchor x="300.0" y="0" name="bottom"/>
   <outline>
     <component base="px" yOffset="400"/>
     <component base="px" xOffset="100"/>

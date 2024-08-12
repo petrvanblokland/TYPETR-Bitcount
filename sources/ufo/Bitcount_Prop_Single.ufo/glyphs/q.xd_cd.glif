@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="q.xd_cd" format="2">
   <advance width="500"/>
-  <anchor x="200" y="600" name="top"/>
+  <anchor x="200" y="500" name="top"/>
   <anchor x="200" y="-200" name="bottom"/>
   <outline>
     <component base="px" yOffset="100"/>

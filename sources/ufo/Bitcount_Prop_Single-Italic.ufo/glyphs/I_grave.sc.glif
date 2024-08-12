@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Igrave.sc" format="2">
   <advance width="300"/>
-  <anchor x="200" y="900" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="-3.5" y="0" name="bottom"/>
+  <anchor x="-3.5" y="0" name="ogonek"/>
+  <anchor x="108.5" y="800" name="top"/>
   <outline>
     <component base="px" xOffset="-2" yOffset="700"/>
     <component base="px"/>

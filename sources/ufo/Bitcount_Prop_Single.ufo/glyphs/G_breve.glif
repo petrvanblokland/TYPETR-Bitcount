@@ -2,8 +2,8 @@
 <glyph name="Gbreve" format="2">
   <advance width="700"/>
   <unicode hex="011E"/>
-  <anchor x="400" y="1000" name="top"/>
-  <anchor x="400" y="0" name="bottom"/>
+  <anchor x="200.0" y="1000" name="top"/>
+  <anchor x="200.0" y="0" name="bottom"/>
   <outline>
     <component base="px" yOffset="100"/>
     <component base="px" yOffset="200"/>

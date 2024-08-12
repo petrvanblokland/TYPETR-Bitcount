@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tcommaaccent.sc_cd" format="2">
   <advance width="600"/>
-  <anchor x="184" y="600" name="top"/>
-  <anchor x="58" y="-300" name="bottom"/>
+  <anchor x="266.5" y="500" name="top"/>
+  <anchor x="154.5" y="-300" name="bottom"/>
   <outline>
     <component base="px" xOffset="58" yOffset="-300"/>
     <component base="px" xOffset="156" yOffset="400"/>

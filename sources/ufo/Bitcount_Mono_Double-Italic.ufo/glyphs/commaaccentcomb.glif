@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaaccentcomb" format="2">
   <unicode hex="0326"/>
-  <anchor x="0" y="0" name="_bottom"/>
-  <anchor x="-28" y="-200" name="bottom"/>
+  <anchor x="-3.5" y="0" name="_bottom"/>
+  <anchor x="-31.5" y="-200" name="bottom"/>
   <outline>
     <component base="px" xOffset="-128" yOffset="-200"/>
     <component base="px" xOffset="-14" yOffset="-100"/>

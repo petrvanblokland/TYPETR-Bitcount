@@ -2,7 +2,6 @@
 <glyph name="t" format="2">
   <advance width="600"/>
   <unicode hex="0074"/>
-  <anchor x="71" y="500" name="_top"/>
   <outline>
     <component base="px" xOffset="56" yOffset="400"/>
     <component base="px" xOffset="114" yOffset="100"/>

@@ -2,7 +2,7 @@
 <glyph name="scedilla" format="2">
   <advance width="500"/>
   <unicode hex="015F"/>
-  <anchor x="200" y="600" name="top"/>
+  <anchor x="200" y="500" name="top"/>
   <anchor x="200" y="-200" name="bottom"/>
   <outline>
     <component base="px" yOffset="-200"/>

@@ -2,8 +2,9 @@
 <glyph name="Itilde" format="2">
   <advance width="300"/>
   <unicode hex="0128"/>
-  <anchor x="200" y="1000" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="100.0" y="0" name="bottom"/>
+  <anchor x="200.0" y="0" name="ogonek"/>
+  <anchor x="100.0" y="1000" name="top"/>
   <outline>
     <component base="px" xOffset="-100" yOffset="700"/>
     <component base="px"/>

@@ -2,8 +2,8 @@
 <glyph name="rcaron" format="2">
   <advance width="400"/>
   <unicode hex="0159"/>
-  <anchor x="200" y="900" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="208.5" y="800" name="top"/>
+  <anchor x="96.5" y="0" name="bottom"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="14" yOffset="100"/>

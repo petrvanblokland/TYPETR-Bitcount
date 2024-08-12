@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="T.cd" format="2">
   <advance width="600"/>
-  <anchor x="200" y="700" name="top"/>
+  <anchor x="200" y="600" name="top"/>
   <anchor x="200" y="0" name="bottom"/>
   <outline>
     <component base="px" xOffset="100" yOffset="500"/>

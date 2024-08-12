@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Obreve.xc" format="2">
   <advance width="600"/>
-  <anchor x="300" y="1100" name="top"/>
-  <anchor x="300" y="0" name="bottom"/>
-  <anchor x="400" y="0" name="ogonek"/>
+  <anchor x="350.5" y="1100" name="top"/>
+  <anchor x="196.5" y="0" name="bottom"/>
+  <anchor x="396.5" y="0" name="ogonek"/>
   <outline>
     <component base="px" xOffset="14" yOffset="100"/>
     <component base="px" xOffset="28" yOffset="200"/>

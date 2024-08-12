@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f.xd_cd" format="2">
   <advance width="400"/>
-  <anchor x="200" y="700" name="top"/>
-  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="294.5" y="700" name="top"/>
+  <anchor x="196.5" y="0" name="bottom"/>
   <outline>
     <component base="px" xOffset="42" yOffset="300"/>
     <component base="px" xOffset="100"/>

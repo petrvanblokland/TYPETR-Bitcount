@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Aacute.sc_cd" format="2">
   <advance width="600"/>
-  <anchor x="100" y="700" name="top"/>
-  <anchor x="100" y="0" name="bottom"/>
-  <anchor x="500" y="0" name="ogonek"/>
+  <anchor x="200" y="600" name="top"/>
+  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="300" y="0" name="ogonek"/>
   <outline>
     <component base="px"/>
     <component base="px" yOffset="100"/>

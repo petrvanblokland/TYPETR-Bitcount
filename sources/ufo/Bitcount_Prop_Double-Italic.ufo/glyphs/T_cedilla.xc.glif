@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tcedilla.xc" format="2">
   <advance width="700"/>
-  <anchor x="400" y="800" name="top"/>
-  <anchor x="400" y="-200" name="bottom"/>
+  <anchor x="408.5" y="800" name="top"/>
+  <anchor x="268.5" y="-200" name="bottom"/>
   <outline>
     <component base="px" xOffset="84" yOffset="600"/>
     <component base="px" xOffset="172" yOffset="-200"/>

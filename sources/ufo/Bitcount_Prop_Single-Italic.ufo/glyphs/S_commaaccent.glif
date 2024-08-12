@@ -2,8 +2,8 @@
 <glyph name="Scommaaccent" format="2">
   <advance width="700"/>
   <unicode hex="0218"/>
-  <anchor x="400" y="700" name="top"/>
-  <anchor x="400" y="-300" name="bottom"/>
+  <anchor x="294.5" y="700" name="top"/>
+  <anchor x="154.5" y="-300" name="bottom"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="56" yOffset="400"/>

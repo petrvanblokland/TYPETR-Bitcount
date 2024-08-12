@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="p.xd_nct" format="2">
   <advance width="600"/>
-  <anchor x="284" y="600" name="top"/>
-  <anchor x="172" y="-200" name="bottom"/>
+  <anchor x="266.5" y="500" name="top"/>
+  <anchor x="168.5" y="-200" name="bottom"/>
   <outline>
     <component base="px" xOffset="-28" yOffset="-200"/>
     <component base="px" xOffset="-14" yOffset="-100"/>

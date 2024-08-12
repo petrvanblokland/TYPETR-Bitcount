@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="m.cd" format="2">
   <advance width="800"/>
-  <anchor x="400" y="600" name="top"/>
-  <anchor x="400" y="0" name="bottom"/>
+  <anchor x="366.5" y="500" name="top"/>
+  <anchor x="296.5" y="0" name="bottom"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="14" yOffset="100"/>

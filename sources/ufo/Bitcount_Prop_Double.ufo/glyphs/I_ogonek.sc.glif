@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iogonek.sc" format="2">
   <advance width="300"/>
-  <anchor x="200" y="600" name="top"/>
-  <anchor x="200" y="-200" name="bottom"/>
+  <anchor x="100.0" y="-200" name="bottom"/>
+  <anchor x="100.0" y="0" name="ogonek"/>
+  <anchor x="100.0" y="500" name="top"/>
   <outline>
     <component base="px" yOffset="-200"/>
     <component base="px" yOffset="-100"/>

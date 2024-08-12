@@ -2,8 +2,8 @@
 <glyph name="k" format="2">
   <advance width="600"/>
   <unicode hex="006B"/>
-  <anchor x="0" y="0" name="_ogonek"/>
-  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="200.0" y="0" name="bottom"/>
+  <anchor x="400.0" y="0" name="ogonek"/>
   <outline>
     <component base="px"/>
     <component base="px" yOffset="100"/>

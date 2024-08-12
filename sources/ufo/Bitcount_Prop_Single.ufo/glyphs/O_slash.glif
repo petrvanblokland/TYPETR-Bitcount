@@ -2,8 +2,8 @@
 <glyph name="Oslash" format="2">
   <advance width="700"/>
   <unicode hex="00D8"/>
-  <anchor x="400" y="700" name="top"/>
-  <anchor x="400" y="0" name="bottom"/>
+  <anchor x="200.0" y="700" name="top"/>
+  <anchor x="200.0" y="0" name="bottom"/>
   <anchor x="400" y="0" name="ogonek"/>
   <outline>
     <component base="px" yOffset="100"/>

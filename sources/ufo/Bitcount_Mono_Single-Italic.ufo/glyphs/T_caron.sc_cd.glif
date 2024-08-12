@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tcaron.sc_cd" format="2">
   <advance width="600"/>
-  <anchor x="226" y="900" name="top"/>
-  <anchor x="100" y="0" name="bottom"/>
+  <anchor x="322.5" y="900" name="top"/>
+  <anchor x="196.5" y="0" name="bottom"/>
   <outline>
     <component base="px" xOffset="156" yOffset="400"/>
     <component base="px" xOffset="198" yOffset="700"/>

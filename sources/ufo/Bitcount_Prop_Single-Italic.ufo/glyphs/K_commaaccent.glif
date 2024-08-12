@@ -2,8 +2,8 @@
 <glyph name="Kcommaaccent" format="2">
   <advance width="700"/>
   <unicode hex="0136"/>
-  <anchor x="400" y="700" name="top"/>
-  <anchor x="400" y="-200" name="bottom"/>
+  <anchor x="294.5" y="700" name="top"/>
+  <anchor x="168.5" y="-200" name="bottom"/>
   <outline>
     <component base="px"/>
     <component base="px" xOffset="14" yOffset="100"/>
