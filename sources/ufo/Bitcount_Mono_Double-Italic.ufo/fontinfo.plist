@@ -153,9 +153,9 @@
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>styleMapStyleName</key>
-    <string>regular</string>
+    <string>italic</string>
     <key>styleName</key>
-    <string>Regular Italic</string>
+    <string>Italic</string>
     <key>trademark</key>
     <string>Bitcount is a trademark of TYPETR | Buro Petr van Blokland + Claudia Mens</string>
     <key>unitsPerEm</key>
