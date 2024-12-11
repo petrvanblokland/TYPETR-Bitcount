@@ -171,3 +171,8 @@ for variant in VARIANTS:
     for stem in STEMS:
         designspace = DesignSpaceParams(variant, stem)
         DESIGN_SPACES[designspace.dsName] = designspace
+
+STAT_LOCATIONS = [
+    {"name": "Italic", "location": {"slnt": ITALIC, "CRSV": 1}},
+    {"name": "Upright", "location": {"slnt": ROMAN, "CRSV": 0.5}},
+]
