@@ -148,8 +148,6 @@
     <array/>
     <key>postscriptUnderlinePosition</key>
     <integer>-100</integer>
-    <key>postscriptUnderlineThickness</key>
-    <integer>100</integer>
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>styleMapFamilyName</key>
