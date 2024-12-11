@@ -136,11 +136,7 @@ def copyMasters(dsParams, googlefonts=False):
             if googlefonts:
                 dst.info.openTypeNameLicense = OFL_LICENSE_INFO
                 dst.info.copyright = GF_COPYRIGHT
-                if dst.info.familyName == "Bitcount Mono Double":
-                    dst.info.familyName = "Bitcount"
-                    dst.info.styleMapFamilyName = "Bitcount"
-                    dst.info.postscriptFontName = "Bitcount-Regular"
-                    dst.info.openTypeNamePreferredFamilyName = "Bitcount"
+                dst.info.familyName = dsParams.familyName
                 dst.info.openTypeOS2WinAscent = 1000
                 dst.info.openTypeOS2TypoLineGap = 0
                 dst.info.openTypeOS2TypoAscender = 840

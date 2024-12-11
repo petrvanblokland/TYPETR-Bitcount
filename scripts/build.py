@@ -87,7 +87,7 @@ for dsName in [
     if GOOGLEFONTS:
         oldColorPath = colorPath
         colorPath = colorPath.replace("[", "Ink[")  # Filename
-        newFamilyName = getFamilyName(dsParams) + " Ink"  # Family name
+        newFamilyName = dsParams.familyName + " Ink"  # Family name
         cmd = [  # Avoid shell globbing problems
             "gftools-rename-font",
             "--out",
