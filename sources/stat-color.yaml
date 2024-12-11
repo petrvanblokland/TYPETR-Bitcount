@@ -35,19 +35,8 @@
     value: 0.0
 - name: Slant
   tag: slnt
-  values:
-  - name: Default
-    value: 0.0
 - name: Cursive
   tag: CRSV
-  values:
-  - name: Roman
-    value: 0.0
-  - name: Auto
-    value: 0.5
-    flags: 0x2
-  - name: Cursive
-    value: 1.0
 - name: Size of Paint 1
   tag: SZP1
   values:
