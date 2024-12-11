@@ -38,6 +38,8 @@
   values:
   - name: Default
     value: 0.0
+  - name: Italic
+    value: -8.0
 - name: Cursive
   tag: CRSV
   values:

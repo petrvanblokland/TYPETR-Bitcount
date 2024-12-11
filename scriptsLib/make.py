@@ -236,8 +236,11 @@ def makeDesignSpaceFile(dsName, dsParams, googlefonts=False):
                         googlefonts
                     ):  # For GF builds, only add default wght/slnt instances
                         continue
-                    if slnt != slnt_DEF and googlefonts:
-                        continue
+
+                    if "Italic" in stylename:
+                        cursive = 1
+                    else:
+                        cursive = 0
 
                     template.instances.append(
                         InstanceDescriptor(
@@ -249,6 +252,7 @@ def makeDesignSpaceFile(dsName, dsParams, googlefonts=False):
                                 "Element Expansion": ELXP,
                                 "Element Shape": ELSH,
                                 "Slant": slnt,
+                                "Cursive": cursive,
                             },
                         )
                     )
