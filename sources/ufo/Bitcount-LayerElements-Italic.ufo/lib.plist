@@ -66,5 +66,16 @@
       <string>triangle</string>
       <string>vtriangle</string>
     </array>
+    <key>public.openTypeMeta</key>
+    <dict>
+      <key>dlng</key>
+      <array>
+        <string>Latn</string>
+      </array>
+      <key>slng</key>
+      <array>
+        <string>Latn</string>
+      </array>
+    </dict>
   </dict>
 </plist>
