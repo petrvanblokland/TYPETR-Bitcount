@@ -118,7 +118,7 @@ def copyMasters(dsParams, googlefonts=False):
             else:
                 shutil.copytree(srcPath, dstPath)
                 dst = ufoLib2.Font.open(dstPath)
-            dst.info.familyName = getFamilyName(md)
+            dst.info.familyName = dsParams.familyName
             dst.info.styleName = getStyleName(pd)
             dst[PIXEL_NAME] = pixels[pName]
             # Copy the COLRv1 mask pixel glyphs. Roman and italic pixels get copied from their own element source.
@@ -136,12 +136,13 @@ def copyMasters(dsParams, googlefonts=False):
             if googlefonts:
                 dst.info.openTypeNameLicense = OFL_LICENSE_INFO
                 dst.info.copyright = GF_COPYRIGHT
-                dst.info.familyName = dsParams.familyName
                 dst.info.openTypeOS2WinAscent = 1000
                 dst.info.openTypeOS2TypoLineGap = 0
                 dst.info.openTypeOS2TypoAscender = 840
                 dst.info.openTypeOS2TypoDescender = -360
                 dst.info.openTypeNameDescription = ""
+                del dst.info.postscriptFontName
+                dst.info.styleMapFamilyName = dsParams.familyName
                 if "space" in dst:
                     dst["uni00A0"] = dst["space"].copy("uni00A0")
                     dst["uni00A0"].unicode = 0x00A0
@@ -151,7 +152,6 @@ def copyMasters(dsParams, googlefonts=False):
 
             dst.save(dstPath, overwrite=True)
             dst.close()
-
     pixels.close()
 
 
@@ -172,6 +172,8 @@ def makeDesignSpaceFile(dsName, dsParams, googlefonts=False):
     familyName = f"Bitcount {variant} {stem}"
     if familyName == "Bitcount Mono Double":
         familyName = "Bitcount"
+    if familyName == "Bitcount Mono Single":
+        familyName = "Bitcount Single"
 
     weightInstances = {
         200: "Thin",
