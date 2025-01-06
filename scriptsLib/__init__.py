@@ -141,7 +141,7 @@ class DesignSpaceParams:
         return f"{MASTERS_PATH}{self.variant}-{self.stem}/"
 
     @property
-    def _vfPrefix(self):
+    def familyName(self):
         # Bitcount Mono Double -> Bitcount
         # Bitcount Mono Single -> Bitcount Single
         # everthing else -> Bitcount Variant Stem
@@ -149,9 +149,13 @@ class DesignSpaceParams:
             if self.stem == "Double":
                 return BITCOUNT
             else:
-                return f"{BITCOUNT}{self.stem}"
+                return f"{BITCOUNT} {self.stem}"
         else:
-            return f"{BITCOUNT}{self.variant}{self.stem}"
+            return f"{BITCOUNT} {self.variant} {self.stem}"
+
+    @property
+    def _vfPrefix(self):
+        return self.familyName.replace(" ", "")
 
     @property
     def vfName(self):
@@ -167,3 +171,8 @@ for variant in VARIANTS:
     for stem in STEMS:
         designspace = DesignSpaceParams(variant, stem)
         DESIGN_SPACES[designspace.dsName] = designspace
+
+STAT_LOCATIONS = [
+    {"name": "Italic", "location": {"slnt": ITALIC, "CRSV": 1}},
+    {"name": "Upright", "location": {"slnt": ROMAN, "CRSV": 0.5}},
+]

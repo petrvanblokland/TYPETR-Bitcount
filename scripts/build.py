@@ -11,9 +11,11 @@ import os
 import subprocess
 import sys
 
+import yaml
+
 sys.path.insert(0, ".")
 
-from scriptsLib import DESIGN_SPACES, MASTERS_PATH, VF_PATH
+from scriptsLib import DESIGN_SPACES, MASTERS_PATH, VF_PATH, STAT_LOCATIONS
 from scriptsLib.make import (
     addCOLRv1toVF,
     copyMasters,
@@ -62,7 +64,13 @@ for dsName in [
     subprocess.run(cmd, check=True)
 
     if GOOGLEFONTS:
-        cmd = "gftools-gen-stat --src sources/stat.yaml --inplace %s" % vfPath
+        from gftools.stat import gen_stat_tables_from_config
+        from fontTools.ttLib import TTFont
+
+        stat = yaml.safe_load(open("sources/stat.yaml"))
+        ttfont = TTFont(vfPath)
+        gen_stat_tables_from_config(stat, [ttfont], locations=STAT_LOCATIONS)
+        ttfont.save(vfPath)
     else:
         # Add STAT table to the freshly generate VF for all 10 axes
         cmd = "statmake --stylespace %s --designspace %s %s" % (
@@ -70,8 +78,8 @@ for dsName in [
             dsPath,
             vfPath,
         )
-    print("... statMake VF", cmd)
-    subprocess.run(cmd, shell=True, check=True)
+        print("... statMake VF", cmd)
+        subprocess.run(cmd, shell=True, check=True)
 
     if GOOGLEFONTS:
         print("... Run Google Fonts fixes", cmd)
@@ -87,7 +95,7 @@ for dsName in [
     if GOOGLEFONTS:
         oldColorPath = colorPath
         colorPath = colorPath.replace("[", "Ink[")  # Filename
-        newFamilyName = getFamilyName(dsParams) + " Ink"  # Family name
+        newFamilyName = dsParams.familyName + " Ink"  # Family name
         cmd = [  # Avoid shell globbing problems
             "gftools-rename-font",
             "--out",
@@ -102,12 +110,18 @@ for dsName in [
         os.remove(oldColorPath)
 
     if GOOGLEFONTS:
-        cmd = "gftools-gen-stat --src sources/stat-color.yaml  --inplace %s" % colorPath
+        from gftools.stat import gen_stat_tables_from_config
+        from fontTools.ttLib import TTFont
+
+        stat = yaml.safe_load(open("sources/stat-color.yaml"))
+        ttfont = TTFont(colorPath)
+        gen_stat_tables_from_config(stat, [ttfont], locations=STAT_LOCATIONS)
+        ttfont.save(colorPath)
     else:
         cmd = "statmake --stylespace %s --designspace %s %s" % (
             styleSpaceCOLRv1Path,
             dsPath,
             colorPath,
         )
-    print("... statMake COLRv1 VF", cmd)
-    subprocess.run(cmd, shell=True, check=True)
+        print("... statMake COLRv1 VF", cmd)
+        subprocess.run(cmd, shell=True, check=True)
