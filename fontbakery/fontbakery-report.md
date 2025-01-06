@@ -192,39 +192,8 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[4] Family checks</summary>
+<details><summary>[3] Family checks</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Fonts have consistent underline thickness? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.post.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Thickness of the underline is not the same across this family. In order to fix this, please make sure that the underlineThickness value is the same in the 'post' table of all of this family font files.
-Detected underlineThickness values are:
-fonts/ttf/variable/BitcountGridSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf: 50
-fonts/ttf/variable/BitcountGridDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf: 50
-fonts/ttf/variable/BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf: 50
-fonts/ttf/variable/BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf: 50
-fonts/ttf/variable/BitcountGridSingle[CRSV,ELSH,ELXP,slnt,wght].ttf: 50
-fonts/ttf/variable/BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf: 50
-fonts/ttf/variable/BitcountPropDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf: 50
-fonts/ttf/variable/Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf: 100
-fonts/ttf/variable/BitcountInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf: 100
-fonts/ttf/variable/BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf: 50
-fonts/ttf/variable/BitcountPropSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf: 50
-fonts/ttf/variable/BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf: 50</p>
- [code: inconsistent-underline-thickness]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present, otherwise uses Font Family name (nameID 1) <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -250,9 +219,9 @@ fonts/ttf/variable/BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN
 </ul>
 </li>
 <li>
-<p>'Bitcount Mono Single' was found in:</p>
+<p>'Bitcount Single' was found in:</p>
 <ul>
-<li>BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf (nameID 1)</li>
+<li>BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf (nameID 16)</li>
 </ul>
 </li>
 <li>
@@ -282,11 +251,11 @@ fonts/ttf/variable/BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN
 <li>
 <p>'Bitcount' was found in:</p>
 <ul>
-<li>Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf (nameID 1)</li>
+<li>Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf (nameID 16)</li>
 </ul>
 </li>
 <li>
-<p>'Bitcount Mono Double Ink' was found in:</p>
+<p>'Bitcount Ink' was found in:</p>
 <ul>
 <li>BitcountInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf (nameID 1)</li>
 </ul>
@@ -304,7 +273,7 @@ fonts/ttf/variable/BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN
 </ul>
 </li>
 <li>
-<p>'Bitcount Mono Single Ink' was found in:</p>
+<p>'Bitcount Single Ink' was found in:</p>
 <ul>
 <li>BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf (nameID 1)</li>
 </ul>
@@ -530,10 +499,10 @@ fonts/ttf/variable/BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN
 </div>
 </details>
 
-<details><summary>[13] BitcountGridSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[16] BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Does full font name begin with the font family name? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
 
 
@@ -542,939 +511,14 @@ fonts/ttf/variable/BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN
 
 
 
-* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
- [code: mono-bad-panose]
-
-
-
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1187 instead.
-Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
- [code: bad-numberOfHMetrics]
-
-
-
-* ⚠️ **WARN** <p>Font is monospaced but 14 glyphs (1.18%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.cd_it', 'fl.cd_it', 'fi.sc', 'fl.sc', 'fi.sc_cd', 'fl.sc_cd', 'fi.cd', 'fl.cd']</p>
- [code: mono-outliers]
+* 🔥 **FAIL** <p>On the 'name' table, the full font name 'Bitcount Single Regular' does not begin with the font family name 'Bitcount Mono Single' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1.</p>
+ [code: mismatch-font-names]
 
 
 
 </div>
 </details>
 
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+0145: LATIN CAPITAL LETTER N WITH CEDILLA</td>
-<td align="left">U+0146: LATIN SMALL LETTER N WITH CEDILLA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Shaper didn't attach cedillacomb to n</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 267 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 273 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* ⚠️ **WARN** <p>Name ID 6 'BitcountGridSingleInk-Regular' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms.</p>
- [code: nameid6-too-long]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Germandbls.cd
-
-- Germandbls.ct
-
-- Germandbls.sc
-
-- dslash
-
-- el_chess
-
-- el_chesssquare
-
-- el_circle
-
-- el_circle_large
-
-- el_circles
-
-- el_five_circles
-
-- el_hstripe
-
-- el_rastersquare
-
-- el_square
-
-- el_square_large
-
-- el_squares
-
-- el_squares2
-
-- el_triangle
-
-- el_vstripe
-
-- el_vtriangle
-
-- el_vzigzag
-
-- el_zigzag
-
-- fi.sc
-
-- fi.sc_cd
-
-- fl.sc
-
-- fl.sc_cd
-
-- idotaccent
-
-- jdotless.cd
-
-- jdotless.xd
-
-- jdotless.xd_cd
-
-- ncommaaccent
-
-- uni00A0
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot;</p>
- [code: not-recommended-00a0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf/variable does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
-<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
-<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
-<li>U+2206 INCREMENT: try adding math</li>
-<li>U+220F N-ARY PRODUCT: try adding math</li>
-<li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+221A SQUARE ROOT: try adding math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+222B INTEGRAL: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+24B9 CIRCLED LATIN CAPITAL LETTER D: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+F8FF : not included in any glyphset definition</li>
-<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
-<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[12] BitcountGridDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
-<div>
-<details>
-    <summary>💥 <b>ERROR</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>Failed with AttributeError: 'NoneType' object has no attribute 'LookupType'</p>
-<pre><code>  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
-    subresults = list(subresults)
-  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checks/universal/glyphset.py&quot;, line 249, in com_google_fonts_check_unreachable_glyphs
-    remove_lookup_outputs(all_glyphs, lookup)
-  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checks/universal/glyphset.py&quot;, line 111, in remove_lookup_outputs
-    if lookup.LookupType == 1:  # Single:
-
-</code></pre>
- [code: failed-check]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
- [code: mono-bad-panose]
-
-
-
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 709 instead.
-Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
- [code: bad-numberOfHMetrics]
-
-
-
-* ⚠️ **WARN** <p>Font is monospaced but 8 glyphs (1.13%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.sc', 'fl.sc']</p>
- [code: mono-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking with ots-sanitize. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.sanitize.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>ots-sanitize returned an error code (1). Output follows:</p>
-<p>ERROR: GSUB: Bad lookup offset 0 for lookup 0
-ERROR: GSUB: Failed to parse lookup list table
-ERROR: GSUB: Failed to parse table
-Failed to sanitize file!</p>
- [code: ots-sanitize-error]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 265 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* ⚠️ **WARN** <p>Name ID 6 'BitcountGridDoubleInk-Regular' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms.</p>
- [code: nameid6-too-long]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot;</p>
- [code: not-recommended-00a0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf/variable does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
-<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
-<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
-<li>U+2206 INCREMENT: try adding math</li>
-<li>U+220F N-ARY PRODUCT: try adding math</li>
-<li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+221A SQUARE ROOT: try adding math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+222B INTEGRAL: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+24B9 CIRCLED LATIN CAPITAL LETTER D: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+F8FF : not included in any glyphset definition</li>
-<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
-<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[14] BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
-<div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -1505,7 +549,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
 
 
@@ -1514,22 +558,183 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+0145: LATIN CAPITAL LETTER N WITH CEDILLA</td>
-<td align="left">U+0146: LATIN SMALL LETTER N WITH CEDILLA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
 
 
 
@@ -1537,7 +742,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
     <div>
 
 
@@ -1546,41 +751,9 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Shaper didn't attach cedillacomb to n</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 274: Italic']</p>
+ [code: bad-italic]
 
 
 
@@ -1588,7 +761,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
     <div>
 
 
@@ -1597,8 +770,75 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Expected &quot;BitcountMonoSingle[CRSV,ELSH,ELXP,slnt,wght].ttf. Got BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf.</p>
- [code: bad-filename]
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 284 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 284 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
@@ -1606,7 +846,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
     <div>
 
 
@@ -1615,132 +855,44 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
+* 🔥 **FAIL** <p>Font names are incorrect:</p>
 <table>
 <thead>
 <tr>
-<th align="left">Name</th>
+<th align="left">nameID</th>
 <th align="left">current</th>
 <th align="left">expected</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+<td align="left">Family Name</td>
+<td align="left"><strong>Bitcount Mono Single</strong></td>
+<td align="left"><strong>Bitcount Single</strong></td>
 </tr>
 <tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
+<td align="left">Subfamily Name</td>
 <td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">Regular</td>
 </tr>
 <tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+<td align="left">Full Name</td>
+<td align="left">Bitcount Single Regular</td>
+<td align="left">Bitcount Single Regular</td>
 </tr>
 <tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">Postscript Name</td>
+<td align="left"><strong>BitcountMonoSingle-Regular</strong></td>
+<td align="left"><strong>BitcountSingle-Regular</strong></td>
 </tr>
 <tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">Typographic Family Name</td>
+<td align="left"><strong>Bitcount Single</strong></td>
+<td align="left"><strong>N/A</strong></td>
 </tr>
 </tbody>
 </table>
- [code: bad-fvar-instances]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-</code></pre>
- [code: missing-codepoints]
+ [code: bad-names]
 
 
 
@@ -1848,8 +1000,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - jdotless.xd_cd
 
-- ncommaaccent
-
 - nine.lc_xd
 
 - seven.lc_xd
@@ -1917,390 +1067,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
-<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
-<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
-<li>U+2206 INCREMENT: try adding math</li>
-<li>U+220F N-ARY PRODUCT: try adding math</li>
-<li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+221A SQUARE ROOT: try adding math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+222B INTEGRAL: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+24B9 CIRCLED LATIN CAPITAL LETTER D: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+F8FF : not included in any glyphset definition</li>
-<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
-<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ j̦̃ j̦̄ j̦̆</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers).</p>
- [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[11] BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
-<div>
-<details>
-    <summary>💥 <b>ERROR</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>Failed with AttributeError: 'NoneType' object has no attribute 'LookupType'</p>
-<pre><code>  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
-    subresults = list(subresults)
-  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checks/universal/glyphset.py&quot;, line 249, in com_google_fonts_check_unreachable_glyphs
-    remove_lookup_outputs(all_glyphs, lookup)
-  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checks/universal/glyphset.py&quot;, line 111, in remove_lookup_outputs
-    if lookup.LookupType == 1:  # Single:
-
-</code></pre>
- [code: failed-check]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
- [code: mono-bad-panose]
-
-
-
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 709 instead.
-Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
- [code: bad-numberOfHMetrics]
-
-
-
-* ⚠️ **WARN** <p>Font is monospaced but 8 glyphs (1.13%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.sc', 'fl.sc']</p>
- [code: mono-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking with ots-sanitize. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.sanitize.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>ots-sanitize returned an error code (1). Output follows:</p>
-<p>ERROR: GSUB: Bad lookup offset 0 for lookup 0
-ERROR: GSUB: Failed to parse lookup list table
-ERROR: GSUB: Failed to parse table
-Failed to sanitize file!</p>
- [code: ots-sanitize-error]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot;</p>
- [code: not-recommended-00a0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf/variable does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -2384,7 +1161,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
 
@@ -2393,41 +1170,11 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[12] BitcountGridSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
- [code: mono-bad-panose]
-
-
-
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1187 instead.
-Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
- [code: bad-numberOfHMetrics]
-
-
-
-* ⚠️ **WARN** <p>Font is monospaced but 14 glyphs (1.18%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.cd_it', 'fl.cd_it', 'fi.sc', 'fl.sc', 'fi.sc_cd', 'fl.sc_cd', 'fi.cd', 'fl.cd']</p>
- [code: mono-outliers]
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ j̦̃ j̦̄ j̦̆</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -2435,7 +1182,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
     <div>
 
 
@@ -2444,93 +1191,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+0145: LATIN CAPITAL LETTER N WITH CEDILLA</td>
-<td align="left">U+0146: LATIN SMALL LETTER N WITH CEDILLA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Shaper didn't attach cedillacomb to n</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
 <table>
 <thead>
 <tr>
@@ -2542,334 +1203,97 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <tbody>
 <tr>
 <td align="left">Thin Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Light Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Medium Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Bold Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Black Italic</td>
-<td align="left">N/A</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
 <td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
 </tr>
 <tr>
 <td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
 <td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
 </tr>
 </tbody>
 </table>
- [code: bad-fvar-instances]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Germandbls.cd
-
-- Germandbls.ct
-
-- Germandbls.sc
-
-- dslash
-
-- el_chess
-
-- el_chesssquare
-
-- el_circle
-
-- el_circle_large
-
-- el_circles
-
-- el_diamond
-
-- el_five_circles
-
-- el_hstripe
-
-- el_raster
-
-- el_rastersquare
-
-- el_square
-
-- el_square_large
-
-- el_squares
-
-- el_squares2
-
-- el_star
-
-- el_triangle
-
-- el_vstripe
-
-- el_vtriangle
-
-- el_vzigzag
-
-- el_zigzag
-
-- fi.sc
-
-- fi.sc_cd
-
-- fl.sc
-
-- fl.sc_cd
-
-- idotaccent
-
-- jdotless.cd
-
-- jdotless.xd
-
-- jdotless.xd_cd
-
-- ncommaaccent
-
-- uni00A0
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot;</p>
- [code: not-recommended-00a0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf/variable does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
-<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
-<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
-<li>U+2206 INCREMENT: try adding math</li>
-<li>U+220F N-ARY PRODUCT: try adding math</li>
-<li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+221A SQUARE ROOT: try adding math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+222B INTEGRAL: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+24B9 CIRCLED LATIN CAPITAL LETTER D: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+F8FF : not included in any glyphset definition</li>
-<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
-<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
+ [code: suspicious-fvar-coords]
 
 
 
@@ -2896,8 +1320,26 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[15] Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Does full font name begin with the font family name? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>On the 'name' table, the full font name 'Bitcount Regular' does not begin with the font family name 'Bitcount Mono Double' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1.</p>
+ [code: mismatch-font-names]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -2928,7 +1370,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
 
 
@@ -2937,112 +1379,341 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 273: Italic']</p>
+ [code: bad-italic]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 277 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 277 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 281 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 281 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 283 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 283 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font names are incorrect:</p>
 <table>
 <thead>
 <tr>
-<th align="left">Name</th>
+<th align="left">nameID</th>
 <th align="left">current</th>
 <th align="left">expected</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+<td align="left">Family Name</td>
+<td align="left"><strong>Bitcount Mono Double</strong></td>
+<td align="left"><strong>Bitcount</strong></td>
 </tr>
 <tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
+<td align="left">Subfamily Name</td>
 <td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">Regular</td>
 </tr>
 <tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+<td align="left">Full Name</td>
+<td align="left">Bitcount Regular</td>
+<td align="left">Bitcount Regular</td>
 </tr>
 <tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">Postscript Name</td>
+<td align="left"><strong>BitcountMonoDouble-Regular</strong></td>
+<td align="left"><strong>Bitcount-Regular</strong></td>
 </tr>
 <tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+<td align="left">Typographic Family Name</td>
+<td align="left"><strong>Bitcount</strong></td>
+<td align="left"><strong>N/A</strong></td>
 </tr>
 </tbody>
 </table>
- [code: bad-fvar-instances]
+ [code: bad-names]
 
 
 
@@ -3261,17 +1932,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -3348,6 +2019,2901 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>No dotted circle glyph present</p>
  [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[13] BitcountGridSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
+ [code: mono-bad-panose]
+
+
+
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1187 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
+ [code: bad-numberOfHMetrics]
+
+
+
+* ⚠️ **WARN** <p>Font is monospaced but 14 glyphs (1.18%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.cd_it', 'fl.cd_it', 'fi.sc', 'fl.sc', 'fi.sc_cd', 'fl.sc_cd', 'fi.cd', 'fl.cd']</p>
+ [code: mono-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 317: Italic']</p>
+ [code: bad-italic]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink Thin Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 266 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 274 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 277 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink Bold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 280 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 281 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Ink Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* ⚠️ **WARN** <p>Name ID 6 'BitcountGridSingleInk-Regular' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms.</p>
+ [code: nameid6-too-long]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- Germandbls.cd
+
+- Germandbls.ct
+
+- Germandbls.sc
+
+- dslash
+
+- el_chess
+
+- el_chesssquare
+
+- el_circle
+
+- el_circle_large
+
+- el_circles
+
+- el_five_circles
+
+- el_hstripe
+
+- el_rastersquare
+
+- el_square
+
+- el_square_large
+
+- el_squares
+
+- el_squares2
+
+- el_triangle
+
+- el_vstripe
+
+- el_vtriangle
+
+- el_vzigzag
+
+- el_zigzag
+
+- fi.sc
+
+- fi.sc_cd
+
+- fl.sc
+
+- fl.sc_cd
+
+- idotaccent
+
+- jdotless.cd
+
+- jdotless.xd
+
+- jdotless.xd_cd
+
+- uni00A0
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot;</p>
+ [code: not-recommended-00a0]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf/variable does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
+<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
+<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
+<li>U+2206 INCREMENT: try adding math</li>
+<li>U+220F N-ARY PRODUCT: try adding math</li>
+<li>U+2211 N-ARY SUMMATION: try adding math</li>
+<li>U+221A SQUARE ROOT: try adding math</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+222B INTEGRAL: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+24B9 CIRCLED LATIN CAPITAL LETTER D: try adding symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+F8FF : not included in any glyphset definition</li>
+<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
+<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[14] BitcountGridDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<div>
+<details>
+    <summary>💥 <b>ERROR</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Failed with AttributeError: 'NoneType' object has no attribute 'LookupType'</p>
+<pre><code>  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
+    subresults = list(subresults)
+  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checks/universal/glyphset.py&quot;, line 249, in com_google_fonts_check_unreachable_glyphs
+    remove_lookup_outputs(all_glyphs, lookup)
+  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checks/universal/glyphset.py&quot;, line 111, in remove_lookup_outputs
+    if lookup.LookupType == 1:  # Single:
+
+</code></pre>
+ [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
+ [code: mono-bad-panose]
+
+
+
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 709 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
+ [code: bad-numberOfHMetrics]
+
+
+
+* ⚠️ **WARN** <p>Font is monospaced but 8 glyphs (1.13%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.sc', 'fl.sc']</p>
+ [code: mono-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking with ots-sanitize. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.sanitize.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>ots-sanitize returned an error code (1). Output follows:</p>
+<p>ERROR: GSUB: Bad lookup offset 0 for lookup 0
+ERROR: GSUB: Failed to parse lookup list table
+ERROR: GSUB: Failed to parse table
+Failed to sanitize file!</p>
+ [code: ots-sanitize-error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 315: Italic']</p>
+ [code: bad-italic]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink Thin Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 264 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 266 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 267 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 274 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink Bold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 279 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Ink Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 280 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* ⚠️ **WARN** <p>Name ID 6 'BitcountGridDoubleInk-Regular' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms.</p>
+ [code: nameid6-too-long]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot;</p>
+ [code: not-recommended-00a0]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf/variable does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
+<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
+<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
+<li>U+2206 INCREMENT: try adding math</li>
+<li>U+220F N-ARY PRODUCT: try adding math</li>
+<li>U+2211 N-ARY SUMMATION: try adding math</li>
+<li>U+221A SQUARE ROOT: try adding math</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+222B INTEGRAL: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+24B9 CIRCLED LATIN CAPITAL LETTER D: try adding symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+F8FF : not included in any glyphset definition</li>
+<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
+<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[14] BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<div>
+<details>
+    <summary>💥 <b>ERROR</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Failed with AttributeError: 'NoneType' object has no attribute 'LookupType'</p>
+<pre><code>  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
+    subresults = list(subresults)
+  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checks/universal/glyphset.py&quot;, line 249, in com_google_fonts_check_unreachable_glyphs
+    remove_lookup_outputs(all_glyphs, lookup)
+  File &quot;/home/runner/work/TYPETR-Bitcount/TYPETR-Bitcount/venv/lib/python3.10/site-packages/fontbakery/checks/universal/glyphset.py&quot;, line 111, in remove_lookup_outputs
+    if lookup.LookupType == 1:  # Single:
+
+</code></pre>
+ [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
+ [code: mono-bad-panose]
+
+
+
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 709 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
+ [code: bad-numberOfHMetrics]
+
+
+
+* ⚠️ **WARN** <p>Font is monospaced but 8 glyphs (1.13%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.sc', 'fl.sc']</p>
+ [code: mono-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking with ots-sanitize. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.sanitize.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>ots-sanitize returned an error code (1). Output follows:</p>
+<p>ERROR: GSUB: Bad lookup offset 0 for lookup 0
+ERROR: GSUB: Failed to parse lookup list table
+ERROR: GSUB: Failed to parse table
+Failed to sanitize file!</p>
+ [code: ots-sanitize-error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 270: Italic']</p>
+ [code: bad-italic]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 266 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 266 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 274 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 274 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 280 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Double Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 280 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot;</p>
+ [code: not-recommended-00a0]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf/variable does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
+<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
+<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
+<li>U+2206 INCREMENT: try adding math</li>
+<li>U+220F N-ARY PRODUCT: try adding math</li>
+<li>U+2211 N-ARY SUMMATION: try adding math</li>
+<li>U+221A SQUARE ROOT: try adding math</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+222B INTEGRAL: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+24B9 CIRCLED LATIN CAPITAL LETTER D: try adding symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+F8FF : not included in any glyphset definition</li>
+<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
+<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[13] BitcountGridSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
+ [code: mono-bad-panose]
+
+
+
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1187 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
+ [code: bad-numberOfHMetrics]
+
+
+
+* ⚠️ **WARN** <p>Font is monospaced but 14 glyphs (1.18%) have a different width. You should check the widths of: ['canvas', 'px', 'fi', 'fl', 'fi.it', 'fl.it', 'fi.cd_it', 'fl.cd_it', 'fi.sc', 'fl.sc', 'fi.sc_cd', 'fl.sc_cd', 'fi.cd', 'fl.cd']</p>
+ [code: mono-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 272: Italic']</p>
+ [code: bad-italic]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 274 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 274 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 280 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 280 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Grid Single Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- Germandbls.cd
+
+- Germandbls.ct
+
+- Germandbls.sc
+
+- dslash
+
+- el_chess
+
+- el_chesssquare
+
+- el_circle
+
+- el_circle_large
+
+- el_circles
+
+- el_diamond
+
+- el_five_circles
+
+- el_hstripe
+
+- el_raster
+
+- el_rastersquare
+
+- el_square
+
+- el_square_large
+
+- el_squares
+
+- el_squares2
+
+- el_star
+
+- el_triangle
+
+- el_vstripe
+
+- el_vtriangle
+
+- el_vzigzag
+
+- el_zigzag
+
+- fi.sc
+
+- fi.sc_cd
+
+- fl.sc
+
+- fl.sc_cd
+
+- idotaccent
+
+- jdotless.cd
+
+- jdotless.xd
+
+- jdotless.xd_cd
+
+- uni00A0
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot;</p>
+ [code: not-recommended-00a0]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf/variable does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
+<li>U+2126 OHM SIGN: not included in any glyphset definition</li>
+<li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
+<li>U+2206 INCREMENT: try adding math</li>
+<li>U+220F N-ARY PRODUCT: try adding math</li>
+<li>U+2211 N-ARY SUMMATION: try adding math</li>
+<li>U+221A SQUARE ROOT: try adding math</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+222B INTEGRAL: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+24B9 CIRCLED LATIN CAPITAL LETTER D: try adding symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+F8FF : not included in any glyphset definition</li>
+<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
+<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
 
 
 
@@ -3406,7 +4972,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
 
 
@@ -3415,26 +4981,183 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Double Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 274 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
 
 
 
-* ⚠️ **WARN** <p>Name ID 6 'BitcountMonoDoubleInk-Regular' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms.</p>
- [code: nameid6-too-long]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
 
 
 
@@ -3442,7 +5165,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
     <div>
 
 
@@ -3451,130 +5174,9 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Expected &quot;BitcountMonoDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf.</p>
- [code: bad-filename]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 318: Italic']</p>
+ [code: bad-italic]
 
 
 
@@ -3787,17 +5389,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -3881,6 +5483,125 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
     <div>
 
@@ -3900,7 +5621,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[14] BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
@@ -3932,7 +5653,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
 
 
@@ -3941,22 +5662,183 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+0145: LATIN CAPITAL LETTER N WITH CEDILLA</td>
-<td align="left">U+0146: LATIN SMALL LETTER N WITH CEDILLA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
 
 
 
@@ -3964,7 +5846,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
     <div>
 
 
@@ -3973,41 +5855,9 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Shaper didn't attach cedillacomb to n</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 319: Italic']</p>
+ [code: bad-italic]
 
 
 
@@ -4024,186 +5874,27 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Single Ink ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 273 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Single Ink Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Mono Single Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Single Ink SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
 
 
-* ⚠️ **WARN** <p>Name ID 6 'BitcountMonoSingleInk-Regular' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms.</p>
- [code: nameid6-too-long]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Expected &quot;BitcountMonoSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf. Got BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf.</p>
- [code: bad-filename]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-</code></pre>
- [code: missing-codepoints]
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Single Ink ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
@@ -4305,8 +5996,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - jdotless.xd_cd
 
-- ncommaaccent
-
 - nine.lc_xd
 
 - seven.lc_xd
@@ -4374,17 +6063,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -4411,6 +6100,38 @@ definitions.</p>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
 
 
 
@@ -4447,9 +6168,128 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ j̦̃ j̦̄ j̦̆</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers).</p>
  [code: soft-dotted]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
 
 
 
@@ -4476,7 +6316,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[13] BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[14] BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Check glyphs do not have duplicate components which have the same x,y coordinates. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.glyf.html#"></a></summary>
@@ -4498,7 +6338,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
 
 
@@ -4507,22 +6347,183 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+0145: LATIN CAPITAL LETTER N WITH CEDILLA</td>
-<td align="left">U+0146: LATIN SMALL LETTER N WITH CEDILLA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
 
 
 
@@ -4530,7 +6531,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
     <div>
 
 
@@ -4539,41 +6540,9 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Shaper didn't attach cedillacomb to n</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 274: Italic']</p>
+ [code: bad-italic]
 
 
 
@@ -4581,7 +6550,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
     <div>
 
 
@@ -4590,132 +6559,75 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-</code></pre>
- [code: missing-codepoints]
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 284 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 284 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
@@ -4735,7 +6647,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 10 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-lessequal, plusminus, greaterequal</p>
+greaterequal, lessequal, plusminus</p>
  [code: width-outliers]
 
 
@@ -4818,8 +6730,6 @@ lessequal, plusminus, greaterequal</p>
 
 - jdotless.xd
 
-- ncommaaccent
-
 - nine.lc_xd
 
 - seven.lc_xd
@@ -4887,17 +6797,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -4931,6 +6841,38 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
@@ -4942,6 +6884,125 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>No dotted circle glyph present</p>
  [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
 
 
 
@@ -5012,7 +7073,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
 
 
@@ -5021,22 +7082,183 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+0145: LATIN CAPITAL LETTER N WITH CEDILLA</td>
-<td align="left">U+0146: LATIN SMALL LETTER N WITH CEDILLA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
 
 
 
@@ -5044,7 +7266,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
     <div>
 
 
@@ -5053,41 +7275,9 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">lv_Latn (Latvian)</td>
-<td align="left">Shaper didn't attach cedillacomb to n</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 319: Italic']</p>
+ [code: bad-italic]
 
 
 
@@ -5104,19 +7294,67 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink Thin Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 273 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 276 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 279 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink Bold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 280 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 283 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Single Ink Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 284 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
@@ -5124,148 +7362,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>Name ID 6 'BitcountPropSingleInk-Regular' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms.</p>
  [code: nameid6-too-long]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-</code></pre>
- [code: missing-codepoints]
 
 
 
@@ -5285,7 +7381,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 10 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-lessequal, plusminus, greaterequal</p>
+greaterequal, lessequal, plusminus</p>
  [code: width-outliers]
 
 
@@ -5362,8 +7458,6 @@ lessequal, plusminus, greaterequal</p>
 
 - jdotless.xd
 
-- ncommaaccent
-
 - nine.lc_xd
 
 - seven.lc_xd
@@ -5431,17 +7525,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -5475,6 +7569,38 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
@@ -5486,6 +7612,125 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>No dotted circle glyph present</p>
  [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
 
 
 
@@ -5534,8 +7779,220 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[11] BitcountPropDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[13] BitcountPropDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 318: Italic']</p>
+ [code: bad-italic]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
     <div>
@@ -5546,19 +8003,67 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 268 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink Thin Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 267 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 272 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
 
 
-* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 274 exceeds 32 characters.</p>
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink ExtraLight' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 270 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 277 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink SemiBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 278 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink Bold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 279 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 281 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink ExtraBold' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 282 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Ink Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 283 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
 
@@ -5566,128 +8071,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>Name ID 6 'BitcountPropDoubleInk-Regular' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms.</p>
  [code: nameid6-too-long]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
 
 
 
@@ -5843,17 +8226,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -5937,6 +8320,125 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5, SZP1=30.0, XPN1=50.0, YPN1=50.0, SZP2=30.0, XPN2=50.0, YPN2=50.0</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
     <div>
 
@@ -5978,10 +8480,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[13] BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
 
 
@@ -5990,112 +8492,287 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Thin Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Thin</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraLight</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Light</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Regular</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Medium Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Medium</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">SemiBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">SemiBold</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Bold</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">ExtraBold</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black Italic</td>
-<td align="left">N/A</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
-</tr>
-<tr>
-<td align="left">Black</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '-8.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '1.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'slnt' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+* 🔥 **FAIL** <p>STAT table is missing Axis Value for 'CRSV' value '0.0'</p>
+ [code: missing-axis-value-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check correctness of STAT table strings <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.stat.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following AxisValue entries on the STAT table should not contain &quot;Italic&quot;:
+['nameID 273: Italic']</p>
+ [code: bad-italic]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double ExtraLight Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 269 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Light Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Medium Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 277 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 277 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 281 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 281 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 283 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
+
+
+
+* 🔥 **FAIL** <p>Variable font instance name 'Bitcount Prop Double Black Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 283 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
@@ -6257,17 +8934,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, coptic, malayalam, syriac, canadian-aboriginal, tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, math, tifinagh, old-permic, syriac, tai-le, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -6351,6 +9028,125 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin Italic</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=100.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight Italic</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=200.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light Italic</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=300.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Italic</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=400.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium Italic</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=500.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold Italic</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=600.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold Italic</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=700.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold Italic</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=800.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black Italic</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=1.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=-8.0, CRSV=0.5</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.0</td>
+<td align="left">wght=900.0, ELXP=0.0, ELSH=0.0, slnt=0.0, CRSV=0.5</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
     <div>
 
@@ -6399,8 +9195,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 2 | 0 | 63 | 94 | 1064 | 97 | 1434 | 0 | 
-| 0% | 0% | 2% | 3% | 39% | 4% | 52% | 0% | 
+| 2 | 0 | 62 | 112 | 1064 | 109 | 1405 | 0 | 
+| 0% | 0% | 2% | 4% | 39% | 4% | 51% | 0% | 
 
 
 
