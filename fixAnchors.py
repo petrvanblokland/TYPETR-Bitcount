@@ -1,3 +1,8 @@
+#
+# This script fixes the anchor positions of all Bitcount masters
+# It assumes that each glyph already contains the right selection of anchors.
+# The italic anchors are copied from the roman masters and then slanted.
+#
 if 0:
     allNames = {}
     for f in AllFonts():
