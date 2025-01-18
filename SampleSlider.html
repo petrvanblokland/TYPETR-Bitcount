@@ -7,7 +7,7 @@
   <style>
     @font-face {
       font-family: 'TYPETR-Bitcount-VF';
-      src: url('fonts/ttf/variable/Bitcount[wght,ELXP,ELSH,slnt,SZP1,XPN1,YPN1,SZP2,XPN2,YPN2].ttf') format('truetype');
+      src: url('fonts/ttf/variable/BitcountInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf') format('truetype');
       /* Add other font properties if needed */
     }
     #text-container {
@@ -44,55 +44,68 @@
   </div>
 
   <div class="slider-container">
-    <label for="weight-slider">Font Weight</label>
+    <label for="weight-slider">Font Weight [wght]</label>
     <input type="range" min="100" max="900" value="400" class="slider" id="weight-slider">
   </div>
 
   <div class="slider-container">
-    <label for="ELXP-slider">Pixel Open</label>
-    <input type="range" min="0" max="1000" value="0" class="slider" id="ELXP-slider">
+    <label for="ELXP-slider">Pixel Open - Element expansion [ELXP]</label>
+    <input type="checkbox" id="fixELXP" value="1" checked/>
+    <input type="range" min="0" max="100" value="0" class="slider" id="ELXP-slider">
   </div>
 
   <div class="slider-container">
-    <label for="ELSH-slider">Element Shape:</label>
-    <input type="range" min="0" max="1000" value="0" class="slider" id="ELSH-slider">
+    <label for="ELSH-slider">Element Shape [ELSH]</label>
+    <input type="checkbox" id="fixELSH" value="1" checked/>
+    <input type="range" min="0" max="100" value="0" class="slider" id="ELSH-slider">
   </div>
 
   <div class="slider-container">
-    <label for="slant-slider">Slant</label>
-    <input type="range" min="1" max="1000" value="1" class="slider" id="slant-slider">
+    <label for="slant-slider">Slant [slnt]</label>
+    <input type="range" min="0" max="100" value="1" class="slider" id="slant-slider">
+  </div>
+
+  <div class="slider-container">
+    <label for="slant-slider">Cursive [CRSV]</label>
+    <input type="range" min="0" max="1" value="0" class="slider" id="CRSV-slider">
   </div>
 
   <h2>COLRv1 axes</h2>
 
   <div class="slider-container">
-    <label for="fgSize-slider">Foreground Size</label>
-    <input type="range" min="0" max="1000" value="300" class="slider" id="fgSize-slider">
+    <label for="SZP2-slider">Foreground Size - Size of Paint 2 [SZP2]</label>
+    <input type="checkbox" id="fixSZP2" value="1" checked/>
+    <input type="range" min="0" max="100" value="30" class="slider" id="SZP2-slider">
   </div>
 
   <div class="slider-container">
-    <label for="fgX-slider">Foreground X</label>
-    <input type="range" min="-100" max="100" value="0" class="slider" id="fgX-slider">
+    <label for="XPN2-slider">Foreground X [XPN2]</label>
+    <input type="checkbox" id="fixXPN2" value="1" checked/>
+    <input type="range" min="0" max="100" value="50" class="slider" id="XPN2-slider">
   </div>
 
   <div class="slider-container">
-    <label for="fgY-slider">Foreground Y</label>
-    <input type="range" min="-100" max="100" value="0" class="slider" id="fgY-slider">
+    <label for="YPN2-slider">Foreground Y [YPN2]</label>
+    <input type="checkbox" id="fixYPN2" value="1" checked/>
+    <input type="range" min="0" max="100" value="50" class="slider" id="YPN2-slider">
   </div>
 
   <div class="slider-container">
-    <label for="bgSize-slider">Background Size</label>
-    <input type="range" min="0" max="1000" value="300" class="slider" id="bgSize-slider">
+    <label for="SZP1-slider">Background Size - Size of Paint 1 [SZP1]</label>
+    <input type="checkbox" id="fixSZP1" value="1" checked/>
+    <input type="range" min="0" max="100" value="30" class="slider" id="SZP1-slider">
   </div>
 
   <div class="slider-container">
-    <label for="bgX-slider">Background X</label>
-    <input type="range" min="-100" max="100" value="0" class="slider" id="bgX-slider">
+    <label for="XPN1-slider">Background X [XPN1]</label>
+    <input type="checkbox" id="fixXPN1" value="1" checked/>
+    <input type="range" min="0" max="100" value="50" class="slider" id="XPN1-slider">
   </div>
 
   <div class="slider-container">
-    <label for="bgY-slider">Background Y</label>
-    <input type="range" min="-100" max="100" value="0" class="slider" id="bgY-slider">
+    <label for="YPN1-slider">Background Y [YPN1]</label>
+    <input type="checkbox" id="fixYPN1" value="1" checked/>
+    <input type="range" min="0" max="100" value="50" class="slider" id="YPN1-slider">
   </div>
 
 
@@ -111,12 +124,12 @@
       const slant = document.getElementById('slant-slider').value;
       const size = document.getElementById('size-slider').value;
       // COLRv1 
-      const bgSize = document.getElementById('bgSize-slider').value;
-      const bgX = document.getElementById('bgX-slider').value;
-      const bgY = document.getElementById('bgY-slider').value;
-      const fgSize = document.getElementById('fgSize-slider').value;
-      const fgX = document.getElementById('fgX-slider').value;
-      const fgY = document.getElementById('fgY-slider').value;
+      const fgSize = document.getElementById('SZP2-slider').value;
+      const fgX = document.getElementById('XPN2-slider').value;
+      const fgY = document.getElementById('YPN2-slider').value;
+      const bgSize = document.getElementById('SZP1-slider').value;
+      const bgX = document.getElementById('XPN1-slider').value;
+      const bgY = document.getElementById('YPN1-slider').value;
 
       const sampleText = document.getElementById('sample-text');
       sampleText.style.fontVariationSettings = `'wght' ${weight}, 'ELXP' ${elementOpen}, 'ELSH' ${elementShape}, 'slnt' ${slant},
@@ -153,67 +166,72 @@
   angleXPN2 = 0;
   angleYPN2 = 0;
 
-  const stepELSH = 6; // Increment of the cycle angles
-  const stepELXP = 5;
-  const stepSZP1 = 3;
-  const stepXPN1 = 5;
-  const stepYPN1 = 7;
-  const stepSZP2 = 4;
-  const stepXPN2 = 6;
-  const stepYPN2 = 8;
+  const stepELSH = 4; // Increment of the cycle angles
+  const stepELXP = 2;
+  const stepSZP1 = 2.2;
+  const stepXPN1 = 3.2;
+  const stepYPN1 = 3;
+  const stepSZP2 = 2.1;
+  const stepXPN2 = 4.2;
+  const stepYPN2 = 4;
 
   stepFactor = 0.5 // Overall speed factor for steps
 
-  const minELSH = 700;
+  const minELSH = 0;
   const minELXP = 0;
-  const minSZP1 = 0;
-  const minXPN1 = -50;
-  const minYPN1 = -50;
-  const minSZP2 = 50;
-  const minXPN2 = -100;
-  const minYPN2 = -100;
+  const minSZP1 = 10;
+  const minXPN1 = 25;
+  const minYPN1 = 25;
+  const minSZP2 = 10;
+  const minXPN2 = 0;
+  const minYPN2 = 0;
 
-  const maxELSH = 1000;
-  const maxELXP = 800; // Not too open in this animation
-  const maxSZP1 = 1000;
-  const maxXPN1 = 50;
-  const maxYPN1 = 50;
-  const maxSZP2 = 500;
-  const maxXPN2 = 100;
-  const maxYPN2 = 100;
+  const maxELSH = 100;
+  const maxELXP = 80; // Not too open in this animation
+  const maxSZP1 = 90;
+  const maxXPN1 = 80;
+  const maxYPN1 = 80;
+  const maxSZP2 = 60;
+  const maxXPN2 = 80;
+  const maxYPN2 = 80;
 
   function normalizeAngle(angle) {
       return (angle % 360 + 360) % 360;
   }
 
   function updateValues() {
-    valELSH = (Math.sin((angleELSH * Math.PI/180))/2 + 0.5) * (maxELSH - minELSH) + minELSH;
-    document.getElementById('ELSH-slider').value = valELSH;
-
+    if (document.getElementById('fixELSH').checked) {
+      valELSH = (Math.sin((angleELSH * Math.PI/180))/2 + 0.5) * (maxELSH - minELSH) + minELSH;
+      document.getElementById('ELSH-slider').value = valELSH;
+    }
     valELXP = (Math.sin((angleELXP * Math.PI/180))/2 + 0.5) * (maxELXP - minELXP) + minELXP;
     document.getElementById('ELXP-slider').value = valELXP;
 
     valSZP1 = (Math.sin((angleSZP1 * Math.PI/180))/2 + 0.5) * (maxSZP1 - minSZP1) + minSZP1;
-    document.getElementById('bgSize-slider').value = valSZP1;
+    document.getElementById('SZP1-slider').value = valSZP1;
 
     valXPN1 = (Math.sin((angleXPN1 * Math.PI/180))/2 + 0.5) * (maxXPN1 - minXPN1) + minXPN1;
-    document.getElementById('bgX-slider').value = valXPN1;
+    document.getElementById('XPN1-slider').value = valXPN1;
 
     valYPN1 = (Math.sin((angleYPN1 * Math.PI/180))/2 + 0.5) * (maxYPN1 - minYPN1) + minYPN1;
-    document.getElementById('bgY-slider').value = valYPN1;
+    document.getElementById('YPN1-slider').value = valYPN1;
 
     valSZP2 = (Math.sin((angleSZP2 * Math.PI/180))/2 + 0.5) * (maxSZP2 - minSZP2) + minSZP2;
-    document.getElementById('fgSize-slider').value = valSZP2;
+    document.getElementById('SZP2-slider').value = valSZP2;
 
     valXPN2 = (Math.sin((angleXPN2 * Math.PI/180))/2 + 0.5) * (maxXPN2 - minXPN2) + minXPN2;
-    document.getElementById('fgX-slider').value = valXPN2;
+    document.getElementById('XPN2-slider').value = valXPN2;
+
+    valYPN2 = (Math.sin((angleYPN2 * Math.PI/180))/2 + 0.5) * (maxYPN2 - minYPN2) + minYPN2;
+    document.getElementById('YPN2-slider').value = valYPN2;
 
   }
   // Function to animate through all axes smoothly
   function animateVariableFont() {
     updateValues();
 
-    angleELSH = normalizeAngle(angleELSH + stepELSH * stepFactor);
+    if (document.getElementById('fixELSH').checked)
+      angleELSH = normalizeAngle(angleELSH + stepELSH * stepFactor);
     angleELXP = normalizeAngle(angleELXP + stepELXP * stepFactor);
     angleSZP1 = normalizeAngle(angleSZP1 + stepSZP1 * stepFactor);
     angleXPN1 = normalizeAngle(angleXPN1 + stepXPN1 * stepFactor);
@@ -238,7 +256,7 @@
   function setRandomValue(slider) {
 
     // Generate a random value between min and max
-    var randomValue = Math.floor(Math.random() * (parseInt(slider.max) - parseInt(slider.min) + 1)) + parseInt(slider.min);
+    var randomValue = Math.floor(Math.random() * (parseFloat(slider.max) - parseFloat(slider.min) + 1)) + parseFloat(slider.min);
 
     // Set the slider value to the random value
     slider.value = randomValue;
