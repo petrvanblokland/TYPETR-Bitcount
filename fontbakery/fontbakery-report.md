@@ -499,8 +499,98 @@ These won't break the CI job for now, but will become effective after some time 
 </div>
 </details>
 
-<details><summary>[14] BitcountGridSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[19] BitcountGridSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -733,7 +823,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -992,14 +1082,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -1224,7 +1314,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] BitcountGridDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[20] BitcountGridDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -1246,6 +1336,96 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
 
 
 
@@ -1484,7 +1664,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -1687,14 +1867,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -1919,8 +2099,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[20] BitcountSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -2153,7 +2423,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -2373,14 +2643,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -2479,7 +2749,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ j̦̃ j̦̄ j̦̆</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -2626,7 +2896,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[20] BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -2648,6 +2918,96 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
 
 
 
@@ -2886,7 +3246,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -3090,14 +3450,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -3322,8 +3682,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] BitcountGridSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[19] BitcountGridSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -3556,7 +4006,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -3822,14 +4272,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -4054,8 +4504,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[13] Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[18] Bitcount[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -4288,7 +4828,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -4527,14 +5067,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -4759,8 +5299,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[13] BitcountInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[18] BitcountInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -4993,7 +5623,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -5226,14 +5856,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -5458,8 +6088,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[20] BitcountSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -5692,7 +6412,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -5918,14 +6638,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -6024,7 +6744,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ǐ i̦̇ i̦̊ i̦̋ ǐ̦ i̧̇ i̧̊ i̧̋ ǐ̧ j̆ j̇ j̊ j̋ ǰ j̦̀ j̦́ j̦̃ j̦̄ j̦̆</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers).</p>
  [code: soft-dotted]
 
 
@@ -6171,8 +6891,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[20] BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Check glyphs do not have duplicate components which have the same x,y coordinates. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.glyf.html#"></a></summary>
     <div>
@@ -6395,7 +7205,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -6520,7 +7330,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 10 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, lessequal, plusminus</p>
+lessequal, greaterequal, plusminus</p>
  [code: width-outliers]
 
 
@@ -6670,14 +7480,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -6924,8 +7734,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] BitcountPropSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[20] BitcountPropSingleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Check glyphs do not have duplicate components which have the same x,y coordinates. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.glyf.html#"></a></summary>
     <div>
@@ -7148,7 +8048,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -7272,7 +8172,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 600 among a set of 10 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 400:
-greaterequal, lessequal, plusminus</p>
+lessequal, greaterequal, plusminus</p>
  [code: width-outliers]
 
 
@@ -7416,14 +8316,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -7670,8 +8570,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] BitcountPropDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
+<details><summary>[19] BitcountPropDoubleInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
@@ -7875,7 +8865,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -8135,14 +9125,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -8389,8 +9379,98 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
+<details><summary>[19] BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Expecting value: line 1 column 1 (char 0)</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
@@ -8594,7 +9674,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -8861,14 +9941,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, syriac, old-permic, tai-le, tifinagh, math, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, tifinagh, syriac, malayalam, math, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -9122,8 +10202,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 2 | 0 | 69 | 112 | 1064 | 109 | 1398 | 0 | 
-| 0% | 0% | 3% | 4% | 39% | 4% | 51% | 0% | 
+| 62 | 0 | 69 | 112 | 1016 | 109 | 1386 | 0 | 
+| 2% | 0% | 3% | 4% | 37% | 4% | 50% | 0% | 
 
 
 
