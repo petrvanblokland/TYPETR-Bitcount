@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Element Movement</title>
+    <style>
+        @font-face {
+            font-family: 'TYPETR-Bitcount-VF';
+            src: url('fonts/ttf/variable/BitcountInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf') format('truetype');
+            /* Add other font properties if needed */
+        }
+        #text-container {
+            width: 80%;
+            margin: 50px auto;
+        }
+        #sample-text {
+            font-family: 'TYPETR-Bitcount-VF', sans-serif;
+            font-size: 170px;
+            font-variation-settings: "ELSH" 40, "ELXP" 0, "SZP1" 30;
+        }
+        .slider-container {
+            margin-bottom: 0px;
+        }
+        .slider-container label {
+            display: block;
+        }
+        /*body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }*/
+        #movingElement {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+        }
+  </style>
+</head>
+<body>
+    <div id="text-container">
+        <div id="sample-text">/canvas ABC<br/>Bitcount-VF</div>
+    </div>
+
+    <div id="movingElement"></div>
+
+    <script>
+        const positions = [
+            { x: 100, y: 200, ELSH: 20, ELXP:0, SZP1:80, XPN1: 50, YPN1: 10, SZP2:90, XPN2:70, YPN2: 70},
+            { x: 300, y: 100, ELSH: 0, ELXP:0, SZP1:30, XPN1: 50, YPN1: 50, SZP2:30, XPN2:50, YPN2: 50},
+            { x: 500, y: 700, ELSH: 40, ELXP:0, SZP1:30, XPN1: 80, YPN1: 90, SZP2:90, XPN2:30, YPN2: 70},
+            { x: 300, y: 400, ELSH: 60, ELXP:0, SZP1:80, XPN1: 50, YPN1: 10, SZP2:90, XPN2:70, YPN2: 70},
+            { x: 1000, y: 500, ELSH: 80, ELXP:0, SZP1:30, XPN1: 80, YPN1: 90, SZP2:90, XPN2:30, YPN2: 70},
+
+            { x: 100, y: 200, ELSH: 0, ELXP:0, SZP1:80, XPN1: 20, YPN1: 30, SZP2:50, XPN2:70, YPN2: 50},
+            { x: 300, y: 100, ELSH: 0, ELXP:0, SZP1:30, XPN1: 20, YPN1: 40, SZP2:40, XPN2:60, YPN2: 50},
+            { x: 500, y: 700, ELSH: 0, ELXP:0, SZP1:30, XPN1: 20, YPN1: 50, SZP2:30, XPN2:50, YPN2: 50},
+            { x: 300, y: 400, ELSH: 0, ELXP:0, SZP1:80, XPN1: 20, YPN1: 60, SZP2:20, XPN2:40, YPN2: 50},
+            { x: 1000, y: 500, ELSH: 0, ELXP:0, SZP1:30, XPN1: 20, YPN1: 70, SZP2:10, XPN2:30, YPN2: 50},
+            //{ x: 700, y: 300 },
+            //{ x: 400, y: 400 }
+        ];
+
+        var currentIndex = 0;
+        var speed = 2; // Time in ms for movement
+        var transition = 0 // Counter for transition steps
+        //const pauseTime = 500; // Time to pause at each position
+
+        var startELSH = positions[0].ELSH;
+        var startELXP = positions[0].ELXP;
+        var startSZP1 = positions[0].SZP1;
+        var startXPN1 = positions[0].XPN1;
+        var startYPN1 = positions[0].TPN1;
+        var startSZP2 = positions[0].SZP2;
+        var startXPN2 = positions[0].XPN2;
+        var startYPN2 = positions[0].TPN2;
+
+        function update(){
+            var sampleText = document.getElementById('sample-text');
+            var element = document.getElementById('movingElement');
+
+
+            currentIndex += 1;
+            if (currentIndex >= positions.length)
+                currentIndex = 1;
+
+            //let newX = startX + (targetX - startX) * ease;
+            //let newY = startY + (targetY - startY) * ease;
+
+            //var newX = positions[currentIndex].x;
+            //var newY = positions[currentIndex].y; 
+
+            //element.style.left = `${newX}px`;
+            //element.style.top = `${newY}px`;
+
+            var targetELSH = positions[currentIndex].ELSH;
+            var targetELXP = positions[currentIndex].ELXP;
+            var targetSZP1 = positions[currentIndex].SZP1;
+            var targetXPN1 = positions[currentIndex].XPN1;
+            var targetYPN1 = positions[currentIndex].YPN1;
+            var targetSZP2 = positions[currentIndex].SZP2;
+            var targetXPN2 = positions[currentIndex].XPN2;
+            var targetYPN2 = positions[currentIndex].YPN2;
+
+            //sampleText.style.fontVariationSettings = `'ELXP' ${targetELXP}, 'ELSH' ${targetELSH},
+        //'SZP1' ${targetSZP1}, 'XPN1' ${targetXPN1}, 'YPN1' ${targetYPN1}, 
+        //'SZP2' ${targetSZP2}, 'XPN2' ${targetXPN2}, 'YPN2' ${targetYPN2}`;
+
+            sampleText.style.fontVariationSettings = `'ELXP' ${targetELXP}, 'ELSH' ${targetELSH}, 
+            'SZP1' ${targetSZP1}, 'XPN1' ${targetXPN1}, 'YPN1' ${targetYPN1},
+            'SZP2' ${targetSZP2}, 'XPN2' ${targetXPN2}, 'YPN2' ${targetYPN2}
+            `;
+
+        }
+        setInterval(update, speed);
+
+   </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Element Movement</title>
+    <style>
+        @font-face {
+            font-family: 'TYPETR-Bitcount-VF';
+            src: url('fonts/ttf/variable/BitcountInk[CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght].ttf') format('truetype');
+            /* Add other font properties if needed */
+        }
+        #text-container {
+            width: 80%;
+            margin: 50px auto;
+        }
+        #sample-text {
+            font-family: 'TYPETR-Bitcount-VF', sans-serif;
+            font-size: 170px;
+            font-variation-settings: "ELSH" 40, "ELXP" 0, "SZP1" 30;
+        }
+        .slider-container {
+            margin-bottom: 0px;
+        }
+        .slider-container label {
+            display: block;
+        }
+        /*body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }*/
+        #movingElement {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+        }
+  </style>
+</head>
+<body>
+    <div id="text-container">
+        <div id="sample-text">/canvas ABC<br/>Bitcount-VF</div>
+    </div>
+
+    <div id="movingElement"></div>
+
+    <script>
+        const positions = [
+            { x: 100, y: 200, ELSH: 20, ELXP:0, SZP1:80, XPN1: 50, YPN1: 10, SZP2:90, XPN2:70, YPN2: 70},
+            { x: 300, y: 100, ELSH: 0, ELXP:60, SZP1:30, XPN1: 50, YPN1: 50, SZP2:30, XPN2:50, YPN2: 50},
+            { x: 500, y: 700, ELSH: 40, ELXP:30, SZP1:30, XPN1: 80, YPN1: 90, SZP2:90, XPN2:30, YPN2: 70},
+            { x: 300, y: 400, ELSH: 60, ELXP:10, SZP1:80, XPN1: 50, YPN1: 10, SZP2:90, XPN2:70, YPN2: 70},
+            { x: 1000, y: 500, ELSH: 80, ELXP:80, SZP1:30, XPN1: 80, YPN1: 90, SZP2:90, XPN2:30, YPN2: 70},
+            { x: 1000, y: 500, ELSH: 80, ELXP:80, SZP1:30, XPN1: 80, YPN1: 90, SZP2:90, XPN2:30, YPN2: 70},
+            //{ x: 700, y: 300 },
+            //{ x: 400, y: 400 }
+        ];
+
+        var currentIndex = 0;
+        const element = document.getElementById("movingElement");
+        const sampleText = document.getElementById('sample-text');
+        const speed = 1000; // Time in ms for movement
+        const pauseTime = 500; // Time to pause at each position
+
+        var newELSH = positions[0].ELSH;
+        var newELXP = positions[0].ELXP;
+        var newSZP1 = positions[0].SZP1;
+        var newXPN1 = positions[0].XPN1;
+        var newYPN1 = positions[0].TPN1;
+        var newSZP2 = positions[0].SZP2;
+        var newXPN2 = positions[0].XPN2;
+        var newYPN2 = positions[0].TPN2;
+
+
+        var startELSH = positions[0].ELSH;
+        var startELXP = positions[0].ELXP;
+        var startSZP1 = positions[0].SZP1;
+        var startXPN1 = positions[0].XPN1;
+        var startYPN1 = positions[0].TPN1;
+        var startSZP2 = positions[0].SZP2;
+        var startXPN2 = positions[0].XPN2;
+        var startYPN2 = positions[0].TPN2;
+
+        function moveToNextPosition() {
+            let startX = parseFloat(element.style.left) || positions[0].x;
+            let startY = parseFloat(element.style.top) || positions[0].y;
+            let targetX = positions[currentIndex].x;
+            let targetY = positions[currentIndex].y;
+
+            let weight = 400;
+            let slant = 0;
+
+            let startTime = performance.now();
+
+            var targetELSH = positions[currentIndex].ELSH;
+            var targetELXP = positions[currentIndex].ELXP;
+            var targetSZP1 = positions[currentIndex].SZP1;
+            var targetXPN1 = positions[currentIndex].XPN1;
+            var targetYPN1 = positions[currentIndex].YPN1;
+            var targetSZP2 = positions[currentIndex].SZP2;
+            var targetXPN2 = positions[currentIndex].XPN2;
+            var targetYPN2 = positions[currentIndex].YPN2;
+
+
+            function animate(time) {
+                let elapsed = time - startTime;
+                let progress = Math.min(elapsed / speed, 1);
+                let ease = Math.sin(progress * (Math.PI / 2)); // Smooth acceleration/deceleration
+
+                let newX = startX + (targetX - startX) * ease;
+                let newY = startY + (targetY - startY) * ease;
+
+                element.style.left = `${newX}px`;
+                element.style.top = `${newY}px`;
+
+                newELSH = Math.round(startELSH + (targetELSH - startELSH) * ease);
+                newELXP = Math.round(startELXP + (targetELXP - startELXP) * ease);
+                newSZP1 = Math.round(startSZP1 + (targetSZP1 - startSZP1) * ease);
+                newXPN1 = Math.round(startXPN1 + (targetXPN1 - startXPN1) * ease);
+                newYPN1 = Math.round(startYPN1 + (targetYPN1 - startYPN1) * ease);
+                newSZP2 = Math.round(startSZP2 + (targetSZP2 - startSZP2) * ease);
+                newXPN2 = Math.round(startXPN2 + (targetXPN2 - startXPN2) * ease);
+                newYPN2 = Math.round(startYPN2 + (targetYPN2 - startYPN2) * ease);
+
+                sampleText.style.fontVariationSettings = `'wght' ${weight}, 'ELXP' ${newELXP}, 'ELSH' ${newELSH}, 'slnt' ${slant},
+        'SZP1' ${newSZP1}, 'XPN1' ${newXPN1}, 'YPN1' ${newYPN1}, 
+        'SZP2' ${newSZP2}, 'XPN2' ${newXPN2}, 'YPN2' ${newYPN2}`;
+                //sampleText.textContent =  '/canvas ELSH:' + newELSH + ' SZP1:' + newSZP1 + ' XPN1:' + newXPN1 + ' SZP1:' + newSZP1;
+
+                if (progress < 1) {
+                    requestAnimationFrame(animate);
+                } else {
+                    setTimeout(() => {
+                        currentIndex = (currentIndex + 1) % positions.length;
+                        moveToNextPosition();
+                    }, pauseTime);
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        // Start the animation
+        element.style.left = `${positions[0].x}px`;
+        element.style.top = `${positions[0].y}px`;
+        setTimeout(moveToNextPosition, pauseTime);
+    </script>
+</body>
+</html>
