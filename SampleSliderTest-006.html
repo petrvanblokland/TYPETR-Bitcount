@@ -11,12 +11,23 @@
             /* Add other font properties if needed */
         }
         #text-container {
-            width: 80%;
+            width: 30%;
             margin: 50px auto;
+            float: left;
+        }
+        #body-container {
+            width: 70%;
+            margin: 50px auto;
+            float: right;
         }
         #sample-text {
             font-family: 'TYPETR-Bitcount-VF', sans-serif;
             font-size: 400px;
+        }
+        #body-text {
+            font-family: 'TYPETR-Bitcount-VF', sans-serif;
+            font-size: 150px;
+            line-height: 0.8em;
         }
         .slider-container {
             margin-bottom: 0px;
@@ -43,19 +54,51 @@
 </head>
 <body>
     <div id="text-container">
-        <div id="sample-text">/canvasABC</div>
+        <div id="sample-text">/canvas</div>
+    </div>
+    <div id="body-container">
+        <div id="body-text">Bitcount is a family of styles,
+the core shape of letters
+has been reduced to the minimal
+number of pixels possible. 
+We need 5 vertical pixels of x-height to draw “a” and “r”.
+Adding the minimum od 1 pixel as
+ascender and 1 pixel as descender
+the minimum grid is 5 pixels wide
+and 7 pixels high. The large
+number of styles in the Bitcount family comes from the virtually endless amount of variations in
+pixel shapes.</div>
     </div>
 
-    <div id="movingElement"></div>
+    <!--<div id="movingElement"></div>-->
 
     <script>
         const positions = [
+
+            { x: 100, y: 100, wght: 400,   ELXP: 0,   ELSH:0,   XPN1: 25,   XPN2:30,   SZP1:20,   SZP2:70,    YPN1: 55.5, YPN2: 54.4},
+            { x: 150, y: 150, wght: 400,   ELXP: 0,   ELSH:0,   XPN1: 80,   XPN2:30,   SZP1:51.4, SZP2:40.2,  YPN1: 50,   YPN2: 50},
+            { x: 160, y: 160, wght: 400,   ELXP: 50 ,ELSH:0,  XPN1: 30,   XPN2:30,   SZP1:51.4, SZP2:50.2,  YPN1: 50,   YPN2: 50},
+            { x: 200, y: 200, wght: 400,   ELXP: 0,   ELSH:40,  XPN1: 53,   XPN2:30,   SZP1:30,   SZP2:20.9,  YPN1: 55.5, YPN2: 54.4},
+            { x: 250, y: 250, wght: 400,   ELXP: 0,   ELSH:0,   XPN1: 60,   XPN2:30,   SZP1:60,   SZP2:30.2,  YPN1: 50,   YPN2: 56.7},
+            { x: 260, y: 260, wght: 400,   ELXP: 10,  ELSH:0,   XPN1: 10,   XPN2:30,   SZP1:80,   SZP2:60.2,  YPN1: 50,   YPN2: 56.7},
+            { x: 300, y: 300, wght: 400,   ELXP: 0,   ELSH:45,  XPN1: 30,   XPN2:40,   SZP1:10,   SZP2:80,    YPN1: 57.7, YPN2: 64.8},
+            { x: 350, y: 350, wght: 400,   ELXP: 0,   ELSH:45,  XPN1: 60,   XPN2:40,   SZP1:50,   SZP2:50,    YPN1: 57.7, YPN2: 65.4},
+            { x: 400, y: 400, wght: 400,   ELXP: 40,  ELSH:50,  XPN1: 70,   XPN2:40,   SZP1:30,   SZP2:10.9,  YPN1: 55.4, YPN2: 57.9},
+            { x: 450, y: 450, wght: 400,   ELXP: 0,   ELSH:0,   XPN1: 100,  XPN2:50,   SZP1:70,   SZP2:29.6,  YPN1: 34.9, YPN2: 58.1},
+            { x: 460, y: 460, wght: 580.8, ELXP: 0,   ELSH:3.6, XPN1: 32,   XPN2:50,   SZP1:26.9, SZP2:38.6,  YPN1: 76.3, YPN2: 65.8},
+            { x: 470, y: 470, wght: 600  , ELXP: 30,  ELSH:3.6, XPN1: 42,   XPN2:50,   SZP1:26.9, SZP2:48.6,  YPN1: 75.7, YPN2: 65.8},
+            { x: 500, y: 500, wght: 400,   ELXP: 20,  ELSH:60,  XPN1: 52,   XPN2:50,   SZP1:30,   SZP2:50.1,  YPN1: 59.7, YPN2: 57.9},
+            { x: 600, y: 600, wght: 400,   ELXP: 0,   ELSH:50,  XPN1: 62,   XPN2:50,   SZP1:30,   SZP2:60.1,  YPN1: 57.8, YPN2: 49.2},
+            { x: 700, y: 700, wght: 700,   ELXP: 0,   ELSH:75,  XPN1: 72,   XPN2:60,   SZP1:30,   SZP2:70.1,  YPN1: 57.8, YPN2: 49.2},
+            { x: 800, y: 800, wght: 635,   ELXP: 0,   ELSH:100, XPN1: 82,   XPN2:60,   SZP1:30,   SZP2:80.9,  YPN1: 55.4, YPN2: 37},
+            { x: 900, y: 900, wght: 750,   ELXP: 0,   ELSH:5.4, XPN1: 92,   XPN2:60,   SZP1:0,    SZP2:90,   YPN1: 29.5, YPN2: 39.6},
+
             { x: 100, y: 100, wght: 400,   ELXP: 0,   ELSH:0,   XPN1: 53,   XPN2:50,   SZP1:30,   SZP2:30,    YPN1: 55.5, YPN2: 54.4},
             { x: 150, y: 150, wght: 400,   ELXP: 0,   ELSH:0,   XPN1: 56.2, XPN2:50,   SZP1:51.4, SZP2:10.2,  YPN1: 50,   YPN2: 50},
-            { x: 160, y: 160, wght: 400,   ELXP: 100 , ELSH:0,   XPN1: 56.2, XPN2:50,   SZP1:51.4, SZP2:10.2,  YPN1: 50,   YPN2: 50},
+            { x: 160, y: 160, wght: 400,   ELXP: 100 ,ELSH:0,   XPN1: 56.2, XPN2:50,   SZP1:51.4, SZP2:10.2,  YPN1: 50,   YPN2: 50},
             { x: 200, y: 200, wght: 400,   ELXP: 0,   ELSH:40,  XPN1: 53,   XPN2:50,   SZP1:30,   SZP2:20.9,  YPN1: 55.5, YPN2: 54.4},
             { x: 250, y: 250, wght: 400,   ELXP: 0,   ELSH:0,   XPN1: 56.2, XPN2:50,   SZP1:51.4, SZP2:10.2,  YPN1: 50,   YPN2: 56.7},
-            { x: 260, y: 260, wght: 400,   ELXP: 100,   ELSH:0,   XPN1: 56.2, XPN2:50,   SZP1:51.4, SZP2:10.2,  YPN1: 50,   YPN2: 56.7},
+            { x: 260, y: 260, wght: 400,   ELXP: 100, ELSH:0,   XPN1: 56.2, XPN2:50,   SZP1:51.4, SZP2:10.2,  YPN1: 50,   YPN2: 56.7},
             { x: 300, y: 300, wght: 400,   ELXP: 0,   ELSH:45,  XPN1: 45,   XPN2:55.7, SZP1:50,   SZP2:30,    YPN1: 57.7, YPN2: 64.8},
             { x: 350, y: 350, wght: 400,   ELXP: 0,   ELSH:45,  XPN1: 45,   XPN2:59.9, SZP1:30,   SZP2:30,    YPN1: 57.7, YPN2: 65.4},
             { x: 400, y: 400, wght: 400,   ELXP: 40,  ELSH:50,  XPN1: 53,   XPN2:66.7, SZP1:30,   SZP2:20.9,  YPN1: 55.4, YPN2: 57.9},
@@ -67,14 +110,32 @@
             { x: 700, y: 700, wght: 700,   ELXP: 0,   ELSH:75,  XPN1: 58.2, XPN2:50.4, SZP1:30,   SZP2:30.1,  YPN1: 57.8, YPN2: 49.2},
             { x: 800, y: 800, wght: 635,   ELXP: 0,   ELSH:100, XPN1: 53,   XPN2:39.4, SZP1:30,   SZP2:20.9,  YPN1: 55.4, YPN2: 37},
             { x: 900, y: 900, wght: 750,   ELXP: 0,   ELSH:5.4, XPN1: 74.5, XPN2:50.4, SZP1:0,    SZP2:7.6,   YPN1: 29.5, YPN2: 39.6},
-            //{ x: 700, y: 300 },
-            //{ x: 400, y: 400 }
+
+            { x: 100, y: 100, wght: 400,   ELXP: 0,   ELSH:0,   XPN1: 15,   XPN2:80,   SZP1:10,   SZP2:60,    YPN1: 35.5, YPN2: 94.4},
+            { x: 150, y: 150, wght: 500,   ELXP: 0,   ELSH:0,   XPN1: 20,   XPN2:70,   SZP1:51.4, SZP2:50.2,  YPN1: 30,   YPN2: 90},
+            { x: 160, y: 160, wght: 600,   ELXP: 50 , ELSH:0,   XPN1: 30,   XPN2:60,   SZP1:51.4, SZP2:40.2,  YPN1: 30,   YPN2: 20},
+            { x: 200, y: 200, wght: 700,   ELXP: 0,   ELSH:40,  XPN1: 43,   XPN2:50,   SZP1:30,   SZP2:40.9,  YPN1: 35.5, YPN2: 84.4},
+            { x: 250, y: 250, wght: 800,   ELXP: 0,   ELSH:0,   XPN1: 50,   XPN2:40,   SZP1:60,   SZP2:40.2,  YPN1: 30,   YPN2: 36.7},
+            { x: 260, y: 260, wght: 900,   ELXP: 10,  ELSH:0,   XPN1: 60,   XPN2:30,   SZP1:80,   SZP2:40.2,  YPN1: 30,   YPN2: 86.7},
+            { x: 300, y: 300, wght: 800,   ELXP: 0,   ELSH:45,  XPN1: 70,   XPN2:20,   SZP1:10,   SZP2:40,    YPN1: 37.7, YPN2: 64.8},
+            { x: 350, y: 350, wght: 700,   ELXP: 0,   ELSH:45,  XPN1: 80,   XPN2:10,   SZP1:50,   SZP2:30,    YPN1: 37.7, YPN2: 65.4},
+            { x: 400, y: 400, wght: 600,   ELXP: 40,  ELSH:50,  XPN1: 90,   XPN2:20,   SZP1:30,   SZP2:30.9,  YPN1: 65.4, YPN2: 37.9},
+            { x: 450, y: 450, wght: 500,   ELXP: 0,   ELSH:0,   XPN1: 100,  XPN2:30,   SZP1:70,   SZP2:39.6,  YPN1: 64.9, YPN2: 58.1},
+            { x: 460, y: 460, wght: 480.8, ELXP: 0,   ELSH:3.6, XPN1: 82,   XPN2:40,   SZP1:26.9, SZP2:38.6,  YPN1: 66.3, YPN2: 15.8},
+            { x: 470, y: 470, wght: 300  , ELXP: 30,  ELSH:3.6, XPN1: 82,   XPN2:50,   SZP1:26.9, SZP2:28.6,  YPN1: 85.7, YPN2: 85.8},
+            { x: 500, y: 500, wght: 200,   ELXP: 20,  ELSH:60,  XPN1: 72,   XPN2:60,   SZP1:30,   SZP2:20.1,  YPN1: 89.7, YPN2: 27.9},
+            { x: 600, y: 600, wght: 300,   ELXP: 0,   ELSH:50,  XPN1: 62,   XPN2:70,   SZP1:30,   SZP2:20.1,  YPN1: 87.8, YPN2: 59.2},
+            { x: 700, y: 700, wght: 400,   ELXP: 0,   ELSH:75,  XPN1: 62,   XPN2:80,   SZP1:30,   SZP2:20.1,  YPN1: 87.8, YPN2: 39.2},
+            { x: 800, y: 800, wght: 535,   ELXP: 0,   ELSH:100, XPN1: 55,   XPN2:90,   SZP1:30,   SZP2:10.9,  YPN1: 85.4, YPN2: 77},
+            { x: 900, y: 900, wght: 850,   ELXP: 0,   ELSH:5.4, XPN1: 55,   XPN2:100,   SZP1:0,   SZP2:90,    YPN1: 29.5, YPN2: 49.6},
+
         ];
 
         var currentIndex = 0;
         var nextIndex = 1;
-        const element = document.getElementById("movingElement");
+        //const element = document.getElementById("movingElement");
         const sampleText = document.getElementById('sample-text');
+        const bodyText = document.getElementById('body-text');
         const speed = 1000; // Time in ms for movement
         const pauseTime = 1000; // Time to pause at each position
 
@@ -100,8 +161,8 @@
         var startYPN2 = positions[0].YPN2;
 
         function moveToNextPosition() {
-            let startX = parseFloat(element.style.left) || positions[0].x;
-            let startY = parseFloat(element.style.top) || positions[0].y;
+            //let startX = parseFloat(element.style.left) || positions[0].x;
+            //let startY = parseFloat(element.style.top) || positions[0].y;
             let targetX = positions[currentIndex].x;
             let targetY = positions[currentIndex].y;
 
@@ -135,11 +196,11 @@
                 let progress = Math.min(elapsed / speed, 1);
                 let ease = Math.sin(progress * (Math.PI / 2)); // Smooth acceleration/deceleration
 
-                let newX = startX + (targetX - startX) * ease;
-                let newY = startY + (targetY - startY) * ease;
+                //let newX = startX + (targetX - startX) * ease;
+                //let newY = startY + (targetY - startY) * ease;
 
-                element.style.left = `${newX}px`;
-                element.style.top = `${newY}px`;
+                //element.style.left = `${newX}px`;
+                //element.style.top = `${newY}px`;
 
                 newwght = Math.round(startwght + (targetwght - startwght) * ease);
                 newELSH = Math.round(startELSH + (targetELSH - startELSH) * ease);
@@ -152,6 +213,9 @@
                 newYPN2 = Math.round(startYPN2 + (targetYPN2 - startYPN2) * ease);
 
                 sampleText.style.fontVariationSettings = `'wght' ${newwght}, 'ELXP' ${newELXP}, 'ELSH' ${newELSH},
+                    'SZP1' ${newSZP1}, 'XPN1' ${newXPN1}, 'YPN1' ${newYPN1},
+                    'SZP2' ${newSZP2}, 'XPN2' ${newXPN2}, 'YPN2' ${newYPN2}`;
+                bodyText.style.fontVariationSettings = `'wght' ${newwght}, 'ELXP' ${newELXP}, 'ELSH' ${newELSH},
                     'SZP1' ${newSZP1}, 'XPN1' ${newXPN1}, 'YPN1' ${newYPN1},
                     'SZP2' ${newSZP2}, 'XPN2' ${newXPN2}, 'YPN2' ${newYPN2}`;
                 //sampleText.style.fontVariationSettings = `'wght' ${weight}, 'ELXP' ${newELXP}, 'ELSH' ${newELSH}, 'slnt' ${slant},
@@ -176,8 +240,8 @@
         }
 
         // Start the animation
-        element.style.left = `${positions[0].x}px`;
-        element.style.top = `${positions[0].y}px`;
+        //element.style.left = `${positions[0].x}px`;
+        //element.style.top = `${positions[0].y}px`;
         setTimeout(moveToNextPosition, pauseTime);
     </script>
 </body>
