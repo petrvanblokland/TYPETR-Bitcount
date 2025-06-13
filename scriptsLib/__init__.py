@@ -53,8 +53,8 @@ SMIN = 0
 SDEF = 30
 SMAX = 100
 # Position of the COLRv1 layers
-LMIN = 0  # -100 #For 3x3 elements. Before it was -200 for 5x5 elements
-LDEF = 50  # 0
+LMIN = -100  # -100 #For 3x3 elements. Before it was -200 for 5x5 elements
+LDEF = 0  # 0
 LMAX = 100  # For 3x3 elements. Before it was 200 for 5x5 elements
 
 CLOSED_QUAD = 0
