@@ -100,6 +100,7 @@ feature ss08 {
       name "Italic shapes";
       name 1 "Italic shapes";
      };
+    sub @not_italic by @italic;
 } ss08;
 
 feature onum { # Case Sensitive Forms
