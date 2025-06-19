@@ -41,7 +41,7 @@
     <key>openTypeNameManufacturerURL</key>
     <string>https://typetr.typenetwork.com</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.0</string>
+    <string>Version 1.1</string>
     <key>openTypeOS2CodePageRanges</key>
     <array>
       <integer>0</integer>

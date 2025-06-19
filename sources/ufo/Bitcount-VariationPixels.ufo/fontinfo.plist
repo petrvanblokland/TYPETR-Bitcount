@@ -40,7 +40,7 @@
     <key>openTypeNameManufacturer</key>
     <string>Petr van Blokland (buro@petr.com),</string>
     <key>openTypeNameVersion</key>
-    <string>001.000</string>
+    <string>001.001</string>
     <key>openTypeOS2CodePageRanges</key>
     <array>
       <integer>0</integer>
