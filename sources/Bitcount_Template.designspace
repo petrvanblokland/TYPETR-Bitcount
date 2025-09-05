@@ -17,7 +17,7 @@
 		<axis minimum="-8" default="0" maximum="0" name="Slant" tag="slnt" />
 		<axis minimum="0" default="0.5" maximum="1" name="Cursive" tag="CRSV" />
 	</axes>
-	<rules processing="first">
+	<rules processing="last">
 		<rule>
 			<condition minimum="0.5001" maximum="1" name="Cursive" />
 		</rule>
